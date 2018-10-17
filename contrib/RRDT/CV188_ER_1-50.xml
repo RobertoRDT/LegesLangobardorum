@@ -1,0 +1,2420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   
+   <teiHeader>
+      
+      <fileDesc>
+         
+         <titleStmt>
+            <title>The Edictus Rothari: a machine readable transcription</title>
+            <author>Unknown</author>
+            <principal>Roberto Rosselli Del Turco</principal>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup: </resp>
+               <name full="yes" instant="false">Roberto Rosselli Del Turco</name>
+            </respStmt>
+            <respStmt>
+               <resp>General overview: </resp>
+               <name full="yes" instant="false">Roberto Rosselli Del Turco</name>
+            </respStmt>
+            <respStmt>
+               <resp>Experimental style sheets: </resp>
+               <name full="yes" instant="false">Roberto Rosselli Del Turco</name>
+            </respStmt>
+         </titleStmt>
+
+         <editionStmt>
+            <edition>Edizioni precedenti</edition>
+            <respStmt xml:id="azzara">
+               <resp>Editor</resp>
+               <name ref="#Azzara1992">Azzara-Gasparri</name>
+            </respStmt>
+            <respStmt xml:id="beyerle">
+               <resp>Editor</resp>
+               <name ref="#Beyerle1962">Beyerle</name>
+            </respStmt>
+            <respStmt xml:id="bluhme">
+               <resp>Editor</resp>
+               <name ref="#Bluhme1868">Beyerle</name>
+            </respStmt>
+         </editionStmt>
+
+         <extent>[??] kilobytes</extent>
+         
+         <publicationStmt>
+            <authority>Leges Langobardorum Project</authority>
+            <date instant="false">2014</date>
+            <availability status="unknown">
+               <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italia</country>
+                  <settlement>Vercelli</settlement>
+                  <repository>Biblioteca e Archivio Capitolare di Vercelli</repository>
+                  <idno>CLXXXVIII</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="lat">The primary language in this manuscript is Latin, with a few isolated
+                     Langobardic words.</textLang>
+                  
+                  <msItem>
+                     <locus from="1r" to="9r">1r - 9r</locus>
+                     <title type="work">Homily I</title>
+                  </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="book">
+                     <supportDesc material="parchment">
+                        <extent>
+                           <measure type="leaves">The codex is composed by ff. III (paper, modern); 169 (of which 5
+                              where added in the IX c.); II (paper, XIX c.); III (paper, modern).
+                           </measure>
+                           <measure type="dimensions">Ca. 250 x 180 mm.</measure>
+                           <measure type="lines">21-23 lines of text per page.</measure>
+                        </extent>
+                        <collation>
+                           <p>
+                              <formula>...</formula>
+                              <signatures>...</signatures>
+                              <catchwords>None</catchwords>
+                              Quires begin on fols. 1(1), [...] </p>
+                        </collation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               
+            </msDesc>
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction status="unknown" method="silent">
+               <p/>
+            </correction>
+            <normalization method="silent">
+               <p/>
+            </normalization>
+            <segmentation>
+               <p/>
+            </segmentation>
+            <hyphenation eol="all">
+               <p>Physical line breaks are rigidly observed.</p>
+            </hyphenation>
+         </editorialDecl>
+         
+         <charDecl>
+            
+            <!-- regular letters -->
+
+            <char xml:id="ucap">
+               <charName>LATIN CAPITAL LETTER U</charName>
+               <mapping type="codepoint">U+0055</mapping>
+               <mapping type="diplomatic">U</mapping>
+               <mapping type="normalized">U</mapping>
+            </char>
+
+            <char xml:id="vcap">
+               <charName>LATIN CAPITAL LETTER V</charName>
+               <mapping type="codepoint">U+0056</mapping>
+               <mapping type="diplomatic">V</mapping>
+               <mapping type="normalized">V</mapping>
+            </char>
+            
+            <char xml:id="u">
+               <charName>LATIN SMALL LETTER U</charName>
+               <mapping type="codepoint">U+0075</mapping>
+               <mapping type="diplomatic">u</mapping>
+               <mapping type="normalized">u</mapping>
+            </char>
+            
+            <char xml:id="v">
+               <charName>LATIN SMALL LETTER V</charName>
+               <mapping type="codepoint">U+0076</mapping>
+               <mapping type="diplomatic">v</mapping>
+               <mapping type="normalized">v</mapping>
+            </char>
+
+            <!-- variant forms -->
+
+            <char xml:id="romnumsix">
+               <charName>ROMAN NUMERAL SIX LATE FORM</charName>
+               <mapping subtype="MUFI-PUA" type="codepoint">U+EEFD</mapping>
+               <mapping type="diplomatic">ↅ</mapping>
+               <mapping type="normalized">ↅ</mapping>
+            </char>
+
+            <char xml:id="amacr">
+               <charName>LATIN SMALL LETTER A WITH MACRON</charName>
+               <mapping type="codepoint">U+0101</mapping>
+               <mapping type="diplomatic">ā</mapping>
+               <mapping type="normalized">a</mapping>
+            </char>
+            <char xml:id="emacr">
+               <charName>LATIN SMALL LETTER E WITH MACRON</charName>
+               <mapping type="codepoint">U+0113</mapping>
+               <mapping type="diplomatic">ē</mapping>
+               <mapping type="normalized">e</mapping>
+            </char>
+            <char xml:id="imacr">
+               <charName>LATIN SMALL LETTER I WITH MACRON</charName>
+               <mapping type="codepoint">U+012B</mapping>
+               <mapping type="diplomatic">ī</mapping>
+               <mapping type="normalized">i</mapping>
+            </char>
+            <char xml:id="omacr">
+               <charName>LATIN SMALL LETTER O WITH MACRON</charName>
+               <mapping type="codepoint">U+014D</mapping>
+               <mapping type="diplomatic">ō</mapping>
+               <mapping type="normalized">o</mapping>
+            </char>
+            <char xml:id="umacr">
+               <charName>LATIN SMALL LETTER U WITH MACRON</charName>
+               <mapping type="codepoint">U+016B</mapping>
+               <mapping type="diplomatic">ū</mapping>
+               <mapping type="normalized">u</mapping>
+            </char>
+            <char xml:id="ymacr">
+               <charName>LATIN SMALL LETTER Y WITH MACRON</charName>
+               <mapping type="codepoint">U+0233</mapping>
+               <mapping type="diplomatic">ȳ</mapping>
+               <mapping type="normalized">y</mapping>
+            </char>
+
+            <!-- ligatures -->
+            
+            <glyph xml:id="uslig">
+               <glyphName>LATIN SMALL LIGATURE US</glyphName>
+               <mapping type="ligature">U+0075 + U+017F</mapping>
+               <mapping type="diplomatic">us</mapping>
+               <mapping type="normalized">us</mapping>
+            </glyph>
+
+         </charDecl>
+      </encodingDesc>
+      
+      <profileDesc>
+         <langUsage>
+            <language ident="lng">Langobardic</language>
+         </langUsage>
+      </profileDesc>
+      
+      <revisionDesc status="draft">
+         <change when="2018-10" who="RRDT" status="draft">First add to GitHub repository with minor changes.</change>
+         <change when="2016-12" who="RRDT" status="draft">Encoding by RRDT [2016-12-01].</change>
+         <change when="2014-08" who="RRDT" status="draft">First TEI encoding.</change>
+      </revisionDesc>
+      
+   </teiHeader>
+   
+   <text>
+      <front>
+         <div>
+            <p>...</p>
+         </div>
+      </front>
+      <body>
+         <div n="Cap 1-13" subtype="edition_text" type="prose" xml:id="ER_1-13">
+
+            <pb n="018v" xml:id="CV188_folio_018v"/>
+            
+            <head>
+              <lb xml:id="CV188_lb_018v_01" n="01"/>
+               <choice><!-- cercare i caratteri adatti -->
+                  <abbr>E<am>X</am></abbr>
+                  <expan>EX<ex>PLICIT</ex></expan>
+               </choice>
+               <choice>
+                  <abbr>P<am>L</am>G</abbr>
+                  <expan>P<ex>RO</ex>L<ex>O</ex>G<ex>US</ex></expan>
+               </choice>
+               <lb xml:id="CV188_lb_018v_02" n="02"/>
+               <choice><!-- le 's' sopra le lettere sono segni di abbreviazione??? -->
+                  <abbr>INCP</abbr>
+                  <expan>INC<ex>I</ex>P<ex>IUNT</ex></expan>
+               </choice>
+               <choice>
+                  <abbr>CPLA</abbr>
+                  <expan>C<ex>A</ex>P<ex>ITU</ex>LA</expan>
+               </choice>
+               <lb xml:id="CV188_lb_018v_03" n="03"/>CA<space/>U<space/>SA<space/>S
+            </head>
+            
+            <lb xml:id="CV188_lb_018v_04" n="04"/>
+            
+            <p>
+               <lb xml:id="CV188_lb_018v_05" n="05"/>
+               <label n="1"><num><w>I</w></num></label>
+               <seg rend="cap">
+                  <w><hi rend="decorated">S</hi>i</w>
+                  <w>q<c corresp="#u">v</c>is</w>
+                  <w>homin<c corresp="#u">v</c>m</w>
+                  <lb xml:id="CV188_lb_018v_06" n="06"/><w>contra</w>
+                  <w><choice>
+                        <sic>anima</sic><!-- è un'abbreviazione??? s rovesciata sopra a finale -->
+                        <corr>animam</corr>
+                     </choice></w>
+                  <lb xml:id="CV188_lb_018v_07" n="07"/><w>regis</w>
+                  <w>co<add rend="smaller" place="inline">gi</add>taverit</w><!-- la T finale è una correzione o
+                     solo danneggiata??? -->
+               </seg>
+               <!-- 
+               <w>aut</w>
+               <w>consiliaverit</w><reg>,</reg> -->
+               <lb xml:id="CV188_lb_018v_08" n="08"/><w><choice>
+                     <sic>anime</sic>
+                     <corr resp="RRDT">animae</corr>
+                  </choice></w>
+               <w>suae</w>
+               <w>incurrat</w>
+               <w><choice>
+                     <abbr>pericul<am><g ref="#umacr"/></am></abbr>
+                     <expan>periculu<ex>m</ex></expan>
+                  </choice></w>
+               <lb xml:id="CV188_lb_018v_09" n="09"/><space extent="7"/><w>et</w>
+               <w>res</w>
+               <w>eius</w>
+               <w>infiscentur</w><reg>.</reg><!-- segno di punteggiatura finale? -->
+            </p>
+
+            <p>
+               <lb xml:id="CV188_lb_018v_10" n="10" type="rubric"/>
+               <label n="2"><num><w>II</w></num></label>
+               <w><hi rend="cap1.2">S</hi>i</w>
+               <w>quis</w>
+               <w>cum</w>
+               <w>rege</w>
+               <w>de</w>
+               <w>morte</w>
+               <w>alte<lb xml:id="CV188_lb_018v_11" n="11"/>rius</w>
+               <w>consilia<c corresp="#v">u</c>erit</w><reg>,</reg>
+               <w>aut</w>
+               <w>hominem</w>
+               <lb xml:id="CV188_lb_018v_12" n="12"/><w>per</w>
+               <w>ipsius</w>
+               <w><choice>
+                     <abbr>iussion<am><g ref="#emacr"/></am></abbr>
+                     <expan>iussione<ex>m</ex></expan>
+                  </choice></w>
+               <w>occiserit</w><reg>,</reg><!-- occiderit -->
+               <w>in</w>
+               <lb xml:id="CV188_lb_018v_13" n="13"/><w>nullo</w>
+               <w>sit</w>
+               <w>culpa<c corresp="#v">u</c>elis</w><reg>,</reg><!-- culpabilis -->
+               <w>nec</w>
+               <w>ille</w>
+               <w>nec</w>
+
+               <pb n="019r" xml:id="CV188_folio_019r"/>
+
+               <lb xml:id="CV188_lb_019r_" n="01"/><w><choice>
+                     <sic>heredis</sic>
+                     <corr resp="RRDT">heredes</corr>
+                  </choice></w>
+               <w>eius</w>
+               <w>quoquo</w>
+               <w>tempore</w>
+               <w>ab</w>
+               <w>il<lb xml:id="CV188_lb_019r_02" n="02"/>lo</w>
+               <w>aut</w>
+               <w><choice>
+                     <sic>heredis</sic>
+                     <corr resp="rrdt">heredes</corr>
+                  </choice></w>
+               <w>ipsius</w>
+               <w>requisitionem</w>
+               <lb xml:id="CV188_lb_019r_03" n="03"/><w>aut</w>
+               <w>molestia</w>
+               <w>
+                  <choice>
+                     <sic>spatiatur</sic>
+                     <corr resp="RRDT">patiatur</corr>
+                  </choice></w>
+               <choice>
+                  <orig><pc>:</pc></orig>
+                  <reg>;</reg>
+               </choice>
+               <w>quia</w>
+               <w>post<lb xml:id="CV188_lb_019r_04" n="04"/>quam</w>
+               <w>corda</w>
+               <w>regum</w>
+               <w>in</w>
+               <w><damage>m</damage>anum</w>
+               <w>
+                  <choice>
+                     <abbr>d<am><g ref="#imacr"/></am></abbr>
+                     <expan>d<ex>e</ex>i</expan>
+                  </choice></w>
+               <w>es<lb xml:id="CV188_lb_019r_05" n="05"/>se</w><!-- credimus esse -->
+               <w>credimus</w><reg>,</reg>
+               <w>non</w>
+               <w>est</w>
+               <w>
+                  <choice>
+                     <sic>posse<c corresp="#v">u</c>ilem</sic>
+                     <corr resp="RRDT">possibile</corr>
+                  </choice></w><reg>,</reg>
+              <lb xml:id="CV188_lb_019r_06" n="06"/><w>ut</w>
+               <w>homo</w>
+               <w>possit</w>
+               <w>
+                  <choice>
+                     <sic>aduniare</sic><!-- ??? -->
+                     <corr resp="RRDT">eduniare</corr>
+                  </choice></w><reg>,</reg>
+               <w>quem</w>
+               <w>rex</w>
+              <lb xml:id="CV188_lb_019r_07" n="07"/><space extent="7"/><w>occidere</w>
+               <w>iusserit</w><reg>.</reg>
+            </p>
+
+            <p>
+               <lb xml:id="CV188_lb_019r_08" n="08" type="rubric"/>
+               <label n="3"><num><w>III</w></num></label>
+               <w><hi rend="cap1.5">S</hi>i</w>
+               <w>quis</w>
+               <w>foris</w>
+               <w>pro<c corresp="#v">u</c>incia</w>
+               <w>fugire</w>
+               <lb xml:id="CV188_lb_019r_09" n="09"/><w>tempta<c corresp="#v">u</c>erit</w><reg>,</reg><!-- timtaverit -->
+               <w>morti</w>
+               <w>incurrat</w>
+              <w>peri<lb xml:id="CV188_lb_019r_10" n="10"/>culum</w><reg>,</reg>
+               <w>et</w>
+               <w>res</w>
+               <w>
+                  <choice>
+                     <orig>ei<!-- ??? --></orig>
+                     <reg>eius</reg>
+                  </choice></w>
+               <w>
+                  <choice>
+                     <sic>infiscintur</sic>
+                     <corr resp="RRDT">infiscentur</corr>
+                  </choice></w><choice><!-- ??? -->
+                     <orig><pc>:</pc></orig>
+                     <reg>.</reg>
+                  </choice>
+            </p>
+
+            <p>
+               <lb xml:id="CV188_lb_019r_11" n="11" type="rubric"/><label n="4"><num><w>IIII</w></num></label>
+               <w><hi rend="cap1.5 empty">S</hi>i</w>
+               <w>quis</w>
+               <w>inimicus</w>
+               <w>intra</w>
+               <w>pro<c corresp="#v">u</c>inci<add place="above" rend="smaller">a</add></w>
+               <lb xml:id="CV188_lb_019r_12" n="12"/><w>in<c corresp="#v">u</c>ita<c corresp="#v">u</c>erit</w>
+               <w>aut</w>
+               <w>introduxerit</w><reg>,</reg>
+              <w>
+                  <choice>
+                     <sic>ani<lb n="13" xml:id="CV188_lb_019r_13_sic"/>me</sic>
+                     <corr resp="RRDT">ani<lb n="13" xml:id="CV188_lb_019r_13_corr"/>mae</corr>
+                  </choice></w>
+               <w>suae</w>
+               <w>incurrat</w>
+               <w>
+                  <choice>
+                     <abbr>pericul<am><g ref="#umacr"/></am></abbr>
+                     <expan>periculu<ex>m</ex></expan>
+                  </choice></w>
+               <w>et</w>
+               <w>res</w>
+              <lb xml:id="CV188_lb_019r_14" n="14"/><space extent="12"/><w>eius</w>
+               <w>infiscentur</w><reg>.</reg>
+            </p>
+            
+            <p><lb xml:id="CV188_lb_019r_15" n="15" type="rubric"/><label n="5"><num><w>V</w></num></label>
+               <w><hi rend="cap1.5">S</hi>i</w>
+               <w>quis</w>
+               <term><w>
+                     <choice>
+                        <!-- ??? -->
+                        <sic>scamaras</sic>
+                        <corr resp="RRDT">escamaras</corr>
+                     </choice></w></term>
+               <w>intra</w>
+               <w>pro<c corresp="#v">u</c>in<lb xml:id="CV188_lb_019r_16" n="16"/>cia</w>
+               <w>
+                  <choice>
+                     <!-- ??? -->
+                     <orig>cel<space extent="1"/>auerit</orig>
+                     <reg>cael<space extent="1"/>averit</reg>
+                  </choice></w>
+               <w>aut</w>
+               <w>anonam</w>
+              <w>dede<lb xml:id="CV188_lb_019r_17" n="17"/>rit</w><reg>,</reg>
+               <w>
+                  <choice>
+                     <sic>anime</sic>
+                     <corr resp="RRDT">animae</corr>
+                  </choice></w>
+               <w>suae</w>
+               <w>incurrat</w>
+               <w>
+                  <choice>
+                     <abbr>pericul<am><g ref="#umacr"/></am></abbr>
+                     <expan>periculu<ex>m</ex></expan>
+                  </choice></w><reg>,</reg>
+              <lb xml:id="CV188_lb_019r_18" n="18"/><w>aut</w>
+               <w>certe</w>
+               <w>conponat</w>
+               <w>regi</w>
+               <w>solidus</w>
+               <w>
+                  <choice>
+                     <!-- ??? -->
+                     <orig>noni<lb rend="below"/>entos</orig>
+                     <reg>noningentos</reg>
+                  </choice></w><choice><!-- ??? -->
+                     <orig><pc>:</pc></orig>
+                     <reg>.</reg></choice>
+            </p>
+            
+            <p><lb xml:id="CV188_lb_019r_19" n="19" type="rubric"/><label n="6"><num><w>Ϛ</w></num></label>
+               <w><hi rend="cap1.5 empty">S</hi>i</w>
+               <w>quis</w>
+               <w><damage>f</damage>oris</w>
+               <w>in</w>
+               <w>exercitum</w>
+              <w>s<damage>e</damage>di<lb xml:id="CV188_lb_019r_20" n="20"/>tionem</w>
+               <w>le<c corresp="#v">u</c>a<c corresp="#v">u</c>erit</w>
+               <w>contra</w>
+               <w>d<subst><del rend="overwrite">o</del><add>u</add></subst>cem</w>
+               
+               <pb n="019v" xml:id="CV188_folio_019v"/>
+               
+               <lb xml:id="CV188_lb_019v_01" n="01"/><w>suum</w>
+               <w>aut</w>
+               <w>contra</w>
+               <w>eu<damage>m</damage></w><reg>,</reg>
+               <w>qui</w>
+              <w>ordina<lb xml:id="CV188_lb_019v_02" n="02"/>tus</w>
+               <!--<w>est</w>
+               <w>a</w>
+               <w>rege</w>
+               <w>ad</w>-->
+               <w>exercitum</w>
+               <w>gubernandi</w><reg>,</reg>
+               <w>aut</w>
+              <lb xml:id="CV188_lb_019v_03" n="03"/><w>aliquam</w>
+               <w>partem</w>
+               <w>exercitum</w>
+              <w>sedu<lb xml:id="CV188_lb_019v_04" n="04"/>xerit</w><reg>,</reg>
+               <choice>
+                  <sic>anime</sic>
+                  <corr resp="RRDT">animae</corr>
+               </choice><!-- sanguinis -->
+               <w>suae</w><!-- sui -->
+               <w>incurrat</w>
+               <w>pericu<lb rend="below"/>lum</w><choice><!-- ??? -->
+                  <orig><pc>:</pc></orig>
+                  <reg>.</reg></choice>
+            </p>
+            
+            <p><lb xml:id="CV188_lb_019v_05" n="05" type="rubric"/><label n="7"><num><w>ϚI</w></num></label>
+               <w><hi rend="cap2.0 empty">S</hi>i</w>
+               <w>quis</w>
+               <w>contra</w>
+               <w>inimicus</w>
+              <w>pug<lb xml:id="CV188_lb_019v_06" n="06"/><space extent="5"/>nandum</w><!-- pugnando -->
+               <w>colegam</w><!-- collegam -->
+               <w>suum</w>
+              <w>dimi<lb xml:id="CV188_lb_019v_07" n="07"/>serit</w>
+               <w>aut</w>
+               <term xml:lang="lng"><w>
+                     <choice>
+                        <orig>anstall<add place="below">i</add><subst><del rend="overwrite">c</del><add>n</add></subst></orig>
+                        <reg>astalin</reg>
+                     </choice></w></term>
+               <w>fecerit</w><reg>,</reg>
+               <gloss><w>id</w>
+               <w>est</w>
+              <lb xml:id="CV188_lb_019v_08" n="08"/><w>si</w>
+               <w>eum</w>
+               <w>diceperit</w>
+               <w><damage>et</damage></w>
+               <w>cum</w>
+               <w>eum</w>
+               <w>non</w>
+               <lb xml:id="CV188_lb_019v_09" n="09"/><w>labora<c corresp="#v">u</c>erit</w></gloss><reg>,</reg>
+               <w><choice>
+                  <sic>anime</sic>
+                  <corr resp="RRDT">animae</corr>
+               </choice></w>
+               <w>suae</w>
+               <w>incurrat</w>
+               <lb rend="below"/><w>periculum</w><choice><!-- ??? -->
+                  <orig><pc>:</pc></orig>
+                  <reg>.</reg></choice>
+            </p>
+            
+            <p><lb xml:id="CV188_lb_019v_10" n="10" type="rubric"/><label n="8"><num><w>ϚII</w></num></label>
+               <w><hi rend="cap1.5">S</hi>i</w>
+               <w>quis</w>
+               <w>in</w>
+               <w>concilium</w><!-- consilio -->
+               <w>vel</w>
+               <w>in</w>
+              <w>
+                  <choice>
+                     <sic>quole<lb n="11" xml:id="CV188_lb_019v_11_sic"/>bit</sic>
+                     <corr resp="RRDT">quoli<lb n="11" xml:id="CV188_lb_019v_11_corr"/>bet</corr>
+                  </choice></w>
+               <w>c<space extent="1"/>on<c corresp="#v">u</c>entum</w><!-- conventu -->
+               <w>scandalum</w>
+               <w>comi<lb xml:id="CV188_lb_019v_12" n="12"/>serit</w><reg>,</reg><!-- conmiserit -->
+               <choice>
+                  <!-- ??? -->
+                  <orig>nonientos</orig>
+                  <reg>noningentos</reg>
+               </choice>
+               <w>solidus</w>
+               <w>sit</w>
+               <w>
+                  <choice>
+                     <sic>culpa<lb  n="13" xml:id="CV188_lb_019v_13_sic"/><space extent="14"/><c corresp="#v">u</c>elis</sic>
+                     <corr>culpa<lb  n="13" xml:id="CV188_lb_019v_13_corr"/><space extent="14"/>biles</corr>
+                  </choice></w><!-- culpabiles -->
+               <w>regi</w><choice><!-- ??? -->
+                  <orig><pc>:</pc></orig>
+                  <reg>.</reg></choice>
+            </p>
+            
+            <p><lb xml:id="CV188_lb_019v_14" n="14" type="rubric"/><label n="9"><num><w>ϚIII</w></num></label>
+               <w><hi rend="cap1.5 empty">S</hi>i</w>
+               <w>quis</w>
+               <w>qualemcumque</w>
+              <w>homi<lb xml:id="CV188_lb_019v_15" n="15"/>nem</w>
+               <w>ad</w>
+               <w>regem</w>
+               <w>incusa<c corresp="#v">u</c>erit</w><reg>,</reg>
+               <w>quod</w>
+               <!--<w>ad</w>-->
+              <lb xml:id="CV188_lb_019v_16" n="16"/><w><choice><!-- ??? -->
+                  <sic>anime</sic>
+                  <corr resp="RRDT">animae</corr>
+               </choice></w>
+               <w>perteneat</w>
+               <w>periculum</w><reg>,</reg>
+              <lb xml:id="CV188_lb_019v_17" n="17"/><w>
+                  <choice>
+                     <sic>leciat</sic>
+                     <corr resp="RRDT">liceat</corr>
+                  </choice></w>
+               <w>ei</w><reg>,</reg>
+               <w>qui</w>
+               <w>accusatus</w>
+               <w>fuerit</w><reg>,</reg>
+              <lb xml:id="CV188_lb_019v_18" n="18"/><w>cum</w>
+               <w>sacramentum</w>
+               <w>satis<lb xml:id="CV188_lb_019v_19" n="19"/>facere</w>
+               <w>et</w>
+               <w>s<damage>e</damage></w>
+               <w><damage>e</damage>duniare</w><reg>.</reg>
+               <w>
+                  <choice>
+                     <orig>et</orig>
+                     <reg>Et</reg>
+                  </choice></w>
+               <w>si</w>
+               <w>ta<lb xml:id="CV188_lb_019v_20" n="20"/>les</w>
+               <w>causam</w><!-- causa -->
+               <w><damage>eme</damage>rserit</w>
+               
+               <pb n="020r" xml:id="CV188_folio_020r"/>
+
+              <lb xml:id="CV188_lb_020r_01"/><w>et</w>
+               <w>adest</w>
+               <w>homo</w>
+               <w>in</w>
+               <w>praesenti</w><reg>,</reg>
+               <w>qui</w>
+              <w>cri<lb xml:id="CV188_lb_020r_02"/>men</w>
+               <w>mittat</w><reg>,</reg>
+               <add place="above">
+                  <w>liceat</w>
+                  <w>eum</w>
+                  <w>per</w>
+                  <w>camphionem</w><reg>,</reg>
+                  <w>id</w>
+                  <w>est</w>
+                  <w>per</w>
+                  <w>pugnam</w><reg>,</reg>
+               </add>
+               <w>crimen</w>
+               <w>ipsum</w>
+               <w>de</w>
+               <w>super</w>
+              <lb xml:id="CV188_lb_020r_03"/><w>se</w><reg>,</reg>
+               <w>si</w>
+               <w>potuerit</w><reg>,</reg>
+               <w>eicere</w><reg>.</reg>
+               <w>Et</w>
+               <w>si</w>
+               <w>ei</w>
+              <w>prova<lb xml:id="CV188_lb_020r_04"/>tum</w>
+               <w>fuerit</w><reg>,</reg>
+               <w>aut</w>
+               <w>det</w>
+               <w>animam</w><reg>,</reg>
+               <w>aut</w>
+              <lb xml:id="CV188_lb_020r_05"/><w>qualiter</w>
+               <w>regi</w>
+               <w>placuerit</w>
+               <w>conponat</w><reg>.</reg>
+               <w>Et</w>
+              <lb xml:id="CV188_lb_020r_06"/><w>si</w>
+               <w>provare</w>
+               <w>non</w>
+               <w>potuerit</w>
+               <w>et</w>
+              <w>cognus<lb xml:id="CV188_lb_020r_07"/>citur</w>
+               <w>dolusae</w>
+               <w>adcusassit</w><reg>,</reg>
+               <w>tunc</w>
+              <lb xml:id="CV188_lb_020r_08"/><w>ipse</w><reg>,</reg>
+               <w>qui</w>
+               <w>accusavit</w>
+               <w>et</w>
+               <w>provare</w>
+               <w>non</w>
+              <lb xml:id="CV188_lb_020r_09"/><w>poterit</w><reg>,</reg>
+               <term xml:lang="lng"><w>wergild</w></term>
+               <w>suo</w>
+               <w>conponat</w><reg>,</reg>
+               <w>me<lb xml:id="CV188_lb_020r_10"/>dietatem</w>
+               <w>regi</w><reg>,</reg>
+               <w>et</w>
+              <w>medietatem</w>
+              <lb xml:id="CV188_lb_020r_11"/><w>cui</w>
+               <w>crimen</w>
+               <w>iniectum</w>
+               <w>fuerit</w><reg>.</reg>
+            </p>
+            
+            <p><lb xml:id="CV188_lb_020r_12" type="rubric"/><label n="10"><num><w>I</w></num></label>
+               <w><hi rend="cap2.0 empty">S</hi>i</w>
+               <w>quis</w>
+               <w>homo</w>
+               <w>liber</w>
+               <w>in</w>
+              <w>mor<lb xml:id="CV188_lb_020r_13"/><space extent="4"/>te</w>
+               <w>alterius</w>
+               <w>consiliaverit</w><reg>,</reg>
+               <w>et</w>
+               <w>ex</w>
+              <w>ip<lb xml:id="CV188_lb_020r_14"/>so</w>
+               <w>consilio</w>
+               <w>mortuos</w>
+               <w>non</w>
+               <w>fuerit</w><reg>,</reg>
+              <lb xml:id="CV188_lb_020r_15"/><w>tunc</w>
+               <w>ipse</w>
+               <w>consiliator</w>
+               <w>conponat</w>
+              <lb xml:id="CV188_lb_020r_16"/><space extent="12"/><w>solidus</w>
+               <w>viginti</w><reg>.</reg>
+            </p>
+            
+            <p><lb xml:id="CV188_lb_020r_17" type="rubric"/><label n="11"><num><w>I</w></num><w><hi rend="decorated2.5">D</hi>e</w>
+                  <w>consilio</w>
+                  <w>mortis</w></label>
+               <w><choice>
+                     <orig>si</orig>
+                     <reg>Si</reg>
+                  </choice></w>
+              <w>homi<lb xml:id="CV188_lb_020r_18"/>nis</w>
+               <space extent="3"/><w>liberi</w>
+               <w>inter</w>
+               <w>se</w>
+               <w>in</w>
+               <w>morte</w>
+              <w>al<lb xml:id="CV188_lb_020r_19"/>terius</w>
+               <w>consiliaverint</w>
+               <w>sine</w>
+               <w>regis</w>
+              <lb xml:id="CV188_lb_020r_20"/><w>consilio</w>
+               <w>et</w>
+               <w>ex</w>
+               <w>ipso</w>
+               <w>tractato</w>
+               
+               <pb n="020v" xml:id="CV188_folio_020v"/>
+
+              <lb/><w>mortuus</w>
+               <w>non</w>
+               <w>fuerit</w><reg>,</reg>
+               <w>conponat</w>
+              <w>unus<lb/>quisque</w><reg>,</reg>
+               <w>ut</w>
+               <w>supra</w><reg>,</reg>
+               <w>solidos</w>
+               <w>viginti</w><reg>;</reg>
+               <w>et</w>
+               <w>si</w>
+               <w>ex</w>
+              <w>ip<lb/>so</w>
+               <w>consilio</w>
+               <w>mortuus</w>
+               <w>fuerit</w><reg>,</reg>
+               <w>tunc</w>
+               <w>ille</w><reg>,</reg>
+               <w>qui</w>
+               <w>homicida</w>
+               <w>est</w><reg>,</reg>
+              <w>con<lb/>ponat</w>
+               <w>ipsum</w>
+               <w>mortuum</w><reg>,</reg>
+               <w>sicut</w>
+              <w>ad<lb/>praetiatus</w>
+               <w>fuerit</w><reg>,</reg>
+               <w>id</w>
+               <w>est</w>
+               <term xml:lang="lng"><w>wergild</w></term><reg>.</reg>
+            </p>
+            
+            <p><lb type="rubric"/><label n="12"><num><w>I</w></num></label>
+               <w><choice>
+                  <orig><hi rend="decorated">S<!-- ??? --></hi>i</orig>
+                     <reg>Si</reg>
+                  </choice></w>
+               <w>duo</w>
+               <w>aut</w>
+               <w>tres</w>
+               <w>fuerint</w>
+               <w>hominis</w>
+               <w>seu</w>
+              <lb/><w>am<space extent="2"/>plius</w>
+               <w>liberi</w>
+               <w>et</w>
+               <w>homicidium</w>
+              <w>pene<lb/>traverint</w>
+               <w>et</w>
+               <w>voluerint</w>
+               <w>se</w>
+              <w>aduna<lb/>re</w><reg>,</reg>
+               <w>ut</w>
+               <w>in</w>
+               <w>unum</w>
+               <w>conponant</w><reg>,</reg>
+               <w>sicut</w>
+              <lb/><w>adpraetiatum</w>
+               <w>fuerit</w><reg>,</reg>
+               <w>sit</w>
+               <w>eis</w>
+               <w>adunandi</w>
+              <w>licen<lb/>tia</w><reg>.</reg>
+               <w>Et</w>
+               <w>si</w>
+               <w>aliquis</w>
+               <w>se</w>
+               <w>de</w>
+              <w>ip<lb/>sis</w>
+               <w>subtraxerit</w>
+               <w>et</w>
+               <w>non</w>
+               <w>potuerit</w>
+              <lb/><w>se</w>
+               <w>pureficare</w><reg>,</reg>
+               <w>sicut</w>
+               <w>lex</w>
+               <w>habet</w><reg>,</reg>
+              <lb/><w>quod</w>
+               <w>nec</w>
+               <w>plaga</w>
+               <w>nec</w>
+               <w>ferita</w>
+               <w>in</w>
+              <w>ip<lb/>so</w>
+               <w>homine</w><reg>,</reg>
+               <w>qui</w>
+               <w>occisus</w>
+               <w>est</w><reg>,</reg>
+               <w>non</w>
+              <lb/><w>fecissit</w><reg>,</reg>
+               <w>tunc</w>
+               <w>sit</w>
+               <w>culpabiles</w>
+              <lb/><w>sicut</w>
+               <w>et</w>
+               <w>alius</w>
+               <w>qui</w>
+               <w>eum</w>
+               <w>conposuit</w><reg>.</reg>
+               <w>Et</w>
+               <w>si</w>
+              <lb/><w>se</w>
+               <w>purificaverit</w><reg>,</reg>
+               <w>sit</w>
+               <w>exsolutus</w>
+              <lb/><w>a</w>
+               <w>culpa</w>
+               <w>homicidii</w><reg>.</reg>
+               <w>Si</w>
+               <w>tamen</w>
+               <w>in</w>
+              <w>con<lb/>silio</w>
+               <w>fuit</w><reg>,</reg>
+               <w>conponat</w><reg>,</reg>
+               <w>ut</w>
+               <w>supra</w><reg>,</reg>
+               
+               <pb n="021r" xml:id="CV188_folio_021r"/>
+
+              <lb/><w>solidos</w>
+               <w>viginti</w><reg>,</reg>
+               <w>aut</w>
+               <w>certe</w>
+               <w>a</w>
+               <w>de</w>
+               <w>ipso</w>
+               <w>consilio</w>
+              <lb/><space extent="4"/><w>se</w>
+               <w>purificit</w><reg>,</reg>
+               <w>si</w>
+               <w>potuerit</w><reg>.</reg>
+            </p>
+            
+            <p><lb type="rubric"/><label n="13"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>dominum</w>
+               <w>suum</w>
+               <w>occiderit</w><reg>,</reg>
+              <lb/><w>ipse</w>
+               <w>occidatur</w><reg>.</reg>
+               <w>Si</w>
+               <w>quis</w>
+              <lb/><w>ipsum</w>
+               <w>homicidam</w>
+               <w>defensare</w>
+              <w>volu<lb/>erit</w><reg>,</reg>
+               <w>qui</w>
+               <w>dominum</w>
+               <w>suum</w>
+               <w>occiderit</w><reg>,</reg>
+               <w>sit</w>
+              <lb/><w>culpabilis</w>
+               <w>solidûs</w>
+               <w>noningentos</w><reg>,</reg>
+              <w>medie<lb/>tatem</w>
+               <w>regi</w><reg>,</reg>
+               <w>medietatem</w>
+              <w>paren<lb/>tibus</w>
+               <w>mortui</w><reg>;</reg>
+               <w>et</w>
+               <w>qui</w>
+               <w>illius</w>
+               <w>mortui</w>
+              <lb/><w>iniuriam</w>
+               <w>vindicandam</w>
+              <w>denegave<lb/>rit</w>
+               <w>solacia</w><reg>,</reg>
+               <w>si</w>
+               <w>quidem</w>
+               <w>rogatus</w>
+              <w>fue<lb/>rit</w><reg>,</reg>
+               <w>unusquisque</w>
+               <w>conponat</w>
+               <w>solidos</w>
+              <lb/><w>quinquagenta</w><reg>,</reg>
+               <w>medietatem</w>
+               <w>regi</w>
+               <w>et</w>
+              <w>medieta<lb/>tem</w>
+               <w>cui</w>
+               <w>solacia</w>
+               <w>denegaverit</w><reg>.</reg>
+            </p>
+            
+         </div>
+            
+         <div n="Cap 14-145" subtype="edition_text" type="prose" xml:id="ER_14-145">
+            
+            <p><lb type="rubric"/><label n="14"><num><w>I</w></num><w>De</w>
+                  <term><w>morth</w></term></label>
+               <w>Si</w>
+               <w>quis</w>
+              <w>homicidi<lb/>um</w>
+               <w>in</w>
+               <w>absconse</w>
+              <w>penetrave<lb/>rit</w>
+               <w>in</w>
+               <w>barone</w>
+               <w>libero</w>
+               <w>aut</w>
+               <w>servo</w>
+               <w>vel</w>
+              <w>an<lb/>cilla</w><reg>,</reg>
+               <w>et</w>
+               <w>unus</w>
+               <w>fuerit</w>
+               <w>aut</w>
+               <w>duo</w>
+              <w>tan<lb/>tum</w><reg>,</reg>
+               <w>qui</w>
+               <w>ipsum</w>
+               <w>homicidium</w>
+              <w>fece<lb/>rint</w><reg>,</reg>
+               <w>noningentos</w>
+               <w>solidos</w>
+               <w>conponat</w><reg>.</reg>
+               
+               <pb n="021v" xml:id="CV188_folio_021v"/>
+               
+              <lb/><w>Si</w>
+               <w>vero</w>
+               <w>plures</w>
+               <w>fuerint</w><reg>,</reg>
+               <w>si</w>
+               <w>ingenuus</w><reg>,</reg>
+              <lb/><w>qualiter</w>
+               <w>in</w>
+               <w>angargathungi</w><reg>,</reg>
+               <w>ipsum</w>
+              <lb/><w>homicidium</w>
+               <w>conponat</w><reg>;</reg>
+               <w>si</w>
+               <w>servus</w>
+              <lb/><w>aut</w>
+               <w>libertus</w><reg>,</reg>
+               <w>conponat</w>
+               <w>ipsum</w><reg>,</reg>
+              <lb/><w>ut</w>
+               <w>adpraetiatus</w>
+               <w>fuerit</w><reg>.</reg>
+               <w>Et</w>
+               <w>si</w>
+              <w>ex<lb/>polia</w>
+               <w>de</w>
+               <w>ipso</w>
+               <w>mortuo</w>
+               <w>tulerit</w><reg>,</reg>
+              <lb/><w>id</w>
+               <w>est</w>
+               <w>plodraub</w><reg>,</reg>
+               <w>conponat</w>
+               <w>octugenta</w>
+               <w>solidûs</w><reg>.</reg>
+            </p>
+            
+            <p><lb type="rubric"/><label n="15"><num><w>I</w></num><w>De</w>
+                  <term xml:lang="lng"><w>grabworfin</w></term></label>
+               <w>Si</w>
+               <w>quis</w>
+              <lb/><w>sepulturam</w>
+               <w>hominis</w>
+              <w>mor<lb/>tui</w>
+               <w>ruperit</w>
+               <w>et</w>
+               <w>corpus</w>
+              <w>expoliave<lb/>rit</w>
+               <w>aut</w>
+               <w>foris</w>
+               <w>iactaverit</w><reg>,</reg>
+               <w>nongentos</w>
+              <lb/><w>soledos</w>
+               <w>sit</w>
+               <w>culpavelis</w>
+              <w>paren<lb/>tibus</w>
+               <w>sepulti</w><reg>.</reg>
+               <w>Et</w>
+               <w>si</w>
+               <w>parentis</w>
+               <w>proximi</w>
+              <lb/><w>non</w>
+               <w>fuerint</w><reg>,</reg>
+               <w>tunc</w>
+              <w>gas<lb/>taldius</w>
+               <w>regis</w>
+               <w>aut</w>
+               <w>sculdhais</w>
+              <w>re<lb/>quirat</w>
+               <w>culpa</w>
+               <w>ipsa</w>
+               <w>et</w>
+               <w>ad</w>
+               <w>curte</w>
+               <lb rend="below"/><space extent="12"/><w>regis</w>
+               <w>exegat</w><reg>.</reg>
+            </p>
+            
+            <p><lb type="rubric"/><label n="16"><w><hi rend="cap2.0 halfempty">D</hi>e</w>
+                  <term xml:lang="lng"><w>rairaub</w></term></label>
+               <w>Si</w>
+               <w>quis</w>
+              <w>homi<lb/>nem</w>
+               <w>mortuum</w>
+               <w>in</w>
+               <w>flumine</w>
+               <w>aut</w>
+              <lb/><w>foris</w>
+               <w>invenerit</w>
+               <w>aut</w>
+              <w>expoliave<lb/>rit</w>
+               <add place="above">
+                  <w>et</w>
+                  <w>celaverit</w><reg>,</reg>
+                  <w>conponat</w>
+                  <w>parentibus</w>
+                  <w>mortui</w>
+                  <w>solidos</w>
+                  <w>octoginta</w><reg>.</reg>
+                  <w>Et</w>
+                  <w>si</w>
+                  <w>eum</w>
+                  <w>invenerit</w>
+                  <w>et</w>
+               </add>
+               <add place="below">
+                  <w>expoliaverit</w>
+               </add>
+               <w>et</w>
+               <w>mox</w>
+               <w>vicinibus</w>
+               <w>patefece<lb rend="below"/><space extent="12"/>rit</w><reg>,</reg>
+               
+               <pb n="022r" xml:id="CV188_folio_022r"/>
+               
+              <lb/><w>et</w>
+               <w>cognuscitur</w>
+               <w>quod</w>
+               <w>pro</w>
+               <w>mercedis</w>
+              <lb/><w>causa</w>
+               <w>fecit</w><reg>,</reg>
+               <w>nam</w>
+               <w>non</w>
+               <w>furtandi</w>
+               <w>animo</w><reg>,</reg>
+              <lb/><w>reddat</w>
+               <w>spolia</w><reg>,</reg>
+               <w>quas</w>
+               <w>super</w>
+               <w>eum</w>
+              <w>inve<lb/>nit</w><reg>,</reg>
+               <w>et</w>
+               <w>amplius</w>
+               <w>ei</w>
+               <w>calumnia</w>
+               <w>non</w>
+               <w>generetur</w><reg>.</reg>
+            </p>
+            
+            <p><lb type="rubric"/><label n="17"><num><w>I</w></num></label>
+               <w><hi rend="cap2.0 halfempty">S</hi>i</w>
+               <w>quis</w>
+               <w>ex</w>
+               <w>baronibus</w>
+               <w>nostris</w>
+              <lb/><w>ad</w>
+               <space extent="4"/><w>nos</w>
+               <w>voluerit</w>
+               <w>venire</w><reg>,</reg>
+              <w>secu<lb/>rus</w>
+               <w>veniat</w><reg>,</reg>
+               <w>et</w>
+               <w>inlesus</w>
+               <w>ad</w>
+               <w>suos</w>
+              <w>rever<lb/>tatur</w><reg>;</reg>
+               <w>nullus</w>
+               <w>de</w>
+               <w>adversarius</w>
+               <w>illi</w>
+              <lb/><w>aliquam</w>
+               <w>in</w>
+               <w>itinere</w>
+               <w>iniuria</w>
+               <w>aut</w>
+              <w>mo<lb/>lestiam</w>
+               <w>facere</w>
+               <w>presumat</w><reg>.</reg>
+               <w>Tantum</w>
+              <lb/><w>est</w><reg>,</reg>
+               <w>ut</w>
+               <w>ille</w><reg>,</reg>
+               <w>qui</w>
+               <w>ad</w>
+               <w>regem</w>
+              <lb/><w>venire</w>
+               <w>festinat</w><reg>,</reg>
+               <w>honeste</w>
+               <w>veniat</w>
+               <w>et</w>
+               <w>nul</w>
+               <w>lam</w>
+              <w>le<lb/>sionem</w>
+               <w>aut</w>
+               <w>damnum</w>
+               <w>cuicumque</w>
+               <w>in</w>
+              <lb/><w>ipso</w>
+               <w>itenere</w>
+               <w>ad</w>
+               <w>regem</w>
+               <w>veniendum</w>
+              <lb/><w>aut</w>
+               <w>redeundum</w>
+               <w>faciat</w><reg>;</reg>
+               <w>nam</w>
+               <w>si</w>
+              <w>fi<lb/>cerit</w><reg>,</reg>
+               <w>sicut</w>
+               <w>subter</w>
+               <w>in</w>
+               <w>hoc</w>
+               <w>edictum</w>
+               <w>constitutum</w>
+               <w>est</w><reg>,</reg>
+              <lb rend="below"/><w>conponat</w><reg>.</reg>
+            </p>
+            
+            <p><lb type="rubric"/><label n="18"><num><w>I</w></num></label>
+               <w><choice>
+                     <orig><hi rend="decorated2.5">S<!-- ??? --></hi>i</orig>
+                     <reg>Si</reg>
+                  </choice></w>
+               <w>quis</w>
+               <w>ex</w>
+               <w>adversariis</w>
+              <lb/><w>manum</w>
+               <w>armatam</w>
+               <w>super</w>
+               <w>quemcumque</w>
+              <lb/><w>ad</w>
+               <w>regem</w>
+               <w>venientem</w>
+               <w>iniecerit</w>
+              <lb/><w>suam</w>
+               <w>iniuriam</w>
+               <w>aut</w>
+               <w>qualemcumque</w>
+               <w>culpam</w>
+               <w>vindicandam</w><reg>,</reg>
+
+               <!-- ############################## -->
+               <!-- parte non codificata per il seminario -->
+               <!-- ############################## -->
+
+               <pb n="022v" xml:id="CV188_folio_022v"/>
+
+               <w>nonigentos</w>
+               <w>solidûs</w>
+               <w>sit</w>
+               <w>culpabilis</w><reg>,</reg>
+               <w>medietatem</w>
+               <w>regi</w>
+               <w>et</w>
+               <w>medietatem</w>
+               <w>cui</w>
+               <w>iniuria</w>
+               <w>inlata</w>
+               <w>fuerit</w><reg>.</reg></p>
+            <p><lb/><label n="19"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>pro</w>
+               <w>iniuria</w>
+               <w>sua</w>
+               <w>vindecanda</w>
+               <w>super</w>
+               <w>quemcumque</w>
+               <w>cum</w>
+               <w>mano</w>
+               <w>armata</w>
+               <w>cocurerrit</w>
+               <w>aut</w>
+               <w>exercitum</w>
+               <w>usque</w>
+               <w>ad</w>
+               <w>quattuor</w>
+               <w>homines</w>
+               <w>in</w>
+               <w>vico</w>
+               <w>intraverit</w><reg>,</reg>
+               <w>ille</w>
+               <w>prior</w>
+               <w>pro</w>
+               <w>inlecita</w>
+               <w>praesumptione</w>
+               <w>moriatur</w>
+               <w>aut</w>
+               <w>certe</w>
+               <w>conponat</w>
+               <w>solidos</w>
+               <w>noningentos</w><reg>,</reg>
+               <w>medietatem</w>
+               <w>regi</w>
+               <w>et</w>
+               <w>medietatem</w>
+               <w>cui</w>
+               <w>iniuria</w>
+               <w>inlata</w>
+               <w>fuerit</w><reg>.</reg>
+               <w>Et</w>
+               <w>illi</w><reg>,</reg>
+               <w>qui</w>
+               <w>cum</w>
+               <w>ipso</w>
+               <w>fuerint</w><reg>,</reg>
+               <w>si</w>
+               <w>liberi</w>
+               <w>sunt</w><reg>,</reg>
+               <w>unusquisque</w>
+               <w>octugenta</w>
+               <w>solidûs</w>
+               <w>conponat</w><reg>,</reg>
+               <w>medietatem</w>
+               <w>regi</w>
+               <w>et</w>
+               <w>medietatem</w>
+               <w>iniuriam</w>
+               <w>passo</w><reg>,</reg>
+               <w>excepto</w>
+               <w>si</w>
+               <w>in</w>
+               <w>ipso</w>
+               <w>vico</w>
+               <w>casas</w>
+               <w>incenderint</w>
+               <w>aut</w>
+               <w>hominem</w>
+               <w>occiserint</w><reg>,</reg>
+               <w>secundum</w>
+               <w>qualiter</w>
+               <w>adpreciatum</w>
+               <w>fuerit</w><reg>,</reg>
+               <w>ita</w>
+               <w>conponatur</w>
+               <w>illi</w><reg>,</reg>
+               <w>cuius</w>
+               <w>casas</w>
+               <w>incensas</w>
+               <w>aut</w>
+               <w>parentes</w>
+               <w>aut</w>
+               <w>servus</w>
+               <w>occisus</w>
+               <w>fuerit</w><reg>.</reg></p>
+            <p><lb/><label n="20"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>de</w>
+               <w>exercitales</w>
+               <w>ducem</w>
+               <w>suum</w>
+               <w>contempserit</w>
+               <w>ad</w>
+               <w>iustitiam</w><reg>,</reg>
+               <w>vigenti</w>
+               <w>solidos</w>
+               <w>conponat</w>
+               <w>regi</w>
+               <w>et</w>
+               <w>duci</w>
+               <w>suo</w><reg>.</reg></p>
+            <p><lb/><label n="21"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>in</w>
+               <w>exercito</w>
+               <w>ambolare</w>
+               <w>contempserit</w>
+               <w>aut</w>
+               <w>in</w>
+               <w>sculca</w><reg>,</reg>
+               <w>dit</w>
+               <w>regi</w>
+               <w>et</w>
+               <w>duci</w>
+               <w>suo</w>
+               <w>solidos</w>
+               <w>XX</w><reg>.</reg></p>
+            <p><lb/><label n="22"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>de</w>
+               <w>ipso</w>
+               <w>exercito</w>
+               <w>duci</w>
+               <w>suo</w>
+               <w>ad</w>
+               <w>iustitia</w>
+               <w>persequenda</w>
+               <w>denegaverit</w>
+               <w>solatium</w><reg>,</reg>
+               <w>unusquisque</w>
+               <w>conponat</w>
+               <w>regi</w>
+               <w>et</w>
+               <w>duci</w>
+               <w>suo</w>
+               <w>solidos</w>
+               <w>vigenti</w><reg>.</reg></p>
+            <p><lb/><label n="23"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>dux</w>
+               <w>exercitalem</w>
+               <w>suum</w>
+               <w>molestaverit</w>
+               <w>iniuste</w><reg>,</reg>
+               <w>gastaldius</w>
+               <w>eum</w>
+               <w>solatiet</w><reg>,</reg>
+               <w>quousque</w>
+               <w>veritatem</w>
+               <w>suam</w>
+               <w>inveniat</w><reg>,</reg>
+               <w>et</w>
+               <w>in</w>
+               <w>praesentiam</w>
+               <w>regis</w>
+               <w>aut</w>
+               <w>certe</w>
+               <w>aput</w>
+               <w>ducem</w>
+               <w>suum</w>
+               <w>eum</w>
+               <w>ad</w>
+               <w>iustitiam</w>
+               <w>perducat</w><reg>.</reg></p>
+            <p><lb/><label n="24"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>gastaldius</w>
+               <w>exercitalem</w>
+               <w>suum</w>
+               <w>molestaverit</w>
+               <w>contra</w>
+               <w>rationem</w><reg>,</reg>
+               <w>dux</w>
+               <w>eum</w>
+               <w>solaciet</w><reg>,</reg>
+               <w>quousque</w>
+               <w>veritatem</w>
+               <w>suam</w>
+               <w>inveniat</w><reg>.</reg></p>
+            <p><lb/><label n="25"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>res</w>
+               <w>suas</w>
+               <w>ab</w>
+               <w>alio</w>
+               <w>in</w>
+               <w>exercitu</w>
+               <w>requisiverit</w><reg>,</reg>
+               <w>et</w>
+               <w>noluerit</w>
+               <w>illi</w>
+               <w>reddere</w><reg>,</reg>
+               <w>tunc</w>
+               <w>ambulit</w>
+               <w>ad</w>
+               <w>ducem</w><reg>;</reg>
+               <w>et</w>
+               <w>si</w>
+               <w>dux</w>
+               <w>illi</w>
+               <w>aut</w>
+               <w>iudex</w><reg>,</reg>
+               <w>qui</w>
+               <w>in</w>
+               <w>loco</w>
+               <w>ordinatus</w>
+               <w>est</w>
+               <w>a</w>
+               <w>rege</w><reg>,</reg>
+               <w>veritatem</w>
+               <w>aut</w>
+               <w>iustitiam</w>
+               <w>non</w>
+               <w>servaverit</w><reg>,</reg>
+               <w>conponat</w>
+               <w>regi</w>
+               <w>et</w>
+               <w>cui</w>
+               <w>causa</w>
+               <w>est</w>
+               <w>solidos</w>
+               <w>viginti</w>
+               <w>causa</w>
+               <w>manente</w><reg>.</reg></p>
+            <p><lb/>
+               <label n="26"><w>De</w>
+                  <term><w>wegworin</w></term><reg>,</reg>
+                  <gloss><w>id</w>
+                     <w>est</w>
+                     <w>horbitariam</w></gloss></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>mulieri</w>
+               <w>libere</w>
+               <w>aut</w>
+               <w>puellae</w>
+               <w>in</w>
+               <w>via</w>
+               <w>se</w>
+               <w>anteposuerit</w>
+               <w>aut</w>
+               <w>aliqua</w>
+               <w>iniuria</w>
+               <w>intulerit</w><reg>,</reg>
+               <w>noningentos</w>
+               <w>solidos</w>
+               <w>conponat</w><reg>,</reg>
+               <w>medietatem</w>
+               <w>regi</w>
+               <w>et</w>
+               <w>medietatem</w>
+               <w>cui</w>
+               <w>ipsa</w>
+               <w>iniuria</w>
+               <w>inlata</w>
+               <w>fuerit</w>
+               <w>aut</w>
+               <w>mundius</w>
+               <w>de</w>
+               <w>ea</w>
+               <w>pertenuerit</w><reg>.</reg></p>
+            <p><lb/><label n="27"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>homini</w>
+               <w>libero</w>
+               <w>viam</w>
+               <w>antesteterit</w><reg>,</reg>
+               <w>viginti</w>
+               <w>solidos</w>
+               <w>ei</w>
+               <w>conponat</w><reg>,</reg>
+               <w>sic</w>
+               <w>tamen</w><reg>,</reg>
+               <w>ut</w>
+               <w>aliquam</w>
+               <w>lesionem</w>
+               <w>in</w>
+               <w>carnem</w>
+               <w>ipsius</w>
+               <w>non</w>
+               <w>faciat</w><reg>;</reg>
+               <w>nam</w>
+               <w>si</w>
+               <w>fecirit</w><reg>,</reg>
+               <w>et</w>
+               <w>viginti</w>
+               <w>solidos</w>
+               <w>pro</w>
+               <w>eo</w><reg>,</reg>
+               <w>quod</w>
+               <w>antestetit</w><reg>,</reg>
+               <w>conponat</w><reg>,</reg>
+               <w>et</w>
+               <w>plagas</w>
+               <w>aut</w>
+               <w>feritas</w>
+               <w>si</w>
+               <w>ficerit</w><reg>,</reg>
+               <w>sicut</w>
+               <w>subter</w>
+               <w>in</w>
+               <w>hoc</w>
+               <w>edictum</w>
+               <w>adnexum</w>
+               <w>est</w><reg>,</reg>
+               <w>conponat</w><reg>.</reg></p>
+            <p><lb/><label n="28"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>servum</w>
+               <w>alienum</w>
+               <w>aut</w>
+               <w>ancillam</w>
+               <w>seu</w>
+               <w>aldium</w>
+               <w>aut</w>
+               <w>libertum</w>
+               <w>viam</w>
+               <w>antesteterit</w><reg>,</reg>
+               <w>viginti</w>
+               <w>solidos</w>
+               <w>domino</w>
+               <w>eius</w>
+               <w>conponat</w><reg>.</reg></p>
+            <p><lb/><label n="29"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>messem</w>
+               <w>suam</w>
+               <w>aut</w>
+               <w>pratum</w>
+               <w>seu</w>
+               <w>qualibet</w>
+               <w>clausura</w>
+               <w>vindicanda</w>
+               <w>homini</w>
+               <w>prohibuerit</w><reg>,</reg>
+               <w>id</w>
+               <w>est</w>
+               <w>antesteterit</w>
+               <w>ut</w>
+               <w>non</w>
+               <w>ingrediatur</w><reg>,</reg>
+               <w>non</w>
+               <w>sit</w>
+               <w>culpabiles</w>
+               <w>sicut</w>
+               <w>ille</w>
+               <w>qui</w>
+               <w>hominem</w>
+               <w>sempleciter</w>
+               <w>viam</w>
+               <w>ambolantem</w>
+               <w>antesteterit</w><reg>,</reg>
+               <w>eo</w>
+               <w>quod</w>
+               <w>laborem</w>
+               <w>suum</w>
+               <w>vindicavit</w><reg>.</reg></p>
+            <p><lb/><label n="30"><num><w>I</w></num><w>De</w>
+                  <term><w>marhworfin</w></term></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>hominem</w>
+               <w>liberum</w>
+               <w>de</w>
+               <w>cavallo</w>
+               <w>in</w>
+               <w>terra</w>
+               <w>iactaverit</w>
+               <w>per</w>
+               <w>quolibet</w>
+               <w>ingenio</w>
+               <w>iniquo</w>
+               <w>animo</w><reg>,</reg>
+               <w>octuginta</w>
+               <w>solidûs</w>
+               <w>ei</w>
+               <w>conponat</w><reg>;</reg>
+               <w>et</w>
+               <w>si</w>
+               <w>aliquam</w>
+               <w>lesionem</w>
+               <w>ei</w>
+               <w>fecerit</w><reg>,</reg>
+               <w>sicut</w>
+               <w>in</w>
+               <w>hoc</w>
+               <w>edictum</w>
+               <w>adnexum</w>
+               <w>est</w><reg>,</reg>
+               <w>conponat</w><reg>.</reg></p>
+            <p><lb/><label n="31"><num><w>I</w></num><w>De</w>
+                  <term><w>walupaus</w></term></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>homini</w>
+               <w>libero</w>
+               <w>violentia</w>
+               <w>iniuste</w>
+               <w>fecerit</w><reg>,</reg>
+               <w>id</w>
+               <w>est</w>
+               <w>walupaus</w><reg>,</reg>
+               <w>octugenta</w>
+               <w>solidos</w>
+               <w>ei</w>
+               <w>conponat</w><reg>.</reg>
+               <w>Walupaus</w>
+               <w>est</w><reg>,</reg>
+               <w>qui</w>
+               <w>se</w>
+               <w>furtim</w>
+               <w>vestimentum</w>
+               <w>alium</w>
+               <w>induerit</w>
+               <w>aut</w>
+               <w>se</w>
+               <w>caput</w>
+               <w>latrocinandi</w>
+               <w>animo</w>
+               <w>aut</w>
+               <w>faciem</w>
+               <w>transfiguraverit</w><reg>.</reg></p>
+            <p><lb/><label n="32"><num><w>I</w></num><w>De</w>
+                  <w>homine</w>
+                  <w>libero</w></label>
+               <w>Si</w>
+               <w>nocte</w>
+               <w>in</w>
+               <w>curte</w>
+               <w>alterius</w>
+               <w>inventus</w>
+               <w>fuerit</w>
+               <w>et</w>
+               <w>non</w>
+               <w>dans</w>
+               <w>manus</w>
+               <w>ad</w>
+               <w>legandum</w>
+               <w>occidatur</w><reg>,</reg>
+               <w>a</w>
+               <w>parentibus</w>
+               <w>non</w>
+               <w>requiratur</w><reg>.</reg>
+               <w>Et</w>
+               <w>si</w>
+               <w>manus</w>
+               <w>dederit</w>
+               <w>ad</w>
+               <w>legandum</w>
+               <w>se</w><reg>,</reg>
+               <w>et</w>
+               <w>legatus</w>
+               <w>fuerit</w><reg>,</reg>
+               <w>dit</w>
+               <w>pro</w>
+               <w>se</w>
+               <w>octuaginta</w>
+               <w>solidos</w><reg>:</reg>
+               <w>quia</w>
+               <w>non</w>
+               <w>convenit</w>
+               <w>rationi</w><reg>,</reg>
+               <w>ut</w>
+               <w>homo</w>
+               <w>noctis</w>
+               <w>tempore</w>
+               <w>in</w>
+               <w>curtem</w>
+               <w>alienam</w>
+               <w>silentium</w>
+               <w>aut</w>
+               <w>absconse</w>
+               <w>ingrediatur</w><reg>;</reg>
+               <w>sed</w>
+               <w>si</w>
+               <w>qualecumque</w>
+               <w>utilitatem</w>
+               <w>habet</w><reg>,</reg>
+               <w>antequam</w>
+               <w>ingrediatur</w><reg>,</reg>
+               <w>clamit</w><reg>.</reg></p>
+            <p><lb/><label n="33"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>servus</w>
+               <w>in</w>
+               <w>curte</w>
+               <w>aliena</w>
+               <w>noctis</w>
+               <w>tempore</w>
+               <w>inventus</w>
+               <w>fuerit</w>
+               <w>et</w>
+               <w>non</w>
+               <w>dans</w>
+               <w>manus</w>
+               <w>occidatur</w><reg>,</reg>
+               <w>non</w>
+               <w>requiratur</w>
+               <w>a</w>
+               <w>domino</w><reg>;</reg>
+               <w>et</w>
+               <w>si</w>
+               <w>manus</w>
+               <w>dederit</w>
+               <w>et</w>
+               <w>legatus</w>
+               <w>fuerit</w><reg>,</reg>
+               <w>liberet</w>
+               <w>se</w>
+               <w>cum</w>
+               <w>quadragenta</w>
+               <w>solidos</w><reg>.</reg></p>
+            <p><lb/><label n="34"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>in</w>
+               <w>curte</w>
+               <w>aliena</w>
+               <w>irato</w>
+               <w>animo</w>
+               <w>sagittaverit</w>
+               <w>aut</w>
+               <w>lancia</w>
+               <w>iactaverit</w>
+               <w>aut</w>
+               <w>de</w>
+               <w>foris</w>
+               <w>sepe</w>
+               <w>alium</w>
+               <w>plagaverit</w>
+               <w>intra</w>
+               <w>curtem</w><reg>,</reg>
+               <w>conponat</w>
+               <w>solidos</w>
+               <w>viginti</w><reg>;</reg>
+               <w>excepto</w>
+               <w>conpositionis</w>
+               <w>placarum</w>
+               <w>aut</w>
+               <w>feritas</w><reg>,</reg>
+               <w>si</w>
+               <w>fecerit</w><reg>:</reg>
+               <w>sicut</w>
+               <w>in</w>
+               <w>hoc</w>
+               <w>edictum</w>
+               <w>legitur</w><reg>,</reg>
+               <w>persolvat</w><reg>.</reg></p>
+            <p><lb/><label n="35"><num><w>I</w></num>
+                  <w>De</w>
+                  <w>scandalum</w></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>in</w>
+               <w>ecclesia</w>
+               <w>scandalum</w>
+               <w>penetraverit</w><reg>,</reg>
+               <w>quadragenta</w>
+               <w>solidos</w>
+               <w>ipsius</w>
+               <w>venerabilis</w>
+               <w>loci</w>
+               <w>sit</w>
+               <w>culpavelis</w><reg>,</reg>
+               <w>excepto</w>
+               <w>plagas</w>
+               <w>aut</w>
+               <w>feritas</w><reg>,</reg>
+               <w>cui</w>
+               <w>fecerit</w><reg>.</reg>
+               <w>Et</w>
+               <w>predicti</w>
+               <w>quadragenta</w>
+               <w>solidi</w>
+               <w>per</w>
+               <w>sculdhais</w>
+               <w>aut</w>
+               <w>iudicem</w><reg>,</reg>
+               <w>qui</w>
+               <w>in</w>
+               <w>loco</w>
+               <w>ordinatus</w>
+               <w>fuerit</w><reg>,</reg>
+               <w>exegantur</w>
+               <w>et</w>
+               <w>in</w>
+               <w>sacro</w>
+               <w>altario</w>
+               <w>ponantur</w><reg>,</reg>
+               <w>ubi</w>
+               <w>iniuria</w>
+               <w>facta</w>
+               <w>est</w><reg>.</reg></p>
+            <p><lb/><label n="36"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>intra</w>
+               <w>palatium</w>
+               <w>regis</w><reg>,</reg>
+               <w>ubi</w>
+               <w>rex</w>
+               <w>praesens</w>
+               <w>est</w><reg>,</reg>
+               <w>scandalum</w>
+               <w>penetrare</w>
+               <w>praesumpserit</w><reg>,</reg>
+               <w>animae</w>
+               <w>suae</w>
+               <w>incurrat</w>
+               <w>periculum</w><reg>,</reg>
+               <w>aut</w>
+               <w>redimat</w>
+               <w>anima</w>
+               <w>sua</w><reg>,</reg>
+               <w>si</w>
+               <w>optenere</w>
+               <w>potuerit</w>
+               <w>a</w>
+               <w>rege</w><reg>.</reg></p>
+            <p><lb/><label n="37"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>liber</w>
+               <w>homo</w>
+               <w>in</w>
+               <w>eadem</w>
+               <w>civitatem</w><reg>,</reg>
+               <w>ubi</w>
+               <w>rex</w>
+               <w>praesens</w>
+               <w>est</w>
+               <w>aut</w>
+               <w>tunc</w>
+               <w>invenitur</w>
+               <w>esse</w><reg>,</reg>
+               <w>scandalum</w>
+               <w>penetrare</w>
+               <w>praesumpserit</w><reg>,</reg>
+               <w>id</w>
+               <w>est</w><reg>,</reg>
+               <w>si</w>
+               <w>incitaverit</w>
+               <w>et</w>
+               <w>non</w>
+               <w>percusserit</w><reg>,</reg>
+               <w>sit</w>
+               <w>culpabiles</w>
+               <w>solidos</w>
+               <w>duodicem</w>
+               <w>in</w>
+               <w>palatium</w>
+               <w>regis</w><reg>.</reg>
+               <w>Nam</w>
+               <w>si</w>
+               <w>perfecerit</w>
+               <w>et</w>
+               <w>percusserit</w><reg>,</reg>
+               <w>sit</w>
+               <w>culpabiles</w>
+               <w>in</w>
+               <w>palatium</w>
+               <w>regis</w>
+               <w>solidos</w>
+               <w>viginti</w>
+               <w>et</w>
+               <w>quattuor</w><reg>;</reg>
+               <w>excepto</w>
+               <w>plagas</w>
+               <w>aut</w>
+               <w>feritas</w><reg>,</reg>
+               <w>si</w>
+               <w>fecerit</w><reg>,</reg>
+               <w>sicut</w>
+               <w>subter</w>
+               <w>adnexum</w>
+               <w>est</w><reg>,</reg>
+               <w>conponat</w><reg>.</reg></p>
+            <p><lb/><label n="38"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>servus</w>
+               <w>in</w>
+               <w>eadem</w>
+               <w>civitatem</w><reg>,</reg>
+               <w>in</w>
+               <w>qua</w>
+               <w>rex</w>
+               <w>tunc</w>
+               <w>invenitur</w>
+               <w>esse</w><reg>,</reg>
+               <w>scandalum</w>
+               <w>incitaverit</w><reg>,</reg>
+               <w>sit</w>
+               <w>culpabiles</w>
+               <w>in</w>
+               <w>palatio</w>
+               <w>regis</w>
+               <w>solidos</w>
+               <w>sex</w><reg>.</reg>
+               <w>Et</w>
+               <w>si</w>
+               <w>percusserit</w><reg>,</reg>
+               <w>sit</w>
+               <w>culpabilis</w>
+               <w>in</w>
+               <w>palatium</w>
+               <w>solidos</w>
+               <w>duodicem</w><reg>;</reg>
+               <w>excepto</w>
+               <w>feritas</w>
+               <w>aut</w>
+               <w>conpositiones</w>
+               <w>plagarum</w><reg>,</reg>
+               <w>sicut</w>
+               <w>in</w>
+               <w>hoc</w>
+               <w>edictum</w>
+               <w>legitur</w><reg>.</reg></p>
+            <p><lb/><label n="39"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>liber</w>
+               <w>homo</w>
+               <w>in</w>
+               <w>alia</w>
+               <w>civitatem</w>
+               <w>scandalum</w>
+               <w>incitare</w>
+               <w>praesumpserit</w>
+               <w>et</w>
+               <w>non</w>
+               <w>percusserit</w><reg>,</reg>
+               <w>sit</w>
+               <w>culpabiles</w>
+               <w>in</w>
+               <w>palatio</w>
+               <w>regis</w>
+               <w>solidos</w>
+               <w>sex</w><reg>.</reg>
+               <w>Si</w>
+               <w>autem</w>
+               <w>percusserit</w>
+               <w>aut</w>
+               <w>plagaverit</w><reg>,</reg>
+               <w>sit</w>
+               <w>culpabiles</w>
+               <w>in</w>
+               <w>palatium</w>
+               <w>regis</w>
+               <w>solidos</w>
+               <w>duodicem</w><reg>;</reg>
+               <w>excepto</w>
+               <w>conpositionem</w>
+               <w>plagarum</w>
+               <w>aut</w>
+               <w>feritas</w><reg>,</reg>
+               <w>si</w>
+               <w>fecerit</w><reg>,</reg>
+               <w>sicut</w>
+               <w>in</w>
+               <w>hoc</w>
+               <w>edictum</w>
+               <w>legitur</w><reg>,</reg>
+               <w>conponat</w><reg>.</reg></p>
+            <p><lb/><label n="40"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>servus</w>
+               <w>in</w>
+               <w>alia</w>
+               <w>civitatem</w>
+               <w>scandalum</w>
+               <w>conmiserit</w><reg>,</reg>
+               <w>sit</w>
+               <w>culpabiles</w>
+               <w>in</w>
+               <w>palatium</w>
+               <w>regis</w>
+               <w>solidos</w>
+               <w>tres</w><reg>;</reg>
+               <w>si</w>
+               <w>autem</w>
+               <w>plagas</w>
+               <w>aut</w>
+               <w>feritas</w>
+               <w>fecerit</w><reg>,</reg>
+               <w>sit</w>
+               <w>culpabiles</w>
+               <w>in</w>
+               <w>palatium</w>
+               <w>regis</w>
+               <w>solidos</w>
+               <w>sex</w><reg>;</reg>
+               <w>excepto</w>
+               <w>plagas</w>
+               <w>aut</w>
+               <w>feritas</w><reg>,</reg>
+               <w>cui</w>
+               <w>fecerit</w><reg>,</reg>
+               <w>conponat</w><reg>.</reg></p>
+            <p><lb/><label n="41"><num><w>I</w></num>
+                  <w>De</w>
+                  <w>homine</w>
+                  <w>libero</w>
+                  <w>battuto</w></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>homine</w>
+               <w>libero</w>
+               <w>insidiatus</w>
+               <w>fuerit</w>
+               <w>cum</w>
+               <w>virtute</w>
+               <w>aut</w>
+               <w>solatio</w><reg>,</reg>
+               <w>vedens</w>
+               <w>eum</w>
+               <w>inparatum</w>
+               <w>simpleciter</w>
+               <w>ambolantem</w>
+               <w>aut</w>
+               <w>stantem</w><reg>,</reg>
+               <w>subito</w>
+               <w>super</w>
+               <w>eum</w>
+               <w>adveniens</w><reg>,</reg>
+               <w>et</w>
+               <w>turpiter</w>
+               <w>eum</w>
+               <w>tenuerit</w>
+               <w>et</w>
+               <w>battuerit</w>
+               <w>sine</w>
+               <w>iussione</w>
+               <w>regis</w><reg>,</reg>
+               <w>medietatem</w>
+               <w>pretii</w>
+               <w>ipsius</w><reg>,</reg>
+               <w>ac</w>
+               <w>si</w>
+               <w>eum</w>
+               <w>occidissit</w><reg>,</reg>
+               <w>ei</w>
+               <w>conponat</w><reg>,</reg>
+               <w>eo</w>
+               <w>quod</w>
+               <w>in</w>
+               <w>turpe</w>
+               <w>et</w>
+               <w>in</w>
+               <w>derisiculum</w>
+               <w>ipsius</w>
+               <w>eum</w>
+               <w>male</w>
+               <w>tractavit</w><reg>.</reg></p>
+            <p><lb/><label n="42"><num><w>I</w></num>
+                  <w>De</w>
+                  <w>homine</w>
+                  <w>libero</w>
+                  <w>legato</w></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>hominem</w>
+               <w>liberum</w>
+               <w>legaverit</w>
+               <w>absque</w>
+               <w>iussionem</w>
+               <w>regis</w>
+               <w>sine</w>
+               <w>causa</w><reg>,</reg>
+               <w>duas</w>
+               <w>partis</w>
+               <w>praetii</w>
+               <w>ipsius</w><reg>,</reg>
+               <w>tamquam</w>
+               <w>si</w>
+               <w>eum</w>
+               <w>occidissit</w><reg>,</reg>
+               <w>ei</w>
+               <w>conponat</w><reg>.</reg></p>
+            <p><lb/><label n="43"><num><w>I</w></num>
+                  <w>De</w>
+                  <w>ferita</w>
+                  <w>aut</w>
+                  <w>percussura</w>
+                  <w>hominis</w>
+                  <w>liberi</w></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>hominem</w>
+               <w>liberum</w>
+               <w>subito</w>
+               <w>surgente</w>
+               <w>rexa</w>
+               <w>percusserit</w>
+               <w>et</w>
+               <w>liborem</w>
+               <w>aut</w>
+               <w>vulnus</w>
+               <w>fecerit</w><reg>,</reg>
+               <w>pro</w>
+               <w>una</w>
+               <w>ferita</w>
+               <w>conponat</w>
+               <w>ei</w>
+               <w>solidos</w>
+               <w>tres</w><reg>;</reg>
+               <w>si</w>
+               <w>duas</w>
+               <w>fecerit</w><reg>,</reg>
+               <w>solidos</w>
+               <w>sex</w><reg>;</reg>
+               <w>si</w>
+               <w>tres</w>
+               <w>fecerit</w><reg>,</reg>
+               <w>solidos</w>
+               <w>novem</w><reg>;</reg>
+               <w>si</w>
+               <w>quattuor</w>
+               <w>fecerit</w><reg>,</reg>
+               <w>solidos</w>
+               <w>duodicem</w><reg>;</reg>
+               <w>si</w>
+               <w>vero</w>
+               <w>amplius</w>
+               <w>duraverit</w><reg>,</reg>
+               <w>feritas</w>
+               <w>non</w>
+               <w>numerentur</w><reg>,</reg>
+               <w>et</w>
+               <w>sit</w>
+               <w>sibi</w>
+               <w>contemtus</w><reg>.</reg></p>
+            <p><lb/><label n="44"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>alium</w>
+               <w>pugno</w>
+               <w>percusserit</w><reg>,</reg>
+               <w>conponat</w>
+               <w>ei</w>
+               <w>solidos</w>
+               <w>tres</w><reg>;</reg>
+               <w>si</w>
+               <w>alapas</w><reg>,</reg>
+               <w>solid<am>.</am></w> <w>sex</w><reg>.</reg></p>
+            <p><lb/><label n="45"><num><w>I</w></num>
+                  <w>De</w>
+                  <w>feritas</w>
+                  <w>et</w>
+                  <w>conpositionis</w>
+                  <w>plagarum</w></label><reg>,</reg>
+               <w>quae</w>
+               <w>inter</w>
+               <w>hominis</w>
+               <w>liveros</w>
+               <w>eveniunt</w><reg>,</reg>
+               <w>per</w>
+               <w>hoc</w>
+               <w>tinorem</w><reg>,</reg>
+               <w>sicut</w>
+               <w>subter</w>
+               <w>adnexum</w>
+               <w>est</w><reg>,</reg>
+               <w>conponantur</w><reg>,</reg>
+               <w>cessantem</w>
+               <w>faida</w><reg>,</reg>
+               <w>hoc</w>
+               <w>est</w>
+               <w>inimicitia</w><reg>.</reg></p>
+            <p><lb/><label n="46"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>alii</w>
+               <w>plagam</w>
+               <w>in</w>
+               <w>caput</w>
+               <w>fecerit</w><reg>,</reg>
+               <w>ut</w>
+               <w>cutica</w>
+               <w>tantum</w>
+               <w>rumpatur</w><reg>,</reg>
+               <w>quod</w>
+               <w>capilli</w>
+               <w>cooperiunt</w><reg>,</reg>
+               <w>conponat</w>
+               <w>solidos</w>
+               <w>sex</w><reg>;</reg>
+               <w>si</w>
+               <w>duas</w>
+               <w>plagas</w>
+               <w>fecerit</w><reg>,</reg>
+               <w>conponat</w>
+               <w>solidos</w>
+               <w>duodicem</w><reg>;</reg>
+               <w>si</w>
+               <w>usque</w>
+               <w>tres</w>
+               <w>fuerint</w><reg>,</reg>
+               <w>conponat</w>
+               <w>solidos</w>
+               <w>decem</w>
+               <w>et</w>
+               <w>octo</w><reg>;</reg>
+               <w>si</w>
+               <w>vero</w>
+               <w>amplius</w>
+               <w>fuerint</w><reg>,</reg>
+               <w>non</w>
+               <w>numerentur</w><reg>,</reg>
+               <w>nisi</w>
+               <w>istas</w>
+               <w>tres</w>
+               <w>conponantur</w><reg>.</reg></p>
+            <p><lb/><label n="47"><num><w>I</w></num></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>alium</w>
+               <w>plagaverit</w>
+               <w>in</w>
+               <w>caput</w><reg>,</reg>
+               <w>ut</w>
+               <w>ossa</w>
+               <w>rumpantur</w><reg>,</reg>
+               <w>pro</w>
+               <w>uno</w>
+               <w>osso</w>
+               <w>conponat</w>
+               <w>solidos</w>
+               <w>duodicem</w><reg>;</reg>
+               <w>si</w>
+               <w>duo</w>
+               <w>fuerint</w><reg>,</reg>
+               <w>conponat</w>
+               <w>solidos</w>
+               <w>viginti</w>
+               <w>et</w>
+               <w>quattuor</w><reg>;</reg>
+               <w>si</w>
+               <w>tres</w>
+               <w>ossas</w>
+               <w>fuerint</w><reg>,</reg>
+               <w>conponat</w>
+               <w>solidos</w>
+               <w>trigenta</w>
+               <w>et</w>
+               <w>sex</w><reg>;</reg>
+               <w>si</w>
+               <w>super</w>
+               <w>fuerint</w><reg>,</reg>
+               <w>non</w>
+               <w>numerentur</w><reg>.</reg>
+               <w>Sic</w>
+               <w>ita</w><reg>,</reg>
+               <w>ut</w>
+               <w>unus</w>
+               <w>ossus</w>
+               <w>tales</w>
+               <w>inveniatur</w><reg>,</reg>
+               <w>qui</w>
+               <w>ad</w>
+               <w>pedes</w>
+               <w>duodicem</w>
+               <w>supra</w>
+               <w>viam</w>
+               <w>sonum</w>
+               <w>in</w>
+               <w>scutum</w>
+               <w>facere</w>
+               <w>possit</w><reg>,</reg>
+               <w>et</w>
+               <w>ipsa</w>
+               <w>mensura</w>
+               <w>de</w>
+               <w>certo</w>
+               <w>pede</w>
+               <w>hominis</w>
+               <w>mediocris</w>
+               <w>mensuretur</w><reg>,</reg>
+               <w>nam</w>
+               <w>non</w>
+               <w>ad</w>
+               <w>manum</w><reg>.</reg></p>
+            <p><lb/><label n="48"><num><w>I</w></num>
+                  <w>De</w>
+                  <w>oculo</w>
+                  <w>evulso</w></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>alii</w>
+               <w>oculum</w>
+               <w>excusserit</w><reg>,</reg>
+               <w>pro</w>
+               <w>mortuum</w>
+               <w>adpretietur</w><reg>,</reg>
+               <w>qualiter</w>
+               <w>in</w>
+               <w>angargathungi</w><reg>,</reg>
+               <w>id</w>
+               <w>est</w>
+               <w>secundum</w>
+               <w>qualitatem</w>
+               <w>personae</w><reg>;</reg>
+               <w>et</w>
+               <w>medietas</w>
+               <w>praetii</w>
+               <w>ipsius</w>
+               <w>conponatur</w>
+               <w>ab</w>
+               <w>ipsum</w><reg>,</reg>
+               <w>qui</w>
+               <w>oculum</w>
+               <w>excusserit</w><reg>.</reg></p>
+            <p><lb/><label n="49"><num><w>I</w></num>
+                  <w>De</w>
+                  <w>naso</w>
+                  <w>absciso</w></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>alii</w>
+               <w>nasum</w>
+               <w>absciderit</w><reg>,</reg>
+               <w>medietatem</w>
+               <w>pretii</w>
+               <w>ipsius</w>
+               <w>conponat</w><reg>,</reg>
+               <w>ut</w>
+               <w>supra</w><reg>.</reg></p>
+            <p><lb/><label n="50"><num><w>I</w></num>
+                  <w>De</w>
+                  <w>labro</w>
+                  <w>absciso</w></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>alii</w>
+               <w>labrum</w>
+               <w>absciderit</w><reg>,</reg>
+               <w>conponat</w>
+               <w>solidos</w>
+               <w>sedicem</w><reg>,</reg>
+               <w>et</w>
+               <w>si</w>
+               <w>dentes</w>
+               <w>apparuerint</w>
+               <w>unus</w>
+               <w>duo</w>
+               <w>aut</w>
+               <w>tres</w><reg>,</reg>
+               <w>conponat</w>
+               <w>solidos</w>
+               <w>viginti</w><reg>.</reg></p>
+            <p><lb/><label n="51"><num><w>I</w></num>
+                  <w>De</w>
+                  <w>dentes</w>
+                  <w>priores</w></label>
+               <w>Si</w>
+               <w>quis</w>
+               <w>alii</w>
+               <w>dentem</w>
+               <w>excusserit</w><reg>,</reg>
+               <w>qui</w>
+               <w>in</w>
+               <w>riso</w>
+               <w>apparit</w><reg>,</reg>
+               <w>pro</w>
+               <w>uno</w>
+               <w>dentem</w>
+               <w>dit</w>
+               <w>solidos</w>
+               <w>sidicem</w><reg>;</reg>
+               <w>si</w>
+               <w>duo</w>
+               <w>aut</w>
+               <w>amplius</w>
+               <w>fuerint</w>
+               <w>in</w>
+               <w>risu</w>
+               <w>apparentis</w><reg>,</reg>
+               <w>per</w>
+               <w>hoc</w>
+               <w>numero</w>
+               <w>conponantur</w>
+               <w>et</w>
+               <w>adpretietur</w><reg>.</reg></p>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

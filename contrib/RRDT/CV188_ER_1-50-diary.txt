@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+
+[2016-12-01]
+
+Note generali: v. note marcatura
+
+	18v
+
+-	marcatura più appropriata per abbreviazioni iniziali e prime tre righe del primo capitolo
+-	in particolare per queste ultime uso di maiuscole: basta specificare rend="cap"?
+
+
+	19r
+	
+1	segno inchiostro (cancellatura? p.p.?) a inizio riga
+	ab: a danneggiata
+10	eius: ligature us
+17	periculum: u finale fuori spazio scrittura?
+
+	19v
+
+2	segni sopra exercitum? nota che manca del testo (est a rege ad)
+7	anstallin: aggiunta i con segno strano, correzione
+
+
+
