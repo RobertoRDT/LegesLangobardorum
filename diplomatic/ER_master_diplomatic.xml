@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>The Edictus Rothari: a diplomatic and interpretative edition of two manuscripts</title>
+                <principal>Marina Buzzoni</principal>
+                <principal>Roberto Rosselli Del Turco</principal>
+                <respStmt>
+                    <resp>Encoding in TEI-conformant markup: </resp>
+                    <name>Roberto Rosselli Del Turco</name>
+                    <name>Marianna Giardina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General overview: </resp>
+                    <name>Roberto Rosselli Del Turco</name>
+                    <name>Marina Buzzoni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Experimental EVT edition: </resp>
+                    <name>Roberto Rosselli Del Turco</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+            <edition>Previous editions</edition>
+            <respStmt xml:id="azzara">
+               <resp>Editor</resp>
+               <name ref="#Azzara1992">Azzara-Gasparri</name>
+            </respStmt>
+            <respStmt xml:id="beyerle">
+               <resp>Editor</resp>
+               <name ref="#Beyerle1962a">Beyerle</name>
+            </respStmt>
+            <respStmt xml:id="bluhme">
+               <resp>Editor</resp>
+               <name ref="#Bluhme1868">Beyerle</name>
+            </respStmt>
+         </editionStmt>
+
+         <extent>[??] kilobytes</extent>
+            
+            <publicationStmt>
+                <authority>Leges Langobardorum Project</authority>
+                <date>2014-</date>
+                <availability>
+                    <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+
+                <msDesc xml:id="CE34">
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Ivrea</settlement>
+                        <repository>Biblioteca Capitolare di Ivrea</repository>
+                        <idno>34</idno>
+                    </msIdentifier>
+
+                </msDesc>
+                <msDesc xml:id="CV188">
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Vercelli</settlement>
+                        <repository>Biblioteca e Archivio Capitolare di Vercelli</repository>
+                        <idno>CLXXXVIII</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="lat">The primary language in this manuscript is Latin, with a few isolated
+                            Langobardic words.</textLang>
+                        
+                        <!-- fill in the MS sections as <msItem>s -->
+
+                        <msItem>
+                            <locus from="1r" to="9r">1r - 9r</locus>
+                            <title type="work">Homily I</title>
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="book">
+                            <supportDesc material="parchment">
+                                <extent>
+                                    <measure type="leaves">The codex is composed by ff. III (paper, modern); 169 (of which 5
+                                        where added in the IX c.); II (paper, XIX c.); III (paper, modern).
+                                    </measure>
+                                    <measure type="dimensions">Ca. 250 x 180 mm.</measure>
+                                    <measure type="lines">21-23 lines of text per page.</measure>
+                                </extent>
+                                <collation>
+                                    <p>
+                                        <formula>...</formula>
+                                        <signatures>...</signatures>
+                                        <catchwords>None</catchwords>
+                                        Quires begin on fols. 1(1), [...] </p>
+                                </collation>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    
+                </msDesc>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="unknown" method="silent">
+                    <p/>
+                </correction>
+                <normalization method="silent">
+                    <p/>
+                </normalization>
+                <segmentation>
+                    <p/>
+                </segmentation>
+                <hyphenation eol="all">
+                    <p>Physical line breaks are rigidly observed.</p>
+                </hyphenation>
+            </editorialDecl>
+            
+            <charDecl>
+
+                <!-- regular letters -->
+
+                <char xml:id="ucap">
+                    <charName>LATIN CAPITAL LETTER U</charName>
+                    <mapping type="codepoint">U+0055</mapping>
+                    <mapping type="diplomatic">U</mapping>
+                    <mapping type="normalized">U</mapping>
+                </char>
+
+                <char xml:id="vcap">
+                    <charName>LATIN CAPITAL LETTER V</charName>
+                    <mapping type="codepoint">U+0056</mapping>
+                    <mapping type="diplomatic">V</mapping>
+                    <mapping type="normalized">V</mapping>
+                </char>
+
+                <char xml:id="u">
+                    <charName>LATIN SMALL LETTER U</charName>
+                    <mapping type="codepoint">U+0075</mapping>
+                    <mapping type="diplomatic">u</mapping>
+                    <mapping type="normalized">u</mapping>
+                </char>
+
+                <char xml:id="v">
+                    <charName>LATIN SMALL LETTER V</charName>
+                    <mapping type="codepoint">U+0076</mapping>
+                    <mapping type="diplomatic">v</mapping>
+                    <mapping type="normalized">v</mapping>
+                </char>
+
+                <!-- variant forms -->
+
+                <char xml:id="romnumsix">
+                    <charName>ROMAN NUMERAL SIX LATE FORM</charName>
+                    <mapping subtype="MUFI-PUA" type="codepoint">U+EEFD</mapping>
+                    <mapping type="diplomatic">ↅ</mapping>
+                    <mapping type="normalized">ↅ</mapping>
+                </char>
+
+                <char xml:id="ltailstrok">
+                    <charName>LATIN SMALL LETTER LUM</charName>
+                    <mapping type="codepoint">A772</mapping>
+                    <mapping type="diplomatic">ꝲ</mapping>
+                    <mapping type="normalized">l</mapping>
+                </char>
+
+                <char xml:id="amacr">
+                    <charName>LATIN SMALL LETTER A WITH MACRON</charName>
+                    <mapping type="codepoint">U+0101</mapping>
+                    <mapping type="diplomatic">ā</mapping>
+                    <mapping type="normalized">a</mapping>
+                </char>
+                <char xml:id="emacr">
+                    <charName>LATIN SMALL LETTER E WITH MACRON</charName>
+                    <mapping type="codepoint">U+0113</mapping>
+                    <mapping type="diplomatic">ē</mapping>
+                    <mapping type="normalized">e</mapping>
+                </char>
+                <char xml:id="imacr">
+                    <charName>LATIN SMALL LETTER I WITH MACRON</charName>
+                    <mapping type="codepoint">U+012B</mapping>
+                    <mapping type="diplomatic">ī</mapping>
+                    <mapping type="normalized">i</mapping>
+                </char>
+                <char xml:id="omacr">
+                    <charName>LATIN SMALL LETTER O WITH MACRON</charName>
+                    <mapping type="codepoint">U+014D</mapping>
+                    <mapping type="diplomatic">ō</mapping>
+                    <mapping type="normalized">o</mapping>
+                </char>
+                <char xml:id="umacr">
+                    <charName>LATIN SMALL LETTER U WITH MACRON</charName>
+                    <mapping type="codepoint">U+016B</mapping>
+                    <mapping type="diplomatic">ū</mapping>
+                    <mapping type="normalized">u</mapping>
+                </char>
+                <char xml:id="ymacr">
+                    <!-- VBD entity: ytilde -->
+                    <charName>LATIN SMALL LETTER Y WITH MACRON</charName>
+                    <mapping type="codepoint">U+0233</mapping>
+                    <mapping type="diplomatic">ȳ</mapping>
+                    <mapping type="normalized">y</mapping>
+                </char>
+
+                <char xml:id="ntilde">
+                    <charName>LATIN SMALL LETTER N WITH TILDE</charName>
+                    <mapping type="codepoint">00F1</mapping>
+                    <mapping type="diplomatic">ñ</mapping>
+                    <mapping type="normalized">n</mapping>
+                </char>
+
+                <char xml:id="qtilde">
+                    <!-- VBD entity: ytilde -->
+                    <charName>LATIN SMALL LETTER Q WITH TILDE</charName>
+                    <mapping type="codepoint">U+0071 + U+0303</mapping>
+                    <mapping type="diplomatic">q̃</mapping>
+                    <mapping type="normalized">q</mapping>
+                </char>
+
+                <!-- ligatures -->
+
+                <glyph xml:id="uslig">
+                    <glyphName>LATIN SMALL LIGATURE US</glyphName>
+                    <mapping type="ligature">U+0075 + U+017F</mapping>
+                    <mapping type="diplomatic">us</mapping>
+                    <mapping type="normalized">us</mapping>
+                </glyph>
+
+                <!-- pucntuation -->
+
+                <char xml:id="ductsimpl">
+                    <charName>HIGH COMMA POSITURA (SIMPLEX DUCTUS)</charName>
+                    <mapping type="codepoint">U+F1E3</mapping>
+                    <mapping type="diplomatic"></mapping>
+                    <mapping type="normalized">:</mapping>
+                </char>
+
+                <char xml:id="colmidcomposit">
+                    <charName>COLON WITH MIDDLE COMMA POSITURA</charName>
+                    <mapping subtype="MUFI-PUA" type="codepoint">U+F1E5</mapping>
+                    <mapping type="diplomatic"></mapping>
+                    <!--<mapping type="normalized"></mapping>-->
+                </char>
+
+                <char xml:id="middot">
+                    <charName>MIDDLE DOT</charName>
+                    <mapping type="codepoint">U+00B7</mapping>
+                    <mapping type="diplomatic">·</mapping>
+                    <!--<mapping type="normalized"></mapping>-->
+                </char>
+
+                <char xml:id="hidot">
+                    <charName>DISTINCTIO</charName>
+                    <mapping subtype="MUFI-PUA" type="codepoint">U+F1F8</mapping>
+                    <mapping type="diplomatic"></mapping>
+                    <!--<mapping type="normalized"></mapping>-->
+                </char>
+
+            </charDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">Latin</language>
+                <language ident="lng">Langobardic</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc status="draft">
+            <change status="draft" when="2016-12" who="RRDT">Separate teiHeader file to accomodate manuscript
+                description, character declaration and more.</change>
+        </revisionDesc>
+        
+    </teiHeader>   
+    
+    <text>
+        <body>
+             <p></p>
+        </body>
+        
+        <back>
+            
+            <div type="biblCompleta">
+                <listBibl>
+
+                    <biblStruct type="book" xml:id="Azzara1992">
+                        <monogr>
+                            <title level="m">Le Leggi dei Longobardi: storia, memoria e diritto di un popolo
+                                germanico</title>
+                            <title type="short">Le Leggi dei Longobardi</title>
+                            <idno type="ISBN">88-86156-00-6 978-88-86156-00-4</idno>
+                            <author><forename>Claudio</forename><surname>Azzara</surname></author>
+                            <author><forename>Stefano</forename><surname>Gasparri</surname></author>
+                            <imprint>
+                                <pubPlace>Milano</pubPlace>
+                                <publisher>Editrice La Storia</publisher>
+                                <date>1992</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct type="book" xml:id="Azzara2005">
+                        <monogr>
+                            <title level="m">Le leggi dei Longobardi: storia, memoria e diritto di un popolo
+                                germanico</title>
+                            <title type="short">Le leggi dei Longobardi</title>
+                            <idno type="ISBN">88-8334-099-X</idno>
+                            <editor><forename>Claudio</forename><surname>Azzara</surname></editor>
+                            <editor><forename>Stefano</forename><surname>Gasparri</surname></editor>
+                            <edition>2. ed</edition>
+                            <imprint>
+                                <pubPlace>Roma</pubPlace>
+                                <publisher>Viella</publisher>
+                                <date>2005</date>
+                            </imprint>
+                        </monogr>
+                        <series><title level="s">Altomedioevo</title><biblScope unit="volume">4</biblScope></series>
+                    </biblStruct>
+
+                    <biblStruct type="book" xml:id="Beyerle1962a">
+                        <monogr>
+                            <title level="m">Leges langobardorum: 643-866</title>
+                            <title type="short">Leges langobardorum</title>
+                            <author><forename>Franz</forename><surname>Beyerle</surname></author>
+                            <imprint>
+                                <pubPlace>Witzenhausen</pubPlace>
+                                <publisher>Deutschrechtlicher Instituts-Verlag</publisher>
+                                <date>1962</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct type="book" xml:id="Beyerle1962c">
+                        <monogr>
+                            <title level="m">Edictus Rothari</title>
+                            <author><forename>Franz</forename><surname>Beyerle</surname></author>
+                            <imprint>
+                                <pubPlace>Witzenhausen</pubPlace>
+                                <publisher>Deutschrechtl. Inst.-Verl</publisher>
+                                <date>1962</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    
+                    <biblStruct type="book" xml:id="Bluhme1868">
+                        <monogr>
+                            <title level="m">[Leges Langobardorum]</title>
+                            <author><forename>Friedrich</forename><surname>Bluhme</surname></author>
+                            <author><forename>Alfred</forename><surname>Boretius</surname></author>
+                            <imprint>
+                                <pubPlace>Hannover</pubPlace>
+                                <publisher>Hahn</publisher>
+                                <date>1868</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                </listBibl>
+            </div>
+
+        </back>
+
+    </text>
+
+</TEI>
+

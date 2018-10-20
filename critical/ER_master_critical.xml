@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>The Edictus Rothari: a new critical edition based on select manuscripts</title>
+                <principal>Marina Buzzoni</principal>
+                <principal>Roberto Rosselli Del Turco</principal>
+                <respStmt>
+                    <resp>Encoding in TEI-conformant markup: </resp>
+                    <name>Roberto Rosselli Del Turco</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General overview: </resp>
+                    <name>Roberto Rosselli Del Turco</name>
+                    <name>Marina Buzzoni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Experimental EVT edition: </resp>
+                    <name>Roberto Rosselli Del Turco</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+            <edition>Previous editions</edition>
+            <respStmt xml:id="azzara">
+               <resp>Editor</resp>
+               <name ref="#Azzara1992">Azzara-Gasparri</name>
+            </respStmt>
+            <respStmt xml:id="beyerle">
+               <resp>Editor</resp>
+               <name ref="#Beyerle1962a">Beyerle</name>
+            </respStmt>
+            <respStmt xml:id="bluhme">
+               <resp>Editor</resp>
+               <name ref="#Bluhme1868">Beyerle</name>
+            </respStmt>
+         </editionStmt>
+
+         <extent>[??] kilobytes</extent>
+            
+            <publicationStmt>
+                <authority>Leges Langobardorum Project</authority>
+                <date>2014-</date>
+                <availability>
+                    <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <listWit>
+                    
+                    <head>Lista di tutti i testimoni</head>
+                    
+                    <listWit xml:id="main">
+
+                        <witness xml:id="B1">Codex Sangallensis 730</witness>
+
+                        <witness xml:id="B2">Codex Vercellensis CLXXXVIII</witness>
+                        
+                        <witness xml:id="B3">Codex Eporedianus XXXIV</witness>
+                        
+                        <witness xml:id="B4">Codex Helmstadiensis (now Guelferbytanus 532: Wolfenbüttel, Herzog August Bibliothek, Helmst. 532)</witness>
+                        
+                        <witness xml:id="B5">Codex Vaticanus: Roma, Biblioteca Apostolica Vaticana, Vat. Lat. 5359</witness>
+                        
+                        <witness xml:id="B6">Codex Blankenburgensis 52 (now Guelferbytanus 130: Wolfenbüttel, Herzog August Bibliothek, Blankenb. 130)</witness>
+                        
+                        <witness xml:id="B7">Codex Parisiacus Latinus 4613: Parigi, Bibliothèque Nationale, Lat. 4613</witness>
+                        
+                        <witness xml:id="B8">Codex Matritensis 413: Madrid, Biblioteca Nacional, 413</witness>
+                        
+                        <witness xml:id="B9">Codex Cavensis: Cava dei Tirreni, Biblioteca della Badia, 4</witness>
+                        
+                        <witness xml:id="B10">Codex Parisiacus Latinus 4614: Parigi, Bibliothèque Nationale, Lat. 4614</witness>
+                        
+                        <witness xml:id="B11">Codex Gothanus 84: Gotha, Forschungs- und Landesbibliothek, Memb. I 84</witness>
+                        
+                        <witness xml:id="B12">Codex Heroldinus</witness>
+                        
+                    </listWit>
+                    
+                    <listWit xml:id="fragments">
+
+                        <witness xml:id="Mo">Modena, Biblioteca Capitolare, O.I.2</witness>
+
+                        <witness xml:id="S">St. Paul im Lavanttal (Austria), Archiv des Benediktinerstiftes
+                            4/1</witness>
+
+                        <witness xml:id="V">Vercelli, Archivio e Biblioteca Capitolare CXXII</witness>
+
+                        <witness xml:id="A">Frammento di Assisi: Archivio della Cattedrale, framm. fasc. I, n.
+                            3.6</witness>
+
+                        <witness xml:id="Mc">Frammenti di Montecassino: Archivio dell’Abbazia, n. 90; n. 175</witness>
+
+                        <witness xml:id="M10">Frammento di Monaco: Bayerische Staatsbibliothek, Lat. 5260</witness>
+
+                        <witness xml:id="M11">Frammento di Monaco: Bayerische Staatsbibliothek, Lat. 3519</witness>
+
+                        <witness xml:id="V5">Frammento di Roma: Biblioteca Vaticana, Chigi F. IV. 75</witness>
+
+                        <witness xml:id="V1">Frammento di Roma: Vat. Lat. 1468</witness>
+
+                        <witness xml:id="V2">Frammento di Roma: Vat. Lat. 5001</witness>
+
+                        <witness xml:id="Sz1">Frammento di Salisburgo: Erzabtei St. Peter, framm. 20</witness>
+
+                        <witness xml:id="Sz2">Frammento di Salisburgo: a.IX.32</witness>
+
+                        <witness xml:id="M">Frammento di Münster (Universitätsbibliothek, “Privatbesitz Siewert”</witness>
+
+                    </listWit>
+
+                    <listWit xml:id="editions">
+                        
+                        <witness xml:id="AG">Azzara-Gasparri 2005</witness>
+                        
+                        <witness xml:id="Be">Beyerle 1947</witness>
+
+                        <witness xml:id="Bl">Bluhme 1868</witness>
+
+                    </listWit>
+                </listWit>
+
+                <msDesc xml:id="CE34">
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Ivrea</settlement>
+                        <repository>Biblioteca Capitolare di Ivrea</repository>
+                        <idno>34</idno>
+                    </msIdentifier>
+                </msDesc>
+
+                <msDesc xml:id="CV188">
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Vercelli</settlement>
+                        <repository>Biblioteca e Archivio Capitolare di Vercelli</repository>
+                        <idno>CLXXXVIII</idno>
+                    </msIdentifier>
+                </msDesc>
+
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction method="silent">
+                    <p/>
+                </correction>
+                <normalization method="silent">
+                    <p/>
+                </normalization>
+                <segmentation>
+                    <p/>
+                </segmentation>
+                <hyphenation eol="all">
+                    <p>Physical line breaks are rigidly observed.</p>
+                </hyphenation>
+            </editorialDecl>
+            
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">Latin</language>
+                <language ident="lng">Langobardic</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2017-05" who="RRDT">Separate teiHeader file to accomodate the critical edition version.</change>
+            <change when="2016-12" who="RRDT">Separate teiHeader file to accomodate manuscript
+                description, character declaration and more.</change>
+        </revisionDesc>
+        
+    </teiHeader>   
+    
+    <text>
+        <body>
+             <p></p>
+        </body>
+        
+        <back>
+            
+            <div type="biblCompleta">
+                <listBibl>
+
+                    <biblStruct type="book" xml:id="Azzara1992">
+                        <monogr>
+                            <title level="m">Le Leggi dei Longobardi: storia, memoria e diritto di un popolo
+                                germanico</title>
+                            <title type="short">Le Leggi dei Longobardi</title>
+                            <idno type="ISBN">88-86156-00-6 978-88-86156-00-4</idno>
+                            <author><forename>Claudio</forename><surname>Azzara</surname></author>
+                            <author><forename>Stefano</forename><surname>Gasparri</surname></author>
+                            <imprint>
+                                <pubPlace>Milano</pubPlace>
+                                <publisher>Editrice La Storia</publisher>
+                                <date>1992</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct type="book" xml:id="Azzara2005">
+                        <monogr>
+                            <title level="m">Le leggi dei Longobardi: storia, memoria e diritto di un popolo
+                                germanico</title>
+                            <title type="short">Le leggi dei Longobardi</title>
+                            <idno type="ISBN">88-8334-099-X</idno>
+                            <editor><forename>Claudio</forename><surname>Azzara</surname></editor>
+                            <editor><forename>Stefano</forename><surname>Gasparri</surname></editor>
+                            <edition>2. ed</edition>
+                            <imprint>
+                                <pubPlace>Roma</pubPlace>
+                                <publisher>Viella</publisher>
+                                <date>2005</date>
+                            </imprint>
+                        </monogr>
+                        <series><title level="s">Altomedioevo</title><biblScope unit="volume">4</biblScope></series>
+                    </biblStruct>
+
+                    <biblStruct type="book" xml:id="Beyerle1962a">
+                        <monogr>
+                            <title level="m">Leges langobardorum: 643-866</title>
+                            <title type="short">Leges langobardorum</title>
+                            <author><forename>Franz</forename><surname>Beyerle</surname></author>
+                            <imprint>
+                                <pubPlace>Witzenhausen</pubPlace>
+                                <publisher>Deutschrechtlicher Instituts-Verlag</publisher>
+                                <date>1962</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct type="book" xml:id="Beyerle1962c">
+                        <monogr>
+                            <title level="m">Edictus Rothari</title>
+                            <author><forename>Franz</forename><surname>Beyerle</surname></author>
+                            <imprint>
+                                <pubPlace>Witzenhausen</pubPlace>
+                                <publisher>Deutschrechtl. Inst.-Verl</publisher>
+                                <date>1962</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    
+                    <biblStruct type="book" xml:id="Bluhme1868">
+                        <monogr>
+                            <title level="m">[Leges Langobardorum]</title>
+                            <author><forename>Friedrich</forename><surname>Bluhme</surname></author>
+                            <author><forename>Alfred</forename><surname>Boretius</surname></author>
+                            <imprint>
+                                <pubPlace>Hannover</pubPlace>
+                                <publisher>Hahn</publisher>
+                                <date>1868</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                </listBibl>
+            </div>
+
+        </back>
+
+    </text>
+
+</TEI>
+
