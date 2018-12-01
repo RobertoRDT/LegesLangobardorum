@@ -1,0 +1,75 @@
+59r
+19
+<g ref="#fourdot"/>
+
+75r
+09
+<w>sup</w> --> expan sup(er) - p with diagonal stroke
+
+77v
+17
+<w>reddat-ur</w> --> legatura ur 
+                    
+78r --> pagina interamente aggiunta
+
+78r --> & per et in quasi tutto il folio - aggiungere char AMPERSAND?? in alcuni casi il carattere sembra differente
+
+78r
+02
+<w>et</w> ligature et??
+
+78r
+03
+<w>aliqt</w> q with stroke --> aliquit - abbr expan sic corr?
+
+78r
+07
+<w>abet</w> --> AMPERSAND
+
+78r
+18
+<label><num><w>CCLX<damage/>XII</w></num></label> --> errore di numerazione?
+
+78r
+22
+<w>csilio</w> cmacr --> consilio
+
+<w>rustican-orum?</w> --> legatura?
+
+<w>csiliu</w>  aggiungere char cmacr --> consilius
+
+78r
+22
+<w>rustican-orum?</w> verificare carattere
+
+78r
+23
+<w>nri</w> aggiungere char rmacr --> nostri
+
+78r
+27
+<w>rusticano-rum?</w> --> verificare carattere particolare per rum
+
+<w>p</w> --> per
+
+<w>csiliu</w>  cmacr --> concilios
+
+
+78r
+36
+<w>defendensanetur-us</w> --> usmod, verificare!
+
+78r
+37
+errore numerazione??
+<label><num><w>CC<lb xml:id="CV188_lb_078r_37" n="37"/>LXXVIIII</w></num></label>
+
+78v --> pagina bianca
+
+79r
+06
+scandolam -scindolam --> <!--tilde with dot above -->
+
+79v
+12
+ <w>sup</w> --> p with diagonal stroke
