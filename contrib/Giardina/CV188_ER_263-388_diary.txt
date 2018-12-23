@@ -54,7 +54,6 @@
 
 <w>csiliu</w>  cmacr --> concilios
 
-
 78r
 36
 <w>defendensanetur-us</w> --> usmod, verificare!
@@ -73,3 +72,57 @@ scandolam -scindolam --> <!--tilde with dot above -->
 79v
 12
  <w>sup</w> --> p with diagonal stroke
+
+85r
+06
+<w>requirat-ur</w> --> legatura ur 
+
+85r
+08
+<w>aut</w> --> legatura ut
+
+87r
+15
+<w>pro<c corresp="#v">u</c>i
+<lb xml:id="CV188_lb_087r_15" n="15"/>cia</w> <!--tilde with dot above -->
+
+88v
+11
+ <w>pro</w> --> p with diagonal stroke
+
+
+88v
+13
+<w>con<lb xml:id="CV188_lb_088v_14" n="14"/>sueto</w> <!--tilde with dot above -->
+
+88v
+14
+<w>non</w> <!--tilde with dot above -->
+
+90r
+06
+ <w>per</w> --> p with diagonal stroke
+
+91r
+04
+<w>conpotetur</w> <!--tilde with dot above -->
+
+091r
+06
+<w>repotetur</w>  --> legatura ur 
+
+091r
+07
+<w>super</w> --> p with diagonal stroke
+
+91v
+18
+<w>tantum</w> <!--tilde with dot above -->
+
+92r
+11
+<w>eterantibus</w> <!--tilde with dot above -->
+
+92r
+17
+<w>defendere</w> <!--tilde with dot above -->
