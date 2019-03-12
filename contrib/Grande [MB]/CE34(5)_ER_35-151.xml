@@ -1,0 +1,1698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "TEI-ALIM-Lite.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edizione digitale di: <title>Edctum Rothari</title></title>
+                <author>Marianna Grande</author>
+                <respStmt>
+                    <resp>Trascrizione diplomatica a cura di</resp>
+                    <name>Omar Khalaf</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edizione in formato TEI XML a cura di</resp>
+                    <name>Marina Buzzoni</name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words" quantity="159530">Parole: 159530</measure>
+                <measure unit="characters_without_spaces" quantity="941396">Caratteri (spazi esclusi): 941396</measure>
+            </extent>
+              <publicationStmt>
+                <publisher>
+                    <ref target="http://www.alim.dfll.univr.it/">ALIM</ref>
+                </publisher>
+                <date when="2013-10-20">20/10/2013</date>
+                <availability>
+                    <p>Copyright 2006- progetto ALIM</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msTest></msTest>??????
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <charDecl>
+                <!-- regular letters -->
+                <char xml:id="ucap">
+                    <charName>LATIN CAPITAL LETTER U</charName>
+                    <mapping type="codepoint">U+0055</mapping>
+                    <mapping type="diplomatic">U</mapping>
+                    <mapping type="normalized">U</mapping>
+                </char>
+                <char xml:id="vcap">
+                    <charName>LATIN CAPITAL LETTER V</charName>
+                    <mapping type="codepoint">U+0056</mapping>
+                    <mapping type="diplomatic">V</mapping>
+                    <mapping type="normalized">V</mapping>
+                </char>
+                <char xml:id="u">
+                    <charName>LATIN SMALL LETTER U</charName>
+                    <mapping type="codepoint">U+0075</mapping>
+                    <mapping type="diplomatic">u</mapping>
+                    <mapping type="normalized">u</mapping>
+                </char>
+                <char xml:id="v">
+                    <charName>LATIN SMALL LETTER V</charName>
+                    <mapping type="codepoint">U+0076</mapping>
+                    <mapping type="diplomatic">v</mapping>
+                    <mapping type="normalized">v</mapping>
+                </char>
+                <!-- variant forms -->
+                <char xml:id="romnumsix">
+                    <charName>ROMAN NUMERAL SIX LATE FORM</charName>
+                    <mapping subtype="MUFI-PUA" type="codepoint">U+EEFD</mapping>
+                    <mapping type="diplomatic">ↅ</mapping>
+                    <mapping type="normalized">ↅ</mapping>
+                </char>
+                <char xml:id="amacr">
+                    <charName>LATIN SMALL LETTER A WITH MACRON</charName>
+                    <mapping type="codepoint">U+0101</mapping>
+                    <mapping type="diplomatic">ā</mapping>
+                    <mapping type="normalized">a</mapping>
+                </char>
+                <char xml:id="emacr">
+                    <charName>LATIN SMALL LETTER E WITH MACRON</charName>
+                    <mapping type="codepoint">U+0113</mapping>
+                    <mapping type="diplomatic">ē</mapping>
+                    <mapping type="normalized">e</mapping>
+                </char>
+                <char xml:id="imacr">
+                    <charName>LATIN SMALL LETTER I WITH MACRON</charName>
+                    <mapping type="codepoint">U+012B</mapping>
+                    <mapping type="diplomatic">ī</mapping>
+                    <mapping type="normalized">i</mapping>
+                </char>
+                <char xml:id="omacr">
+                    <charName>LATIN SMALL LETTER O WITH MACRON</charName>
+                    <mapping type="codepoint">U+014D</mapping>
+                    <mapping type="diplomatic">ō</mapping>
+                    <mapping type="normalized">o</mapping>
+                </char>
+                <char xml:id="umacr">
+                    <charName>LATIN SMALL LETTER U WITH MACRON</charName>
+                    <mapping type="codepoint">U+016B</mapping>
+                    <mapping type="diplomatic">ū</mapping>
+                    <mapping type="normalized">u</mapping>
+                </char>
+                <char xml:id="ymacr">
+                    <charName>LATIN SMALL LETTER Y WITH MACRON</charName>
+                    <mapping type="codepoint">U+0233</mapping>
+                    <mapping type="diplomatic">ȳ</mapping>
+                    <mapping type="normalized">y</mapping>
+                </char>
+                <!-- ligatures -->
+                <glyph xml:id="uslig">
+                    <glyphName>LATIN SMALL LIGATURE US</glyphName>
+                    <mapping type="ligature">U+0075 + U+017F</mapping>
+                    <mapping type="diplomatic">us</mapping>
+                    <mapping type="normalized">us</mapping>
+                </glyph>
+            </charDecl>
+            <projectDesc>
+                <p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto
+                    ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+            </projectDesc>
+            <editorialDecl>
+                <ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio: <list><item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga
+                    precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla
+                    fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il
+                    resto della riga a stampa è vuoto), la parola è stata registrata tutta nella riga in cui essa termina. È
+                    stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item></list>
+                </ab>
+                <ab type="level">ALIM2_3</ab>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <!-- Aggiungere nota su attributo che permette di attribuire percentuali di lingue in un testo -->
+                <language ident="lat">Latino
+                    <p>All'interno del testo si riscontra la presenza di termini di origine longobarda</p>
+                </language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="form">Prosa</term>
+                    <term type="source">Documentaria</term>
+                    <term type="genre">Giuridico</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <date>06/2016</date>
+            </creation>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-05" who="G.Verdi">Prima trascrizione nel formato TEI P5 (schema: TEI ALIM Lite)</change>
+        </revisionDesc>
+    </teiHeader>
+<text n="Editto di Rotari" xml:id="CV188_ER">
+    <body>
+         <div n="Capp. 35-151 subtype="lesioni" type="capitula" xml:id="CV188_div_35-151">
+             <pb n="069v" xml:id="CV188_folio_069v"/>
+          <lb xml:id="CV188_lb_069v_11" n="11" type="rubric"/>
+            <seg type="capitulum">
+              <head><num value="35"><hi rend="cap"><w>XXXV</w></hi></num></head>
+                <w>
+                    <choice>
+                        <orig><hi rend="cap">D</hi>escandala</orig>
+                        <reg><hi rend="cap">D</hi>e scandala</reg>
+                    </choice>
+                </w>
+                <w>
+                    <orig>.</orig>
+                </w>
+                <w>
+                    <choice>
+                        <orig><hi rend="cap">S</hi>i<abb><am><g ref="#qmacr"/></am></abb></orig>
+                        <reg><w><hi rend="cap">S</hi>i</w><expan><w>q<ex>uis</ex></w></expan></reg>
+                    </choice>
+                </w>
+                <w>
+                    <choice>
+                        <orig><hi rend="cap">I</hi>n<abbr>eccl<am><g ref="#amacr"/></am></abbr></orig>
+                        <reg><w><hi rend="cap">I</hi>n</w><expan><w>eccl<ex>esiam</ex></w></expan></reg>
+                    </choice>
+                </w>
+                <w>
+                    <choice>
+                        <abbr>scandal<am><g ref="#umacr"/></am></abbr>
+                        <expan>scandalu<ex>m</ex></expan>
+                    </choice>
+                </w>
+                <w>penetra<c>u</c>erit</w>
+          <lb xml:id="CV188_lb_069v_12" n="12" type="rubric"/>
+                <w>﻿<num value="40">x<hi cap="L">L</hi></num></w>
+                <w>
+                   <choice>
+                         <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                         <expan>sol<ex>idos</ex></expan>
+                   </choice>
+                </w>
+                <w>ipsius</w>
+                <w><c corresp="#v">u</c>enerabili</w>
+                <w>
+                   <choice>
+                         <orig>locisit</orig>
+                         <reg>loci sit</reg>
+                   </choice>
+                </w>
+                <w>culpabilis</w>
+                <w>
+                   <org>.</org>
+                </w>    
+                <w>
+                   <choice>
+                         <orig>exceptopla<lb/>gas</lb></orig>
+                         <reg><w>excepto</w><w>pla<lb/>gas</w></reg>
+                   </choice>
+                </w>
+          <lb xml:id="CV188_lb_069v_13" n="13" type="rubric"/>
+                <w>
+                   <choice>
+                         <orig>autferitas</orig>
+                         <reg>aut feritas</reg>
+                   </choice>
+                </w>
+                <w>
+                   <choice>
+                         <orig>cuifecerit</orig>
+                         <reg>cui fecerit</reg>
+                   </choice>
+                </w>
+                <w>
+                   <orig>.</orig>
+                </w>
+                <w>
+                   <choice>
+                         <orig><abbr type="brev"><amm><g ref="#et"/></amm></abbr>ipsipredicti</orig>
+                         <reg><expan><w>et</w></expan><w>ipsi</w><w>predicti</w></reg>
+                   </choice>
+                </w>
+                <w><num value="40">x<hi rend="cap">L</hi></num></w>
+                <w>
+                   <choice>
+                         <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                         <expan>sol<ex>idos</ex></expan>
+                   </choice>
+                </w>
+                <w>
+                   <choice>
+                         <orig><abbr><am><g ref="#pbardes"/></am></abbr>scul<lb>dahis</lb></orig>
+                         <reg><><expan><w>per</w></expan><term><w>schuldahis</w></term></abbr></reg>
+                   </choice>
+                </w>
+         <lb xml:id="CV188_lb_069v_14" n="14" type="rubric"/>        
+                <w>aut</w>
+                <w>iudicem</w>
+                <w>qui</w>
+                <w>
+                   <choice>
+                         <orig><hi cap="I">I</hi>nlocoordinatus</orig>
+                         <reg><hi cap="I">I</hi>n loco ordinatus</reg>
+                   </choice>
+                </w>
+                <w>fuerit</w>
+                <w>
+                   <choice>
+                         <abbr>exegan<amm><g ref="t'"/></amm></abbr>
+                         <expan>exegant<ex>ur</ex></expan>
+                   </choice>
+                </w>
+                <w>
+                   <orig>.</orig>
+                </w>
+          <lb xml:id="CV188_lb_069v_15" n="15"> 
+                <w>
+                   <choice>
+                         <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>insacro</orig>
+                         <reg><expan><w>et</w></expan><w>in</w><w>sacro</w></reg>
+                   </choice>
+                </w>
+                <w>altario</w>
+                <w>
+                   <choice>
+                         <abbr>ponan<am><g ref="#tdot"/></am></abbr>
+                         <expan>ponant<ex>ur</ex></expan>
+                   </choice>
+                </w>
+                <w>ubi</w>
+                <w>iniuria</w>
+                <w>
+                   <choice>
+                        <orig>factaest</orig>
+                        <reg>facta est</reg>
+                   </choice>
+                </w>
+                <w>
+                   <orig>.</orig>
+                </w>
+             </seg>
+          <lb xml:id="CV188_lb_069v_16" n="16" type="rubric"/>
+                <seg type="capitulum"><head><num value="36"><hi rend="cap"><w>XXXVI</w></hi></num></head>
+                    <w>
+                       <orig>.</orig>
+                    </w>
+                    <w>
+                       <choice>
+                             <orig><hi rend="cap">S</hi>i<abb><am><g ref="#qmacr"/></am></abb></orig>
+                             <reg><w><hi rend="cap">S</hi>i</w><expan><w>q<ex>uis</ex></w></expan></reg>
+                       </choice>
+                    </w>
+                    <w>
+                       <choice>
+                             <orig>infrapalatio</orig>
+                             <reg>infra palatio</reg>
+                       </choice>
+                    </w>
+                    <w>
+                       <choice>
+                             <orig>ubirexpresensest</orig>
+                             <reg>ubi rex presens est</reg>
+                       </choice>
+                    </w>
+                    <w>scandalum</w>
+         <lb xml:id="CV188_lb_069v_17" n="17" type="rubric"/>      
+               <w>penetrare</w>
+               <w>presumpserit</w>
+               <w>anime</w>
+               <w>sue</w>
+               <w>incurra</w>
+               <w>
+                   <choice>
+                         <abbr>pericu<lb/>l<am><g ref="#umacr"/></am></abbr>
+                         <expan>pericu<lb/>lu<ex>m</ex></expan>
+                   </choice>
+                </w>
+         <lb xml:id="CV188_lb_069v_18" n="18" type="rubric"/>
+                <w>
+                   <choice>
+                         <orig>autredimat</orig>
+                         <reg>aut redimat</reg>
+                   </choice>
+                </w>
+                <w>animam</w>
+                <w>
+                   <choice>
+                         <abbr>su<am><g ref="#amacr"/></am></abbr>
+                         <expan>sua<ex>m</ex></expan>
+                   </choice>
+                </w>
+                <w>
+                   <choice>
+                         <orig>siobtinere</orig>
+                         <reg>si obtinere</reg>
+                   </choice>
+                </w>
+                <w>potuerit</w>
+                <w>
+                   <choice>
+                         <orig>arege</orig>
+                         <reg>a rege</reg>
+                   </choice>
+                </w>
+                <w>
+                   <orig>.</orig>
+                </w>
+              </seg>
+          <lb xml:id="CV188_lb_069v_19" n="19" type="rubric">
+                <seg type="capitulum"><head><num value="37"><hi rend="cap"><w>XXXVI</w></hi></num></head>
+                    <w>
+                       <choice>
+                             <orig><hi rend="cap">S</hi><abbr>i<am><g ref="#qmacr"/></am></abbr></orig>
+                             <reg><w><hi rend="cap">S</hi>i</w><w><expan>q<ex>uis</ex></expan></w></reg>
+                       </choice>
+                    </w>
+                    <w>liber</w>
+                    <w>homo</w>
+                    <w>
+                       <choice>
+                             <orig>ineadem</orig>
+                             <reg>in eadem</reg>
+                       </choice>
+                    </w>
+                    <w>
+                       <choice>
+                             <abbr>ci<c>u</c>itat<am><g ref="#emacr"/></am></abbr>
+                             <expan>ci<c>u</c>itate<ex>m</ex></expan>
+                       </choice>
+                    </w>
+                    <w>
+                       <choice>
+                             <orig>ubirex<abbr><am><g ref="#pmacr"/></am>sensest</abbr></orig>
+                             <reg><w>ubi</w><w>rex</w><expan><w>p<ex>re</ex>sens</w><w>est</w></expan></reg>
+                       </choice>
+                    </w>
+          <lb xml:id="CV188_lb_069v_20" n="20" type=rubric"/>
+                <w>aut</w>
+                <w>tunc</w>
+                <w><hi rend="cap">I</hi>n<c corresp="v">u</c>enitur</w>
+                <w>
+                   <orig>.</orig>
+                </w>
+                <w>
+                   <choice>
+                         <abbr><am><g ref="#emacr"/></am><am><g ref="#emacr"/></am></abbr>
+                         <expan><ex>esse</ex></expan></reg>
+                   </choice>
+                </w>
+                <w>
+                   <orig>.</orig>
+                </w>
+                <w>scandalum</w>
+                <w>
+                   <choice>
+                         <abbr><am><g ref="#pmacr"/></am>sumpserit</abbr>
+                         <expan>p<ex>re</ex>sumpserit</expan>
+                   </choice>
+                </w>
+                <w>pene<lb/>trare</w>
+                <w>
+                   <orig>.</orig>
+                </w>    
+          <lb xml:id="CV188_lb_069v_21" n="21" type="rubric"/>
+                <w>
+                   <choice>
+                         <orig>idest</orig>
+                         <reg>id est</reg>
+                   </choice>
+                </w>
+                <w>incita<c>u</c>erit</w>
+                <w>
+                   <choice>
+                         <abbr type="brev"><am><g ref="#et"/></am></abbr>
+                         <expan>et</expan>
+                   </choice>
+                </w>
+                <w>
+                   <choice>
+                         <orig>non<abbr><am><g ref="#pbardes"/></am>cusserit</abbr></orig>
+                         <reg><w>non</w><expan><w>p<ex>er</ex>cusserit</w></expan></reg>
+                   </choice>
+                </w>
+                <w>
+                   <orig>.</orig>
+                </w>
+                <w>sit</w>
+                <w>culpabi<lb/>lis</w>
+          <lb xml:id="CV188_lb_069v_22" n="22" type="rubric"/>
+                <w>
+                   <choice>
+                         <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                         <expan>sol<ex>idos</ex></expan>
+                   </choice>
+                </w>
+                <w><num value="12"><hi rend="cap">XII</hi></num></w>
+                <w>
+                   <choice>
+                         <orig>inpalatio</orig>
+                         <reg>in palatio</reg>
+                   </choice>
+                </w>
+                <w>regis</w>
+                <w>
+                   <choice>
+                         <orig>namsi<abbr><am><g ref="#pbardes"/></am>ficerit</abbr></orig>
+                         <reg><w>nam</w><w>si</w><w><expan>p<ex>er</ex>ficerit</expan></w></reg>
+                   </choice>
+                </w>
+                <w>
+                   <choice>
+                         <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr><am><g ref="#pbardes"/></am>cusserit</abbr></orig>
+                         <reg><expan><w>et</w></expan><expan><w><ex>per</ex>cusserit</w></expan></reg>
+                   </choice>
+                </w>
+         <lb xml:id="CV188_lb_069v_23" n="23" type="rubric"/>
+                <w>sit</w>
+                <w>culpabilis</w>
+                <w>
+                   <choice>
+                         <orig>inpalatio</orig>
+                         <reg>in palatio</reg>
+                   </choice>
+                </w>
+                <w>regis</w>
+                <w>
+                   <choice>
+                         <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                         <expan>so<am>lidos</am></expan>
+                   </choice>
+                </w>
+                <w><num value="24"><hi rend="cap">XXIIII</hi></num></w>
+                <w>
+                   <orig>.</orig>
+                </w>
+                <w>
+                   <choice>
+                         <orig>exceptoplagas</orig>
+                         <reg>excepto plagas</reg>
+                   </choice>
+                </w>
+          <lb xml:id="CV188_lb_069v_24" n="24" type"rubric">       
+                <w>
+                   <choice>
+                         <orig>autferitas</orig>
+                         <reg>aut feritas</reg>
+                   </choice>
+                </w>
+                <w>
+                   <choice>
+                         <orig>sifecerit</orig>
+                         <reg>si fecerit</reg>
+                   </choice>
+                </w>
+                <w>sicut</w>
+                <w>subter</w>
+                <w>
+                   <choice>
+                       <orig><abbr>constitut<am><g ref="#umacr"/></am></abbr>.<abbr><am><g ref="#emacr"/></am></abbr>.<abbr>con<am><g ref="#pmacr"/></am></abbr>.</orig>
+                       <reg><expan><w>constitut<ex>um</ex></w></expan><w><orig>.</orig></w><expan><w>e<ex>st</ex><w></w></expan><w><orig>.</orig></w><expan><w>conp<ex>onat</ex></w></expan><w><orig>.</orig></w></reg>
+                   </choice>
+                </seg>
+         <lb xml:id="CV188_lb_069v_25" n="25" type="rubric"/>
+            <seg type="capitulum">
+               <head><num value="38"><hi rend="cap"><w>XXXVIII</w></hi></num></head>
+                    <w>
+                       <choice>
+                             <orig>Siser<c corresp="v">u</c>us</orig>
+                             <reg>Si ser<c corresp="v">u</c>us</reg>
+                       </choice>
+                    </w>
+                    <w>
+                       <choice>
+                             <orig>ineadem</orig>
+                             <reg>in eadem</reg>
+                       </choice>
+                    </w>
+                    <w>
+                       <choice>
+                             <abbr>ci<c>u</c>itat<am><g ref="#emacr"/></am></abbr>
+                             <expan>ci<c>u</c>itat<ex>em</ex></expan>
+                       </choice>
+                    </w>
+                    <w>
+                       <choice>
+                             <orig>inquarex</orig>
+                             <reg>iniqua rex</reg>
+                       </choice>
+                    </w>
+                    <w>tunc</w>
+                    <w><hi rend="cap">I</hi>n<lb/><c corresp="v">u</c>enitur</w>
+          <lb xml:id="CV188_lb_069v_26" n="26" type="rubric"/>
+                <w>
+                   <choice>
+                         <abbr><am><g ref="#emacr"/></am><am><g ref="#emacr"/></am></abbr>
+                         <expan><ex>esse</ex></expan></reg>
+                   </choice>
+                </w>
+                <w>scandalum</w>
+                <w><hi rend="cap">I</hi>ncita<c>u</c>erit</w>
+                <w>sit</w>
+                <w>culpabilis</w>
+                <w>
+                   <choice>
+                         <orig><hi rend="cap">I</hi>npa<lb/>latio</orig>
+                         <reg><w><hi rend="cap">I</hi>n</w> <w>pa<lb/>latio</w></reg>
+                   </choice>
+                </w>
+           <fw type="fol" place="top-right"><add hand="unknown">070r</add></fw>
+           <pb n="070r" xml:id="CV188_folio_070r"/>
+           <lb xml:id="CV188_lb_070r_01" n="01" type="rubric"/>
+                <w>regis</w>
+                <w>
+                   <choice>
+                       <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                       <expan>sol<ex>idos</ex></expan>
+                   </choice>
+                </w>
+                <w>
+                   <orig>.</orig>.vi.</w> rivedere
+                <w>
+                   <choice>
+                         <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>si<abbr><am><g ref="#pbardes"/></am>cusserit</abbr></orig>
+                         <reg><w><expan>et</expan></w><w><expan>p<ex>er</ex>cusserit</expan></w></reg>
+                   </choice>
+                </w>
+                <w>sit</w>
+                <w>culpabilis</w>
+                <w>
+                    <choice>
+                        <abbr>so<am><g ref="#lstrock"/></am></abbr>
+                        <expan>sol<ex>idos</ex></expan>
+                    </choice>
+                </w>
+                <w>
+                    <orig>.</orig>
+                </w>
+                <w><num vale="12">xii</num></w>
+          <lb xml:id="CV188_lb_070r_02" n="02" type="rubric"/>
+                <w>excepto</w>
+                <w>feritas</w>
+                <w>aut</w>
+                <w>conpositiones</w>
+                <w>
+                    <choice>
+                         <abbr>plagar<am><g ref="#umacr"/></am></abbr>
+                         <expan>plagaru<ex>m</ex></expan>
+                    </choice>
+                </w>
+                <w>sicut</w>
+                <w>
+                    <choice>
+                         <orig><hi rend="cap">I</hi>nhoc</orig>
+                         <reg><w><hi rend="cap">I</hi>n</w><w>hoc</w></reg>
+                    </choice>
+                </w>
+          <lb xml:id="CV188_lb_070r_03" n="03" type="rubric">
+                <w>edictum</w>
+                <w>legitur</w>
+              </seg>
+          <lb xml:id="CV188_lb_070r_04" n="04" type="rubric"/>
+             <seg type="capitulum">
+               <head><num value="39"><hi rend="cap"><w>XXXVIIII</w></hi></num></head> 
+                    <w>
+                       <orig>.</orig>
+                    </w>
+                    <w>
+                       <choice>
+                             <orig><hi rend="cap">S</hi>iliber</orig>
+                             <reg><w><hi rend="cap">S</hi>i</w><w>liber</w></reg>
+                       </choice>
+                    </w>
+                    <w>homo</w>
+                    <w>
+                       <choice>
+                             <orig><hi rend="cap">I</hi>n<abbr>alj<am><g ref="#amacr"/></am></abbr></orig>
+                             <reg><w><hi rend="cap">I</hi>n</w><expan>alja<ex>m</ex></expan></reg>
+                        </choice>
+                    </w>
+                    <w>
+                       <choice>
+                             <abbr>ci<c>u</c>itat<am><g ref="#emacr"/></am></abbr>
+                             <expan>ci<c>u</c>itate<ex>m</ex></expan>
+                       </choice>
+                    </w>
+                    <w>
+                       <choice>
+                             <abbr>scandal<am><g ref="#umacr"/></am></abbr>
+                             <expan>scandalu<ex>m</ex></expan>
+                       </choice>
+                    </w>
+                    <w>incita<lb/><c>u</c>erit</w>
+                    <w>
+                       <orig>.</orig>
+                    </w>         
+          <lb xml:id="CV188_lb_070r_05" n="05" type="rubric"/>
+                <w>
+                   <choice>
+                        <orig><abbr><abbr type="brev"><am><g ref="#et"/></am></abbr>non<am><g ref="pbardes"/></am>cusserit</abbr></orig>
+                        <reg><expan><w><expan><ex>et</ex></expan></w><w>non</w><w>p<ex>er</ex>cusserit</w></expan></reg>
+                   </choice>
+                </w>
+                <w>sit</w>
+                <w>culpabilis</w>
+                <w>
+                   <choice>
+                        <orig>inpalatioregis</orig>
+                        <reg>in palatio regis</reg>
+                   </choice>
+                </w>
+                <w>
+                   <choice>
+                        <abbr>so<am><g ref="#lstrock"/></am></abbr>
+                        <expan>sol<ex>idos</ex></expan>
+                   </choice>
+                </w>
+         <lb xml:id="CV188_lb_070r_06" n="06" type="rubric"/>        
+                <w>sex</w>
+                <w>
+                    <orig>.</orig>
+                </w>
+                <w>si</w>
+                <w>
+                    <choice>
+                         <orig><abbr>a<am><g ref="#umacr"/></am><am><g ref="#pbardes"/></am>cusserit</abbr></orig>
+                         <reg><expan><w>au<ex>t</ex></w><w>p<ex>er</ex>cusserit</w></expan></reg>
+                    </choice>
+                </w>
+                <w>aut</w>
+                <w>plaga<c>u</c>erit</w>
+                <w>
+                    <orig>.</orig>
+                </w> 
+                <w>sit</w>
+                <w>culpabilis</w>
+                <w>in</w>
+          <lb xml:id="CV188_lb_070r_07" n="07" type="rubric"/>
+                <w>palatio</w>
+                <w>regis</w>
+                <w>
+                   <choice>
+                         <abbr>so<am><g ref="#lstrock"/></am></abbr>
+                         <expan>sol<ex>idos</ex></expan>
+                   </choice>
+                </w>
+                <w><num vale="12">xii</num></w>
+                <w>
+                   <orig>.</orig>
+                </w>
+                <w>excepto</w>
+                <w>conpositiones</w>
+                <w>plagarum</w>
+          <lb xml:id="CV188_lb_070r_08" n="08" type="rubric"/>
+                <w>
+                   <choice>
+                         <orig>autferitas</orig>
+                         <reg>aut feritas</reg>
+                   </choice>
+                </w>
+                <w>
+                   <choice>
+                         <orig>sifecerit</orig>
+                         <reg></reg>
+                   </choice>
+                </w>
+                <w>sicut</w>
+                <w>huic</w>
+                <w>legitur</w>
+                <w>
+                   <choice>
+                         <abbr>con<am><g ref="#pmacr"/></am></abbr>
+                   </choice>
+                </w>
+                <w>
+                   <orig>.</orig>
+                </w>
+              </seg>
+              <lb xml:id="CV188_lb_070r_09" n="09" type="rubric"/>
+                <seg type="capitulum"><head><num value="40"><hi rend="cap"><w>XL</w></hi></num></head>
+                    <w>
+                       <choice>
+                             <orig>Siser<c corresp="v">u</c>us</orig>
+                             <reg>Si ser<c corresp="v">u</c>us</reg>
+                       </choice>
+                    </w>
+                    <w>
+                       <choice>
+                             <orig><abbr><hi rend>I</hi>nalj<am><g ref="#amacr"/></am></abbr></orig>
+                             <reg><expan><w><hi rend>I</hi>n</w><w>alja<ex>m</ex></w></expan></reg>
+                       </choice>
+                    </w>
+                    <w>
+                       <choice>
+                             <abbr>ci<c>u</c>itat<am><g ref="#emacr"/></am></abbr>
+                       </choice>
+                    </w>
+                    <w>
+                       <choice>
+                             <abbr>scandal<am><g ref="#umacr"/></am></abbr>
+                             <reg>scandalu<ex>m</ex></reg>
+                       </choice>
+                    </w>       
+                    <w>
+                       <choice>
+                             <abbr>c<am><g ref="#omacr"/></am>miserit</abbr>
+                             <expan>co<ex>m</ex>miserit</expan>
+                       </choice>
+                    </w>
+             <lb xml:id="CV188_lb_070r_10" n="10" type="rubric"/>
+                <w>sit</w>
+                <w>culpabilis</w>
+                <w>
+                    <choice>
+                         <abbr>so<am><g ref="#lstrock"/></am></abbr>
+                         <expan>sol<ex>idos</ex></expan>
+                    </choice>
+                </w>
+                <w>
+                    <orig>.</orig>
+                </w>
+                <w><num vale="3">iii</num></w>
+                <w>
+                    <choice>
+                         <orig><hi rend="cap">I</hi>npalatio</orig>
+                         <reg><hi rend="cap">I</hi>n palatio</reg>
+                    </choice>
+                </w>
+                <w>regis</w>
+                <w>
+                    <orig>;</orig>
+                </w>  
+                <w>
+                    <choice>
+                         <orig>si<abbr>a<am><g ref="#umacr"/></am>feritas</abbr></orig>
+                         <reg><w>si</w><expan><w>au<ex>t</ex></w><w>feritas</w></expan></reg>
+                    </choice>
+                </w>
+          <lb xml:id="CV188_lb_070r_11" n="11" type="rubric"/>
+                <w>
+                    <choice>
+                         <orig>autplagas</orig>
+                         <reg>aut plagas</reg>
+                    </choice>
+                </w>
+                <w>fecerit</w>
+                <w>
+                    <orig>.</orig>
+                </w>
+                <w>sit</w>
+                <w>culpabilis</w>
+                <w>
+                    <choice>
+                         <orig><hi rend="cap">I</hi>npalatioregis</orig>
+                         <reg><hi rend="cap">I</hi>n palatioregis</reg>
+                    </choice>
+                </w>
+          <lb xml:id="CV188_lb_070r_12" n="12" type="rubric"/>
+                <w>
+                   <choice>
+                         <abbr>so<am><g ref="#lstrock"</am></abbr>
+                         <expan>sol<ex>idos</ex></expan>
+                   </choice>
+                </w>
+                <w><num vale="6">vi</num></w>
+                <w>
+                   <orig>.</orig>
+                </w>               
+                <w>excepto</w>
+                <w>plagas</w>
+                <w>
+                   <choice>
+                        <orig>autferitas</orig>
+                        <reg>aut feritas</reg>
+                   </choice>
+                </w>
+                <w>
+                   <orig>.</orig>
+                </w>
+              </seg>    
+          <lb xml:id="CV188_lb_070r_13" n="13" type="rubric"/>
+              <seg type="capitulum">
+                 <head><num value="41"><hi rend="cap"><w>XLI</w></hi></num></head>
+                    <w>
+                        <choice>
+                             <orig><hi rend="cap">D</hi>ehominem</orig>
+                             <reg><hi rend="cap">D</hi>e hominem</reg>
+                        </choice>
+                    </w>
+                    <w>libero</w>
+                    <term><w>battudo</w></term>
+                    <w>
+                       <orig>.</orig>
+                    </w>
+                    <w>
+                        <choice>
+                              <orig><hi rend="cap">S</hi>i<abb><am><g ref="#qmacr"/></am></abb></orig>
+                              <reg><w><hi rend="cap">S</hi>i</w><expan><w>q<ex>uis</ex></w></expan></reg>
+                        </choice>
+                     </w>
+                    <w>hominem</w>
+                    <w>
+                        <chice>
+                            <abbr>liber<am><g ref="#umacr"/></am></abbr>
+                            <expan>liberu<ex>m</ex></expan>
+                        </chice>
+                    </w>        
+         <lb xml:id="CV188_lb_070r_14" n="14" type="rubric"/>
+                <w>insidiatus</w>
+                <w>fuerit</w>
+                <w>cum</w>
+                <w><c corresp="#v">u</c>irtutem</w>
+                <w>
+                    <choice>
+                        <orig>aut<abbr>solati<am><g ref="#umacr"/></am></abbr></orig>
+                        <reg><w>aut</w><expan><w>solatiu<ex>m</ex></w></expan></reg>
+                    </choice>
+                </w>
+                <w><c corresp="#v">u</c>idens</w>
+         <lb xml:id="CV188_lb_070r_15" n="15" type="rubric"/>
+                <w>eum</w>
+                <w>
+                    <choice>
+                        <abbr><hi rend="cap">I</hi>mparat<am><g ref="#umacr"/></am></abbr>
+                        <expan><hi rend="cap">I</hi>mparatu<ex>m</ex></expan>
+                    </choice>
+                </w>
+                <w>simpliciter</w>
+                <w>
+                    <chice>
+                        <abbr>ambulant<am><g ref="#emacr"/></am></abbr>
+                        <expan>ambulante<ex>m</ex></expan>
+                    </chice>
+                </w>
+                <w>
+                    <choice>
+                        <orig>aut<abbr>stant<am><g ref="#emacr"/></am></abbr></orig>
+                        <reg><w>aut</w><expan><w>stante<ex>m</ex></w></expan></reg>
+                    </choice>
+                </w>
+                <w><orig>.</orig></w>
+         <lb xml:id="CV188_lb_070r_16" n="16" type="rubric"/>
+                <w>
+                    <choice>
+                        <orig>etsubito</orig>
+                        <reg>et subito</reg>
+                    </choice>
+                </w>
+                <w>
+                    <choice>
+                          <abbr>su<am><g ref="#pbardes"/></am></abbr>
+                          <expan>sup<ex>er</ex></expan> 
+                    </choice>
+                </w>
+                <w>eum</w>
+                <w>ad<c corresp="#v">u</c>eniens</w>
+                <w>
+                    <orig>.</orig>
+                </w> 
+                <w>
+                    <choice>
+                          <abbr type="brev"><am><g ref="#et"/></am></abbr>
+                          <expan><ex>et</ex></expan>
+                    </choice> 
+                </w>
+                <w>turpiter</w>
+                <w>eum</w>
+                <w>tenuerit</w>
+         <lb xml:id="CV188_lb_070r_17" n="17" type="rubric"/>        
+                <w>
+                    <choice>
+                        <abbr type="brev"><am><g ref="#et"/></am></abbr>
+                        <expan><ex>et</ex></expan>
+                    </choice> 
+                </w>
+                <w>
+                    <choice>
+                        batt<abbr type="brev"><am><g ref="#et"/></am></abbr>erit
+                        batt<expan><ex>et</ex></expan>erit
+                    </choice>
+                </w>
+                <w>sine</w>
+                <term><w>iussionem</w></term>
+                <w>regis</w>
+                <w>
+                    <choice>
+                        medi<abbr type="brev"><am><g ref="#et"/></am></abbr>atem
+                        medi<expan><ex>et</ex></expan>atem
+                    </choice>
+                </w>
+                <w>
+                    <choice>
+                        pr<abbr type="brev"><am><g ref="#et"/></am></abbr>ii
+                        pr<expan><ex>et</ex></expan>ii
+                    </choice>
+                </w>
+          <lb xml:id="CV188_lb_070r_18" n="18" type="rubric"/>        
+                <w>sui</w>
+                <w>
+                    <orig>.</orig>
+                </w> 
+                <w>
+                    <choice>
+                        <orig>acsieum</orig>
+                        <reg>ac si eum</reg>
+                    </choice>
+                </w>
+                <w>
+                    <choice>
+                        occidiss<abbr type="brev"><am><g ref="#et"/></am></abbr>
+                        occidiss<expan><ex>et</ex></expan>
+                    </choice>
+                </w>
+                <w>ei</w>
+                <w>
+                    <choice>
+                        <abbr>con<am><g ref="#pmacr"/></am></abbr>
+                        <expan>conp<ex>onat</ex></expan>
+                    </choice>
+                </w>    
+                <w>
+                    <choice>
+                        <orig>eoquodinturpe</orig>
+                        <reg>eo quod in turpe</reg>
+                    </choice>
+                </w>
+                <w>
+                    <choice>
+                        <abbr type="brev"><am><g ref="#et"/></am></abbr>
+                        <expan><ex>et</ex></expan>
+                    </choice> 
+                </w>
+          <lb xml:id="CV188_lb_070r_19" n="19" type="rubric"/>
+                <w>
+                    <choice>
+                        <orig>inderisionem</orig>
+                        <reg>in derisionem</reg>
+                    </choice>
+                </w>
+                <w>ipsius</w>
+                <w>eum</w>
+                <w>male</w>
+                <w>tracta<c>u</c>it</w>
+             </seg>  
+          <lb xml:id="CV188_lb_070r_20" n="20" type="rubric"/>
+             <seg type="capitulum">
+                <head><num value="42"><hi rend="cap"><w>XLII</w></hi></num></head>
+                    <w>
+                        <orig>.</orig>
+                    </w>                   
+                    <w>
+                        <choice>
+                            <orig><hi rend="cap">D</hi>ehominem</orig>
+                            <reg><hi rend="cap">D</hi>e hominem</reg>
+                        </choice>
+                    </w>
+                    <w>libero</w>
+                    <w>ligato</w>
+                    <w>
+                        <orig>.</orig>
+                    </w>
+                    <w>
+                        <choice>
+                            <orig><hi rend="cap">S</hi>iquis</orig>
+                            <reg><hi rend="cap">S</hi>i quis</reg>
+                        </choice>
+                    </w>
+                    <w>hominem</w>
+          <lb xml:id="CV188_lb_070r_21" n="21" type="rubric"/>
+                <w><hi rend="cap">L</hi>iberum</w>
+                <w>liga<c>u</c>erit</w>
+                <w>
+                    <choice>
+                        <abbr>abs<am><g ref="#q;"/></am></abbr>
+                        <expan>absq<ex>ue</ex></expan>
+                    </choice>
+                </w>
+                <term><w>iussionem</w></term>
+                <w>regis</w>
+                <w>sine</w>
+                <w>cau<lb/>sa</w>
+          <lb xml:id="CV188_lb_070r_22" n="22" type="rubric"/>
+                <w>duces</w>
+                <w>partes</w>
+                <w>pretii</w>
+                <w>ipsius</w>
+                <w>tam</w>
+                <w>
+                    <choice>
+                        <abbr>qu<am><g ref="#amacr"/></am></abbr>
+                        <expan>qua<ex>m</ex></expan>
+                    </choice>
+                </w>
+                <w>
+                    <choice>
+                        <orig>sieum</orig>
+                        <reg>si eum</reg>
+                    </choice>
+                </w>
+                 <w>
+                     <choice>
+                         occi<lb/>diss<abbr type="brev"><am><g ref="#et"/></am></abbr>
+                         occi<lb/>diss<expan><ex>et</ex></expan>
+                     </choice>
+                 </w>
+         <lb xml:id="CV188_lb_070r_23" n="23" type="rubric"/>
+                 <w>ei</w>
+                 <w>
+                     <choice>
+                         <abbr>con<am><g ref="#pmacr"/></am></abbr>
+                         <expan>conp<ex>onat</ex></expan>
+                     </choice>
+                 </w>
+                 <w>
+                     <orig>.</orig>
+                 </w>
+               </seg>
+         <lb xml:id="CV188_lb_070r_24" n="24" type="rubric"/>
+               <seg type="capitulum">
+                  <head><num value="43"><hi rend="cap"><w>XLIII</w></hi></num></head>
+                     <w>
+                         <choice>
+                             <orig><hi rend="cap">S</hi>i<abbr><am><g ref="#qmacr"/></am></abbr></orig>
+                             <reg><w><hi rend="cap">S</hi>i</w><w><expan>q<ex>uis</ex></expan></w></reg>
+                         </choice>
+                     </w>
+                     <w>hominem</w>
+                     <w>
+                         <choice>
+                             <abbr>liber<am><g ref="#umacr"/></am></abbr>
+                             <expan>liberu<ex>m</ex></expan>
+                         </choice>
+                     </w>
+                     <w>subito</w>
+                     <w>surgente</w>
+                     <w>rixa</w>
+                     <w>
+                         <choice>
+                             <abbr><am><g ref="#pbardes"/></am>cus<lb/>serit</abbr>
+                             <expan>p<ex>er</ex>cus<lb/>serit</expan>
+                         </choice>
+                     </w>
+          <lb xml:id="CV188_lb_070r_25" n="25" type="rubric"/>
+                <w>
+                   <orig>.</orig>
+                </w>
+                 <w>
+                     <choice>
+                         <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><term>libor</term></orig>
+                         <reg><w><expan><ex>et</ex></expan></w><term><w>libor</w></term></reg>
+                     </choice>
+                 </w>
+                 <w>aut</w>
+                 <w><c corresp="#v">u</c>ulnus</w>
+                 <w>fecerit</w>
+                 <w>
+                     <orig>.</orig>
+                 </w>
+                 <w>
+                     <choice>
+                         <orig><abbr><am><g ref="#pbardes"/></am></abbr><abbr>un<am><g fer="#amacr"/></am></abbr></orig>
+                         <reg><expan><w>p<ex>er</ex></w></expan><expan><w>una<ex>m</ex></w></expan></reg>
+                     </choice>
+                 </w>
+                 <w>feritam</w>
+          <lb xml:id="CV188_lb_070r_26" n="26" type="rubric"/>
+                 <w>
+                     <choice>
+                         <abbr>con<am><g ref="#pmacr"/></am></abbr>
+                         <expan>conp<ex>onat</ex></expan>
+                     </choice>
+                 </w>
+                 <w>
+                     <orig>.</orig>
+                 </w>
+                 <w>
+                     <choice>
+                         <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                         <expan>sol<ex>idos</ex></expan>
+                     </choice>
+                 </w>
+                 <w>
+                     <orig>.</orig>
+                 
+                 <w><num vale="3">iii</num></w>
+                 <w>
+                     <choice>
+                         <abbr><am><g ref="#pbardes"/></am></abbr>
+                         <expan>p<ex>er</ex></expan>
+                     </choice>
+                 </w>
+                 <w>duas</w>
+                 <w>
+                     <choice>
+                         <abbr>con<am><g ref="#pmacr"/></am></abbr>
+                         <expan>conp<ex>onat</ex></expan>
+                     </choice>
+                 </w> 
+                 <w>
+                     <orig>.</orig>
+                 </w>
+                 <w>
+                     <choice>
+                         <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                         <expan>sol<ex>idos</ex></expan>
+                     </choice>
+                 </w>
+                 <w>
+                     <orig>.</orig>
+                 </w>    
+                 <w><num vale="6">vi</num></w>
+                 <w>si</w>
+                 <w>tres</w>
+                 <w>fuerit</w>
+                 <w>
+                     <choice>
+                         <abbr>con<am><g ref="#pmacr"/></am></abbr>
+                         <expan>conp<ex>onat</ex></expan>
+                     </choice>
+                 </w> 
+                 <w>
+                     <orig>.</orig>
+                 </w>
+                 <w>
+                     <choice>
+                         <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                         <expan>sol<ex>idos</ex></expan>
+                     </choice>
+                 </w>
+                 <w>
+                     <orig>.</orig>
+                 </w>
+                 <w><num vale="9">viiii</num></w>    
+          <fw type="fol" place="top-right"><add hand="unknown">070v</add></fw>
+          <pb n="070v" xml:id="CV188_folio_070v"/>
+          <lb xml:id="CV188_lb_070v_01" n="01" type="rubric"/>
+                <w>
+                    <choice>
+                        <orig>siquattuor</orig>
+                        <reg>si quattuor</reg>
+                    </choice>
+                </w>
+                <w>fuerit</w>
+                <w>
+                    <choice>
+                        <abbr>con<am><g ref="#pmacr"/></am></abbr>
+                        <expan>conp<ex>onat</ex></expan>
+                    </choice>
+                </w> 
+                <w>
+                    <choice>
+                        <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                        <expan>sol<ex>idos</ex></expan>
+                    </choice>
+                </w>
+                <w><num vale"12">xii</num></w>
+                <w>
+                    <orig>.</orig>
+                </w>
+                <w>
+                    <choice>
+                        <orig><hi rend="cap">S</hi>iamplus</orig>
+                        <reg><hi rend="cap">S</hi>i amplius</reg>
+                    </choice>
+                </w>
+                <w>fuerit</w>
+             <lb xml:id="CV188_lb_070v_02" n="02" type="rubric"/>
+                <w>non</w>
+                <w>nomerentur</w>
+             </seg>
+             <lb xml:id="CV188_lb_070v_03" n="03" type="rubric"/>
+             <seg type="capitulum">
+                 <head><num value="44"><hi rend="cap">XLIIII</hi></num></head>
+                 <w>
+                     <orig>.</orig>
+                 </w>
+                 <w>
+                     <choice>
+                         <orig><hi rend="cap">S</hi>iquis</orig>
+                         <reg><hi rend="cap">S</hi>i quis</reg>
+                     </choice>
+                 </w>
+                 <w>alium</w>
+                 <w>pugno</w>
+                 <w>
+                     <choice>
+                         <abbr><am><g ref="#pbardes"/></am></abbr>
+                         <expan>p<ex>er</ex>cusserit</expan>
+                     </choice>
+                 </w>
+                 <w>
+                     <choice>
+                         <abbr>con<am><g ref="#pmacr"/></am></abbr>
+                         <expan>conp<ex>onat</ex></expan>
+                     </choice>
+                 </w>
+                 <w>ei</w>
+                 <w>
+                     <choice>
+                         <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                         <expan>sol<ex>idos</ex></ax></expan>
+                     </choice>
+                 </w>
+                 <w><num vale="3">iii</num></w>
+              <lb xml:id="CV188_lb_070v_04" n="04" type="rubric"/>
+                 <w>
+                     <choice>
+                         <abbr type="brev"><am><g ref="#et"/></am></abbr>
+                         <expan><ex>et</ex></expan>
+                     </choice>
+                 </w>
+                 <w>alapas</w>
+                 <w>
+                     <choice>
+                         <abbr>con<am><g ref="#pmacr"/></am></abbr>
+                         <expan>conp<ex>onat</ex></expan>
+                     </choice>
+                 </w>
+                 <w>
+                     <choice>
+                         <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                         <expan>sol<ex>idos</ex></expan>
+                     </choice>
+                 </w>
+                 <w>
+                     <orig>.</orig>
+                 </w>
+                 <w> <num vale="2">ii</num></w>
+                 <w>
+                     <orig>.</orig>
+                 </w>
+             </seg>
+             <lb xml:id="CV188_lb_070v_05" n="05" type="rubric"/>        
+             <seg type="capitulum">
+                 <head><num value="45"><hi rend="cap">XLV</hi></num></head>	
+                 <w>
+                     <choice>
+                         <orig><hi rend="cap">D</hi>eplagas</orig>
+                         <reg><hi rend="cap">D</hi>e plagas</reg>
+                     </choice>
+                 </w>
+                 <w>
+                     <choice>
+                         <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>conpositiones</orig>
+                         <reg><expan><w><ex>et</ex></w></expan><w>conpositines</w></reg>
+                     </choice>
+                 </w>
+                 <w>
+                     <choice>
+                         <abbr>plarar<am>u'</am></abbr>
+                         <expan>plagaru<ex>m</ex></expan>
+                     </choice>
+                 </w>
+                 <w>que</w>
+                 <w><hi rend="cap">I</hi>nter</w>
+              <lb xml:id="CV188_lb_070v_06" n="06" type="rubric"/>
+                 <w>homines</w>
+                 <w>liberos</w>
+                 <w>e<c>u</c>enint</w>
+                 <w>
+                     <orig>.</orig>
+                 </w>
+                 <w>
+                     <choice>
+                         <abbr><am><g ref="#pbades"/></am></abbr>
+                         <expan>p<ex>er</ex></expan>
+                     </choice>
+                 </w>
+                 <w>hoc</w>
+                 <w>
+                     <choice>
+                         <abbr>tinor<am><g ref="#emacr"/></am></abbr>
+                         <expan>tinore<ex>m</ex></expan>
+                     </choice>
+                 </w>
+                 <w>sicut</w>
+                 <w>
+                     <choice>
+                         <orig>sub ter</orig>
+                         <reg>subter</reg>
+                     </choice>
+                 </w>    
+             <lb xml:id="CV188_lb_070v_07" n="07" type="rubric"/>
+                 <w>constitutum</w>
+                 <w>est</w>
+                 <w>
+                     <choice>
+                         <abbr>con<am><g ref="#pmacr"/></am></abbr>
+                         <expan>conp<ex>onantur</ex></expan>
+                     </choice>
+                 </w>
+                 <w>cesante</w>
+                 <term><w>faida</w></term>
+                 <w>
+                     <orig>.</orig>
+                 </w>
+                 <w>
+                     <choice>
+                         <orig>idest</orig>
+                         <reg>id est</reg>
+                     </choice>
+                 </w>
+                 <w>inimicitia</w>
+             </seg>
+             <lb xml:id="CV188_lb_070v_08" n="08" type="rubric"/>        
+             <seg type="capitulum">
+                 <head><num value="46"><hi rend="cap">XLVI</hi></num></head>
+                 <w>
+                     <orig>.</orig>
+                 </w>
+                 <w>
+                     <choice>
+                         <orig><hi rend="cap">S</hi>i<abbr><am><g ref="#qmacr"/></am></abbr></orig>
+                         <reg><hi rend="cap"><w>S</hi>i</w><expan><w>q<ex>uis</ex></w></expan></reg>
+                     </choice>
+                 </w>
+                 <w>alii</w>
+                 <w>plaga</w>
+                 <w>
+                     <choice>
+                         <orig><hi rend="cap">I</hi>ncaput</orig>
+                         <reg><hi rend="cap">I</hi>n caput</reg>
+                     </choice>
+                 </w>
+                 <w>fecerit</w>
+                 <w>
+                     <orig>.</orig>
+                 </w>
+                 <w>
+                     <choice>
+                         <orig>utcuticatan<lb/>tum</orig>
+                         <reg>ut cutica tantum</reg>
+                     </choice>
+                 </w>
+              <lb xml:id="CV188_lb_070v_09" n="09" type="rubric"/>
+                 <w>
+                     <choice>
+                         <orig>rum pantur</orig>
+                         <reg>rumpantur</reg>
+                     </choice>
+                 </w>
+                 <w>
+                     <choice>
+                         <orig>quodut</orig>
+                         <reg>quod ut</reg>
+                     </choice>
+                 </w>
+                 <w>capillj</w>
+                 <w>cooperiant</w>
+                 <w>
+                     <choice>
+                            <orig><abbr>con<am><g ref="#pmacr"/></am></abbr><abbr>so<am><g ref="#lstrok"/></am></abbr><num vale="6">vi</num></orig>
+                            <reg><expan><w>conp><ex>onat</ex></w></expan><expan><w>sol<ex>idos</ex></w></expan><w><num vale="6">vi</num></w></reg>
+                     </choice>
+                 </w>
+              <lb xml:id="CV188_lb_070v_10" n="10" type="rubric"/>
+                 <w>
+                     <choice>
+                         <orig>siduas</orig>
+                         <reg>si duas</reg>
+                     </choice>
+                 </w>
+                 <w>plagas</w>
+                 <w>fecerint</w>
+                 <w>
+                     <choice>
+                         <abbr>con<am><g ref="#pmacr"/></am></abbr>
+                         <expan>conp<ex>onat</ex></expan>
+                     </choice>
+                 </w>
+                 <w>
+                     <choice>
+                         <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                         <expan>sol<ex>idos</ex></expan>
+                     </choice>
+                 </w>
+                 <w><num vale="12">xii</num></w>
+                 <w>
+                     <orig>.</orig>
+                 </w>
+                 <w>sidusq;iii</w>
+                 <w>fecerint</w>
+             <lb xml:id="CV188_lb_070v_11" n="11" type="rubric"/>        
+                 <w>
+                     <choice>
+                         <abbr>con<am><g ref="#pmacr"/></am></abbr>
+                         <expan>conp<ex>onat</ex></expan>
+                     </choice>
+                 </w>
+                 <w>
+                     <choice>
+                         <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                         <expan>sol<ex>idos</ex></expan>
+                     </choice>
+                 </w>
+                 <w><num vale="18">xviii</num></w>
+                 <w>
+                     <choice>
+                         <orig>siamplius</orig>
+                         <reg>si amplius</reg>
+                     </choice>
+                 </w>
+                 <w>fuerint</w>
+                 <w>
+                     <choice>
+                         <orig>nonnomerentur</orig>
+                         <reg>non nomerentur</reg>
+                     </choice>
+                 </w>
+             </seg>
+                 <lb xml:id="CV188_lb_070v_12" n="12" type="rubric"/>
+                    <seg type="capitulum">
+                         <head><num value="47"><hi rend="cap">XLVII</hi></num></head>
+                        <w>
+                            <choice>
+                                <orig><hi rend="cap">S</hi>i<abbr><am><g ref="#umacr"/></am></abbr></orig>
+                                <reg><w><hi rend="cap">S</hi>i</w><w><expan>q<ex>uis</ex></expan></w></reg>
+                            </choice>
+                        </w>
+                        <w>alium</w>
+                        <w>plaga<c>u</c>erit</w>
+                        <w>
+                             <choice>
+                                    <orig><hi rend="cap">I</hi>ncaput</orig>
+                                    <reg><hi rend="cap">I</hi>n caput</reg>
+                             </choice>
+                        </w>
+                        <w>ut</w>
+                        <w>
+                            <choice>
+                                <orig>ossa<abbr>rumpan<am>t'</am></abbr></orig>
+                                <reg><w>ossa</w><expan><w>rumpant<ex>ur</ex></w></expan></reg>
+                            </choice>
+                        </w>
+                     <lb xml:id="CV188_lb_070v_13" n="13" type="rubric"/>
+                         <w>pro</w>
+                         <w>uno</w>
+                         <w>osso</w>
+                         <w>
+                             <choice>
+                                 <abbr>con<am><g ref="#pmacr"/></am></abbr>
+                                 <expan>conp<ex>onat</ex></expan>
+                             </choice>
+                         </w>
+                         <w>
+                             <choice>
+                                 <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                                 <expan>sol<ex>idos</ex></expan>
+                             </choice>
+                         </w>
+                         <w><num vale="12">xii</num></w>
+                         <w>
+                             <choice>
+                                 <orig>siduos</orig>
+                                 <reg>si duos</reg>
+                             </choice>
+                         </w>
+                         <w>fuerint</w>
+                         <w>
+                             <choice>
+                                 <abbr>con<am><g ref="#pmacr"/></am></abbr>
+                                 <expan>conp<x>onat</x></expan>
+                             </choice>
+                         </w>
+                         <w>
+                             <choice>
+                                 <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                                 <exan>sol<ex>idos</ex></exan>
+                             </choice>
+                         </w>
+                         <w><num vale="24">xxiiii</num></w>
+                       <lb xml:id="CV188_lb_070v_14" n="14" type="rubric"/>
+                         <w>
+                             <choice>
+                                 <orig>sitres</orig>
+                                 <reg>si tres</reg>
+                             </choice>
+                         </w>
+                         <w>ossas</w>
+                         <w>fuerint</w>
+                         <w>
+                             <choice>
+                                 <abbr>con<am><g ref="#pmacr"/></am></abbr>
+                                 <expan>conp<ex>onat</ex></expan>
+                             </choice>    
+                         </w>
+                         <w>
+                             <choice>
+                                 <abbr>so<am><g ref="#lstrok"/></am></abbr>
+                                 <expan>sol<ex>idos</ex></expan>
+                             </choice>
+                         </w>
+                         <w><num vale="36">xxxvi</num></w>
+                        <w>
+                            <orig>.</orig>
+                        </w>
+                        <w>
+                            <choice>
+                                <orig>si<abbr>su<am><g ref="#pbardes"/></am></abbr></orig>
+                                <reg><w>si</w><expan><w>sup<ex>er</ex></w></expan></reg>
+                            </choice>
+                        </w>
+                        <w>fuerint</w>
+                  <lb xml:id="CV188_lb_070v_15" n="15" type="rubric"/>
+                        <w>
+                            <choice>
+                                <orig>nonnomerentur</orig>
+                                <reg>non nomerentur</reg>
+                            </choice>
+                        </w>
+                        <w>
+                            <orig>.</orig>
+                        </w>
+                        <w>sic</w>
+                        <w>tamen</w>
+                        <w>ut</w>
+                        <w>unus</w>
+                        <w>ossus</w>
+                        <w>talis</w>
+                        <w><hi rend="cap">I</hi>n<lb/><c corresp="#v">u</c>eniantur</w>
+                    <lb xml:id="CV188_lb_070v_16" n="16" type="rubric"/>
+                        <w>
+                            <choice>
+                                <orig>quiadpedis</orig>
+                                <reg>qui ad pedis</reg>
+                            </choice>
+                        </w>
+                        <w>duodecim</w>
+                        <w>
+                            <choice>
+                                <orig><abbr>su<am><g ref="#pbardes"/></am></abbr><abbr><c corresp="#v">u</c>i<am><g ref="#amacr"/></am></abbr></orig>
+                                <reg><expan><w>sup<ex>ra</ex></w></expan><expan><w><c corresp="#v">u</c>ia<ex>m</ex></w></expan></reg>
+                            </choice>
+                        </w>
+                        <w>
+                            <choice>
+                                <abbr>son<am><g ref="#umacr"/></am></abbr>
+                                <expan>sonu<ex>m</ex></expan> 
+                            </choice>
+                        </w>
+                        <w>
+                            <choice>
+                                <orig>inscuto</orig>
+                                <reg>in scuto</reg>
+                            </choice>
+                        </w>
+                    <lb xml:id="CV188_lb_070v_17" n="17" type="rubric"/>
+                        <w>facere</w>
+                        <w>possit</w>
+                        <w>
+                            <orig>.</orig>
+                        </w>
+                        <w>
+                            <choice>
+                                <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ipsa</orig>
+                                <reg><expan><ex><w>et</w></ex></expan><w>ipsa</w></reg>
+                            </choice>
+                        </w>
+                        <w>mensura</w>
+                        <w>
+                            <choice>
+                                <orig>decerto</orig>
+                                <reg>de certo</reg>
+                            </choice>
+                        </w>
+                        <w>pedes</w>
+                        <w>homines</w>
+                    <lb xml:id="CV188_lb_070v_17" n="17" type="rubric"/>
+                        <w>
+                            <choice>
+                                <orig>mediocrimensuretur</orig>
+                                <reg>mediocri mensuretur</reg>
+                            </choice>
+                        </w>
+                        <w>
+                            <orig>.</orig>
+                        </w>
+                        <w>nam</w>
+                        <w>non</w>
+                        <w>
+                            <choice>
+                                <orig>admano</orig>
+                                <reg>ad mano</reg>
+                            </choice>
+                        </w>
+                        <w>
+                            <orig>.</orig>
+                        </w>
+                 </seg>
+              <lb xml:id="CV188_lb_070v_19" n="19" type="rubric"/>
+                 <seg type="capitulum">
+                   <head><num value="48"><hi rend="cap">XLVIII</hi></num></head>
+                        <w>
+                            <choice>
+                                <orig><hi rend="cap">D</hi>eoculo</orig>
+                                <reg><hi rend="cap">D</hi>e oculo</reg>
+                            </choice>
+                        </w>
+                        <w>e<c>u</c>ulso</w>
+                        <w>
+                            <orig>.</orig>
+                        </w>
+                        <w>
+                            <choice>
+                                <orig><hi rend="cap">S</hi>iquis</orig>
+                                <reg><hi rend="cap">S</hi>i quis</reg>
+                            </choice>
+                        </w>
+                        <w>alii</w>
+                        <w>oculum</w>
+                        <w>excusserit</w>
+                     <lb xml:id="CV188_lb_070v_20" n="20" type="rubric"/>
+                        <w>
+                            <choice>
+                                <orig>promortuum</orig>
+                                <reg>pro mortuum</reg>
+                            </choice>
+                        </w>
+                        <w>
+                             <choice>
+                                 <abbr>ad<am><g ref="#pmacr"</am>ti<abbr type="brev"><am><g ref="#et"/></am></abbr>ur</abbr>
+                                 <expan>adp<ex>re</ex>ti<expan><ex>et</ex></expan>ur
+                             </choice>
+                        </w>
+                        <w>qualiter</w>
+                        <w><hi rend="cap">I</hi>n</w>
+                        <term><w>angarghatun</w></term>
+                    <lb xml:id="CV188_lb_070v_21" n="21" type="rubric"/>
+                        <w>pretii</w>
+                        <w>
+                            <orig>.</orig>
+                        </w>
+                        <w>ipsius</w>
+                        <w>conponatur</w>
+                        <w>
+                            <choice>
+                                <orig>abipso</orig>
+                                <reg>ab ipso</reg>
+                            </choice>
+                        </w>
+                        <w>
+                            <choice>
+                                <orig>quioculo</orig>
+                                <reg>qui oculo</reg>
+                            </choice>
+                        </w>
+                        <w>excussit</w>
+                        <w>
+                            <orig>.</orig>
+                        </w>

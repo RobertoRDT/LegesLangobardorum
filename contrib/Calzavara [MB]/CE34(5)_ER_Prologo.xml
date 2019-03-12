@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "TEI-ALIM-Lite.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+    <!-- Definire i criteri FRBR che stanno alla base di questo header -->
+    <fileDesc>
+      <titleStmt>
+        <!-- Sostituire il testo in maiuscolo con i dati appropriati -->
+        <!-- Il primo <title> riguarda il documento TEI XML, il secondo è il titolo
+			completo del testo digitalizzato -->
+        <title>Edizione digitale dell' Editto di Rotari<title><hi rend="italic">Edictum Rothari</hi>: Ivrea, Biblioteca Capitolare, XXXIV (5) (ms 3)</title></title>
+        <!-- L'autore del testo digitalizzato -->
+        <author>Rotari, re longobardo, per mano del notaio Ansoaldo.</author>
+        <date>643 d.C.</date>
+        <respStmt>
+          <!-- L'edizione critica di riferimento -->
+          <resp>Edizione critica a stampa a cura di</resp>
+          <name></name>
+        </respStmt>
+        <respStmt>
+          <!-- Il responsabile dell'edizione digitale TEI XML -->
+          <resp>Edizione in formato TEI XML a cura di</resp>
+          <name>Prof.ssa Marina Buzzoni</name>
+          </respStmt>
+          <respStmt>
+          <resp>Trascrizione diplomatica effettuata da </resp>
+          <name>Omar Hashem Abdo Khalaf</name>
+        </respStmt>
+        <respStmt>
+        <resp>Codifica TEI effettuata da</resp>
+        <name>Laura Calzavara</name>
+        </respStmt>
+        </titleStmt>
+      <extent>
+        <!-- Questi dati numerici sono ricavati da quello che ALIM 1 esporta in <notesStmt> e quindi sono provvisori,
+          necessario uno script per rifare i conteggi in maniera affidabile in ALIM2 -->
+        <measure unit="words" quantity="17577">Parole: 17577</measure>
+        <measure unit="characters_without_spaces" quantity="116089">Caratteri (spazi esclusi): 116089</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <ref target="http://www.alim.dfll.univr.it/">ALIM</ref>
+        </publisher>
+        <date when="2016-09-01?">01/09/2016?</date>
+        <availability>
+          <p>Copyright 2016- progetto ALIM</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- Scheda bibliografica completa per l'edizione critica a stampa di riferimento -->
+        <!-- Sostituire il testo in maiuscolo con i dati appropriati -->
+        <biblStruct>
+          <monogr>
+            <author>AUTORE</author>
+            <title>TITOLO</title>
+            <editor>CURATORE</editor>
+            <imprint>
+              <pubPlace>LUOGO DI PUBBLICAZIONE</pubPlace>
+              <publisher>CASA EDITRICE</publisher>
+              <date>DATA</date>
+            </imprint>
+          </monogr>
+          <series>
+            <title level="s">TITOLO EVENTUALE SERIE EDITORIALE</title>
+            <biblScope unit="volume">NUMERO VOLUME</biblScope>
+          </series>
+        </biblStruct>
+        <!-- Scheda bibliografica per l'edizione critica di riferimento, versione per edizioni pubblicate su rivista -->
+        <biblStruct>
+          <analytic>
+            <author>AUTORE</author>
+            <title>TITOLO</title>
+          </analytic>
+          <monogr>
+            <title level="j">TITOLO RIVISTA</title>
+            <imprint>
+              <biblScope unit="vol">NUMERO</biblScope>
+              <date>1996</date>
+              <biblScope unit="pages">INTERVALLO-PAGINE</biblScope>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <!-- Scheda bibliografica per l'edizione critica di riferimento, versione per edizioni pubblicate come saggio in miscellanea -->
+        <biblStruct>
+          <analytic>
+            <author>AUTORE</author>
+            <title>TITOLO</title>
+          </analytic>
+          <monogr>
+            <title level="m">TITOLO MISCELLANEA. [ATTI DEL CONVEGNO DI...]</title>
+            <imprint>
+              <pubPlace>LUOGO DI PUBBLICAZIONE DELLA MISCELLANEA</pubPlace>
+              <publisher>CASA EDITRICE DELLA MISCELLANEA</publisher>
+              <date>DATA DI STAMPA DELLA MISCELLANEA</date>
+              <biblScope unit="pages">INTERVALLO-PAGINE</biblScope>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <!-- In aggiunta/alternativa il titolo esteso nel formato originale con indicati solo AUTORE e TITOLO -->
+        <bibl>TITOLO ESTESO PER OPERE STAMPATE XVI-XVIII secc.</bibl>
+        <msDesc>
+        <msIdentifier>
+        <settlement>Ivrea</settlement>
+        <repository>Biblioteca Capitolare</repository>
+        <idno><hi rend="italic">Codex Eporedianus</hi> XXXIV (5)</idno>
+        <altIdentifier>
+        <settlement>Ivrea</settlement>
+        <repository>Biblioteca Capitolare</repository>
+        <idno>(ms 3)</idno>
+        <p>La numerazione progressiva (ms 3) è ripresa da Bluhme, Fr. (1868) (Hg.), <hi rend="italic">Leges Langobardorum</hi>, Hannover (MGH, LL IV) (ristampa anastatica Stuttgart 1965).</p>
+        </altIdentifier>
+        </msIdentifier>
+        <physDesc>
+        <objectDesc form="codex">
+        <supportDesc material="perg">
+        <support>Parchment.</support>
+        <extent>168 foll.
+        <dimensions>ca. 265 x 170 mm</dimensions>
+        </extent>
+        </supportDesc>
+        <layoutDesc>
+        <p>Si veda la descrizione fornita da Mordek, H. (1995), <title rend="italic">Bibliotheca capitularium regum Francorum manuscripta. Überlieferung und Traditionszusammenhang der fränkischen Herrschererlasse</title>, München (MGH Hilfsmittel 15).</p>
+        </layoutDesc>
+        </objectDesc>
+        <handDesc>
+        <p>Grafia carolina, più mani. Rubriche in capitale rustica ed onciale.</p>
+        </handDesc>
+        </physDesc>
+        <history>
+        <p>Inizi del IX sec., di provenienza italiana settentrionale, forse Pavia secondo Mordek (1995). È il primo codice a rendere nota tutta la tradizione delle <hi rend="italic">Leges</hi> fino ad Astolfo.</p>
+        <p>Dal punto di vista culturale, l' <hi rend="italic">Eporedianus</hi> XXXIV (5) si inserisce in un progetto di ampio respiro, promosso all' interno di un centro scrittorio dinamico e specializzato quale è quello di Ivrea in particolare durante il lungo periodo di attività riferibile alla prestigiosa figura del vescovo Giuseppe (825?-855?).</p>
+        </history>
+        <msContents>
+      <p>Contiene tutte le <hi rend="italic">Leges</hi>, l' <hi rend="italic">Admonitio generalis</hi> e alcuni capitolari (tra cui quelli di Pipino, Carlo Magno, Lotario).</p>
+      <p>L'Editto di Rotari è contenuto ai ff. 57r.-104v.</p>
+      <p>Sulla base di questo manoscritto Bluhme (1868, 1) ricostruisce la titolatura e, soprattutto, il prologo dell'Editto, mancanti sia nel sangallese che nel vercellese. Anche l' elenco dei <hi rend="italic">capitula</hi> è riportato secondo il codice di Ivrea (f. 58).</p>
+        </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <charDecl>
+    <char xml:id="ucap">
+    <charName>LATIN CAPITAL LETTER U</charName>
+    <mapping type="codepoint">U+0055</mapping>
+    <mapping type="diplomatic">U</mapping>
+    <mapping type="normalized">U</mapping>
+    </char>
+    <char xml:id="vcap">
+    <charName>LATIN CAPITAL LETTER V</charName>
+    <mapping type="codepoint">U+0056</mapping>
+    <mapping type="diplomatic">V</mapping>
+    <mapping type="normalized">V</mapping>
+    </char>
+    </charDecl>
+      <!-- Informazioni generali relative al progetto -->
+      <projectDesc>
+        <p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto
+          ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+      </projectDesc>
+      <editorialDecl>
+        <ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio: <list><item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga
+              precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla
+              fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il
+              resto della riga a stampa è vuoto), la parola è stata registrata tutta nella riga in cui essa termina. È
+              stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item></list>
+        </ab>
+        <ab type="level">ALIM2_3</ab>
+        <ab type="specific"></ab>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <!-- Aggiungere nota su attributo che permette di attribuire percentuali di lingue in un testo -->
+        <language ident="lat">Latino</language>
+        <p>Il testo mostra, conformemente a quanto richiesto dalla politica purista dell' epoca carolingia, un latino più sorvegliato rispetto ai volgarismi che caratterizzano i due codici più antichi (sangallese e vercellese).</p>
+        <p>Sono presenti circa 80 termini in lingua longobarda.</p>
+      </langUsage>
+      <textClass>
+        <!-- Informazioni di catalogazione:
+    Forma: Prosa/Poesia/Prosimetro
+    Tipo di fonte: LETTERARIA/DOCUMENTARIA
+    Genere: GENERE (Epistolografia, Storiografia etc.) 
+    NB meglio scegliere valori per gli attributi in latino -->
+        <keywords>
+          <term type="form">Prosa</term>
+          <term type="source">Documentaria</term>
+          <term type="genre">Testo giuridico</term>
+        </keywords>
+      </textClass>
+      <creation>
+        <!-- Data di creazione del testo originario: prevedere una serie di esempi -->
+        <date when="2016-06-13">13/06/2016</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="da inserire" who="Prof.ssa Marina Buzzoni">Prima trascrizione nel formato TEI P5 (schema: TEI ALIM Lite)</change>
+    </revisionDesc>
+  </teiHeader>
+  <text type="prose" n="Editto di Rotari" xml:id="CE34(5)_ER">
+    <body>
+      <div n="Incipit" subtype="edition_text" type="prose" xml:id="CE34(5)_ER_Incipit">
+      <pb n="057r" xml:id="CE34(5)_folio_057r"></pb>
+      <fw type="fol" place="top-right">57</fw>
+    <head>
+    <lb xml:id="CE34(5)_lb_057r_1" n="1"></lb>
+    <choice><orig><hi rend="init[x.y] red">I</hi><hi rend="cap red">NNOMINE</hi></orig><reg><hi rend="init[x.y] red">I</hi><hi rend="cap red">N NOMINE</hi></reg></choice><space extent="3 vertical points"></space><hi rend="cap red"><choice><abbr>D<am>Ñ</am>I</abbr><expan>D<ex>OMI</ex>NI</expan></choice></hi><hi rend="cap red">INC</hi><hi rend="smallcap red">I</hi><hi rend="cap red">P</hi><hi rend="smallcap red">I</hi><hi rend="cap red">T</hi><space extent="2 vertical points"></space>
+    <lb xml:id="CE34(5)_lb_057r_2" n="2"></lb>
+    <hi rend="cap red">EDICT</hi><hi rend="smallcap red"><c corresp="#vcap">U</c></hi><hi rend="cap red">M</hi><space extent="4 vertical points"></space><hi rend="cap red">Q<c corresp="#vcap">U</c>EM<w>RE<lb xml:id="CE34(5)_lb_057r_3" n="3"></lb>
+    NOVA<c>U</c>IT</w></hi><space extent="3 vertical points"></space><hi rend="cap red"><choice><abbr>DO<am>M</am></abbr><expan>DOM<ex>INUS</ex></expan></choice></hi><space extent="5 vertical points"></space><w><name type="proper noun" xml:lang="lng"><hi rend="cap red">ROT</hi><hi rend="smallcap red">HA</hi><lb xml:id="CE34(5)_lb_057r_4" n="4"></lb>
+    <hi rend="cap red">RI</hi></name></w><space extent="4 vertical points"></space><hi rend="cap red"><c>U</c>IR</hi> <choice><sic><hi rend="cap red">EXC</hi><hi rend="smallcap red">E</hi><hi rend="cap red">LL</hi><hi rend="smallcap red">E</hi><hi rend="cap red">NTISSIMO</hi></sic><corr resp="LC"><hi rend="cap red">EXC</hi><hi rend="smallcap red">E</hi><hi rend="cap red">LL</hi><hi rend="smallcap red">E</hi><hi rend="cap red">NTISSIMUS</hi></corr></choice>
+    <lb xml:id="CE34(5)_lb_057r_5" n="5"></lb>
+    <hi rend="cap red">REX <choice><orig><sic>GENTI</sic></orig><reg><corr resp="LC">GENTIS </corr></reg></choice><w>LANGOBAR<lb xml:id="CE34(5)_lb_057r_6" n="6"></lb>
+    DOR<c corresp="#vcap">U</c>M</w></hi><space extent="3 vertical points"></space><hi rend="cap red">C</hi><hi rend="smallcap red"><c corresp="#vcap">U</c></hi><hi rend="cap red">M</hi><choice><orig><sic><w><hi rend="cap red">P</hi><hi rend="smallcap red">R</hi><hi rend="cap red">IMA<lb xml:id="CE34(5)_lb_057r_7" n="7"></lb>
+    T</hi><hi rend="smallcap red">O</hi><hi rend="cap red">S</hi></w></sic></orig><reg><corr resp="LC"><w><hi rend="cap red"> P</hi><hi rend="smallcap red">R</hi><hi rend="cap red">IMA<lb xml:id="CE34(5)_lb_057r_7" n="7"></lb>
+    TIBUS</hi></w></corr></reg></choice> <choice><orig><sic><hi rend="cap red">IUDIC</hi><hi rend="smallcap red">E</hi><hi rend="cap red">SS<c corresp="#vcap">U</c>OS</hi></sic></orig><reg><corr resp="LC"><hi rend="cap red">IUDICIBUS S<c corresp="#vcap">U</c>IS</hi></corr></reg></choice><space extent="3 vertical points"></space>
+    </head>
+    </div>
+    <div n="Prologus" subtype="edition_text" type="prose" xml:id="CE34(5)_ER_Prologus">
+    <head>
+    <lb xml:id="CE34(5)_lb_057r_8" n="8"></lb>
+    <choice><abbr><hi rend="cap red">INC</hi><hi rend="smallcap red">I</hi><hi rend="cap red"><am>P</am></hi></abbr><expan><hi rend="cap red">INCIP<ex>IT</ex></hi></expan></choice><space extent="2 or 4 vertical points"></space><hi rend="cap red">PR</hi><hi rend="smallcap red">O</hi><hi rend="cap red">L</hi><hi rend="smallcap red">O</hi><hi rend="cap red">G<c corresp="#vcap">U</c>S</hi>
+    </head>
+    <lb xml:id="CE34(5)_lb_057r_9" n="9"></lb>
+    <hi rend="init[x.y] red">E</hi>go <choice><orig>In<abbr>d<am>i</am></abbr></orig><reg>in <expan>D<ex>e</ex>i</expan></reg></choice> nomine <choice><orig><name type="proper noun" xml:lang="lng">rothari</name></orig><reg><name type="proper noun" xml:lang="lng">Rothari</name></reg></choice> <c>u</c>ir <choice><orig><abbr>exell</abbr></orig><reg><expan>excell<ex>entissimus</ex></expan></reg></choice> rex<choice><orig>.</orig><reg><pc>,</pc></reg></choice>
+    <lb xml:id="CE34(5)_lb_057r_10" n="10"></lb>
+    <choice><orig>etseptim<sic>o</sic></orig><reg>et septim<corr resp="LC">us</corr></reg></choice> <choice><abbr>decim<am>u</am></abbr><expan>decimu<ex><sic>m</sic></ex><corr resp="LC">decimus</corr></expan></choice> <choice><orig>rexgentis</orig><reg>rex gentis</reg></choice> <choice><orig><abbr><w>langobar<lb xml:id="CE34(5)_lb_057r_11" n="11"></lb>
+    dor<am>u</am></w></abbr></orig><reg><expan><w>Langobar<lb xml:id="CE34(5)_lb_057r_11" n="11"></lb>
+    doru<ex>m</ex></w></expan></reg></choice> annuente <choice><abbr>d<am>õ</am></abbr><expan>d<ex>e</ex>o</expan></choice> propitiante <choice><orig>regnimei</orig><reg>regni mei</reg></choice>
+    <pb n="057v" xml:id="CE34(5)_folio_057v"></pb>
+    <lb xml:id="CE34(5)_lb_057v_1" n="1"></lb>
+    octabo anno <choice><abbr>ablatis<am>q:</am></abbr><expan>ablatisq<ex>ue</ex></expan></choice> <choice><abbr><am>xxx</am>mo</abbr><expan><ex>tricesi</ex>mo</expan></choice> octabo Indictione
+    <lb xml:id="CE34(5)_lb_057v_2" n="2"></lb>
+    secunda<choice><orig><pc>.</pc></orig></choice> <choice><orig><hi rend="black and red">E</hi>tpost</orig><reg><hi rend="black and red">E</hi>t post</reg></choice> <choice><sic>ad<c>uent</c>o</sic><corr resp="LC">ad<c>uent</c>um</corr></choice> <choice><orig>inpro<c>u</c>incia</orig><reg>in pro<c>u</c>incia</reg></choice> <choice><abbr>Itali<am>e</am></abbr><expan>Itali<ex>ae</ex></expan></choice>
+    <lb xml:id="CE34(5)_lb_057v_3" n="3"></lb>
+    <choice><orig>langobardorum</orig><reg>Langobardorum</reg></choice><choice><orig><pc>.</pc></orig><reg><pc>,</pc></reg></choice> <choice><orig>exquo<name type="proper noun" xml:lang="lng">alboin</name></orig><reg>ex quo <name type="proper noun" xml:lang="lng">Alboin</name></reg></choice> <choice><orig>tunctemporis</orig><reg>tunc temporis</reg></choice>
+    <lb xml:id="CE34(5)_lb_057v_4" n="4"></lb>
+    <choice><sic>regem</sic><corr resp="LC">regis</corr></choice> <choice><abbr>pr<am>e</am>cedent<sic>em</sic></abbr><expan>pr<ex>ae</ex>cedent<corr resp="LC">is</corr></expan></choice> di<c>u</c>ina potentia adducti <choice><abbr><am>s</am></abbr><expan>s<ex>unt</ex></expan></choice>
+    <lb xml:id="CE34(5)_lb_057v_5" n="5"></lb>
+    anno <choice><orig>septuagesimosexto</orig><reg>septuagesimo sexto</reg><orig><pc>.</pc></orig><reg> </reg></choice>feliciter<choice><orig><pc>.</pc></orig></choice>.
+    <lb xml:id="CE34(5)_lb_057v_6" n="6"></lb>
+    <hi rend="black and red">Q</hi>uanta pro subiectorum nostrorum <choice><sic>quomodo</sic><corr resp="LC">commodo</corr></choice>
+    <lb xml:id="CE34(5)_lb_057v_7" n="7"></lb>
+    <choice><orig><abbr>adn<am>rs</am></abbr></orig><reg><expan>ad n<ex>ost</ex>r<ex>o</ex>s</expan></reg></choice> fuit sollicitudinis cura<choice><orig><pc>.</pc></orig></choice> <choice><orig>idest</orig><reg>id est</reg></choice> subter <w>ad<lb xml:id="CE34(5)_lb_057v_8" n="8"></lb>
+    nexa</w> tenor declarat<choice><orig><pc>.</pc></orig></choice> <choice><abbr><hi rend="black and red">P</hi>r<am>e</am>cipu</abbr><sic>is</sic><expan>Pr<ex>ae</ex>cipu</expan><corr resp="LC">e</corr></choice> tam propter
+    <lb xml:id="CE34(5)_lb_057v_9" n="9"></lb>
+    adsiduas fatigationes <choice><abbr>pauper<am>x</am></abbr><expan>pauper<ex>um</ex></expan></choice> quam <choice><abbr type="brev"><am><g ref="#et"></g></am>iam</abbr><expan><ex>et</ex>iam</expan></choice>
+    <lb xml:id="CE34(5)_lb_057v_10" n="10"></lb>
+    <choice><abbr>su<am>p</am>fluas</abbr><expan>sup<ex>er</ex>fluas</expan></choice> exactiones ab his <choice><orig>quimaiore</orig><reg>qui maiore</reg></choice> <c>u</c>irtute
+    <lb xml:id="CE34(5)_lb_057v_11" n="11"></lb>
+    habentur <choice><orig><pc>.</pc></orig><reg><pc>,</pc></reg></choice>quos <c>u</c>im pati cogno<c>u</c>imus<choice><orig><pc>.</pc></orig></choice> <choice><orig><hi rend="black and red">O</hi>bhoc<w>con<lb xml:id="CE34(5)_lb_057v_12" n="12"></lb>
+    siderantes</w></orig><reg><hi rend="black and red">O</hi>b hoc <w>con<lb xml:id="CE34(5)_lb_057v_12" n="12"></lb>
+    siderantes</w></reg></choice> <choice><orig><abbr>d<am>i</am></abbr></orig><reg><expan>D<ex>e</ex>i</expan></reg></choice> <choice><abbr>o<am>mp</am>tis</abbr><expan>om<ex>ni</ex>p<ex>oten</ex>tis</expan></choice> gratiam <choice><abbr>necessari<am>u</am></abbr><expan>necessariu<ex>m</ex></expan></choice> esse
+    <lb xml:id="CE34(5)_lb_057v_13" n="13"></lb>
+    prospeximus <choice><orig>presentem</orig><reg>praesentem</reg></choice> <choice><sic>corregere</sic><corr resp="LC">corrigere</corr></choice> legem <choice><sic>quam</sic><corr resp="LC">quae</corr></choice>
+    <lb xml:id="CE34(5)_lb_057v_14" n="14"></lb>
+    priores <choice><sic>homines</sic><corr resp="LC">omnes</corr></choice> <choice><abbr type="brev">reno<c>u</c><am><g ref="#et"></g></am></abbr><expan>reno<c>u</c><ex>et</ex></expan></choice><choice><orig>.</orig><reg> </reg></choice><choice><orig>et<abbr type="brev">emend<am><g ref="#et"></g></am></abbr></orig><reg>et <expan>emend<ex>et</ex></expan></reg></choice><choice><orig><pc>.</pc></orig></choice> <choice><hi rend="black and red"><abbr type="brev"><am><g ref="#et"></g></am></abbr><expan><ex>et</ex></expan></hi></choice> <choice><sic>quodest</sic><corr resp="LC">deest</corr></choice>
+    <lb xml:id="CE34(5)_lb_057v_15" n="15"></lb>
+    adiciat<choice><orig><pc>.</pc></orig></choice> <choice><orig><abbr type="brev"><am><g ref="#et"></g></am></abbr><expan><ex>et</ex></expan>quod</orig><reg><abbr type="brev"><am><g ref="#et"></g></am></abbr><expan><ex>et</ex></expan> quod</reg></choice> <choice><sic><abbr>su<am>p</am>fluus</abbr><expan>sup<ex>er</ex>fluus</expan></sic><corr resp="LC"><abbr>su<am>p</am>fluum</abbr><expan>sup<ex>er</ex>fluum</expan></corr></choice> est abscedat<choice><orig><pc>.</pc></orig></choice> <choice><orig><sic><hi rend="black and red">I</hi>nunum</sic></orig><reg><corr resp="LC"><hi rend="black and red">I</hi>n uno</corr></reg></choice>
+    <lb xml:id="CE34(5)_lb_057v_16" n="16"></lb>
+    pro<c>u</c>idemus <c>u</c>olumine <choice><orig><abbr>conplectend<am>u</am></abbr></orig><reg><expan>complectendu<ex>m</ex></expan></reg><note resp="LC">esse</note></choice> quatinus <w>li<lb xml:id="CE34(5)_lb_057v_17" n="17"></lb>
+    ceat</w> <choice><abbr>unumquem<am>q:</am></abbr><expan>unumquemq</expan><ex>ue</ex></choice> sal<c>u</c>a lege <choice><orig><abbr type="brev"><am><g ref="#et"></g></am></abbr><expan><ex>et</ex></expan>iustiti<c>a</c></orig><reg><abbr type="brev"><am><g ref="#et"></g></am></abbr><expan><ex>et</ex></expan> iustiti<c>a</c></reg></choice> <choice><orig><abbr type="brev">qui<am><g ref="#et"></g></am>e</abbr><expan>qui<ex>et</ex>e</expan><c>u</c>i<c>u</c>ere</orig><reg><abbr type="brev">qui<am><g ref="#et"></g></am>e</abbr><expan>qui<ex>et</ex>e</expan> <c>u</c>i<c>u</c>ere</reg></choice><choice><orig><pc>.</pc></orig><reg> </reg></choice>
+    <lb xml:id="CE34(5)_lb_057v_18" n="18"></lb>
+    <choice><orig><hi rend="black and red">E</hi>t</orig><reg>et</reg></choice> propter opinionem contra <choice><orig>Inimicos</orig><reg>inimicos</reg></choice> laborare<choice><orig>.</orig><reg> </reg></choice><choice><abbr>se<am>.</am></abbr><expan>se<ex>que</ex></expan></choice>
+    <lb xml:id="CE34(5)_lb_057v_19" n="19"></lb>
+    <choice><abbr>suos<am>q:</am></abbr><expan>suosq<ex>ue</ex></expan></choice> defendere fines<choice><orig><pc>.</pc></orig></choice> <hi rend="black and red">T</hi>amen <choice><abbr>qu<am>ã</am>qu<am>ã</am></abbr><expan>qua<ex>m</ex>qua<ex>m</ex></expan></choice> <choice><abbr>h<am>e</am>c</abbr><expan>h<ex>ae</ex>c</expan></choice> <choice><orig>itase</orig><reg>ita se</reg></choice>
+    <lb xml:id="CE34(5)_lb_057v_20" n="20"></lb>
+    habeant<choice><orig> </orig><reg><pc>,</pc></reg></choice> utilem prospeximus propter <choice><sic>futuris</sic><corr resp="LC">futuri</corr></choice> <w>tem<lb xml:id="CE34(5)_lb_057v_21" n="21"></lb>
+    poris</w> <choice><sic>memoria</sic><corr resp="LC">memoriam</corr></choice><choice><orig><pc>.</pc></orig></choice> <choice><orig><hi rend="black and red">N</hi>ominaregum</orig><reg><hi rend="black and red">N</hi>omina regum</reg></choice> <choice><orig><abbr>ante cessor<am>u</am></abbr></orig><reg><expan>antecessoru<ex>m</ex></expan></reg></choice> <choice><abbr>n<am>rox</am></abbr><expan>n<ex>ostrorum</ex></expan></choice>
+    <lb xml:id="CE34(5)_lb_057v_22" n="22"></lb>
+    <choice><orig>exquoIngente</orig><reg>ex quo in gente</reg></choice> <choice><abbr>n<am>ra</am></abbr><expan>n<ex>ostra</ex></expan></choice> <choice><orig><abbr>langobardor<am>u</am></abbr></orig><reg><expan>Langobardoru<ex>m</ex></expan></reg></choice> reges nominati
+    <lb xml:id="CE34(5)_lb_057v_23" n="23"></lb>
+    coeperunt<choice><orig>.</orig><reg> </reg></choice><choice><abbr><am>ee</am></abbr><expan><ex>esse</ex></expan></choice><choice><orig><pc>.</pc></orig><reg><pc>,</pc></reg></choice> <choice><orig>Inquantum</orig><reg>in quantum</reg></choice> <choice><orig><abbr><am>p</am></abbr>antiquos</orig><reg><expan><ex>per</ex></expan> antiquos</reg></choice> homines <choice><sic><w>de<lb xml:id="CE34(5)_lb_057v_24" n="24"></lb>
+    dicimus</w></sic><corr resp="LC"><w>di<lb xml:id="CE34(5)_lb_057v_24" n="24"></lb>
+    dicimus</w></corr></choice> <choice><orig>inhoc</orig><reg>in hoc</reg></choice> membranum adnotari<choice><orig>.</orig><reg> </reg></choice>iussimus<choice><orig><pc>.</pc></orig></choice>
+  </div>
+  <div n="Catalogus regum" subtype="edition_text" type="prose" xml:id="CE34(5)_ER_Catalogus regum">
+  <lb xml:id="CE34(5)_lb_057v_25" n="25"></lb>
+  <hi rend="black and red">F</hi>uit primus <choice><orig><name type="proper noun" xml:lang="lng">agilmund</name></orig><reg><name type="proper noun" xml:lang="lng">Agilmund</name></reg></choice> rex <choice><orig>exgenere</orig><reg>ex genere</reg></choice> <term xml:lang="lng"><w>gunzingus</w></term><choice><orig><pc>.</pc></orig></choice>
+  <lb xml:id="CE34(5)_lb_057v_26" n="26" type="rubric"></lb>
+ <name type="proper noun" xml:lang="lng">Laamisio</name><choice><orig><pc>;</pc></orig></choice> <choice><abbr type="brev"><name type="proper noun" xml:lang="lng">L<am><g ref="#et"></g></am>h</name></abbr><expan><name type="proper noun" xml:lang="lng">L<ex>et</ex>h</name></expan></choice><choice><orig><pc>.</pc></orig><reg><pc>;</pc></reg></choice> <name type="proper noun" xml:lang="lng">Geldehoc</name><choice><orig><pc>;</pc></orig></choice> <name type="proper noun" xml:lang="lng">Godehoc</name><choice><orig><pc>.</pc></orig><reg><pc>,</pc></reg></choice>filius <choice><orig><name type="proper noun" xml:lang="lng">zeldehoc</name></orig><reg><name type="proper noun" xml:lang="lng">Geldehoc</name></reg></choice><choice><orig></orig><reg><pc>.</pc></reg></choice>
+ <pb n="058r" xml:id="CE34(5)_folio_058r"></pb>
+ <fw type="fol" place="top-right">58</fw>
+ <lb xml:id="CE34(5)_lb_058r_1" n="1"></lb>
+ <name type="proper noun" xml:lang="lng"><hi rend="black and red">G</hi>affo</name><choice><orig><pc>.</pc></orig><reg><pc>,</pc></reg></choice> filius<choice><orig><pc>.</pc></orig><reg> </reg></choice><choice><orig><name type="proper noun" xml:lang="lng">godehoc</name></orig><reg><name type="proper noun" xml:lang="lng">Godehoc</name></reg></choice><choice><orig></orig><reg><pc>.</pc></reg></choice>
+ <lb xml:id="CE34(5)_lb_058r_2" n="2"></lb>
+ <name type="proper noun" xml:lang="lng"><hi rend="black and red">T</hi>atto</name> filius <choice><orig><name type="proper noun" xml:lang="lng">gafoni</name></orig><reg><name type="proper noun" xml:lang="lng">Gafoni</name></reg></choice><choice><orig><pc>.</pc></orig><reg><pc>;</pc></reg></choice> <choice><orig><name type="proper noun" xml:lang="lng">tato</name></orig><reg><name type="proper noun" xml:lang="lng">Tato</name></reg></choice> <choice><orig><abbr type="brev"><am><g ref="#et"></g></am></abbr><name type="proper noun" xml:lang="lng"><c>u</c><c>u</c>inigis</name></orig><reg><expan><ex>et</ex></expan> <name type="proper noun" xml:lang="lng"><c>U</c><c>u</c>inigis</name></reg></choice><choice><orig><pc>.</pc></orig><reg><pc>,</pc></reg></choice> <choice><orig>filii<name type="proper noun" xml:lang="lng">gafoni</name></orig><reg>filii <name type="proper noun" xml:lang="lng">Gafoni</name></reg></choice><choice><orig><pc>.</pc></orig></choice>
+ <lb xml:id="CE34(5)_lb_058r_3" n="3"></lb>
+ <name type="proper noun" xml:lang="lng"><hi rend="black and red"><c>U</c></hi><c>u</c>accho</name> filius <choice><orig><c>u</c><c>u</c>inigis</orig><reg><c>U</c><c>u</c>inigis</reg></choice><choice><orig><pc>.</pc></orig><reg><pc>,</pc></reg></choice> <choice><sic>nepus</sic><corr resp="LC">nepos</corr></choice> <choice><orig><name type="proper noun" xml:lang="lng">tatoni</name></orig><reg><name type="proper noun" xml:lang="lng">Tatoni</name></reg></choice><choice><orig><pc>;</pc></orig><reg><pc>.</pc></reg></choice>
+ <lb xml:id="CE34(5)_lb_058r_4" n="4"></lb>
+ <name type="proper noun" xml:lang="lng"><hi rend="black and red"><c>U</c></hi><c>u</c>altari</name><choice><orig></orig><reg><pc>.</pc></reg></choice>
+ <lb xml:id="CE34(5)_lb_058r_5" n="5"></lb>
+ <name type="proper noun" xml:lang="lng"><hi rend="black and red">A</hi>udoin</name><choice><orig>.</orig><reg><pc>,</pc></reg></choice> <choice><orig>exgenere</orig><reg>ex genere</reg></choice> <term xml:lang="lng"><w>gausus</w></term><choice><orig></orig><reg><pc>.</pc></reg></choice>
+ <lb xml:id="CE34(5)_lb_058r_6" n="6"></lb>
+ <name type="proper noun" xml:lang="lng"><hi rend="black and red">A</hi>lboin</name> <choice><orig>.</orig><reg><pc>,</pc></reg></choice> <choice><sic>filuis</sic><corr resp="LC">filius</corr></choice> <choice><orig><name type="proper noun" xml:lang="lng">audoin</name></orig><reg><name type="proper noun" xml:lang="lng">Audoin</name></reg></choice><choice><orig>.</orig><reg><pc>,</pc></reg></choice> <choice><orig>qui<sic>exercito</sic></orig><reg>qui <corr resp="LC">exercitum</corr></reg></choice> <choice><orig>ut<abbr>su<am>p</am></abbr></orig><reg>ut <expan>sup<ex>ra</ex></expan></reg></choice> <choice><orig>In<sic>italia</sic><abbr>addu<am>x</am></abbr></orig><reg>in <corr resp="LC">Italiam</corr> <expan>addux<ex>it</ex></expan></reg></choice><choice><orig><pc>.</pc></orig></choice>
+ <lb xml:id="CE34(5)_lb_058r_7" n="7"></lb>
+ <name type="proper noun" xml:lang="lng"><hi rend="black and red">C</hi>lef</name><choice><orig>.</orig><reg><pc>,</pc></reg></choice> <choice><orig>exgenere</orig><reg>ex genere</reg></choice><choice><orig>.</orig><reg> </reg></choice><term xml:lang="lng"><w>beleos</w></term><choice><orig><pc>.</pc></orig></choice>
+ <lb xml:id="CE34(5)_lb_058r_8" n="8"></lb>
+ <name type="proper noun" xml:lang="lng"><hi rend="black and red">A</hi>uthari</name><choice><orig>.</orig><reg><pc>,</pc></reg></choice> filius <choice><orig><name type="proper noun" xml:lang="lng">clef</name></orig><reg><name type="proper noun" xml:lang="lng">Clef</name></reg></choice><choice><orig></orig><reg><pc>.</pc></reg></choice>
+ <lb xml:id="CE34(5)_lb_058r_9" n="9"></lb>
+  <name type="proper noun" xml:lang="lng"><hi rend="black and red">A</hi>ginulf</name><choice><orig>.</orig><reg> </reg></choice><choice><orig>turingus</orig><reg>Turingus</reg></choice><choice><orig>.</orig><reg><pc>,</pc></reg></choice> <choice><orig>exgenere</orig><reg>ex genere</reg></choice> <term xml:lang="lng"><w>ana<c>u</c><c>u</c>ain</w></term><choice><orig></orig><reg><pc>.</pc></reg></choice>
+  <lb xml:id="CE34(5)_lb_058r_10" n="10"></lb>
+  <name type="proper noun" xml:lang="lng"><hi rend="black and red">A</hi>dal<c>u</c><c>u</c>ald</name><choice><orig>.</orig><reg><pc>,</pc></reg></choice> filius <choice><orig><name type="proper noun" xml:lang="lng">aginulf</name></orig><reg><name type="proper noun" xml:lang="lng">Aginulf</name></reg></choice><choice><orig><pc>.</pc></orig></choice>
+  <lb xml:id="CE34(5)_lb_058r_11" n="11"></lb>
+  <name type="proper noun" xml:lang="lng"><hi rend="black and red">A</hi>rioald</name><choice><orig>.</orig><reg><pc>,</pc></reg></choice> <choice><orig>exgenere</orig><reg>ex genere</reg></choice> <term xml:lang="lng"><w>caupus</w></term><choice><orig><pc>.</pc></orig></choice>
+  <lb xml:id="CE34(5)_lb_058r_12" n="12"></lb>
+  <choice><sic><hi rend="black and red">S</hi>edecimus</sic><corr resp="LC"><hi rend="black and red">S</hi>eptimus decimus</corr></choice> ergo <choice><orig>In<abbr>d<am>i</am></abbr></orig><reg>in <expan>D<ex>e</ex>i</expan></reg></choice> nomine <choice><orig>qui<abbr>su<am>p</am></abbr></orig><reg>qui <expan>sup<ex>ra</ex></expan></reg></choice> <choice><orig><name type="proper noun" xml:lang="lng">rothari</name>rex</orig><reg><name type="proper noun" xml:lang="lng">Rothari</name> rex</reg></choice><choice><orig>.</orig><reg><pc>,</pc></reg></choice>
+  <lb xml:id="CE34(5)_lb_058r_13" n="13"></lb>
+  filius <choice><orig><name type="proper noun" xml:lang="lng">nanding</name></orig><reg><name type="proper noun" xml:lang="lng">Nanding</name></reg></choice> <choice><orig>exgenere</orig><reg>ex genere</reg></choice> <term xml:lang="lng"><w>harodus</w></term><choice><orig><pc>.</pc></orig></choice>
+  </div>
+  <div n="Genealogia Rothari" subtype="edition_text" type="prose" xml:id="CE34(5)_ER_Genealogia Rothari">
+  <lb xml:id="CE34(5)_lb_058r_14" n="14"></lb>
+  <name type="proper noun" xml:lang="lng"><hi rend="black and red">N</hi>anding</name><choice><orig>.</orig><reg><pc>,</pc></reg></choice> filius <name type="proper noun" xml:lang="lng"><choice><orig>nozuni</orig><reg>Nozuni</reg></choice></name><choice><orig> </orig><reg><pc>.</pc></reg></choice><choice><orig><name type="proper noun" xml:lang="lng"><hi rend="black and red">N</hi>ozu</name>filius</orig><reg><name type="proper noun" xml:lang="lng"><hi rend="black and red">N</hi>ozu</name> filius</reg></choice> <name type="proper noun" xml:lang="lng"><choice><orig>alamundi</orig><reg>Alamundi</reg></choice></name><choice><orig><pc>.</pc></orig></choice>
+  <lb xml:id="CE34(5)_lb_058r_15" n="15"></lb>
+  <name type="proper noun" xml:lang="lng"><hi rend="black and red">A</hi>lamund</name><choice><orig>.</orig><reg><pc>,</pc></reg></choice> filius <name type="proper noun" xml:lang="lng"><choice><orig>alaman</orig><reg>Alaman</reg></choice></name><choice><orig><pc>.</pc></orig></choice> <name type="proper noun" xml:lang="lng"><hi rend="black and red">A</hi>laman</name> filius <name type="proper noun" xml:lang="lng"><choice><orig>hilzuni</orig><reg>Hilzuni</reg></choice></name><choice><orig><pc>.</pc></orig></choice>
+  <lb xml:id="CE34(5)_lb_058r_16" n="16"></lb>
+  <name type="proper noun" xml:lang="lng"><choice><orig><hi rend="black and red">h</hi>ilzo</orig><reg><hi rend="black and red">H</hi>ilzo</reg></choice></name> filius <name type="proper noun" xml:lang="lng"><choice><orig><c>u</c><c>u</c>eiloni</orig><reg><c>U</c><c>u</c>eiloni</reg></choice></name><choice><orig><pc>.</pc></orig></choice> <name type="proper noun" xml:lang="lng"><hi rend="black and red"><c>U</c></hi><c>u</c>eilo</name><choice><orig>.</orig><reg><pc>,</pc></reg></choice> filius <choice><orig>.</orig><reg> </reg></choice><name type="proper noun" xml:lang="lng"><choice><orig><c>u</c><c>u</c>echoni</orig><reg><c>U</c><c>u</c>echoni</reg></choice></name><choice><orig><pc>.</pc></orig></choice>
+  <lb xml:id="CE34(5)_lb_058r_17" n="17"></lb>
+  <name type="proper noun" xml:lang="lng"><choice><orig><hi rend="black and red"><c>u</c></hi><c>u</c>eccho</orig><reg><hi rend="black and red"><c>U</c></hi><c>u</c>eccho</reg></choice></name> filius <name type="proper noun" xml:lang="lng"><choice><orig>frocchni</orig><reg>Frocchni</reg></choice></name><choice><orig><pc>.</pc></orig></choice> <name type="proper noun" xml:lang="lng"><choice><orig>froccho</orig><reg>Froccho</reg></choice></name><choice><orig>.</orig><reg><pc>,</pc></reg></choice> filius <name type="proper noun" xml:lang="lng"><choice><orig><c>u</c><c>u</c>achoni</orig><reg><c>U</c><c>u</c>achoni</reg></choice></name><choice><orig><pc>.</pc></orig></choice>
+  <lb xml:id="CE34(5)_lb_058r_18" n="18"></lb>
+  <name type="proper noun" xml:lang="lng"><choice><orig><hi rend="black and red"><c>u</c></hi><c>u</c>acho</orig><reg><hi rend="black and red"><c>U</c></hi><c>u</c>acho</reg></choice></name><choice><orig>.</orig><reg><pc>,</pc></reg></choice> filius <name type="proper noun" xml:lang="lng"><choice><orig>mammoni</orig><reg>Mammoni</reg></choice></name><choice><orig><pc>.</pc></orig></choice> <name type="proper noun" xml:lang="lng"><choice><orig>mammo</orig><reg>Mammo</reg></choice></name><choice><orig>.</orig><reg><pc>,</pc></reg></choice> filius <name type="proper noun" xml:lang="lng"><choice><orig>obbora</orig><reg>Obbora</reg></choice></name><choice><orig><pc>.</pc></orig></choice>
+     </div>
+        <div n="Capp. 1-194" subtype="edition_text" type="prose" xml:id="CE34(5)_ER_1-194">
+      </div>
+      <div n="Capp. 195-388" subtype="edition_text" type="prose" xml:id="CE34(5)_ER_195-388">
+      </div>
+          </body>
+  </text>
+</TEI>
