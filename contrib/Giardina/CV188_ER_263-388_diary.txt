@@ -13,6 +13,8 @@
 78r --> pagina interamente aggiunta
 
 78r --> & per et in quasi tutto il folio - aggiungere char AMPERSAND?? in alcuni casi il carattere sembra differente
+Aggiunto char etlig, ma in alcuni casi il carattere sembra differente.
+Su Unicode c'è corrispondenza vicina, ma non è corretta
 
 78r
 02
@@ -20,11 +22,11 @@
 
 78r
 03
-<w>aliqt</w> q with stroke --> aliquit - abbr expan sic corr?
+<w>aliqt</w> q with stroke --> aliquit - abbr expan sic corr? - aliquid
 
 78r
 07
-<w>abet</w> --> AMPERSAND
+<w>abet</w> --> AMPERSAND --> et lig
 
 78r
 18
@@ -90,7 +92,6 @@ scandolam -scindolam --> <!--tilde with dot above -->
 11
  <w>pro</w> --> p with diagonal stroke
 
-
 88v
 13
 <w>con<lb xml:id="CV188_lb_088v_14" n="14"/>sueto</w> <!--tilde with dot above -->
@@ -126,3 +127,20 @@ scandolam -scindolam --> <!--tilde with dot above -->
 92r
 17
 <w>defendere</w> <!--tilde with dot above -->
+
+94v
+15
+<w>sca</w> sacrosancta --> cmacr
+
+98v
+01
+piccola decorazione
+
+99r
+01
+ligature e with x
+
+101r
+07
+<w>fuerent</w> --> nt lig
+
