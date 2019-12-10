@@ -1,0 +1,265 @@
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>conp</w>
+                    <w>sol</w>
+                    <w>ii</w>
+                    <w>excepto</w>
+                    <w>operas</w>
+                    <w>etmercedes</w>
+                    <w>medici</w>
+                </p>
+                <p xml:id="CE34-5_p_066v_05" n="5"><lb xml:id="CE34-5_lb_066v_08" n="8"
+                        type="rubric"/>
+                    <label><num><w>III</w></num></label>
+                    <w>CVIII</w>
+                    <w>De</w>
+                    <w>LA</w><w>bro</w>
+                    <w>absciso</w>
+                    <w>Si</w>
+                    <w>q</w>
+                    <w>seruo</w>
+                    <w>al<g ref="#jnodotenl"/>eno</w>
+                    <w>rusticano</w> -- add u <w>labru</w>
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>absciderit</w>
+                    <w>ut</w>
+                    <w>dentes</w>
+                    <w>appareant</w>
+                    <w>conp</w>
+                    <w>sol</w>
+                    <w>iii</w>
+                </p>
+                <p xml:id="CE34-5_p_066v_05" n="5"><lb xml:id="CE34-5_lb_066v_08" n="8"
+                        type="rubric"/>
+                    <label><num><w>III</w></num></label>
+                    <w>CVIIII</w>
+                    <w>De</w>
+                    <w>dentes</w>
+                    <w>Si</w>
+                    <w>quis</w>
+                    <w>seruo</w>
+                    <w>al<g ref="#jnodotenl"/>eno</w>
+                    <w>rusticano</w>
+                    <w>dentem</w>
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>excusserit</w>
+                    <w>qui</w>
+                    <w>In</w>
+                    <w>riso</w>
+                    <w>appareat</w>
+                    <w>conp</w>
+                    <w>pro</w>
+                    <w>uno</w>
+                    <w>dente</w>
+                    <w>sol</w>
+                    <w>ii</w>
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>pro</w>
+                    <w>maxillares</w>
+                    <w>uero</w>
+                    <w>sol</w>
+                    <w>i</w>
+                    <w>Si</w>
+                    <w>au</w>
+                    <w>amplius</w>
+                    <w>fuerint</w>
+                    <w>p</w>
+                    <w>hoc</w>
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>numero</w>
+                    <w>conp</w>
+                </p>
+                <p xml:id="CE34-5_p_066v_05" n="5"><lb xml:id="CE34-5_lb_066v_08" n="8"
+                        type="rubric"/>
+                    <label><num><w>III</w></num></label>
+                    <w>CX</w>
+                    <w>De</w>
+                    <w>brachio</w>
+                    <w>aut</w>
+                    <w>coxa</w>
+                    <w>transforata</w>
+                    <w>Si</w>
+                    <w>q</w>
+                    <w>seruu</w>
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>alienum</w>
+                    <w>rusticanu</w>
+                    <w>brachiu</w>
+                    <w>aut</w>
+                    <w>coxa</w>
+                    <w>transforauerit</w>
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>conp</w>
+                    <w>sol</w>
+                    <w>i</w>
+                    <w>excepto</w>
+                    <w>operas</w>
+                    <w>et</w>
+                    <w>mercedes</w>
+                    <w>medici</w>
+                </p>
+                <p xml:id="CE34-5_p_066v_05" n="5"><lb xml:id="CE34-5_lb_066v_08" n="8"
+                        type="rubric"/>
+                    <label><num><w>III</w></num></label>
+                    <w>CXI</w>
+                    <w>De</w>
+                    <w>plagaque</w>
+                    <w>intra</w>
+                    <w>capso</w>
+                    <w>fiet</w>
+                    <w>Si</w>
+                    <w>q</w>
+                    <w>seruum</w>
+                    <w>alienu</w>
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>rusticanum</w>
+                    <w>intra</w>
+                    <w>capso</w>
+                    <w>placauerit</w>
+                    <w>conp</w>
+                    <w>sol</w>
+                    <w>iii</w>
+                    <w>excepto</w>
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>operas</w>
+                    <w>et</w>
+                    <w>mercedes</w>
+                    <w>medici</w>
+                    <w>Et</w>
+                    <w>si</w>
+                    <w>de</w>
+                    <w>ipsa</w>
+                    <w>rupta</w>
+                    <w>Intra</w>
+                    <w>annis</w>
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>spatium</w>
+                    <w>sanus</w>
+                    <w>factus</w>
+                    <w>non</w>
+                    <w>fuerit</w>
+                    <w>et</w>
+                    <w>adpristina</w>
+                    <w>non</w>
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>redierit</w>
+                    <w>sanitatem</w>
+                    <w>quarta</w>
+                    <w>partem</w>
+                    <w>qd</w>
+                    <w>ualuerit</w>
+                    <w>dominus</w>
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>eius</w>
+                    <w>conp</w>
+                </p>
+                <p xml:id="CE34-5_p_066v_05" n="5"><lb xml:id="CE34-5_lb_066v_08" n="8"
+                        type="rubric"/>
+                    <label><num><w>III</w></num></label>
+                    <w>CXII</w>
+                    <w>De</w>
+                    <w>brachio</w>
+                    <w>coxa</w>
+                    <w>aut</w>
+                    <w>tibia</w>
+                    <w>rupta</w>
+                    <w>Si</w>
+                    <w>q</w>
+                    <w>seruum</w>
+                    <w>alienu</w>
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>rusticanu</w>
+                    <w>brachium</w>
+                    <w>coxa</w>
+                    <w>aut</w>
+                    <w>tibia</w>
+                    <w>ruperit</w>
+                    <w>conp</w>
+                    <w>sol</w>
+                    <w>iii</w>
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>excepto</w>
+                    <w>operas</w>
+                    <w>et</w>
+                    <w>mercedes</w>
+                    <w>medici</w>
+                    <w>Et</w>
+                    <w>si</w>
+                    <w>de</w>
+                    <w>ipsa</w>
+                    <w>ruptura</w>
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>intra</w>
+                    <w>anni</w>
+                    <w>spatium</w>
+                    <w>sanus</w>
+                    <w>factus</w>
+                    <w>non</w>
+                    <w>fuerit</w>
+                    <w>et</w>
+                    <w>adpris</w><lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>tina</w>
+                    <w>non</w>
+                    <w>redierit</w>
+                    <w>sanitatem</w>
+                    <w>quarta</w>
+                    <w>partem</w>
+                    <w>qd</w>
+                    <w>ualuerit</w><w>dno</w>
+                    <w>ei</w>
+                    <w>conp</w>
+                </p>
+                <p xml:id="CE34-5_p_066v_05" n="5"><lb xml:id="CE34-5_lb_066v_08" n="8"
+                        type="rubric"/>
+                    <label><num><w>III</w></num></label>
+                    <w>CXIII</w>
+                    <w>De</w>
+                    <w>manu</w>
+                    <w>abscisa</w>
+                    <w>Si</w>
+                    <w>q</w>
+                    <w>seruum</w>
+                    <w>alienum</w>
+                    <w>rus<lb xml:id="CE34-5_lb_074r_01" n="1"/>ticanum</w>
+                    <w>manum</w>
+                    <w>absciderit</w>
+                    <w>medietatem</w>
+                    <w>ptii</w>
+                    <w>ipsius</w>
+                    <w>dno</w>
+                    <w>ei</w>
+                    <w>conp</w>
+                </p>
+                <p xml:id="CE34-5_p_066v_05" n="5"><lb xml:id="CE34-5_lb_066v_08" n="8"
+                        type="rubric"/>
+                    <label><num><w>III</w></num></label>
+                    <w>CXIIII</w>
+                    <w>De</w>
+                    <w>digita</w>
+                    <w>manus</w>
+                    <w>Si</w><w>q</w>
+                    <w>seruu</w>
+                    <w>al<g ref="#jnodotenl"/>enu</w>
+                    <w>rusticanu</w>
+                    <lb xml:id="CE34-5_lb_074r_01" n="1"/>
+                    <w>pollicem</w>
+                    <w>de</w>
+                    <w>manum</w>
+                    <w>excusserit</w>
+                    <w>conp</w>
+                    <w>sol</w>
+                    <w>iiii</w>
+                </p>
+                <p xml:id="CE34-5_p_066v_05" n="5"><lb xml:id="CE34-5_lb_066v_08" n="8"
+                        type="rubric"/>
+                    <label><num><w>III</w></num></label>
+                    <w>CXV</w>
+                    <w>Si</w>
+                    <w>secundum</w>
+                    <w>digitu</w>
+                    <w>de</w>
+                    <w>manu</w>
+                    <w>excusserit</w>
+                    <w>conp</w>
+                    <w>sol</w>
+                    <w>III</w>
+                </p>
