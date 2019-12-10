@@ -1,0 +1,81 @@
+75r
+09
+<w>sup</w> --> expan sup(er) - p with diagonal stroke
+                   
+78r --> pagina interamente aggiunta
+
+78r --> & per et, si ripete in quasi tutto il folio.
+Aggiunto char etlig, ma in alcuni casi il carattere sembra differente.
+Su Unicode c'è corrispondenza vicina, ma non è corretta
+
+78r
+02
+<w>et</w> ligature et??
+
+78r
+03
+<w>aliqt</w> q with stroke --> aliquit - abbr expan sic corr? - aliquid
+
+78r
+07
+<w>abet</w> --> et lig
+
+78r
+18
+<label><num><w>CCLX<damage/>XII</w></num></label> --> errore di numerazione?
+
+78r
+22
+<w>csilio</w> cmacr --> consilio
+
+<w>csiliu</w>  aggiungere char cmacr --> 
+
+78r
+27
+<w>p</w> --> per
+
+<w>csiliu</w>  cmacr --> concilios
+
+78r
+36
+<w>defendensanetur-us</w> --> usmod? verificare!
+
+78r
+37
+errore numerazione??
+<label><num><w>CC<lb xml:id="CV188_lb_078r_37" n="37"/>LXXVIIII</w></num></label>
+
+78v --> pagina bianca
+
+79v
+12
+<w>sup</w> --> p with diagonal stroke
+
+88v
+11
+<w>pro</w> --> p with diagonal stroke
+
+90r
+06
+<w>per</w> --> p with diagonal stroke
+
+
+91r
+07
+<w>super</w> --> p with diagonal stroke
+
+94v
+15
+<w>sca</w> sacrosancta --> cmacr
+
+98v
+01
+piccola decorazione
+
+99r
+01
+ligature e with x
+
+101r
+07
+<w>fuerent</w> --> nt lig

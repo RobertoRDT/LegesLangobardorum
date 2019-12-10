@@ -1,0 +1,92 @@
+42r
+16
+NT --> t in legatura con n o aggiunta?
+
+43v
+05
+quiq: --> quique?
+
+43v
+09
+<del>nos</del> - nos cancellato e ripetuto
+
+44r
+07
+<w>fuerent</w> --> legatura NT
+
+45r
+14
+<w>sexta</w> --> legatura ex 
+
+45v
+19
+FF con tilde --> abbr per fratres
+
+46r
+02
+FF con tilde --> abbr per fratres
+
+46v
+09
+rivedere abbr ed expan per ET e PB (praebeat)
+
+47v
+08
+rivedere abbr expan --> s tilde
+
+48v
+06
+legatura re?? 
+
+49v
+08
+legatura re??
+
+49v
+13
+<w>in</w> <!-- espunzione -->
+
+52v
+11
+<w>fuerint</w> <!-- legatura NT -->
+
+53r
+10
+<w>parentes</w> --> legatura EN???
+
+53v
+12
+FF con tilde --> abbr per fratris
+
+54r
+12
+FF con tilde --> abbr per fratrem
+
+55r
+10
+ppter --> propter - p LATIN SMALL LETTER P WITH FLOURISH??
+
+56r
+03
+<w>sunt</w> --> legatura NT
+
+57v
+09
+<add place="above" hand="scribe_2">qot</add> --> qot???
+
+58v
+07
+orig reg da controllare
+
+58v
+11
+rivedere sostituzione - unclear
+rivedere aggiunte
+
+59v
+04
+<w>dederunt</w> --> legatura NT
+
+59v
+09
+<w>habeant</w> --> legatura NT

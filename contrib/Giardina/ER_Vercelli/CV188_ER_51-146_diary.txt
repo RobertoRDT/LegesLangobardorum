@@ -1,0 +1,81 @@
+------------------------------------------------------------------------------
+
+[03-02-2017]
+
+
+028v
+
+01 … In ri-
+    sum”.. mettere il “-“ quando si va a capo (solo in interpretativa)    per il confine delle righe??
+
+03 fu-
+   erent mettere il “-“ quando si va a capo (solo in  interpretativa) per il confine delle righe??
+
+08 qui__s (diviso da parte inferiore della lettera D presente nella riga in alto)
+
+11 <hi>D<hi> …D simile ad una O.
+
+11 qu(is)- illeggibile?? o qu-s damage? Lettera “s” sbiadita aggiunta in alto 
+
+12 alii /ali__i – spazio occupato da decorazione lettera marcare con space?
+
+15 <w>fa<!-- spazio decorazione lettera S -->ciem</w>
+
+17 punto rosso in alto - aggiungere char in questo modo?
+  <char xml:id="dotalto">
+   <charName>DOT ABOVE</charName>
+   <mapping type="codepoint">02D9</mapping>
+   <mapping type="diplomatic">.</mapping>
+   <mapping type="normalized">.</mapping>
+  </char> 
+
+029r
+
+01 qui--- danno,di che danno si tratta? ….Sono anche presenti due lettere
+
+
+030v
+
+02	<w>ex<space/>cuss<space/>erit</w> spazio occupato da lettera decorata
+
+02 riga vuota in parte occupata dalla decorazione della lettera S e in cui è leggibile una parte di testo al contrario
+
+
+031v
+
+13 numero romano poco leggibile: marcare con <damage> o <gap> ??
+<gap	extent="7"	unit="chars"></gap><supplied reason="illegible">LXXGIII</supplied><gap> oppure usare entrambi?
+
+031r
+
+01 maTRis - nesso per TR?? aggiungere char &trlig; EED8 PUA-1 LATIN SMALL LIGATURE TR  
+
+
+08 <w>s<space/>uam</w> nello spazio si intravede la lettera a sbiadita. Rasura???
+
+031v
+
+09 - 12 vari casi di testo sbiadito, usare <damage> o <unclear> ??
+
+20 lettera "e" per fine fascicolo
+   <add place="bottom">e</add>
+   <gb n="f" rend="end"/> ?????
+
+
+033v
+
+20 capso~ tilde con funzione di abbreviatura per la nasale m?? capsom??? 
+
+034v
+
+10 dnm =dominum - tilde solo su lettera n o su nm?
+
+037v
+
+11 CXXXI: numero romano “I” scritto con tre puntini  
+
+40r
+
+15 it+e con tilde =item o iterum?   
+
+
