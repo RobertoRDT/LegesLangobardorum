@@ -2,288 +2,528 @@
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     
-    <teiHeader>
-        
-        <fileDesc>
-            
-            <titleStmt>
-                <title>The Edictus Rothari: a diplomatic and interpretative edition of two manuscripts</title>
-                <principal>Marina Buzzoni</principal>
-                <principal>Roberto Rosselli Del Turco</principal>
-                <respStmt>
-                    <resp>Encoding in TEI-conformant markup: </resp>
-                    <name>Roberto Rosselli Del Turco</name>
-                    <name>Marianna Giardina</name>
-                </respStmt>
-                <respStmt>
-                    <resp>General overview: </resp>
-                    <name>Roberto Rosselli Del Turco</name>
-                    <name>Marina Buzzoni</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Experimental EVT edition: </resp>
-                    <name>Roberto Rosselli Del Turco</name>
-                </respStmt>
-            </titleStmt>
-            
-            <editionStmt>
-            <edition>Previous editions</edition>
-            <respStmt xml:id="azzara">
-               <resp>Editor</resp>
-               <name ref="#Azzara1992">Azzara-Gasparri</name>
-            </respStmt>
-            <respStmt xml:id="beyerle">
-               <resp>Editor</resp>
-               <name ref="#Beyerle1962a">Beyerle</name>
-            </respStmt>
-            <respStmt xml:id="bluhme">
-               <resp>Editor</resp>
-               <name ref="#Bluhme1868">Beyerle</name>
-            </respStmt>
-         </editionStmt>
+  <teiHeader>
 
-         <extent>[??] kilobytes</extent>
-            
-            <publicationStmt>
-                <authority>Leges Langobardorum Project</authority>
-                <date>2014-</date>
-                <availability>
-                    <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
-                </availability>
-            </publicationStmt>
-            
-            <sourceDesc>
+    <fileDesc>
 
-                <msDesc xml:id="CE34">
-                    <msIdentifier>
-                        <country>Italia</country>
-                        <settlement>Ivrea</settlement>
-                        <repository>Biblioteca Capitolare di Ivrea</repository>
-                        <idno>34</idno>
-                    </msIdentifier>
+      <titleStmt>
+        <title>The Edictus Rothari: a diplomatic and interpretative edition of two manuscripts</title>
+        <principal>Marina Buzzoni</principal>
+        <principal>Roberto Rosselli Del Turco</principal>
+        <respStmt>
+          <resp>Encoding in TEI-conformant markup: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+          <name>Marianna Giardina</name>
+        </respStmt>
+        <respStmt>
+          <resp>General overview: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+          <name>Marina Buzzoni</name>
+        </respStmt>
+        <respStmt>
+          <resp>Experimental EVT edition: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+      </titleStmt>
 
-                </msDesc>
-                <msDesc xml:id="CV188">
-                    <msIdentifier>
-                        <country>Italia</country>
-                        <settlement>Vercelli</settlement>
-                        <repository>Biblioteca e Archivio Capitolare di Vercelli</repository>
-                        <idno>CLXXXVIII</idno>
-                    </msIdentifier>
-                    <msContents>
-                        <textLang mainLang="lat">The primary language in this manuscript is Latin, with a few isolated
-                            Langobardic words.</textLang>
-                        
-                        <!-- fill in the MS sections as <msItem>s -->
+      <editionStmt>
+        <edition>Previous editions</edition>
+        <respStmt xml:id="azzara">
+          <resp>Editor</resp>
+          <name ref="#Azzara1992">Azzara-Gasparri</name>
+        </respStmt>
+        <respStmt xml:id="beyerle">
+          <resp>Editor</resp>
+          <name ref="#Beyerle1962a">Beyerle</name>
+        </respStmt>
+        <respStmt xml:id="bluhme">
+          <resp>Editor</resp>
+          <name ref="#Bluhme1868">Beyerle</name>
+        </respStmt>
+      </editionStmt>
 
-                        <msItem>
-                            <locus from="1r" to="9r">1r - 9r</locus>
-                            <title type="work">Homily I</title>
-                        </msItem>
-                        
-                    </msContents>
-                    
-                    <physDesc>
-                        <objectDesc form="book">
-                            <supportDesc material="parchment">
-                                <extent>
-                                    <measure type="leaves">The codex is composed by ff. III (paper, modern); 169 (of which 5
-                                        where added in the IX c.); II (paper, XIX c.); III (paper, modern).
-                                    </measure>
-                                    <measure type="dimensions">Ca. 250 x 180 mm.</measure>
-                                    <measure type="lines">21-23 lines of text per page.</measure>
-                                </extent>
-                                <collation>
-                                    <p>
-                                        <formula>...</formula>
-                                        <signatures>...</signatures>
-                                        <catchwords>None</catchwords>
-                                        Quires begin on fols. 1(1), [...] </p>
-                                </collation>
-                            </supportDesc>
-                        </objectDesc>
-                    </physDesc>
-                    
-                </msDesc>
-            </sourceDesc>
-            
-        </fileDesc>
-        
-        <encodingDesc>
-            <projectDesc>
-                <p/>
-            </projectDesc>
-            <editorialDecl>
-                <correction status="unknown" method="silent">
-                    <p/>
-                </correction>
-                <normalization method="silent">
-                    <p/>
-                </normalization>
-                <segmentation>
-                    <p/>
-                </segmentation>
-                <hyphenation eol="all">
-                    <p>Physical line breaks are rigidly observed.</p>
-                </hyphenation>
-            </editorialDecl>
-            
-            <charDecl>
+      <extent>[??] kilobytes</extent>
 
-                <!-- regular letters -->
+      <publicationStmt>
+        <authority>Leges Langobardorum Project</authority>
+        <date>2014-</date>
+        <availability>
+          <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+        </availability>
+      </publicationStmt>
 
-                <char xml:id="ucap">
-                    <charName>LATIN CAPITAL LETTER U</charName>
-                    <mapping type="codepoint">U+0055</mapping>
-                    <mapping type="diplomatic">U</mapping>
-                    <mapping type="normalized">U</mapping>
-                </char>
+      <sourceDesc>
 
-                <char xml:id="vcap">
-                    <charName>LATIN CAPITAL LETTER V</charName>
-                    <mapping type="codepoint">U+0056</mapping>
-                    <mapping type="diplomatic">V</mapping>
-                    <mapping type="normalized">V</mapping>
-                </char>
+        <msDesc xml:id="CE34">
+          <msIdentifier>
+            <country>Italia</country>
+            <settlement>Ivrea</settlement>
+            <repository>Biblioteca Capitolare di Ivrea</repository>
+            <idno>34</idno>
+          </msIdentifier>
 
-                <char xml:id="u">
-                    <charName>LATIN SMALL LETTER U</charName>
-                    <mapping type="codepoint">U+0075</mapping>
-                    <mapping type="diplomatic">u</mapping>
-                    <mapping type="normalized">u</mapping>
-                </char>
+        </msDesc>
+        <msDesc xml:id="CV188">
+          <msIdentifier>
+            <country>Italia</country>
+            <settlement>Vercelli</settlement>
+            <repository>Biblioteca e Archivio Capitolare di Vercelli</repository>
+            <idno>CLXXXVIII</idno>
+          </msIdentifier>
+          <msContents>
+            <textLang mainLang="lat">The primary language in this manuscript is Latin, with a few isolated Langobardic
+              words.</textLang>
 
-                <char xml:id="v">
-                    <charName>LATIN SMALL LETTER V</charName>
-                    <mapping type="codepoint">U+0076</mapping>
-                    <mapping type="diplomatic">v</mapping>
-                    <mapping type="normalized">v</mapping>
-                </char>
+            <!-- fill in the MS sections as <msItem>s -->
 
-                <!-- variant forms -->
+            <msItem>
+              <locus from="1r" to="9r">1r - 9r</locus>
+              <title type="work">Homily I</title>
+            </msItem>
 
-                <char xml:id="romnumsix">
-                    <charName>ROMAN NUMERAL SIX LATE FORM</charName>
-                    <mapping subtype="MUFI-PUA" type="codepoint">U+EEFD</mapping>
-                    <mapping type="diplomatic">ↅ</mapping>
-                    <mapping type="normalized">ↅ</mapping>
-                </char>
+          </msContents>
 
-                <char xml:id="ltailstrok">
-                    <charName>LATIN SMALL LETTER LUM</charName>
-                    <mapping type="codepoint">A772</mapping>
-                    <mapping type="diplomatic">ꝲ</mapping>
-                    <mapping type="normalized">l</mapping>
-                </char>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="parchment">
+                <extent>
+                  <measure type="leaves">The codex is composed by ff. III (paper, modern); 169 (of which 5 where added
+                    in the IX c.); II (paper, XIX c.); III (paper, modern). </measure>
+                  <measure type="dimensions">Ca. 250 x 180 mm.</measure>
+                  <measure type="lines">21-23 lines of text per page.</measure>
+                </extent>
+                <collation>
+                  <p>
+                    <formula>...</formula>
+                    <signatures>...</signatures>
+                    <catchwords>None</catchwords> Quires begin on fols. 1(1), [...] </p>
+                </collation>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
 
-                <char xml:id="amacr">
-                    <charName>LATIN SMALL LETTER A WITH MACRON</charName>
-                    <mapping type="codepoint">U+0101</mapping>
-                    <mapping type="diplomatic">ā</mapping>
-                    <mapping type="normalized">a</mapping>
-                </char>
-                <char xml:id="emacr">
-                    <charName>LATIN SMALL LETTER E WITH MACRON</charName>
-                    <mapping type="codepoint">U+0113</mapping>
-                    <mapping type="diplomatic">ē</mapping>
-                    <mapping type="normalized">e</mapping>
-                </char>
-                <char xml:id="imacr">
-                    <charName>LATIN SMALL LETTER I WITH MACRON</charName>
-                    <mapping type="codepoint">U+012B</mapping>
-                    <mapping type="diplomatic">ī</mapping>
-                    <mapping type="normalized">i</mapping>
-                </char>
-                <char xml:id="omacr">
-                    <charName>LATIN SMALL LETTER O WITH MACRON</charName>
-                    <mapping type="codepoint">U+014D</mapping>
-                    <mapping type="diplomatic">ō</mapping>
-                    <mapping type="normalized">o</mapping>
-                </char>
-                <char xml:id="umacr">
-                    <charName>LATIN SMALL LETTER U WITH MACRON</charName>
-                    <mapping type="codepoint">U+016B</mapping>
-                    <mapping type="diplomatic">ū</mapping>
-                    <mapping type="normalized">u</mapping>
-                </char>
-                <char xml:id="ymacr">
-                    <!-- VBD entity: ytilde -->
-                    <charName>LATIN SMALL LETTER Y WITH MACRON</charName>
-                    <mapping type="codepoint">U+0233</mapping>
-                    <mapping type="diplomatic">ȳ</mapping>
-                    <mapping type="normalized">y</mapping>
-                </char>
+        </msDesc>
+      </sourceDesc>
 
-                <char xml:id="ntilde">
-                    <charName>LATIN SMALL LETTER N WITH TILDE</charName>
-                    <mapping type="codepoint">00F1</mapping>
-                    <mapping type="diplomatic">ñ</mapping>
-                    <mapping type="normalized">n</mapping>
-                </char>
+    </fileDesc>
 
-                <char xml:id="qtilde">
-                    <!-- VBD entity: ytilde -->
-                    <charName>LATIN SMALL LETTER Q WITH TILDE</charName>
-                    <mapping type="codepoint">U+0071 + U+0303</mapping>
-                    <mapping type="diplomatic">q̃</mapping>
-                    <mapping type="normalized">q</mapping>
-                </char>
+    <encodingDesc>
+      <projectDesc>
+        <p></p>
+      </projectDesc>
+      <editorialDecl>
+        <correction method="silent" status="unknown">
+          <p></p>
+        </correction>
+        <normalization method="silent">
+          <p></p>
+        </normalization>
+        <segmentation>
+          <p></p>
+        </segmentation>
+        <hyphenation eol="all">
+          <p>Physical line breaks are rigidly observed.</p>
+        </hyphenation>
+      </editorialDecl>
 
-                <!-- ligatures -->
+      <charDecl>
 
-                <glyph xml:id="uslig">
-                    <glyphName>LATIN SMALL LIGATURE US</glyphName>
-                    <mapping type="ligature">U+0075 + U+017F</mapping>
-                    <mapping type="diplomatic">us</mapping>
-                    <mapping type="normalized">us</mapping>
-                </glyph>
+        <!-- ###### regular letters ###### -->
 
-                <!-- pucntuation -->
+        <char xml:id="ucap">
+          <charName>LATIN CAPITAL LETTER U</charName>
+          <mapping type="codepoint">U+0055</mapping>
+          <mapping type="diplomatic">U</mapping>
+          <mapping type="normalized">U</mapping>
+        </char>
 
-                <char xml:id="ductsimpl">
-                    <charName>HIGH COMMA POSITURA (SIMPLEX DUCTUS)</charName>
-                    <mapping type="codepoint">U+F1E3</mapping>
-                    <mapping type="diplomatic"></mapping>
-                    <mapping type="normalized">:</mapping>
-                </char>
+        <char xml:id="vcap">
+          <charName>LATIN CAPITAL LETTER V</charName>
+          <mapping type="codepoint">U+0056</mapping>
+          <mapping type="diplomatic">V</mapping>
+          <mapping type="normalized">V</mapping>
+        </char>
 
-                <char xml:id="colmidcomposit">
-                    <charName>COLON WITH MIDDLE COMMA POSITURA</charName>
-                    <mapping subtype="MUFI-PUA" type="codepoint">U+F1E5</mapping>
-                    <mapping type="diplomatic"></mapping>
-                    <!--<mapping type="normalized"></mapping>-->
-                </char>
+        <char xml:id="u">
+          <charName>LATIN SMALL LETTER U</charName>
+          <mapping type="codepoint">U+0075</mapping>
+          <mapping type="diplomatic">u</mapping>
+          <mapping type="normalized">u</mapping>
+        </char>
 
-                <char xml:id="middot">
-                    <charName>MIDDLE DOT</charName>
-                    <mapping type="codepoint">U+00B7</mapping>
-                    <mapping type="diplomatic">·</mapping>
-                    <!--<mapping type="normalized"></mapping>-->
-                </char>
+        <char xml:id="v">
+          <charName>LATIN SMALL LETTER V</charName>
+          <mapping type="codepoint">U+0076</mapping>
+          <mapping type="diplomatic">v</mapping>
+          <mapping type="normalized">v</mapping>
+        </char>
 
-                <char xml:id="hidot">
-                    <charName>DISTINCTIO</charName>
-                    <mapping subtype="MUFI-PUA" type="codepoint">U+F1F8</mapping>
-                    <mapping type="diplomatic"></mapping>
-                    <!--<mapping type="normalized"></mapping>-->
-                </char>
+        <!-- ###### variant forms ###### -->
 
-            </charDecl>
-        </encodingDesc>
-        
-        <profileDesc>
-            <langUsage>
-                <language ident="lat">Latin</language>
-                <language ident="lng">Langobardic</language>
-            </langUsage>
-        </profileDesc>
-        
-        <revisionDesc status="draft">
-            <change status="draft" when="2016-12" who="RRDT">Separate teiHeader file to accomodate manuscript
-                description, character declaration and more.</change>
-        </revisionDesc>
-        
-    </teiHeader>   
+        <char xml:id="romnumsix">
+          <charName>ROMAN NUMERAL SIX LATE FORM</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+EEFD</mapping>
+          <mapping type="diplomatic">ↅ</mapping>
+          <mapping type="normalized">ↅ</mapping>
+        </char>
+
+        <char xml:id="eogon">
+          <charName>LATIN SMALL LETTER E WITH OGONEK</charName>
+          <mapping type="codepoint">0119</mapping>
+          <mapping type="diplomatic">ę</mapping>
+          <mapping type="normalized">ae</mapping>
+        </char>
+
+        <char xml:id="jnodotenl">
+          <charName>LATIN ENLARGED LETTER SMALL DOTLESS J</charName>
+          <mapping type="codepoint">EEFE</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+
+        <char xml:id="amacr">
+          <charName>LATIN SMALL LETTER A WITH MACRON</charName>
+          <mapping type="codepoint">U+0101</mapping>
+          <mapping type="diplomatic">ā</mapping>
+          <mapping type="normalized">a</mapping>
+        </char>
+        <char xml:id="emacr">
+          <charName>LATIN SMALL LETTER E WITH MACRON</charName>
+          <mapping type="codepoint">U+0113</mapping>
+          <mapping type="diplomatic">ē</mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+        <char xml:id="imacr">
+          <charName>LATIN SMALL LETTER I WITH MACRON</charName>
+          <mapping type="codepoint">U+012B</mapping>
+          <mapping type="diplomatic">ī</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        <char xml:id="omacr">
+          <charName>LATIN SMALL LETTER O WITH MACRON</charName>
+          <mapping type="codepoint">U+014D</mapping>
+          <mapping type="diplomatic">ō</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+        <char xml:id="umacr">
+          <charName>LATIN SMALL LETTER U WITH MACRON</charName>
+          <mapping type="codepoint">U+016B</mapping>
+          <mapping type="diplomatic">ū</mapping>
+          <mapping type="normalized">u</mapping>
+        </char>
+        <char xml:id="ymacr">
+          <charName>LATIN SMALL LETTER Y WITH MACRON</charName>
+          <mapping type="codepoint">U+0233</mapping>
+          <mapping type="diplomatic">ȳ</mapping>
+          <mapping type="normalized">y</mapping>
+        </char>
+
+        <char xml:id="qmacr">
+          <charName>LATIN SMALL LETTER Q WITH MACRON</charName>
+          <mapping subtype="composed" type="codepoint">E681</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
+
+        <char xml:id="pmacr">
+          <charName>LATIN SMALL LETTER P WITH MACRON</charName>
+          <mapping subtype="composed" type="codepoint">E665</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
+        <char xml:id="rmacr">
+          <!-- CHECK -->
+          <charName>Latin Small Letter R with Dot Below and Macron</charName>
+          <!-- CHECK -->
+          <mapping type="codepoint">U+1E5D</mapping>
+          <mapping type="diplomatic">ṝ</mapping>
+          <mapping type="normalized">r</mapping>
+        </char>
+
+        <char xml:id="atilde">
+          <charName>LATIN SMALL LETTER A WITH TILDE</charName>
+          <mapping type="codepoint">00E3</mapping>
+          <mapping type="diplomatic">ã</mapping>
+          <mapping type="normalized">a</mapping>
+        </char>
+
+        <char xml:id="etilde">
+          <charName>LATIN SMALL LETTER E WITH TILDE</charName>
+          <mapping subtype="composed" type="codepoint">U+0065 + U+0303</mapping>
+          <mapping type="diplomatic">ẽ</mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+
+        <char xml:id="otilde">
+          <charName>LATIN SMALL LETTER O WITH TILDE</charName>
+          <mapping type="codepoint">U+00F5</mapping>
+          <mapping type="diplomatic">õ</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+
+        <char xml:id="utilde">
+          <charName>LATIN SMALL LETTER U WITH TILDE</charName>
+          <mapping type="codepoint">U+0169</mapping>
+          <mapping type="diplomatic">ũ</mapping>
+          <mapping type="normalized">u</mapping>
+        </char>
+
+        <char xml:id="ctilde">
+          <charName>LATIN SMALL LETTER C WITH TILDE</charName>
+          <mapping subtype="composed" type="codepoint">U+0065 + U+0303</mapping>
+          <mapping type="diplomatic">c̃</mapping>
+          <mapping type="normalized">c</mapping>
+        </char>
+
+        <char xml:id="mtilde">
+          <charName>LATIN SMALL LETTER M WITH TILDE</charName>
+          <mapping subtype="composed" type="codepoint">U+006D + U+0303</mapping>
+          <mapping type="diplomatic">m̃</mapping>
+          <mapping type="normalized">m</mapping>
+        </char>
+
+        <char xml:id="Mtilde">
+          <charName>LATIN CAPITAL LETTER M WITH TILDE</charName>
+          <mapping subtype="composed" type="codepoint">U+004D + U+0303</mapping>
+          <mapping type="diplomatic">M̃</mapping>
+          <mapping type="normalized">M</mapping>
+        </char>
+
+        <char xml:id="ntilde">
+          <charName>LATIN SMALL LETTER N WITH TILDE</charName>
+          <mapping type="codepoint">00F1</mapping>
+          <mapping type="diplomatic">ñ</mapping>
+          <mapping type="normalized">n</mapping>
+        </char>
+
+        <char xml:id="ptilde">
+          <charName>LATIN SMALL LETTER P WITH TILDE</charName>
+          <mapping subtype="composed" type="codepoint">U+0070 + U+0303</mapping>
+          <mapping type="diplomatic">p̃</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
+        <char xml:id="Ptilde">
+          <charName>LATIN CAPIPTAL LETTER P WITH TILDE</charName>
+          <mapping subtype="composed" type="codepoint">U+0050 + U+0303</mapping>
+          <mapping type="diplomatic">P̃</mapping>
+          <mapping type="normalized">P</mapping>
+        </char>
+
+        <char xml:id="qtilde">
+          <charName>LATIN SMALL LETTER Q WITH TILDE</charName>
+          <mapping type="codepoint">U+0071 + U+0303</mapping>
+          <mapping type="diplomatic">q̃</mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
+
+        <char xml:id="stilde">
+          <charName>LATIN SMALL LETTER S WITH TILDE</charName>
+          <mapping subtype="composed" type="codepoint">U+0073 + U+0303</mapping>
+          <mapping type="diplomatic">s̃</mapping>
+          <mapping type="normalized">s</mapping>
+        </char>
+
+        <char xml:id="xtilde">
+          <charName>LATIN SMALL LETTER X WITH TILDE</charName>
+          <mapping subtype="composed" type="codepoint">U+0078 + U+0303</mapping>
+          <mapping type="diplomatic">x̃</mapping>
+          <mapping type="normalized">x</mapping>
+        </char>
+
+        <char xml:id="ttilde">
+          <charName>LATIN SMALL LETTER T WITH TILDE</charName>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+0303</mapping>
+          <mapping type="diplomatic">t̃</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+
+        <char xml:id="pbardes">
+          <charName>LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER</charName>
+          <mapping type="codepoint">U+A751</mapping>
+          <mapping type="diplomatic">ꝑ</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
+        <char xml:id="qbardes">
+          <charName>LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER</charName>
+          <mapping type="codepoint">U+A757</mapping>
+          <mapping type="diplomatic">ꝗ</mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
+
+        <char xml:id="dstrok">
+          <charName>LATIN SMALL LETTER D WITH STROKE</charName>
+          <mapping type="codepoint">0111</mapping>
+          <mapping type="diplomatic">d</mapping>
+          <mapping type="normalized">d</mapping>
+        </char>
+
+        <char xml:id="lhighstrok">
+          <charName>LATIN SMALL LETTER L WITH HIGH STROKE</charName>
+          <mapping type="codepoint">A749</mapping>
+          <mapping type="diplomatic">ł</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+
+        <char xml:id="ltailstrok">
+          <charName>LATIN SMALL LETTER LUM</charName>
+          <mapping type="codepoint">A772</mapping>
+          <mapping type="diplomatic">ꝲ</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+
+        <char xml:id="pflour">
+          <charName>LATIN SMALL LETTER P WITH FLOURISH</charName>
+          <mapping type="codepoint">A753</mapping>
+          <mapping type="diplomatic">ꝓ</mapping>
+          <mapping type="normalized">pro</mapping>
+        </char>
+
+        <!-- ###### ligatures ###### -->
+
+        <char xml:id="nscapslonglig">
+          <charName>LATIN SMALL LIGATURE SMALL CAPITAL N LONG S</charName>
+          <mapping type="codepoint">EED5</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">ns</mapping>
+        </char>
+
+        <char xml:id="openetlig">
+          <charName>Ligature Open Et Ornament</charName>
+          <mapping type="codepoint">U+1F672</mapping>
+          <mapping type="diplomatic">🙲</mapping>
+          <mapping type="normalized">et</mapping>
+        </char>
+
+        <char xml:id="etlig">
+          <charName>Script Ligature Et Ornament</charName>
+          <mapping type="codepoint">U+1F670</mapping>
+          <mapping type="diplomatic">🙰</mapping>
+          <mapping type="normalized">et</mapping>
+        </char>
+
+        <glyph xml:id="urlig">
+          <glyphName>LATIN SMALL LIGATURE UR</glyphName>
+          <mapping subtype="composed" type="ligature">U+0075 + U+A783</mapping>
+          <mapping type="diplomatic">ur</mapping>
+          <mapping type="normalized">ur</mapping>
+        </glyph>
+
+        <glyph xml:id="uslig">
+          <glyphName>LATIN SMALL LIGATURE US</glyphName>
+          <mapping type="ligature">U+0075 + U+017F</mapping>
+          <mapping type="diplomatic">us</mapping>
+          <mapping type="normalized">us</mapping>
+        </glyph>
+
+        <glyph xml:id="utlig">
+          <glyphName>LATIN SMALL LIGATURE UT</glyphName>
+          <mapping subtype="composed" type="ligature">U+0075 + U+1D1B</mapping>
+          <mapping type="diplomatic">ut</mapping>
+          <mapping type="normalized">ut</mapping>
+        </glyph>
+
+        <!-- ###### punctuation ###### -->
+
+        <char xml:id="ductsimpl">
+          <charName>HIGH COMMA POSITURA (SIMPLEX DUCTUS)</charName>
+          <mapping type="codepoint">U+F1E3</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">:</mapping>
+        </char>
+
+        <char xml:id="colmidcomposit">
+          <charName>COLON WITH MIDDLE COMMA POSITURA</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F1E5</mapping>
+          <mapping type="diplomatic"></mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+
+        <char xml:id="middot">
+          <charName>MIDDLE DOT</charName>
+          <mapping type="codepoint">U+00B7</mapping>
+          <mapping type="diplomatic">·</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+
+        <char xml:id="hidot">
+          <charName>DISTINCTIO</charName>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F1F8</mapping>
+          <mapping type="diplomatic"></mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+
+        <char xml:id="rum">
+          <charName>LATIN SMALL LETTER RUM ROTUNDA</charName>
+          <mapping type="codepoint">A75D</mapping>
+          <mapping type="diplomatic">ꝝ</mapping>
+          <mapping type="normalized">rum</mapping>
+        </char>
+
+        <char xml:id="twodot">
+          <charName>Two Dot Punctuation</charName>
+          <mapping type="codepoint">U+205A</mapping>
+          <mapping type="diplomatic">⁚</mapping>
+          <!-- CHECK -->
+          <mapping type="normalized">ue</mapping>
+        </char>
+
+        <char xml:id="tridotleft">
+          <charName>THREE DOT PUNCTUATION</charName>
+          <mapping type="codepoint">2056</mapping>
+          <mapping type="diplomatic">:.</mapping>
+          <!-- CHECK -->
+          <mapping type="normalized">.</mapping>
+        </char>
+
+        <!-- ###### abbreviation markers ###### -->
+
+        <char xml:id="homothetic">
+          <charName>MIDDLE DOT</charName>
+          <mapping type="codepoint">U+223B</mapping>
+          <mapping type="diplomatic">∻</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+
+        <char xml:id="tildedot">
+          <charName>TILDE WITH DOT ABOVE</charName>
+          <mapping type="codepoint">U+2E1E</mapping>
+          <mapping type="diplomatic">⸞</mapping>
+          <mapping type="normalized">n</mapping>
+        </char>
+
+        <char xml:id="ur">
+          <charName>COMBINING UR ABOVE</charName>
+          <mapping type="codepoint">1DD1</mapping>
+          <mapping type="diplomatic">᷑</mapping>
+          <mapping type="normalized">ur</mapping>
+        </char>
+
+        <char xml:id="usmod">
+          <charName>MODIFIER LETTER US</charName>
+          <mapping type="codepoint">A770</mapping>
+          <mapping type="diplomatic">ꝰ</mapping>
+          <mapping type="normalized">us</mapping>
+        </char>
+
+      </charDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Latin</language>
+        <language ident="lng">Langobardic</language>
+      </langUsage>
+    </profileDesc>
+
+    <revisionDesc status="draft">
+      <change status="draft" when="2016-12" who="RRDT">Separate teiHeader file to accomodate manuscript description,
+        character declaration and more.</change>
+    </revisionDesc>
+
+  </teiHeader>   
     
     <text>
         <body>
