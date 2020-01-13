@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     
     <teiHeader>
         
@@ -203,31 +205,39 @@
                 <head>INCIPIT EDICTVM QVEM RENOVAVIT DOMINVS ROTHARI VIR EXCELLENTISSIMO REX GENTI
                     LANGOBARDORVM CVM PRIMATOS IVDICES SVOS</head>
                 
-                <p><w>EGO</w>
+                <p>
+                    <w>EGO</w>
                     <w>in</w>
                     <w>dei</w>
                     <w>nomine</w>
-                    <w>rotari</w>, <w>vir</w>
-                    <w>excellentissimus</w>, <w>et</w>
+                    <w>rotari</w>,
+                    <w>vir</w>
+                    <w>excellentissimus</w>,
+                    <w>et</w>
                     <w>septimo</w>
                     <w>decimum</w>
                     <w>rex</w>
                     <w>gentis</w>
-                    <w>langobardorum</w>, <w>anno</w>
+                    <w>langobardorum</w>,
+                    <w>anno</w>
                     <w>deo</w>
                     <w>propitiante</w>
                     <w>regni</w>
                     <w>mei</w>
-                    <w>octabo</w>, <w>aetatisque</w>
+                    <w>octabo</w>,
+                    <w>aetatisque</w>
                     <w>tricesimo</w>
-                    <w>octabo</w>, <w>indictione</w>
-                    <w>secunda</w>, <w>et</w>
+                    <w>octabo</w>,
+                    <w>indictione</w>
+                    <w>secunda</w>,
+                    <w>et</w>
                     <w>post</w>
                     <w>adventum</w>
                     <w>in</w>
                     <w>provincia</w>
                     <w>italiae</w>
-                    <w>langobardorum</w>, <w>ex</w>
+                    <w>langobardorum</w>,
+                    <w>ex</w>
                     <w>quo</w>
                     <w>alboin</w>
                     <w>tunc</w>
@@ -237,15 +247,19 @@
                     <w>divina</w>
                     <w>potentia</w>
                     <w>adducti</w>
-                    <w>sunt</w>, <w>anno</w>
+                    <w>sunt</w>,
+                    <w>anno</w>
                     <w>septuagesimo</w>
                     <w>sexto</w>
-                    <w>feliciter</w>. <w>Dato</w>
+                    <w>feliciter</w>.
+                    <w>Dato</w>
                     <w>ticino</w>
                     <w>in</w>
-                    <w>palatio</w>.</p>
+                    <w>palatio</w>.
+                </p>
                 
-                <p><w>QUANTA</w>
+                <p>
+                    <w>QUANTA</w>
                     <w>pro</w>
                     <w>subiectorum</w>
                     <w>nostrorum</w>
@@ -349,9 +363,11 @@
                     <w>hoc</w>
                     <w>membranum</w>
                     <w>adnotari</w>
-                    <w>iussimus</w>.</p>
+                    <w>iussimus</w>.
+                </p>
                 
-                <p><w>FUIT</w>
+                <p>
+                    <w>FUIT</w>
                     <w>primus</w>
                     <w>rex</w>
                     <w>agilmund</w>, <w>ex</w>
@@ -407,7 +423,8 @@
                     <w>rex</w>, <w>filius</w>
                     <w>nandinig</w>, <w>ex</w>
                     <w>genere</w>
-                    <w>harodos</w>.</p>
+                    <w>harodos</w>.
+                </p>
                 
                 <p>
                     <w>NANDINIG</w>
