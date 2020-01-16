@@ -20504,6 +20504,100 @@
                     </w>
                     <w>occiderit</w>
                 </p>
+		    <p xml:id="CE34-5_p_085v_201" n="201"><lb xml:id="CE34-5_lb_085v_09" n="9"
+                        type="rubric"/><label><num><w>CCI</w></num></label>
+                    <w><hi rend="cap">D</hi>e</w>
+                    <w>muliere</w>
+                    <w>libera</w>
+                    <w>occisa</w>
+                    <w><hi rend="cap">S</hi>i</w>
+                    <w>
+                        <choice>
+                            <abbr><am><g ref="#qtilde"/></am></abbr>
+                            <expan>q<ex>uis</ex></expan>
+                        </choice>
+                    </w>
+                    <w>puella</w>
+                    <w>aut</w>
+                    <w>mulierem</w>
+                    <w>libera</w>
+                    <w>
+                        <choice>
+                            <abbr><am><g ref="#pbardes"/></am>qua<lb xml:id="CE34-5_lb_085v_10_abbr"
+                                    n="10"/>lebit</abbr>
+                            <expan>p<ex>er</ex>qua<lb xml:id="CE34-5_lb_085v_10_expan" n="10"
+                                />lebit</expan>
+                        </choice>
+                    </w>
+                    <w>occisionem</w>
+                    <w>occiderit</w>
+                    <w>
+                        <choice>
+                            <abbr>con<am><g ref="#ptilde"/></am></abbr>
+                            <expan>conp<ex>onat</ex></expan>
+                        </choice>
+                    </w>
+                    <w>
+                        <choice>
+                            <abbr>so<am><g ref="#lhighstrok"/></am></abbr>
+                            <expan>sol<ex>idos</ex></expan>
+                        </choice>
+                    </w>
+                    <w>mille</w>
+                    <w>ducentus</w>
+                    <w>medietatem</w>
+                    <w>
+                        <choice>
+                            <abbr>pa<lb xml:id="CE34-5_lb_085v_11_abbr" n="11"/>rentib<am><g
+                                        ref="#semi"/></am></abbr>
+                            <expan>pa<lb xml:id="CE34-5_lb_085v_11_expan" n="11"
+                                />rentib<ex>us</ex></expan>
+                        </choice>
+                    </w>
+                    <w>aut</w>
+                    <w>quem</w>
+                    <w>mundius</w>
+                    <w>de</w>
+                    <w>ea</w>
+                    <w>
+                        <choice>
+                            <abbr><am><g ref="#pbardes"/></am>tinuerit</abbr>
+                            <expan>p<ex>er</ex>tinuerit</expan>
+                        </choice>
+                    </w>
+                    <w><g ref="#openetlig"/></w>
+                    <w>medietatem</w>
+                    <w>regi</w>
+                    <w><g ref="#openetlig"/></w>
+                    <w>si</w>
+                    <lb xml:id="CE34-5_lb_085v_12" n="12"/>
+                    <w>parentes</w>
+                    <w>non</w>
+                    <w>habuerit</w>
+                    <w>Tunc</w>
+                    <w>ipsa</w>
+                    <w>conpositio</w>
+                    <w>In</w>
+                    <w>integru</w>
+                    <w>ad</w>
+                    <w>curtes</w>
+                    <lb xml:id="CE34-5_lb_085v_13" n="13"/>
+                    <w>regis</w>
+                    <w>
+                        <choice>
+                            <abbr><am><g ref="#pbardes"/></am><c corresp="#v">u</c>eniat</abbr>
+                            <expan>p<ex>er</ex>veniat</expan>
+                        </choice>
+                    </w>
+                    <w>si</w>
+                    <w>asto</w>
+                    <w>animo</w>
+                    <w>id</w>
+                    <w>est</w>
+                    <w><c corresp="#v">u</c>oluntarie</w>
+                    <w>eam</w>
+                    <w>occiderit</w>
+                </p>
             </div>
         </body>
     </text>
