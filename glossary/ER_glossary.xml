@@ -113,6 +113,7 @@
 
         <!-- Le forme grafiche alternative, per ogni testimone di cui abbiamo la 
           trascrizione il ref contiene un target -->
+        <!-- NB così come segue o meglio <orth><ref n="MS 2" target="#CV188_p_019v_7">anstallin</ref></orth>??? -->
 
         <form type="variants">
           <orth>astalin <ref>MSS 1, 5, 8, 9, 10, 11; Gloss. Matr.</ref></orth>
@@ -251,9 +252,12 @@
         </cit>
         
         <form type="variants">
-          <orth> <ref target="#">MS </ref></orth>
-          <orth> <ref>MSS 1, 5, 8, 9, 10, 11; Gloss. Matr.</ref></orth>
-          <orth> <ref>MS 12</ref></orth>
+          <orth>argargathungi <ref>MS 1, 5</ref></orth>
+          <orth>angarghatun <ref target="#CE34-5_lb_070v_20">MS 3</ref></orth>
+          <orth>gargathungin <ref>MS 8</ref></orth>
+          <orth>argargathungi <ref>MS 9</ref></orth>
+          <orth>angarthungi <ref>MS 11</ref></orth>
+          <orth>angar a thungi <ref>MS 12</ref></orth>
         </form>
         
         <sense n="1">
