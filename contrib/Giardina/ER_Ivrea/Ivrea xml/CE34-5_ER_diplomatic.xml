@@ -2,7 +2,6 @@
 <!DOCTYPE TEI SYSTEM "tei_ll.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <teiHeader>
-        <!-- Definire i criteri FRBR che stanno alla base di questo header -->
         <fileDesc>
             <titleStmt>
                 <!-- Sostituire il testo in maiuscolo con i dati appropriati -->
@@ -1706,9 +1705,12 @@
                         <w>in<c corresp="#v">u</c>entus</w>
                         <add place="above" hand="scribe_1"><w>fuerit</w></add>
                     </p>
-                    <!--errore di numerazione , salta la legge 33-->
+                    <!-- errore di numerazione, la rubrica 33 al capitulum 34 del testo -->
+                    <!-- soluzioni: 1. nota da inserire nel testo 2. marcare tutto con sic/corr -->
+                    <!-- meglio 1 per rapidità, aggiungere altra nota quando riprende numerazione
+                         regolare -->
                     <lb xml:id="CE34-5_lb_058v_25" n="25"/>
-                    <p corresp="#">
+                    <p corresp="#CE34-5_p_069v_34">
                         <label n="33"><num><w>XXXIII</w></num></label>
                         <w><hi rend="cap">S</hi>i</w>
                         <w>
@@ -3856,7 +3858,7 @@
                         <gap extent="several lines"/>
                     </p>
                     <lb xml:id="CE34-5_lb_062v_19" n="19"/>
-                    <p corresp="#CE34-5_p_087v_224">
+                    <p corresp="#CE34-5_p_087v_224_part1">
                         <label n="223"><num><w>CCXXIII</w></num></label>
                         <w><hi rend="cap">D</hi>e</w>
                         <w>
@@ -3867,7 +3869,7 @@
                         </w>
                     </p>
                     <lb xml:id="CE34-5_lb_062v_20" n="20"/>
-                    <p corresp="#CE34-5_p_087v_kap2">
+                    <p corresp="#CE34-5_p_087v_224_part2">
                         <label n="224"><num><w>CCXXIIII</w></num></label>
                         <w><hi rend="cap">S</hi>i</w>
                         <w>In</w>
@@ -3882,7 +3884,7 @@
                         <w>dimittitur</w>
                     </p>
                     <lb xml:id="CE34-5_lb_062v_21" n="21"/>
-                    <p corresp="#CE34-5_p_087v_kap3">
+                    <p corresp="#CE34-5_p_087v_224_part3">
                         <label n="225"><num><w>CCXXV</w></num></label>
                         <w><hi rend="cap">I</hi>tem</w>
                         <w>qui</w>
@@ -3891,7 +3893,7 @@
                         <w>fecerit</w>
                     </p>
                     <lb xml:id="CE34-5_lb_062v_22" n="22"/>
-                    <p corresp="#CE34-5_p_087v_kap4">
+                    <p corresp="#CE34-5_p_087v_224_part4">
                         <label n="226"><num><w>CCXXVI</w></num></label>
                         <w><hi rend="cap">I</hi>tem</w>
                         <w>qui</w>
@@ -5994,29 +5996,7 @@
             <div xml:id="CE34-5_ER_capitula">
                 <lb xml:id="CE34-5_lb_066r_19" n="19"/>
                 <p>
-                    <w>
-                        <hi rend="black and red">E</hi>
-                        <hi rend="black and red">X</hi>
-                        <hi rend="black and red">P</hi>
-                        <hi rend="black and red">L</hi>
-                        <hi rend="black and red">I</hi>
-                        <hi rend="black and red">C</hi>
-                        <hi rend="black and red">I</hi>
-                        <hi rend="black and red">U</hi>
-                        <hi rend="black and red">N</hi>
-                        <hi rend="black and red">T</hi>
-                    </w>
-                    <w>
-                        <hi rend="black and red">C</hi>
-                        <hi rend="black and red">A</hi>
-                        <hi rend="black and red">P</hi>
-                        <hi rend="black and red">I</hi>
-                        <hi rend="black and red">T</hi>
-                        <hi rend="black and red">U</hi>
-                        <hi rend="black and red">L</hi>
-                        <hi rend="black and red">A</hi>
-                        <hi rend="black and red">S</hi>
-                    </w>
+                    <hi rend="black and red"><w>EXPLICIUNT</w> <w>CAPITULAS</w></hi>
                 </p>
             </div>
             <div n="Capp. 1-13" subtype="reati_contro_autorità" type="capitula"
@@ -22471,7 +22451,7 @@
             </div>
             <div n="Capp. 224-226" subtype="manomissioni" type="capitula"
                 xml:id="CE34-5_div_224-226">
-                <p xml:id="CE34-5_p_087v_224" n="224"><lb xml:id="CE34-5_lb_087v_03" n="3"
+                <p xml:id="CE34-5_p_087v_224_part1" n="224"><lb xml:id="CE34-5_lb_087v_03" n="3"
                         type="rubric"/><label><num><w>CCXXIIII</w></num></label>
                     <w><hi rend="cap">D</hi>e</w>
                     <w>
@@ -22695,7 +22675,7 @@
                     </w>
                     <w>patroni</w>
                 </p>
-                <p xml:id="CE34-5_p_087v_kap2">
+                <p xml:id="CE34-5_p_087v_224_part2">
                     <lb xml:id="CE34-5_lb_087v_17" n="17"/>
                     <w>
                         <choice>
@@ -22734,7 +22714,7 @@
                         </choice>
                     </w>
                 </p>
-                <p xml:id="CE34-5_p_087v_kap3">
+                <p xml:id="CE34-5_p_087v_224_part3">
                     <lb xml:id="CE34-5_lb_087v_19" n="19"/>
                     <w>
                         <choice>
@@ -22808,7 +22788,7 @@
                     <w>scriptum</w>
                     <w>est</w>
                 </p>
-                <p xml:id="CE34-5_p_087v_kap4">
+                <p xml:id="CE34-5_p_087v_224_part4">
                     <lb xml:id="CE34-5_lb_087v_24" n="24"/>
                     <w>
                         <choice>
