@@ -1693,7 +1693,7 @@
                         </term>
                     </p>
                     <lb xml:id="CE34-5_lb_058v_24" n="24"/>
-                    <p corresp="#">
+                    <p corresp="#CE34-5_p_069r_32">
                         <label n="32"><num><w>XXXII</w></num></label>
                         <w><hi rend="cap">S</hi>i</w>
                         <w>homo</w>
@@ -3457,11 +3457,10 @@
                         <w>ad</w>
                         <w>maritum</w>
                         <w>ambula<c corresp="#v">u</c>erit</w>
-                    </p>
-                    <p corresp="#CE34-5_p_083r_188">
-                        <label n="188"><num><w>CLXXXVIII</w></num></label>
+                    </p>                    
+                    <p corresp="#CE34-5_p_083r_188"><supplied resp="alim-pi"><label n="188"><num><w>CLXXXVIII</w></num></label></supplied>
                         <gap extent="several lines"/>
-                    </p>
+                    </p>                       
                     <lb xml:id="CE34-5_lb_062r_10" n="10"/>
                     <p corresp="#CE34-5_p_083r_189">
                         <label n="189"><num><w>CLXXXVIIII</w></num></label>
