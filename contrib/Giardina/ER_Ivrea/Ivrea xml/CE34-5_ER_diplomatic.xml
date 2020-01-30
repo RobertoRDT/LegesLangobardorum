@@ -3457,10 +3457,14 @@
                         <w>ad</w>
                         <w>maritum</w>
                         <w>ambula<c corresp="#v">u</c>erit</w>
-                    </p>                    
-                    <p corresp="#CE34-5_p_083r_188"><supplied resp="alim-pi"><label n="188"><num><w>CLXXXVIII</w></num></label></supplied>
-                        <gap extent="several lines"/>
-                    </p>                       
+                    </p>
+                    <p corresp="#CE34-5_p_083r_188">
+                        <gap extent="9"/>
+                        <supplied resp="alim-pi">
+                            <label n="188"><num><w>CLXXXVIII</w></num></label>
+                        </supplied>
+                    </p>
+                    <!-- riprende la numerazione regolare -->
                     <lb xml:id="CE34-5_lb_062r_10" n="10"/>
                     <p corresp="#CE34-5_p_083r_189">
                         <label n="189"><num><w>CLXXXVIIII</w></num></label>
@@ -3531,9 +3535,12 @@
                         <w>fornica<c corresp="#v">u</c>erit</w>
                     </p>
                     <p corresp="#CE34-5_p_084r_195">
-                        <label n="195"><num><w>CXCV</w></num></label>
-                        <gap extent="several lines"/>
+                        <supplied resp="alim-pi">
+                            <label n="195"><num><w>CXCV</w></num></label>
+                            <gap extent="several lines"/>
+                        </supplied>
                     </p>
+                    <!-- errore di numerazione, la rubrica 195 al capitulum 196 del testo -->
                     <lb xml:id="CE34-5_lb_062r_17" n="17"/>
                     <p corresp="#CE34-5_p_084v_196">
                         <label n="195"><num><w>CXCV</w></num></label>
@@ -3579,9 +3586,12 @@
                         <w>mul<g ref="#jnodotenl"/>eris</w>
                     </p>
                     <p corresp="#CE34-5_p_085r_200">
-                        <label n="200"><num><w>CC</w></num></label>
-                        <gap extent="several lines"/>
+                        <gap extent="2"/>
+                        <supplied resp="alim-pi">
+                            <label n="200"><num><w>CC</w></num></label>
+                        </supplied>
                     </p>
+                    <!-- riprende la numerazione regolare -->
                     <lb xml:id="CE34-5_lb_062r_22" n="22"/>
                     <p corresp="#CE34-5_p_085v_201">
                         <label n="201"><num><w>CCI</w></num></label>
@@ -3853,9 +3863,13 @@
                         <w>gratia</w>
                     </p>
                     <p corresp="#CE34-5_p_087r_223">
-                        <label n="223"><num><w>CCXXIII</w></num></label>
-                        <gap extent="several lines"/>
+                        <gap extent="7"/>
+                        <supplied resp="alim-pi">
+                            <label n="223"><num><w>CCXXIII</w></num></label>
+                            <gap extent="several lines"/>
+                        </supplied>
                     </p>
+                    <!-- errore di numerazione, le rubriche 223, 224, 225 e 226 corrispondono a diverse parti del capitulum 224 del testo -->
                     <lb xml:id="CE34-5_lb_062v_19" n="19"/>
                     <p corresp="#CE34-5_p_087v_224_part1">
                         <label n="223"><num><w>CCXXIII</w></num></label>
@@ -3901,6 +3915,7 @@
                         <w>fecere</w>
                         <w><c corresp="#v">u</c>ult</w>
                     </p>
+                    <!-- errore di numerazione, la rubrica 227 al capitulum 225 del testo -->
                     <lb xml:id="CE34-5_lb_062v_23" n="23"/>
                     <p corresp="#CE34-5_p_088r_225">
                         <label n="227"><num><w>CCXXVII</w></num></label>
@@ -4156,8 +4171,11 @@
                         </choice>
                     </p>
                     <p corresp="#CE34-5_p_090r_244">
-                        <label n="244"><num><w>CCXLIIII</w></num></label>
-                        <gap extent="several lines"/>
+                        <gap extent="8"/>
+                        <supplied resp="alim-pi">
+                            <label n="244"><num><w>CCXLIIII</w></num></label>
+                            <gap extent="several lines"/>
+                        </supplied>
                     </p>
                     <lb xml:id="CE34-5_lb_063r_18" n="18"/>
                     <p corresp="#CE34-5_p_090r_245">
@@ -4514,13 +4532,20 @@
                         <w>portonario</w>
                     </p>
                     <p corresp="#CE34-5_p_092v_266">
-                        <label n="266"><num><w>CCLXVI</w></num></label>
-                        <gap extent="several lines"/>
+                        <gap extent="6"/>
+                        <supplied resp="alim-pi">
+                            <label n="266"><num><w>CCLXVI</w></num></label>
+                            <gap extent="several lines"/>
+                        </supplied>
                     </p>
                     <p corresp="#CE34-5_p_092v_267">
-                        <label n="267"><num><w>CCLXVII</w></num></label>
-                        <gap extent="several lines"/>
+                        <gap extent="7"/>
+                        <supplied resp="alim-pi">
+                            <label n="267"><num><w>CCLXVII</w></num></label>
+                            <gap extent="several lines"/>
+                        </supplied>
                     </p>
+                    <!-- riprende la numerazione regolare -->
                     <lb xml:id="CE34-5_lb_063v_18" n="18"/>
                     <p corresp="#CE34-5_p_092v_268">
                         <label n="268"><num><w>CCLXVIII</w></num></label>
@@ -4917,8 +4942,7 @@
                     </p>
                     <lb xml:id="CE34-5_lb_064v_02" n="2"/>
                     <p corresp="#CE34-5_p_095v_301">
-                        <label n="301"><num><w>CCCI</w>
-                            </num></label>
+                        <label n="301"><num><w>CCCI</w></num></label>
                         <w><hi rend="cap">D</hi>e</w>
                         <w>castenia</w>
                         <w>noce</w>
@@ -5407,9 +5431,13 @@
                         </add>
                     </p>
                     <p corresp="#CE34-5_p_099r_343">
-                        <label n="343"><num><w>CCCXLIII</w></num></label>
-                        <gap extent="several lines"/>
+                        <gap extent="8"/>
+                        <supplied resp="alim-pi">
+                            <label n="343"><num><w>CCCXLIII</w></num></label>
+                            <gap extent="several lines"/>
+                        </supplied>
                     </p>
+                    <!-- errore di numerazione, la rubrica 343 al capitulum 344 del testo -->
                     <lb xml:id="CE34-5_lb_065r_21" n="21"/>
                     <p corresp="#CE34-5_p_099r_344">
                         <label n="343"><num><w>CCCXLIII</w></num></label>
@@ -5973,7 +6001,7 @@
                         <w>liberum</w>
                         <w>nolendum</w>
                         <w>occiderit</w>
-                    </p>
+                    </p>                    
                     <lb xml:id="CE34-5_lb_066r_17" n="17"/>
                     <p corresp="#CE34-5_p_104v_388">
                         <label n="387"><num><w>CCCLXXXVII</w></num></label>
@@ -5982,6 +6010,7 @@
                         <w>hac</w>
                         <w>decernimus</w>
                     </p>
+                    <!-- errore di numerazione, alla rubrica 388 corrisponde una parte del capitulum 388 del testo -->
                     <lb xml:id="CE34-5_lb_066r_18" n="18"/>
                     <p corresp="#CE34-5_p_104v_388">
                         <label n="388"><num><w>CCCLXXXVIII</w></num></label>
@@ -5995,7 +6024,8 @@
             <div xml:id="CE34-5_ER_capitula">
                 <lb xml:id="CE34-5_lb_066r_19" n="19"/>
                 <p>
-                    <hi rend="black and red"><w>EXPLICIUNT</w> <w>CAPITULAS</w></hi>
+                    <hi rend="black and red"><w>EXPLICIUNT</w>
+                        <w>CAPITULAS</w></hi>
                 </p>
             </div>
             <div n="Capp. 1-13" subtype="reati_contro_autorità" type="capitula"
