@@ -643,7 +643,7 @@
             <change when="da inserire" who="Prof.ssa Marina Buzzoni">Prima trascrizione nel formato
                 TEI P5 (schema: TEI ALIM Lite)</change>
             <change when="2016-06" who="LC">Codifica effettuata da Laura Calzavara</change>
-            <change when="2019-03" who="MG">Codifica effettuata da Marianna Giardina</change>
+            <change when="2019-12" who="MG">Codifica effettuata da Marianna Giardina</change>
         </revisionDesc>
     </teiHeader>
 
@@ -34644,7 +34644,7 @@
                     <w>posui</w>
                 </p>
             </div>
-            <div n="Capp. 367-386" subtype="miscellaneo" type="capitula" xml:id="CE34-5_div_367-386">
+            <div n="Capp. 367-385" subtype="miscellaneo" type="capitula" xml:id="CE34-5_div_367-385">
                 <p xml:id="CE34-5_p_102r_367" n="367"><lb xml:id="CE34-5_lb_102r_14" n="14"
                         type="rubric"/><label><num><w>CCCLXVII</w></num></label>
                     <w><hi rend="cap">D</hi>e</w>
@@ -36683,6 +36683,8 @@
                     <w>filii</w>
                     <w>fuerint</w>
                 </p>
+            </div>
+            <div n="Capp. 386-388" subtype="epilogo" type="capitula" xml:id="CE34-5_div_386-388">
                 <p xml:id="CE34-5_p_104r_386" n="386"><lb xml:id="CE34-5_lb_104r_13" n="13"
                         type="rubric"/><label><num><w>CCCLXXXVI</w></num></label>
                     <w><hi rend="cap">P</hi>resentem</w>
@@ -36944,9 +36946,7 @@
                     </w>
                     <w>subiectis</w>
                     <w>custodiatur</w>
-                </p>
-            </div>
-            <div n="Capp. 386-388" subtype="epilogo" type="capitula" xml:id="CE34-5_div_386-388">
+                </p>            
                 <p xml:id="CE34-5_p_104v_387" n="387"><lb xml:id="CE34-5_lb_104v_04" n="4"
                         type="rubric"/><label><num><w>CCCLXXXVII</w></num></label>
                     <w><hi rend="cap">S</hi>i</w>
