@@ -471,11 +471,9 @@
         </front>
 
         <body>
-
-            <div n="Capp. 1-13" subtype="edition_text" type="prose" xml:id="ER_1-13">
-
+            <!-- codifica RRDT -->
+            <div n="Capp. 1-13" subtype="reati_contro_autorità" type="capitula" xml:id="CV188_div_1-13">
                 <pb n="018v" xml:id="CV188_folio_018v"/>
-
                 <head>
                     <lb n="01" xml:id="CV188_lb_018v_01"/>
                     <choice>
@@ -497,10 +495,8 @@
                         <abbr>CPLA</abbr>
                         <expan>C<ex>A</ex>P<ex>ITU</ex>LA</expan>
                     </choice>
-                    <lb n="03" xml:id="CV188_lb_018v_03"/>CA<space/>U<space/>SA<space/>S </head>
-
+                    <lb n="03" xml:id="CV188_lb_018v_03"/>CA<space/>U<space/>SA<space/>S</head>
                 <lb n="04" xml:id="CV188_lb_018v_04"/>
-
                 <p>
                     <lb n="05" xml:id="CV188_lb_018v_05"/>
                     <label n="1"><num><w>I</w></num></label>
@@ -789,16 +785,20 @@
                     <w>suum</w>
                     <w>dimi<lb n="07" xml:id="CV188_lb_019v_07"/>serit</w>
                     <w>aut</w>
-                    <term xml:lang="lng"><w>
+                    <term xml:lang="lng">
+                        <w>
                             <choice>
                                 <orig>anstall<add place="below">i</add><subst>
                                         <del rend="overwrite">c</del>
                                         <add>n</add>
                                     </subst></orig>
                                 <reg>astalin</reg>
-                            </choice></w></term>
+                            </choice>
+                        </w>
+                    </term>
                     <w>fecerit</w><reg>,</reg>
-                    <gloss><w>id</w>
+                    <gloss>
+                        <w>id</w>
                         <w>est</w>
                         <lb n="08" xml:id="CV188_lb_019v_08"/><w>si</w>
                         <w>eum</w>
@@ -807,11 +807,15 @@
                         <w>cum</w>
                         <w>eum</w>
                         <w>non</w>
-                        <lb n="09" xml:id="CV188_lb_019v_09"/><w>labora<c corresp="#v">u</c>erit</w></gloss><reg>,</reg>
-                    <w><choice>
+                        <lb n="09" xml:id="CV188_lb_019v_09"/><w>labora<c corresp="#v">u</c>erit</w>
+                    </gloss>
+                    <reg>,</reg>
+                    <w>
+                        <choice>
                             <sic>anime</sic>
                             <corr resp="RRDT">animae</corr>
-                        </choice></w>
+                        </choice>
+                    </w>
                     <w>suae</w>
                     <w>incurrat</w>
                     <lb rend="below"/><w>periculum</w><choice>
@@ -1198,14 +1202,11 @@
                     <w>solacia</w>
                     <w>denegaverit</w><reg>.</reg>
                 </p>
-
             </div>
-            
-            <!-- Adjust Capp. numbers -->
-            <div n="Capp. 14-145" subtype="edition_text" type="prose" xml:id="ER_14-145">
-
-                <p><lb type="rubric"/><label n="14"><num><w>I</w></num><w>De</w>
-                        <term><w>morth</w></term></label>
+            <div n="Capp. 14-145" subtype="reati_contro_privati" type="capitula" xml:id="CV188_div_14-145">
+                <p><lb type="rubric"/><label n="14"><num><w>I</w></num></label>
+                    <w>De</w>
+                    <term><w>morth</w></term>
                     <w>Si</w>
                     <w>quis</w>
                     <w>homicidi<lb/>um</w>
@@ -1268,7 +1269,6 @@
                     <w>octugenta</w>
                     <w>solidûs</w><reg>.</reg>
                 </p>
-
                 <p><lb type="rubric"/><label n="15"><num><w>I</w></num><w>De</w>
                         <term xml:lang="lng"><w>grabworfin</w></term></label>
                     <w>Si</w>
@@ -2634,45 +2634,9 @@
                     <w>tres</w><reg>,</reg>
                     <w>conponat</w>
                     <w>solidos</w>
-                    <w>viginti</w><reg>.</reg></p>
-                <p><lb/><label n="51"><num><w>I</w></num>
-                        <w>De</w>
-                        <w>dentes</w>
-                        <w>priores</w></label>
-                    <w>Si</w>
-                    <w>quis</w>
-                    <w>alii</w>
-                    <w>dentem</w>
-                    <w>excusserit</w><reg>,</reg>
-                    <w>qui</w>
-                    <w>in</w>
-                    <w>riso</w>
-                    <w>apparit</w><reg>,</reg>
-                    <w>pro</w>
-                    <w>uno</w>
-                    <w>dentem</w>
-                    <w>dit</w>
-                    <w>solidos</w>
-                    <w>sidicem</w><reg>;</reg>
-                    <w>si</w>
-                    <w>duo</w>
-                    <w>aut</w>
-                    <w>amplius</w>
-                    <w>fuerint</w>
-                    <w>in</w>
-                    <w>risu</w>
-                    <w>apparentis</w><reg>,</reg>
-                    <w>per</w>
-                    <w>hoc</w>
-                    <w>numero</w>
-                    <w>conponantur</w>
-                    <w>et</w>
-                    <w>adpretietur</w><reg>.</reg></p>
-
-            </div>
-
-            <div n="Capp. 51-146" subtype="lesioni" type="capitula" xml:id="CV188_div_51-146">
-
+                    <w>viginti</w><reg>.</reg>
+                </p>
+              <!-- parte codificata da MG capp. 51-201-->
                 <p xml:id="CV188_p_028r_04"><lb n="20" type="rubric" xml:id="CV188_lb_028r_20"/><label n="51"><num
                             value="51"><w>LI</w></num></label>
                     <w><hi rend="cap red">D</hi>e</w>
@@ -7723,9 +7687,11 @@
                         <reg>.</reg>
                     </choice>
                 </p>
+            </div>
 
                 <!-- # codifica MG  146-201 # -->
-
+            <div n="Capp. 146-152" subtype="reati_contro_cose" type="capitula"
+                xml:id="CV188_div_146-152">
                 <p n="146" xml:id="CV188_p_041r_146"><lb n="10" type="rubric" xml:id="CV188_lb_041r_10"
                                     /><label><num><w>CXL<g ref="#romnumsix"/></w></num></label>
                     <w><hi rend="decorated">D</hi>e</w>
@@ -7818,10 +7784,6 @@
                         <reg>.</reg>
                     </choice>
                 </p>
-            </div>
-
-            <div n="Capp. 147-152" subtype="lesioni" type="capitula" xml:id="CV188_div_147-152">
-
                 <p xml:id="CV188_p_041v_147" n="147"><lb xml:id="CV188_lb_041v_04" n="4"
                         type="rubric"/><label><num><w>CXL<g ref="#romnumsix"/>I</w></num></label>
                     <w><hi rend="cap">D</hi>e</w>
@@ -8334,8 +8296,7 @@
                 </p>
             </div>
 
-            <div n="Capp. 153-201" subtype="figli legittimi" type="capitula" xml:id="CV188_div_153-201">
-
+            <div n="Capp. 153-171" subtype="figli_legittimi" type="capitula" xml:id="CV188_div_153-171">
                 <head>
                     <choice>
                         <abbr>INCP</abbr>
@@ -8345,7 +8306,6 @@
                     <w>FILIIS</w>
                     <w>LEGI<lb rend="align_right" type="extra"/>timis</w>
                 </head>
-
                 <p xml:id="CV188_p_043r_153" n="153"><lb xml:id="CV188_lb_043r_13" n="13"
                         type="rubric"/><label><num><w>CLIII</w></num></label>
                     <w>DE</w>
@@ -9807,6 +9767,8 @@
                     <w>non</w>
                     <lb rend="align_right" type="extra"/><w>fuissit</w>
                 </p>
+            </div>
+            <div n="Capp. 172-177" subtype="successioni" type="capitula" xml:id="CV188_div_172-177">
                 <p xml:id="CV188_p_049r_151" n="172"><lb xml:id="CV188_lb_049r_03" n="3" type="rubric"/><label><num><w>CLXXII</w></num></label>
                     <w><hi rend="cap red">D</hi>e</w>
                     <term xml:lang="lng"><w>thinx</w></term>
@@ -10291,6 +10253,8 @@
                         <reg>.</reg>
                     </choice>
                 </p>
+            </div>
+            <div n="Capp. 178-223" subtype="matrimoni" type="capitula" xml:id="CV188_div_178-223">
                 <p xml:id="CV188_p_050v_178" n="178"><lb xml:id="CV188_lb_050v_13" n="13" type="rubric"/><label><num><w>CLXX<g ref="#romnumsix"/>II</w></num></label>
                     <w><hi rend="cap red">D</hi>e</w>
                     <w>sponsalibus</w>
@@ -12919,9 +12883,6 @@
                         <reg>.</reg>
                     </choice>
                 </p>
-            </div>
-
-            <div n="Capp. 201-223" subtype="matrimoni" type="capitula" xml:id="CV188_div_201-223">
 
                 <!-- CHECK THEN DELETE OLDER ENCODING -->
 
@@ -13040,7 +13001,7 @@
                <reg>.</reg>
             </choice>
             </p>-->
-
+<!-- codifica Vicari 201-262 -->
                 <p xml:id="CV188_p_060r_202">
                     <lb n="8" type="rubric" xml:id="CV188_lb_060r_8"/>
                     <label n="202"><num><w>CCII</w></num></label>
@@ -14791,10 +14752,8 @@
                         <reg>.</reg>
                     </choice>
                 </p>
-            </div>
-          
+            </div>          
             <div n="Capp. 224-226" subtype="manomissioni" type="capitula" xml:id="CV188_div_224-226">
-
                 <p xml:id="CV188_p_064r_224">
                     <lb n="19" type="rubric" xml:id="CV188_lb_064r_19"/>
                     <label n="224"><num><w>CCXXIIII</w></num></label>
@@ -15419,8 +15378,7 @@
                         <reg>.</reg>
                     </choice>
                 </p>
-            </div>
-           
+            </div>           
             <div n="Capp. 227-244" subtype="proprietà" type="capitula" xml:id="CV188_div_227-244">
                 <p xml:id="CV188_p_066r_227">
                     <lb n="7" type="rubric" xml:id="CV188_lb_066r_7"/>
@@ -17013,10 +16971,8 @@
                         <reg>.</reg>
                     </choice>
                 </p>
-            </div>  
-           
+            </div>             
             <div n="Capp. 245-252" subtype="obbligazioni" type="capitula" xml:id="CV188_div_245-252">
-
                 <p xml:id="CV188_p_070r_245">
                     <lb n="11" type="rubric" xml:id="CV188_lb_070r_11"/>
                     <label n="245"><num><w>CCXLV</w></num></label>
@@ -17964,10 +17920,8 @@
                         <reg>.</reg>
                     </choice>
                 </p>
-            </div>
-           
-            <div n="Capp. 253-262" subtype="reatiminori" type="capitula" xml:id="CV188_div_253-262">
-
+            </div>           
+            <div n="Capp. 253-358" subtype="reati_minori" type="capitula" xml:id="CV188_div_253-358">
                 <p xml:id="CV188_p_072v_253">
                     <lb n="7" type="rubric" xml:id="CV188_lb_072v_7"/>
                     <label n="253"><num><w>CCLIII</w></num></label>
@@ -18039,7 +17993,6 @@
                         </choice></w>
                     <orig><pc>.</pc></orig>
                 </p>
-
                 <p xml:id="CV188_p_072v_254">
                     <lb n="14" type="rubric" xml:id="CV188_lb_072v_14"/>
                     <label n="254"><num><w>CCLIIII</w></num></label>
@@ -18657,10 +18610,7 @@
                         <reg>.</reg>
                     </choice>
                 </p>
-
-            </div>
-
-            <div n="Capp. 263-264" subtype="furti" type="capitula" xml:id="CV188_div_263-264">
+                <!-- codifica MG 263-388 -->
                 <p xml:id="CV188_p_074r_263" n="263"><lb xml:id="CV188_lb_074r_19" n="19"
                         type="rubric"/><label><num><w>CCLXIII</w></num></label>
                     <w><hi rend="decorated">S</hi>i</w>
@@ -18889,9 +18839,6 @@
                         <reg>.</reg>
                     </choice>
                 </p>
-            </div>
-
-            <div n="Capp. 265-388" type="capitula" xml:id="CV188_div_265-388">
                 <p xml:id="CV188_p_075r_265" n="265"><lb xml:id="CV188_lb_075r_09" n="9"
                         type="rubric"/><label><num><w>CCLXV</w></num></label>
                     <w><hi rend="decorated">D</hi>e</w>
@@ -25301,6 +25248,8 @@
                         <reg>.</reg>
                     </choice>    
                 </p>
+            </div>
+            <div n="Capp. 359-366" subtype="procedura_civile" type="capitula" xml:id="CV188_div_359-366">
                 <p xml:id="CV188_p_092v_359" n="359"><lb xml:id="CV188_lb_092v_04" n="4" type="rubric"/><label><num><w>CCCL<g ref="#romnumsix"/>III</w></num></label>
                     <w><hi rend="decorated">D</hi>e</w>
                     <w>sacramentis</w>
@@ -26178,6 +26127,8 @@
                         <reg>.</reg>
                     </choice>                  
                 </p> 
+            </div>
+            <div n="Capp. 367-385" subtype="miscellaneo" type="capitula" xml:id="CV188_div_367-385">
                 <p xml:id="CV188_p_096r_367" n="367"><lb xml:id="CV188_lb_096r_03" n="3" type="rubric"/><label><num><w>CCCL<g ref="#romnumsix"/>I</w></num></label>
                     <w><hi rend="decorated">D</hi>e</w>
                     <term xml:lang="lng">
@@ -27724,6 +27675,8 @@
                         <reg>.</reg>
                     </choice>
                 </p>
+            </div>
+            <div n="Capp. 386-388" subtype="epilogo" type="capitula" xml:id="CV188_div_386-388">
                 <p xml:id="CV188_p_101r_386" n="386"><lb xml:id="CV188_lb_101r_08" n="8" type="rubric"/><label><num><w>CCCLXXX<g ref="#romnumsix"/></w></num></label>
                     <w><hi rend="decorated">P</hi>resentis</w>
                     <w><c corresp="#v">u</c>ero</w>
@@ -27911,6 +27864,7 @@
                         <reg>.</reg>
                     </choice>
                 </p>
+
                 <pb n="102r" xml:id="CV188_folio_102r"/>
                 <fw type="fol" place="top-right"><add hand="unknown">102</add></fw>  
                 <p xml:id="CV188_p_102r_387" n="387"><lb xml:id="CV188_lb_102r_01" n="1" type="rubric"/><label><num><w>CCCLXXX<g ref="#romnumsix"/>I</w></num></label>
@@ -28051,8 +28005,7 @@
                         <reg>.</reg>
                     </choice>
                 </p>
-            </div>
-
+            </div>          
         </body>
     </text>
 </TEI>
