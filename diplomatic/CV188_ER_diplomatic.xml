@@ -453,9 +453,6 @@
             
     - aggiornare schema di codifica
     - inserire le rubriche iniziali nel <front>
-    - controllare e completare la suddivisione in <div> tematici (spezzare <div> 265-388 ad esempio)
-    - controllare i vari type e se necessario internazionalizzare
-            es. <measure type="denaro" >>> <measure type="currency"
     - aggiungere @rend per <del>
     - aggiungere <listPerson> con id per nomi di persona
     - controllare attributi lasciati senza valori es. ref in <persName>
@@ -7793,7 +7790,7 @@
                         </choice>
                     </w>
                     <w>solidus</w>
-                    <measure type="denaro" quantity="12" unit="soldi"><w>XII</w></measure>
+                    <measure type="currency" quantity="12" unit="soldi"><w>XII</w></measure>
                     <w>illi</w>
                     <w>cuius</w>
                     <w>mo<lb xml:id="CV188_lb_042r_21" n="21"/>linus</w>
@@ -7832,7 +7829,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="20" unit="soldi"><w>vigenti</w></measure>
+                    <measure type="currency" quantity="20" unit="soldi"><w>vigenti</w></measure>
                     <w>in</w>
                     <w>palatio</w>
                     <w>regis</w>
@@ -8446,7 +8443,7 @@
                     <w>legeti<lb xml:id="CV188_lb_044v_20" n="20"/>ma</w>
                     <w>accipiat</w>
                     <w>uncias</w>
-                    <measure type="denaro" quantity="4" unit="soldi"><w>quattuor</w></measure>
+                    <measure type="currency" quantity="4" unit="soldi"><w>quattuor</w></measure>
                     <lb xml:id="CV188_lb_044v_21" n="21"/><w>quod</w>
                     <w>est</w>
                     <w>tert<add place="inline" hand="scribe_2">i</add>a</w>
@@ -8475,7 +8472,7 @@
                     <w>regias</w>
                     <w>sus<lb xml:id="CV188_lb_045r_05" n="5"/>cipiat</w>
                     <w>ipsas</w>
-                    <measure type="denaro" quantity="4" unit="soldi"><w>quattuor</w></measure>
+                    <measure type="currency" quantity="4" unit="soldi"><w>quattuor</w></measure>
                     <w>uncias</w>
                     <choice>
                         <orig><pc>:</pc></orig>
@@ -8513,14 +8510,14 @@
                     <w>filias</w>
                     <w>tollant</w>
                     <lb xml:id="CV188_lb_045r_11" n="11"/><w>uncias</w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                     <w>quod</w>
                     <w>est</w>
                     <w>medietas</w>
                     <w>na<lb xml:id="CV188_lb_045r_12" n="12"/>turalis</w>
                     <w>filii</w>
                     <w>uncias</w>
-                    <measure type="denaro" quantity="4" unit="soldi"><w>quattuor</w></measure>
+                    <measure type="currency" quantity="4" unit="soldi"><w>quattuor</w></measure>
                     <w>quod</w>
                     <lb xml:id="CV188_lb_045r_13" n="13"/><w>est</w>
                     <w>tertia</w>
@@ -8529,7 +8526,7 @@
                     <w>parentis</w>
                     <w>legi<lb xml:id="CV188_lb_045r_14" n="14"/>timi</w>
                     <w>uncias</w>
-                    <measure type="denaro" quantity="2" unit="soldi"><w>duas</w></measure>
+                    <measure type="currency" quantity="2" unit="soldi"><w>duas</w></measure>
                     <w>quod</w>
                     <w>est</w>
                     <w>sexta</w>
@@ -8541,7 +8538,7 @@
                     <lb xml:id="CV188_lb_045r_16" n="16"/><w>curtis</w>
                     <w>regia</w>
                     <w>ipsas</w>
-                    <measure type="denaro" quantity="2" unit="soldi"><w>duas</w></measure>
+                    <measure type="currency" quantity="2" unit="soldi"><w>duas</w></measure>
                     <w>uncias</w>
                     <w>sus<lb rend="align_right" type="extra"/>cipiat</w>. </p>
                 <p xml:id="CV188_p_045r_160" n="160"><lb xml:id="CV188_lb_045r_17" n="17"
@@ -8578,14 +8575,14 @@
                     <w>di<c corresp="#v">u</c>idendum</w>
                     <lb xml:id="CV188_lb_045v_02" n="2"/>
                     <w>uncias</w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                     <w>quod</w>
                     <w>est</w>
                     <w>medietas</w>
                     <w>natu<lb xml:id="CV188_lb_045v_03" n="3"/>ralis</w>
                     <w>filii</w>
                     <w>uncias</w>
-                    <measure type="denaro" quantity="4" unit="soldi"><w>quattuor</w></measure>
+                    <measure type="currency" quantity="4" unit="soldi"><w>quattuor</w></measure>
                     <w>quod</w>
                     <w>est</w>
                     <lb xml:id="CV188_lb_045v_04" n="4"/>
@@ -8597,7 +8594,7 @@
                     </w>
                     <w>pars</w>
                     <w>et</w>
-                    <measure type="denaro" quantity="2" unit="soldi"><w>duas</w></measure>
+                    <measure type="currency" quantity="2" unit="soldi"><w>duas</w></measure>
                     <w>uncias</w>
                     <w>paren<lb xml:id="CV188_lb_045v_05" n="5"/>tis</w>
                     <w>legitimi</w>
@@ -10773,7 +10770,7 @@
                     <w>culpam</w>
                     <w><c corresp="#v">u</c>ir</w>
                     <w>solidos</w>
-                    <lb xml:id="CV188_lb_053v_15" n="15"/><measure type="denaro" quantity="100" unit="soldi"><w>centum</w></measure>
+                    <lb xml:id="CV188_lb_053v_15" n="15"/><measure type="currency" quantity="100" unit="soldi"><w>centum</w></measure>
                     <w>et</w>
                     <w>mox</w>
                     <w>separetur</w>
@@ -10839,7 +10836,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="900" unit="soldi"><num><w>DCCCC</w></num></measure>
+                    <measure type="currency" quantity="900" unit="soldi"><num><w>DCCCC</w></num></measure>
                     <w>medie<lb xml:id="CV188_lb_054r_04" n="4"/>tatem</w>
                     <w>regi</w>
                     <w>et</w>
@@ -10857,7 +10854,7 @@
                     <w>non</w>
                     <lb xml:id="CV188_lb_054r_06" n="6"/><w>habuerit</w>
                     <w>ipsi</w>
-                    <measure type="denaro" quantity="900" unit="soldi"><num><w>DCCCC</w></num></measure>
+                    <measure type="currency" quantity="900" unit="soldi"><num><w>DCCCC</w></num></measure>
                     <w>
                         <choice>
                             <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
@@ -10957,7 +10954,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="900" unit="soldi"><num><w>DCCCC</w></num></measure>
+                    <measure type="currency" quantity="900" unit="soldi"><num><w>DCCCC</w></num></measure>
                     </add>
                     <w>et</w>
                     <w>postea</w>
@@ -11065,7 +11062,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="20" unit="soldi"><num><w>XX</w></num></measure>
+                    <measure type="currency" quantity="20" unit="soldi"><num><w>XX</w></num></measure>
                     <w>et</w>
                     <w>propter</w>
                     <term xml:lang="lng"><w>faida</w></term>
@@ -11173,7 +11170,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="20" unit="soldi"><w>XX</w></measure>
+                    <measure type="currency" quantity="20" unit="soldi"><w>XX</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -11183,7 +11180,7 @@
                         <w>ppter</w>
                         <term xml:lang="lng"><w>faida</w></term>
                         <w>alios</w>
-                        <measure type="denaro" quantity="20" unit="soldi"><w>XX</w></measure>
+                        <measure type="currency" quantity="20" unit="soldi"><w>XX</w></measure>
                     </add>
                     <w>et</w>
                     <add place="inline" hand="scribe_2"><w>si</w></add>
@@ -11206,7 +11203,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="100" unit="soldi"><w>centum</w></measure>
+                    <measure type="currency" quantity="100" unit="soldi"><w>centum</w></measure>
                     <w>medietatem</w>
                     <w>regi</w>
                     <w>et</w>
@@ -11297,7 +11294,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="20" unit="soldi"><w>XX</w></measure>
+                    <measure type="currency" quantity="20" unit="soldi"><w>XX</w></measure>
                     <w>et</w>
                     <w>propter</w>
                     <term xml:lang="lng"><w>faida</w></term>
@@ -11410,7 +11407,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="900" unit="soldi"><num><w>dcccc</w></num></measure>
+                    <measure type="currency" quantity="900" unit="soldi"><num><w>dcccc</w></num></measure>
                     <w>medietatem</w>
                     <w>regi</w>
                     <w>et</w>
@@ -11674,7 +11671,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="20" unit="soldi"><w>XX</w></measure>
+                    <measure type="currency" quantity="20" unit="soldi"><w>XX</w></measure>
                     <w>si</w>
                     <w>cum</w>
                     <lb xml:id="CV188_lb_056v_18" n="18"/><w>romana</w>
@@ -11684,7 +11681,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="12" unit="soldi"><w>XII</w></measure>
+                    <measure type="currency" quantity="12" unit="soldi"><w>XII</w></measure>
                     <w>
                         <choice>
                             <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
@@ -12085,7 +12082,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="20" unit="soldi"><w>XX</w></measure>
+                    <measure type="currency" quantity="20" unit="soldi"><w>XX</w></measure>
                     <w>et</w>
                     <w>amplius</w>
                     <w>non</w>
@@ -12446,8 +12443,8 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="1000" unit="soldi"><w>mille</w></measure>
-                    <measure type="denaro" quantity="200" unit="soldi"><w>du<lb xml:id="CV188_lb_059v_03" n="3"/>centos</w></measure>
+                    <measure type="currency" quantity="1000" unit="soldi"><w>mille</w></measure>
+                    <measure type="currency" quantity="200" unit="soldi"><w>du<lb xml:id="CV188_lb_059v_03" n="3"/>centos</w></measure>
                     <w>mediaetatem</w>
                     <w>illis</w>
                     <w>parenti<lb xml:id="CV188_lb_059v_04" n="4"/>bus</w>
@@ -12574,7 +12571,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="1200" unit="soldi"><w>milleducentos</w></measure>
+                    <measure type="currency" quantity="1200" unit="soldi"><w>milleducentos</w></measure>
                     <pb n="060r" xml:id="CV188_folio_060r"/>
                     <fw type="fol" place="top-right"><add hand="unknown">60</add></fw>  
                     <lb xml:id="CV188_lb_060r_01" n="1"/>
@@ -18342,7 +18339,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="2" unit="soldi"><w>II</w></measure>
+                    <measure type="currency" quantity="2" unit="soldi"><w>II</w></measure>
                     <lb xml:id="CV188_lb_074v_15" n="15"/><w>ita</w>
                     <w>ut</w>
                     <w>cum</w>
@@ -18572,7 +18569,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="20" unit="soldi"><w>XX</w></measure>
+                    <measure type="currency" quantity="20" unit="soldi"><w>XX</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -18672,7 +18669,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="20" unit="soldi"><w>XX</w></measure>
+                    <measure type="currency" quantity="20" unit="soldi"><w>XX</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -18807,7 +18804,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="20" unit="soldi"><w>XX</w></measure>
+                    <measure type="currency" quantity="20" unit="soldi"><w>XX</w></measure>
                     <lb xml:id="CV188_lb_076r_13" n="13"/><w>illi</w>
                     <w>de</w>
                     <w>cuius</w>
@@ -19009,7 +19006,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="40" unit="soldi"><w>XL</w></measure>
+                    <measure type="currency" quantity="40" unit="soldi"><w>XL</w></measure>
                 </p>
                 <p xml:id="CV188_p_076v_272" n="272"><lb xml:id="CV188_lb_076v_19" n="19"
                         type="rubric"/><label><num><w>CCLXXII</w></num></label>
@@ -19127,7 +19124,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="40" unit="soldi"><w>XL</w></measure>
+                    <measure type="currency" quantity="40" unit="soldi"><w>XL</w></measure>
                     <w>ita</w>
                     <w>ut</w>
                     <w>per</w>
@@ -19776,7 +19773,7 @@
                     <w>animo</w>
                     <w>ingressus</w>
                     <w>fuerit</w>
-                    <measure type="denaro" quantity="20" unit="soldi"><w>XX</w></measure>
+                    <measure type="currency" quantity="20" unit="soldi"><w>XX</w></measure>
                     <w>
                         <choice>
                             <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
@@ -19986,7 +19983,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="900" unit="soldi"><w>dcccc</w></measure>
+                    <measure type="currency" quantity="900" unit="soldi"><w>dcccc</w></measure>
                     <w>
                         <choice>
                             <abbr>medietat<am><g ref="#emacr"/></am></abbr>
@@ -20034,7 +20031,7 @@
                             <expan>unusq<ex>ui</ex>sq<ex>ue</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="40" unit="soldi"><w>XL</w></measure>
+                    <measure type="currency" quantity="40" unit="soldi"><w>XL</w></measure>
                     <w>
                         <choice>
                             <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
@@ -20267,7 +20264,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="12" unit="soldi"><w>XII</w></measure>
+                    <measure type="currency" quantity="12" unit="soldi"><w>XII</w></measure>
                     <w>medietatem</w>
                     <w>regi</w>
                     <w>et</w>
@@ -20493,7 +20490,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                 </p>
                 <p xml:id="CV188_p_079r_282" n="282"><lb xml:id="CV188_lb_079r_05" n="5"
                         type="rubric"/><label><num><w>CCLXXXII</w></num></label>
@@ -20538,7 +20535,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                 </p>
                 <p xml:id="CV188_p_079r_283" n="283"><lb xml:id="CV188_lb_079r_08" n="8"
                         type="rubric"/><label><num><w>CCLXXXIII</w></num></label>
@@ -20569,7 +20566,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                     <w>si</w>
                     <w>autem</w>
                     <w>in</w>
@@ -20614,7 +20611,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                     <lb xml:id="CV188_lb_079r_16" n="16"/><w>nam</w>
                     <w>si</w>
                     <w>post</w>
@@ -20654,7 +20651,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                 </p>
                 <p xml:id="CV188_p_079r_286" n="286"><lb xml:id="CV188_lb_079r_21" n="21"
                         type="rubric"/><label><num><w>CCLXXX<g ref="#romnumsix"/></w></num></label>
@@ -20676,7 +20673,7 @@
                     <w>tole<gap extent="3" unit="chars"/><supplied>rit</supplied></w>
                     <lb xml:id="CV188_lb_079v_02" n="2"/><w>conponat</w>
                     <w>solido</w>
-                    <measure type="denaro" quantity="1" unit="soldi"><w>uno</w></measure>
+                    <measure type="currency" quantity="1" unit="soldi"><w>uno</w></measure>
                 </p>
                 <p xml:id="CV188_p_079v_287" n="287"><lb xml:id="CV188_lb_079v_03" n="3"
                         type="rubric"/><label><num><w>CCLXXX<g ref="#romnumsix"/>I</w></num></label>
@@ -20703,7 +20700,7 @@
                             <expan>sol<ex>idum</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="1" unit="soldi"><w>unum</w></measure>
+                    <measure type="currency" quantity="1" unit="soldi"><w>unum</w></measure>
                     <w>si</w>
                     <w>autem</w>
                     <lb xml:id="CV188_lb_079v_06" n="6"/><w>pertiga</w>
@@ -20711,7 +20708,7 @@
                     <w>tolerit</w>
                     <lb xml:id="CV188_lb_079v_07" n="7"/><w>conponat</w>
                     <w>solidus</w>
-                    <measure type="denaro" quantity="3" unit="soldi"><w>tres</w></measure>
+                    <measure type="currency" quantity="3" unit="soldi"><w>tres</w></measure>
                 </p>
                 <p xml:id="CV188_p_079v_288" n="288"><lb xml:id="CV188_lb_079v_08" n="8"
                         type="rubric"/><label><num><w>CCLXXX<g ref="#romnumsix"
@@ -20742,7 +20739,7 @@
                         </choice>
                     </w>
                     <lb xml:id="CV188_lb_079v_11" n="11"/>
-                    <measure type="denaro" quantity="3" unit="soldi"><w>tres</w></measure>
+                    <measure type="currency" quantity="3" unit="soldi"><w>tres</w></measure>
                     <w>et</w>
                     <w>si</w>
                     <w>fura<c corresp="#v">u</c>erit</w>
@@ -20769,7 +20766,7 @@
                         </choice>
                     </w>
                     <w>so<space/>lidus</w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                 </p>
                 <p xml:id="CV188_p_079v_290" n="290"><lb xml:id="CV188_lb_079v_15" n="15"
                         type="rubric"/><label><num><w>CCXC</w></num></label>
@@ -20785,7 +20782,7 @@
                         </choice>
                     </w>
                     <w>so<space/>lidus</w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                 </p>
                 <p xml:id="CV188_p_079v_291" n="291"><lb xml:id="CV188_lb_079v_17" n="17"
                         type="rubric"/><label><num><w>CCXCI</w></num></label>
@@ -20811,7 +20808,7 @@
                             <expan>sol<ex>idus</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                     <w>et</w>
                     <w>si</w>
                     <w>qualemcum<lb xml:id="CV188_lb_079v_20" n="20"/>que</w>
@@ -20871,9 +20868,9 @@
                     <w>amini<lb xml:id="CV188_lb_080r_07" n="7"/>cula</w>
                     <w>tolerit</w>
                     <w>super</w>
-                    <measure type="denaro" quantity="3" unit="soldi"><w>tres</w></measure>
+                    <measure type="currency" quantity="3" unit="soldi"><w>tres</w></measure>
                     <w>aut</w>
-                    <measure type="denaro" quantity="2" unit="soldi"><w>quattu<lb
+                    <measure type="currency" quantity="2" unit="soldi"><w>quattu<lb
                                 xml:id="CV188_lb_080r_08" n="8"/>or</w></measure>
                     <w>conponat</w>
                     <w>
@@ -20882,7 +20879,7 @@
                             <expan>sol<ex>idus</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                 </p>
                 <p xml:id="CV188_p_080r_293" n="293"><lb xml:id="CV188_lb_080r_09" n="9"
                         type="rubric"/><label><num><w>CCXCIII</w></num></label>
@@ -20901,7 +20898,7 @@
                     <lb xml:id="CV188_lb_080r_11" n="11"/>
                     <w>conponat</w>
                     <w>solidus</w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                 </p>
                 <p xml:id="CV188_p_080r_294" n="294"><lb xml:id="CV188_lb_080r_12" n="12"
                         type="rubric"/><label><num><w>CCXCIII</w></num></label>
@@ -20924,7 +20921,7 @@
                             <expan>sol<ex>ido</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="1" unit="soldi"><w>I</w></measure>
+                    <measure type="currency" quantity="1" unit="soldi"><w>I</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -20981,7 +20978,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                     <w>nam</w>
                     <w>si</w>
                     <w>usque</w>
@@ -21027,7 +21024,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                 </p>
                 <p xml:id="CV188_p_080v_298" n="298"><lb xml:id="CV188_lb_080v_04" n="4"
                         type="rubric"/><label><num><w>CCXC<g ref="#romnumsix"/>II</w></num></label>
@@ -21043,7 +21040,7 @@
                     <w>tolerit</w>
                     <w>con<lb xml:id="CV188_lb_080v_06" n="6"/>ponat</w>
                     <w>solidus</w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -21075,7 +21072,7 @@
                         </choice>
                     </w>
                     <del rend="strikethrough"/>
-                    <add place="inline" hand="scribe_2"><measure type="denaro" quantity="3"
+                    <add place="inline" hand="scribe_2"><measure type="currency" quantity="3"
                             unit="soldi"><w>tres</w></measure></add>
                     <pc><g ref="#colmidcomposit"/></pc>
                 </p>
@@ -21197,7 +21194,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="3" unit="soldi"><w>III</w></measure>
+                    <measure type="currency" quantity="3" unit="soldi"><w>III</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -21867,7 +21864,7 @@
                             <expan>sol<ex>idus</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                     <w>illi</w>
                     <w>qui</w>
                     <w>eam</w>
@@ -21996,7 +21993,7 @@
                     </w>
                     <w>eius</w>
                     <w>solidus</w>
-                    <measure type="denaro" quantity="12" unit="soldi"><w>duo<lb
+                    <measure type="currency" quantity="12" unit="soldi"><w>duo<lb
                                 xml:id="CV188_lb_083r_20" n="20"/>dicem</w></measure>
                     <w>nam</w>
                     <w>si</w>
@@ -22051,7 +22048,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                     <w>nam</w>
                     <w>si</w>
                     <lb xml:id="CV188_lb_083v_03" n="3"/><w>fura<c corresp="#v">u</c>erit</w>
@@ -22123,7 +22120,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                 </p>
                 <p xml:id="CV188_p_083v_318" n="318"><lb xml:id="CV188_lb_083v_08" n="8"
                         type="rubric"/><label><num><w>CCCX<g ref="#romnumsix"/>II</w></num></label>
@@ -22159,7 +22156,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="12" unit="soldi"><w>XII</w></measure>
+                    <measure type="currency" quantity="12" unit="soldi"><w>XII</w></measure>
                 </p>
                 <p xml:id="CV188_p_083v_319" n="319"><lb xml:id="CV188_lb_083v_11" n="11"
                         type="rubric"/><label><num><w>CCCX<g ref="#romnumsix"/>III</w></num></label>
@@ -22180,7 +22177,7 @@
                         </choice>
                     </w>
                     <w>solidus</w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -22346,7 +22343,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="12" unit="soldi"><w>XII</w></measure>
+                    <measure type="currency" quantity="12" unit="soldi"><w>XII</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -22379,7 +22376,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w><g ref="#romnumsix"
+                    <measure type="currency" quantity="6" unit="soldi"><w><g ref="#romnumsix"
                         /></w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
@@ -22906,7 +22903,7 @@
                         </choice>
                     </w>
                     <lb xml:id="CV188_lb_085v_21" n="21"/><w>tremisse</w>
-                    <measure type="denaro" quantity="1" unit="soldi"><w>uno</w></measure>
+                    <measure type="currency" quantity="1" unit="soldi"><w>uno</w></measure>
                     <w>et</w>
                     <w>si</w>
                     <w>mortua</w>
@@ -22953,7 +22950,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="1" unit="soldi"><w>unum</w></measure>
+                    <measure type="currency" quantity="1" unit="soldi"><w>unum</w></measure>
                     <w>et</w>
                     <w>si</w>
                     <w>mortua</w>
@@ -22993,7 +22990,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="3" unit="soldi"><w>tres</w></measure>
+                    <measure type="currency" quantity="3" unit="soldi"><w>tres</w></measure>
                     <w>si</w>
                     <w>autem</w>
                     <w>ex</w>
@@ -23078,7 +23075,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="12" unit="soldi"><w>duodicem</w></measure>
+                    <measure type="currency" quantity="12" unit="soldi"><w>duodicem</w></measure>
                 </p>
                 <p xml:id="CV188_p_086r_336" n="336"><lb xml:id="CV188_lb_086r_21" n="21"
                         type="rubric"/><label><num><w>CCCXXX<g ref="#romnumsix"/></w></num></label>
@@ -23113,7 +23110,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="12" unit="soldi"><w>XII</w></measure>
+                    <measure type="currency" quantity="12" unit="soldi"><w>XII</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -23173,7 +23170,7 @@
                     <w>tantum</w>
                     <lb xml:id="CV188_lb_086v_13" n="13"/><w>conponat</w>
                     <w>solidus</w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure> 
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure> 
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -23366,7 +23363,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="2" unit="soldi"><w>II</w></measure>
+                    <measure type="currency" quantity="2" unit="soldi"><w>II</w></measure>
                     <w>nam</w>
                     <w>si</w>
                     <w>inantea</w>
@@ -23566,7 +23563,7 @@
                     <lb xml:id="CV188_lb_088r_02" n="2"/><w>ut</w>
                     <w>supra</w>
                     <w>solidus</w>
-                    <measure type="denaro" quantity="2" unit="soldi"><w>duo</w></measure>
+                    <measure type="currency" quantity="2" unit="soldi"><w>duo</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -23782,7 +23779,7 @@
                             <expan>sol<ex>idum</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="1" unit="soldi"><w>unum</w></measure>
+                    <measure type="currency" quantity="1" unit="soldi"><w>unum</w></measure>
                     <w>excepto</w>
                     <w>
                         <choice>
@@ -23890,7 +23887,7 @@
                             <expan>sol<ex>idum</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="1" unit="soldi"><w>unum</w></measure>
+                    <measure type="currency" quantity="1" unit="soldi"><w>unum</w></measure>
                     <lb xml:id="CV188_lb_089r_07" n="7"/><w>excepto</w>
                     <w>damnum</w>
                     <w>ut</w>
@@ -23975,7 +23972,7 @@
                             <expan>sol<ex>ido</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="1" unit="soldi"><w>uno</w></measure>
+                    <measure type="currency" quantity="1" unit="soldi"><w>uno</w></measure>
                     <w>et</w>
                     <w>si</w>
                     <w>ille</w>
@@ -24380,7 +24377,7 @@
                         </choice>
                     </w>
                     <lb xml:id="CV188_lb_090v_19" n="19"/>
-                    <measure type="denaro" quantity="12" unit="soldi"><w>dudicem</w></measure>
+                    <measure type="currency" quantity="12" unit="soldi"><w>dudicem</w></measure>
                     <w>ipsum</w>
                     <w>dicitur</w>
                     <term xml:lang="lng"><w>sonor<lb xml:id="CV188_lb_090v_20" n="20"/>pair</w></term>
@@ -24515,7 +24512,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="20" unit="soldi"><w>XX</w></measure>                   
+                    <measure type="currency" quantity="20" unit="soldi"><w>XX</w></measure>                   
                     <w>
                         <choice>
                             <abbr>tant<am><g ref="#utilde"/></am></abbr>
@@ -24679,7 +24676,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -24730,7 +24727,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -24769,7 +24766,7 @@
                         </choice>
                     </w>
                     <w>solidus</w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -24890,7 +24887,7 @@
                     <w>si</w>
                     <lb xml:id="CV188_lb_092v_08" n="8"/><w>usque</w>
                     <w>ad</w>
-                    <measure type="denaro" quantity="20" unit="soldi"><w><c corresp="#v">u</c>igenti</w></measure>
+                    <measure type="currency" quantity="20" unit="soldi"><w><c corresp="#v">u</c>igenti</w></measure>
                     <w>
                         <choice>
                             <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
@@ -24952,7 +24949,7 @@
                     <w>fuerit</w>
                     <w>cau<lb xml:id="CV188_lb_092v_17" n="17"/>sa</w>
                     <w>de</w>
-                    <measure type="denaro" quantity="20" unit="soldi"><w><c corresp="#v">u</c>igenti</w></measure>
+                    <measure type="currency" quantity="20" unit="soldi"><w><c corresp="#v">u</c>igenti</w></measure>
                     <w>
                         <choice>
                             <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
@@ -24994,7 +24991,7 @@
                     <w>causa</w>
                     <w>de</w>
                     <lb xml:id="CV188_lb_093r_03" n="3"/>
-                    <measure type="denaro" quantity="12" unit="soldi"><w>duodicem</w></measure>
+                    <measure type="currency" quantity="12" unit="soldi"><w>duodicem</w></measure>
                     <w>
                         <choice>
                             <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
@@ -25995,7 +25992,7 @@
                     <fw type="fol" place="top-right"><add hand="unknown">97</add></fw> 
                     <lb xml:id="CV188_lb_097r_01" n="1"/>
                     <w>unde</w>
-                    <measure type="denaro" quantity="900" unit="soldi"><w>dcccc</w></measure>
+                    <measure type="currency" quantity="900" unit="soldi"><w>dcccc</w></measure>
                     <w>
                         <choice>
                             <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
@@ -26086,7 +26083,7 @@
                     <w>ser<c corresp="#v">u</c>i</w>
                     <w>alio <lb xml:id="CV188_lb_097r_14" n="14"/>rum</w>
                     <w>hominum</w>
-                    <measure type="denaro" quantity="900" unit="soldi"><w>dcccc</w></measure>
+                    <measure type="currency" quantity="900" unit="soldi"><w>dcccc</w></measure>
                     <w>
                         <choice>
                             <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
@@ -26122,7 +26119,7 @@
                     <w>et</w>
                     <w>prefati</w>
                     <w>sumus</w>
-                    <measure type="denaro" quantity="900" unit="soldi"><w>dcccc</w></measure>
+                    <measure type="currency" quantity="900" unit="soldi"><w>dcccc</w></measure>
                     <w>
                         <choice>
                             <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
@@ -26148,7 +26145,7 @@
                     <w>incurrat</w>
                     <w>periculum</w>
                     <w>et</w>
-                    <measure type="denaro" quantity="900" unit="soldi"><w>dcccc</w></measure>
+                    <measure type="currency" quantity="900" unit="soldi"><w>dcccc</w></measure>
                     <lb xml:id="CV188_lb_097v_04" n="4"/>
                     <w>
                         <choice>
@@ -26305,7 +26302,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="80" unit="soldi"><w>octugen<lb xml:id="CV188_lb_097v_22" n="22" rend="align_right"/>ta</w></measure>
+                    <measure type="currency" quantity="80" unit="soldi"><w>octugen<lb xml:id="CV188_lb_097v_22" n="22" rend="align_right"/>ta</w></measure>
                     <pb n="098r" xml:id="CV188_folio_098r"/>
                     <fw type="fol" place="top-right"><add hand="unknown">98</add></fw>  
                     <lb xml:id="CV188_lb_098r_01" n="1"/>
@@ -26357,7 +26354,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="80" unit="soldi"><w>octugenta</w></measure>
+                    <measure type="currency" quantity="80" unit="soldi"><w>octugenta</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -26534,7 +26531,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="60" unit="soldi"><w>LX</w></measure>
+                    <measure type="currency" quantity="60" unit="soldi"><w>LX</w></measure>
                     <w>et</w>
                     <w>insuper</w>
                     <w>ad<lb xml:id="CV188_lb_098v_14" n="14"/>dat</w>
@@ -26546,7 +26543,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="100" unit="soldi"><w>c</w></measure>
+                    <measure type="currency" quantity="100" unit="soldi"><w>c</w></measure>
                     <w>medieta<lb xml:id="CV188_lb_098v_15" n="15"/>tem</w>
                     <w>regi</w>
                     <w>et</w>
@@ -26591,7 +26588,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="60" unit="soldi"><w>LX</w></measure>
+                    <measure type="currency" quantity="60" unit="soldi"><w>LX</w></measure>
                     <lb xml:id="CV188_lb_098v_21" n="21"/><w>medietatem</w>
                     <w>regi</w>
                     <w>et</w>
@@ -26751,7 +26748,7 @@
                     <w>in<lb xml:id="CV188_lb_099v_03" n="03"/>iuriam</w>
                     <w>suam</w>
                     <w>unde</w>
-                    <measure type="denaro" quantity="900" unit="soldi"><w>dcccc</w></measure>
+                    <measure type="currency" quantity="900" unit="soldi"><w>dcccc</w></measure>
                     <w>
                         <choice>
                             <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
@@ -26902,7 +26899,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="20" unit="soldi"><w>XX</w></measure>
+                    <measure type="currency" quantity="20" unit="soldi"><w>XX</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -26965,7 +26962,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="12" unit="soldi"><w>XII</w></measure>
+                    <measure type="currency" quantity="12" unit="soldi"><w>XII</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -27009,7 +27006,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w><g ref="#romnumsix"/></w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w><g ref="#romnumsix"/></w></measure>
                     <w>sic</w>
                     <w>tamen</w>
                     <w>si</w>
@@ -27046,7 +27043,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="3" unit="soldi"><w>III</w></measure>
+                    <measure type="currency" quantity="3" unit="soldi"><w>III</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -27079,7 +27076,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="6" unit="soldi"><w>sex</w></measure>
+                    <measure type="currency" quantity="6" unit="soldi"><w>sex</w></measure>
                     <w>si</w>
                     <w>aldium</w>
                     <w>aut</w>
@@ -27140,7 +27137,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="20" unit="soldi"><w>XX</w></measure>
+                    <measure type="currency" quantity="20" unit="soldi"><w>XX</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -27167,7 +27164,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="16" unit="soldi"><w>X<g ref="#romnumsix"/></w></measure>
+                    <measure type="currency" quantity="16" unit="soldi"><w>X<g ref="#romnumsix"/></w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -27195,7 +27192,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="20" unit="soldi"><w>XX</w></measure>
+                    <measure type="currency" quantity="20" unit="soldi"><w>XX</w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
@@ -27218,7 +27215,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="16" unit="soldi"><w>X<g ref="#romnumsix"/></w></measure>
+                    <measure type="currency" quantity="16" unit="soldi"><w>X<g ref="#romnumsix"/></w></measure>
                     <choice>
                         <orig><pc>:</pc></orig>
                         <reg>.</reg>
