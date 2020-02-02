@@ -444,6 +444,7 @@
                 minor changes.</change>
             <change when="2018-10" who="MG" status="draft">Encoding by Marianna Giardina
                 [29-10-2018].</change>
+            <!-- nuova revisione MG il 2-02-2020 -->
             <change when="2014-08" who="RRDT" status="draft">First TEI encoding.</change>
         </revisionDesc>
         
@@ -772,7 +773,7 @@
                     </choice>
                 </p>
 
-                <p><lb n="05" type="rubric" xml:id="CV188_lb_019v_05"/><label n="7"><num><w>ϚI</w></num></label>
+                <p><lb n="05" type="rubric" xml:id="CV188_lb_019v_05"/><label n="7"><num><w><g ref="#romnumsix"/>I</w></num></label>
                     <w><hi rend="cap2.0 empty">S</hi>i</w>
                     <w>quis</w>
                     <w>contra</w>
@@ -782,7 +783,7 @@
                     <w>suum</w>
                     <w>dimi<lb n="07" xml:id="CV188_lb_019v_07"/>serit</w>
                     <w>aut</w>
-                    <term xml:lang="lng">
+                    <term xml:lang="lng" ref="#astalin" xml:id="CV188_term_astalin_07">
                         <w>
                             <choice>
                                 <orig>anstall<add place="below">i</add><subst>
@@ -794,7 +795,7 @@
                         </w>
                     </term>
                     <w>fecerit</w><reg>,</reg>
-                    <gloss>
+                    <gloss target="#CV188_term_astalin_07" xml:id="CV188_gloss_astalin_07">
                         <w>id</w>
                         <w>est</w>
                         <lb n="08" xml:id="CV188_lb_019v_08"/><w>si</w>
@@ -806,7 +807,6 @@
                         <w>non</w>
                         <lb n="09" xml:id="CV188_lb_019v_09"/><w>labora<c corresp="#v">u</c>erit</w>
                     </gloss>
-                    <reg>,</reg>
                     <w>
                         <choice>
                             <sic>anime</sic>
@@ -954,15 +954,17 @@
                     <w>et</w>
                     <w>provare</w>
                     <w>non</w>
-                    <lb xml:id="CV188_lb_020r_09"/><w>poterit</w><reg>,</reg>
-                    <term xml:lang="lng"><w>wergild</w></term>
+                    <lb xml:id="CV188_lb_020r_09"/><w>poterit</w>
+                    <term xml:lang="lng" ref="#wergild" xml:id="CV188_term_wergild_09">
+                        <w><c corresp="#v">u</c><c corresp="#v">u</c>irichild</w></term>
                     <w>suo</w>
-                    <w>conponat</w><reg>,</reg>
+                    <w>conp</w>
                     <w>me<lb xml:id="CV188_lb_020r_10"/>dietatem</w>
                     <w>regi</w><reg>,</reg>
                     <w>et</w>
                     <w>medietatem</w>
-                    <lb xml:id="CV188_lb_020r_11"/><w>cui</w>
+                    <lb xml:id="CV188_lb_020r_11"/>
+                    <w>cui</w>
                     <w>crimen</w>
                     <w>iniectum</w>
                     <w>fuerit</w><reg>.</reg>
@@ -1045,7 +1047,8 @@
                     <w>fuerit</w><reg>,</reg>
                     <w>id</w>
                     <w>est</w>
-                    <term xml:lang="lng"><w>wergild</w></term><reg>.</reg>
+                    <term xml:lang="lng" ref="#wergild" xml:id="CV188_term_wergild_11">
+                        <w><c corresp="#v">u</c><c corresp="#v">u</c>irichild</w></term>
                 </p>
 
                 <p><lb type="rubric"/><label n="12"><num><w>I</w></num></label>
@@ -1201,9 +1204,11 @@
                 </p>
             </div>
             <div n="Capp. 14-145" subtype="reati_contro_privati" type="capitula" xml:id="CV188_div_14-145">
-                <p><lb type="rubric"/><label n="14"><num><w>I</w></num></label>
+                <p><lb type="rubric"/><label n="14"><num><w>XIIII</w></num></label>
                     <w>De</w>
-                    <term><w>morth</w></term>
+                    <term xml:lang="lng" ref="#morth" xml:id="CV188_term_morth_14">
+                        <w>morh</w>
+                    </term>
                     <w>Si</w>
                     <w>quis</w>
                     <w>homicidi<lb/>um</w>
@@ -1239,7 +1244,9 @@
                     <w>ingenuus</w><reg>,</reg>
                     <lb/><w>qualiter</w>
                     <w>in</w>
-                    <w>angargathungi</w><reg>,</reg>
+                    <term xml:lang="lng" ref="#angargathungi" xml:id="CV188_term_angargathungi_14">
+                        <w>angargathungi</w>
+                    </term>                    
                     <w>ipsum</w>
                     <lb/><w>homicidium</w>
                     <w>conponat</w><reg>;</reg>
@@ -1261,13 +1268,19 @@
                     <w>tulerit</w><reg>,</reg>
                     <lb/><w>id</w>
                     <w>est</w>
-                    <w>plodraub</w><reg>,</reg>
+                    <term xml:lang="lng" ref="#plodraub" xml:id="CV188_term_plodraub_14">
+                        <w>plodraub</w>
+                    </term>
                     <w>conponat</w>
                     <w>octugenta</w>
-                    <w>solidûs</w><reg>.</reg>
+                    <w>sol</w>
+                    <reg>.</reg>
                 </p>
-                <p><lb type="rubric"/><label n="15"><num><w>I</w></num><w>De</w>
-                        <term xml:lang="lng"><w>grabworfin</w></term></label>
+                <p><lb type="rubric"/><label n="15"><num><w>I</w></num></label>
+                    <w>De</w>
+                    <term xml:lang="lng" ref="#grabworfin" xml:id="CV188_term_grabworfin_15">
+                        <w>crap<c corresp="#v">u</c><c corresp="#v">u</c>orfin</w>
+                    </term>                
                     <w>Si</w>
                     <w>quis</w>
                     <lb/><w>sepulturam</w>
@@ -1307,8 +1320,11 @@
                     <w>exegat</w><reg>.</reg>
                 </p>
 
-                <p><lb type="rubric"/><label n="16"><w><hi rend="cap2.0 halfempty">D</hi>e</w>
-                        <term xml:lang="lng"><w>rairaub</w></term></label>
+                <p><lb type="rubric"/><label n="16"><num><w>XG</w></num></label>
+                    <w><hi rend="cap2.0 halfempty">D</hi>e</w>
+                    <term xml:lang="lng" ref="#rairaub" xml:id="CV188_term_rairaub_16">
+                        <w>rahairaubus</w>
+                    </term>
                     <w>Si</w>
                     <w>quis</w>
                     <w>homi<lb/>nem</w>
@@ -1705,11 +1721,16 @@
                     <w>causa</w>
                     <w>manente</w><reg>.</reg></p>
                 <p><lb/>
-                    <label n="26"><w>De</w>
-                        <term><w>wegworin</w></term><reg>,</reg>
-                        <gloss><w>id</w>
+                    <label n="26"><num><w>XXG</w></num></label>
+                    <w>De</w>
+                    <term xml:lang="lng" ref="#wegworin" xml:id="CV188_term_wegworin_26">
+                        <w>uuecuor</w></term>
+                    <gloss target="#CV188_term_wegworin_26" xml:id="CV188_gloss_wegworin_26">
+                            <w>id</w>
                             <w>est</w>
-                            <w>horbitariam</w></gloss></label>
+                            <damage/>
+                            <w>orbitariam</w>
+                        </gloss>
                     <w>Si</w>
                     <w>quis</w>
                     <w>mulieri</w>
@@ -1840,8 +1861,11 @@
                     <w>laborem</w>
                     <w>suum</w>
                     <w>vindicavit</w><reg>.</reg></p>
-                <p><lb/><label n="30"><num><w>I</w></num><w>De</w>
-                        <term><w>marhworfin</w></term></label>
+                <p><lb/><label n="30"><num><w>XXX</w></num></label>
+                    <w>De</w>
+                    <term xml:lang="lng" ref="#marhworfin" xml:id="CV188_term_marhworfin_30">
+                        <w>marah<c corresp="#v">u</c><c corresp="#v">u</c>orfin</w>
+                    </term>
                     <w>Si</w>
                     <w>quis</w>
                     <w>hominem</w>
@@ -1873,8 +1897,11 @@
                     <w>adnexum</w>
                     <w>est</w><reg>,</reg>
                     <w>conponat</w><reg>.</reg></p>
-                <p><lb/><label n="31"><num><w>I</w></num><w>De</w>
-                        <term><w>walupaus</w></term></label>
+                <p><lb/><label n="31"><num><w>XXXI</w></num></label>
+                    <w>De</w>
+                    <term xml:lang="lng" ref="#walupaus">
+                        <w><c corresp="#v">u</c><c corresp="#v">u</c>alapautzo</w>
+                    </term>
                     <w>Si</w>
                     <w>quis</w>
                     <w>homini</w>
@@ -1884,16 +1911,21 @@
                     <w>fecerit</w><reg>,</reg>
                     <w>id</w>
                     <w>est</w>
-                    <w>walupaus</w><reg>,</reg>
+                    <term xml:lang="lng" ref="#walupaus">
+                        <w><c corresp="#v">u</c><c corresp="#v">u</c>alapautz</w>
+                    </term>
                     <w>octugenta</w>
                     <w>solidos</w>
                     <w>ei</w>
                     <w>conponat</w><reg>.</reg>
-                    <w>Walupaus</w>
-                    <w>est</w><reg>,</reg>
+                    <term xml:lang="lng" ref="#walupaus" xml:id="CV188_term_walupaus_31">
+                        <w><c corresp="#v">u</c><c corresp="#v">u</c>alapautz</w>
+                    </term>
+                    <gloss target="#CV188_term_walupaus_31" xml:id="CV188_gloss_walupaus_31">
+                    <w>est</w>
                     <w>qui</w>
                     <w>se</w>
-                    <w>furtim</w>
+                    <w>furtum</w>
                     <w>vestimentum</w>
                     <w>alium</w>
                     <w>induerit</w>
@@ -1904,7 +1936,9 @@
                     <w>animo</w>
                     <w>aut</w>
                     <w>faciem</w>
-                    <w>transfiguraverit</w><reg>.</reg></p>
+                    <w>transfiguraverit</w>
+                    </gloss>
+                    <reg>.</reg></p>
                 <p><lb/><label n="32"><num><w>I</w></num><w>De</w>
                         <w>homine</w>
                         <w>libero</w></label>
