@@ -6001,7 +6001,7 @@
                         <w>liberum</w>
                         <w>nolendum</w>
                         <w>occiderit</w>
-                    </p>                    
+                    </p>
                     <lb xml:id="CE34-5_lb_066r_17" n="17"/>
                     <p corresp="#CE34-5_p_104v_388">
                         <label n="387"><num><w>CCCLXXXVII</w></num></label>
@@ -10512,8 +10512,9 @@
                         </choice>
                     </w>
                     <w>ut</w>
-                    <term xml:lang="lng" ref="#faida" xml:id="CE34-5_term_faida_74"
-                        ><w>faida</w></term>
+                    <term xml:lang="lng" ref="#faida" xml:id="CE34-5_term_faida_74">
+                        <w>faida</w>
+                    </term>
                     <gloss target="#CE34-5_term_faida_74" xml:id="CE34-5_gloss_faida_74">
                         <w>quod</w>
                         <w>est</w>
@@ -10694,8 +10695,9 @@
                     <w>ut</w>
                     <w>supra</w>
                     <w>cessante</w>
-                    <term xml:lang="lng" ref="#faida" xml:id="CE34-5_term_faida_75"
-                        ><w>faida</w></term>
+                    <term xml:lang="lng" ref="#faida" xml:id="CE34-5_term_faida_75">
+                        <w>faida</w>
+                    </term>
                     <w>eo</w>
                     <w>quod</w>
                     <w>
@@ -12926,8 +12928,9 @@
                     <w>ferita</w>
                     <w>id</w>
                     <w>est</w>
-                    <term xml:lang="lng" ref="#pulslahi" xml:id="CE34-5_term_pulslahi_125"
-                            ><w>pluscla</w></term>
+                    <term xml:lang="lng" ref="#pulslahi" xml:id="CE34-5_term_pulslahi_125">
+                        <w>pluscla</w>
+                    </term>
                     <w>si</w>
                     <lb xml:id="CE34-5_lb_074v_15" n="15"/>
                     <w><c corresp="#v">u</c>ulnus</w>
@@ -15641,8 +15644,9 @@
                     </w>
                     <lb xml:id="CE34-5_lb_078r_23" n="23"/>
                     <w>est</w>
-                    <term xml:lang="lng" ref="#threus" xml:id="CE34-5_term_threus_157"
-                        ><w>threus</w></term>
+                    <term xml:lang="lng" ref="#threus" xml:id="CE34-5_term_threus_157">
+                        <w>threus</w>
+                    </term>
                     <w>heres</w>
                     <w>non</w>
                     <w>fiant</w>
@@ -16032,8 +16036,9 @@
                             <expan>p<ex>ro</ex>p<ex>ter</ex></expan>
                         </choice>
                     </w>
-                    <term xml:lang="lng" ref="#faida" xml:id="CE34-5_term_faida_162"
-                        ><w>faida</w></term>
+                    <term xml:lang="lng" ref="#faida" xml:id="CE34-5_term_faida_162">
+                        <w>faida</w>
+                    </term>
                     <w>de</w>
                     <lb xml:id="CE34-5_lb_079r_08" n="8"/>
                     <w>ponenda</w>
@@ -16069,8 +16074,9 @@
                     <w>fratris</w>
                     <w>sui</w>
                     <w>aut</w>
-                    <term xml:lang="lng" ref="#barba" xml:id="CE34-5_term_barba_163"
-                        ><w>barbanes</w></term>
+                    <term xml:lang="lng" ref="#barba" xml:id="CE34-5_term_barba_163">
+                        <w>barbanes</w>
+                    </term>
                     <gloss target="#CE34-5_term_barba_163" xml:id="CE34-5_gloss_barba_163">
                         <w>quod</w>
                         <w>est</w>
@@ -16200,8 +16206,9 @@
                     </w>
                     <w>quod</w>
                     <w>est</w>
-                    <term xml:lang="lng" ref="#barba" xml:id="CE34-5_term_barba_164"
-                        ><w>barbas</w></term>
+                    <term xml:lang="lng" ref="#barba" xml:id="CE34-5_term_barba_164">
+                        <w>barbas</w>
+                    </term>
                     <gloss target="#CE34-5_term_barba_164" xml:id="CE34-5_gloss_barba_164">
                         <w>id</w>
                         <w>est</w>
@@ -16616,8 +16623,9 @@
                         </choice>
                     </w>
                     <w>commune</w>
-                    <term xml:lang="lng" ref="#meta" xml:id="CE34-5_term_meta_167"
-                        ><w>meta</w></term>
+                    <term xml:lang="lng" ref="#meta" xml:id="CE34-5_term_meta_167">
+                        <w>meta</w>
+                    </term>
                     <lb xml:id="CE34-5_lb_079v_26" n="26"/>
                     <w>data</w>
                     <w>fuerit</w>
@@ -16915,8 +16923,9 @@
                     </w>
                     <w>procreare</w>
                     <w>omnes</w>
-                    <term xml:lang="lng" ref="#thinx" xml:id="CE34-5_term_thinx_171"
-                        ><w>thinx</w></term>
+                    <term xml:lang="lng" ref="#thinx" xml:id="CE34-5_term_thinx_171">
+                        <w>thinx</w>
+                    </term>
                     <gloss target="#CE34-5_term_thinx_171" xml:id="CE34-5_gloss_thinx_171">
                         <w>quod</w>
                         <w>est</w>
@@ -17030,8 +17039,9 @@
                 <p xml:id="CE34-5_p_080v_172" n="172"><lb xml:id="CE34-5_lb_080v_07" n="7"
                         type="rubric"/><label><num><w>CLXXII</w></num></label>
                     <w><hi rend="cap">D</hi>e</w>
-                    <term xml:lang="lng" ref="#thinx" xml:id="CE34-5_term_thinx_172"
-                        ><w>thinx</w></term>
+                    <term xml:lang="lng" ref="#thinx" xml:id="CE34-5_term_thinx_172">
+                        <w>thinx</w>
+                    </term>
                     <gloss target="#CE34-5_term_thinx_172" xml:id="CE34-5_gloss_thinx_172">
                         <w>quod</w>
                         <w>est</w>
@@ -17063,8 +17073,9 @@
                     <lb xml:id="CE34-5_lb_080v_10" n="10"/>
                     <w><g ref="#openetlig"/></w>
                     <w>qui</w>
-                    <term xml:lang="lng" ref="#gisel" xml:id="CE34-5_term_gisel_172"
-                        ><w>gisel</w></term>
+                    <term xml:lang="lng" ref="#gisel" xml:id="CE34-5_term_gisel_172">
+                        <w>gisel</w>
+                    </term>
                     <w>fuerit</w>
                     <w>liberi</w>
                     <w>sint</w>
@@ -17093,10 +17104,12 @@
                     <w>In</w>
                     <lb xml:id="CE34-5_lb_080v_12" n="12"/>
                     <w>ipso</w>
-                    <term xml:lang="lng" ref="#thinx" xml:id="CE34-5_term_thinx_173"
-                        ><w>thinx</w></term>
-                    <term xml:lang="lng" ref="#lidinlaib" xml:id="CE34-5_term_lidinlaib_173"
-                            ><w>lid</w><w>in</w><w>laid</w></term>
+                    <term xml:lang="lng" ref="#thinx" xml:id="CE34-5_term_thinx_173">
+                        <w>thinx</w>
+                    </term>
+                    <term xml:lang="lng" ref="#lidinlaib" xml:id="CE34-5_term_lidinlaib_173">
+                        <w>lid</w><w>in</w><w>laid</w>
+                    </term>
                     <gloss target="#CE34-5_term_lidinlaib_173" xml:id="CE34-5_gloss_lidinlaib_173">
                         <w>id</w>
                         <w>est</w>
@@ -17198,8 +17211,9 @@
                 <p xml:id="CE34-5_p_080v_174" n="174"><lb xml:id="CE34-5_lb_080v_21" n="21"
                         type="rubric"/><label><num><w>CLXXIIII</w></num></label>
                     <w><hi rend="cap">D</hi>e</w>
-                    <term xml:lang="lng" ref="#thinx" xml:id="CE34-5_term_thinx_174"
-                        ><w>thinx</w></term>
+                    <term xml:lang="lng" ref="#thinx" xml:id="CE34-5_term_thinx_174">
+                        <w>thinx</w>
+                    </term>
                     <add place="above" hand="scribe_2"><w>primus</w></add>
                     <w>factum</w>
                     <w>Non</w>
@@ -17225,8 +17239,9 @@
                     <w>ut</w>
                     <w>ille</w>
                     <w>qui</w>
-                    <term xml:lang="lng" ref="#gairethinx" xml:id="CE34-5_term_gairethinx_174"
-                            ><w>garethinx</w></term>
+                    <term xml:lang="lng" ref="#gairethinx" xml:id="CE34-5_term_gairethinx_174">
+                        <w>garethinx</w>
+                    </term>
                     <w>susceperit</w>
                     <lb xml:id="CE34-5_lb_080v_24" n="24"/>
                     <w>tales</w>
@@ -17792,7 +17807,8 @@
                     <w>sponsus</w>
                     <w>dubla</w>
                     <term xml:lang="lng" ref="#meta" xml:id="CE34-5_term_meta_179">
-                        <w>meta</w></term>
+                        <w>meta</w>
+                    </term>
                     <w>quantum</w>
                     <w>dictum</w>
                     <w>est</w>
@@ -18394,7 +18410,8 @@
                     <w>medi<g ref="#openetlig"/>atem</w>
                     <w>de</w>
                     <term xml:lang="lng" ref="#meta" xml:id="CE34-5_term_meta_183">
-                        <w>m<g ref="#openetlig"/>a</w></term>
+                        <w>m<g ref="#openetlig"/>a</w>
+                    </term>
                     <lb xml:id="CE34-5_lb_082v_07" n="7"/>
                     <w>sicut</w>
                     <w>supra</w>
@@ -18478,8 +18495,9 @@
                     <w>quod</w>
                     <w>mari<lb xml:id="CE34-5_lb_082v_14" n="14"/>tus</w>
                     <w>si</w>
-                    <term xml:lang="lng" ref="#launegild" xml:id="CE34-5_term_launegild_184"
-                            ><w>naunichild</w></term>
+                    <term xml:lang="lng" ref="#launegild" xml:id="CE34-5_term_launegild_184">
+                        <w>naunichild</w>
+                    </term>
                     <w>requisitum</w>
                     <w>fuerit</w>
                     <w>ipsi</w>
@@ -18529,7 +18547,7 @@
                         <w>pri<c corresp="#v">u</c>igna</w>
                     </term>
                     <lb xml:id="CE34-5_lb_082v_17" n="17"/>
-                    <gloss>
+                    <gloss target="#CE34-5_term_privigna_185" xml:id="CE34-5_gloss_privigna_185">
                         <w>id</w>
                         <w>quod</w>
                         <w>est</w>
@@ -18748,8 +18766,9 @@
                     <w>fra<lb xml:id="CE34-5_lb_083r_06" n="6"/>terem</w>
                     <w><c corresp="#v">u</c>ult</w>
                     <w>ad</w>
-                    <term xml:lang="lng" ref="#barba" xml:id="CE34-5_term_barba_186"
-                        ><w>barbanem</w></term>
+                    <term xml:lang="lng" ref="#barba" xml:id="CE34-5_term_barba_186">
+                        <w>barbanem</w>
+                    </term>
                     <w><c corresp="#v">u</c>ult</w>
                     <w>ad</w>
                     <w>ma<space quantity="4" unit="chars"/>num</w>
@@ -19278,8 +19297,9 @@
                             <expan>p<ex>er</ex>tinuerit</expan>
                         </choice>
                     </w>
-                    <term xml:lang="lng" ref="#anagrip" xml:id="CE34-5_term_anagrip_190"
-                            ><w>anagriph</w></term>
+                    <term xml:lang="lng" ref="#anagrip" xml:id="CE34-5_term_anagrip_190">
+                        <w>anagriph</w>
+                    </term>
                     <w>
                         <choice>
                             <abbr>so<am><g ref="#lhighstrok"/></am></abbr>
@@ -19294,8 +19314,9 @@
                             <expan>p<ex>ro</ex>p<ex>ter</ex></expan>
                         </choice>
                     </w>
-                    <term xml:lang="lng" ref="#faida" xml:id="CE34-5_term_faida_190"
-                        ><w>faida</w></term>
+                    <term xml:lang="lng" ref="#faida" xml:id="CE34-5_term_faida_190">
+                        <w>faida</w>
+                    </term>
                     <w>
                         <choice>
                             <abbr>so<am><g ref="#lhighstrok"/></am></abbr>
@@ -19505,8 +19526,9 @@
                     </w>
                     <lb xml:id="CE34-5_lb_083v_25" n="25"/>
                     <w>dubla</w>
-                    <term xml:lang="lng" ref="#meta" xml:id="CE34-5_term_meta_191"
-                        ><w>meta</w></term>
+                    <term xml:lang="lng" ref="#meta" xml:id="CE34-5_term_meta_191">
+                        <w>meta</w>
+                    </term>
                     <w>quantum</w>
                     <w>dictum</w>
                     <w>est</w>
@@ -19638,8 +19660,9 @@
                     </w>
                     <w>In</w>
                     <w>dublum</w>
-                    <term xml:lang="lng" ref="#meta" xml:id="CE34-5_term_meta_192"
-                        ><w>meta</w></term>
+                    <term xml:lang="lng" ref="#meta" xml:id="CE34-5_term_meta_192">
+                        <w>meta</w>
+                    </term>
                     <w>que</w>
                     <w>dicta</w>
                     <w>fuerat</w>
@@ -20372,8 +20395,8 @@
                     <w>probare</w>
                     <w>non</w>
                     <w>potuerit</w>
-                    <term xml:lang="lng"><w><c corresp="#v">u</c><c corresp="#v"
-                        >u</c>idrigild</w></term>
+                    <term xml:lang="lng" ref="#wergild" xml:id="CE34-5_term_wergild_198">
+                        <w><c corresp="#v">u</c><c corresp="#v">u</c>idrigild</w></term>
                     <w>ipsius</w>
                     <lb xml:id="CE34-5_lb_085r_08" n="8"/>
                     <w>mulieris</w>
@@ -20526,8 +20549,9 @@
                         <w>morgaph</w>
                     </term>
                     <w><g ref="#openetlig"/></w>
-                    <term xml:lang="lng" ref="#metfio" xml:id="CE34-5_term_metfio_199"
-                        ><w>mefio</w></term>
+                    <term xml:lang="lng" ref="#metfio" xml:id="CE34-5_term_metfio_199">
+                        <w>mefio</w>
+                    </term>
                     <w><hi rend="cap">D</hi>e</w>
                     <term xml:lang="lng" ref="#faderfio" xml:id="CE34-5_term_faderfio_199">
                         <w>fadarfio</w>
@@ -20752,8 +20776,9 @@
                     <w><g ref="#openetlig"/></w>
                     <w>habeant</w>
                     <w>filii</w>
-                    <term xml:lang="lng" ref="#morgingab" xml:id="CE34-5_term_morgingab_200"
-                            ><w>morgincaph</w></term>
+                    <term xml:lang="lng" ref="#morgingab" xml:id="CE34-5_term_morgingab_200">
+                        <w>morgincaph</w>
+                    </term>
                     <w><g ref="#openetlig"/></w>
                     <term xml:lang="lng" ref="#faderfio" xml:id="CE34-5_term_faderfio_200">
                         <w>faderfio</w>
@@ -21787,8 +21812,9 @@
                     <w>tradita</w>
                     <w>fu<lb xml:id="CE34-5_lb_086v_06" n="6"/>erit</w>
                     <w>tunc</w>
-                    <term xml:lang="lng" ref="#meta" xml:id="CE34-5_term_meta_215"
-                        ><w>meta</w></term>
+                    <term xml:lang="lng" ref="#meta" xml:id="CE34-5_term_meta_215">
+                        <w>meta</w>
+                    </term>
                     <w>quae</w>
                     <w>dacta</w>
                     <w>fuerit</w>
@@ -21850,8 +21876,9 @@
                     <w>tulerit</w>
                     <w>id</w>
                     <w>est</w>
-                    <term xml:lang="lng" ref="#fulcfrea" xml:id="CE34-5_term_fulcfrea_216"
-                            ><w>fulfreae</w></term>
+                    <term xml:lang="lng" ref="#fulcfrea" xml:id="CE34-5_term_fulcfrea_216">
+                        <w>fulfreae</w>
+                    </term>
                     <w><g ref="#openetlig"/></w>
                     <w>contegerit</w>
                     <w><g ref="#openetlig"/></w>
@@ -21920,8 +21947,9 @@
                             <expan>absq<ex>ue</ex></expan>
                         </choice>
                     </w>
-                    <term xml:lang="lng" ref="#morgingab" xml:id="CE34-5_term_morgingab_216"
-                            ><w>morgincap</w></term>
+                    <term xml:lang="lng" ref="#morgingab" xml:id="CE34-5_term_morgingab_216">
+                        <w>morgincap</w>
+                    </term>
                     <w>aut</w>
                     <w>de</w>
                     <w>
@@ -22534,15 +22562,17 @@
                     <w>placa<c corresp="#v">u</c>erit</w>
                     <w>nam</w>
                     <w>qui</w>
-                    <term xml:lang="lng" ref="#fulcfree" xml:id="CE34-5_term_fulcfree_224"
-                            ><w>fulfree</w></term>
+                    <term xml:lang="lng" ref="#fulcfree" xml:id="CE34-5_term_fulcfree_224">
+                        <w>fulfree</w>
+                    </term>
                     <w>a</w>
                     <w>se</w>
                     <w>extraneum</w>
                     <w>id</w>
                     <w>est</w>
-                    <term xml:lang="lng" ref="#haamund" xml:id="CE34-5_term_haamund_224"
-                            ><w>amuld</w></term>
+                    <term xml:lang="lng" ref="#haamund" xml:id="CE34-5_term_haamund_224">
+                        <w>amuld</w>
+                    </term>
                     <lb xml:id="CE34-5_lb_087v_06" n="6"/>
                     <w>facere</w>
                     <w><c corresp="#v">u</c>oluerit</w>
@@ -22565,8 +22595,9 @@
                             <expan>p<ex>er</ex></expan>
                         </choice>
                     </w>
-                    <term xml:lang="lng" ref="#gairethinx" xml:id="CE34-5_term_gairethinx_224"
-                            ><w>garthinx</w></term>
+                    <term xml:lang="lng" ref="#gairethinx" xml:id="CE34-5_term_gairethinx_224">
+                        <w>garthinx</w>
+                    </term>
                     <w>in</w>
                     <w>ipso</w>
                     <w>confirmet</w>
@@ -22610,11 +22641,13 @@
                     <w>tingit</w>
                     <lb xml:id="CE34-5_lb_087v_10" n="10"/>
                     <w>In</w>
-                    <term xml:lang="lng" ref="#gaida" xml:id="CE34-5_term_gaida_224"
-                        ><w>gaida</w></term>
+                    <term xml:lang="lng" ref="#gaida" xml:id="CE34-5_term_gaida_224">
+                        <w>gaida</w>
+                    </term>
                     <w><g ref="#openetlig"/></w>
-                    <term xml:lang="lng" ref="#gisil" xml:id="CE34-5_term_gisil_224"
-                        ><w>gisil</w></term>
+                    <term xml:lang="lng" ref="#gisil" xml:id="CE34-5_term_gisil_224">
+                        <w>gisil</w>
+                    </term>
                     <w><g ref="#openetlig"/></w>
                     <w>sic</w>
                     <w>dicat</w>
@@ -22716,8 +22749,9 @@
                     <w><hi rend="cap">S</hi>imiliter</w>
                     <w><g ref="#openetlig"/></w>
                     <w>qui</w>
-                    <term xml:lang="lng" ref="#inpans" xml:id="CE34-5_term_inpans_224"
-                            ><w>In</w><w>pans</w></term>
+                    <term xml:lang="lng" ref="#inpans" xml:id="CE34-5_term_inpans_224">
+                        <w>In</w><w>pans</w>
+                    </term>
                     <gloss target="#CE34-5_term_inpans_224" xml:id="CE34-5_gloss_inpans_224">
                         <w>id</w>
                         <w>est</w>
@@ -22754,8 +22788,9 @@
                     <label><num><w>III</w></num></label>
                     <w>Item</w>
                     <w>qui</w>
-                    <term xml:lang="lng" ref="#fulcfree" xml:id="CE34-5_term_fulfree_224"
-                            ><w>fulfree</w></term>
+                    <term xml:lang="lng" ref="#fulcfree" xml:id="CE34-5_term_fulfree_224">
+                        <w>fulfree</w>
+                    </term>
                     <w>fecerit</w>
                     <w><g ref="#openetlig"/></w>
                     <w>quattuor</w>
@@ -25004,8 +25039,9 @@
                         </choice>
                     </w>
                     <w>in</w>
-                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_248"
-                            ><w>actigild</w></term>
+                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_248">
+                        <w>actigild</w>
+                    </term>
                 </p>
                 <p xml:id="CE34-5_p_090v_249" n="249"><lb xml:id="CE34-5_lb_090v_10" n="10"
                         type="rubric"/><label><num><w>CCXLVIIII</w></num></label>
@@ -25853,8 +25889,9 @@
                     <w><hi rend="cap">S</hi>i</w>
                     <w>mulier</w>
                     <w>libera</w>
-                    <term xml:lang="lng" ref="#fulcfrea" xml:id="CE34-5_term_fulcfrea_257"
-                            ><w>fulfrea</w></term>
+                    <term xml:lang="lng" ref="#fulcfrea" xml:id="CE34-5_term_fulcfrea_257">
+                        <w>fulfrea</w>
+                    </term>
                     <w>
                         <choice>
                             <abbr>su<am><g ref="#pbardes"/></am></abbr>
@@ -26277,8 +26314,9 @@
                     <w>furtum</w>
                     <w>ipsum</w>
                     <w>In</w>
-                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_263"
-                            ><w>actigild</w></term>
+                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_263">
+                        <w>actigild</w>
+                    </term>
                     <w>reddere</w>
                     <w>si</w>
                     <w>quis</w>
@@ -27660,8 +27698,9 @@
                     <w>id</w>
                     <w>est</w>
                     <w>In</w>
-                    <term xml:lang="lng" ref="#fraida" xml:id="CE34-5_term_fraida_275"
-                        ><w>fraida</w></term>
+                    <term xml:lang="lng" ref="#fraida" xml:id="CE34-5_term_fraida_275">
+                        <w>fraida</w>
+                    </term>
                     <w>mox</w>
                     <w>mandit</w>
                     <w>
@@ -27984,9 +28023,10 @@
                 <p xml:id="CE34-5_p_094r_278" n="278"><lb xml:id="CE34-5_lb_094r_07" n="7"
                         type="rubric"/><label><num><w>CCLXXVIII</w></num></label>
                     <w><hi rend="cap">D</hi>e</w>
-                    <term xml:lang="lng" ref="#hoberos" xml:id="CE34-5_term_hoberos_277"
-                            ><w>oberus</w></term>
-                    <gloss target="#CE34-5_term_hoberos_277" xml:id="CE34-5_gloss_hoberos_277">
+                    <term xml:lang="lng" ref="#hoberos" xml:id="CE34-5_term_hoberos_278">
+                        <w>oberus</w>
+                    </term>
+                    <gloss target="#CE34-5_term_hoberos_278" xml:id="CE34-5_gloss_hoberos_278">
                         <add place="above" hand="scribe_2">
                             <w>id</w>
                             <w>
@@ -28542,8 +28582,9 @@
                     <lb xml:id="CE34-5_lb_094v_13" n="13"/>
                     <w>conponat</w>
                     <w>in</w>
-                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_283"
-                            ><w>actigild</w></term>
+                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_283">
+                        <w>actigild</w>
+                    </term>
                 </p>
                 <p xml:id="CE34-5_p_094v_284" n="284"><lb xml:id="CE34-5_lb_094v_14" n="14"
                         type="rubric"/><label><num><w>CCLXXXIII<gap extent="1" unit="chars"
@@ -28594,8 +28635,9 @@
                 <p xml:id="CE34-5_p_094v_285" n="285"><lb xml:id="CE34-5_lb_094v_18" n="18"
                         type="rubric"/><label><num><w>CCLXXXV</w></num></label>
                     <w><hi rend="cap">D</hi>e</w>
-                    <term xml:lang="lng" ref="#iderzun" xml:id="CE34-5_term_iderzun_285"
-                            ><w>iderzon</w></term>
+                    <term xml:lang="lng" ref="#iderzun" xml:id="CE34-5_term_iderzun_285">
+                        <w>iderzon</w>
+                    </term>
                     <w>si</w>
                     <w>quis</w>
                     <w>sepe</w>
@@ -28710,8 +28752,9 @@
                 <p xml:id="CE34-5_p_094v_288" n="288"><lb xml:id="CE34-5_lb_094v_25" n="25"
                         type="rubric"/><label><num><w>CCLXXXVIII</w></num></label>
                     <w><hi rend="cap">D</hi>e</w>
-                    <term xml:lang="lng" ref="#plovum" xml:id="CE34-5_term_plovum_288"><w>plo<c
-                                corresp="#v">u</c>o</w></term>
+                    <term xml:lang="lng" ref="#plovum" xml:id="CE34-5_term_plovum_288">
+                        <w>plo<c corresp="#v">u</c>o</w>
+                    </term>
                     <w>si</w>
                     <w>quis</w>
                     <term xml:lang="lng" ref="#plovum"><w>plo<c corresp="#v">u</c>o</w></term>
@@ -28855,8 +28898,9 @@
                     <w>fuerit</w>
                     <w>non</w>
                     <w>sit</w>
-                    <term xml:lang="lng" ref="#figangit" xml:id="CE34-5_term_figangit_291"
-                            ><w>fegangit</w></term>
+                    <term xml:lang="lng" ref="#figangit" xml:id="CE34-5_term_figangit_291">
+                        <w>fegangit</w>
+                    </term>
                     <add place="above" hand="scribe_2"><w>trasatantiate</w></add>
                     <w>nisi</w>
                     <w>
@@ -29197,11 +29241,13 @@
                     <w>quer<lb xml:id="CE34-5_lb_095r_25" n="25"/>cio</w>
                     <w>quod</w>
                     <w>est</w>
-                    <term xml:lang="lng" ref="#modola" xml:id="CE34-5_term_modola_300"
-                        ><w>modola</w></term>
-                    <term xml:lang="lng" ref="#hisclo" xml:id="CE34-5_term_hisclo_300"
-                        ><w>hisclo</w></term>
-                    <gloss target="#CE34-5_term_hisclo_300" xml:id="CE34-5_gloss_launegild">
+                    <term xml:lang="lng" ref="#modola" xml:id="CE34-5_term_modola_300">
+                        <w>modola</w>
+                    </term>
+                    <term xml:lang="lng" ref="#hisclo" xml:id="CE34-5_term_hisclo_300">
+                        <w>hisclo</w>
+                    </term>
+                    <gloss target="#CE34-5_term_hisclo_300" xml:id="CE34-5_gloss_hisclo_300">
                         <w>quod</w>
                         <w>est</w>
                         <w>ferea</w>
@@ -30202,8 +30248,9 @@
                     <w>si</w>
                     <w>fura<c corresp="#v">u</c>erit</w>
                     <w>In</w>
-                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_315"
-                            ><w>actigild</w></term>
+                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_315">
+                        <w>actigild</w>
+                    </term>
                     <w>reddat</w>
                 </p>
                 <p xml:id="CE34-5_p_096v_316" n="316"><lb xml:id="CE34-5_lb_096v_18" n="18"
@@ -30239,8 +30286,9 @@
                     <w>fora<c corresp="#v">u</c>erit</w>
                     <w>reddat</w>
                     <w>In</w>
-                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_316"
-                            ><w>actigild</w></term>
+                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_316">
+                        <w>actigild</w>
+                    </term>
                 </p>
                 <p xml:id="CE34-5_p_096v_317" n="317"><lb xml:id="CE34-5_lb_096v_20" n="20"
                         type="rubric"/><label><num><w>CCCXVII</w></num></label>
@@ -30733,8 +30781,9 @@
                     <w>In</w>
                     <w>hoc</w>
                     <w>capitulo</w>
-                    <term xml:lang="lng" ref="#faida" xml:id="CE34-5_term_faida_326"
-                        ><w>faida</w></term>
+                    <term xml:lang="lng" ref="#faida" xml:id="CE34-5_term_faida_326">
+                        <w>faida</w>
+                    </term>
                     <del rend="strikethrough">qu</del>
                     <gloss target="#CE34-5_term_faida_326" xml:id="CE34-5_gloss_faida_326">
                         <w>hoc</w>
@@ -31462,7 +31511,7 @@
                             </choice>
                         </w>
                     </term>
-                    <gloss>
+                    <gloss target="#CE34-5_term_ferquido_337" xml:id="CE34-5_gloss_ferquido_337">
                         <w>id</w>
                         <w>est</w>
                         <w>
@@ -31750,8 +31799,9 @@
                     <w>id</w>
                     <w>est</w>
                     <w>in</w>
-                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_341"
-                            ><w>actogild</w></term>
+                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_341">
+                        <w>actogild</w>
+                    </term>
                     <w>sibi</w>
                     <w>nonu</w>
                 </p>
@@ -31884,8 +31934,9 @@
                     <lb xml:id="CE34-5_lb_098v_12" n="12"/>
                     <w>eum</w>
                     <w>In</w>
-                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_342"
-                            ><w>actigild</w></term>
+                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_342">
+                        <w>actigild</w>
+                    </term>
                     <w>quia</w>
                     <w>
                         <choice>
@@ -32689,8 +32740,9 @@
                             </choice>
                         </w>
                         <w>in</w>
-                        <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_347"
-                                ><w>actochil</w></term>
+                        <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_347">
+                            <w>actochil</w>
+                        </term>
                     </add>
                     <lb xml:id="CE34-5_lb_099v_05" n="5"/>
                     <w>culpabili</w>
@@ -32990,8 +33042,9 @@
                     <measure type="currency" quantity="12" unit="soldi"><w>XII</w></measure>
                     <w>ipse</w>
                     <w>dicitur</w>
-                    <term xml:lang="lng" ref="#sonorpair" xml:id="CE34-5_term_sonorpair_351"
-                            ><w>sonarphahir</w></term>
+                    <term xml:lang="lng" ref="#sonorpair" xml:id="CE34-5_term_sonorpair_351">
+                        <w>sonarphahir</w>
+                    </term>
                     <gloss target="#CE34-5_term_sonorpair_351" xml:id="CE34-5_gloss_sonorpair_351">
                         <w>qui</w>
                         <w>omnis</w>
@@ -33087,8 +33140,9 @@
                     <w>porci</w>
                     <w>fuerint</w>
                     <w>in</w>
-                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_351"
-                            ><w>actigild</w></term>
+                    <term xml:lang="lng" ref="#actogild" xml:id="CE34-5_term_actogild_351">
+                        <w>actigild</w>
+                    </term>
                     <lb rend="align_right" type="extra"/>
                     <w>reddatur</w>
                 </p>
@@ -33909,7 +33963,7 @@
                     <w>ille</w>
                     <w>adquerat</w>
                     <w>qui</w>
-                    <term xml:lang="lng" ref="#wadia">
+                    <term xml:lang="lng" ref="#wadia" xml:id="CE34-5_term_wadia_361">
                         <w><c corresp="#v">u</c><c corresp="#v">u</c>adia</w>
                     </term>
                     <w>susceperit</w>
@@ -35242,8 +35296,9 @@
                     <w><hi rend="cap">S</hi>i</w>
                     <w>ser<c corresp="#v">u</c>us</w>
                     <w>regis</w>
-                    <term xml:lang="lng" ref="#hoberus" xml:id="CE34-5_term_hoberus_373"
-                            ><w>hoberos</w></term>
+                    <term xml:lang="lng" ref="#hoberus" xml:id="CE34-5_term_hoberus_373">
+                        <w>hoberos</w>
+                    </term>
                     <add place="above" hand="scribe_2"><w>curtis</w><w>ruture</w></add>
                     <w>aut</w>
                     <term xml:lang="lng" ref="#wecvorin" xml:id="CE34-5_term_wecvorin_373">
@@ -35253,8 +35308,8 @@
                         <w>si</w><w>ante</w><w>faceri</w><w>via</w></add>
                     <w>seu</w>
                     <term xml:lang="lng" ref="#marahvorf" xml:id="CE34-5_term_marahvorf_373">
-                        <w>mara<lb xml:id="CE34-5_lb_102v_22" n="22"/><c corresp="#v"
-                        >u</c>orf</w></term>
+                        <w>mara<lb xml:id="CE34-5_lb_102v_22" n="22"/><c corresp="#v">u</c>orf</w>
+                    </term>
                     <add place="above" hand="scribe_2">
                         <w>iacta<c corresp="#v">u</c>eri</w>
                         <w>ome</w>
@@ -36946,7 +37001,7 @@
                     </w>
                     <w>subiectis</w>
                     <w>custodiatur</w>
-                </p>            
+                </p>
                 <p xml:id="CE34-5_p_104v_387" n="387"><lb xml:id="CE34-5_lb_104v_04" n="4"
                         type="rubric"/><label><num><w>CCCLXXXVII</w></num></label>
                     <w><hi rend="cap">S</hi>i</w>
