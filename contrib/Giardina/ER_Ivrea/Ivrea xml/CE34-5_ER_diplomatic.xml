@@ -6901,8 +6901,9 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="currency" quantity="50" unit="soldi"
-                        ><w>quinquaginta</w></measure>
+                    <measure type="currency" quantity="50" unit="soldi">
+                        <w>quinquaginta</w>
+                    </measure>
                     <w>
                         <choice>
                             <abbr>medi<g ref="#openetlig"/>at<am><g ref="#etilde"/></am></abbr>
@@ -18817,7 +18818,7 @@
                             <expan>sol<ex>idi</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="900" unit="soldi"><w>dcccc</w></measure>
+                    <measure type="currency" quantity="900" unit="soldi"><w>dcccc</w></measure>
                     <w><g ref="#openetlig"/></w>
                     <w>postea</w>
                     <term xml:lang="lng" ref="#mundio" xml:id="CE34-5_term_mundio_187">
@@ -19469,7 +19470,7 @@
                             <expan>sol<ex>idos</ex></expan>
                         </choice>
                     </w>
-                    <measure type="denaro" quantity="900" unit="soldi"><w>dcccc</w></measure>
+                    <measure type="currency" quantity="900" unit="soldi"><w>dcccc</w></measure>
                     <w>medie<lb xml:id="CE34-5_lb_083v_22" n="22"/>tatem</w>
                     <w>regi</w>
                     <w><g ref="#openetlig"/></w>
