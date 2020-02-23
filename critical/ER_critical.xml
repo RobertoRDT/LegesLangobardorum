@@ -199,6 +199,9 @@
     <text n="Edictus Rothari">
 
         <body>
+            
+            <!-- riorganizzare il testo: spostare prologo e (aggiungere) rubriche nel front -->
+            <!-- controllare contenuto, spostare <listWit> nel front (vedi MODULO_TEXTCRIT.xml) -->
 
             <div n="Prologo" subtype="edition_text" type="text" xml:id="ER_prolog">
                 
