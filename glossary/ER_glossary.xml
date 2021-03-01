@@ -80,6 +80,8 @@
         <w xml:id="CV188_word_astalin">astalin</w>
       </term>
       <gloss xml:id="CV188_gloss_astalin">id est....</gloss> -->
+      <!-- da rivedere, serve il doppio xml:id per <term> e <w>? perché _word_ e non _w_? -->
+      
 
       <!-- ########################### -->
       <!-- ########  ASTALIN  ######## -->
