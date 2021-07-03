@@ -53,16 +53,153 @@
       </publicationStmt>
 
       <sourceDesc>
+        
+        <!-- #######################  Codex Eporedianus XXXIV (5)  ####################### -->
 
-        <msDesc xml:id="CE34">
+        <msDesc xml:id="CE34-5">
           <msIdentifier>
             <country>Italia</country>
             <settlement>Ivrea</settlement>
             <repository>Biblioteca Capitolare di Ivrea</repository>
-            <idno>34</idno>
+            <idno>XXXIV (5)</idno>
           </msIdentifier>
-
+          <msContents>
+            <summary xml:lang="lat">This manuscript is a miscellany of various texts, see the description of the different parts.</summary>
+            <textLang mainLang="lat">Latin</textLang>
+          </msContents>
+          <physDesc>
+            <objectDesc form="composite_manuscript">
+              <supportDesc>
+                <support>
+                  <p>
+                    <material n="par">Parchment</material>
+                  </p>
+                </support>
+                <extent>
+                  <measure type="leaves">168 foll. (numbered I, 1-167)</measure>
+                  <measure type="dimensions">Ca. 265 x 170 mm</measure>
+                </extent>
+                <foliation>
+                  <p/>
+                </foliation>
+                <collation>
+                  <p>
+                    <formula/>
+                  </p>
+                </collation>
+                <condition/>
+              </supportDesc>
+              <layoutDesc>
+                <layout>
+                  <measure type="writtenSpace">Ca. 205-215 x 125-130 mm</measure>
+                  <measure type="writtenLines">26</measure>
+                  <p/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>Caroline minuscule</scriptNote>
+            </scriptDesc>
+            <decoDesc>
+              <decoNote/>
+            </decoDesc>
+            <additions>
+              <p/>
+            </additions>
+            <bindingDesc>
+              <binding>
+                <p/>
+              </binding>
+            </bindingDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate resp="Bluhme 1868" when="0830">Ca. 830</origDate> (Bluhme);
+              <origDate resp="Bischoff" notBefore="0800" notAfter="0840">1° terzo del IX secolo</origDate>,
+              <origPlace resp="Bischoff">Italia settentrionale</origPlace> (Bischoff);
+              <origDate resp="Mordek 1995" when="0830">ca. 830</origDate>,
+              <origPlace resp="Mordek 1995" ref="#pavia">Pavia</origPlace> (Mordek).</origin>
+            <provenance/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <listBibl>
+                    <bibl corresp="#Bluhme1868">Bluhme 1868 S. XXI-XXIII</bibl>
+                    <bibl corresp="#Mordek1995">Mordek 1995 S. <ref type="mordek" facs="mordek_ivrea-bc-xxxiv-5.pdf">29, 172, 178-185,
+                      247-248, 358, 677, 921, 925</ref></bibl>
+                    <bibl corresp="#Bischoff1998">Bischoff 1998 S. 326-327</bibl>
+                    <bibl corresp="#Siewert1993">Siewert 1993 S. 211</bibl>
+                    <bibl corresp="#Hartmann2008">Hartmann 2008 S. 99</bibl>
+                  </listBibl>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <surrogates/>
+          </additional>
+          <msPart>
+            <msIdentifier>
+              <idno>CE XXXIV (5) ff. 1r-56v</idno>
+            </msIdentifier>
+            <msContents>
+              <msItem>
+                <locus>1r</locus>
+                <title>Two formulae</title>
+              </msItem>
+              <msItem>
+                <locus>1v</locus>
+                <title><persName ref="http://www.leges.uni-koeln.de/en/indices/people/#Liutprand">Liutprandi</persName> notitia de actoribus regis</title>
+              </msItem>
+              <msItem>
+                <locus>1v - 56v</locus>
+                <title>A capitulary collection</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart>
+            <msIdentifier>
+              <idno>CE XXXIV (5) ff. 57r-104v</idno>
+            </msIdentifier>
+            <msContents>
+              <msItem>
+                <locus>57r - 104v</locus>
+                <title>Edictus <ref target="#Rothari" type="person">Rothari</ref></title>
+              </msItem>              
+            </msContents>
+          </msPart>
+          <msPart>
+            <msIdentifier>
+              <idno>CE XXXIV (5) ff. 105r-166v</idno>
+            </msIdentifier>
+            <msContents>
+              <msItem>
+                <locus>105r - 107r</locus>
+                <title>Leges a <ref type="person" target="#Grimoald">Grimoaldo</ref>
+                  additae</title>
+              </msItem>
+              <msItem>
+                <locus>108v - 159v</locus>
+                <title><ref type="person" target="#Liutprand">Liutprandi</ref> leges</title>
+              </msItem>
+              <msItem>
+                <locus>159v - 162r</locus>
+                <title><ref type="person" target="#Ratchis">Ratchis</ref> leges</title>
+              </msItem>
+              <msItem>
+                <locus>162r - 166v</locus>
+                <title><ref type="person" target="#Aistulf">Aistulfi</ref> leges</title>
+              </msItem>              
+            </msContents>
+          </msPart>
         </msDesc>
+        
+        <!-- #######################  Codex Vercellensis CLXXXVIII  ####################### -->
+        
         <msDesc xml:id="CV188">
           <msIdentifier>
             <country>Italia</country>
@@ -103,6 +240,71 @@
           </physDesc>
 
         </msDesc>
+        
+        <!-- #######################  Codex Sangallensis 730  ####################### -->
+        
+        <msDesc xml:lang="deu" xml:id="CSG730">
+          <msIdentifier>
+            <settlement>St. Gallen</settlement>
+            <repository>Stiftsbibliothek</repository>
+            <idno>Cod. Sang. 730</idno>
+          </msIdentifier>
+          <head>
+            <title>Edictum <persName role="author" key="pnd_118819615">Rothari</persName> (Veterum Fragmentorum Tomus III)</title>
+            <origDate notBefore="0600" notAfter="0799">s. VII/VIII</origDate>
+          </head>
+          <msContents>
+            <msItem>
+              <locus from="1">S. 1</locus>
+              <note>Anfang der Hs. und des Edikts:</note>
+              <incipit>Si quis hominum co<supplied>ntra</supplied> animam regis cogit<supplied>averit</supplied></incipit>
+              <note>etc.; Ende <locus from="72">S. 72</locus> (74) im Titel 377 (371 Baudi):</note>
+              <explicit>porcorum pigneratus vel reliquas quae similes sunt.</explicit>
+              <note>Titel 372-388 (Baudi) fehlen, ebenso das Register und die Vorrede des Rothari; auch das Vorhandene ist inkomplet. Letzteres besteht aus 29 ganzen Blättern, 7 halben (unten oder an der Seite abgeschnitten) und 14 kleinern Bruchstücken. Weitere 10 Blätter derselben Hs. im <ref type="mss" cRef="zbz-C0389" rend="no-link">Zürchercod. C. 389</ref> nebst 3 später aufgefundenen Fragmenten; alles zusammen 59 verschiedene Blätter, wovon 45 in St. Gallen, 13 in Zürich und zwei Hälften eines Blatts an beiden Orten.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <support>Pgm.</support>
+                <extent>
+                  <measure type="pagesCount" n="88">72 (vielmehr 74) Seiten und 6 lose eingelegte Blätter, von ungleichem Pergament.</measure>
+                  <measure type="pageDimensions" n="20.5 x 14 cm">4° min. (20 ½ x 14 cm.)</measure>
+                </extent>
+                <condition>
+                  <p>Die st. gall. Bruchstücke <locus from="1" to="72">S. 1-72</locus> hat <persName role="librarian" key="pnd_116353740">I. v. Arx</persName> mit <persName>Hauntinger</persName> in einzelnen oder Doppelblättern von den Innenseiten der Einbände <ref type="mss" cRef="csg-0052">Codd. 52</ref>, <ref type="mss" cRef="csg-0111">111</ref>, <ref type="mss" cRef="csg-0427">427</ref>, <ref type="mss" cRef="csg-0454">454</ref>, <ref type="mss" cRef="csg-0577">577</ref>, <ref type="mss" cRef="csg-0579">579</ref> und <ref type="mss" cRef="csg-0854">854</ref> abgelöst, wo auch überall, besonders in No. <ref type="mss" cRef="csg-0111">111</ref> sich noch Buchstabenabdrücke am Holzdeckel zeigen; die eingelegten losen Blätter wurden später aufgefunden. Erstere verglich schon a° 1823 K. <persName>Wegelin</persName> mit der Ausgabe von Georgisch für das <bibl><hi rend="small-caps">Pertz</hi>'sche Archiv V p. 229</bibl>; über letztere berichtete <bibl><hi rend="small-caps">Gonzenbach</hi> in Reyscher's Zeitschr. f. deutsches Recht XVII Heft 2 (1857) p. 279-82.</bibl></p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="20">
+                  <p>mit dem <term>Griffel</term>linirt, 20 Zeilen auf der Seite</p>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script="uncialis">in kleiner römischer Uncial, mit Kapital vermischt; dunkelbraune Dinte.</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <p>Diese älteste aller Hss. der longobardischen Gesetze enthält nur das <rs type="title">Edikt des <persName role="author" key="pnd_118819615">Rothari</persName></rs> v. J. <date>643</date> ohne die der Nachfolger <persName>Grimoald</persName> und <persName>Liutprand</persName>, welche in der zweitältesten von Vercelli, jetzt Turin, saec. VIII schon hinzugekommen sind: der st. gall. Codex kann daher nach <hi rend="small-caps">Pertz</hi> bereits im 7<date>ten Jh.</date> geschrieben sein, was auch der Schriftcharakter zulässt. (Siehe das schöne Facsimile von Tit. 70-79 in <bibl>Monum. Germ. Leges IV tab. 1.</bibl>) Die Hs. stammt ohne Zweifel aus <country>Italien</country> her, wie manche andere der st. gallischen Bibliothek, und ist, da sie im Katalog des IX. Jh. fehlt, erst in späterer Zeit dahin gekommen. Der Schreiber lehnt sich zwar, wie <hi rend="small-caps">Bluhme</hi> bemerkt, sorgfältig an die deutsche Schreibart an, setzt 'haldius' für aldius und vertauscht a und e, e und i, gibt sich aber zugleich durch die Verwechslung von o und u als Lombarden zu erkennen. Abkürzungen fehlen fast ganz, sogar die Zahlen im Text sind in Buchstaben ausgedrückt; nur die Titelnummern am Rande in römischer Ziffer. Je die erste und Zeile der Titel ist roth, die Anfangsbuchstaben bunt und aus Fischen komponirt, Rubriken nur am obern Rand, aber mehrentheils erloschen.</p>
+              <p>Erste Ausgabe des Edikts, jedoch nicht in genuiner Gestalt und mit den spätern Gesetzen, in <bibl>Herold's Originum libri Basel 1557</bibl>, dann bei <persName>Sigonius</persName>, <persName>Muratori</persName>, <persName>Georgisch</persName>, <persName>Canciani</persName>; nach der systematischen Ordnung der jüngern Hss. von <bibl>N. Boherius Lugd. 1512. 8°</bibl>; später 1613 von <persName>Goldast</persName> und <persName>Lindenbrog</persName>; aus den älstesten Hss. endlich und zwar aus der von <persName>Vercelli</persName> in: <bibl>Monum. hist. patr. Turin Tom. IX (1855) Col. 1-80 ed. C. Baudi a Vesme</bibl>; und aus der st. Galler in <bibl>Monum. Germ. Leges IV (1868) p. 1-90 ed. F. Bluhme.</bibl> Der Turiner Abdruck ist auch schon vorher 1841 bis 1846 in wenigen Separatexemplaren zur Vergleichung der Hss. publicirt; ebenso eine Schrift 'Dell edizione delle legge Longobard.' Torino 1847; wiederabgedruckt wurde Baudi's Ausgabe, aber in sehr unvollkommener Art, in: <bibl>Edicta Reg. Longob. Ed. sec. ed. J. F. Neigebaur Monachii 1856. 8°</bibl>. <hi rend="small-caps">Bluhme</hi> hat seine eigene Edition noch verbessert in: <bibl>Edictus ceteraque Longobardorum leges Hannover 1869. 8°</bibl>; siehe auch Dessen Gratulationsschrift für <bibl>Bethmann-Hollweg: Gens Longobardorum Bonn 1868</bibl>. Die deutschen oder germanisirten Wörter des Edikts gibt <bibl><hi rend="small-caps">Hattemer</hi> Denkm. I, p. 374-376</bibl> mit Verweisung auf die Kapitelzahlen bei Georgisch. Beschreibung der st. galler Hs. (neu verglichen von <hi rend="small-caps">Bluhme</hi> 1862) und der Zürcher Fragmente (verglichen 1837 von <hi rend="small-caps">Pertz</hi>, später von Th. Mommsen kopirt) in <bibl>Leges IV, p. XII-XV</bibl>; früher in <bibl><hi rend="small-caps">Pertz</hi> Archiv IV, 369; V, 226, 229, 239; VII, 172.</bibl> Ueber die Misshandlung des St. Gall. Codex durch die Reagentien des frühern Bibliothekar's A. <persName>Henne</persName> siehe das scharfe und gerechte Urtheil <bibl><hi rend="small-caps">Bluhme</hi>'s in Leges IV, p. XIII</bibl>. Henne hat nicht etwa die wenigen von ihm gefundenen Fragmenta residua entstellt, sondern die Arx'schen Bruchstücke selbst, und zwar zur grössern Hälfte von S. 33-72; namentlich die Seite 47 ist fast gänzlich vernichtet. Copien seiner Entdeckungen, die er sorgfältig verbarg, bot dieser Bibliothekar sodann zum Verkaufe aus.</p>
+            </origin>
+            <provenance>
+              <p>Dass die ursprüngliche Zerstücklung der Handschrift gegen das J. <date>1461</date> fällt, ist beinahe unzweifelhaft (vgl. die Anmm. zu <ref type="mss" cRef="csg-1399" rend="no-link">Cod. 1399</ref> und <ref type="mss" cRef="csg-1394">1394</ref>). Alle oben aufgezählten Codices, aus denen die Blätter abgelöst sind, haben nämlich ein- und denselben (nicht den ersten) Einband, Holz mit Weiss- oder Gelbleder bedeckt und einen Pergamentstreifen darauf, wo der Inhalt mit den gleichen Worten, ja von der gleichen Hand wie im Katalog von 1461 bemerkt ist. Letzteres trifft wenigstens bei Cod. <ref type="mss" cRef="csg-0052">52</ref>, <ref type="mss" cRef="csg-0011">11</ref>, <ref type="mss" cRef="csg-0427">427</ref> und <ref type="mss" cRef="csg-0579">579</ref> zu, wie übrigens noch bei vielen andern NN. Damals nach den Bücherverlusten beim Konstanzer- und Baslerkoncil, kamen Hersfelder Visitatoren hieher, die u. A. strengere Inventarisirung und Verzeichnung der Manuscripte befahlen. Bei diesem Anlass erhielten die Bücher eine Signatur und wo es nöthig war, vermuthlich auch neuen Einband. Dass dies auf Kosten der ältesten Handschriften geschah, passte freilich schlecht zu den Visitationszwecken.</p>
+            </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl><persName>Scherrer Gustav</persName>, Verzeichniss der Handschriften der Stiftsbibliothek von St. Gallen, Halle <date>1875</date>, S. 236-238.</bibl>
+                </source>
+              </recordHist>
+            </adminInfo>
+          </additional>
+        </msDesc>
+
       </sourceDesc>
 
     </fileDesc>
@@ -525,94 +727,1377 @@
 
   </teiHeader>   
     
-    <text>
+  <text>
+    <group>
+
+      <text>
         <body>
-             <p></p>
+
+          <div n="Capp. 1-60" type="capitula" xml:id="CE34-5_div_1-60">
+            <p n="1" xml:id="CE34-5_p_066r_01"><lb n="20" type="rubric" xml:id="CE34-5_lb_066r_20"
+                  /><label><num><w>I</w></num></label>
+              <w><hi rend="init[x.y]">S</hi>i</w>
+              <add hand="scribe_2" place="above">
+                <w>quis</w>
+                <w>
+                  <choice>
+                    <abbr><am><g ref="#ctilde"/></am>tra</abbr>
+                    <expan>c<ex>on</ex>tra</expan>
+                  </choice>
+                </w>
+                <w>
+                  <choice>
+                    <abbr>anim<am><g ref="#amacr"/></am></abbr>
+                    <expan>anima<ex>m</ex></expan>
+                  </choice>
+                </w>
+                <w>regis</w>
+              </add>
+              <w>cogita<c corresp="#v">u</c>erit</w>
+              <w>aut</w>
+              <w>consilia<c corresp="#v">u</c>erit</w>
+              <w><hi rend="cap">A</hi>nim<g ref="#eogon"/></w>
+              <lb n="21" xml:id="CE34-5_lb_066r_21"/>
+              <w>sue</w>
+              <w>incurrat</w>
+              <w>periculum</w>
+              <w><g ref="#openetlig"/></w>
+              <w>res</w>
+              <w>eius</w>
+              <w>infiscent<g ref="#ur"/></w>
+            </p>
+            <p n="2" xml:id="CE34-5_p_066r_02"><lb n="22" type="rubric" xml:id="CE34-5_lb_066r_22"
+                    /><label><num><w>II</w></num></label>
+              <w><hi rend="cap">S</hi>i</w>
+              <w>quis</w>
+              <w>cum</w>
+              <w>rege</w>
+              <w>de</w>
+              <w>morte</w>
+              <w>alterius</w>
+              <w>consil<g ref="#jnodotenl"/>
+                <lb n="23" xml:id="CE34-5_lb_066r_23"/>a<c corresp="#v">u</c>erit</w>
+              <w><hi rend="cap">A</hi>ut</w>
+              <w>hominem</w>
+              <w>
+                <choice>
+                  <abbr><am><g ref="#pbardes"/></am></abbr>
+                  <expan><ex>per</ex></expan>
+                </choice>
+              </w>
+              <w>ipsius</w>
+              <w>iussionem</w>
+              <w>occiderit</w>
+              <lb n="24" xml:id="CE34-5_lb_066r_24"/>
+              <w>In</w>
+              <w>nullo</w>
+              <w>sit</w>
+              <w>culpabilis</w>
+              <w>nec</w>
+              <w>ille</w>
+              <w>nec</w>
+              <w>heredes</w>
+              <w>eius</w>
+              <lb n="25" xml:id="CE34-5_lb_066r_25"/>
+              <w>quoquo</w>
+              <w>tempore</w>
+              <w>ab</w>
+              <w>illo</w>
+              <w>aut</w>
+              <w>heredes</w>
+              <w>ipsius</w>
+              <w>requisi<lb n="26" xml:id="CE34-5_lb_066r_26"/>tionis</w>
+              <w>aut</w>
+              <w>molestia</w>
+              <w>patitur</w>
+              <w>quia</w>
+              <w>postquam</w>
+              <pb n="066v" xml:id="CE34-5_folio_066v"/>
+              <lb n="1" xml:id="CE34-5_lb_066v_01"/>
+              <w>corda</w>
+              <w>regum</w>
+              <w>manu</w>
+              <w>
+                <choice>
+                  <abbr>d<am><g ref="#imacr"/></am></abbr>
+                  <expan>d<ex>e</ex>i</expan>
+                </choice>
+              </w>
+              <w>esse</w>
+              <w>credimus</w>
+              <w>non</w>
+              <w>est</w>
+              <w>pos<lb n="2" xml:id="CE34-5_lb_066v_02"/>sibile</w>
+              <w>ut</w>
+              <w>homo</w>
+              <w>possit</w>
+              <w>edoniare</w>
+              <w>
+                <choice>
+                  <abbr>qu<am><g ref="#etilde"/></am></abbr>
+                  <expan>que<ex>m</ex></expan>
+                </choice>
+              </w>
+              <w>rex</w>
+              <w>occidere</w>
+              <w>iussit</w>
+            </p>
+            <p n="3" xml:id="CE34-5_p_066v_03"><lb n="3" type="rubric" xml:id="CE34-5_lb_066v_03"
+                    /><label><num><w>III</w></num></label>
+              <w><hi rend="cap">S</hi>i</w>
+              <w>quis</w>
+              <w>inimicos</w>
+              <w>intra</w>
+              <w>pro<c corresp="#v">u</c>incia</w>
+              <w>in<c corresp="#v">u</c>ita<c corresp="#v">u</c>erit</w>
+              <lb n="4" xml:id="CE34-5_lb_066v_04"/>
+              <w>aut</w>
+              <w>introduxerit</w>
+              <w>anim<g ref="#eogon"/></w>
+              <w>su<g ref="#eogon"/></w>
+              <w>incurrat</w>
+              <w>
+                <choice>
+                  <abbr>pericul<am><g ref="#utilde"/></am></abbr>
+                  <expan>periculu<ex>m</ex></expan>
+                </choice>
+              </w>
+              <lb n="5" xml:id="CE34-5_lb_066v_05"/>
+              <w><g ref="#openetlig"/></w>
+              <w>res</w>
+              <w>eius</w>
+              <w>infescentur</w>
+            </p>
+            <p n="4" xml:id="CE34-5_p_066v_04"><lb n="6" type="rubric" xml:id="CE34-5_lb_066v_06"
+                    /><label><num><w>IIII</w></num></label>
+              <w><hi rend="cap">S</hi>i</w>
+              <w>quis</w>
+              <w>foris</w>
+              <w>
+                <choice>
+                  <abbr>pro<c corresp="#v">u</c>inci<am><g ref="#atilde"/></am></abbr>
+                  <expan>provincia<ex>m</ex></expan>
+                </choice>
+              </w>
+              <w>fugere</w>
+              <w>tempta<c corresp="#v">u</c>erit</w>
+              <lb n="7" xml:id="CE34-5_lb_066v_07"/>
+              <w>mortis</w>
+              <w>incurrat</w>
+              <w>
+                <choice>
+                  <abbr>pericul<am><g ref="#utilde"/></am></abbr>
+                  <expan>periculu<ex>m</ex></expan>
+                </choice>
+              </w>
+              <w><g ref="#openetlig"/></w>
+              <w>res</w>
+              <w>eius</w>
+              <w>infiscent<g ref="#ur"/></w>
+            </p>
+            <p n="5" xml:id="CE34-5_p_066v_05"><lb n="8" type="rubric" xml:id="CE34-5_lb_066v_08"
+                  /><label><num><w>V</w></num></label>
+              <w><hi rend="cap">S</hi>i</w>
+              <w>quis</w>
+              <w>scamaras</w>
+              <w>intra</w>
+              <w>
+                <choice>
+                  <sic>provitia</sic>
+                  <corr resp="alim-pi azzara beyerle">provincia</corr>
+                </choice>
+              </w>
+              <w>cela<c corresp="#v">u</c>erit</w>
+              <lb n="9" xml:id="CE34-5_lb_066v_09"/>
+              <w>aut</w>
+              <w>
+                <choice>
+                  <abbr>annon<am><g ref="#atilde"/></am></abbr>
+                  <expan>annona<ex>m</ex></expan>
+                </choice>
+              </w>
+              <w>dederit</w>
+              <w>anim<g ref="#eogon"/></w>
+              <w>sue</w>
+              <w>incurrat</w>
+              <w>peri<lb n="10" xml:id="CE34-5_lb_066v_10"/>culum</w>
+              <w>aut</w>
+              <w>certe</w>
+              <w>
+                <choice>
+                  <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+                  <expan>conp<ex>onat</ex></expan>
+                </choice>
+              </w>
+              <w>regi</w>
+              <w>
+                <choice>
+                  <abbr>so<am><g ref="#lhighstrok"/></am></abbr>
+                  <expan>sol<ex>idos</ex></expan>
+                </choice>
+              </w>
+              <measure quantity="900" type="currency" unit="soldi"><w>dcccc</w></measure>
+            </p>
+            <p n="6" xml:id="CE34-5_p_066v_06"><lb n="11" type="rubric" xml:id="CE34-5_lb_066v_11"
+                    /><label><num><w>VI</w></num></label>
+              <w><hi rend="cap">S</hi>i</w>
+              <w>quis</w>
+              <w>foris</w>
+              <w>In</w>
+              <w>
+                <choice>
+                  <abbr>exercit<am><g ref="#utilde"/></am></abbr>
+                  <expan>exercitu<ex>m</ex></expan>
+                </choice>
+              </w>
+              <w>seditionem</w>
+              <w>le<c corresp="#v">u</c>a<c corresp="#v">u</c>e <lb n="12" xml:id="CE34-5_lb_066v_12"/>rit</w>
+              <w>contra</w>
+              <w>ducem</w>
+              <w>suum</w>
+              <w>aut</w>
+              <w>contra</w>
+              <w>
+                <choice>
+                  <abbr>e<am><g ref="#utilde"/></am></abbr>
+                  <expan>eu<ex>m</ex></expan>
+                </choice>
+              </w>
+              <w>qui</w>
+              <w>ordi<lb n="13" xml:id="CE34-5_lb_066v_13"/>natus</w>
+              <w>est</w>
+              <add hand="scribe_2" place="inrasura">
+                <w>a</w>
+                <w>rege</w>
+              </add>
+              <w>
+                <choice>
+                  <abbr>exercit<am><g ref="#utilde"/></am></abbr>
+                  <expan>exercitu<ex>m</ex></expan>
+                </choice>
+              </w>
+              <w>gubernandi</w>
+              <w>aut</w>
+              <w>ali<lb n="14" xml:id="CE34-5_lb_066v_14"/>quem</w>
+              <w>partem</w>
+              <w>exercitus</w>
+              <w>seduxerit</w>
+              <w>sanguinis</w>
+              <lb n="15" xml:id="CE34-5_lb_066v_15"/>
+              <w>sui</w>
+              <w>incurrat</w>
+              <w>periculum</w>
+            </p>
+            <p n="7" xml:id="CE34-5_p_066v_07"><lb n="16" type="rubric" xml:id="CE34-5_lb_066v_16"
+                    /><label><num><w>VII</w></num></label>
+              <w><hi rend="cap">S</hi>i</w>
+              <w>
+                <choice>
+                  <abbr><am><g ref="#qtilde"/></am></abbr>
+                  <expan>q<ex>uis</ex></expan>
+                </choice>
+              </w>
+              <w>contra</w>
+              <w>inimicos</w>
+              <w>pugnando</w>
+              <w>
+                <choice>
+                  <abbr>colleg<am><g ref="#atilde"/></am></abbr>
+                  <expan>collega<ex>m</ex></expan>
+                </choice>
+              </w>
+              <w>suum</w>
+              <lb n="17" xml:id="CE34-5_lb_066v_17"/>
+              <w>dimiserit</w>
+              <w>aut</w>
+              <term xml:lang="lng"><w>anstallim</w></term> -- <w>fecerit</w>
+              <gloss>
+                <w>id</w>
+                <w>est</w>
+                <w>si</w>
+                <w>eum</w>
+                <lb n="18" xml:id="CE34-5_lb_066v_18"/>
+                <w>deciperit</w>
+              </gloss>
+              <w><g ref="#openetlig"/></w>
+              <w>cum</w>
+              <w>eo</w>
+              <w>non</w>
+              <w>labora<c corresp="#v">u</c>erit</w>
+              <w>anim<g ref="#eogon"/></w>
+              <w>su<g ref="#eogon"/></w>
+              <lb n="19" xml:id="CE34-5_lb_066v_19"/>
+              <w>incurrat</w>
+              <w>
+                <choice>
+                  <abbr>pericul<am><g ref="#utilde"/></am></abbr>
+                  <expan>periculu<ex>m</ex></expan>
+                </choice>
+              </w>
+            </p>
+            <p n="8" xml:id="CE34-5_p_066v_08"><lb n="20" type="rubric" xml:id="CE34-5_lb_066v_20"
+                    /><label><num><w>VIII</w></num></label>
+              <w><hi rend="cap">S</hi>i</w>
+              <w>
+                <choice>
+                  <abbr><am><g ref="#qtilde"/></am></abbr>
+                  <expan>q<ex>uis</ex></expan>
+                </choice>
+              </w>
+              <w>in</w>
+              <w>concilio</w>
+              <w><c corresp="#v">u</c>el</w>
+              <w>in</w>
+              <w>quolibet</w>
+              <w>con<c corresp="#v">u</c>entu</w>
+              <w>
+                <choice>
+                  <abbr>scan<lb n="21" xml:id="CE34-5_lb_066v_21_abbr"/>dal<am><g ref="#utilde"/></am></abbr>
+                  <expan>scan<lb n="21" xml:id="CE34-5_lb_066v_21_expan"/>dalu<ex>m</ex></expan>
+                </choice>
+              </w>
+              <w>
+                <choice>
+                  <abbr>c<am><g ref="#otilde"/></am>miserit</abbr>
+                  <expan>co<ex>m</ex>miserit</expan>
+                </choice>
+              </w>
+              <measure quantity="900" type="currency" unit="soldi"><w>dcccc</w></measure>
+              <w>
+                <choice>
+                  <abbr>so<am><g ref="#lhighstrok"/></am></abbr>
+                  <expan>sol<ex>idos</ex></expan>
+                </choice>
+              </w>
+              <w>sit</w>
+              <w>culpabilis</w>
+              <w>regi</w>
+            </p>
+            <p n="9" xml:id="CE34-5_p_066v_09"><lb n="22" type="rubric" xml:id="CE34-5_lb_066v_22"
+                    /><label><num><w>VIIII</w></num></label>
+              <w><hi rend="cap">S</hi>i</w>
+              <w>
+                <choice>
+                  <abbr>qual<am><g ref="#etilde"/></am>cumq<am><g ref="#twodot"/></am></abbr>
+                  <expan>qual<ex>e</ex>cumq<ex>ue</ex></expan>
+                </choice>
+              </w>
+              <w>hominem</w>
+              <w>ad</w>
+              <w>regem</w>
+              <w>incusa<c corresp="#v">u</c>erit</w>
+              <lb n="23" xml:id="CE34-5_lb_066v_23"/><w>quod</w>
+              <w>ad</w>
+              <w>anime</w>
+              <w>
+                <choice>
+                  <abbr><am><g ref="#pbardes"/></am>tineat</abbr>
+                  <expan><ex>per</ex>tineat</expan>
+                </choice>
+              </w>
+              <w>
+                <choice>
+                  <abbr>pericul<add><am><g ref="#utilde"/></am></add></abbr>
+                  <expan>periculu<ex>m</ex></expan>
+                </choice>
+              </w>
+              <w>liceat</w>
+              <w>ei</w>
+              <w>qui</w>
+              <w>ac<lb n="24" xml:id="CE34-5_lb_066v_24"/>cusatus</w>
+              <w>fuerit</w>
+              <w>cum</w>
+              <w>sacramento</w>
+              <w>satis</w>
+              <w>facere</w>
+              <lb n="25" xml:id="CE34-5_lb_066v_25"/>
+              <w><g ref="#openetlig"/></w>
+              <w>se</w>
+              <w>edoniare</w>
+              <choice>
+                <orig><pc>:</pc></orig>
+                <reg>.</reg>
+              </choice>
+              <w><g ref="#openetlig"/></w>
+              <w>si</w>
+              <w>talis</w>
+              <w>causa</w>
+              <w>emerserit</w>
+              <w><g ref="#openetlig"/></w>
+              <w>ad<lb n="26" xml:id="CE34-5_lb_066v_26"/>est</w>
+              <w>homo</w>
+              <w>in</w>
+              <w>
+                <choice>
+                  <abbr><am><g ref="#ptilde"/></am>senti</abbr>
+                  <expan>p<ex>rae</ex>senti</expan>
+                </choice>
+              </w>
+              <w>qui</w>
+              <w>crimen</w>
+              <w>mittat</w>
+              <w>liceat</w>
+              <w>eum</w>
+              <pb n="067r" xml:id="CE34-5_folio_067r"/>
+              <fw place="top-right" type="fol"><add hand="unknown">67</add></fw>
+              <lb n="1" xml:id="CE34-5_lb_067r_01"/>
+              <w>per</w>
+              <w>camphiones</w>
+              <w>id</w>
+              <w>est</w>
+              <w>
+                <choice>
+                  <abbr><am><g ref="#pbardes"/></am></abbr>
+                  <expan>p<ex>er</ex></expan>
+                </choice>
+              </w>
+              <w>
+                <choice>
+                  <abbr>pugn<am><g ref="#atilde"/></am></abbr>
+                  <expan>pugna<ex>m</ex></expan>
+                </choice>
+              </w>
+              <w>crimen</w>
+              <w>ipsu</w>
+              <w>de</w>
+              <w>
+                <choice>
+                  <abbr>su<am><g ref="#pbardes"/></am></abbr>
+                  <expan>sup<ex>er</ex></expan>
+                </choice>
+              </w>
+              <w>se</w>
+              <lb n="2" xml:id="CE34-5_lb_067r_02"/>
+              <w>si</w>
+              <w>potuerit</w>
+              <w>eicere</w>
+              <w><g ref="#openetlig"/></w>
+              <add hand="scribe_2" place="above"><w>si</w></add>
+              <w>probatum</w>
+              <w>fuerit</w>
+              <w>aut</w>
+              <w>de</w>
+              <w>anima</w>
+              <lb n="3" xml:id="CE34-5_lb_067r_03"/>
+              <w>aut</w>
+              <w>qualiter</w>
+              <w>regi</w>
+              <w>placa<c corresp="#v">u</c>erit</w>
+              <w>conponat</w>
+              <w><g ref="#openetlig"/></w>
+              <w>si</w>
+              <w>
+                <choice>
+                  <abbr><am><g ref="#pflour"/></am>bare</abbr>
+                  <expan>p<ex>ro</ex>bare</expan>
+                </choice>
+              </w>
+              <lb n="4" xml:id="CE34-5_lb_067r_04"/>
+              <w>non</w>
+              <w>potuerit</w>
+              <w><g ref="#openetlig"/></w>
+              <w>cognoscitur</w>
+              <w>dolose</w>
+              <w>accusass<gap extent="2" unit="chars"/>
+                <supplied reason="illegible" resp="alim-pi">it</supplied>
+              </w>
+              <w><g ref="#openetlig"/></w>
+              <lb n="5" xml:id="CE34-5_lb_067r_05"/>
+              <w>tunc</w>
+              <w>ipse</w>
+              <w>qui</w>
+              <w>accusa<c corresp="#v">u</c>it</w>
+              <w>
+                <choice>
+                  <abbr><am><g ref="#pflour"/></am>bare</abbr>
+                  <expan>p<ex>ro</ex>bare</expan>
+                </choice>
+              </w>
+              <w>non</w>
+              <w>potuerit</w>
+              <term xml:lang="lng">
+                <w>
+                  <orig><c corresp="#v">u</c><c corresp="#v">u</c>idri <lb n="6" xml:id="CE34-5_lb_067r_06_orig"
+                    />gild</orig>
+                  <reg resp="alim-pi azzara bluhme beyerle">wer<lb n="6" xml:id="CE34-5_lb_067r_06_reg"/>gild</reg>
+                </w>
+              </term>
+              <w>
+                <choice>
+                  <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+                  <expan>conp<ex>onat</ex></expan>
+                </choice>
+              </w>
+              <w>medietatem</w>
+              <w>regi</w>
+              <w><g ref="#openetlig"/></w>
+              <w>medi<g ref="#openetlig"/>atem</w>
+              <w>cui</w>
+              <w>
+                <choice>
+                  <abbr>cri<am><g ref="#mtilde"/></am></abbr>
+                  <expan>crim<ex>en</ex></expan>
+                </choice>
+              </w>
+              <lb n="7" xml:id="CE34-5_lb_067r_07"/>
+              <w>iniectum</w>
+              <w>fuerit</w>
+            </p>
+            <p n="10" xml:id="CE34-5_p_067r_10"><lb n="8" type="rubric" xml:id="CE34-5_lb_067r_08"
+                  /><label><num><w>X</w></num></label>
+              <w><hi rend="cap">S</hi>i</w>
+              <w>quis</w>
+              <w>liber</w>
+              <w>homo</w>
+              <w>In</w>
+              <w>alterius</w>
+              <w>morte</w>
+              <w>consil<g ref="#jnodotenl"/>a<c corresp="#v">u</c><lb n="9" xml:id="CE34-5_lb_067r_09"/>erit</w>
+              <w><g ref="#openetlig"/></w>
+              <w>ex</w>
+              <w>ipso</w>
+              <w>consil<g ref="#jnodotenl"/>o</w>
+              <w>mortuus</w>
+              <w>non</w>
+              <w>fuerit</w>
+              <w>tunc</w>
+              <lb n="10" xml:id="CE34-5_lb_067r_10"/>
+              <w>ipse</w>
+              <w>consil<g ref="#jnodotenl"/>ator</w>
+              <w>
+                <choice>
+                  <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+                  <expan>conp<ex>onat</ex></expan>
+                </choice>
+              </w>
+              <w>
+                <choice>
+                  <abbr>so<am><g ref="#lhighstrok"/></am></abbr>
+                  <expan>sol<ex>idos</ex></expan>
+                </choice>
+              </w>
+              <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
+            </p>
+
+          </div>
         </body>
-        
-        <back>
-            
-            <div type="biblCompleta">
-                <listBibl>
+      </text>
 
-                    <biblStruct type="book" xml:id="Azzara1992">
-                        <monogr>
-                            <title level="m">Le Leggi dei Longobardi: storia, memoria e diritto di un popolo
-                                germanico</title>
-                            <title type="short">Le Leggi dei Longobardi</title>
-                            <idno type="ISBN">88-86156-00-6 978-88-86156-00-4</idno>
-                            <author><forename>Claudio</forename><surname>Azzara</surname></author>
-                            <author><forename>Stefano</forename><surname>Gasparri</surname></author>
-                            <imprint>
-                                <pubPlace>Milano</pubPlace>
-                                <publisher>Editrice La Storia</publisher>
-                                <date>1992</date>
-                            </imprint>
-                        </monogr>
-                    </biblStruct>
+      <text>
+        <body>
+          <div n="Capp. 1-13" subtype="reati_contro_autorità" type="capitula" xml:id="CV188_div_1-13">
+            <pb n="018v" xml:id="CV188_folio_018v"/>
+            <head>
+              <lb n="01" xml:id="CV188_lb_018v_01"/>
+              <choice>
+                <!-- cercare i caratteri adatti -->
+                <abbr>E<am>X</am></abbr>
+                <expan>EX<ex>PLICIT</ex></expan>
+              </choice>
+              <choice>
+                <abbr>P<am>L</am>G</abbr>
+                <expan>P<ex>RO</ex>L<ex>O</ex>G<ex>US</ex></expan>
+              </choice>
+              <lb n="02" xml:id="CV188_lb_018v_02"/>
+              <choice>
+                <abbr>INCP</abbr>
+                <expan>INC<ex>I</ex>P<ex>IUNT</ex></expan>
+              </choice>
+              <choice>
+                <abbr>CPLA</abbr>
+                <expan>C<ex>A</ex>P<ex>ITU</ex>LA</expan>
+              </choice>
+              <lb n="03" xml:id="CV188_lb_018v_03"/>CA<space/>U<space/>SA<space/>S</head>
+            <lb n="04" xml:id="CV188_lb_018v_04"/>
+            <p>
+              <lb n="05" xml:id="CV188_lb_018v_05"/>
+              <label n="1"><num><w>I</w></num></label>
+              <seg rend="cap">
+                <w><hi rend="decorated">S</hi>i</w>
+                <w>q<c corresp="#u">v</c>is</w>
+                <w>homin<c corresp="#u">v</c>m</w>
+                <lb n="06" xml:id="CV188_lb_018v_06"/><w>contra</w>
+                <w><choice>
+                    <sic>anima</sic>
+                    <!-- è un'abbreviazione??? s rovesciata sopra a finale -->
+                    <corr>animam</corr>
+                  </choice></w>
+                <lb n="07" xml:id="CV188_lb_018v_07"/><w>regis</w>
+                <w>co<add place="inline" rend="smaller"
+                >gi</add>taverit</w><!-- la T finale è una correzione o
+                     solo danneggiata??? -->
+              </seg>
+              <!-- 
+               <w>aut</w>
+               <w>consiliaverit</w><reg>,</reg> -->
+              <lb n="08" xml:id="CV188_lb_018v_08"/><w><choice>
+                  <sic>anime</sic>
+                  <corr resp="RRDT">animae</corr>
+                </choice></w>
+              <w>suae</w>
+              <w>incurrat</w>
+              <w><choice>
+                  <abbr>pericul<am><g ref="#umacr"/></am></abbr>
+                  <expan>periculu<ex>m</ex></expan>
+                </choice></w>
+              <lb n="09" xml:id="CV188_lb_018v_09"/><space extent="7"/><w>et</w>
+              <w>res</w>
+              <w>eius</w>
+              <w>infiscentur</w><reg>.</reg><!-- segno di punteggiatura finale? -->
+            </p>
 
-                    <biblStruct type="book" xml:id="Azzara2005">
-                        <monogr>
-                            <title level="m">Le leggi dei Longobardi: storia, memoria e diritto di un popolo
-                                germanico</title>
-                            <title type="short">Le leggi dei Longobardi</title>
-                            <idno type="ISBN">88-8334-099-X</idno>
-                            <editor><forename>Claudio</forename><surname>Azzara</surname></editor>
-                            <editor><forename>Stefano</forename><surname>Gasparri</surname></editor>
-                            <edition>2. ed</edition>
-                            <imprint>
-                                <pubPlace>Roma</pubPlace>
-                                <publisher>Viella</publisher>
-                                <date>2005</date>
-                            </imprint>
-                        </monogr>
-                        <series><title level="s">Altomedioevo</title><biblScope unit="volume">4</biblScope></series>
-                    </biblStruct>
+            <p n="2" xml:id="CV188_p_018v_02"><lb n="10" type="rubric" xml:id="CV188_lb_018v_10"/>
+              <label><num><w>II</w></num></label>
+              <w><hi rend="cap1.2">S</hi>i</w>
+              <w>quis</w>
+              <w>cum</w>
+              <w>rege</w>
+              <w>de</w>
+              <w>morte</w>
+              <w>alte<lb n="11" xml:id="CV188_lb_018v_11"/>rius</w>
+              <w>consilia<c corresp="#v">u</c>erit</w><reg>,</reg>
+              <w>aut</w>
+              <w>hominem</w>
+              <lb n="12" xml:id="CV188_lb_018v_12"/><w>per</w>
+              <w>ipsius</w>
+              <w><choice>
+                  <abbr>iussion<am><g ref="#emacr"/></am></abbr>
+                  <expan>iussione<ex>m</ex></expan>
+                </choice></w>
+              <w>occiserit</w><reg>,</reg><!-- occiderit -->
+              <w>in</w>
+              <lb n="13" xml:id="CV188_lb_018v_13"/><w>nullo</w>
+              <w>sit</w>
+              <w>culpa<c corresp="#v">u</c>elis</w><reg>,</reg><!-- culpabilis -->
+              <w>nec</w>
+              <w>ille</w>
+              <w>nec</w>
+              <pb n="019r" xml:id="CV188_folio_019r"/>
+              <lb n="01" xml:id="CV188_lb_019r_"/><w><choice>
+                  <sic>heredis</sic>
+                  <corr resp="RRDT">heredes</corr>
+                </choice></w>
+              <w>eius</w>
+              <w>quoquo</w>
+              <w>tempore</w>
+              <w>ab</w>
+              <w>il<lb n="02" xml:id="CV188_lb_019r_02"/>lo</w>
+              <w>aut</w>
+              <w><choice>
+                  <sic>heredis</sic>
+                  <corr resp="rrdt">heredes</corr>
+                </choice></w>
+              <w>ipsius</w>
+              <w>requisitionem</w>
+              <lb n="03" xml:id="CV188_lb_019r_03"/><w>aut</w>
+              <w>molestia</w>
+              <w>
+                <choice>
+                  <sic>spatiatur</sic>
+                  <corr resp="RRDT">patiatur</corr>
+                </choice></w>
+              <choice>
+                <orig><pc>:</pc></orig>
+                <reg>;</reg>
+              </choice>
+              <w>quia</w>
+              <w>post<lb n="04" xml:id="CV188_lb_019r_04"/>quam</w>
+              <w>corda</w>
+              <w>regum</w>
+              <w>in</w>
+              <w><damage>m</damage>anum</w>
+              <w>
+                <choice>
+                  <abbr>d<am><g ref="#imacr"/></am></abbr>
+                  <expan>d<ex>e</ex>i</expan>
+                </choice></w>
+              <w>es<lb n="05" xml:id="CV188_lb_019r_05"/>se</w><!-- credimus esse -->
+              <w>credimus</w><reg>,</reg>
+              <w>non</w>
+              <w>est</w>
+              <w>
+                <choice>
+                  <sic>posse<c corresp="#v">u</c>ilem</sic>
+                  <corr resp="RRDT">possibile</corr>
+                </choice></w><reg>,</reg>
+              <lb n="06" xml:id="CV188_lb_019r_06"/><w>ut</w>
+              <w>homo</w>
+              <w>possit</w>
+              <w>
+                <choice>
+                  <sic>aduniare</sic>
+                  <!-- ??? -->
+                  <corr resp="RRDT">eduniare</corr>
+                </choice></w><reg>,</reg>
+              <w>quem</w>
+              <w>rex</w>
+              <lb n="07" xml:id="CV188_lb_019r_07"/><space extent="7"/><w>occidere</w>
+              <w>iusserit</w><reg>.</reg>
+            </p>
+            <p n="3" xml:id="CV188_p_019r_03"><lb n="08" type="rubric" xml:id="CV188_lb_019r_08"/>
+              <label><num><w>III</w></num></label>
+              <w><hi rend="cap1.5">S</hi>i</w>
+              <w>quis</w>
+              <w>foris</w>
+              <w>pro<c corresp="#v">u</c>incia</w>
+              <w>fugire</w>
+              <lb n="09" xml:id="CV188_lb_019r_09"/><w>tempta<c corresp="#v">u</c>erit</w><reg>,</reg><!-- timtaverit -->
+              <w>morti</w>
+              <w>incurrat</w>
+              <w>peri<lb n="10" xml:id="CV188_lb_019r_10"/>culum</w><reg>,</reg>
+              <w>et</w>
+              <w>res</w>
+              <w>
+                <choice>
+                  <orig>ei<!-- ??? --></orig>
+                  <reg>eius</reg>
+                </choice></w>
+              <w>
+                <choice>
+                  <sic>infiscintur</sic>
+                  <corr resp="RRDT">infiscentur</corr>
+                </choice></w><choice>
+                <!-- ??? -->
+                <orig><pc>:</pc></orig>
+                <reg>.</reg>
+              </choice>
+            </p>
+            <p n="4" xml:id="CV188_p_019r_04">
+              <lb n="11" type="rubric" xml:id="CV188_lb_019r_11"/><label n="4"><num><w>IIII</w></num></label>
+              <w><hi rend="cap1.5 empty">S</hi>i</w>
+              <w>quis</w>
+              <w>inimicus</w>
+              <w>intra</w>
+              <w>pro<c corresp="#v">u</c>inci<add place="above" rend="smaller">a</add></w>
+              <lb n="12" xml:id="CV188_lb_019r_12"/><w>in<c corresp="#v">u</c>ita<c corresp="#v">u</c>erit</w>
+              <w>aut</w>
+              <w>introduxerit</w><reg>,</reg>
+              <w>
+                <choice>
+                  <sic>ani<lb n="13" xml:id="CV188_lb_019r_13_sic"/>me</sic>
+                  <corr resp="RRDT">ani<lb n="13" xml:id="CV188_lb_019r_13_corr"/>mae</corr>
+                </choice></w>
+              <w>suae</w>
+              <w>incurrat</w>
+              <w>
+                <choice>
+                  <abbr>pericul<am><g ref="#umacr"/></am></abbr>
+                  <expan>periculu<ex>m</ex></expan>
+                </choice></w>
+              <w>et</w>
+              <w>res</w>
+              <lb n="14" xml:id="CV188_lb_019r_14"/><space extent="12"/><w>eius</w>
+              <w>infiscentur</w><reg>.</reg>
+            </p>
+            <p n="5" xml:id="CV188_p_019r_05">
+              <lb n="15" type="rubric" xml:id="CV188_lb_019r_15"/><label n="5"><num><w>V</w></num></label>
+              <w><hi rend="cap1.5">S</hi>i</w>
+              <w>quis</w>
+              <term><w>
+                  <choice>
+                    <!-- ??? -->
+                    <sic>scamaras</sic>
+                    <corr resp="RRDT">escamaras</corr>
+                  </choice></w></term>
+              <w>intra</w>
+              <w>pro<c corresp="#v">u</c>in<lb n="16" xml:id="CV188_lb_019r_16"/>cia</w>
+              <w>
+                <choice>
+                  <!-- ??? -->
+                  <orig>cel<space extent="1"/>auerit</orig>
+                  <reg>cael<space extent="1"/>averit</reg>
+                </choice></w>
+              <w>aut</w>
+              <w>anonam</w>
+              <w>dede<lb n="17" xml:id="CV188_lb_019r_17"/>rit</w><reg>,</reg>
+              <w>
+                <choice>
+                  <sic>anime</sic>
+                  <corr resp="RRDT">animae</corr>
+                </choice></w>
+              <w>suae</w>
+              <w>incurrat</w>
+              <w>
+                <choice>
+                  <abbr>pericul<am><g ref="#umacr"/></am></abbr>
+                  <expan>periculu<ex>m</ex></expan>
+                </choice></w><reg>,</reg>
+              <lb n="18" xml:id="CV188_lb_019r_18"/><w>aut</w>
+              <w>certe</w>
+              <w>conponat</w>
+              <w>regi</w>
+              <w>solidus</w>
+              <w>
+                <choice>
+                  <!-- ??? -->
+                  <orig>noni<lb rend="below"/>entos</orig>
+                  <reg>noningentos</reg>
+                </choice></w><choice>
+                <!-- ??? -->
+                <orig><pc>:</pc></orig>
+                <reg>.</reg>
+              </choice>
+            </p>
+            <p n="6" xml:id="CV188_p_019r_06">
+              <lb n="19" type="rubric" xml:id="CV188_lb_019r_19"/><label n="6"><num><w>Ϛ</w></num></label>
+              <w><hi rend="cap1.5 empty">S</hi>i</w>
+              <w>quis</w>
+              <w><damage>f</damage>oris</w>
+              <w>in</w>
+              <w>exercitum</w>
+              <w>s<damage>e</damage>di<lb n="20" xml:id="CV188_lb_019r_20"/>tionem</w>
+              <w>le<c corresp="#v">u</c>a<c corresp="#v">u</c>erit</w>
+              <w>contra</w>
+              <w>d<subst>
+                  <del rend="overwrite">o</del>
+                  <add>u</add>
+                </subst>cem</w>
+              <pb n="019v" xml:id="CV188_folio_019v"/>
+              <lb n="01" xml:id="CV188_lb_019v_01"/><w>suum</w>
+              <w>aut</w>
+              <w>contra</w>
+              <w>eu<damage>m</damage></w><reg>,</reg>
+              <w>qui</w>
+              <w>ordina<lb n="02" xml:id="CV188_lb_019v_02"/>tus</w>
+              <!--<w>est</w>
+               <w>a</w>
+               <w>rege</w>
+               <w>ad</w>-->
+              <w>exercitum</w>
+              <w>gubernandi</w><reg>,</reg>
+              <w>aut</w>
+              <lb n="03" xml:id="CV188_lb_019v_03"/><w>aliquam</w>
+              <w>partem</w>
+              <w>exercitum</w>
+              <w>sedu<lb n="04" xml:id="CV188_lb_019v_04"/>xerit</w><reg>,</reg>
+              <choice>
+                <sic>anime</sic>
+                <corr resp="RRDT">animae</corr>
+              </choice><!-- sanguinis -->
+              <w>suae</w><!-- sui -->
+              <w>incurrat</w>
+              <w>pericu<lb rend="below"/>lum</w><choice>
+                <!-- ??? -->
+                <orig><pc>:</pc></orig>
+                <reg>.</reg>
+              </choice>
+            </p>
+            <p n="7" xml:id="CV188_p_019v_07">
+              <lb n="05" type="rubric" xml:id="CV188_lb_019v_05"/><label n="7"><num><w><g ref="#romnumsix"
+                />I</w></num></label>
+              <w><hi rend="cap2.0 empty">S</hi>i</w>
+              <w>quis</w>
+              <w>contra</w>
+              <w>inimicus</w>
+              <w>pug<lb n="06" xml:id="CV188_lb_019v_06"/><space extent="5"/>nandum</w><!-- pugnando -->
+              <w>colegam</w><!-- collegam -->
+              <w>suum</w>
+              <w>dimi<lb n="07" xml:id="CV188_lb_019v_07"/>serit</w>
+              <w>aut</w>
+              <term ref="#astalin" xml:id="CV188_term_astalin_07" xml:lang="lng">
+                <w>
+                  <choice>
+                    <orig>anstall<add place="below">i</add><subst>
+                        <del rend="overwrite">c</del>
+                        <add>n</add>
+                      </subst></orig>
+                    <reg>astalin</reg>
+                  </choice>
+                </w>
+              </term>
+              <w>fecerit</w><reg>,</reg>
+              <gloss target="#CV188_term_astalin_07" xml:id="CV188_gloss_astalin_07">
+                <w>id</w>
+                <w>est</w>
+                <lb n="08" xml:id="CV188_lb_019v_08"/><w>si</w>
+                <w>eum</w>
+                <w>diceperit</w>
+                <w><damage>et</damage></w>
+                <w>cum</w>
+                <w>eum</w>
+                <w>non</w>
+                <lb n="09" xml:id="CV188_lb_019v_09"/><w>labora<c corresp="#v">u</c>erit</w>
+              </gloss>
+              <w>
+                <choice>
+                  <sic>anime</sic>
+                  <corr resp="RRDT">animae</corr>
+                </choice>
+              </w>
+              <w>suae</w>
+              <w>incurrat</w>
+              <lb rend="below"/><w>periculum</w><choice>
+                <!-- ??? -->
+                <orig><pc>:</pc></orig>
+                <reg>.</reg>
+              </choice>
+            </p>
+            <p><lb n="10" type="rubric" xml:id="CV188_lb_019v_10"/><label n="8"><num><w>ϚII</w></num></label>
+              <w><hi rend="cap1.5">S</hi>i</w>
+              <w>quis</w>
+              <w>in</w>
+              <w>concilium</w><!-- consilio -->
+              <w>vel</w>
+              <w>in</w>
+              <w>
+                <choice>
+                  <sic>quole<lb n="11" xml:id="CV188_lb_019v_11_sic"/>bit</sic>
+                  <corr resp="RRDT">quoli<lb n="11" xml:id="CV188_lb_019v_11_corr"/>bet</corr>
+                </choice></w>
+              <w>c<space extent="1"/>on<c corresp="#v">u</c>entum</w><!-- conventu -->
+              <w>scandalum</w>
+              <w>comi<lb n="12" xml:id="CV188_lb_019v_12"/>serit</w><reg>,</reg><!-- conmiserit -->
+              <choice>
+                <!-- ??? -->
+                <orig>nonientos</orig>
+                <reg>noningentos</reg>
+              </choice>
+              <w>solidus</w>
+              <w>sit</w>
+              <w>
+                <choice>
+                  <sic>culpa<lb n="13" xml:id="CV188_lb_019v_13_sic"/><space extent="14"/><c corresp="#v"
+                    >u</c>elis</sic>
+                  <corr>culpa<lb n="13" xml:id="CV188_lb_019v_13_corr"/><space extent="14"/>biles</corr>
+                </choice></w><!-- culpabiles -->
+              <w>regi</w><choice>
+                <!-- ??? -->
+                <orig><pc>:</pc></orig>
+                <reg>.</reg>
+              </choice>
+            </p>
 
-                    <biblStruct type="book" xml:id="Beyerle1962a">
-                        <monogr>
-                            <title level="m">Leges langobardorum: 643-866</title>
-                            <title type="short">Leges langobardorum</title>
-                            <author><forename>Franz</forename><surname>Beyerle</surname></author>
-                            <imprint>
-                                <pubPlace>Witzenhausen</pubPlace>
-                                <publisher>Deutschrechtlicher Instituts-Verlag</publisher>
-                                <date>1962</date>
-                            </imprint>
-                        </monogr>
-                    </biblStruct>
+            <p><lb n="14" type="rubric" xml:id="CV188_lb_019v_14"/><label n="9"><num><w>ϚIII</w></num></label>
+              <w><hi rend="cap1.5 empty">S</hi>i</w>
+              <w>quis</w>
+              <w>qualemcumque</w>
+              <w>homi<lb n="15" xml:id="CV188_lb_019v_15"/>nem</w>
+              <w>ad</w>
+              <w>regem</w>
+              <w>incusa<c corresp="#v">u</c>erit</w><reg>,</reg>
+              <w>quod</w>
+              <!--<w>ad</w>-->
+              <lb n="16" xml:id="CV188_lb_019v_16"/><w><choice>
+                  <!-- ??? -->
+                  <sic>anime</sic>
+                  <corr resp="RRDT">animae</corr>
+                </choice></w>
+              <w>perteneat</w>
+              <w>periculum</w><reg>,</reg>
+              <lb n="17" xml:id="CV188_lb_019v_17"/><w>
+                <choice>
+                  <sic>leciat</sic>
+                  <corr resp="RRDT">liceat</corr>
+                </choice></w>
+              <w>ei</w><reg>,</reg>
+              <w>qui</w>
+              <w>accusatus</w>
+              <w>fuerit</w><reg>,</reg>
+              <lb n="18" xml:id="CV188_lb_019v_18"/><w>cum</w>
+              <w>sacramentum</w>
+              <w>satis<lb n="19" xml:id="CV188_lb_019v_19"/>facere</w>
+              <w>et</w>
+              <w>s<damage>e</damage></w>
+              <w><damage>e</damage>duniare</w><reg>.</reg>
+              <w>
+                <choice>
+                  <orig>et</orig>
+                  <reg>Et</reg>
+                </choice></w>
+              <w>si</w>
+              <w>ta<lb n="20" xml:id="CV188_lb_019v_20"/>les</w>
+              <w>causam</w><!-- causa -->
+              <w><damage>eme</damage>rserit</w>
+              <pb n="020r" xml:id="CV188_folio_020r"/>
+              <lb xml:id="CV188_lb_020r_01"/><w>et</w>
+              <w>adest</w>
+              <w>homo</w>
+              <w>in</w>
+              <w>praesenti</w><reg>,</reg>
+              <w>qui</w>
+              <w>cri<lb xml:id="CV188_lb_020r_02"/>men</w>
+              <w>mittat</w><reg>,</reg>
+              <add place="above">
+                <w>liceat</w>
+                <w>eum</w>
+                <w>per</w>
+                <w>camphionem</w><reg>,</reg>
+                <w>id</w>
+                <w>est</w>
+                <w>per</w>
+                <w>pugnam</w><reg>,</reg>
+              </add>
+              <w>crimen</w>
+              <w>ipsum</w>
+              <w>de</w>
+              <w>super</w>
+              <lb xml:id="CV188_lb_020r_03"/><w>se</w><reg>,</reg>
+              <w>si</w>
+              <w>potuerit</w><reg>,</reg>
+              <w>eicere</w><reg>.</reg>
+              <w>Et</w>
+              <w>si</w>
+              <w>ei</w>
+              <w>prova<lb xml:id="CV188_lb_020r_04"/>tum</w>
+              <w>fuerit</w><reg>,</reg>
+              <w>aut</w>
+              <w>det</w>
+              <w>animam</w><reg>,</reg>
+              <w>aut</w>
+              <lb xml:id="CV188_lb_020r_05"/><w>qualiter</w>
+              <w>regi</w>
+              <w>placuerit</w>
+              <w>conponat</w><reg>.</reg>
+              <w>Et</w>
+              <lb xml:id="CV188_lb_020r_06"/><w>si</w>
+              <w>provare</w>
+              <w>non</w>
+              <w>potuerit</w>
+              <w>et</w>
+              <w>cognus<lb xml:id="CV188_lb_020r_07"/>citur</w>
+              <w>dolusae</w>
+              <w>adcusassit</w><reg>,</reg>
+              <w>tunc</w>
+              <lb xml:id="CV188_lb_020r_08"/><w>ipse</w><reg>,</reg>
+              <w>qui</w>
+              <w>accusavit</w>
+              <w>et</w>
+              <w>provare</w>
+              <w>non</w>
+              <lb xml:id="CV188_lb_020r_09"/><w>poterit</w>
+              <term ref="#wergild" xml:id="CV188_term_wergild_09" xml:lang="lng">
+                <w><c corresp="#v">u</c><c corresp="#v">u</c>irichild</w></term>
+              <w>suo</w>
+              <w>conp</w>
+              <w>me<lb xml:id="CV188_lb_020r_10"/>dietatem</w>
+              <w>regi</w><reg>,</reg>
+              <w>et</w>
+              <w>medietatem</w>
+              <lb xml:id="CV188_lb_020r_11"/>
+              <w>cui</w>
+              <w>crimen</w>
+              <w>iniectum</w>
+              <w>fuerit</w><reg>.</reg>
+            </p>
 
-                    <biblStruct type="book" xml:id="Beyerle1962c">
-                        <monogr>
-                            <title level="m">Edictus Rothari</title>
-                            <author><forename>Franz</forename><surname>Beyerle</surname></author>
-                            <imprint>
-                                <pubPlace>Witzenhausen</pubPlace>
-                                <publisher>Deutschrechtl. Inst.-Verl</publisher>
-                                <date>1962</date>
-                            </imprint>
-                        </monogr>
-                    </biblStruct>
-                    
-                    <biblStruct type="book" xml:id="Bluhme1868">
-                        <monogr>
-                            <title level="m">[Leges Langobardorum]</title>
-                            <author><forename>Friedrich</forename><surname>Bluhme</surname></author>
-                            <author><forename>Alfred</forename><surname>Boretius</surname></author>
-                            <imprint>
-                                <pubPlace>Hannover</pubPlace>
-                                <publisher>Hahn</publisher>
-                                <date>1868</date>
-                            </imprint>
-                        </monogr>
-                    </biblStruct>
+            <p><lb type="rubric" xml:id="CV188_lb_020r_12"/><label n="10"><num><w>I</w></num></label>
+              <w><hi rend="cap2.0 empty">S</hi>i</w>
+              <w>quis</w>
+              <w>homo</w>
+              <w>liber</w>
+              <w>in</w>
+              <w>mor<lb xml:id="CV188_lb_020r_13"/><space extent="4"/>te</w>
+              <w>alterius</w>
+              <w>consiliaverit</w><reg>,</reg>
+              <w>et</w>
+              <w>ex</w>
+              <w>ip<lb xml:id="CV188_lb_020r_14"/>so</w>
+              <w>consilio</w>
+              <w>mortuos</w>
+              <w>non</w>
+              <w>fuerit</w><reg>,</reg>
+              <lb xml:id="CV188_lb_020r_15"/><w>tunc</w>
+              <w>ipse</w>
+              <w>consiliator</w>
+              <w>conponat</w>
+              <lb xml:id="CV188_lb_020r_16"/><space extent="12"/><w>solidus</w>
+              <w>viginti</w><reg>.</reg>
+            </p>
 
-                </listBibl>
-            </div>
+            <p><lb type="rubric" xml:id="CV188_lb_020r_17"/><label n="11"><num><w>I</w></num><w><hi rend="decorated2.5"
+                    >D</hi>e</w>
+                <w>consilio</w>
+                <w>mortis</w></label>
+              <w><choice>
+                  <orig>si</orig>
+                  <reg>Si</reg>
+                </choice></w>
+              <w>homi<lb xml:id="CV188_lb_020r_18"/>nis</w>
+              <space extent="3"/><w>liberi</w>
+              <w>inter</w>
+              <w>se</w>
+              <w>in</w>
+              <w>morte</w>
+              <w>al<lb xml:id="CV188_lb_020r_19"/>terius</w>
+              <w>consiliaverint</w>
+              <w>sine</w>
+              <w>regis</w>
+              <lb xml:id="CV188_lb_020r_20"/><w>consilio</w>
+              <w>et</w>
+              <w>ex</w>
+              <w>ipso</w>
+              <w>tractato</w>
+              <pb n="020v" xml:id="CV188_folio_020v"/>
+              <lb/><w>mortuus</w>
+              <w>non</w>
+              <w>fuerit</w><reg>,</reg>
+              <w>conponat</w>
+              <w>unus<lb/>quisque</w><reg>,</reg>
+              <w>ut</w>
+              <w>supra</w><reg>,</reg>
+              <w>solidos</w>
+              <w>viginti</w><reg>;</reg>
+              <w>et</w>
+              <w>si</w>
+              <w>ex</w>
+              <w>ip<lb/>so</w>
+              <w>consilio</w>
+              <w>mortuus</w>
+              <w>fuerit</w><reg>,</reg>
+              <w>tunc</w>
+              <w>ille</w><reg>,</reg>
+              <w>qui</w>
+              <w>homicida</w>
+              <w>est</w><reg>,</reg>
+              <w>con<lb/>ponat</w>
+              <w>ipsum</w>
+              <w>mortuum</w><reg>,</reg>
+              <w>sicut</w>
+              <w>ad<lb/>praetiatus</w>
+              <w>fuerit</w><reg>,</reg>
+              <w>id</w>
+              <w>est</w>
+              <term ref="#wergild" xml:id="CV188_term_wergild_11" xml:lang="lng">
+                <w><c corresp="#v">u</c><c corresp="#v">u</c>irichild</w></term>
+            </p>
+            <p><lb type="rubric"/><label n="12"><num><w>I</w></num></label>
+              <w><choice>
+                  <orig><hi rend="decorated">S<!-- ??? --></hi>i</orig>
+                  <reg>Si</reg>
+                </choice></w>
+              <w>duo</w>
+              <w>aut</w>
+              <w>tres</w>
+              <w>fuerint</w>
+              <w>hominis</w>
+              <w>seu</w>
+              <lb/><w>am<space extent="2"/>plius</w>
+              <w>liberi</w>
+              <w>et</w>
+              <w>homicidium</w>
+              <w>pene<lb/>traverint</w>
+              <w>et</w>
+              <w>voluerint</w>
+              <w>se</w>
+              <w>aduna<lb/>re</w><reg>,</reg>
+              <w>ut</w>
+              <w>in</w>
+              <w>unum</w>
+              <w>conponant</w><reg>,</reg>
+              <w>sicut</w>
+              <lb/><w>adpraetiatum</w>
+              <w>fuerit</w><reg>,</reg>
+              <w>sit</w>
+              <w>eis</w>
+              <w>adunandi</w>
+              <w>licen<lb/>tia</w><reg>.</reg>
+              <w>Et</w>
+              <w>si</w>
+              <w>aliquis</w>
+              <w>se</w>
+              <w>de</w>
+              <w>ip<lb/>sis</w>
+              <w>subtraxerit</w>
+              <w>et</w>
+              <w>non</w>
+              <w>potuerit</w>
+              <lb/><w>se</w>
+              <w>pureficare</w><reg>,</reg>
+              <w>sicut</w>
+              <w>lex</w>
+              <w>habet</w><reg>,</reg>
+              <lb/><w>quod</w>
+              <w>nec</w>
+              <w>plaga</w>
+              <w>nec</w>
+              <w>ferita</w>
+              <w>in</w>
+              <w>ip<lb/>so</w>
+              <w>homine</w><reg>,</reg>
+              <w>qui</w>
+              <w>occisus</w>
+              <w>est</w><reg>,</reg>
+              <w>non</w>
+              <lb/><w>fecissit</w><reg>,</reg>
+              <w>tunc</w>
+              <w>sit</w>
+              <w>culpabiles</w>
+              <lb/><w>sicut</w>
+              <w>et</w>
+              <w>alius</w>
+              <w>qui</w>
+              <w>eum</w>
+              <w>conposuit</w><reg>.</reg>
+              <w>Et</w>
+              <w>si</w>
+              <lb/><w>se</w>
+              <w>purificaverit</w><reg>,</reg>
+              <w>sit</w>
+              <w>exsolutus</w>
+              <lb/><w>a</w>
+              <w>culpa</w>
+              <w>homicidii</w><reg>.</reg>
+              <w>Si</w>
+              <w>tamen</w>
+              <w>in</w>
+              <w>con<lb/>silio</w>
+              <w>fuit</w><reg>,</reg>
+              <w>conponat</w><reg>,</reg>
+              <w>ut</w>
+              <w>supra</w><reg>,</reg>
+              <pb n="021r" xml:id="CV188_folio_021r"/>
+              <lb/><w>solidos</w>
+              <w>viginti</w><reg>,</reg>
+              <w>aut</w>
+              <w>certe</w>
+              <w>a</w>
+              <w>de</w>
+              <w>ipso</w>
+              <w>consilio</w>
+              <lb/><space extent="4"/><w>se</w>
+              <w>purificit</w><reg>,</reg>
+              <w>si</w>
+              <w>potuerit</w><reg>.</reg>
+            </p>
 
-        </back>
+            <p><lb type="rubric"/><label n="13"><num><w>I</w></num></label>
+              <w>Si</w>
+              <w>quis</w>
+              <w>dominum</w>
+              <w>suum</w>
+              <w>occiderit</w><reg>,</reg>
+              <lb/><w>ipse</w>
+              <w>occidatur</w><reg>.</reg>
+              <w>Si</w>
+              <w>quis</w>
+              <lb/><w>ipsum</w>
+              <w>homicidam</w>
+              <w>defensare</w>
+              <w>volu<lb/>erit</w><reg>,</reg>
+              <w>qui</w>
+              <w>dominum</w>
+              <w>suum</w>
+              <w>occiderit</w><reg>,</reg>
+              <w>sit</w>
+              <lb/><w>culpabilis</w>
+              <w>solidûs</w>
+              <w>noningentos</w><reg>,</reg>
+              <w>medie<lb/>tatem</w>
+              <w>regi</w><reg>,</reg>
+              <w>medietatem</w>
+              <w>paren<lb/>tibus</w>
+              <w>mortui</w><reg>;</reg>
+              <w>et</w>
+              <w>qui</w>
+              <w>illius</w>
+              <w>mortui</w>
+              <lb/><w>iniuriam</w>
+              <w>vindicandam</w>
+              <w>denegave<lb/>rit</w>
+              <w>solacia</w><reg>,</reg>
+              <w>si</w>
+              <w>quidem</w>
+              <w>rogatus</w>
+              <w>fue<lb/>rit</w><reg>,</reg>
+              <w>unusquisque</w>
+              <w>conponat</w>
+              <w>solidos</w>
+              <lb/><w>quinquagenta</w><reg>,</reg>
+              <w>medietatem</w>
+              <w>regi</w>
+              <w>et</w>
+              <w>medieta<lb/>tem</w>
+              <w>cui</w>
+              <w>solacia</w>
+              <w>denegaverit</w><reg>.</reg>
+            </p>
+          </div>
+        </body>
+      </text>
 
-    </text>
+    </group>
+
+    <back>
+
+      <div type="biblCompleta">
+        <listBibl>
+
+          <biblStruct type="book" xml:id="Azzara1992">
+            <monogr>
+              <title level="m">Le Leggi dei Longobardi: storia, memoria e diritto di un popolo germanico</title>
+              <title type="short">Le Leggi dei Longobardi</title>
+              <idno type="ISBN">88-86156-00-6 978-88-86156-00-4</idno>
+              <author><forename>Claudio</forename><surname>Azzara</surname></author>
+              <author><forename>Stefano</forename><surname>Gasparri</surname></author>
+              <imprint>
+                <pubPlace>Milano</pubPlace>
+                <publisher>Editrice La Storia</publisher>
+                <date>1992</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Azzara2005">
+            <monogr>
+              <title level="m">Le leggi dei Longobardi: storia, memoria e diritto di un popolo germanico</title>
+              <title type="short">Le leggi dei Longobardi</title>
+              <idno type="ISBN">88-8334-099-X</idno>
+              <editor><forename>Claudio</forename><surname>Azzara</surname></editor>
+              <editor><forename>Stefano</forename><surname>Gasparri</surname></editor>
+              <edition>2. ed</edition>
+              <imprint>
+                <pubPlace>Roma</pubPlace>
+                <publisher>Viella</publisher>
+                <date>2005</date>
+              </imprint>
+            </monogr>
+            <series><title level="s">Altomedioevo</title><biblScope unit="volume">4</biblScope></series>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Beyerle1962a">
+            <monogr>
+              <title level="m">Leges langobardorum: 643-866</title>
+              <title type="short">Leges langobardorum</title>
+              <author><forename>Franz</forename><surname>Beyerle</surname></author>
+              <imprint>
+                <pubPlace>Witzenhausen</pubPlace>
+                <publisher>Deutschrechtlicher Instituts-Verlag</publisher>
+                <date>1962</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Beyerle1962c">
+            <monogr>
+              <title level="m">Edictus Rothari</title>
+              <author><forename>Franz</forename><surname>Beyerle</surname></author>
+              <imprint>
+                <pubPlace>Witzenhausen</pubPlace>
+                <publisher>Deutschrechtl. Inst.-Verl</publisher>
+                <date>1962</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Bluhme1868">
+            <monogr>
+              <title level="m">[Leges Langobardorum]</title>
+              <author><forename>Friedrich</forename><surname>Bluhme</surname></author>
+              <author><forename>Alfred</forename><surname>Boretius</surname></author>
+              <imprint>
+                <pubPlace>Hannover</pubPlace>
+                <publisher>Hahn</publisher>
+                <date>1868</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+        </listBibl>
+      </div>
+
+    </back>
+
+  </text>
 
 </TEI>
 
