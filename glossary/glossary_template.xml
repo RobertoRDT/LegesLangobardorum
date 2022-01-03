@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+    <fileDesc>
+      
+      <titleStmt>
+        <title>The Edictus Rothari: a new critical edition based on select manuscripts</title>
+        <title>General structure for a glossary of Lombard words used in the text</title>
+        <principal>Marina Buzzoni</principal>
+        <principal>Roberto Rosselli Del Turco</principal>
+        <respStmt>
+          <resp>Encoding in TEI-conformant markup: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+        <respStmt>
+          <resp>General overview: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+          <name>Marina Buzzoni</name>
+        </respStmt>
+        <respStmt>
+          <resp>Experimental EVT edition: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+      </titleStmt>
+      
+      <editionStmt>
+        <edition>Previous editions</edition>
+        <respStmt xml:id="azzara">
+          <resp>Editor</resp>
+          <name ref="#Azzara1992">Azzara-Gasparri</name>
+        </respStmt>
+        <respStmt xml:id="beyerle">
+          <resp>Editor</resp>
+          <name ref="#Beyerle1962a">Beyerle</name>
+        </respStmt>
+        <respStmt xml:id="bluhme">
+          <resp>Editor</resp>
+          <name ref="#Bluhme1868">Beyerle</name>
+        </respStmt>
+      </editionStmt>
+      
+      <extent>[??] kilobytes</extent>
+      
+      <publicationStmt>
+        <authority>Leges Langobardorum Project</authority>
+        <date>2014-</date>
+        <availability>
+          <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+        </availability>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <p>Experimental glossary</p>
+      </sourceDesc>
+      
+    </fileDesc>
+    
+    <revisionDesc>
+      <change status="draft" when="2022-01" who="RRDT">Revision, correction and expansion of the original model
+        structure.</change>
+      <change status="draft" when="2019-02" who="MG">First experimental encoding of a glossary structure in TEI XML
+        format, to be used as a reference model for all entries.</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <!-- Occorrenze all'interno di <text>:
+
+  <term xml:id="CV188_term_astalin" xml:lang="lng" target="#astalin">
+      <w xml:id="CV188_word_astalin">astalin</w>
+  </term>
+  <gloss xml:id="CV188_gloss_astalin">id est....</gloss> 
+  
+  -->
+
+  <text>
+    <body>
+      <div type="glossary" xml:lang="lng">
+        
+        <!-- TODO -->
+        
+        <!--
+          
+          - usare <mentioned> invece di <w> per i termini citati in <etym> come suggerito dalle Guidelines? 
+            secondo Bowers e Romary 2016 non una buona soluzione, invece di <cit> etc. però perché non <w>?
+          - usare <listBibl> e <bibl> invece di <note type="biblio"> e <ref>?
+          
+        -->
+
+        <entry xml:id="astalin">
+
+          <!-- Lemma -->
+
+          <form type="lemma">
+            <orth>astalin</orth>
+            <!-- <pron notation="IPA"></pron> per eventuale trascrizione fonologica / fonetica -->
+          </form>
+          <gramGrp>
+            <pos value="noun"/>
+            <gen value="feminine"/>
+            <iType type="theme">-i</iType> <!-- oppure <iType type="theme" value="-i"></iType> -->
+          </gramGrp>
+
+          <!-- se si tratta di un verbo:
+          <gramGrp>
+            <pos value="verb"></pos>
+            <iType type="verb" value="weak"></iType>
+            <subc value="transitive"></subc>
+          </gramGrp>
+          -->
+
+          <!-- Occorrenza del lemma secondo la forma ortografica "standard" -->
+
+          <cit type="lemma">
+            <ref>MSS 1, 5, 8, 9, 10, 11; Gloss. Matr.</ref><!-- <ref> con @target quando disponibile -->
+            <!-- Occorrenza principale nell'ER, ms CV188 -->
+            <ref target="#CV188_p_019v_7">ER capitolo 7</ref>
+          </cit>
+          
+          <!-- Forme flesse: si possono collegare al testo con <ref> anche in alternativa al <cit> del lemma  -->
+
+          <form type="inflected"><!-- dummy example, astalin è la forma del nominativo -->
+            <orth>astalin</orth>
+            <gramGrp>
+              <case value="nominative"></case> <!-- "nominativo, genitivo, dativo, accusativo, vocativo e ablativo" -->
+              <number value="singular"/>
+            </gramGrp>
+            <cit>
+              <ref target="#CV188_p_019v_7">ER capitolo 7</ref>
+            </cit>
+          </form>
+
+          <!-- se si tratta di un verbo:
+          <gramGrp>
+              <per value="2"/>
+              <number value="singular"/>
+              <tns value="present"/>
+              <mood value="indicative"/>
+          </gramGrp>
+          -->
+
+          <!-- Varianti ortografiche -->
+
+          <form type="variants">
+            <orth>anstallin <ref>MS 2</ref></orth>
+            <orth>anstallim <ref>MS 3</ref></orth>
+            <orth>anstalin <ref>MS 3</ref></orth>
+            <orth>astalium <ref>MS 12</ref></orth>
+          </form>
+
+          <!-- Il significato o i significati del termine -->
+          
+          <sense><!--  n="1" etc. nel caso ci siano più significati possibili -->
+            <def>Tradimento, fuga o abbandono dei compagni in battaglia.</def>
+            <xr type="see">V. <ref target="#xxxx">xxxx</ref></xr>
+          </sense>
+                    
+          <!-- Le occorrenze e le relative glosse in altri testi -->
+
+          <cit type="cit_section">
+            <cit type="ms_text">
+              <!-- <oRef> corrisponde alla forma ortografica del lemma -->
+              <quote><oRef/> fecerit, id est si eum diceperit et cum eum non laboraverit</quote>
+              <ref target="#CV188_term_astalin #CV188_gloss_astalin">MS 2</ref>
+            </cit>
+            <cit>
+              <quote>Id <ex>est</ex> decipere</quote>
+              <ref>Gloss. Matr.</ref>
+            </cit>
+          </cit>
+
+          <!-- Una nota di commento/spiegazione relativa al termine -->
+
+          <note type="general">Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
+            corrispondente.</note>
+
+          <!-- Etimologia -->
+          
+          <etym>Formazione deverbale basata sul prefisso <m>a-</m>, <m>an-</m> unito alla radice del verbo
+              <w>*staljan</w>
+            <def>sottrarsi, sfuggire</def> (cfr. <lang>ia.</lang> <w>stelan</w>
+            <def>sottrarsi</def>), con suffisso <m>-ini-</m> tipico dei sostantivi femminili.
+            <xr type="etym">Etimologicamente connesso con <ptr target="#yyyy"/></xr>
+          </etym>
+
+          <!-- Riferimenti bibliografici -->
+
+          <note type="biblio">
+            <ref target="#Onesti2000">Francovich Onesti 2000, pp. 54-5</ref>
+            <ref target="#PrinciBraccini1994">Princi Braccini 1994, pp. 76-8</ref>
+            <ref target="#Molinari1989">Molinari 1989, 30 pp. 233-4</ref>
+          </note>
+        </entry>
+        
+        <!-- Gestione degli omografi con <superEntry> (esempio TEI) -->
+
+        <superEntry>
+          <form>
+            <orth>abandon</orth>
+            <hyph>a|ban|don</hyph>
+            <pron>@"band@n</pron>
+          </form>
+          <entry n="1" type="hom">
+            <gramGrp>
+              <pos>v</pos>
+              <subc>T1</subc>
+            </gramGrp>
+            <sense n="1">
+              <def>to leave completely and for ever … </def>
+            </sense>
+            <sense n="2"/>
+          </entry>
+          <entry n="2" type="hom">
+            <gramGrp>
+              <pos>n</pos>
+              <subc>U</subc>
+            </gramGrp>
+            <sense>
+              <def>the state when one's feelings and actions are uncontrolled; freedom
+                from control…</def>
+            </sense>
+          </entry>
+        </superEntry>
+
+      </div>
+    </body>
+  </text>
+</TEI>

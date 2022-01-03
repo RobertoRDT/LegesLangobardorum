@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <teiHeader>
+    
+    <fileDesc>
+      
+      <titleStmt>
+        <title>The Edictus Rothari: a new critical edition based on select manuscripts</title>
+        <title>A glossary of Lombard words used in the text</title>
+        <principal>Marina Buzzoni</principal>
+        <principal>Roberto Rosselli Del Turco</principal>
+        <respStmt>
+          <resp>Encoding in TEI-conformant markup: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+        <respStmt>
+          <resp>General overview: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+          <name>Marina Buzzoni</name>
+        </respStmt>
+        <respStmt>
+          <resp>Experimental EVT edition: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+      </titleStmt>
+      
+      <editionStmt>
+        <edition>Previous editions</edition>
+        <respStmt xml:id="azzara">
+          <resp>Editor</resp>
+          <name ref="#Azzara1992">Azzara-Gasparri</name>
+        </respStmt>
+        <respStmt xml:id="beyerle">
+          <resp>Editor</resp>
+          <name ref="#Beyerle1962a">Beyerle</name>
+        </respStmt>
+        <respStmt xml:id="bluhme">
+          <resp>Editor</resp>
+          <name ref="#Bluhme1868">Beyerle</name>
+        </respStmt>
+      </editionStmt>
+      
+      <extent>[??] kilobytes</extent>
+      
+      <publicationStmt>
+        <authority>Leges Langobardorum Project</authority>
+        <date>2014-</date>
+        <availability>
+          <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+        </availability>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <!-- ########## Lista dei luoghi ########## -->
+
+        <listPlace>
+
+          <place xml:id="Anthaib">
+            <settlement type="locus">Aboedulo</settlement>
+            <district type="nei_pressi-di">Ameglia</district>
+          </place>
+
+        </listPlace>
+      </sourceDesc>
+      
+    </fileDesc>
+    
+    <revisionDesc>
+      <change status="draft" when="2022-01" who="RRDT">First experimental encoding of person and place names in TEI XML
+        format.</change>
+    </revisionDesc>
+    
+  </teiHeader>
+  
+   <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+   </text>
+</TEI>
