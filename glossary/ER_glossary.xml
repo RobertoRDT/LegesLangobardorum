@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     
   <teiHeader>
@@ -70,6 +71,7 @@
       <!--TODO -->
       <!--
       
+      - rivedere tutto alla luce della struttura aggiornata
       - valutare utilità elemento <xr>
       
       -->
@@ -95,13 +97,14 @@
           
           <!-- Per le informazioni grammaticali da decidere tra varie forme possibili: 
             <pos value="noun"></pos>
+            <pos value="noun"/>
             <pos value="noun">n</pos> 
             <pos>noun</pos> -->
           <pos value="noun">n</pos>
           <gen value="feminine">f</gen>
           <!-- <case value=" "></case> "nominativo, genitivo, dativo, accusativo, vocativo e ablativo" -->
           <number value="singular">sing</number>
-          <gram type="theme">-i</gram>
+          <iType type="theme">-i</iType> <!-- oppure <iType type="theme" value="-i"></iType> -->
         </gramGrp>
         
         <!-- Le occorrenze del termine nel testo critico -->
@@ -146,7 +149,7 @@
           <ref>Gloss. Matr.</ref>
         </cit>
 
-        <!-- Una nota di commento/spiegazione relativa al testo -->
+        <!-- Una nota di commento/spiegazione relativa al termine -->
 
         <note type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
           nella glossa corrispondente.</note>
@@ -162,7 +165,7 @@
 
         <!-- Eventuali forme collegate -->
         
-        <re></re>     <!-- all'interno del glossario -->
+        <re></re>     <!-- all'interno del glossario --> <!-- NOPE -->
         <ref></ref>   <!-- in altri testi -->
 
         <!-- Bibliografia -->
