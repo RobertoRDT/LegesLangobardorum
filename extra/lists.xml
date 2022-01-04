@@ -53,13 +53,95 @@
       </publicationStmt>
       
       <sourceDesc>
+
         <!-- ########## Lista dei luoghi ########## -->
 
         <listPlace>
 
           <place xml:id="Anthaib">
-            <settlement type="locus">Aboedulo</settlement>
-            <district type="nei_pressi-di">Ameglia</district>
+            <region type="settlement_area">
+              <placeName source="#OrigoAuthor" type="norm">Anthaib</placeName>
+              <placeName source="#PaoloDiacono">Anthab</placeName>
+            </region>
+            <location cert="medium">
+              <offset n="1" type="generic">Southeast of</offset>
+              <region>Lüneburg Heath</region>
+              <offset n="2" type="between">between</offset>
+              <region>Hannover</region>
+              <region>Altmark</region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName>Golaidam</placeName>, et postea
+                  possiderunt aldonus <emph><placeName>Anthaib</placeName></emph> et <placeName>Bainaib</placeName> seu
+                  et <placeName>Burgundaib</placeName>.</quote>
+                <ref target="#origo_p_2">Origo 2</ref>
+              </cit>
+            </note>
+          </place>
+
+          <place xml:id="Bainaib">
+            <region type="settlement_area">
+              <placeName source="#OrigoAuthor" type="norm">Bainaib</placeName>
+              <placeName source="#PaoloDiacono">Banthaib</placeName>
+            </region>
+            <location cert="high">
+              <offset></offset>
+              <region></region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote></quote>
+                <ref></ref>
+              </cit>
+            </note>
+          </place>
+          
+          <place xml:id="Golanda">
+            <region type="settlement_area">
+              <placeName source="#PaoloDiacono" type="norm">Golanda</placeName>
+              <placeName source="#OrigoAuthor">Golaida</placeName>
+            </region>
+            <location cert="high">
+              <region>Lüneburg Heath</region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote>Egressi itaque Langobardi de <placeName>Mauringa</placeName>, applicuerunt in
+                  <emph><placeName>Golandam</placeName></emph>, ubi aliquanto tempore commorati, dicuntur post haec
+                  <placeName ref="#Anthaib">Anthab</placeName> et <placeName>Banthaib</placeName>, pari modo et
+                  <placeName ref="#Burgundaib">Vurgundaib</placeName>, per annos aliquot possedisse; quae nos arbitrari
+                  possumus esse vocabula pagorum seu quorumcumque locorum.</quote>
+                <ref target="#HistLang_I_11-13">Hist. Lang. I, 11-13</ref>
+              </cit>
+              <cit>
+                <quote>Et moverunt se exhinde Langobardi, et venerunt in <emph><placeName ref="#Golanda">Golaidam</placeName></emph>,
+                  et postea possiderunt aldonus <placeName ref="#Anthaib">Anthaib</placeName> et <placeName
+                    ref="#Bainaib">Bainaib</placeName> seu et <placeName ref="#Burgundaib"
+                      >Burgundaib</placeName>.</quote>
+                <ref target="#Origo_p_2">Origo 2</ref>
+              </cit>
+            </note>
+          </place>
+
+          <place xml:id="xxx">
+            <region type="settlement_area">
+              <placeName>xxx</placeName>
+            </region>
+            <location cert="high">
+              <offset></offset>
+              <region></region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote></quote>
+                <ref></ref>
+              </cit>
+            </note>
           </place>
 
         </listPlace>
