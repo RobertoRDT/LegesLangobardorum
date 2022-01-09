@@ -93,7 +93,7 @@
 
         <entry xml:id="astalin">
 
-          <!-- Lemma -->
+          <!-- ########  Il lemma  ######## -->
 
           <form type="lemma">
             <orth>astalin</orth>
@@ -113,20 +113,21 @@
           </gramGrp>
           -->
 
-          <!-- Occorrenza del lemma secondo la forma ortografica "standard" -->
+          <!-- ######## Le occorrenze del termine nel testo critico: per prima cosa la forma del lemma ######## -->
 
           <cit type="lemma">
             <ref>MSS 1, 5, 8, 9, 10, 11; Gloss. Matr.</ref><!-- <ref> con @target quando disponibile -->
             <!-- Occorrenza principale nell'ER, ms CV188 -->
+            <!-- NB al momento il target punta alla riga o al paragrafo, in attesa di xml:id per il <term> sopra -->
             <ref target="#CV188_p_019v_7">ER capitolo 7</ref>
           </cit>
           
-          <!-- Forme flesse: si possono collegare al testo con <ref> anche in alternativa al <cit> del lemma  -->
+          <!-- ######## Le occorrenze del termine nel testo critico: le forme flesse ######## -->
 
-          <form type="inflected"><!-- dummy example, astalin è la forma del nominativo -->
+          <form type="inflected">
             <orth>astalin</orth>
             <gramGrp>
-              <case value="nominative"></case> <!-- "nominativo, genitivo, dativo, accusativo, vocativo e ablativo" -->
+              <case value="nominative"></case>
               <number value="singular"/>
             </gramGrp>
             <cit>

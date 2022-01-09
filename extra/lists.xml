@@ -86,6 +86,124 @@
               <placeName source="#OrigoAuthor" type="norm">Bainaib</placeName>
               <placeName source="#PaoloDiacono">Banthaib</placeName>
             </region>
+            <location cert="medium">
+              <offset></offset>
+              <region></region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName ref="#Golanda">Golaidam</placeName>,
+                  et postea possiderunt aldonus <placeName ref="#Anthaib">Anthaib</placeName> et
+                  <emph><placeName>Bainaib</placeName></emph> seu et <placeName
+                    ref="#Burgundaib">Burgundaib</placeName>.</quote>
+                <ref target="#Origo_p_2">Origo 2</ref>
+              </cit>
+              <cit>
+                <quote>Egressi itaque Langobardi de <placeName>Mauringa</placeName>, applicuerunt in
+                  <placeName>Golandam</placeName>, ubi aliquanto tempore commorati, dicuntur post haec
+                  <placeName ref="#Anthaib">Anthab</placeName> et <emph><placeName>Banthaib</placeName></emph>, pari modo et
+                  <placeName ref="#Burgundaib">Vurgundaib</placeName>, per annos aliquot possedisse; quae nos arbitrari
+                  possumus esse vocabula pagorum seu quorumcumque locorum.</quote>
+                <ref target="#HistLang_I_11-13">Hist. Lang. I, 11-13</ref>
+              </cit>
+            </note>
+          </place>
+          
+          <place xml:id="Burgundaib">
+            <region type="settlement_area">
+              <placeName source="#OrigoAuthor" type="norm">Burgundaib</placeName>
+              <placeName source="#PaoloDiacono">Vurgundaib</placeName>
+            </region>
+            <location cert="medium">
+              <offset></offset>
+              <region></region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName ref="#Golanda">Golaidam</placeName>,
+                  et postea possiderunt aldonus <placeName ref="#Anthaib">Anthaib</placeName> et <placeName
+                    ref="#Bainaib">Bainaib</placeName> seu et <emph><placeName>Burgundaib</placeName></emph>.</quote>
+                <ref target="#Origo_p_2">Origo 2</ref>
+              </cit>
+              <cit>
+                <quote>Egressi itaque Langobardi de <placeName>Mauringa</placeName>, applicuerunt in
+                  <placeName>Golandam</placeName>, ubi aliquanto tempore commorati, dicuntur post haec
+                  <placeName ref="#Anthaib">Anthab</placeName> et <placeName>Banthaib</placeName>, pari modo et
+                  <emph><placeName>Vurgundaib</placeName></emph>, per annos aliquot possedisse; quae nos arbitrari
+                  possumus esse vocabula pagorum seu quorumcumque locorum.</quote>
+                <ref target="#HistLang_I_11-13">Hist. Lang. I, 11-13</ref>
+              </cit>
+            </note>
+          </place>
+
+          <place xml:id="Golanda">
+            <region type="settlement_area">
+              <placeName source="#PaoloDiacono" type="norm">Golanda</placeName>
+              <placeName source="#OrigoAuthor">Golaida</placeName>
+            </region>
+            <location cert="high">
+              <region>Lüneburg Heath</region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote>Et moverunt se exhinde Langobardi, et venerunt in <emph><placeName>Golaidam</placeName></emph>,
+                  et postea possiderunt aldonus <placeName ref="#Anthaib">Anthaib</placeName> et <placeName
+                    ref="#Bainaib">Bainaib</placeName> seu et <placeName ref="#Burgundaib"
+                      >Burgundaib</placeName>.</quote>
+                <ref target="#Origo_p_2">Origo 2</ref>
+              </cit>
+              <cit>
+                <quote>Egressi itaque Langobardi de <placeName>Mauringa</placeName>, applicuerunt in
+                  <emph><placeName>Golandam</placeName></emph>, ubi aliquanto tempore commorati, dicuntur post haec
+                  <placeName ref="#Anthaib">Anthab</placeName> et <placeName>Banthaib</placeName>, pari modo et
+                  <placeName ref="#Burgundaib">Vurgundaib</placeName>, per annos aliquot possedisse; quae nos arbitrari
+                  possumus esse vocabula pagorum seu quorumcumque locorum.</quote>
+                <ref target="#HistLang_I_11-13">Hist. Lang. I, 11-13</ref>
+              </cit>
+            </note>
+          </place>
+
+          <place xml:id="Mauringa">
+            <region type="settlement_area">
+              <placeName>xxx</placeName>
+            </region>
+            <location cert="high">
+              <offset></offset>
+              <region></region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote></quote>
+                <ref></ref>
+              </cit>
+            </note>
+          </place>
+
+          <place xml:id="Pannonia">
+            <region type="settlement_area">
+              <placeName>xxx</placeName>
+            </region>
+            <location cert="high">
+              <offset></offset>
+              <region></region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote></quote>
+                <ref></ref>
+              </cit>
+            </note>
+          </place>
+
+          <place xml:id="Rugiland">
+            <region type="settlement_area">
+              <placeName>xxx</placeName>
+            </region>
             <location cert="high">
               <offset></offset>
               <region></region>
@@ -99,34 +217,23 @@
             </note>
           </place>
           
-          <place xml:id="Golanda">
+          <place xml:id="Scoringa">
             <region type="settlement_area">
-              <placeName source="#PaoloDiacono" type="norm">Golanda</placeName>
-              <placeName source="#OrigoAuthor">Golaida</placeName>
+              <placeName>xxx</placeName>
             </region>
             <location cert="high">
-              <region>Lüneburg Heath</region>
+              <offset></offset>
+              <region></region>
               <country type="modern">Germany</country>
             </location>
             <note>
               <cit>
-                <quote>Egressi itaque Langobardi de <placeName>Mauringa</placeName>, applicuerunt in
-                  <emph><placeName>Golandam</placeName></emph>, ubi aliquanto tempore commorati, dicuntur post haec
-                  <placeName ref="#Anthaib">Anthab</placeName> et <placeName>Banthaib</placeName>, pari modo et
-                  <placeName ref="#Burgundaib">Vurgundaib</placeName>, per annos aliquot possedisse; quae nos arbitrari
-                  possumus esse vocabula pagorum seu quorumcumque locorum.</quote>
-                <ref target="#HistLang_I_11-13">Hist. Lang. I, 11-13</ref>
-              </cit>
-              <cit>
-                <quote>Et moverunt se exhinde Langobardi, et venerunt in <emph><placeName ref="#Golanda">Golaidam</placeName></emph>,
-                  et postea possiderunt aldonus <placeName ref="#Anthaib">Anthaib</placeName> et <placeName
-                    ref="#Bainaib">Bainaib</placeName> seu et <placeName ref="#Burgundaib"
-                      >Burgundaib</placeName>.</quote>
-                <ref target="#Origo_p_2">Origo 2</ref>
+                <quote></quote>
+                <ref></ref>
               </cit>
             </note>
           </place>
-
+          
           <place xml:id="xxx">
             <region type="settlement_area">
               <placeName>xxx</placeName>
