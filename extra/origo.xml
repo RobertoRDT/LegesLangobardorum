@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Origo Gentis Langobardorum</title>
+        <author>Anonymous</author>
+        <editor xml:id="Waitz">Waitz, Georg</editor>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Leges Langobardorum Project</authority>
+        <date>2014-</date>
+        <availability>
+          <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Waitz, Georg</editor>
+            <title>Origo Gentis Langobardorum</title>
+            <imprint>
+              <publisher>Hahn</publisher>
+              <pubPlace>Hannover</pubPlace>
+              <date>1878</date>
+            </imprint>
+          </monogr>
+          <series>
+            <title>Scriptores rerum Langobardicarum et Italicarum</title>
+          </series>
+          <ref target="https://www.dmgh.de/mgh_ss_rer_lang_1/index.htm#page/(1)/mode/1up">MGH SS rer. Lang. 1 - Origo
+            Gentis Langobardorum</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    
+    <front>
+      <div resp="#Waitz" type="intro">
+
+        <pb n="1"/>
+
+        <head>Origo Gentis Langobardorum</head>
+
+        <p>Postquam Rothari rex prologo edicti jussu suo compositi seriem regum Langobardorum inseruerat, quam hic
+          repetere noluimus, codici cuidam paulo uberior Langobardorum historia addita est, quae ea congessit
+          memoriaeque tradidit quae de origine et migratione gentis deque regibus priscis aut in ore populi versabantur
+          aut alibi tradita erant. Exstat in tribus edicti codicibus ibique iam a Paulo legebatur,<note n="1">I.21:
+            relegat prologum edicti quem rex Rothari de Langobardorum legibus conposuit, et pene in omnibus hoc
+            codicibus, sicut nos in hac historia inseruimus, scriptum repperiet. Quem cum edicti conjungendum esse,
+            Bethmann, Arch. X, p360, statuit.</note> quem ex hac 'Origine gentis Langobardorum' quam plurima in
+          historiam a se conscriptam transtulisse, Bethmann primus intellexit et luculenter probavit.<note n="2">Arch.
+            l.c. p351 sq.</note> Auctor quiquis fuerit post medium saeculum VII. scripsit<note n="3">Merkel, cod.
+            Mutinensem secutus, qui regi Grimoaldo septem tantum annos tribuit, neque regis Pertari mentionem facit,
+            Originem septimo illius anno (669) compositam esse, statui; cui Bethmann, l.c. p414, et Abel, Vers. germ. p.
+            vii, adstipulati sunt. Neque tamen codicis illius auctoritas tanta est, ut certo certius hoc contendere
+            ausim. Fortasse vero verba: Et post ipsum regnavit Grimoald, nullo annorum numero adjecto, ipsius regis
+            tempore haec scripta esse, arguunt. Baudi di Vesme, Edicta p. lxxi, quae post Rothari regem addita sunt
+            posteriori tempori tribuenda censet et regem illum hanc brevem historiam Edicto praemisisse putat. Sed quae
+            huic obstant sententiae jam alibi monui, Gött. Gel. Anz. 1857, p1586, neque illa conjectura nunc placet. Cf.
+            Bluhme LL. IV, p. cxii.</note> nobisque venerandum antiquitatis monumentum reliquit. Nam praeter gentis
+          originem, qualem veteres narrabant et fortasse cantabant, satis accuratam annorum computationem inde ab
+          Albuini tempore exhibet, jam antea procul dubio litteris datam, sed hic tantum servatam.<note n="4">Quae c. 4
+            de tempore quo a Langobardis Pannonia est relicta, Italia occupata, narrantur et regum singulorum anni certe
+            non ex memoria sumta sunt.</note> Praeter Paulum etiam auctor s. IX. haec exscripsit, qui similem historiae
+          Langobardicae conspectum alii legum codici jam Gothano addidit, quem infra edituri sumus.</p>
+
+        <p>Codices qui exstant sunt: <list>
+            <label>1a)</label>
+            <item>Matritensis regius D.117, s. X, quem Duflot et Knust in usus societatis nostrae verterunt; cf. Bluhme,
+              LL. IV, p. xxvii sq. Origo f.V‑5 scripta est.</item>
+            <label>1b)</label>
+            <item>Cavensis, s. XI. Inc. scriptus, de quo cf. Bluhme, l.c. IV, p. xxx sq. Legitur Origo f. 1‑4; sed f. 2
+              jam deperditum est. Exscrispit Bethmann.</item>
+            <label>2)</label>
+            <item>Mutinensis in archivo canonicorum ecclesiae cathedralis asservatus, s. X. ex., de quo cf. Merkel,
+              Arch. XI, p596; Bluhme l.c. p. xl. Merkelii apographum cum codice iterum, quantum temporis concessi
+              angustia permisit, contulit V. Cl. Heller </item>
+          </list>
+        </p>
+
+        <pb n="2"/>
+
+        <p>Bethmann huius libri textum ceteris praeferendum judicavit (Arch. X, p355) sed in hoc procul dubio falsus
+          est, cum codex non solum satis negligenter exaratus, multis iisque arbitrariis emendationibus scateat, sed non
+          semel etiam veterem et simplicem sermonem mutaverit,<note n="5">habebatque: quae habebat; sol surgente: cum
+            sol surgeret; ad Winniles esset propitia: Winnili(s) esset propitia; ad partem orienti: ad p. orientalem; a
+            parte: ex parte. Et multa ejusmodi.</note> verba omiserit vel addiderit.</p>
+
+        <p>Edita est haec brevis historia cum Legibus Langobardorum a Baudi di Vesme (Mon. patriae V, p5) et Bluhme (LL.
+          IV, p641), quiet codicis Matritensis textui aliorum librorum lectiones subjecit.</p>
+
+        <p>Nunc illo fundamento posito, quantum licuit genuinum lectionem restituere conatus sum. Annotationes paucas
+          adjeci, ex Bethmanni scholis sumtas, qui in rerum Langobardicarum chronologia stabilienda diligenter versatus
+          est, aliis ad Pauli editionem sepositis. Capitum divisionem institui.</p>
+
+        <signed>G. Waitz</signed>
+
+      </div>
+    </front>
+
+    <body>
+      <head>IN NOMINE DOMINI INCIPIT ORIGO GENTIS LANGOBARDORVM</head>
+
+      <p n="1">
+        <w>Est</w>
+        <w>insula</w>
+        <w>qui</w>
+        <w>dicitur</w>
+        <placeName ref="#Scadanan"><w>Scadanan</w></placeName>,
+        <w>quod</w>
+        <w>interpretatur</w>
+        <w>excidia</w>,
+        <w>in</w>
+        <w>partibus</w>
+        <w>aquilonis</w>,
+        <w>ubi</w>
+        <w>multae</w>
+        <w>gentes</w>
+        <w>habitant</w>;
+        <w>inter</w>
+        <w>quos</w>
+        <w>erat</w>
+        <w>gens</w>
+        <w>parva</w>
+        <w>quae</w>
+        <orgName ref="#Winnilis"><w>Winnilis</w></orgName>
+        <w>vocabatur</w>.
+        <w>Et</w>
+        <w>erat</w>
+        <w>cum</w>
+        <w>eis</w>
+        <w>mulier</w>
+        <w>nomine</w>
+        <persName ref="#Gambara"><w>Gambara</w></persName>,
+        <w>habebatque</w>
+        <w>duos</w>
+        <w>filios</w>,
+        <w>nomen</w>
+        <w>uni</w>
+        <persName ref="#Ibor"><w>Ybor</w></persName>
+        <w>et</w>
+        <w>nomen</w>
+        <w>alteri</w>
+        <persName ref="#Agio"><w>Agio</w></persName>;
+        <w>ipsi</w>
+        <w>cum</w>
+        <w>matre</w>
+        <w>sua</w>
+        <w>nomine</w>
+        <persName ref="#Gambara"><w>Gambara</w></persName>
+        <w>principatum</w>
+        <w>tenebant</w>
+        <w>super</w>
+        <orgName ref="#Winnilis"><w>Winniles</w></orgName>.
+        <w>Moverunt</w>
+        <w>se</w>
+        <w>ergo</w>
+        <w>duces</w>
+        <orgName ref="#Wandalis"><w>Wandalorum</w></orgName>,<!-- CHECK @ref per <listOrg> -->
+        <w>id</w>
+        <w>est</w>
+        <persName ref="Ambri"><w>Ambri</w></persName>
+        <w>et</w>
+        <persName ref="Assi"><w>Assi</w></persName>,
+        <w>cum</w>
+        <w>exercitu</w>
+        <w>suo</w>,
+        <w>et</w>
+        <w>dicebant</w>
+        <w>ad</w>
+        <orgName ref="#Winnilis"><w>Winniles</w></orgName>:
+        <q>
+          <w>Aut</w>
+          <w>solvite</w>
+          <w>nobis</w>
+          <w>tributa</w>, <w>aut</w>
+          <w>praeparate</w>
+          <w>vos</w>
+          <w>ad</w>
+          <w>pugnam</w>
+          <w>et</w>
+          <w>pugnate</w>
+          <w>nobiscum</w>.
+        </q>
+        <w>Tunc</w>
+        <w>responderunt</w>
+        <persName ref="#Ibor"><w>Ybor</w></persName>
+        <w>et</w>
+        <persName ref="#Agio"><w>Agio</w></persName>
+        <w>cum</w>
+        <w>matre</w>
+        <w>sua</w>
+        <persName ref="#Gambara"><w>Gambara</w></persName>:
+        <q>
+          <w>Melius</w>
+          <w>est</w>
+          <w>nobis</w>
+          <w>pugnam</w>
+          <w>praeparare</w>,
+          <w>quam</w>
+          <orgName ref="#Wandalis"><w>Wandalis</w></orgName>
+          <w>tributa</w>
+          <w>persolvere</w>.
+        </q>
+        <w>Tunc</w>
+        <persName ref="Ambri"><w>Ambri</w></persName>
+        <w>et</w>
+        <persName ref="Assi"><w>Assi</w></persName>,
+        <w>hoc</w>
+        <w>est</w>
+        <w>duces</w>
+        <orgName ref="#Wandalis"><w>Wandalorum</w></orgName>,
+        <w>rogaverunt</w>
+        <persName ref="#Godan"><w>Godan</w></persName>,
+        <w>ut</w>
+        <w>daret</w>
+        <w>eis</w>
+        <w>super</w>
+        <orgName ref="#Winnilis"><w>Winniles</w></orgName>
+        <w>victoriam</w>.
+        <w>Respondit</w>
+        <persName ref="#Godan"><w>Godan</w></persName>
+        <w>dicens</w>:
+        <q>
+          <w>Quos</w>
+          <w>sol</w>
+          <w>surgente</w>
+          <w>antea</w>
+          <w>videro</w>,
+          <w>ipsis</w>
+          <w>dabo</w>
+          <w>victoriam</w>.
+        </q>
+        <w>Eo</w>
+        <w>tempore</w>
+        <persName ref="#Gambara"><w>Gambara</w></persName>
+        <w>cum</w>
+        <w>duobus</w>
+        <w>filiis</w>
+        <w>suis</w>,
+        <w>id</w>
+        <w>est</w>
+        <persName ref="#Ibor"><w>Ybor</w></persName>
+        <w>et</w>
+        <persName ref="#Agio"><w>Agio</w></persName>,
+        <w>qui</w>
+        <w>principes</w>
+        <w>erant</w>
+        <w>super</w>
+        <orgName ref="#Winnilis"><w>Winniles</w></orgName>,
+        <w>rogaverunt</w>
+        <persName ref="#Frea"><w>Fream</w></persName>,
+        <w>uxorem</w>
+        <persName ref="#Godan"><w>Godam</w></persName>,
+        <w>ut</w>
+        <w>ad</w>
+        <orgName ref="#Winnilis"><w>Winniles</w></orgName>
+        <w>esset</w>
+        <w>propitia</w>.
+        <w>Tunc</w>
+        <persName ref="#Frea"><w>Frea</w></persName>
+        <w>dedit</w>
+        <w>consilium</w>,
+        <w>ut</w>
+        <w>sol</w>
+        <w>surgente</w>
+        <w>venirent</w>
+        <orgName ref="#Winnilis"><w>Winniles</w></orgName>
+        <w>et</w>
+        <w>mulieres</w>
+        <w>eorum</w>
+        <w>crines</w>
+        <w>solutae</w>
+        <w>circa</w>
+        <w>faciem</w>
+        <w>in</w>
+        <w>similitudinem</w>
+        <w>barbae</w>
+        <w>et</w>
+        <w>cum</w>
+        <w>viris</w>
+        <w>suis</w>
+        <w>venirent</w>.
+        <w>Tunc</w>
+        <w>luciscente</w>
+        <w>sol</w>
+        <w>dum</w>
+        <w>surgeret</w>,
+        <w>giravit</w>
+        <persName ref="#Frea"><w>Frea</w></persName>,
+        <w>uxor</w>
+        <persName ref="#Godan"><w>Godan</w></persName>,
+        <w>lectum</w>
+        <w>ubi</w>
+        <w>recumbebat</w>
+        <w>vir</w>
+        <w>eius</w>,
+        <w>et</w>
+        <w>fecit</w>
+        <w>faciem</w>
+        <w>eius</w>
+        <w>contra</w>
+        <w>orientem</w>,
+        <w>et</w>
+        <w>excitavit</w>
+        <w>eum</w>.
+        <w>Et</w>
+        <w>ille</w>
+        <w>aspiciens</w>
+        <w>vidit</w>
+        <orgName ref="#Winnilis"><w>Winniles</w></orgName>
+        <w>et</w>
+        <w>mulieres</w>
+        <w>ipsorum</w>
+        <w>habentes</w>
+        <w>crines</w>
+        <w>solutas</w>
+        <w>circa</w>
+        <w>faciem</w>;
+        <w>et</w>
+        <w>ait</w>:
+        <q>
+          <w>Qui</w>
+          <w>sunt</w>
+          <w>isti</w>
+          <w>longibarbae</w>?
+        </q>
+        <w>Et</w>
+        <w>dixit</w>
+        <persName ref="#Frea"><w>Frea</w></persName>
+        <w>ad</w>
+        <persName ref="#Godan"><w>Godan</w></persName>:
+        <q>
+          <w>Sicut</w>
+          <w>dedisti</w>
+          <w>nomen</w>, <w>da</w>
+          <w>illis</w>
+          <w>et</w>
+          <w>victoriam</w>.
+        </q>
+        <w>Et</w>
+        <w>dedit</w>
+        <w>eis</w>
+        <w>victoriam</w>,
+        <w>ut</w>
+        <w>ubi</w>
+        <w>visum</w>
+        <w>esset</w>
+        <w>vindicarent</w>
+        <w>se</w>
+        <w>et</w>
+        <w>victoriam</w>
+        <w>haberent</w>.
+        <w>Ab</w>
+        <w>illo</w>
+        <w>tempore</w>
+        <orgName ref="#Winnilis"><w>Winnilis</w></orgName>
+        <orgName ref="#Langobardi"><w>Langobardi</w></orgName>
+        <w>vocati</w>
+        <w>sunt</w>.
+      </p>
+
+      <p n="2">
+        <w>Et</w>
+        <w>moverunt</w>
+        <w>se</w>
+        <w>exhinde</w>
+        <orgName ref="#Langobardi"><w>Langobardi</w></orgName>,
+        <w>et</w>
+        <w>venerunt</w>
+        <w>in</w>
+        <placeName ref="#Golaidam"><w>Golanda</w></placeName>,
+        <w>et</w>
+        <w>postea</w>
+        <w>possiderunt</w>
+        <w>aldonus</w>
+        <placeName ref="#Anthaib"><w>Anthaib</w></placeName>
+        <w>et</w>
+        <placeName ref="#Bainaib"><w>Bainaib</w></placeName>
+        <w>seu</w>
+        <w>et</w>
+        <placeName ref="#Burgundaib"><w>Burgundaib</w></placeName>;
+        <w>et</w>
+        <w>dicitur</w>,
+        <w>quia</w>
+        <w>fecerunt</w>
+        <w>sibi</w>
+        <w>regem</w>
+        <w>nomine</w>
+        <persName ref="#Agilmund"><w>Agilmund</w></persName>,
+        <w>filium</w>
+        <persName ref="#Agio"><w>Agioni</w></persName>,
+        <w>ex</w>
+        <w>genere</w>
+        <orgName ref="#Gugingus"><w>Gugingus</w></orgName>.
+        <w>Et</w>
+        <w>post</w>
+        <w>ipsum</w>
+        <w>regnavit</w>
+        <persName ref="#Lamicho"><w>Laiamicho</w></persName>
+        <w>ex</w>
+        <w>genere</w>
+        <orgName ref="#Gugingus"><w>Gugingus</w></orgName>.
+        <w>Et</w>
+        <w>post</w>
+        <w>ipsum</w>
+        <w>regnavit</w>
+        <persName ref="#Lethuc"><w>Lethuc</w></persName>,
+        <w>et</w>
+        <w>dicitur</w>,
+        <w>quia</w>
+        <w>regnasset</w>
+        <w>annos</w>
+        <w>plus</w>
+        <w>minus</w>
+        <w>quadraginta</w>.
+        <w>Et</w>
+        <w>post</w>
+        <w>ipsum</w>
+        <w>regnavit</w>
+        <persName ref="#Hildeoch"><w>Aldihoc</w></persName>,
+        <w>filius</w>
+        <persName ref="#Lethuc"><w>Lethuc</w></persName>.
+        <w>Et</w>
+        <w>post</w>
+        <w>ipsum</w>
+        <w>regnavit</w>
+        <persName ref="#Godehoc"><w>Godehoc</w></persName>.
+      </p>
+
+      <p n="3">
+        <w>Illo</w>
+        <w>tempore</w>
+        <w>exivit</w>
+        <w>rex</w>
+        <persName ref="#Audoachari"><w>Audoachari</w></persName>
+        <w>de</w>
+        <placeName ref="#Ravenna"><w>Ravenna</w></placeName>
+        <w>cum</w>
+        <w>exercitu</w>
+        <orgName ref="#Alani"><w>Alanorum</w></orgName>,
+        <w>et</w>
+        <w>venit</w>
+        <w>in</w>
+        <placeName ref="#Rugiland"><w>Rugilanda</w></placeName>
+        <w>et</w>
+        <w>inpugnavit</w>
+        <orgName ref="#Rugi"><w>Rugos</w></orgName>,
+        <w>et</w>
+        <w>occidit</w>
+        <persName ref="#Theuvane"><w>Theuvane</w></persName>
+        <w>regem</w>
+        <orgName ref="#Rugi"><w>Rugorum</w></orgName>,
+        <w>secumque</w>
+        <w>multos</w>
+        <w>captivos</w>
+        <w>duxit</w>
+        <w>in</w>
+        <placeName ref="#Italia"><w>Italiam</w></placeName>.
+        <w>Tunc</w>
+        <w>exierunt</w>
+        <orgName ref="#Langobardi"><w>Langobardi</w></orgName>
+        <w>de</w>
+        <w>suis</w>
+        <w>regionibus</w>,
+        <w>et</w>
+        <w>habitaverunt</w>
+        <w>in</w>
+        <placeName ref="#Rugiland"><w>Rugilanda</w></placeName>
+        <w>annos</w>
+        <w>aliquantos</w>.
+      </p>
+
+      <p n="4">
+        <w>Post</w>
+        <w>eum</w>
+        <w>regnavit</w>
+        <persName ref="#Claffo"><w>Claffo</w></persName>,
+        <w>filius</w>
+        <persName ref="#Godehoc"><w>Godehoc</w></persName>.
+        <w>Et</w>
+        <w>post</w>
+        <w>ipsum</w>
+        <w>regnavit</w>
+        <persName ref="#Tato"><w>Tato</w></persName>,
+        <w>filius</w>
+        <persName ref="#Claffo"><w>Claffoni</w></persName>.
+        <w>Sederunt</w>
+        <orgName ref="#Langobardi"><w>Langobardi</w></orgName>
+        <w>in</w>
+        <w>campis</w>
+        <placeName ref="#Feld"><w>Feld</w></placeName>
+        <w>annos</w>
+        <w>tres</w>.
+        <w>Pugnavit</w>
+        <persName ref="#Tato"><w>Tato</w></persName>
+        <w>cum</w>
+        <persName ref="#Rodulf"><w>Rodolfo</w></persName>
+        <w>rege</w>
+        <orgName ref="#Heruli"><w>Herulorum</w></orgName>,
+        <w>et</w>
+        <w>occidit</w>
+        <w>eum</w>,
+        <w>tulit</w>
+        <w>vando</w>
+        <w>ipsius</w>
+        <w>et</w>
+        <w>capsidem</w>.
+        <w>Post</w>
+        <w>eum</w>
+        <orgName ref="#Heruli"><w>Heruli</w></orgName>
+        <w>regnum</w>
+        <w>non</w>
+        <w>habuerunt</w>.
+        <w>Et</w>
+        <w>occidit</w>
+        <persName ref="#Wacho"><w>Wacho</w></persName>,
+        <w>filius</w>
+        <persName><w>Unichis</w></persName>,
+        <persName ref="#Tato"><w>Tatonem</w></persName>
+        <w>Regem</w>
+        <w>barbanem</w>
+        <w>suum</w>
+        <w>cum</w>
+        <persName ref="#Zuchilo"><w>Zuchilone</w></persName>.
+        <w>Et</w>
+        <w>pugnavit</w>
+        <persName ref="#Wacho"><w>Wacho</w></persName>,
+        <w>et</w>
+        <w>pugnavit</w>
+        <persName ref="#Ildichis"><w>Ildichis</w></persName>,
+        <w>filius</w>
+        <persName ref="#Tato"><w>Tatoni</w></persName>,
+        <w>et</w>
+        <w>fugit</w>
+        <persName ref="#Ildichis"><w>Ildichis</w></persName>
+        <w>ad</w>
+        <orgName ref="#Gepidi"><w>Gippidos</w></orgName>,
+        <w>ubi</w>
+        <w>mortuus</w>
+        <w>est</w>.
+        <w>Iniuria</w>
+        <w>vindicanda</w>
+        <orgName ref="#Gepidi"><w>Gippidi</w></orgName>
+        <w>scandalum</w>
+        <w>commiserunt</w>
+        <w>cum</w>
+        <orgName ref="#Langobardi"><w>Langobardis</w></orgName>.
+        <w>Eo</w>
+        <w>tempore</w>
+        <w>inclinavit</w>
+        <persName ref="#Wacho"><w>Wacho</w></persName>
+        <orgName ref="#Suebi"><w>Suavos</w></orgName>
+        <w>sub</w>
+        <w>regno</w>
+        <orgName ref="#Langobardi"><w>Langobardorum</w></orgName>.
+        <persName ref="#Wacho"><w>Wacho</w></persName>
+        <w>habuit</w>
+        <w>uxores</w>
+        <w>tres</w>:
+        <persName ref="#Ranicunda"><w>Raicundam</w></persName>, <!-- Radegunda https://www.wikidata.org/wiki/Q2478961 -->
+        <w>filia</w>
+        <persName ref="#Fisud"><w>Fisud</w></persName>
+        <w>regis</w>
+        <orgName ref="#Turingi"><w>Turingorum</w></orgName>;
+        <w>et</w>
+        <w>postea</w>
+        <w>accepit</w>
+        <w>uxorem</w>
+        <persName ref="#Austrigusa"><w>Austrigusa</w></persName>,
+        <w>filiam</w>
+        <orgName ref="#Gepidi"><w>Gippidorum</w></orgName>;
+        <w>et</w>
+        <w>habuit</w>
+        <persName ref="#Wacho"><w>Wacho</w></persName>
+        <w>de</w>
+        <persName ref="#Austrigusa"><w>Austrigusa</w></persName>
+        <w>filias</w>
+        <w>duas</w>,
+        <w>nomen</w>
+        <w>unae</w>
+        <persName ref="#Wisigarda"><w>Wisigarda</w></persName>,
+        <w>quam</w>
+        <w>tradidit</w>
+        <w>in</w>
+        <w>matrimonium</w>
+        <persName ref="#Theudipert"><w>Theudiperti</w></persName>
+        <w>regis</w>
+        <orgName ref="#Franci"><w>Francorum</w></orgName>;
+        <w>et</w>
+        <w>nomen</w>
+        <w>secundae</w>
+        <persName ref="#Walderada"><w>Walderada</w></persName>,
+        <w>quam</w>
+        <w>habuit</w>
+        <w>uxorem</w>
+        <persName ref="#Cusupald"><w>Scusuald</w></persName>
+        <w>rex</w>
+        <orgName ref="#Franci"><w>Francorum</w></orgName>,
+        <w>quam</w>
+        <w>odio</w>
+        <w>habens</w>,
+        <w>tradidit</w>
+        <w>eam</w>
+        <persName ref="#Garipald"><w>Garipald</w></persName>
+        <w>in</w>
+        <w>uxorem</w>.
+        <w>Filia</w>
+        <w>regis</w>
+        <orgName ref="#Heruli"><w>Herulorum</w></orgName>
+        <w>tertiam</w>
+        <w>uxorem</w>
+        <w>habuit</w>
+        <w>nomen</w>
+        <persName ref="#Silinga"><w>Silinga</w></persName>;
+        <w>de</w>
+        <w>ipsa</w>
+        <w>habuit</w>
+        <w>filium</w>
+        <w>nomine</w>
+        <persName ref="#Waltari"><w>Waltari</w></persName>.
+        <w>Mortuus</w>
+        <w>est</w>
+        <persName ref="#Wacho"><w>Wacho</w></persName>,
+        <w>et</w>
+        <w>regnavit</w>
+        <w>filius</w>
+        <w>ipsius</w>
+        <persName ref="#Waltari"><w>Waltari</w></persName>
+        <w>annos</w>
+        <w>septem</w>;
+        <w>farigaidus</w>:
+        <w>isti</w>
+        <w>omnes</w>
+        <orgName ref="#Lethingi"><w>Lethinges</w></orgName>
+        <w>fuerunt</w>.
+      </p>
+
+      <p n="5">
+        <w>Et</w>
+        <w>post</w>
+        <persName ref="#Waltari"><w>Waltari</w></persName>
+        <w>regnavit</w>
+        <persName ref="#Audoin"><w>Auduin</w></persName>;
+        <w>ipse</w>
+        <w>adduxit</w>
+        <orgName ref="#Langobardi"><w>Langobardos</w></orgName>
+        <w>in</w>
+        <placeName ref="#Pannonia"><w>Pannonia</w></placeName>.
+        <w>Et</w>
+        <w>regnavit</w>
+        <persName ref="#Alboin"><w>Albuin</w></persName>,
+        <w>filius</w>
+        <w>ipsius</w>,
+        <w>post</w>
+        <w>eum</w>,
+        <w>cui</w>
+        <w>mater</w>
+        <w>est</w>
+        <persName ref="#Rodelinda"><w>Rodelenda</w></persName>.
+        <w>Eo</w>
+        <w>tempore</w>
+        <w>pugnavit</w>
+        <persName ref="#Alboin"><w>Albuin</w></persName>
+        <w>cum</w>
+        <w>rege</w>
+        <orgName ref="#Gepidi"><w>Gippidorum</w></orgName>
+        <w>nomine</w>
+        <persName ref="#Cunimund"><w>Cunimund</w></persName>,
+        <w>et</w>
+        <w>mortuus</w>
+        <w>est</w>
+        <persName ref="#Cunimund"><w>Cunimund</w></persName>
+        <w>in</w>
+        <w>ipsa</w>
+        <w>pugna</w>,
+        <w>et</w>
+        <w>debellati</w>
+        <w>sunt</w>
+        <orgName ref="#Gepidi"><w>Gippidis</w></orgName>.
+        <w>Tulit</w>
+        <persName ref="#Alboin"><w>Albuin</w></persName>
+        <w>uxore</w>
+        <persName ref="#Rosemunda"><w>Rosemunda</w></persName>,
+        <w>filia</w>
+        <persName ref="#Cunimund"><w>Cunimundi</w></persName>,
+        <w>quae</w>
+        <w>praedaverat</w>,
+        <w>quia</w>
+        <w>iam</w>
+        <w>mortua</w>
+        <w>fuerat</w>
+        <w>uxor</w>
+        <w>ipsius</w>
+        <persName><w>Flutsuinda</w></persName>,
+        <w>quae</w>
+        <w>fuit</w>
+        <w>filia</w>
+        <persName><w>Flothario</w></persName>
+        <w>regis</w>
+        <orgName ref="#Franci"><w>Francorum</w></orgName>;
+        <w>de</w>
+        <w>qua</w>
+        <w>habuit</w>
+        <w>filia</w>
+        <w>nomine</w>
+        <persName><w>Albsuinda</w></persName>.
+        <w>Et</w>
+        <w>habitaverunt</w>
+        <orgName ref="#Langobardi"><w>Langobardi</w></orgName>
+        <w>in</w>
+        <placeName ref="#Pannonia"><w>Pannonia</w></placeName>
+        <w>annis</w>
+        <w>quadraginta</w>
+        <w>duo</w>.
+        <w>Ipse</w>
+        <persName ref="#Alboin"><w>Albuin</w></persName>
+        <w>adduxit</w>
+        <orgName ref="#Langobardi"><w>Langobardos</w></orgName>
+        <w>in</w>
+        <placeName ref="#Italia"><w>Italia</w></placeName>,
+        <w>invitatos</w>
+        <w>a</w>
+        <persName><w>Narsete</w></persName>
+        <w>scribarum</w>;
+        <w>et</w>
+        <w>movit</w>
+        <persName ref="#Alboin"><w>Albuin</w></persName>
+        <w>rex</w>
+        <orgName ref="#Langobardi"><w>Langobardorum</w></orgName>
+        <w>de</w>
+        <placeName ref="#Pannonia"><w>Pannonia</w></placeName>
+        <w>mense</w>
+        <w>aprilis</w>
+        <w>a</w>
+        <w>pascha</w>
+        <w>indictione</w>
+        <w>prima</w>.
+        <w>Secunda</w>
+        <w>vero</w>
+        <w>indictione</w>
+        <w>coeperunt</w>
+        <w>praedare</w>
+        <w>in</w>
+        <placeName ref="#Italia"><w>Italia</w></placeName>.
+        <w>Tertia</w>
+        <w>autem</w>
+        <w>indictione</w>
+        <w>factus</w>
+        <w>est</w>
+        <w>dominus</w>
+        <placeName ref="#Italia"><w>Italiae</w></placeName>.
+        <w>Regnavit</w>
+        <persName ref="#Alboin"><w>Albuin</w></persName>
+        <w>in</w>
+        <placeName ref="#Italia"><w>Italia</w></placeName>
+        <w>annos</w>
+        <w>tres</w>,
+        <w>et</w>
+        <w>occisus</w>
+        <w>est</w>
+        <w>in</w>
+        <placeName ref="#Verona"><w>Verona</w></placeName>
+        <w>in</w>
+        <w>palatio</w>
+        <w>ab</w>
+        <persName ref="#Hilmichis"><w>Hilmichis</w></persName>
+        <w>et</w>
+        <persName ref="#Rosemunda"><w>Rosemunda</w></persName>
+        <w>uxore</w>
+        <w>sua</w>
+        <w>per</w>
+        <w>consilium</w>
+        <persName><w>Peritheo</w></persName>.
+        <w>Voluit</w>
+        <w>regnare</w>
+        <persName ref="#Hilmichis"><w>Hilmichis</w></persName>,
+        <w>et</w>
+        <w>non</w>
+        <w>potuit</w>,
+        <w>quia</w>
+        <w>volebant</w>
+        <w>eum</w>
+        <orgName ref="#Langobardi"><w>Langobardi</w></orgName>
+        <w>occidere</w>.
+        <w>Tunc</w>
+        <w>mandavit</w>
+        <persName ref="#Rosemunda"><w>Rosemunda</w></persName>
+        <w>ad</w>
+        <persName ref="#Longinus"><w>Longinum</w></persName>
+        <w>praefectum</w>,
+        <w>ut</w>
+        <w>eam</w>
+        <w>reciperet</w>
+        <placeName><w>Ravenna</w></placeName>.
+        <w>Mox</w>
+        <w>ut</w>
+        <w>audivit</w>
+        <persName ref="#Longinus"><w>Longinus</w></persName>,
+        <w>gavisus</w>
+        <w>est</w>,
+        <w>misit</w>
+        <w>navem</w>
+        <w>angarialem</w>,
+        <w>et</w>
+        <w>tulerunt</w>
+        <persName ref="#Rosemunda"><w>Rosemunda</w></persName>
+        <w>et</w>
+        <persName ref="#Hilmichis"><w>Hilmichis</w></persName>
+        <w>et</w>
+        <persName><w>Albsuindam</w></persName>,
+        <w>filia</w>
+        <persName ref="#Alboin"><w>Albuin</w></persName>
+        <w>regis</w>,
+        <w>et</w>
+        <w>omnes</w>
+        <w>thesauros</w>
+        <orgName ref="#Langobardi"><w>Langobardorum</w></orgName>
+        <w>secum</w>
+        <w>duxerunt</w>
+        <w>in</w>
+        <placeName><w>Ravenna</w></placeName>.
+        <w>Tunc</w>
+        <w>ortare</w>
+        <w>coepit</w>
+        <persName ref="#Longinus"><w>Longinus</w></persName>
+        <w>praefectus</w>
+        <persName ref="#Rosemunda"><w>Rosemunda</w></persName>,
+        <w>ut</w>
+        <w>occideret</w>
+        <persName ref="#Hilmichis"><w>Hilmichis</w></persName>
+        <w>et</w>
+        <w>esset</w>
+        <w>uxor</w>
+        <persName ref="#Longinus"><w>Longini</w></persName>.
+        <w>Audito</w>
+        <w>consilium</w>
+        <w>ipsius</w>,
+        <w>temperavit</w>
+        <w>venenum</w>,
+        <w>et</w>
+        <w>post</w>
+        <w>valneum</w>
+        <w>dedit</w>
+        <w>ei</w>
+        <w>in</w>
+        <w>caldo</w>
+        <w>bibere</w>.
+        <w>Cumque</w>
+        <w>bibisset</w>
+        <persName ref="#Hilmichis"><w>Hilmichis</w></persName>,
+        <w>intellexit</w>,
+        <w>quod</w>
+        <w>malignum</w>
+        <w>bibisset</w>;
+        <w>praecepit</w>,
+        <w>ut</w>
+        <w>ipsa</w>
+        <persName ref="#Rosemunda"><w>Rosemunda</w></persName>
+        <w>biberet</w>
+        <w>invita</w>;
+        <w>et</w>
+        <w>mortui</w>
+        <w>sunt</w>
+        <w>ambo</w>.
+        <w>Tunc</w>
+        <persName ref="#Longinus"><w>Longinus</w></persName>
+        <w>praefectus</w>
+        <w>tulit</w>
+        <w>thesauros</w>
+        <orgName ref="#Langobardi"><w>Langobardorum</w></orgName>,
+        <w>et</w>
+        <persName><w>Albsuinda</w></persName>,
+        <w>filia</w>
+        <persName ref="#Alboin"><w>Albuin</w></persName>
+        <w>regis</w>,
+        <w>iussit</w>
+        <w>ponere</w>
+        <w>in</w>
+        <w>navem</w>
+        <w>et</w>
+        <w>transmisit</w>
+        <w>eam</w>
+        <placeName><w>Constantinopolim</w></placeName>
+        <w>ad</w>
+        <w>imperatorem</w>.
+      </p>
+
+      <p n="6">
+        <w>Reliqui</w>
+        <orgName ref="#Langobardi"><w>Langobardi</w></orgName>
+        <w>levaverunt</w>
+        <w>sibi</w>
+        <w>regem</w>
+        <w>nomine</w>
+        <persName><w>Cleph</w></persName>
+        <w>de</w>
+        <orgName><w>Beleos</w></orgName>,
+        <w>et</w>
+        <w>regnavit</w>
+        <persName><w>Cleph</w></persName>
+        <w>annos</w>
+        <w>duos</w>,
+        <w>et</w>
+        <w>mortuus</w>
+        <w>est</w>.
+        <w>Et</w>
+        <w>iudicaverunt</w>
+        <w>duces</w>
+        <orgName ref="#Langobardi"><w>Langobardorum</w></orgName>
+        <w>annos</w>
+        <w>duodecim</w>;
+        <w>posthaec</w>
+        <w>levaverunt</w>
+        <w>sibi</w>
+        <w>regem</w>
+        <w>nomine</w>
+        <persName><w>Autarine</w></persName>,
+        <w>filio</w>
+        <persName ref="#Claffo"><w>Claffoni</w></persName>;
+        <w>et</w>
+        <w>accepit</w>
+        <w>Autari</w>
+        <w>uxorem</w>
+        <persName><w>Theudelenda</w></persName>,
+        <w>filia</w>
+        <persName><w>Garipald</w></persName>
+        <w>et</w>
+        <persName><w>Walderade</w></persName>
+        <w>de</w>
+        <placeName><w>Baiuaria</w></placeName>.
+        <w>Et</w>
+        <w>venit</w>
+        <w>cum</w>
+        <persName><w>Theudelenda</w></persName>
+        <w>frater</w>
+        <w>ipsius</w>
+        <w>nomine</w>
+        <persName><w>Gundoald</w></persName>,
+        <w>et</w>
+        <w>ordinavit</w>
+        <w>eum</w>
+        <persName><w>Autari</w></persName>
+        <w>rex</w>
+        <w>ducem</w>
+        <w>in</w>
+        <w>civitatem</w>
+        <placeName><w>Astense</w></placeName>.
+        <w>Et</w>
+        <w>regnavit</w>
+        <persName><w>Autari</w></persName>
+        <w>annos</w>
+        <w>septem</w>.
+        <w>Et</w>
+        <w>exivit</w>
+        <persName><w>Acquo</w></persName>
+        <w>dux</w>
+        <placeName><w>Turingus</w></placeName>
+        <w>de</w>
+        <placeName><w>Thaurinis</w></placeName>,
+        <w>et</w>
+        <w>iunxit</w>
+        <w>se</w>
+        <persName><w>Theudelendae</w></persName>
+        <w>reginae</w>,
+        <w>et</w>
+        <w>factus</w>
+        <w>est</w>
+        <w>rex</w>
+        <orgName ref="#Langobardi"><w>Langobardorum</w></orgName>;
+        <w>et</w>
+        <w>occidit</w>
+        <w>duces</w>
+        <w>revelles</w>
+        <w>suos</w>,
+        <persName><w>Zangrolf</w></persName>
+        <w>de</w>
+        <placeName><w>Verona</w></placeName>,
+        <persName><w>Mimulf</w></persName>
+        <w>de</w>
+        <placeName><!-- CHECK -->
+          <w>insula</w>
+          <w>Sancti</w>
+          <w>Iuliani</w>
+        </placeName>
+        <w>et</w>
+        <persName><w>Gaidulf</w></persName>
+        <w>de</w>
+        <placeName><w>Bergamum</w></placeName>,
+        <w>et</w>
+        <w>alios</w>
+        <w>qui</w>
+        <w>revelles</w>
+        <w>fuerunt</w>;
+        <w>et</w>
+        <w>genuit</w>
+        <w>Acquo</w>
+        <w>de</w>
+        <persName><w>Theodelenda</w></persName>
+        <w>filiam</w>
+        <w>nomine</w>
+        <persName><w>Gunperga</w></persName>.
+        <w>Et</w>
+        <w>regnavit</w>
+        <persName><w>Acquo</w></persName>
+        <w>annos</w>
+        <w>VI</w>.
+        <w>Et</w>
+        <w>post</w>
+        <w>ipso</w>
+        <w>regnavit</w>
+        <persName><w>Aroal</w></persName>
+        <w>annos</w>
+        <w>duodecim</w>.
+        <w>Et</w>
+        <w>post</w>
+        <w>ipso</w>
+        <w>regnavit</w>
+        <persName><w>Rothari</w></persName>
+        <w>ex</w>
+        <w>genere</w>
+        <orgName><w>Arodus</w></orgName>,
+        <w>et</w>
+        <w>rupit</w>
+        <w>civitatem</w>
+        <w>vel</w>
+        <w>castra</w>
+        <orgName><w>Romanorum</w></orgName>
+        <w>quae</w>
+        <w>fuerunt</w>
+        <w>circa</w>
+        <w>litora</w>
+        <w>apriso</w>
+        <placeName><w>Lune</w></placeName>
+        <w>usque</w>
+        <w>in</w>
+        <w>terra</w>
+        <orgName ref="#Franci"><w>Francorum</w></orgName>
+        <w>quam</w>
+        <placeName><w>Ubitergium</w></placeName>
+        <w>ad</w>
+        <w>partem</w>
+        <w>orienti</w>,
+        <w>et</w>
+        <w>pugnavit</w>
+        <w>circa</w>
+        <w>fluvium</w>
+        <placeName><w>Scultenna</w></placeName>, <!-- CHECK includere fluvium? -->
+        <w>et</w>
+        <w>ceciderunt</w>
+        <w>a</w>
+        <w>parte</w>
+        <orgName><w>Romanorum</w></orgName>
+        <w>octo</w>
+        <w>milia</w>
+        <w>numerus</w>.
+      </p>
+
+      <p n="7">
+        <w>Et</w>
+        <w>regnavit</w>
+        <persName><w>Rothari</w></persName>
+        <w>annos</w>
+        <w>decem</w>
+        <w>et</w>
+        <w>septem</w>.
+        <w>Et</w>
+        <w>post</w>
+        <w>ipsum</w>
+        <w>regnavit</w>
+        <persName><w>Aripert</w></persName>
+        <w>annos</w>
+        <w>novem</w>.
+        <w>Et</w>
+        <w>post</w>
+        <w>ipsum</w>
+        <w>regnavit</w>
+        <persName><w>Grimoald</w></persName>.
+        <w>Eo</w>
+        <w>tempore</w>
+        <w>exivit</w>
+        <persName><w>Constantinus</w></persName>
+        <w>imperator</w>
+        <w>de</w>
+        <placeName><w>Constantinopolim</w></placeName>,
+        <w>et</w>
+        <w>venit</w>
+        <w>in</w>
+        <w>partes</w>
+        <placeName><w>Campaniae</w></placeName>,
+        <w>et</w>
+        <w>regressus</w>
+        <w>est</w>
+        <w>in</w>
+        <placeName><w>Sicilia</w></placeName>,
+        <w>et</w>
+        <w>occisus</w>
+        <w>est</w>
+        <w>a</w>
+        <w>suis</w>.
+        <w>Et</w>
+        <w>regnavit</w>
+        <persName><w>Grimoald</w></persName>
+        <w>annos</w>
+        <w>novem</w>;
+        <w>et</w>
+        <w>post</w>
+        <w>regnavit</w>
+        <persName><w>Berthari</w></persName>.
+      </p>
+
+    </body>
+  </text>
+</TEI>
