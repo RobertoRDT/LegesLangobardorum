@@ -60,7 +60,13 @@
         
         <!-- 
         
-          - inserire i riferimenti LOD in maniera più sistematica nelle voci (= non semplicemente in nota)
+          - inserire i riferimenti LOD in maniera più sistematica nelle voci (= non semplicemente in nota), ad esempio:
+          
+            <idno type="wikidata-id">Q868</idno>
+            <idno type="VIAF">7524651</idno>
+            
+            meglio però includere l'URL? <idno source="http://viaf.org/viaf/7524651" type="VIAF">7524651</idno>
+            oppure: <idno type="URI" subtype="VIAF">http://viaf.org/viaf/7524651</idno>
           - nelle note mantenere i riferimenti a testi enciclopedici e simili, basta che siano human readable 
             (= Wikipedia sì, DBpedia no)
           

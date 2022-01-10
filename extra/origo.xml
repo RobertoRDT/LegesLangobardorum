@@ -797,7 +797,7 @@
         <w>ut</w>
         <w>eam</w>
         <w>reciperet</w>
-        <placeName><w>Ravenna</w></placeName>.
+        <placeName ref="#Ravenna"><w>Ravenna</w></placeName>.
         <w>Mox</w>
         <w>ut</w>
         <w>audivit</w>
@@ -824,7 +824,7 @@
         <w>secum</w>
         <w>duxerunt</w>
         <w>in</w>
-        <placeName><w>Ravenna</w></placeName>.
+        <placeName ref="#Ravenna"><w>Ravenna</w></placeName>.
         <w>Tunc</w>
         <w>ortare</w>
         <w>coepit</w>
