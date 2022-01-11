@@ -70,7 +70,7 @@
 
   <!-- Occorrenze all'interno di <text>:
 
-  <term xml:id="CV188_term_astalin" xml:lang="lng" target="#astalin">
+  <term xml:id="CV188_term_astalin" xml:lang="lng" target="#astalin"> target o corresp?
       <w xml:id="CV188_word_astalin">astalin</w>
   </term>
   <gloss xml:id="CV188_gloss_astalin">id est....</gloss> 
@@ -102,7 +102,7 @@
           <gramGrp>
             <pos value="noun"/>
             <gen value="feminine"/>
-            <iType type="theme">-i</iType> <!-- oppure <iType type="theme" value="-i"></iType> -->
+            <iType type="theme" value="-i"/> <!-- oppure <iType type="theme">-i</iType>  -->
           </gramGrp>
 
           <!-- se si tratta di un verbo:
@@ -113,13 +113,18 @@
           </gramGrp>
           -->
 
+          <!-- Termine attuale se esiste in una lingua
+          <form type="current"> 
+            <usg type="time">current</usg>
+            <orth xml:lang="ita">battifredo</orth>
+          </form> -->
+
           <!-- ######## Le occorrenze del termine nel testo critico: per prima cosa la forma del lemma ######## -->
 
           <cit type="lemma">
             <ref>MSS 1, 5, 8, 9, 10, 11; Gloss. Matr.</ref><!-- <ref> con @target quando disponibile -->
             <!-- Occorrenza principale nell'ER, ms CV188 -->
-            <!-- NB al momento il target punta alla riga o al paragrafo, in attesa di xml:id per il <term> sopra -->
-            <ref target="#CV188_p_019v_7">ER capitolo 7</ref>
+            <ref target="#CV188_term_astalin">ER capitolo 7</ref>
           </cit>
           
           <!-- ######## Le occorrenze del termine nel testo critico: le forme flesse ######## -->
@@ -131,7 +136,9 @@
               <number value="singular"/>
             </gramGrp>
             <cit>
-              <ref target="#CV188_p_019v_7">ER capitolo 7</ref>
+              <!-- NB per occorrenze diverse da quella del <term> il target punta all'elemento <w> corrispondente  -->
+              <!-- NB se non si usa <term> punterà sempre a un elemento <w> -->
+              <ref target="#CV188_word_astalin">ER capitolo 7</ref>
             </cit>
           </form>
 

@@ -57,7 +57,7 @@
 
                     <head>Lista di tutti i testimoni</head>
 
-                    <listWit xml:id="main">
+                    <listWit xml:id="main"><!-- change into sthing more explicit -->
 
                         <witness xml:id="B1">Codex Sangallensis 730</witness>
 
