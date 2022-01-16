@@ -132,6 +132,7 @@
           <form type="inflected">
             <orth>astalin</orth>
             <gramGrp>
+              <pos value="noun"/>
               <case value="nominative"></case>
               <number value="singular"/>
             </gramGrp>
@@ -144,6 +145,7 @@
 
           <!-- se si tratta di un verbo:
           <gramGrp>
+              <pos value="verb"/>
               <per value="2"/>
               <number value="singular"/>
               <tns value="present"/>
