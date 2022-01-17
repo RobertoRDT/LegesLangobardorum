@@ -166,7 +166,7 @@
           
           <sense><!--  n="1" etc. nel caso ci siano più significati possibili -->
             <def>Tradimento, fuga o abbandono dei compagni in battaglia.</def>
-            <xr type="see">V. <ref target="#xxxx">xxxx</ref></xr>
+            <xr type="see">V. <ref target="#xxxx">xxxx</ref></xr><!-- cross-reference interna al glossario -->
           </sense>
                     
           <!-- Le occorrenze e le relative glosse in altri testi -->
@@ -183,11 +183,6 @@
             </cit>
           </cit>
 
-          <!-- Una nota di commento/spiegazione relativa al termine -->
-
-          <note type="general">Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
-            corrispondente.</note>
-
           <!-- Etimologia -->
           
           <etym>Formazione deverbale basata sul prefisso <m>a-</m>, <m>an-</m> unito alla radice del verbo
@@ -197,6 +192,11 @@
             <xr type="etym">Etimologicamente connesso con <ptr target="#yyyy"/></xr>
           </etym>
 
+          <!-- Una nota di commento/spiegazione relativa al termine -->
+          
+          <note type="general">Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
+            corrispondente.</note>
+          
           <!-- Riferimenti bibliografici -->
 
           <note type="biblio">
