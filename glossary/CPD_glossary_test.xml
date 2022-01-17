@@ -54,9 +54,9 @@
             </gramGrp>
             <!-- se si tratta di un verbo:
                <gramGrp>
-                 <pos value="verb"></pos>
-                 <iType type="verb" value="weak"></iType>
-                 <subc value="transitive"></subc>
+                 <pos value="verb"/>
+                 <iType type="verb" value="weak"/>
+                 <subc value="transitive"/>
                </gramGrp>
             -->
           </form>
@@ -65,6 +65,7 @@
           <form type="inflected">
             <orth xml:id="betefredum">betefredum</orth>
             <gramGrp>
+              <pos value="noun"/>
               <case value="accusative"/>
               <number value="singular"/>
             </gramGrp>
