@@ -6,7 +6,6 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Terminologia del Codice Pelavicino [TEST FILE]</title>
-        <title type="sub">Betefredus</title>
         <respStmt>
           <resp>A cura di:</resp>
           <name>Enrica Salvatori</name>
@@ -85,16 +84,18 @@
 
           <!-- Etimologia -->
           <etym>Oggetto relativo all'architettura militare. Non è completamente chiara la sua forma, né la sua
-            etimologia. Il <ref source="#BATTAGLIA_1961">Battaglia</ref> lo fa derivare dall’unione dei termini tedeschi
+            etimologia. Il <ref target="#BATTAGLIA_1961">Battaglia</ref> lo fa derivare dall’unione dei termini tedeschi
               <mentioned xml:lang="ted">bergen</mentioned>, 'difendere', e <mentioned xml:lang="ted">friede</mentioned>,
-            'pace', 'tranquillità', 'sicurezza'. <milestone unit="line"/> Il <ref source="#CORI_1874">Cori</ref>,
+            'pace', 'tranquillità', 'sicurezza'.
+            <lb/>Il <ref target="#CORI_1874">Cori</ref>,
             dall’alto tedesco moderno <mentioned xml:lang="ted">belfried</mentioned>, medio alto tedesco <mentioned
               xml:lang="ted">bervrit</mentioned> o <mentioned xml:lang="ted">berevrit</mentioned> (ant. franco
               <mentioned xml:lang="fr">bergfrid</mentioned>), composto di <mentioned>berc</mentioned> o
               <mentioned>berg</mentioned>, 'torre' (da <mentioned>bergen</mentioned>, 'coprire', 'riparare', prop.
             'riparo'), e dalla radice <mentioned>vrit</mentioned> o <mentioned>fred</mentioned> col senso di
             'conservare' da cui il tedesco <mentioned>fried</mentioned> 'pace', 'tranquillità', 'salvaguardia', 'difesa'
-            a voler significare 'torre di difesa'. <milestone unit="line"/> Il termine sarebbe passato poi nel latino
+            a voler significare 'torre di difesa'.
+            <lb/>Il termine sarebbe passato poi nel latino
             volgare come <mentioned xml:lang="lat">berfredus</mentioned> / <mentioned xml:lang="lat"
               >belfredus</mentioned>, da cui il volgare <mentioned xml:lang="lat">battifredus</mentioned>. Tuttavia si
             potrebbe anche pensare che il volgare <mentioned>battifredum</mentioned> derivi dalle voci germaniche
@@ -102,16 +103,19 @@
               >batŭere</mentioned>, da <mentioned xml:lang="lat">bātŭo</mentioned>, it. 'stare di fronte, davanti';
             'battere' nelle accezioni 'colpire', 'castigare', 'rompere'), e <mentioned>fried</mentioned>,
             'tranquillità', 'sicurezza', dal probabile senso di 'struttura che si pone davanti a un pericolo per
-            difendere la tranquillità interna'.</etym>
+            difendere la tranquillità interna'.
+          </etym>
 
           <!-- Descrizione del termine -->
           <note type="desc">Dalle fonti emerge sia come struttura autonoma, anche in legno, lontana dalla fortificazione
-            principale, assimilabile a una torre (<ref source="#COSTA_1571">Statuti di Pontremoli</ref>; <ref
+            principale, assimilabile a una torre (<ref target="#COSTA_1571">Statuti di Pontremoli</ref>; <ref
               source="#COSTA_1814">Chartarium Dertonense</ref>), sia come torre principale del castello assimilabile al
-            mastio (<ref source="#CORI_1874">CORI 1874</ref>). <milestone unit="line"/> In area francese il termine
+            mastio (<ref target="#CORI_1874">CORI 1874</ref>).
+            <lb/>In area francese il termine
             diventa <mentioned>beffroi</mentioned> e indica sia una torre in legno su ruote usata per gli attacchi, sia
             la torre più alta della città, dove le guardie sorvegliavano i dintorni e che ospitava la campana per
-            lanciare l’allarme, in seguito i grandi orologi civici (<ref source="#LAROUSSE_1999">LAROUSSE 1999</ref>). </note>
+            lanciare l’allarme, in seguito i grandi orologi civici (<ref target="#LAROUSSE_1999">LAROUSSE 1999</ref>).
+          </note>
 
           <!-- Riferimenti bibliografici -->
           <note type="biblio">
@@ -130,7 +134,7 @@
           <!-- Riferimenti a documenti dove si trova il termine -->
           <cit type="concordances">
             <cit>
-              <quote xml:lang="lat">Turrim, casaturrim, dugnonem, <term type="kwic">betefredum</term>, et castellum
+              <quote xml:lang="lat">Turrim, casaturrim, dugnonem, <mentioned>betefredum</mentioned>, et castellum
                 neque aliam forticiam sive de terra sive de lignis sive de petris sive de muro sive de aliqua alia
                 materia.</quote>
               <!-- MANCA LINK ALLA PAGINA DEL DOCUMENTO ONLINE, DOVE SI TROVA IL TERMINE -->
@@ -169,11 +173,13 @@
               xml:lang="ted">friede</mentioned>, antico <mentioned xml:lang="ted">frithu</mentioned> (antico francese
               <mentioned>palefreid</mentioned>, <mentioned>palefroi</mentioned>), latino medievale
               <mentioned>fridus</mentioned> o <mentioned>fredum</mentioned>, qui nell’accezione di 'tranquillità',
-            'sicurezza'.</etym>
+            'sicurezza'.
+          </etym>
 
           <!-- Descrizione -->
           <note type="desc">Si tratta di un termine usato per indicare gli equini, in particolare il cavallo nobile da
-            sella usato per lo più per il viaggio o per la parata. </note>
+            sella usato per lo più per il viaggio o per la parata.
+          </note>
 
           <!-- Riferimenti bibliografici -->
           <note type="biblio">
@@ -184,7 +190,7 @@
           <!-- Riferimenti a documenti dove si trova il termine -->
           <cit type="concordances">
             <cit>
-              <quote xml:lang="lat">Et postea donavit idem abbas episcopo Alberto <term type="kwic">palafredum</term>
+              <quote xml:lang="lat">Et postea donavit idem abbas episcopo Alberto <mentioned>palafredum</mentioned>
                 falanum donavit.</quote>
               <!-- MANCA LINK ALLA PAGINA DEL DOCUMENTO ONLINE, DOVE SI TROVA IL TERMINE -->
               <ref target="#doc"/>
@@ -230,7 +236,7 @@
           <etym> 
             I termini <mentioned>iscaria</mentioned> e <mentioned>scarius</mentioned>
             o <mentioned>iscarius</mentioned>, derivano dal longobardo
-            <mentioned>*skarjan</mentioned> (<ref source="#ONESTI">Francovich
+            <mentioned>*skarjan</mentioned> (<ref target="#ONESTI">Francovich
               Onesti</ref>) col quale si identificava una funzione e un ruolo
             attestato nell’editto di Rotari (643) poi ripreso dalle leggi di Liutprando
             (713-715) (<ref target="#PERTILE_1873">Pertile</ref>). 
@@ -241,23 +247,22 @@
             Il termine nel periodo longobardo si riferisce alle funzioni
             di ufficiali minori dell’amministrazione longobarda; il suo uso tuttavia
             perdura nel tempo e si ritrova in numerosi testi normativi del pieno e basso
-            medioevo. <milestone unit="line"/>
-            Nel Trentino ancora fino alla fine del secolo scorso si denominava
+            medioevo.
+            <lb/>Nel Trentino ancora fino alla fine del secolo scorso si denominava
             <mentioned>scario</mentioned> il capo del comune di Fiemme. Possiamo
             dire genericamente che nel Medioevo l’<mentioned>iscaria</mentioned> era un
             ufficio attinente al potere pubblico ed retto da un funzionario detto
             appunto <mentioned>scario</mentioned> o <mentioned>iscario</mentioned>; 
-            norme differenti da luogo a luogo ne
-            regolavano la nomina, le funzioni e la durata del mandato. <milestone unit="line"/> 
-            Nel documento emanato in Sarzanello il 3 aprile 1212, il vescovo di Luni
+            norme differenti da luogo a luogo ne regolavano la nomina, le funzioni e la durata del mandato. 
+            <lb/>Nel documento emanato in Sarzanello il 3 aprile 1212, il vescovo di Luni
             conferma e rinnova agli <mentioned>operarii</mentioned> della corte di
             Sarzana alcune concessioni fatte dai suoi predecessori consistenti nella
             franchigia sulla <mentioned>caneva</mentioned>, sulla
             <mentioned>castaldia</mentioned> e sull’<mentioned>iscaria</mentioned>
             in cambio di prestazioni gratuite; fra queste quella di ricoprire per il
             periodo di un anno l’incarico di <mentioned>scario</mentioned> a fronte del
-            quale sarebbero stati ricompensati con un feudo. <milestone unit="line"/> 
-            Dal medesimo testo si ricava inoltre che lo <mentioned>scario</mentioned> veniva nominato dal
+            quale sarebbero stati ricompensati con un feudo. 
+            <lb/>Dal medesimo testo si ricava inoltre che lo <mentioned>scario</mentioned> veniva nominato dal
             vescovo o dai <mentioned>curiales</mentioned> e che doveva essercene almeno
             uno per ogni distretto, comitato o castello che fosse; questi assumeva il
             nome di <mentioned>yscarius districtus</mentioned>. L’affidare ad un
@@ -281,8 +286,8 @@
             <cit>
               <quote xml:lang="lat"> Uterque enim eorum, velut in eodem instrumento legebatur, condonavit et remisit per
                 se et suossuccessores omnibus suprascriptis operariis dona et opera atque quod nullus eorum cogatur ad
-                canevam recipiendam necad castaldiam neque ad <term type="kwic">iscariam</term>, nisi per voluntatem,
-                excepto quod omni anno debet unus eorum esse <term type="kwic">iscarius</term>, si fuerit voluntas
+                canevam recipiendam necad castaldiam neque ad <mentioned>iscariam</mentioned>, nisi per voluntatem,
+                excepto quod omni anno debet unus eorum esse <mentioned>iscarius</mentioned>, si fuerit voluntas
                 episcopi, et debet suum feudum habere.</quote>
               <ref target="http://pelavicino.labcd.unipi.it/evt/#doc=CI_118&amp;page=fol_214v"> doc. CI 118, f. 214v.
               </ref>
