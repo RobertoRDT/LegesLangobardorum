@@ -85,9 +85,10 @@
         
         <!--
           
-          - usare <mentioned> invece di <w> per i termini citati in <etym> come suggerito dalle Guidelines? 
+          + usare <mentioned> invece di <w> per i termini citati in <etym> come suggerito dalle Guidelines? 
             secondo Bowers e Romary 2016 non una buona soluzione, invece di <cit> etc. però perché non <w>?
-          - usare <listBibl> e <bibl> invece di <note type="biblio"> e <ref>?
+            NO per omogeneità con il resto della codifica
+          + usare <listBibl> e <bibl> invece di <note type="biblio"> e <ref>? NO <ref> più appropriati
           
         -->
 
@@ -187,7 +188,7 @@
           
           <etym>
             Formazione deverbale basata sul prefisso <m>a-</m>, <m>an-</m> unito alla radice del verbo
-            <w>*staljan</w> <def>sottrarsi, sfuggire</def> (cfr. <lang>ia.</lang> <w>stelan</w>
+            <mentioned>*staljan</mentioned> <def>sottrarsi, sfuggire</def> (cfr. <lang>ia.</lang> <mentioned>stelan</mentioned>
             <def>sottrarsi</def>), con suffisso <m>-ini-</m> tipico dei sostantivi femminili.
             <xr type="etym">Etimologicamente connesso con <ptr target="#yyyy"/></xr>
           </etym>
