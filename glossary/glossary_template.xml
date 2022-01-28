@@ -60,6 +60,39 @@
       
     </fileDesc>
     
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="linguistic_categories">
+          
+          <category>
+            <desc>POS</desc>
+            
+            <category xml:id="article">
+              <catDesc n="def. art." xml:lang="eng">Definite article</catDesc>
+              <catDesc n="art." xml:lang="ita">Articolo determinativo</catDesc>
+            </category>
+            <category xml:id="adverb">
+              <catDesc n="adv." xml:lang="eng">Adverb</catDesc>
+              <catDesc n="avv." xml:lang="ita">Avverbio</catDesc>
+            </category>
+            <category xml:id="conjunction">
+              <catDesc n="conj." xml:lang="eng">Conjunction</catDesc>
+              <catDesc n="cong." xml:lang="ita">Congiunzione</catDesc>
+            </category>
+            <category xml:id="noun">
+              <catDesc n="n." xml:lang="eng">Noun</catDesc>
+              <catDesc n="sost." xml:lang="ita">Sostantivo</catDesc>
+            </category>
+            <category>
+              <catDesc></catDesc>
+              <catDesc></catDesc>
+            </category>
+            
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    
     <revisionDesc>
       <change status="draft" when="2022-01" who="RRDT">Revision, correction and expansion of the original model
         structure.</change>
@@ -87,7 +120,7 @@
           
           + usare <mentioned> invece di <w> per i termini citati in <etym> come suggerito dalle Guidelines? 
             secondo Bowers e Romary 2016 non una buona soluzione, invece di <cit> etc. però perché non <w>?
-            NO per omogeneità con il resto della codifica
+            SI <mentioned> NO <w> per omogeneità con il resto della codifica
           + usare <listBibl> e <bibl> invece di <note type="biblio"> e <ref>? NO <ref> più appropriati
           
         -->
@@ -134,7 +167,7 @@
             <orth>astalin</orth>
             <gramGrp>
               <pos value="noun"/>
-              <case value="nominative"></case>
+              <case value="nominative"/>
               <number value="singular"/>
             </gramGrp>
             <cit>
