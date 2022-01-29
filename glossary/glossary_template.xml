@@ -134,8 +134,8 @@
             <!-- <pron notation="IPA"></pron> per eventuale trascrizione fonologica / fonetica -->
           </form>
           <gramGrp>
-            <pos value="noun"/>
-            <gen value="feminine"/>
+            <pos expand="sostantivo" value="noun">sost.</pos>
+            <gen expand="femminile" value="feminine">femm.</gen>
             <iType type="theme" value="-i"/> <!-- oppure <iType type="theme">-i</iType>  -->
           </gramGrp>
 
@@ -166,9 +166,9 @@
           <form type="inflected">
             <orth>astalin</orth>
             <gramGrp>
-              <pos value="noun"/>
-              <case value="nominative"/>
-              <number value="singular"/>
+              <pos expand="sostantivo" value="noun">sost.</pos>
+              <case expand="nominativo" value="nominative">nom.</case>
+              <number expand="singolare" value="singular">sing.</number>
             </gramGrp>
             <cit>
               <!-- NB per occorrenze diverse da quella del <term> il target punta all'elemento <w> corrispondente  -->
@@ -228,16 +228,16 @@
 
           <!-- Una nota di commento/spiegazione relativa al termine -->
           
-          <note type="general">Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
-            corrispondente.</note>
+          <sense value="desc">Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
+            corrispondente.</sense>
           
           <!-- Riferimenti bibliografici -->
 
-          <note type="biblio">
-            <ref target="#Onesti2000">Francovich Onesti 2000, pp. 54-5</ref>
-            <ref target="#PrinciBraccini1994">Princi Braccini 1994, pp. 76-8</ref>
-            <ref target="#Molinari1989">Molinari 1989, 30 pp. 233-4</ref>
-          </note>
+          <listBibl>
+            <bibl><ref target="#Onesti2000">Francovich Onesti 2000</ref>, pp. 54-5</bibl>
+            <bibl><ref target="#PrinciBraccini1994">Princi Braccini 1994</ref>, pp. 76-8</bibl>
+            <bibl><ref target="#Molinari1989">Molinari 1989</ref>, 30 pp. 233-4</bibl>
+          </listBibl>
         </entry>
         
         <!-- Gestione degli omografi con <superEntry> (esempio TEI) -->
