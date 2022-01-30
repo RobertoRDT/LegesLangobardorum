@@ -33,6 +33,262 @@
           <ref target="https://www.dmgh.de/mgh_ss_rer_lang_1/index.htm#page/(1)/mode/1up">MGH SS rer. Lang. 1 - Origo
             Gentis Langobardorum</ref>
         </biblStruct>
+        
+        <!-- ########## TEMP da lists.xml ########## -->
+        
+        <!-- ########## Lista delle persone ########## -->
+        
+        <listPerson>
+          <head>Person list</head>
+          
+          <person xml:id="Alboin">
+            <persName>Alboin</persName>
+            <persName xml:lang="gmc">Elfwini</persName>
+            <persName xml:lang="lat">Alboinus</persName>
+            <persName xml:lang="ita">Alboino</persName>
+            <!--<ptr target="http://dbpedia.org/resource/Alboin"/>-->
+            <sex>M</sex>
+            <birth>530</birth>
+            <death>572</death>
+            <floruit>560-572</floruit>
+            <occupation>Rex Langobardorum 560-572</occupation>
+            <note>Figlio di Audoino, re dei Longobardi, e di Rodelinda, salì al trono fra il 560 e il 565. V. la voce
+              corrispondente sul <ref
+                target="http://www.treccani.it/enciclopedia/re-dei-longobardi-alboino_(Dizionario-Biografico)"
+                >Dizionario Biografico degli italiani</ref> e su <ref target="http://dbpedia.org/resource/Alboin"
+                  >DBpedia</ref>.</note>
+          </person>
+          
+          <person source="http://www.treccani.it/enciclopedia/rotari_(Dizionario-Biografico)" xml:id="Rothari">
+            <persName>Rotari</persName>
+            <sex>M</sex>
+            <birth>606</birth>
+            <death>652</death>
+            <floruit>636-652</floruit>
+            <occupation>Rex Langobardorum et Italiae 636-652</occupation>
+            <note>Duca longobardo di Brescia, nato agli inizi del VII secolo, nel 636 venne eletto re dei Longobardi
+              dopo la morte del predecessore Arioaldo. V. anche la voce corrispondente sul <ref
+                target="http://www.treccani.it/enciclopedia/rotari_(Dizionario-Biografico)">Dizionario Biografico degli
+                italiani</ref> e su <ref target="http://dbpedia.org/page/Rotari">DBpedia</ref>.</note>
+          </person>
+          
+        </listPerson>
+        
+        <!-- ########## Lista dei luoghi ########## -->
+        
+        <listPlace>
+          
+          <place xml:id="Anthaib">
+            <region type="settlement_area">
+              <placeName source="#OrigoAuthor" type="norm">Anthaib</placeName>
+              <placeName source="#PaoloDiacono">Anthab</placeName>
+            </region>
+            <location cert="medium">
+              <offset n="1" type="generic">Southeast of</offset>
+              <region>Lüneburg Heath</region>
+              <offset n="2" type="between">between</offset>
+              <region>Hannover</region>
+              <region>Altmark</region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName>Golaidam</placeName>, et postea
+                  possiderunt aldonus <emph><placeName>Anthaib</placeName></emph> et <placeName>Bainaib</placeName> seu
+                  et <placeName>Burgundaib</placeName>.</quote>
+                <ref target="#origo_p_2">Origo 2</ref>
+              </cit>
+            </note>
+          </place>
+          
+          <place xml:id="Bainaib">
+            <region type="settlement_area">
+              <placeName source="#OrigoAuthor" type="norm">Bainaib</placeName>
+              <placeName source="#PaoloDiacono">Banthaib</placeName>
+            </region>
+            <location cert="medium">
+              <offset></offset>
+              <region></region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName ref="#Golanda">Golaidam</placeName>,
+                  et postea possiderunt aldonus <placeName ref="#Anthaib">Anthaib</placeName> et
+                  <emph><placeName>Bainaib</placeName></emph> seu et <placeName
+                    ref="#Burgundaib">Burgundaib</placeName>.</quote>
+                <ref target="#Origo_p_2">Origo 2</ref>
+              </cit>
+              <cit>
+                <quote>Egressi itaque Langobardi de <placeName>Mauringa</placeName>, applicuerunt in
+                  <placeName>Golandam</placeName>, ubi aliquanto tempore commorati, dicuntur post haec
+                  <placeName ref="#Anthaib">Anthab</placeName> et <emph><placeName>Banthaib</placeName></emph>, pari modo et
+                  <placeName ref="#Burgundaib">Vurgundaib</placeName>, per annos aliquot possedisse; quae nos arbitrari
+                  possumus esse vocabula pagorum seu quorumcumque locorum.</quote>
+                <ref target="#HistLang_I_11-13">Hist. Lang. I, 11-13</ref>
+              </cit>
+            </note>
+          </place>
+          
+          <place xml:id="Burgundaib">
+            <region type="settlement_area">
+              <placeName source="#OrigoAuthor" type="norm">Burgundaib</placeName>
+              <placeName source="#PaoloDiacono">Vurgundaib</placeName>
+            </region>
+            <location cert="medium">
+              <offset></offset>
+              <region></region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName ref="#Golanda">Golaidam</placeName>,
+                  et postea possiderunt aldonus <placeName ref="#Anthaib">Anthaib</placeName> et <placeName
+                    ref="#Bainaib">Bainaib</placeName> seu et <emph><placeName>Burgundaib</placeName></emph>.</quote>
+                <ref target="#Origo_p_2">Origo 2</ref>
+              </cit>
+              <cit>
+                <quote>Egressi itaque Langobardi de <placeName>Mauringa</placeName>, applicuerunt in
+                  <placeName>Golandam</placeName>, ubi aliquanto tempore commorati, dicuntur post haec
+                  <placeName ref="#Anthaib">Anthab</placeName> et <placeName>Banthaib</placeName>, pari modo et
+                  <emph><placeName>Vurgundaib</placeName></emph>, per annos aliquot possedisse; quae nos arbitrari
+                  possumus esse vocabula pagorum seu quorumcumque locorum.</quote>
+                <ref target="#HistLang_I_11-13">Hist. Lang. I, 11-13</ref>
+              </cit>
+            </note>
+          </place>
+          
+          <place xml:id="Golanda">
+            <region type="settlement_area">
+              <placeName source="#PaoloDiacono" type="norm">Golanda</placeName>
+              <placeName source="#OrigoAuthor">Golaida</placeName>
+            </region>
+            <location cert="high">
+              <region>Lüneburg Heath</region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote>Et moverunt se exhinde Langobardi, et venerunt in <emph><placeName>Golaidam</placeName></emph>,
+                  et postea possiderunt aldonus <placeName ref="#Anthaib">Anthaib</placeName> et <placeName
+                    ref="#Bainaib">Bainaib</placeName> seu et <placeName ref="#Burgundaib"
+                      >Burgundaib</placeName>.</quote>
+                <ref target="#Origo_p_2">Origo 2</ref>
+              </cit>
+              <cit>
+                <quote>Egressi itaque Langobardi de <placeName>Mauringa</placeName>, applicuerunt in
+                  <emph><placeName>Golandam</placeName></emph>, ubi aliquanto tempore commorati, dicuntur post haec
+                  <placeName ref="#Anthaib">Anthab</placeName> et <placeName>Banthaib</placeName>, pari modo et
+                  <placeName ref="#Burgundaib">Vurgundaib</placeName>, per annos aliquot possedisse; quae nos arbitrari
+                  possumus esse vocabula pagorum seu quorumcumque locorum.</quote>
+                <ref target="#HistLang_I_11-13">Hist. Lang. I, 11-13</ref>
+              </cit>
+            </note>
+          </place>
+          
+          <place xml:id="Mauringa">
+            <region type="settlement_area">
+              <placeName>xxx</placeName>
+            </region>
+            <location cert="high">
+              <offset></offset>
+              <region></region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote></quote>
+                <ref></ref>
+              </cit>
+            </note>
+          </place>
+          
+          <place xml:id="Pannonia">
+            <region type="settlement_area">
+              <placeName>xxx</placeName>
+            </region>
+            <location cert="high">
+              <offset></offset>
+              <region></region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote></quote>
+                <ref></ref>
+              </cit>
+            </note>
+          </place>
+          
+          <place xml:id="Rugiland">
+            <region type="settlement_area">
+              <placeName>xxx</placeName>
+            </region>
+            <location cert="high">
+              <offset></offset>
+              <region></region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote></quote>
+                <ref></ref>
+              </cit>
+            </note>
+          </place>
+          
+          <place xml:id="Scoringa">
+            <region type="settlement_area">
+              <placeName>xxx</placeName>
+            </region>
+            <location cert="high">
+              <offset></offset>
+              <region></region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote></quote>
+                <ref></ref>
+              </cit>
+            </note>
+          </place>
+          
+          <place xml:id="Ravenna">
+            <placeName>Ravenna</placeName>
+            <location cert="high">
+              <region>Emilia Romagna</region>
+              <country type="modern">Italy</country>
+              <geo>44.41344, 12.20121</geo>
+            </location>
+            <idno subtype="GeoNames" type="URI">https://www.geonames.org/3169561/ravenna.html</idno>
+            <note>
+              <cit>
+                <quote/>
+                <ref/>
+              </cit>
+            </note>
+          </place>
+
+          <place xml:id="xxx">
+            <region type="settlement_area">
+              <placeName>xxx</placeName>
+            </region>
+            <location cert="high">
+              <offset></offset>
+              <region></region>
+              <country type="modern">Germany</country>
+            </location>
+            <note>
+              <cit>
+                <quote></quote>
+                <ref></ref>
+              </cit>
+            </note>
+          </place>
+
+        </listPlace>
+
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -1021,7 +1277,7 @@
         <w>post</w>
         <w>ipso</w>
         <w>regnavit</w>
-        <persName><w>Rothari</w></persName>
+        <persName ref="#Rothari"><w>Rothari</w></persName>
         <w>ex</w>
         <w>genere</w>
         <orgName><w>Arodus</w></orgName>,
@@ -1064,7 +1320,7 @@
       <p n="7">
         <w>Et</w>
         <w>regnavit</w>
-        <persName><w>Rothari</w></persName>
+        <persName ref="#Rothari"><w>Rothari</w></persName>
         <w>annos</w>
         <w>decem</w>
         <w>et</w>

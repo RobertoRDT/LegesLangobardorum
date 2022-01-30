@@ -136,7 +136,7 @@
           <gramGrp>
             <pos expand="sostantivo" value="noun">sost.</pos>
             <gen expand="femminile" value="feminine">femm.</gen>
-            <iType type="theme" value="-i"/> <!-- oppure <iType type="theme">-i</iType>  -->
+            <iType type="theme">-i</iType> <!-- oppure <iType type="theme" value="-i"/>  -->
           </gramGrp>
 
           <!-- se si tratta di un verbo:
@@ -221,7 +221,9 @@
           
           <etym>
             Formazione deverbale basata sul prefisso <m>a-</m>, <m>an-</m> unito alla radice del verbo
-            <mentioned>*staljan</mentioned> <def>sottrarsi, sfuggire</def> (cfr. <lang>ia.</lang> <mentioned>stelan</mentioned>
+            <mentioned>*staljan</mentioned> <def>sottrarsi, sfuggire</def> (cfr. <lang>ia.</lang>
+            <mentioned><w lemmaRef="https://bosworthtoller.com/2350">a-stælan</w></mentioned> <def>insinuarsi,
+            sedurre</def> e <mentioned><w lemmaRef="https://bosworthtoller.com/28857">stelan</w></mentioned>
             <def>sottrarsi</def>), con suffisso <m>-ini-</m> tipico dei sostantivi femminili.
             <xr type="etym">Etimologicamente connesso con <ptr target="#yyyy"/></xr>
           </etym>
@@ -229,7 +231,7 @@
           <!-- Una nota di commento/spiegazione relativa al termine -->
           
           <sense value="desc">Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
-            corrispondente.</sense>
+            corrispondente (Francovich-Onesti).</sense>
           
           <!-- Riferimenti bibliografici -->
 
