@@ -103,7 +103,7 @@
 
   <!-- Occorrenze all'interno di <text>:
 
-  <term xml:id="CV188_term_astalin" xml:lang="lng" target="#astalin"> target o corresp?
+  <term xml:id="CV188_term_astalin" xml:lang="lng" target="#astalin"> target o corresp? REF!
       <w xml:id="CV188_word_astalin">astalin</w>
   </term>
   <gloss xml:id="CV188_gloss_astalin">id est....</gloss> 
@@ -171,7 +171,7 @@
               <number expand="singolare" value="singular">sing.</number>
             </gramGrp>
             <cit>
-              <!-- NB per occorrenze diverse da quella del <term> il target punta all'elemento <w> corrispondente  -->
+              <!-- NB per occorrenze diverse da quella del <term> il target punta all'elemento <w> corrispondente  --><!-- ??? -->
               <!-- NB se non si usa <term> punterà sempre a un elemento <w> -->
               <ref target="#CV188_word_astalin">ER capitolo 7</ref>
             </cit>
