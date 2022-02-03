@@ -73,6 +73,8 @@
       
       - rivedere tutto alla luce della struttura aggiornata
       - valutare utilità elemento <xr>
+      - invece dei link a un manoscritto servono link a ed. critica
+      - marcare <term> e <gloss> anche nel testo critico
       
       -->
       
@@ -117,7 +119,7 @@
             <number value="singular">sing</number>
           </gramGrp>
           <cit type="main">
-            <!-- Marcare nel testo anche term e gloss? -->
+            <!-- Marcare nel testo critico anche term e gloss -->
             <quote>Si quis contra inimicús pugnando collegam suum dimiserit aut astalin fecerit, id est si eum diceperit
               et cum eum non laboraverit, animae suae incurrat periculum.</quote>
 
@@ -330,6 +332,67 @@
           <ref target="#Molinari1995">Molinari 1995, p. 8</ref>
           <ref target="#Scardigli1977">Scardigli 1977, p. 342</ref>
           <ref target="#VdR1970">VdR 1970, pp. 20-31</ref>
+        </note>
+      </entry>
+      
+      <!-- ########################### -->
+      <!-- #######  MORGINGAB  ####### -->
+      <!-- ########################### -->
+      
+      <entry xml:id="morgingab">
+        <form type="lemma">
+          <orth>morgingab</orth>
+        </form>
+        
+        <gramGrp>
+          <pos expand="sostantivo" value="noun">sost.</pos>
+          <gen expand="femminile" value="feminine">femm.</gen>
+          <iType type="theme">-ō</iType>
+        </gramGrp>
+        
+        <cit type="main">
+          <quote>Et si noluerit accepere, habeat ipsa mulier et <emph>morgingab</emph> et, quod de parentes adduxit, id est
+            faderfio</quote>
+          <ref target="#ER_term_morgingab">ER 182</ref>
+        </cit>
+        
+        <form type="variants">
+          <orth>morgangab <ref target="#">MS </ref></orth>
+          <orth>morgingap <ref target="#">MS </ref></orth>
+          <orth>morgincap</orth>
+          <orth>morghincap</orth>
+          <orth>morganicapo</orth>
+          <orth>morganicapu</orth>
+          <orth>morganicaput</orth>
+        </form>
+        
+        <sense>
+          <def>dono matrimoniale del marito alla moglie</def>
+        </sense>
+        
+        <cit>
+          <quote>Id <ex>est</ex> decipere</quote>
+          <ref>Gloss. Matr.</ref>
+        </cit>
+        
+        <sense value="desc">Con <mentioned>morgingab</mentioned> si indica il dono matrimoniale versato dal marito alla
+          moglie la mattina successiva alla prima notte di nozze. Si tratta di un termine già presente
+            nell'<title>Editto di Rotari</title>, quindi di origini antiche come testimoniato anche dalle equivalenze in
+          altre lingue germaniche, che entra nel lessico giuridico dove viene ulteriormente sviluppato nelle estensioni
+          successive a Rotari e anzi gode di notevole successo venendo utilizzato fino al XII secolo, ben oltre la fine
+          del regno dei Longobardi in Italia (v. <ref>Francovich Onesti, pp. 105-106</ref>).</sense>
+        
+        <etym>
+          <lang>ia.</lang> <mentioned>morgengifu</mentioned>
+        </etym>
+        
+        <re></re>
+        <ref></ref>
+        
+        <note type="biblio">
+          <ref target="#"></ref>
+          <ref target="#"></ref>
+          <ref target="#"></ref>
         </note>
       </entry>
       
