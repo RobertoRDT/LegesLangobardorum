@@ -80,21 +80,29 @@
             <persName xml:lang="gmc">Elfwini</persName>
             <persName xml:lang="lat">Alboinus</persName>
             <persName xml:lang="ita">Alboino</persName>
-            <!--<ptr target="http://dbpedia.org/resource/Alboin"/>-->
+            <persName xml:lang="eng">Alboin</persName>
+            <idno source="https://viaf.org/viaf/80322103/" type="VIAF">80322103</idno>
+            <idno source="https://isni.org/isni/0000000078816780" type="ISNI">78816780</idno>
+            <idno source="https://d-nb.info/gnd/135880882" type="DNB">135880882</idno>
+            <idno source="https://www.wikidata.org/wiki/Q152877" type="WKD">Q152877</idno>
             <sex>M</sex>
             <birth>530</birth>
             <death>572</death>
             <floruit>560-572</floruit>
             <occupation>Rex Langobardorum 560-572</occupation>
             <note>Figlio di Audoino, re dei Longobardi, e di Rodelinda, salì al trono fra il 560 e il 565. V. la voce
-              corrispondente sul <ref
-                target="http://www.treccani.it/enciclopedia/re-dei-longobardi-alboino_(Dizionario-Biografico)"
+              corrispondente sul <ref target="http://www.treccani.it/enciclopedia/re-dei-longobardi-alboino_(Dizionario-Biografico)"
                 >Dizionario Biografico degli italiani</ref> e su <ref target="http://dbpedia.org/resource/Alboin"
-                  >DBpedia</ref>.</note>
+                >DBpedia</ref>.
+            </note>
           </person>
 
           <person source="http://www.treccani.it/enciclopedia/rotari_(Dizionario-Biografico)" xml:id="Rothari">
             <persName>Rotari</persName>
+            <idno source="http://viaf.org/viaf/32793340" type="VIAF">32793340</idno>
+            <idno source="https://isni.org/isni/0000000078577492" type="ISNI">78577492</idno>
+            <idno source="http://d-nb.info/gnd/118819615" type="DNB">118819615</idno>
+            <idno source="https://www.wikidata.org/wiki/Q312621" type="WKD">Q312621</idno>
             <sex>M</sex>
             <birth>606</birth>
             <death>652</death>
@@ -102,8 +110,9 @@
             <occupation>Rex Langobardorum et Italiae 636-652</occupation>
             <note>Duca longobardo di Brescia, nato agli inizi del VII secolo, nel 636 venne eletto re dei Longobardi
               dopo la morte del predecessore Arioaldo. V. anche la voce corrispondente sul <ref
-                target="http://www.treccani.it/enciclopedia/rotari_(Dizionario-Biografico)">Dizionario Biografico degli
-                italiani</ref> e su <ref target="http://dbpedia.org/page/Rotari">DBpedia</ref>.</note>
+              target="http://www.treccani.it/enciclopedia/rotari_(Dizionario-Biografico)">Dizionario Biografico degli
+              italiani</ref> e su <ref target="http://dbpedia.org/page/Rotari">DBpedia</ref>.
+            </note>
           </person>
 
         </listPerson>
@@ -112,11 +121,10 @@
 
         <listPlace>
 
-          <place xml:id="Anthaib">
-            <region type="settlement_area">
-              <placeName source="#OrigoAuthor" type="norm">Anthaib</placeName>
-              <placeName source="#PaoloDiacono">Anthab</placeName>
-            </region>
+          <place type="settlement_area" xml:id="Anthaib">
+            <!-- eliminato <region> spostando il type direttamente in <place> -->
+            <placeName source="#OrigoAuthor" type="norm">Anthaib</placeName>
+            <placeName source="#PaoloDiacono">Anthab</placeName>
             <location cert="medium">
               <offset n="1" type="generic">Southeast of</offset>
               <region>Lüneburg Heath</region>
@@ -288,6 +296,22 @@
             </note>
           </place>
           
+          <place xml:id="Ravenna">
+            <placeName>Ravenna</placeName>
+            <location cert="high">
+              <region>Emilia Romagna</region>
+              <country type="modern">Italy</country>
+              <geo>44.41344, 12.20121</geo>
+            </location>
+            <idno subtype="GeoNames" type="URI">https://www.geonames.org/3169561/ravenna.html</idno>
+            <note>
+              <cit>
+                <quote/>
+                <ref/>
+              </cit>
+            </note>
+          </place>
+
           <place xml:id="xxx">
             <region type="settlement_area">
               <placeName>xxx</placeName>
