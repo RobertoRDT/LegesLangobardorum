@@ -364,7 +364,7 @@
         <cit type="main">
           <quote>Et si noluerit accepere, habeat ipsa mulier et <emph>morgingab</emph> et, quod de parentes adduxit, id est
             faderfio</quote>
-          <ref target="#ER_term_morgingab">ER 182</ref>
+          <ref target="#ER_term_morgingab_182">ER 182</ref>
         </cit>
         
         <form type="variants">
@@ -375,8 +375,7 @@
           <orth>morganicapo</orth>
           <orth>morganicapu</orth>
           <orth>morganicaput</orth>
-        </form>
-        
+        </form>        
         <sense>
           <def>dono matrimoniale del marito alla moglie</def>
         </sense>
@@ -385,7 +384,7 @@
           <cit>
             <quote>tunc illa vidua, qui in domo patris aut fratris regressa est, habeat sibi in antea morgingab et
               metfio</quote>
-            <ref target="#ER_w_morgingab">ER 199</ref>
+            <ref target="#ER_w_morgingab_199">ER 199</ref>
           </cit>
           <cit>
             <quote>Id <ex>est</ex> decipere</quote>
@@ -401,7 +400,14 @@
           del regno dei Longobardi in Italia (v. <ref>Francovich Onesti, pp. 105-106</ref>).</sense>
         
         <etym>
-          <lang>ia.</lang> <mentioned>morgengifu</mentioned>
+          Termine attestato in altre lingue germaniche, cfr. ad esempio 
+          <lang>ia.</lang> <mentioned>morgengifu</mentioned>, <lang>ata.</lang> <mentioned>morgangaba</mentioned>, <lang>alam.</lang>
+          <mentioned>morgangepa</mentioned>. Composto formato da <xr>morgin</xr> (&lt; <lang>gc.</lang>
+          <mentioned>*murgana-</mentioned>, cfr. ; &lt; <lang>ie.</lang> <mentioned>*merk-</mentioned>, forse da una radice
+          <mentioned>*mer-</mentioned> <def>luccicare, brillare</def>) e <xr>gab</xr> (&lt; <lang>gc.</lang>
+          <mentioned>*gebō-</mentioned>, cfr. <lang>ia.</lang> <mentioned>giefu</mentioned>, <lang>sass.</lang>
+          <mentioned>geba</mentioned>, <mentioned>giba</mentioned>, <lang>ata.</lang> <mentioned>geba</mentioned> &lt; <lang>gc.</lang>
+          <mentioned>*geban-</mentioned> <def>dare</def>).
         </etym>
         
         <re></re>
