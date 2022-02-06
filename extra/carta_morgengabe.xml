@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listPlace>
+              
+              <place xml:id="Brescia">
+                <placeName type="norm">Brescia</placeName>
+                <location cert="high">
+                  <region>Lombardia</region>
+                  <country type="modern">Italy</country>
+                  <geo>45.53558, 10.21472</geo>
+                </location>
+                <idno subtype="GeoNames" type="URI">https://www.geonames.org/3181554/brescia.html</idno>
+                <note>
+                  <cit>
+                    <quote/>
+                    <ref/>
+                  </cit>
+                </note>
+              </place>
+              
+              <place xml:id="Pavia">
+                <placeName type="norm">Pavia</placeName>
+                <placeName>Papia</placeName>
+                <location cert="high">
+                  <region>Lombardia</region>
+                  <country type="modern">Italy</country>
+                  <geo>45.19205, 9.15917</geo>
+                </location>
+                <idno subtype="GeoNames" type="URI">https://www.geonames.org/3171366/pavia.html</idno>
+                <note>
+                  <cit>
+                    <quote/>
+                    <ref/>
+                  </cit>
+                </note>
+              </place>
+              
+            </listPlace>
+
+           <!-- ########## Lista dei popoli ########## -->
+           
+           <listOrg>
+             
+             <head>Lista dei popoli</head>
+             
+             <org xml:id="Dani">
+               <orgName type="gens">Daci sive Dani</orgName>
+               <desc>Nome dato ai Normanni che attaccarono Luni.</desc>
+             </org>
+             
+             <org xml:id="Franchi">
+               <orgName type="gens">Franci</orgName>
+               <desc>I Franchi furono uno dei popoli germanici occidentali che entrarono nel tardo Impero romano come
+                 federati e stabilirono un reame duraturo, in Gallia, da loro chiamata Francia, e in parte dell'attuale
+                 Germania.</desc>
+             </org>
+             
+             <org xml:id="Longobardi">
+               <orgName type="gens">Longobardi</orgName>
+               <desc>Popolazione germanica, già menzionata da Tacito e Strabone, che in seguito a un lungo percorso migratorio entra
+                 in Italia nel 568 sotto la guida di re Alboino e crea un proprio regno.</desc>
+             </org>
+             
+           </listOrg>
+           
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+    
+    <front>
+      <div type="regesto">
+
+        <head type="main">Una carta inedita di morgengabe dell'828</head>
+
+        <head><date>828 febbraio-ante novembre</date></head>
+
+        <p>Rottari, abitante in territorio veronese, figlio del fu Rotecari longobardo, vivente a legge longobarda,
+          dona per morgengabe alla moglie Gaiberga, figlia di Antonio de Foriole, otto servi, singolarmente elencati.</p>
+
+        <p>Originale: Archivio dell’abbazia di Nonantola, perg. cartella II, 11 [A]. Nel verso, di mano del sec. XI:
+          «Morganato Rotari de Vero|na». Pergamena danneggiata dall’umidità che ha comportato perdite di porzioni del
+          derma (risarcite da recente restauro) lungo i margini destro, sinistro e superiore.</p>
+
+        <p>La scrittura del chierico Anscause, rogatario della carta, pur essendo ben inserita nel contesto delle varie
+          espressioni grafiche derivate dalla corsiva nuova, mostra connotati che rivelano un’educazione di non stretta
+          ascendenza documentaria. Tali appaiono, per esempio, il compendio abbreviativo per est, qui presente nella
+          forma della nota tironiana dei due punti separati da un colon, l’uso di inserire le cifre entro una cornice di
+          doppi punti e, forse, la g di modello ‘semionciale’ anche se di esecuzione piuttosto rozza. Nel complesso la
+          prova grafica del rogatario appare di buona capacità esecutiva conservando un discreto allineamento e
+          un’ottima giustificazione della pagina. Di livello elementare appaiono le sottoscrizioni di Rottari, autore
+          dell’azione giuridica e unico fra i partecipanti all’azione documentaria ad avere appreso una scrittura di
+          modello carolino, di Frederis e di Audilio (del quale colpiscono le forme della a aperta e col primo tratto
+          angoloso e della t col tratto orizzontale fortemente ondulato); appena migliori sono le prove grafiche di
+          Lobo, Audeberte e Petrus, mentre di livello decisamente superiore è l’usuale di Rodualde la quale rivela,
+          nell’impianto generale e in alcuni caratteri particolari (come per es. la lettera g), l’apprendimento di
+          modelli transalpini (forse retici).</p>
+
+        <p>Interessante, ancorché di incerta lettura, appare il ripensamento presente nella sottoscrizione autografa
+          dell’attore. Questi scrive, infatti, a seguire il pronome dimostrativo anc e prima della specificazione del
+          tipo di negozio giuridico compendiato nel tenore del documento, qualcosa che poi cassa per mezzo di
+          depennamento e, soprattutto, di rozzo dilavamento. Lo spazio occupato da tale correzione occupa l’estensione
+          di circa sei lettere nella scrittura, una incerta elementare di base di modello prevalentemente carolino e dal
+          modulo piuttosto grande, propria di Rottari. Le ultime tre lettere, eta (cfr. nota e), appaiono di più sicura
+          interpretazione, mentre del tutto insicura è la ricostruzione di ciò che precede. Dopo anc, infatti, si
+          scorgono due tratti di penna corti sul rigo e verticali assai ravvicinati e apparentemente depennati da un
+          terzo tratto di penna discendente in diagonale da sinistra verso destra; segue un tratto di penna, anch’esso
+          corto sul rigo e verticale, cassato, sembrerebbe, mediante dilavamento e quindi altri due tratti, corti come i
+          precedenti, ma il primo dei quali con attacco ricurvo a sinistra. A fronte della posizione nella frase
+          occupata dal termine cassato e da quanto è dato leggere con una qualche certezza, sorge spontaneo interpretare
+          il tutto come meta con la m frutto di parziale ripensamento e di pessima esecuzione. Se la proposta di lettura
+          è corretta, Rotari, forse tratto in inganno dalla prossimità tra i due istituti di diritto coniugale,
+          avrebbe dapprima pensato alla meta salvo poi prontamente correggersi.</p>
+
+        <bibl>Tratto da <ref>Castagnetti 2007</ref></bibl>
+
+      </div>
+    </front>
+      <body>
+        
+        <pb/>
+
+        <p>
+          <lb n="1"/>✠ In <persName>Christi</persName> nomine, inperante <persName><roleName><expan>dom<ex>no</ex></expan></roleName>
+             <expan>nos<ex>tro</ex></expan> Lodovuicho</persName> semperque augusto anno
+          <lb n="2"/><date>.XV.</date> inperio eius et <persName>Lotterio</persName> filio eius idem et inperio eius anno sexto, per <expan>ind<ex>ictione</ex></expan>
+          <lb n="3"/>sexta. Feliciter. <expan>Quap<ex>ro</ex>p<ex>ter</ex></expan> et ideo ego <persName>Rottari</persName> habitatur <placeName>fine <placeName ref="#Verona">Veronen<supplied>se</supplied></placeName></placeName>
+          <lb n="4"/>filius b<ex>on</ex>e m<ex>emorie</ex> <persName>Rotecari <addName>Langobardo</addName></persName>, quia et ego vivere videor me ipsa
+          <lb n="5"/>lege nostra <orgName ref="#Longobardi" type="people">Langobardorum</orgName> et sic consectante me ipsa mea
+          <lb n="6"/>lege, sic facio adque confirmo in te amantissima oxore mea <persName><w><expan>Gaip<ex>er</ex>
+          <lb n="7"/>ga</expan></w></persName>, filia <persName>Antoni de <placeName>Foriole</placeName><!-- ??? --></persName> in die votorum nupciarum vel <gloss>in caput
+          <lb n="8"/>morgani</gloss>, id est inter servus et ancillas nomina octo et id est nomina
+          <lb n="9"/>eorum in primis <persName>Lobaldo</persName> cum oxore sua <persName>Agidruda</persName>, et <persName>Iohannolo</persName> cu<supplied>m</supplied>
+          <lb n="10"/>oxore sua <persName>Ermidruda</persName>, <persName><expan>Agip<ex>er</ex>to</expan></persName> cum uxore sua <persName>Dragelda</persName>, <persName>Ossolo</persName>
+          <lb n="11"/>et <persName><expan>Lantep<ex>er</ex>to</expan></persName>, istus <expan>sup<ex>er</ex></expan> todos per hunc cartola scripcionis <w>confirma
+          <lb n="12"/>vit</w> in te suprascripta dilecta mea <persName><expan>Gaip<ex>er</ex>ga</expan></persName> in die ut supra dix<supplied>i</supplied>mus ut <w>le
+          <lb n="13"/>ceat</w> te ipso meo dato habere, tenere et in omnibus possedere.
+        </p>
+        <p>
+          <lb n="14"/>✠ Ego <persName>Rohteri</persName> in anc <term xml:lang="lng" ref="#morgingab">morgincaput</term> ad me
+          <lb n="15"/>facta <expan>m<ex>anu</ex></expan> <expan>m<ex>ea</ex></expan> <expan>s<ex>ub</ex>s<ex>cripsi</ex></expan>. Signu ✠ <expan>ma<ex>nus</ex></expan> <persName>Audualdo de <placeName ref="#Brescia">Bressia</placeName></persName> <expan>t<ex>es</ex>t<ex>is</ex></expan>. Signu ✠
+          <expan>ma<ex>nus</ex></expan>
+          <lb n="16"/><persName>Raniberto de <placeName ref="#Pavia">Papia</placeName> <roleName><expan>t<ex>es</ex>t<ex>is</ex></expan></roleName></persName>. Signu ✠ <expan>ma<ex>nus</ex></expan> <persName>Aistulfo de <placeName ref="#Brescia">Bressia</placeName> <roleName><expan>t<ex>es</ex>t<ex>is</ex></expan></roleName></persName>.
+          <lb n="17"/>✠ Ego <persName>Frederis <roleName>rogatus</roleName></persName> <expan>m<ex>anu</ex></expan> <expan>m<ex>ea</ex></expan> <expan>s<ex>ub</ex>s<ex>cripsi</ex></expan>. ✠ Ego <persName>Rodualde <roleName>rogatus</roleName></persName> <expan>m<ex>anu</ex></expan> <expan>m<ex>ea</ex></expan> <expan>s<ex>ub</ex>s<ex>crips</ex>i</expan>.
+          <lb n="18"/>✠ Ego <persName>Adilio <roleName>rogatus</roleName></persName> <expan>m<ex>anu</ex></expan> <expan>m<ex>ea</ex></expan> <expan>s<ex>ub</ex>s<ex>cripsi</ex></expan>. ✠ Ego <persName>Lobo <roleName>rogatus</roleName></persName> <expan>m<ex>anu</ex></expan> <expan>m<ex>ea</ex></expan>
+          <expan>s<ex>ub</ex>s<ex>cripsi</ex></expan>.
+          <lb n="19"/>✠ Ego <persName>Audeberte <roleName>rogatus</roleName></persName> <expan>m<ex>anu</ex></expan> <expan>m<ex>ea</ex></expan> <expan>s<ex>ub</ex>s<ex>cripsi</ex></expan>. ✠ Ego <persName>Petrus <roleName>rogatus</roleName></persName> <expan>m<ex>anu</ex></expan> <expan>m<ex>ea</ex></expan> <expan>s<ex>ub</ex>s<ex>cripsi</ex></expan>.
+        </p>
+        <signed>
+          <lb n="20"/>✠ Ego <persName>Anscause <roleName>cl<ex>ericus</ex></roleName> <roleName>rogatus</roleName></persName> ad <persName>Rottari</persName> scripsi cumplivit.
+        </signed>
+      </body>
+    
+    <back>
+      
+        <xi:include href="../glossary/ER_glossary.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="ER_glossary"/>
+      
+    </back>
+      
+      <!--
+      <div type="glossary">
+        
+        <entry xml:id="morgingab">
+          <form type="lemma">
+            <orth>morgingab</orth>
+          </form>
+          
+          <gramGrp>
+            <pos expand="sostantivo" value="noun">sost.</pos>
+            <gen expand="femminile" value="feminine">femm.</gen>
+            <iType type="theme">-ō</iType>
+          </gramGrp>
+          
+          <cit type="main">
+            <quote>Et si noluerit accepere, habeat ipsa mulier et <emph>morgingab</emph> et, quod de parentes adduxit,
+              id est faderfio</quote>
+            <ref target="#ER_term_morgingab_182">ER 182</ref>
+          </cit>
+          
+          <form type="variants">
+            <orth>morgangab  <ref>CDL n° 67 (a. 738 Lucca)</ref></orth>
+            <orth>morgingap <ref target="#CV188_term_morgingab_182">CV188 182, 199, 200, 216</ref>, 
+              <ref target="#CE34-5_term_morgingab_216">CE34(5) 216</ref></orth>
+            <orth>morgincap <ref>Liut. 103</ref></orth>
+            <orth>morghincap <ref>CDL n° 120 (a. 755 Lucca)</ref></orth>
+            <orth>morganicapu <ref>CDL n° 70 (a. 739 Lucca)</ref></orth>
+            <orth>morganicaput <ref>CDL n° 30 (a. 722 Lucca)</ref>, <ref>Liut. 117</ref></orth>
+          </form>        
+
+          <sense>
+            <def>dono matrimoniale del marito alla moglie</def>
+          </sense>
+          
+          <cit type="cit_section">
+            <cit>
+              <quote>tunc illa vidua, qui in domo patris aut fratris regressa est, habeat sibi in antea morgingab et
+                metfio</quote>
+              <ref target="#ER_w_morgingab_199">ER 199</ref>
+            </cit>
+            <cit>
+              <quote>Id <ex>est</ex> decipere</quote>
+              <ref>Gloss. Matr.</ref>
+            </cit>
+          </cit>
+          
+          <sense value="desc">Con <mentioned>morgingab</mentioned> si indica il dono matrimoniale versato dal marito alla
+            moglie la mattina successiva alla prima notte di nozze. Si tratta di un termine già presente
+            nell'<title>Editto di Rotari</title>, quindi di origini antiche come testimoniato anche dalle equivalenze in
+            altre lingue germaniche, che entra nel lessico giuridico dove viene ulteriormente sviluppato nelle estensioni
+            successive a Rotari e anzi gode di notevole successo venendo utilizzato fino al XII secolo, ben oltre la fine
+            del regno dei Longobardi in Italia (v. <ref>Francovich Onesti, pp. 105-106</ref>).</sense>
+          
+          <etym>
+            Termine attestato in altre lingue germaniche, cfr. ad esempio 
+            <lang>ia.</lang> <mentioned>morgengifu</mentioned>, <lang>ata.</lang> <mentioned>morgangaba</mentioned>, <lang>alam.</lang>
+            <mentioned>morgangepa</mentioned>. Composto formato da <xr>morgin</xr> (&lt; <lang>gc.</lang>
+            <mentioned>*murgana-</mentioned>, cfr. ; &lt; <lang>ie.</lang> <mentioned>*merk-</mentioned>, forse da una radice
+            <mentioned>*mer-</mentioned> <def>luccicare, brillare</def>) e <xr>gab</xr> (&lt; <lang>gc.</lang>
+            <mentioned>*gebō-</mentioned>, cfr. <lang>ia.</lang> <mentioned>giefu</mentioned>, <lang>sass.</lang>
+            <mentioned>geba</mentioned>, <mentioned>giba</mentioned>, <lang>ata.</lang> <mentioned>geba</mentioned> &lt; <lang>gc.</lang>
+            <mentioned>*geban-</mentioned> <def>dare</def>).
+          </etym>
+          
+          <re></re>
+          <ref></ref>
+          
+          <note type="biblio">
+            <ref target="#"></ref>
+            <ref target="#"></ref>
+            <ref target="#"></ref>
+          </note>
+        </entry>
+        
+      </div>
+      
+      -->
+
+  </text>
+</TEI>
