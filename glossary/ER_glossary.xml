@@ -67,6 +67,8 @@
   
   <text>
     <body>
+      
+      <div type="glossary" xml:id="ER_glossary">
 
       <!--TODO -->
       <!--
@@ -368,14 +370,15 @@
         </cit>
         
         <form type="variants">
-          <orth>morgangab <ref target="#">MS </ref></orth>
-          <orth>morgingap <ref target="#">MS </ref></orth>
-          <orth>morgincap</orth>
-          <orth>morghincap</orth>
-          <orth>morganicapo</orth>
-          <orth>morganicapu</orth>
-          <orth>morganicaput</orth>
+          <orth>morgangab  <ref>CDL n° 67 (a. 738 Lucca)</ref></orth>
+          <orth>morgingap <ref target="#CV188_term_morgingab_182">CV188 182, 199, 200, 216</ref>, 
+            <ref target="#CE34-5_term_morgingab_216">CE34(5) 216</ref></orth>
+          <orth>morgincap <ref>Liut. 103</ref></orth>
+          <orth>morghincap <ref>CDL n° 120 (a. 755 Lucca)</ref></orth>
+          <orth>morganicapu <ref>CDL n° 70 (a. 739 Lucca)</ref></orth>
+          <orth>morganicaput <ref>CDL n° 30 (a. 722 Lucca)</ref>, <ref>Liut. 117</ref></orth>
         </form>        
+
         <sense>
           <def>dono matrimoniale del marito alla moglie</def>
         </sense>
@@ -566,6 +569,8 @@
           <ref target="#"></ref>
         </note>
       </entry>
+        
+      </div>
 
     </body>
   </text>

@@ -262,6 +262,23 @@
             </note>
           </place>
           
+          <place xml:id="Pavia">
+            <placeName type="norm">Pavia</placeName>
+            <placeName>Papia</placeName>
+            <location cert="high">
+              <region>Lombardia</region>
+              <country type="modern">Italy</country>
+              <geo>45.19205, 9.15917</geo>
+            </location>
+            <idno subtype="GeoNames" type="URI">https://www.geonames.org/3171366/pavia.html</idno>
+            <note>
+              <cit>
+                <quote/>
+                <ref/>
+              </cit>
+            </note>
+          </place>
+
           <place xml:id="Ravenna">
             <placeName>Ravenna</placeName>
             <location cert="high">
@@ -277,7 +294,7 @@
               </cit>
             </note>
           </place>
-
+          
           <place xml:id="xxx">
             <region type="settlement_area">
               <placeName>xxx</placeName>

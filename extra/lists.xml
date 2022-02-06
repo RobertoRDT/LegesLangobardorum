@@ -296,6 +296,41 @@
             </note>
           </place>
           
+          <!-- #### MODERNI #### -->
+          
+          <place xml:id="Brescia">
+            <placeName type="norm">Brescia</placeName>
+            <location cert="high">
+              <region>Lombardia</region>
+              <country type="modern">Italy</country>
+              <geo>45.53558, 10.21472</geo>
+            </location>
+            <idno subtype="GeoNames" type="URI">https://www.geonames.org/3181554/brescia.html</idno>
+            <note>
+              <cit>
+                <quote/>
+                <ref/>
+              </cit>
+            </note>
+          </place>
+          
+          <place xml:id="Pavia">
+            <placeName type="norm">Pavia</placeName>
+            <placeName>Papia</placeName>
+            <location cert="high">
+              <region>Lombardia</region>
+              <country type="modern">Italy</country>
+              <geo>45.19205, 9.15917</geo>
+            </location>
+            <idno subtype="GeoNames" type="URI">https://www.geonames.org/3171366/pavia.html</idno>
+            <note>
+              <cit>
+                <quote/>
+                <ref/>
+              </cit>
+            </note>
+          </place>
+          
           <place xml:id="Ravenna">
             <placeName>Ravenna</placeName>
             <location cert="high">
@@ -330,6 +365,33 @@
           </place>
 
         </listPlace>
+
+        <!-- ########## Lista dei popoli ########## -->
+
+        <listOrg>
+
+          <head>Lista dei popoli</head>
+
+          <org xml:id="Dani">
+            <orgName type="gens">Daci sive Dani</orgName>
+            <desc>Nome dato ai Normanni che attaccarono Luni.</desc>
+          </org>
+
+          <org xml:id="Franchi">
+            <orgName type="gens">Franci</orgName>
+            <desc>I Franchi furono uno dei popoli germanici occidentali che entrarono nel tardo Impero romano come
+              federati e stabilirono un reame duraturo, in Gallia, da loro chiamata Francia, e in parte dell'attuale
+              Germania.</desc>
+          </org>
+
+          <org xml:id="Longobardi">
+            <orgName type="gens">Longobardi</orgName>
+            <desc>Popolazione germanica, già menzionata da Tacito e Strabone, che in seguito a un lungo percorso migratorio entra
+              in Italia nel 568 sotto la guida di re Alboino e crea un proprio regno.</desc>
+          </org>
+
+        </listOrg>
+
       </sourceDesc>
       
     </fileDesc>
