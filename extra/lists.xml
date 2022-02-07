@@ -155,7 +155,7 @@
             </location>
             <note>
               <cit>
-                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName ref="#Golanda">Golaidam</placeName>,
+                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName ref="#Golaida">Golaidam</placeName>,
                   et postea possiderunt aldonus <placeName ref="#Anthaib">Anthaib</placeName> et
                   <emph><placeName>Bainaib</placeName></emph> seu et <placeName
                     ref="#Burgundaib">Burgundaib</placeName>.</quote>
@@ -184,7 +184,7 @@
             </location>
             <note>
               <cit>
-                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName ref="#Golanda">Golaidam</placeName>,
+                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName ref="#Golaida">Golaidam</placeName>,
                   et postea possiderunt aldonus <placeName ref="#Anthaib">Anthaib</placeName> et <placeName
                     ref="#Bainaib">Bainaib</placeName> seu et <emph><placeName>Burgundaib</placeName></emph>.</quote>
                 <ref target="#Origo_p_2">Origo 2</ref>
@@ -200,10 +200,10 @@
             </note>
           </place>
 
-          <place xml:id="Golanda">
+          <place xml:id="Golaida">
             <region type="settlement_area">
-              <placeName source="#PaoloDiacono" type="norm">Golanda</placeName>
-              <placeName source="#OrigoAuthor">Golaida</placeName>
+              <placeName source="#OrigoAuthor" type="norm">Golaida</placeName>
+              <placeName source="#PaoloDiacono">Golanda</placeName>
             </region>
             <location cert="high">
               <region>Lüneburg Heath</region>

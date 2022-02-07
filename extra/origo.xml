@@ -121,7 +121,7 @@
             </location>
             <note>
               <cit>
-                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName ref="#Golanda">Golaidam</placeName>,
+                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName ref="#Golaida">Golaidam</placeName>,
                   et postea possiderunt aldonus <placeName ref="#Anthaib">Anthaib</placeName> et
                   <emph><placeName>Bainaib</placeName></emph> seu et <placeName
                     ref="#Burgundaib">Burgundaib</placeName>.</quote>
@@ -150,7 +150,7 @@
             </location>
             <note>
               <cit>
-                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName ref="#Golanda">Golaidam</placeName>,
+                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName ref="#Golaida">Golaidam</placeName>,
                   et postea possiderunt aldonus <placeName ref="#Anthaib">Anthaib</placeName> et <placeName
                     ref="#Bainaib">Bainaib</placeName> seu et <emph><placeName>Burgundaib</placeName></emph>.</quote>
                 <ref target="#Origo_p_2">Origo 2</ref>
@@ -655,7 +655,7 @@
         <w>et</w>
         <w>venerunt</w>
         <w>in</w>
-        <placeName ref="#Golaidam"><w>Golanda</w></placeName>,
+        <placeName ref="#Golaida"><w>Golanda</w></placeName>,
         <w>et</w>
         <w>postea</w>
         <w>possiderunt</w>
