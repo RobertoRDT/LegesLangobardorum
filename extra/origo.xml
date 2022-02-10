@@ -101,9 +101,9 @@
             </location>
             <note>
               <cit>
-                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName>Golaidam</placeName>, et postea
-                  possiderunt aldonus <emph><placeName>Anthaib</placeName></emph> et <placeName>Bainaib</placeName> seu
-                  et <placeName>Burgundaib</placeName>.</quote>
+                <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName ref="#Golaida">Golaidam</placeName>, et postea
+                  possiderunt aldonus <emph><placeName>Anthaib</placeName></emph> et <placeName ref="#Bainaib">Bainaib</placeName> seu
+                  et <placeName ref="#Burgundaib">Burgundaib</placeName>.</quote>
                 <ref target="#origo_p_2">Origo 2</ref>
               </cit>
             </note>
@@ -123,7 +123,7 @@
               <cit>
                 <quote>Et moverunt se exhinde Langobardi, et venerunt in <placeName ref="#Golaida">Golaidam</placeName>,
                   et postea possiderunt aldonus <placeName ref="#Anthaib">Anthaib</placeName> et
-                  <emph><placeName>Bainaib</placeName></emph> seu et <placeName
+                  <emph><placeName ref="#Bainaib">Bainaib</placeName></emph> seu et <placeName
                     ref="#Burgundaib">Burgundaib</placeName>.</quote>
                 <ref target="#Origo_p_2">Origo 2</ref>
               </cit>
@@ -166,7 +166,7 @@
             </note>
           </place>
           
-          <place xml:id="Golanda">
+          <place xml:id="Golaida">
             <region type="settlement_area">
               <placeName source="#PaoloDiacono" type="norm">Golanda</placeName>
               <placeName source="#OrigoAuthor">Golaida</placeName>
@@ -249,7 +249,7 @@
             <region type="settlement_area">
               <placeName>xxx</placeName>
             </region>
-            <location cert="high">
+            <location cert="medium">
               <offset></offset>
               <region></region>
               <country type="modern">Germany</country>
@@ -318,12 +318,29 @@
     </fileDesc>
   </teiHeader>
 
+  <facsimile>
+    <surface>
+      <graphic height="1612px" url="germany-physical-map-large.jpg" width="2000px"/>
+      <!-- SCORINGA -->
+      <zone points=" 1041,183 1006,211 988,238 987,271 1003,302 1034,333 1068,341 1114,338 1157,330 1194,322 1230,314 1266,303 1298,287 1322,258 1318,210 1290,190 1245,171 1197,162 1153,156 1119,159 1077,168 "/>
+      <!-- MAURINGA -->
+      <zone points = ' 1243,376 1274,358 1309,343 1346,339 1382,348 1416,366 1441,392 1460,425 1445,452 1412,463 1382,469 1347,471 1308,474 1268,469 1245,449 1223,420 1224,395 ' />
+      <!-- GOLAIDA -->
+      <zone points = ' 975,434 942,439 914,454 896,479 896,508 906,536 930,553 955,571 984,581 1016,584 1057,586 1089,582 1124,571 1142,554 1151,524 1116,502 1077,488 1054,475 1024,457 1000,444 ' />
+      <!-- ANTHAIB ETC. -->
+      
+      <!-- RUGILAND -->
+      <zone points = ' 1442,1127 1414,1137 1391,1150 1381,1178 1382,1213 1391,1250 1420,1277 1462,1301 1499,1312 1541,1314 1584,1312 1630,1307 1672,1298 1718,1290 1741,1270 1759,1241 1750,1208 1735,1169 1703,1150 1665,1132 1619,1123 1575,1115 1544,1115 1503,1116 1473,1119 ' />
+
+    </surface>
+  </facsimile>
+
   <text>
     
     <front>
       <div resp="#Waitz" type="intro">
 
-        <pb n="1"/>
+        <pb n="1" facs="data/images/single/migrazione.png"/>
 
         <head>Origo Gentis Langobardorum</head>
 
