@@ -42,8 +42,6 @@
         </respStmt>
       </editionStmt>
 
-      <extent>[??] kilobytes</extent>
-
       <publicationStmt>
         <authority>Leges Langobardorum Project</authority>
         <date>2014-</date>
@@ -314,17 +312,8 @@
         <p></p>
       </projectDesc>
       <editorialDecl>
-        <correction method="silent" status="unknown">
-          <p></p>
-        </correction>
-        <normalization method="silent">
-          <p></p>
-        </normalization>
-        <segmentation>
-          <p></p>
-        </segmentation>
         <hyphenation eol="all">
-          <p>Physical line breaks are rigidly observed.</p>
+          <p>Physical line breaks are preserved in the encoded text.</p>
         </hyphenation>
       </editorialDecl>
 
@@ -721,7 +710,7 @@
     </profileDesc>
 
     <revisionDesc status="draft">
-      <change status="draft" when="2016-12" who="RRDT">Separate teiHeader file to accomodate manuscript description,
+      <change status="draft" when="2016-12" who="RRDT">Separate teiHeader file to accomodate manuscript descriptions,
         character declaration and more.</change>
     </revisionDesc>
 

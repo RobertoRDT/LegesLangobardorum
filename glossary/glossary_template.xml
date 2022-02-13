@@ -121,7 +121,8 @@
           + usare <mentioned> invece di <w> per i termini citati in <etym> come suggerito dalle Guidelines? 
             secondo Bowers e Romary 2016 non una buona soluzione, invece di <cit> etc. però perché non <w>?
             SI <mentioned> NO <w> per omogeneità con il resto della codifica
-          + usare <listBibl> e <bibl> invece di <note type="biblio"> e <ref>? NO <ref> più appropriati
+          + usare <listBibl> e <bibl> invece di <note type="biblio"> e <ref>? NO <ref> più appropriati SI usare <bibl>
+            con dentro i <ref>
           
         -->
 

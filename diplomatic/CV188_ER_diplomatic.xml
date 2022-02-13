@@ -11,15 +11,15 @@
                 <principal>Roberto Rosselli Del Turco</principal>
                 <respStmt>
                     <resp>Conversion to TEI-conformant markup: </resp>
-                    <name full="yes" instant="false">Roberto Rosselli Del Turco</name>
+                    <name>Roberto Rosselli Del Turco</name>
                 </respStmt>
                 <respStmt>
                     <resp>General overview: </resp>
-                    <name full="yes" instant="false">Roberto Rosselli Del Turco</name>
+                    <name>Roberto Rosselli Del Turco</name>
                 </respStmt>
                 <respStmt>
                     <resp>Experimental style sheets: </resp>
-                    <name full="yes" instant="false">Roberto Rosselli Del Turco</name>
+                    <name>Roberto Rosselli Del Turco</name>
                 </respStmt>
             </titleStmt>
 
@@ -43,7 +43,7 @@
 
             <publicationStmt>
                 <authority>Leges Langobardorum Project</authority>
-                <date instant="false">2014</date>
+                <date instant="false">2014-</date>
                 <availability status="unknown">
                     <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for
                         more information.</p>
@@ -100,17 +100,8 @@
                 <p/>
             </projectDesc>
             <editorialDecl>
-                <correction status="unknown" method="silent">
-                    <p/>
-                </correction>
-                <normalization method="silent">
-                    <p/>
-                </normalization>
-                <segmentation>
-                    <p/>
-                </segmentation>
                 <hyphenation eol="all">
-                    <p>Physical line breaks are rigidly observed.</p>
+                    <p>Physical line breaks are preserved in the encoded text.</p>
                 </hyphenation>
             </editorialDecl>
 
