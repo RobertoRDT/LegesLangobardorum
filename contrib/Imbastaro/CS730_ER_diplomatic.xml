@@ -85,7 +85,7 @@
             </handDesc>
             <decoDesc>
                 <p>In alcune leggi la prima lettera è miniata in rosso, giallo e verde,
-                    spesso con decorazioni di pesci e uccelli.</p>
+                    spesso con decorazioni zoomorfiche (pesci e uccelli).</p>
             </decoDesc>
           </physDesc>
           <history>
@@ -193,12 +193,12 @@
                   <mapping type="codepoint">U+205A</mapping>
                   <mapping type="diplomatic">⁚</mapping>
                   <mapping type="normalized">ue</mapping>
-              </char>
+              </char> 
               
-              <char xml:id="comma">
-                  <charName>Comma Punctuation</charName>
-                  <mapping type="codepoint">U+1808</mapping>
-                  <mapping type="diplomatic">᠈</mapping>
+              <char xml:id="rcomma">
+                  <charName>RAISED COMMA</charName>
+                  <mapping type="codepoint">U+2E34</mapping>
+                  <mapping type="diplomatic">⸴</mapping>
                   <mapping type="normalized">us</mapping>
               </char>
               
@@ -217,15 +217,8 @@
                   <mapping type="normalized">nt</mapping>
               </glyph>
               
-              <glyph xml:id="nslig">
-                  <glyphName>LATIN SMALL LIGATURE NS</glyphName>
-                  <mapping subtype="composed" type="ligature">U+006E + U+017F</mapping>
-                  <mapping type="diplomatic">ns</mapping>
-                  <mapping type="normalized">ns</mapping>
-              </glyph>
-              
               <glyph xml:id="nplig">
-                  <glyphName>LATIN SMALL LIGATURE NS</glyphName>
+                  <glyphName>LATIN SMALL LIGATURE NP</glyphName>
                   <mapping subtype="composed" type="ligature">U+006E + U+0070</mapping>
                   <mapping type="diplomatic">np</mapping>
                   <mapping type="normalized">np</mapping>
@@ -605,7 +598,7 @@
 					</gloss>
 				</p>
 						
-					<gap extent="folios"/>
+                <gap  extent="2" unit="folios"/>
 					
 			<pb n="03" xml:id="CS730_folio_03"/>
             <fw type="fol" place="top-right"><add hand="unknown">3</add></fw>
@@ -993,13 +986,8 @@
 					<gap extent="12" unit="chars"/>
 	                <supplied reason="illegible" resp="leges">
                     <w><hi rend="decorated">D</hi>e</w>
-                    <term xml:lang="lng" ref="#grabworfin" xml:id="CS730_term_grabworfin_16">
-                        <w>
-                            <choice>
-	                            <orig>grab<c corresp="#v">u</c><c corresp="#v">u</c>orfin</orig>
-	                            <reg resp="leges">grabworfin</reg>
-	                        </choice>
-                        </w>
+                    <term xml:lang="lng" ref="#crapworfin" xml:id="CS730_term_crapworfin_16">
+                        <w>crapworfin</w>
                     </term>
 					</supplied>
                     <w>si</w>
@@ -2319,7 +2307,7 @@
 					</gloss>
 				</p>
 					
-					<gap unit="folios"/>
+             <gap extent="2" unit="folios"/>
 
 			<pb n="11" xml:id="CS730_folio_11"/>
 			<fw type="fol" place="top-right"><add hand="unknown">11</add></fw>	
@@ -3466,7 +3454,8 @@
 				</p>
                     
                     <gap extent="4" unit="lines"/>
-					<gap unit="folios"/>
+            
+                    <gap extent="2" unit="folios"/>
 					
 			<pb n="17" xml:id="CS730_folio_17"/>
 	        <fw type="fol" place="top-right"><add hand="unknown">17</add></fw>
@@ -3866,7 +3855,6 @@
 					
 		<pb n="19" xml:id="CS730_folio_19"/>
 	    <fw type="fol" place="top-right"><add hand="unknown">19</add></fw>
-	    <!-- + riga in alto-->
 					
 					<lb xml:id="CS730_lb_19_01" n="01"/>
                     <w>teneatur</w>  
@@ -4217,7 +4205,7 @@
 					<w>dit</w>
 				</p>
 					
-					<gap unit="folios"/>
+                <gap extent="2" unit="folios"/>
 					
 					
 		<pb n="01" xml:id="CS730_folio_21"/>
@@ -5838,7 +5826,7 @@
                 </p>
             <!-- poi solo excuss nel frammento-->
 				
-				<gap unit="folios"/>
+            <gap extent="2" unit="folios"/>
 		
 		<pb n="27" xml:id="CS730_folio_27"/>
 	    <fw type="fol" place="top-right"><add hand="unknown">27</add></fw>
@@ -6112,10 +6100,10 @@
                     <w>et</w>
 			        <w>
 			            <choice>
-			                <abbr>quinq<am><g ref="#comma"/></am></abbr>
+			                <abbr>quinq<am><g ref="#rcomma"/></am></abbr>
 			                <expan>quinq<ex>ue</ex></expan>
 			            </choice>
-			        </w><!--q abbr con ' in questo caso per u, non per us come per la b-->
+			        </w>
                 </p>
 				
                 <p xml:id="CS730_p_28_138" n="138">
@@ -6637,7 +6625,7 @@
 					<w>quod</w>
 				</p>
 					
-					<gap unit="folios"/>
+                <gap extent="2" unit="folios"/>
 					
 		<pb n="28c" xml:id="CS730_folio_28c"/>
 	    <fw type="fol" place="top-right"><add hand="unknown">28c</add></fw>
@@ -7272,7 +7260,7 @@
                     <w>licentia</w>
 				</p>
 					
-					<gap unit="folios"/>
+                <gap extent="10" unit="folios"/>
 					
 					
 		<pb n="30a" xml:id="CS730_folio_30a"/>
@@ -7560,7 +7548,7 @@
                     <w>sit</w>
 				</p>
 					
-                    <gap unit="folios"/>
+                <gap extent="4" unit="folios"/>
 					
 		<pb n="30c" xml:id="CS730_folio_30c"/>
 	    <fw type="fol" place="top-right"><add hand="unknown">30c</add></fw>
@@ -7763,9 +7751,7 @@
 	                    <supplied reason="illegible" resp="leges">thi</supplied>nx</w>
                     </term>  
                     <term xml:lang="lng" ref="#lidinlaib" xml:id="CS730_term_lidinlaib_176">
-                        <w>lid</w>
-                        <w>in</w>
-                        <w>laib</w>
+                        <w>lidinlaib</w>
                     </term>  
                     <gloss target="#CS730_term_lidinlaib_176" xml:id="CS730_gloss_lidinlaib_176">
                         <w>id</w>
@@ -9886,7 +9872,7 @@
                            <w>id</w>
                            <w>est</w> 
                            <term xml:lang="lng" ref="#anagrift" xml:id="CS730_term_anagrift_189">
-                               <w>anagrip</w>
+                               <w>anagrift</w>
                            </term>  
                         </supplied>
                     </damage>
@@ -10076,7 +10062,7 @@
                             <expan>p<ex>er</ex>tenuerit</expan>
                         </choice>
                     </w>
-                    <term xml:lang="lng" ref="#anagrip" xml:id="CS730_term_anagrip_193">
+                    <term xml:lang="lng" ref="#anagrift" xml:id="CS730_term_anagrift_193">
                         <w>annagrift</w>
                     </term>
                     <w>
@@ -10823,7 +10809,7 @@
                     <w>cum</w>
                     <w>
                         <choice>
-                            <abbr>reb<am><g ref="#comma"/></am></abbr> 
+                            <abbr>reb<am><g ref="#rcomma"/></am></abbr> 
                             <expan>reb<ex>us</ex></expan>
                         </choice>
                     </w>
@@ -11612,7 +11598,7 @@
                     <w>illis</w>
                     <w>
                         <choice>
-                            <abbr>parentib<am><g ref="#comma"/></am></abbr> 
+                            <abbr>parentib<am><g ref="#rcomma"/></am></abbr> 
                             <expan>parentib<ex>us</ex></expan>
                         </choice>
                     </w>
@@ -11643,7 +11629,7 @@
                     </w>
                     <w>acturem</w>
                     <w>regis</w>
-                    <w>distrin<lb xml:id="CS730_lb_41_16" n="16"/>gantur</w> <!-- per bluhme no, per me seconda n espunzione-->
+                    <w>distrin<lb xml:id="CS730_lb_41_16" n="16"/>gantur</w> <!-- per bluhme no, ma la seconda n potrebbe essere espunta?-->
                     <w>et</w>
                     <w>poena</w>
                     <w>suprascrip<lb xml:id="CS730_lb_41_17" n="17"/>ta</w>
@@ -12633,7 +12619,8 @@
                     
 		<pb n="47" xml:id="CS730_folio_47"/>
 	    <fw type="fol" place="top-right"><add hand="unknown">47</add></fw>
-                    <!-- pagina 47 tutta blu,inserita come?-->
+                    <!-- pagina 47 tutta danneggiata dal reagente, si leggono poche lettere/parole, inserita come?
+                        
 					<lb xml:id="CS730_lb_47_01" n="01"/>
 					<w>liberum</w>
                     <w>aut</w>
@@ -12665,49 +12652,53 @@
                     <w>quis</w>
                     <w>alii</w>
                     <w>de</w>
+                    <lb xml:id="CS730_lb_47_07" n="07"/>
                     <w>uxorem</w>
                     <w>suam</w>
-                    <lb xml:id="CS730_lb_47_07" n="07"/>
                     <w>crimen</w>
+                    <lb xml:id="CS730_lb_47_08" n="08"/>
                     <w>miserit</w>
                     <w>quod</w>
                     <w>cum</w>
                     <w>ea</w>
-                    <w>for<lb xml:id="CS730_lb_47_08" n="08"/>nicassit</w>
+                    <lb xml:id="CS730_lb_47_09" n="09"/>
+                    <w>fornicassit</w>
                     <w>liceat</w>
                     <w>ei</w>
                     <w>cui</w>
+                    <lb xml:id="CS730_lb_47_10" n="10"/>
                     <w>crimen</w>
-                    <w>mit<lb xml:id="CS730_lb_47_09" n="09"/>titur</w>
+                    <w>mittitur</w>
                     <w>aut</w>
                     <w>per</w>
                     <w>sacramentum</w>
+                    <lb xml:id="CS730_lb_47_11" n="11"/>
                     <w>aut</w>
-                    <lb xml:id="CS730_lb_47_10" n="10"/>
                     <w>per</w>
                     <w>pugnam</w>
-                    <w>camphionem</w> 
+                    <w>camfionem</w>
+                    <lb xml:id="CS730_lb_47_12" n="12"/> 
                     <w>se</w>
                     <w>purificare</w>
                     <w>et</w>
                     <w>si</w>
-                    <w>pro<lb xml:id="CS730_lb_47_11" n="11"/>batum</w>
+                    <w>probatum</w>
+                    <lb xml:id="CS730_lb_47_13" n="13"/>
                     <w>fuerit</w>
                     <w>animae</w>
                     <w>suae</w>
                     <w>incurrat</w>
-                    <lb xml:id="CS730_lb_47_12" n="12"/>
                     <w>periculum</w>
                 </p>
 
                 <p xml:id="CS730_p_47_218"> 
-				    <lb xml:id="CS730_lb_47_13" n="13"/>
+				    <lb xml:id="CS730_lb_47_14" n="14"/>
                     <label><num><w>CCXVIII</w></num></label>
                     <w><hi rend="cap">S</hi>i</w>
                     <w>quis</w>
                     <w>liberam</w>
                     <w>puellam</w>
-                    <lb xml:id="CS730_lb_47_14" n="14"/>
+                    <lb xml:id="CS730_lb_47_15" n="15"/>
                     <w>absque</w>
                     <w>consilio</w>
                     <w>
@@ -12718,6 +12709,7 @@
 					</w>
                     <w>aut</w>
                     <w><c corresp="v">u</c>oluntatem</w>
+                    <lb xml:id="CS730_lb_47_16" n="16"/>
                     <w>duxerit</w>
                     <w>uxorem</w>
                     <w>
@@ -12726,19 +12718,18 @@
                             <expan>conp<ex>onat</ex></expan>
                         </choice>
                     </w>
-                    <lb xml:id="CS730_lb_47_15" n="15"/>
                     <term xml:lang="lng" ref="#anagrift" xml:id="CS730_term_anagrift_214">
-                        <w>anagrip</w>
+                        <w>anagrift</w>
                     </term>
                     <w>solidos</w>
+                    <lb xml:id="CS730_lb_47_17" n="17"/>
                     <w><c corresp="#v">u</c>igenti</w>
                     <w>et</w>
                     <w>propter</w>
-                    <lb xml:id="CS730_lb_47_16" n="16"/>
                     <term xml:lang="lng" ref="#faida" xml:id="CS730_term_faida_214">
                         <w>faida</w>
                     </term>
-					
+					-->
 			
 		<pb n="48" xml:id="CS730_folio_48"/>
 	    <fw type="fol" place="top-left"><add hand="unknown">48</add></fw>
@@ -12867,7 +12858,7 @@
 					<w>haldius</w>
                     <w>
                         <choice>
-                            <abbr>cuius<lb xml:id="CS730_lb_48_19_abbr" n="19"/>cumq<am><g ref="#comma"/></am></abbr>
+                            <abbr>cuius<lb xml:id="CS730_lb_48_19_abbr" n="19"/>cumq<am><g ref="#rcomma"/></am></abbr>
                             <expan>cuius<lb xml:id="CS730_lb_48_19_expan" n="19"/>cumq<ex>ue</ex></expan>
                         </choice>
                     </w> 
@@ -13518,7 +13509,7 @@
                     <w><hi rend="cap">D</hi>e</w>
                     <w>
                         <choice>
-                            <abbr>manumissionib<am><g ref="#comma"/></am></abbr> 
+                            <abbr>manumissionib<am><g ref="#rcomma"/></am></abbr> 
                             <expan>manumissionib<ex>us</ex></expan>
                         </choice>
                     </w> 
@@ -14213,7 +14204,7 @@
                     <w><hi rend="cap">D</hi>e</w>
                     <w>
                         <choice>
-                            <abbr>emptionib<am><g ref="#comma"/></am></abbr> 
+                            <abbr>emptionib<am><g ref="#rcomma"/></am></abbr> 
                             <expan>emptionib<ex>us</ex></expan>
                         </choice>
                     </w>
@@ -14223,7 +14214,7 @@
                     <w>
                         <choice>
                             <abbr><damage><supplied reason="illegible" resp="leges"><c corresp="#v">u</c>indi</supplied></damage>
-	                              <lb xml:id="CS730_lb_57_17_abbr" n="17"/>tionib<am><g ref="#comma"/></am></abbr> 
+	                              <lb xml:id="CS730_lb_57_17_abbr" n="17"/>tionib<am><g ref="#rcomma"/></am></abbr> 
                             <expan><damage><supplied reason="illegible" resp="leges"><c corresp="#v">u</c>indi</supplied></damage>
                                 <lb xml:id="CS730_lb_57_17_expan" n="17"/>tionib<ex>us</ex></expan>
                         </choice>
@@ -14948,7 +14939,7 @@
 	                </damage>
                 </p>
 
-                <gap unit="folios"/>
+                <gap extent="6" unit="folios"/>
 				
 	<pb n="62a" xml:id="CS730_folio_62a"/>
 	<fw type="fol" place="top-right"><add hand="unknown">62a</add></fw>
@@ -15727,7 +15718,7 @@
                     <gap extent="7" unit="chars"/>
 	                <supplied reason="illegible" resp="leges">
 					<w>usque</w>
-                    <w>ad</w> <!--forse 5 se usq è abbr-->
+                    <w>ad</w>
                     </supplied>
 					<w>decim</w>
                     <w>siliquas</w>
@@ -15763,7 +15754,7 @@
                     <w>occidatur</w>
                 </p>
 			
-			<gap unit="folios"/>
+             <gap extent="8" unit="folios"/>
    
 		<pb n="62e" xml:id="CS730_folio_62e"/>
 	    <fw type="fol" place="top-right"><add hand="unknown">62e</add></fw>
@@ -16129,7 +16120,7 @@
                     <w>ser<c corresp="#v">u</c>um</w>
 				</p>
 					
-					<gap unit="folios"/>
+                <gap extent="10" unit="folios"/>
 				
 		    <pb n="62g" xml:id="CS730_folio_62g"/>
 	        <fw type="fol" place="top-right"><add hand="unknown">62g</add></fw>
@@ -16536,10 +16527,11 @@
 	                </damage>
                     
 			    </p>
-					<!--credo finisca qui la pagina poi 62i e 62j sono solo due pezzettini laterali e poi manca del testo...-->
-					<gap unit="folios"/>
-					
-				<!--...fino a qui, quindi non so l'esatta num dei paragrafi, ora c'è il 366-->
+					<!--credo finisca qui la pagina-->
+            <gap extent="22" unit="folios"/>
+            
+            <!--62i e 62j sono solo due pezzettini laterali e poi manca del testo, 
+                quindi non so l'esatta num dei paragrafi, ora c'è il 366-->
 				
 		<pb n="63" xml:id="CS730_folio_63"/>
 	    <fw type="fol" place="top-right"><add hand="unknown">63</add></fw>
@@ -17082,7 +17074,7 @@
                     <w>quia</w>
                     <w>
                         <choice>
-                            <abbr>ne<lb xml:id="CS730_lb_66_18_abbr" n="18"/>q<am><g ref="#comma"/></am></abbr>
+                            <abbr>ne<lb xml:id="CS730_lb_66_18_abbr" n="18"/>q<am><g ref="#rcomma"/></am></abbr>
                             <expan>ne<lb xml:id="CS730_lb_66_18_expan" n="18"/>q<ex>ue</ex></expan>
                         </choice>
                     </w>
@@ -18113,7 +18105,7 @@
                     <w>su<g ref="#ntlig"/></w> 
 				</p>
 					
-					<gap unit="folios"/>
+                <gap extent="unknown" unit="folios"/>
 		          
 				
         </body>
