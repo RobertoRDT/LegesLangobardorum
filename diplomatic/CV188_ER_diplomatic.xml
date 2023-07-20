@@ -445,10 +445,11 @@
             
     - aggiornare schema di codifica
     - inserire le rubriche iniziali nel <front>
+    - aggiungere @corresp alle glosse relative per i <term>, in modo da poter anche individuare quali <term> hanno una <gloss>
     - aggiungere @rend per <del>
     - aggiungere <listPerson> con id per nomi di persona
     - controllare attributi lasciati senza valori es. ref in <persName>
-    - rimuovere RRDT da resp attribuibili a Bluhme, Azzara etc.
+    - rimuovere RRDT da resp attribuibili a Bluhme, Azzara etc., definire strategia generale per resp
 
     -->
 
@@ -780,7 +781,7 @@
                     <w>suum</w>
                     <w>dimi<lb n="07" xml:id="CV188_lb_019v_07"/>serit</w>
                     <w>aut</w>
-                    <term xml:lang="lng" ref="#astalin" xml:id="CV188_term_astalin_07">
+                    <term xml:lang="lng" ref="#astalin" xml:id="CV188_term_astalin_07" corresp="#CV188_gloss_astalin_07">
                         <w>
                             <choice>
                                 <orig>anstall<add place="below">i</add><subst>

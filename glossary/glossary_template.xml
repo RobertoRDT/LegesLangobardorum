@@ -101,12 +101,14 @@
     </revisionDesc>
   </teiHeader>
 
-  <!-- Occorrenze all'interno di <text>:
-
-  <term xml:id="CV188_term_astalin" xml:lang="lng" target="#astalin"> target o corresp? REF!
-      <w xml:id="CV188_word_astalin">astalin</w>
-  </term>
-  <gloss xml:id="CV188_gloss_astalin">id est....</gloss> 
+  <!--NB All'interno di <text>: -->
+  
+  <!-- 
+    
+    <term xml:id="CV188_term_astalin_07" xml:lang="lng" target="#astalin" corresp="#CV188_gloss_astalin_07">
+        <w>astalin</w>
+    </term>
+    <gloss target="#CV188_term_astalin_07" xml:id="CV188_gloss_astalin_07">id est....</gloss>
   
   -->
 
@@ -114,18 +116,6 @@
     <body>
       <div type="glossary" xml:lang="lng">
         
-        <!-- TODO -->
-        
-        <!--
-          
-          + usare <mentioned> invece di <w> per i termini citati in <etym> come suggerito dalle Guidelines? 
-            secondo Bowers e Romary 2016 non una buona soluzione, invece di <cit> etc. però perché non <w>?
-            SI <mentioned> NO <w> per omogeneità con il resto della codifica
-          + usare <listBibl> e <bibl> invece di <note type="biblio"> e <ref>? NO <ref> più appropriati SI usare <bibl>
-            con dentro i <ref>
-          
-        -->
-
         <entry xml:id="astalin">
 
           <!-- ########  Il lemma  ######## -->
@@ -134,8 +124,18 @@
             <orth>astalin</orth>
             <!-- <pron notation="IPA"></pron> per eventuale trascrizione fonologica / fonetica -->
           </form>
+          <!-- Per le informazioni grammaticali varie forme possibili:
+            
+            <pos value="noun"></pos>
+            <pos value="noun"/>
+            <pos value="noun">n</pos> 
+            <pos>noun</pos> 
+          
+            sconsigliata l'ultima se si desidera avere la possibilità di localizzare il glossario: con value="noun"
+            abbiamo sempre la possibilità di tradurre l'output in più lingue.
+          -->          
           <gramGrp>
-            <pos expand="sostantivo" value="noun">sost.</pos>
+            <pos expand="sostantivo" value="noun">sost.</pos><!-- @expand facoltativo -->
             <gen expand="femminile" value="feminine">femm.</gen>
             <iType type="theme">-i</iType> <!-- oppure <iType type="theme" value="-i"/>  -->
           </gramGrp>
@@ -148,33 +148,39 @@
           </gramGrp>
           -->
 
-          <!-- Termine attuale se esiste in una lingua
+          <!-- Termine attuale se esiste in una lingua moderna
           <form type="current"> 
             <usg type="time">current</usg>
             <orth xml:lang="ita">battifredo</orth>
           </form> -->
 
-          <!-- ######## Le occorrenze del termine nel testo critico: per prima cosa la forma del lemma ######## -->
+          <!-- ######## Le occorrenze del termine nel testo critico: per prima la forma del lemma ######## -->
 
-          <cit type="lemma">
-            <ref>MSS 1, 5, 8, 9, 10, 11; Gloss. Matr.</ref><!-- <ref> con @target quando disponibile -->
-            <!-- Occorrenza principale nell'ER, ms CV188 -->
-            <ref target="#CV188_term_astalin">ER capitolo 7</ref>
-          </cit>
+          <form>
+            <orth>astalin</orth>
+            <gramGrp>
+              <case value="nominative"/>
+              <number value="singular">sing</number>
+            </gramGrp>
+            <cit type="lemma">
+              <!-- NB: sempre <ref> con @target quando disponibile -->
+              <ref>MSS 1, 5, 8, 9, 10, 11; Gloss. Matr.</ref>
+              <!-- Occorrenza principale (= quella accompagnata da <gloss>) nell'ER, ms CV188 -->
+              <ref target="#CV188_term_astalin_07">ER capitolo 7</ref>
+            </cit>
+          </form>
           
           <!-- ######## Le occorrenze del termine nel testo critico: le forme flesse ######## -->
 
           <form type="inflected">
             <orth>astalin</orth>
             <gramGrp>
-              <pos expand="sostantivo" value="noun">sost.</pos>
+              <!--<pos expand="sostantivo" value="noun">sost.</pos>-->
               <case expand="nominativo" value="nominative">nom.</case>
               <number expand="singolare" value="singular">sing.</number>
             </gramGrp>
             <cit>
-              <!-- NB per occorrenze diverse da quella del <term> il target punta all'elemento <w> corrispondente  --><!-- ??? -->
-              <!-- NB se non si usa <term> punterà sempre a un elemento <w> -->
-              <ref target="#CV188_word_astalin">ER capitolo 7</ref>
+              <ref target="#CV188_term_astalin_07">ER capitolo 7</ref>
             </cit>
           </form>
 
@@ -191,7 +197,7 @@
           <!-- Varianti ortografiche -->
 
           <form type="variants">
-            <orth>anstallin <ref>MS 2</ref></orth>
+            <orth>anstallin <ref target="#CV188_p_019v_07">MS 2</ref></orth><!-- NB: sempre <ref> con @target quando disponibile -->
             <orth>anstallim <ref>MS 3</ref></orth>
             <orth>anstalin <ref>MS 3</ref></orth>
             <orth>astalium <ref>MS 12</ref></orth>
@@ -200,7 +206,7 @@
           <!-- Il significato o i significati del termine -->
           
           <sense><!--  n="1" etc. nel caso ci siano più significati possibili -->
-            <def>tradimento, fuga o abbandono dei compagni in battaglia</def>
+            <def>tradimento, fuga o abbandono dei compagni in battaglia.</def>
             <xr type="see">V. <ref target="#xxxx">xxxx</ref></xr><!-- cross-reference interna al glossario -->
           </sense>
                     
@@ -208,16 +214,21 @@
 
           <cit type="cit_section">
             <cit type="ms_text">
-              <!-- <oRef> corrisponde alla forma ortografica del lemma -->
-              <quote><oRef/> fecerit, id est si eum diceperit et cum eum non laboraverit</quote>
-              <ref target="#CV188_term_astalin_nnn #CV188_gloss_astalin_nnn">MS 2</ref>
+              <!-- facoltativo: <oRef> corrisponde alla forma ortografica del lemma, anche come elemento vuoto -->
+              <quote><oRef>anstallin</oRef> fecerit, id est si eum diceperit et cum eum non laboraverit</quote>
+              <ref target="#CV188_term_astalin_07 #CV188_gloss_astalin_07">MS 2</ref>
             </cit>
             <cit>
-              <quote>Id <ex>est</ex> decipere</quote>
+              <quote>Astalin. Id <ex>est</ex> decipere</quote>
               <ref>Gloss. Matr.</ref>
             </cit>
           </cit>
 
+          <!-- Una nota di commento/spiegazione relativa al termine -->
+          
+          <sense value="desc">Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
+            corrispondente (Francovich Onesti).</sense>
+          
           <!-- Etimologia -->
           
           <etym>
@@ -229,20 +240,73 @@
             <xr type="etym">Etimologicamente connesso con <ptr target="#yyyy"/></xr>
           </etym>
 
-          <!-- Una nota di commento/spiegazione relativa al termine -->
-          
-          <sense value="desc">Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
-            corrispondente (Francovich Onesti).</sense>
-          
           <!-- Riferimenti bibliografici -->
 
-          <listBibl>
-            <bibl><ref target="#Onesti2000">Francovich Onesti 2000</ref>, pp. 54-5</bibl>
-            <bibl><ref target="#PrinciBraccini1994">Princi Braccini 1994</ref>, pp. 76-8</bibl>
-            <bibl><ref target="#Molinari1989">Molinari 1989</ref>, 30 pp. 233-4</bibl>
-          </listBibl>
+          <note type="biblio">
+            <ref target="#Onesti2000">Francovich Onesti 2000, pp. 54-5.</ref>
+            <ref target="#PrinciBraccini1994">Princi Braccini 1994, pp. 76-8.</ref>
+            <ref target="#Molinari1989">Molinari 1989, pp. 233-4.</ref>
+          </note>
         </entry>
         
+        <!-- ########################### -->
+        <!-- #########  empty  ######### -->
+        <!-- ########################### -->
+        
+        <entry xml:id="eeeee">
+          <form type="lemma">
+            <orth></orth>
+          </form>
+          
+          <gramGrp>
+            <pos value="noun"></pos>
+            <gen value="feminine"></gen>
+            <!-- <case value="nominative">nom</case> -->
+            <number value="singular"></number>
+            <iType type="theme">-i</iType>
+          </gramGrp>
+          
+          <cit type="main">
+            <quote></quote>
+            <ref target="#">ER </ref>
+          </cit>
+          
+          <form type="variants">
+            <orth> <ref target="#"></ref></orth>
+            <orth> <ref></ref></orth>
+            <orth> <ref></ref></orth>
+          </form>
+          
+          <sense n="1">
+            <def></def>
+          </sense>
+          
+          <sense n="2">
+            <def></def>
+          </sense>
+          
+          <cit>
+            <quote></quote>
+            <ref></ref>
+          </cit>
+          
+          <note type="comment"></note>
+          
+          <etym>
+          </etym>
+          
+          <re></re>
+          <ref></ref>
+          
+          <note type="biblio">
+            <ref target="#"></ref>
+            <ref target="#"></ref>
+            <ref target="#"></ref>
+          </note>
+        </entry>
+
+
+
         <!-- Gestione degli omografi con <superEntry> (esempio TEI) -->
 
         <superEntry>
