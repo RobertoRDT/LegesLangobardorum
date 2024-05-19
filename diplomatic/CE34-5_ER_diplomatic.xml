@@ -543,7 +543,13 @@
     </revisionDesc>
   </teiHeader>
 
-    <text type="prose" n="Editto di Rotari" xml:id="CE34-5">
+  <text n="Editto di Rotari" type="prose" xml:id="CE34-5">
+
+    <!-- TODO:
+    
+    - rivedere type e subtype per i div non capitula
+    
+    -->
 
     <body>
 
@@ -5875,7 +5881,7 @@
         </argument>
       </div>
 
-      <div xml:id="CE34-5_ER_capitula">
+      <div xml:id="CE34-5_ER_capitula"><!-- CHECK cambiare id -->
         <lb n="19" xml:id="CE34-5_lb_066r_19"/>
         <p>
           <hi rend="black and red"><w>EXPLICIUNT</w>
@@ -36896,5 +36902,5 @@
         </p>
       </div>
     </body>
-    </text>
+  </text>
 </TEI>
