@@ -320,6 +320,13 @@
           <mapping type="normalized">a</mapping>
         </char>
 
+        <char xml:id="Atilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER A WITH TILDE"/>
+          <mapping type="codepoint">U+00C3</mapping>
+          <mapping type="diplomatic">Ã</mapping>
+          <mapping type="normalized">A</mapping>
+        </char>
+        
         <!-- aggiunto 2018-12-05 -->
         <char xml:id="utilde">
           <unicodeProp name="Name" value="LATIN SMALL LETTER U WITH TILDE"/>
@@ -465,6 +472,8 @@
     - rimuovere RRDT da resp attribuibili a Bluhme, Azzara etc., definire strategia generale per resp
     - problema delle rubriche: usare <seg type="line" rend="rubric">?
     - controllare che i <label> includano i titoletti (quelli che cominciano con "De ... etc.")
+    - Vtilde o Vmacron? usare i combining macron/tilde per segni estesi su più vocali?
+    - TUTTA la trascrizione 1-50 è da controllare e completare
 
     -->
 
@@ -494,7 +503,6 @@
           </choice>
           <lb n="02" xml:id="CV188_lb_018v_02"/>
           <choice>
-            <!-- le 's' sono segni di abbreviazione: segni tachigrafici U+033E COMBINING VERTICAL TILDE -->
             <abbr>I<g ref="#combtildevert"/>N<g ref="#combtildevert"/>C<g ref="#combtildevert"/>P<g ref="#combtildevert"/></abbr>
             <expan>INC<ex>I</ex>P<ex>IUNT</ex></expan>
           </choice>
@@ -503,28 +511,25 @@
             <expan>C<ex>A</ex>P<ex>ITU</ex>LA</expan>
           </choice>
           <lb n="03" xml:id="CV188_lb_018v_03"/>CA<space/>U<space/>SA<space/>S</head>
+
         <lb n="04" xml:id="CV188_lb_018v_04"/>
+
         <p xml:id="CV188_p_018v_01">
-          <lb n="05" xml:id="CV188_lb_018v_05"/>
-          <label n="1"><num><w>I</w></num></label>
+          <lb n="05" xml:id="CV188_lb_018v_05"/><label n="1"><num><w>I</w></num></label>
           <seg rend="cap">
-            <w><hi rend="decorated">S</hi>i</w>
-            <w>q<c corresp="#u">v</c>is</w>
-            <w>homin<c corresp="#u">v</c>m</w>
-            <lb n="06" xml:id="CV188_lb_018v_06"/><w>contra</w>
+            <w><hi rend="decorated cap1.1">S</hi>I</w>
+            <w>Q<c corresp="#ucap">V</c>IS</w>
+            <w>HOMIN<c corresp="#ucap">V</c>M</w>
+            <lb n="06" xml:id="CV188_lb_018v_06"/><w>CONTRA</w>
             <w><choice>
-                <abbr>anima</abbr>
-                <!-- abbreviazione: tilde verticale sopra a finale -->
-                <expan>animam</expan>
+                <abbr>ANIM<am><g ref="#Atilde"/></am></abbr>
+                <expan>ANIMA<ex>M</ex></expan>
               </choice></w>
-            <lb n="07" xml:id="CV188_lb_018v_07"/><w>regis</w>
-            <w>co<add place="inline" rend="smaller"
-            >gi</add>taverit</w><!-- la T finale è una correzione o
-                     solo danneggiata? correzione da M a T -->
+            <lb n="07" xml:id="CV188_lb_018v_07"/><w>REGIS</w>
+            <w>CO<add place="inline" rend="smaller"
+            >gi</add>TAVERI<subst><del rend="erasure">M</del><add>T</add></subst></w><!-- CHECK subst -->
           </seg>
-          <lb n="08" xml:id="CV188_lb_018v_08"/><w><choice>
-              <orig>anime</orig>
-              <reg resp="RRDT">animae</reg>
+          <lb n="08" xml:id="CV188_lb_018v_08"/><w><choice><orig>anime</orig><reg resp="RRDT">animae</reg>
             </choice></w>
           <w>suae</w>
           <w>incurrat</w>
@@ -539,8 +544,7 @@
         </p>
 
         <p n="2" xml:id="CV188_p_018v_02">
-          <lb n="10" type="rubric" xml:id="CV188_lb_018v_10"/>
-          <label><num><w>II</w></num></label>
+          <lb n="10" type="rubric" xml:id="CV188_lb_018v_10"/><label><num><w>II</w></num></label>
           <w><hi rend="cap1.2">S</hi>i</w>
           <w>quis</w>
           <w>cum</w>
@@ -554,7 +558,7 @@
           <lb n="12" xml:id="CV188_lb_018v_12"/><w>per</w>
           <w>ipsius</w>
           <w><choice>
-              <abbr>iussion<am><g ref="#emacr"/></am></abbr>
+              <abbr>iussion<am><g ref="#emacr"/></am></abbr><!-- CHECK emacr o etilde? -->
               <expan>iussione<ex>m</ex></expan>
             </choice></w>
           <choice>
@@ -574,12 +578,10 @@
 
           <pb n="019r" xml:id="CV188_folio_019r"/>
 
-          <lb n="01" xml:id="CV188_lb_019r_"/><w><choice>
-              <sic>heredis</sic>
-              <corr resp="RRDT">heredes</corr>
+          <lb n="01" xml:id="CV188_lb_019r_"/><w><choice><sic>heredis</sic><corr resp="RRDT">heredes</corr>
             </choice></w>
           <w>eius</w>
-          <w>quoquo</w>
+          <w>quoquo</w><!-- CHECK -->
           <w>tempore</w>
           <w>ab</w>
           <w>il<lb n="02" xml:id="CV188_lb_019r_02"/>lo</w>
@@ -588,14 +590,11 @@
               <sic>heredis</sic>
               <corr resp="rrdt">heredes</corr>
             </choice></w>
-          <w>ipsius</w>
+          <w>eius</w>
           <w>requisitionem</w>
           <lb n="03" xml:id="CV188_lb_019r_03"/><w>aut</w>
           <w>molestias</w><!-- il puntinatore si è sbagliato nel dividere le parole -->
-          <w>patiatur</w>
-          <choice>
-            <orig><pc>:</pc></orig>
-            <reg>;</reg>
+          <w>patiatur</w><choice><orig><pc>:</pc></orig><reg>;</reg>
           </choice>
           <w>quia</w>
           <w>post<lb n="04" xml:id="CV188_lb_019r_04"/>quam</w>
@@ -613,7 +612,7 @@
           <w>non</w>
           <w>est</w>
           <w>
-            <choice>
+            <choice><!-- CHECK -->
               <sic>posse<c corresp="#v">u</c>ilem</sic>
               <corr resp="bluhme azzara">possibile</corr>
               <!-- come mai non possibilis? -->
@@ -628,12 +627,13 @@
             </choice></w><reg>,</reg>
           <w>quem</w>
           <w>rex</w>
-          <lb n="07" xml:id="CV188_lb_019r_07"/><space extent="7"/><w>occidere</w>
+          <lb n="07" xml:id="CV188_lb_019r_07"/><space extent="7"/><!-- CHECK --><w>occidere</w>
           <w>iusserit</w><reg>.</reg>
         </p>
-        <p n="3" xml:id="CV188_p_019r_03"><lb n="08" type="rubric" xml:id="CV188_lb_019r_08"/>
-          <label><num><w>III</w></num></label>
-          <w><hi rend="cap1.5">S</hi>i</w>
+
+        <p n="3" xml:id="CV188_p_019r_03">
+          <lb n="08" type="rubric" xml:id="CV188_lb_019r_08"/><label><num><w>III</w></num></label>
+          <w><hi rend="cap1.1">S</hi>i</w>
           <w>quis</w>
           <w>foris</w>
           <w>pro<c corresp="#v">u</c>incia</w>
@@ -646,22 +646,18 @@
           <w>res</w>
           <w>
             <choice>
-              <orig>eiu<add>s</add></orig>
-              <!-- ??? forma s alternativa -->
+              <orig>eiu<add>s</add></orig><!-- CHECK forma s alternativa o legatura con u -->
               <reg>eius</reg>
             </choice></w>
           <w>
             <choice>
-              <sic>infiscintur</sic>
-              <corr resp="bluhme">infiscentur</corr>
-            </choice></w><choice>
-            <orig><pc>:</pc></orig>
-            <reg>.</reg>
+              <sic>infiscintur</sic><corr resp="bluhme">infiscentur</corr></choice></w><choice><orig><pc>:</pc></orig><reg>.</reg>
           </choice>
         </p>
+
         <p n="4" xml:id="CV188_p_019r_04">
           <lb n="11" type="rubric" xml:id="CV188_lb_019r_11"/><label n="4"><num><w>IIII</w></num></label>
-          <w><hi rend="cap1.5 empty">S</hi>i</w>
+          <w><hi rend="cap1.1 empty">S</hi>i</w>
           <w>quis</w>
           <w>inimicus</w>
           <w>intra</w>
@@ -686,9 +682,10 @@
           <lb n="14" xml:id="CV188_lb_019r_14"/><space extent="12"/><w>eius</w>
           <w>infiscentur</w><reg>.</reg>
         </p>
+
         <p n="5" xml:id="CV188_p_019r_05">
           <lb n="15" type="rubric" xml:id="CV188_lb_019r_15"/><label n="5"><num><w>V</w></num></label>
-          <w><hi rend="cap1.5">S</hi>i</w>
+          <w><hi rend="cap1.1">S</hi>i</w>
           <w>quis</w>
           <term><w>
               <choice>
@@ -701,8 +698,8 @@
             <choice>
               <!-- ??? lat. ha celare, corretto il testo, "caelare" incidere si trova senza digramma
                             nel latino medievale -->
-              <orig>cel<space extent="1"/>a<c corresp="#v">u</c>erit</orig>
-              <reg>cael<space extent="1"/>averit</reg>
+              <orig>cel a<c corresp="#v">u</c>erit</orig>
+              <reg>caelaverit</reg>
             </choice></w>
           <w>aut</w>
           <w>anonam</w>
@@ -720,22 +717,18 @@
               <expan>periculu<ex>m</ex></expan>
             </choice></w><reg>,</reg>
           <lb n="18" xml:id="CV188_lb_019r_18"/><w>aut</w>
-          <w>certe</w>
+          <!--<w>certe</w>-->
           <w>conponat</w>
           <w>regi</w>
           <w>solidus</w>
           <w>
-            <choice>
-              <orig>noni<lb rend="below"/>entos</orig>
-              <reg>noningentos</reg>
-            </choice></w><choice>
-            <orig><pc>:</pc></orig>
-            <reg>.</reg>
+            <choice><orig>noni<lb rend="below align-right"/>entos</orig><reg>noningentos</reg></choice></w><choice><orig><pc>:</pc></orig><reg>.</reg>
           </choice>
         </p>
+
         <p n="6" xml:id="CV188_p_019r_06">
           <lb n="19" type="rubric" xml:id="CV188_lb_019r_19"/><label n="6"><num><w>Ϛ</w></num></label>
-          <w><hi rend="cap1.5 empty">S</hi>i</w>
+          <w><hi rend="cap1.1 empty">S</hi>i</w>
           <w>quis</w>
           <w><damage>f</damage>oris</w>
           <w>in</w>
@@ -743,10 +736,7 @@
           <w>s<damage>e</damage>di<lb n="20" xml:id="CV188_lb_019r_20"/>tionem</w>
           <w>le<c corresp="#v">u</c>a<c corresp="#v">u</c>erit</w>
           <w>contra</w>
-          <w>d<subst>
-              <del rend="overwrite">o</del>
-              <add>u</add>
-            </subst>cem</w>
+          <w>d<subst><del rend="overwrite">o</del><add>u</add></subst>cem</w>
 
           <pb n="019v" xml:id="CV188_folio_019v"/>
 
@@ -951,6 +941,9 @@
                 <corr>pugnam</corr>
               </choice></w><reg>,</reg>
           </add>
+          
+          <!-- CHECK parte in cui mancano i choice -->
+
           <w>crimen</w>
           <w>ipsum</w>
           <w>de</w>
@@ -959,7 +952,10 @@
           <w>si</w>
           <w>potuerit</w><reg>,</reg>
           <w>eicere</w><reg>.</reg>
-          <w>Et</w>
+          <w><choice>
+            <orig>et</orig>
+            <reg>Et</reg>
+          </choice></w>
           <w>si</w>
           <w>ei</w>
           <w>prova<lb n="4" xml:id="CV188_lb_020r_04"/>tum</w>
@@ -971,8 +967,14 @@
           <lb n="5" xml:id="CV188_lb_020r_05"/><w>qualiter</w>
           <w>regi</w>
           <w>placuerit</w>
-          <w>conponat</w><reg>.</reg>
-          <w>Et</w>
+          <w><choice>
+            <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+            <expan>conp<ex>onat</ex></expan>
+          </choice></w><reg>.</reg>
+          <w><choice>
+            <orig>et</orig>
+            <reg>Et</reg>
+          </choice></w>
           <lb n="6" xml:id="CV188_lb_020r_06"/><w>si</w>
           <w>provare</w>
           <w>non</w>
@@ -986,13 +988,16 @@
           <w>qui</w>
           <w>accusavit</w>
           <w>et</w>
-          <w>provare</w>
+          <w>probare</w>
           <w>non</w>
           <lb n="9" xml:id="CV188_lb_020r_09"/><w>poterit</w>
           <term ref="#wergild" xml:id="CV188_term_wergild_09" xml:lang="lng">
             <w><c corresp="#v">u</c><c corresp="#v">u</c>irichild</w></term>
           <w>suo</w>
-          <w>conp</w>
+          <w><choice>
+            <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+            <expan>conp<ex>onat</ex></expan>
+          </choice></w>
           <w>me<lb n="10" xml:id="CV188_lb_020r_10"/>dietatem</w>
           <w>regi</w><reg>,</reg>
           <w>et</w>
@@ -1000,7 +1005,10 @@
           <lb n="11" xml:id="CV188_lb_020r_11"/>
           <w>cui</w>
           <w>crimen</w>
-          <w>iniectum</w>
+          <w><choice>
+            <abbr>iniect<am><g ref="#utilde"/></am></abbr>
+            <expan>iniectu<ex>m</ex></expan>
+          </choice></w>
           <w>fuerit</w><reg>.</reg>
         </p>
 
@@ -1024,12 +1032,12 @@
           <w>ipse</w>
           <w>consiliator</w>
           <w>conponat</w>
-          <lb n="16" xml:id="CV188_lb_020r_16"/><space extent="12"/><w>solidus</w>
+          <lb n="16" xml:id="CV188_lb_020r_16"/><space extent="12"/><!-- CHECK --><w>solidus</w>
           <w>viginti</w><reg>.</reg>
         </p>
 
-        <p><lb n="17" type="rubric" xml:id="CV188_lb_020r_17"/><label n="11"><num><w>I</w></num><w><hi rend="decorated2.5"
-                >D</hi>e</w>
+        <p><lb n="17" type="rubric" xml:id="CV188_lb_020r_17"/><label n="11"><num><w>I</w></num><w>
+          <hi rend="decorated2.5">D</hi>e</w>
             <w>consilio</w>
             <w>mortis</w></label>
           <w><choice>
