@@ -468,6 +468,7 @@
     - aggiungere @corresp alle glosse relative per i <term>, in modo da poter anche individuare quali <term> hanno una <gloss>
     - aggiungere @rend per <del>
     - aggiungere <listPerson> con id per nomi di persona
+    - aggiungere <num value="900">dcccc</num> (con valori corretti ovviamente) per tutti i numeri
     - controllare attributi lasciati senza valori es. ref in <persName>
     - rimuovere RRDT da resp attribuibili a Bluhme, Azzara etc., definire strategia generale per resp
     - problema delle rubriche: usare <seg type="line" rend="rubric">? o <w rend="red"> <hi rend="red"> etc.? sistematizzare
@@ -1903,39 +1904,51 @@
           <lb n="1"/><w>illi</w><reg>,</reg>
           <w>cuius</w>
           <w>casas</w>
-          <w>incensas</w>
+          <w><choice>
+            <sic>incesas</sic>
+            <corr>incensas</corr>
+          </choice></w>
+          <w>fuerit</w>
           <w>aut</w>
           <w>pa<lb n="2"/>rentes</w>
           <w>aut</w>
-          <w>servus</w>
+          <w>ser<c corresp="#v">u</c>us</w>
           <w>occisus</w>
           <w>fuerit</w><reg>.</reg>
         </p>
 
-        <p><lb n="3"/><label n="20"><num><w>I</w></num></label>
+        <p><lb n="3"/><label n="20"><num><w>XX</w></num></label>
           <w>Si</w>
           <w>quis</w>
-          <w>de</w>
-          <w>exercitales</w>
-          <w>ducem</w>
+          <w>exercitalem</w>
           <w>suum</w>
           <lb n="4"/><w>contempserit</w>
           <w>ad</w>
-          <w>iustitiam</w><reg>,</reg>
-          <w>vi<lb n="5"/>genti</w>
-          <w>solidos</w>
-          <w>conponat</w>
+          <w><choice>
+            <sic>iustiam</sic>
+            <corr>iustitiam</corr>
+          </choice></w><reg>,</reg>
+          <w><c corresp="#v">u</c>i<lb n="5"/>genti</w>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
           <w>regi</w>
           <w>et</w>
-          <w>duci</w>
-          <w>suo</w><reg>.</reg>
+          <w><choice>
+            <orig>doci</orig>
+            <reg>duci</reg>
+          </choice></w>
+          <w>suo</w>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr><expan>conp<ex>onat</ex></expan></choice></w><reg>.</reg>
         </p>
 
-        <p><lb n="6"/><label n="21"><num><w>I</w></num></label>
-          <w>Si</w>
+        <p><lb n="6"/><label n="21"><num><w>XXI</w></num></label>
+          <w><hi rend="decorated">S<!-- CHECK forma s alternativa, slong? --></hi>i</w>
           <w>quis</w>
           <w>in</w>
-          <w>exercito</w>
+          <w>exercitum</w><!-- exercito -->
           <w>am<lb n="7"/>bolare</w>
           <w>contempserit</w>
           <w>aut</w>
@@ -1946,54 +1959,92 @@
           <w>et</w>
           <w>duci</w>
           <w>suo</w>
-          <w>solidos</w>
-          <w>XX</w><reg>.</reg>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <lb rend="below align-right"/><w>XX</w><choice><orig><pc>:</pc></orig><reg>.</reg></choice><!-- CHECK se esiste carattere migliore di : -->
         </p>
 
-        <p><lb n="9"/><label n="22"><num><w>I</w></num></label>
+        <p><lb n="9"/><label n="22"><num><w>XXII</w></num></label>
           <w>Si</w>
           <w>quis</w>
           <w>de</w>
-          <w>ipso</w>
-          <w>exercito</w>
+          <choice><!-- CHECK -->
+            <sic><w>ipsum</w> <w><abbr>exercit<am><g ref="#utilde"/></am></abbr></w></sic>
+            <corr><w>ipso</w> <w>exercito</w></corr>
+          </choice>
           <lb n="10"/><w>duci</w>
           <w>suo</w>
           <w>ad</w>
           <w>iustam</w>
           <w>cau<lb n="11"/>sam</w>
           <w>persequendam</w>
-          <w>denegave<lb n="12"/>rit</w>
-          <w>solatium</w><reg>,</reg>
+          <w>denega<c corresp="#v">u</c>e<lb n="12"/>rit</w>
+          <w><choice><!-- CHECK -->
+            <orig>solacia</orig>
+            <reg>solatium</reg>
+          </choice></w><reg>,</reg>
           <w>unusquisque</w>
-          <w>conponat</w>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>po</abbr>
+              <expan>conp<ex>onat</ex></expan>
+            </choice></w>
           <lb n="13"/><w>regi</w>
           <w>et</w>
-          <w>duci</w>
+          <w><choice>
+            <orig>doci</orig>
+            <reg>duci</reg>
+          </choice></w>
           <w>suo</w>
-          <w>solidos</w>
-          <w>vigenti</w><reg>.</reg>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <w>vigenti</w><choice><orig><pc>:</pc></orig><reg>.</reg></choice><!-- CHECK se esiste carattere migliore di : -->
         </p>
 
-        <p><lb n="14"/><label n="23"><num><w>I</w></num></label><!-- CHECK capitulum spostato -->
+        <p><lb n="14"/><label n="23"><num><w>XXIII</w></num></label><!-- CHECK capitulum spostato -->
           <w>Si</w>
-          <w>dux</w>
+          <w><choice>
+            <orig>dox</orig>
+            <reg>dux</reg>
+          </choice></w>
           <w>exercitalem</w>
           <w>suum</w>
-          <lb n="15"/><w>molestaverit</w>
+          <lb n="15"/><w>molesta<c corresp="#v">u</c>erit</w>
           <w>iniuste</w><reg>,</reg>
-          <w>gas<lb n="16"/>taldius</w>
+          <w><choice>
+            <sic>gas<lb n="16"/>taldium</sic>
+            <corr>gas<lb n="16"/>taldius</corr>
+          </choice></w>
           <w>eum</w>
-          <w>solatiet</w>
-          <w>quousque</w>
+          <w><choice>
+            <orig>solaciet</orig>
+            <reg>solatiet</reg>
+          </choice></w>
+          <w><choice><!-- CHECK -->
+            <sic><add place="above">co</add>usque</sic>
+            <corr>quousque</corr>
+          </choice></w>
           <w>ad</w>
-          <w>praes<lb n="17"/>entiam</w>
-          <w>regis</w>
+          <w><choice>
+            <orig>pre<lb n="17"/>sentiam</orig>
+            <reg>prae<lb n="17"/>sentiam</reg>
+          </choice></w>
+          <w><choice>
+            <sic>regi</sic>
+            <corr>regis</corr>
+          </choice></w>
           <w>aut</w>
           <w>certe</w>
           <w>aput</w>
-          <w>ducem</w>
+          <w><choice>
+            <orig><abbr>doc<am><g ref="#etilde"/></am></abbr></orig>
+            <reg><expan>duce<ex>m</ex></expan></reg>
+          </choice></w>
           <lb n="18"/><w>suum</w>
-          <w>eum</w>
+          <supplied><w>eum</w></supplied>
           <w>ad</w>
           <w>iustitiam</w>
           <w>perducat</w><reg>.</reg>
@@ -2005,24 +2056,42 @@
           <w>res</w>
           <w>suas</w>
           <w>ab</w>
-          <w>alio</w>
+          <w><choice>
+            <sic><abbr>ali<am><g ref="#otilde"/></am></abbr></sic>
+            <corr>alio</corr>
+          </choice></w>
           <w>in</w>
-          <w>exer<lb n="20"/>citu</w>
-          <w>requisiverit</w><reg>,</reg>
+          <w><choice>
+            <sic>exer<lb n="20"/>citum</sic>
+            <corr>exer<lb n="20"/>citu</corr>
+          </choice></w>
+          <w><choice>
+            <orig>requisierit</orig>
+            <reg>requisiverit</reg>
+          </choice></w><reg>,</reg>
           <w>et</w>
-          <w>noluerit</w>
+          <w>nolu<lb rend="below align-right"/>erit</w>
 
           <pb n="023v" xml:id="CV188_folio_023v"/>
           
           <lb n="1"/><w>illi</w>
-          <w>reddere</w><reg>,</reg>
+          <w>reddere</w><reg>,</reg><!-- CHECK segno di interpunzion? -->
           <w>tunc</w>
-          <w>ambulit</w>
+          <w><choice>
+            <orig>ambolit</orig>
+            <reg>ambulit</reg>
+          </choice></w>
           <w>ad</w>
-          <w>du<lb n="2"/>cem</w><reg>;</reg>
+          <w><choice>
+            <orig>do<lb n="2"/>cem</orig>
+            <reg>du<lb n="2"/>cem</reg>
+          </choice></w><reg>;</reg>
           <w>et</w>
           <w>si</w>
-          <w>dux</w>
+          <w><choice>
+            <orig>dox</orig>
+            <reg>dux</reg>
+          </choice></w>
           <w>illi</w>
           <w>aut</w>
           <w>iudex</w><reg>,</reg>
@@ -2030,171 +2099,243 @@
           <w>in</w>
           <lb n="3"/><w>loco</w>
           <w>ordinatus</w>
-          <w>est</w>
+          <w>es<add place="above">t</add></w>
           <w>a</w>
           <w>rege</w><reg>,</reg>
-          <w>verita<lb n="4"/>tem</w>
+          <w><c corresp="#v">u</c>erita<lb n="4"/>tem</w>
           <w>aut</w>
           <w>iustitiam</w>
           <w>non</w>
-          <w>servave<lb n="5"/>rit</w><reg>,</reg>
-          <w>conponat</w>
+          <w>ser<c corresp="#v">u</c>a<c corresp="#v">u</c>e<lb n="5"/>rit</w><reg>,</reg>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+              <expan>conp<ex>onat</ex></expan>
+            </choice></w>
           <w>regi</w>
-          <w>et</w>
-          <w>cui</w>
-          <w>causa</w>
+          <w>aut</w>
+          <w>cuius</w><!-- CHECK dovrebbe essere cui -->
+          <w><choice>
+            <abbr>caus<am><g ref="#atilde"/></am></abbr>
+            <expan>causa<ex>m</ex></expan>
+          </choice></w>
           <w>est</w>
-          <lb n="6"/><w>solidos</w>
-          <w>viginti</w>
+          <lb n="6"/><w><choice><abbr>so<am><g ref="#ltailstrok"/></am></abbr><expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <w><choice>
+            <orig><c corresp="#v">u</c>igenti</orig>
+            <reg>viginti</reg>
+          </choice></w>
           <w>causa</w>
-          <w>manente</w><reg>.</reg>
+          <w><choice>
+            <sic>manentem</sic>
+            <corr>manente</corr>
+          </choice></w><reg>.</reg>
         </p>
 
-        <p><lb n="7"/><label n="25"><num><w>XXV</w></num></label><!-- capitulum spostato rispetto alla sequenza effettiva -->
-          <w>Si</w>
+        <p><lb n="7"/><damage><label n="25"><num><w>XXV</w></num></label></damage><!-- capitulum spostato rispetto alla sequenza effettiva -->
+          <w><hi><damage>S</damage></hi>i</w>
           <w>quis</w>
           <w>gastaldius</w>
-          <w>exerci<lb n="8"/>talem</w>
+          <w><damage>exerc<unclear>i</unclear></damage><lb n="8"/>talem</w>
           <w>suum</w>
-          <w>molestave<lb n="9"/>rit</w>
+          <w>molesta<damage><c corresp="#v">u</c>e</damage><lb n="9"/>rit</w>
           <w>contra</w>
           <w>rationem</w><reg>,</reg>
           <w>dux</w>
-          <w>eum</w>
-          <w>sola<lb n="10"/>ciet</w><reg>,</reg>
+          <w>eu<damage>m</damage></w>
+          <w><damage>sola</damage><lb n="10"/>ciet</w><reg>,</reg>
           <w>quousque</w>
-          <w>veritatem</w>
-          <w>suam</w>
-          <lb rend="align-right"/><w>inveniat</w><reg>.</reg>
+          <w><c corresp="#v">u</c>eritatem</w>
+          <w>sua<damage>m</damage></w>
+          <lb rend="below align-right"/><w><choice><orig>invenerit</orig><reg>inveniat</reg></choice></w><choice><orig><pc>:</pc></orig><reg>.</reg></choice>
         </p>
 
-        <p><lb n="11"/>
-          <label n="26"><num><w>XXG</w></num></label>
-          <w>De</w>
+        <p><lb n="11"/><label n="26"><num><w>XX<g ref="#romnumsix"/></w></num>
+          <damage><w>De</w>
           <term ref="#wegworin" xml:id="CV188_term_wegworin_26" xml:lang="lng">
             <w>uuecuor</w></term>
           <gloss target="#CV188_term_wegworin_26" xml:id="CV188_gloss_wegworin_26">
             <w>id</w>
             <w>est</w>
             <damage/>
-            <w>orbitariam</w>
-          </gloss>
-          <lb n="12"/><w>Si</w>
+            <w>orbita<unclear>riam</unclear></w><!-- CHECK perché non sembra esserci la desinenza completa -->
+          </gloss></damage></label><reg>.</reg>
+          <lb n="12"/><w><choice><orig>si</orig><reg>Si</reg>
+          </choice></w>
           <w>quis</w>
-          <w>mulieri</w>
+          <w><choice>
+            <sic>mulier</sic>
+            <corr>mulieri</corr>
+          </choice></w>
           <w>libere</w>
           <w>aut</w>
-          <w>puellae</w>
+          <w>pue<damage>ll<unclear>ae</unclear></damage></w>
           <lb n="13"/><w>in</w>
-          <w>via</w>
+          <w><c corresp="#v">u</c>ia</w>
           <w>se</w>
           <w>anteposuerit</w>
           <w>aut</w>
-          <w>ali<lb n="14"/>qua</w>
-          <w>iniuria</w>
-          <w>intulerit</w><reg>,</reg>
-          <w>noningentos</w>
-          <lb n="15"/><w>solidos</w>
-          <w>conponat</w><reg>,</reg>
+          <choice><!-- CHECK -->
+            <sic><w>ali<lb n="14"/>quam</w> <w>iniuriam</w></sic>
+            <corr><w>ali<lb n="14"/>qua</w> <w>iniuria</w></corr>
+          </choice>
+          <w><choice>
+            <orig>intolerit</orig>
+            <reg>intulerit</reg>
+          </choice></w><reg>,</reg>
+          <w><choice>
+            <orig><num value="900">dcccc</num></orig>
+            <reg><num value="900">noningentos</num></reg>
+          </choice></w>
+          <lb n="15"/><w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+              <expan>conp<ex>onat</ex></expan>
+            </choice></w><reg>,</reg>
           <w>medietatem</w>
           <w>regi</w>
           <w>et</w>
-          <w>me<lb n="16"/>dietatem</w>
+          <w>m<damage>e</damage><lb n="16"/>dietatem</w>
           <w>cui</w>
           <w>ipsa</w>
           <w>iniuria</w>
           <w>inlata</w>
-          <lb n="17"/><w>fuerit</w>
+          <lb n="17"/><w>est</w><!-- fuerit -->
           <w>aut</w>
+          <w>ad</w>
+          <w>quem</w>
           <w>mundius</w>
           <w>de</w>
-          <w>ea</w>
-          <w>pertenuerit</w><reg>.</reg></p>
-        <p><lb n="18"/><label n="27"><num><w>I</w></num></label>
-          <w>Si</w>
+          <w><choice>
+            <sic>e<damage>a<unclear>m</unclear></damage></sic>
+            <corr>ea</corr>
+          </choice></w>
+          <w>perten<damage>ueri</damage><supplied>t</supplied></w><reg>.</reg>
+        </p>
+
+        <p><lb n="18"/><label n="27"><num><w>X<damage>X<g ref="#romnumsix"/>I</damage></w></num></label>
+          <w><damage><hi rend="empty">S</hi>i</damage></w>
           <w>quis</w>
           <w>homini</w>
-          <w>libero</w>
-          <w>viam</w>
+          <w><damage>libe</damage>ro</w>
+          <w><damage>via</damage><supplied>m</supplied></w><!-- CHECK -->
           <lb n="19"/><w>antesteterit</w><reg>,</reg>
-          <w>viginti</w>
-          <w>solidos</w>
-          <lb n="20"/><w>ei</w>
-          <w>conponat</w><reg>,</reg>
+          <w>XX</w>
+          <w><choice>
+              <abbr>so<supplied><am><g ref="#ltailstrok"/></am></supplied></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <lb n="20"/><damage><w>ei</w>
+          <w>co<space extent="1"/>nponat</w><reg>,</reg>
           <w>sic</w>
           <w>tamen</w><reg>,</reg>
-          <w>ut</w>
-          <w>aliquam</w>
+          <w>ut</w></damage>
+          <w><damage>ali</damage><unclear>q</unclear><supplied>uam</supplied></w>
+          
+          <fw rend="align-center">d</fw>
 
           <pb n="024r" xml:id="CV188_folio_024r"/>
 
-          <lb n="1"/><w>lesionem</w>
+          <lb n="1"/><w><damage>le</damage>sionem</w>
           <w>in</w>
           <w>carnem</w>
           <w>ipsius</w>
           <w>non</w>
-          <w>faci<lb n="2"/>at</w><reg>;</reg>
+          <w>faci<lb n="2"/><damage>at</damage></w><reg>;</reg>
           <w>nam</w>
           <w>si</w>
-          <w>fecirit</w><reg>,</reg>
+          <w>fecerit</w><reg>,</reg>
           <w>et</w>
-          <w>viginti</w>
-          <w>solidos</w>
+          <w><choice>
+            <orig><c corresp="#v">u</c>igenti</orig>
+            <reg>viginti</reg>
+          </choice></w>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
           <w>pro</w>
-          <lb n="3"/><w>eo</w><reg>,</reg>
-          <w>quod</w>
+          <lb n="3"/><w><damage>eo</damage></w><reg>,</reg>
+          <w><damage>q</damage>uod</w>
           <w>antestetit</w><reg>,</reg>
-          <w>conponat</w><reg>,</reg>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+              <expan>conp<ex>onat</ex></expan>
+            </choice></w><reg>,</reg>
           <w>et</w>
-          <w>plagas</w>
-          <lb n="4"/><w>aut</w>
           <w>feritas</w>
+          <lb n="4"/><w>aut</w>
+          <w>plagas</w>
           <w>si</w>
-          <w>ficerit</w><reg>,</reg>
+          <w>fecerit</w><reg>,</reg>
           <w>sicut</w>
           <w>subter</w>
-          <lb n="5"/><w>in</w>
-          <w>hoc</w>
-          <w>edictum</w>
-          <w>adnexum</w>
+          <lb n="5"/><supplied><w>in</w>
+            <w>hoc</w>
+            <w>edictum</w>
+          </supplied>
+          <w><damage>ad</damage>nexum</w>
           <w>est</w><reg>,</reg>
-          <w>conponat</w><reg>.</reg>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+              <expan>conp<ex>onat</ex></expan></choice></w><choice><orig><pc>:</pc></orig><reg>.</reg></choice><!-- CHECK punteggiatura originale: punto prima di :? -->
         </p>
 
-        <p><lb n="6"/><label n="28"><num><w>I</w></num></label>
-          <w>Si</w>
+        <p>
+          <lb n="6"/><label n="28"><num><w>XX<g ref="#romnumsix"/>II</w></num></label>
+          <w><hi rend="empty">S</hi>i</w>
           <w>quis</w>
-          <w>servum</w>
+          <w>ser<c corresp="#v">u</c>um</w>
           <w>alienum</w>
           <w>aut</w>
-          <lb n="7"/><w>ancillam</w>
+          <lb n="7"/><w><damage>a</damage>ncillam</w>
           <w>seu</w>
           <w>aldium</w>
           <w>aut</w>
           <w>liber<lb n="8"/>tum</w>
-          <w>viam</w>
+          <w><c corresp="#v">u</c>iam</w>
           <w>antesteterit</w><reg>,</reg>
-          <w>viginti</w>
-          <w>solidos</w>
-          <lb n="9" rend="align-right"/><w>domino</w>
+          <w><choice>
+            <orig><c corresp="#v">u</c>igenti</orig>
+            <reg>viginti</reg>
+          </choice></w>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <lb n="9" rend="align-right"/><w><choice><sic><abbr>d<g ref="#ntilde"/>m</abbr></sic><corr><expan>d<ex>omi</ex>n<ex>o</ex></expan></corr>
+            </choice></w>
           <w>eius</w>
-          <w>conponat</w><reg>.</reg>
+          <w>conponat</w><choice><orig><pc>:</pc></orig><reg>.</reg></choice>
         </p>
 
-        <p><lb n="10"/><label n="29"><num><w>I</w></num></label>
-          <w>Si</w>
+        <p>
+          <lb n="10"/><label n="29"><num><w>XX<g ref="#romnumsix"/>III</w></num></label>
+          <w><hi rend="red">S</hi>i</w>
           <w>quis</w>
           <w>messem</w>
           <w>suam</w>
-          <w>vindi<lb n="11"/>canda</w>
+          <w><choice><!-- CHECK -->
+            <sic><damage><c corresp="#v">u</c>ind</damage>i<lb n="11"/><damage>can</damage>dam</sic>
+            <corr>vindi<lb n="11"/>canda</corr>
+          </choice></w>
           <w>aut</w>
           <w>pratum</w>
           <w>seu</w>
-          <w>qua<lb n="12"/>libet</w>
+          <w><choice>
+            <sic>qua<lb n="12"/><damage>le<c corresp="#v">u</c>i</damage>t</sic>
+            <corr>qua<lb n="12"/>libet</corr>
+          </choice></w>
           <w>clausura</w>
-          <w>vindicanda</w>
+          <!--<w>vindicanda</w>-->
           <w>homini</w>
-          <w>prohibuerit</w><reg>,</reg>
+          <w><choice>
+            <orig>proibuerit</orig>
+            <reg>prohibuerit</reg>
+          </choice></w><reg>,</reg>
           <lb n="13"/><w>id</w>
           <w>est</w>
           <w>antesteterit</w>
@@ -2203,38 +2344,56 @@
           <w>ingre<lb n="14"/>diatur</w><reg>,</reg>
           <w>non</w>
           <w>sit</w>
-          <w>culpabiles</w>
+          <w><choice>
+              <orig>culpa<c corresp="#v">u</c>elis</orig>
+              <reg>culpabilis</reg>
+            </choice></w>
           <w>sicut</w>
           <lb n="15"/><w>ille</w>
           <w>qui</w>
           <w>hominem</w>
-          <w>sempleciter</w>
-          <w>viam</w>
+          <w>simpliciter</w>
+          <w><damage><c corresp="#v">u</c>ia</damage>m</w>
           <lb n="16"/><w>ambolantem</w>
-          <w>antesteterit</w><reg>,</reg>
-          <w>eo</w>
+          <w>anteste<del rend="diagstroke">te</del>terit</w><reg>,</reg>
+          <w><choice>
+            <sic><abbr>e<am><g ref="#utilde"/></am></abbr></sic>
+            <corr>eo</corr>
+          </choice></w>
           <lb n="17"/><w>quod</w>
-          <w>laborem</w>
+          <w><choice>
+            <abbr>labor<am><g ref="#etilde"/></am></abbr>
+            <expan>labore<ex>m</ex></expan>
+          </choice></w>
           <w>suum</w>
-          <w>vindicavit</w><reg>.</reg>
+          <w><c corresp="#v">u</c>indica<c corresp="#v">u</c>it</w><reg>.</reg>
         </p>
 
-        <p><lb n="18"/><label n="30"><num><w>XXX</w></num></label>
-          <w>De</w>
+        <p><lb n="18"/><label n="30"><num><w>XXX</w></num>
+          <w><damage><hi rend="empty">D</hi></damage>e</w>
           <term ref="#marhworfin" xml:id="CV188_term_marhworfin_30" xml:lang="lng">
-            <w>marah<c corresp="#v">u</c><c corresp="#v">u</c>orfin</w>
-          </term>
-          <w>Si</w>
-          <w>quis</w>
-          <lb n="19"/><w>hominem</w>
+            <w><damage>m</damage>arah<c corresp="#v">u</c><c corresp="#v">u</c>orfin</w>
+          </term></label><reg>.</reg>
+          <w><choice>
+            <orig>si</orig>
+            <reg>Si</reg>
+          </choice></w>
+          <w><damage>qu</damage>is</w>
+          <lb n="19"/><w><choice>
+            <abbr>homin<am><g ref="#etilde"/></am></abbr>
+            <expan>homine<ex>m</ex></expan>
+          </choice></w>
           <w>liberum</w>
           <w>de</w>
-          <w>cavallo</w>
+          <w>ca<c corresp="#v">u</c>allo</w>
           <w>in</w>
           <lb n="20"/><w>terra</w>
-          <w>iactaverit</w>
+          <w>iacta<c corresp="#v">u</c>erit</w>
           <w>per</w>
-          <w>quolibet</w>
+          <w><choice>
+            <sic>quodle<c corresp="#v">u</c>it</sic>
+            <corr>quolibet</corr>
+          </choice></w>
 
           <pb n="024v" xml:id="CV188_folio_024v"/>
 
