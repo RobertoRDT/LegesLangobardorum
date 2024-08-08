@@ -2379,9 +2379,7 @@
             <reg>Si</reg>
           </choice></w>
           <w><damage>qu</damage>is</w>
-          <lb n="19"/><w><choice>
-            <abbr>homin<am><g ref="#etilde"/></am></abbr>
-            <expan>homine<ex>m</ex></expan>
+          <lb n="19"/><w><choice><abbr>homin<am><g ref="#etilde"/></am></abbr><expan>homine<ex>m</ex></expan>
           </choice></w>
           <w>liberum</w>
           <w>de</w>
@@ -2397,11 +2395,15 @@
 
           <pb n="024v" xml:id="CV188_folio_024v"/>
 
-          <lb n="1"/><w>ingenio</w>
+          <lb n="1"/><w><choice><sic><damage>ing</damage>enium</sic><corr>ingenio</corr>
+          </choice></w>
           <w>iniquo</w>
           <w>animo</w><reg>,</reg>
-          <w>octu<lb n="2"/>ginta</w>
-          <w>solidûs</w>
+          <w><choice><!-- CHECK segno dopo n fine rigo? -->
+            <sic>octu<add place="above">a</add><del rend="overstrike">gi</del>n<lb n="2"/>g<subst><del rend="overwritten">e</del><add place="inline">i</add></subst>nta</sic>
+            <corr>octua<lb n="2"/>ginta</corr>
+          </choice></w>
+          <w>solidus</w>
           <w>ei</w>
           <w>conponat</w><reg>;</reg>
           <w>et</w>
@@ -2409,26 +2411,31 @@
           <lb n="3"/><w>aliquam</w>
           <w>lesionem</w>
           <w>ei</w>
-          <w>fecerit</w><reg>,</reg>
+          <w><damage>f</damage>ecerit</w><reg>,</reg>
           <w>sicut</w>
-          <lb n="4"/><w>in</w>
-          <w>hoc</w>
+          <lb n="4"/><damage><w>in</w></damage>
+          <w><damage>h</damage>oc</w>
           <w>edictum</w>
-          <w>adnexum</w>
+          <supplied><w>adnexum</w></supplied>
           <w>est</w><reg>,</reg>
-          <w>conponat</w><reg>.</reg>
+          <w>e<damage>i</damage></w>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+              <expan>conp<ex>onat</ex></expan></choice></w><reg>.</reg>
         </p>
 
-        <p><lb n="5"/><label n="31"><num><w>XXXI</w></num></label>
-          <w>De</w>
+        <p><lb n="5"/><label n="31"><num><w>XXXI</w></num>
+          <w><hi rend="decorated zoomorphic">D</hi>e</w>
           <term ref="#walupaus" xml:lang="lng">
-            <w><c corresp="#v">u</c><c corresp="#v">u</c>alapautzo</w>
-          </term>
-          <w>Si</w>
+            <w><c corresp="#v">u</c><c corresp="#v">u</c>alapautzo</w></term></label><reg>.</reg>
+          <w><choice>
+            <orig>si</orig>
+            <reg>Si</reg>
+          </choice></w>
           <w>quis</w>
           <w>homi<lb n="6"/>ni</w>
           <w>libero</w>
-          <w>violentia</w>
+          <w><c corresp="#v">u</c>iolentia</w>
           <w>iniuste</w>
           <w>fece<lb n="7"/>rit</w><reg>,</reg>
           <w>id</w>
@@ -2436,8 +2443,9 @@
           <term ref="#walupaus" xml:lang="lng">
             <w><c corresp="#v">u</c><c corresp="#v">u</c>alapautz</w>
           </term>
-          <w>octugenta</w>
-          <lb n="8"/><w>solidos</w>
+          <w>octu<add place="above">a</add>g<subst><del rend="overwritten">e</del><add place="inline">i</add></subst>nta</w>
+          <lb n="8"/><w><choice><abbr>so<am><g ref="#ltailstrok"/></am></abbr><expan>sol<ex>idos</ex></expan>
+            </choice></w>
           <w>ei</w>
           <w>conponat</w><reg>.</reg>
           <term ref="#walupaus" xml:id="CV188_term_walupaus_31" xml:lang="lng">
@@ -2449,7 +2457,7 @@
             <lb n="9"/><w>qui</w>
             <w>se</w>
             <w>furtum</w>
-            <w>vestimentum</w>
+            <w><c corresp="#v">u</c>estimentum</w>
             <w>ali<lb n="10"/>um</w>
             <w>induerit</w>
             <w>aut</w>
@@ -2459,50 +2467,58 @@
             <w>animo</w>
             <w>aut</w>
             <w>faciem</w>
-            <w>trans<lb n="12" rend="align-right"/>figuraverit</w>
-          </gloss>
-          <reg>.</reg></p>
-        <p><lb n="13"/><label n="32"><num><w>XXXII</w></num></label>
-          <w>De</w>
+            <w>trans<lb n="12" rend="align-right"/>figuraverit</w></gloss><reg>.</reg>
+        </p>
+
+        <p><lb n="13"/><label n="32"><num><w>XXXII</w></num>
+          <w><hi>D</hi>e</w>
           <w>homine</w>
-          <w>libero</w>
-          <w>Si</w>
+          <w>libero</w></label><reg>.</reg>
+          <w><choice>
+            <orig>si</orig>
+            <reg>Si</reg>
+          </choice></w>
           <w>nocte</w>
           <lb n="14"/><w>in</w>
           <w>curte</w>
           <w>alterius</w>
-          <w>inventus</w>
+          <w>in<c corresp="#v">u</c>entus</w>
           <w>fu<lb n="15"/>erit</w>
           <w>et</w>
           <w>non</w>
           <w>dans</w>
           <w>manus</w>
-          <w>ad</w>
-          <w>legandum</w>
-          <lb n="16"/><w>et</w>
+          <choice><!-- CHECK -->
+            <sic><w>legandi</w></sic>
+            <corr><w>ad</w> <w>legandum</w></corr></choice><reg>,</reg>
+          <lb n="16"/><surplus><w>et</w></surplus>
           <w>occidatur</w><reg>,</reg>
           <w>a</w>
           <w>parentibus</w>
           <w>non</w>
-          <lb n="17"/><w>requiratur</w><reg>.</reg>
-          <w>Et</w>
+          <lb n="17"/><w>requiratur</w><reg>.</reg><!-- CHECK segno di punteggiatura nel ms -->
+          <w><choice>
+            <orig>et</orig>
+            <reg>Et</reg>
+          </choice></w>
           <w>si</w>
           <w>manus</w>
           <w>dederit</w>
           <lb n="18"/><w>ad</w>
-          <w>legandum</w>
-          <w>se</w><reg>,</reg>
+          <w>legandum</w><reg>,</reg>
           <w>et</w>
           <w>legatus</w>
           <w>fuerit</w><reg>,</reg>
           <lb n="19"/><w>dit</w>
           <w>pro</w>
           <w>se</w>
-          <w>octuaginta</w>
-          <w>solidos</w><reg>:</reg>
+          <w>octu<add place="above">a</add>g<subst><del rend="overwritten">e</del><add place="inline">i</add></subst>nta</w>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan></choice></w><reg>:</reg>
           <w>quia</w>
           <lb n="20"/><w>non</w>
-          <w>convenit</w>
+          <w>con<c corresp="#v">u</c>enit</w>
           <w>rationi</w><reg>,</reg>
           <w>ut</w>
           <w>homo</w>
