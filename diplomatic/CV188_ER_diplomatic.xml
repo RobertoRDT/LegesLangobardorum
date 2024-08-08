@@ -199,6 +199,7 @@
           <mapping type="diplomatic">ꝲ</mapping>
           <mapping type="normalized">l</mapping>
         </char>
+
         <!-- ntilde -->
         <char xml:id="ntilde">
           <unicodeProp name="Name" value="LATIN SMALL LETTER N WITH TILDE"/>
@@ -206,6 +207,13 @@
           <mapping type="diplomatic">ñ</mapping>
           <mapping type="normalized">n</mapping>
         </char>
+
+        <glyph xml:id="slong">
+          <localProp name="Name" value="LATIN SMALL LETTER LONG S"/>
+          <mapping type="codepoint">U+017F</mapping>
+          <mapping type="diplomatic">ſ</mapping>
+          <mapping type="normalized">s</mapping>
+        </glyph>
 
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="fourdot">
@@ -398,6 +406,7 @@
           <mapping type="diplomatic">us</mapping>
           <mapping type="normalized">us</mapping>
         </glyph>
+
         <!-- aggiunto 2019-01-21 -->
         <char xml:id="openetlig">
           <unicodeProp name="Name" value="Ligature Open Et Ornament"/>
@@ -2355,7 +2364,7 @@
           <w>simpliciter</w>
           <w><damage><c corresp="#v">u</c>ia</damage>m</w>
           <lb n="16"/><w>ambolantem</w>
-          <w>anteste<del rend="diagstroke">te</del>terit</w><reg>,</reg>
+          <w>anteste<del rend="diagonalStrike">te</del>terit</w><reg>,</reg>
           <w><choice>
             <sic><abbr>e<am><g ref="#utilde"/></am></abbr></sic>
             <corr>eo</corr>
@@ -2529,38 +2538,52 @@
           <w>tempore</w>
           <w>in</w>
           <w>curtem</w>
-          <w>alienam</w>
-          <lb n="2"/><w>silentium</w>
+          <w><choice>
+            <abbr>alien<am><g ref="#atilde"/></am></abbr>
+            <expan>aliena<ex>m</ex></expan>
+          </choice></w>
+          <lb n="2"/><w>silentio</w>
           <w>aut</w>
           <w>absconse</w>
-          <w>ingrediatur</w><reg>;</reg>
+          <w><choice>
+            <sic>ingreditur</sic>
+            <corr>ingrediatur</corr></choice></w><reg>;</reg>
           <lb n="3"/><w>sed</w>
-          <w>si</w>
-          <w>qualecumque</w>
+          <w><del rend="diagonalStrike">s</del>si</w>
+          <w>qua<supplied>le</supplied>cumque</w>
           <w>utilitatem</w>
-          <w>ha<lb n="4"/>bet</w><reg>,</reg>
-          <w>antequam</w>
-          <w>ingrediatur</w><reg>,</reg>
-          <w>clamit</w><reg>.</reg></p>
+          <w>ha<lb n="4"/>bet</w>
+          <w>prius</w>
+          <w>quam</w>
+          <w>egrediatur</w>
+          <w>clamit</w><reg>.</reg>
+        </p>
+
         <p><lb n="5"/><label n="33"><num><w>XXXIII</w></num></label>
-          <w>Si</w>
-          <w>servus</w>
+          <w><hi rend="decorated zoomorphic">S</hi>i</w>
+          <w>ser<c corresp="#v">u</c>us</w>
           <w>in</w>
           <w>curte</w>
           <w>alie<lb n="6"/>na</w>
           <w>noctis</w>
           <w>tempore</w>
-          <w>inventus</w>
+          <w>in<c corresp="#v">u</c>entus</w>
           <lb n="7"/><w>fuerit</w>
           <w>et</w>
           <w>non</w>
           <w>dans</w>
           <w>manus</w>
-          <w>occi<lb n="8"/>datur</w><reg>,</reg>
+          <surplus><w>si</w></surplus><!-- CHECK -->
+          <w><choice>
+            <sic>occi<lb n="8"/>ditur</sic>
+            <corr>occi<lb n="8"/>datur</corr>
+          </choice></w><reg>,</reg>
           <w>non</w>
           <w>requiratur</w>
           <w>a</w>
-          <w>domino</w><reg>;</reg>
+          <w><choice>
+              <abbr>d<g ref="#ntilde"/>o</abbr>
+              <expan>d<ex>omi</ex>no</expan></choice></w><reg>;</reg>
           <w>et</w>
           <lb n="9"/><w>si</w>
           <w>manus</w>
@@ -2568,65 +2591,94 @@
           <w>et</w>
           <w>legatus</w>
           <w>fue<lb n="10"/>rit</w><reg>,</reg>
-          <w>liberet</w>
+          <w><choice>
+            <sic>libere</sic>
+            <corr>liberet</corr>
+          </choice></w>
           <w>se</w>
           <w>cum</w>
-          <w>quadragenta</w>
-          <w>solidos</w><reg>.</reg></p>
+          <w>quadragenta</w><!-- quadraginta? ma vedi alternanza e:i -->
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w><reg>.</reg>
+        </p>
+
         <p><lb n="11"/><label n="34"><num><w>XXXIIII</w></num></label>
-          <w>Si</w>
+          <w><hi rend="decorated red">S</hi>i</w><!-- CHECK forma s alternativa, slong? -->
           <w>quis</w>
           <w>in</w>
           <w>curte</w>
-          <w>alie<lb n="12"/>na</w>
+          <w>al<damage>te</damage><lb n="12"/>rius</w>
           <w>irato</w>
           <w>animo</w>
-          <w>sagittaverit</w>
+          <w>sagitta<c corresp="#v">u</c>erit</w>
           <lb n="13"/><w>aut</w>
           <w>lancia</w>
-          <w>iactaverit</w>
+          <w>iacta<c corresp="#v">u</c>erit</w>
           <add place="margin-right">
             <w>aut</w>
-            <w>de</w>
-            <w>foris</w>
-            <w>sepe</w>
-            <lb/><w>alium</w>
-            <w>plagaverit</w>
+            <damage><w>de</w>
+            <w>fori<g ref="#slong"/></w>
+            <w><g ref="#slong"/>epe</w></damage>
+            <lb/><w><choice><abbr>aliu<am><g ref="#utilde"/></am></abbr><expan>aliu<ex>m</ex></expan>
+            </choice></w>
+            <damage><w>plaga<c corresp="#v">u</c>erit</w></damage>
           </add><reg>,</reg>
-          <w>conponat</w>
-          <w>solidos</w>
-          <lb n="14"/><w>viginti</w><reg>;</reg>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+              <expan>conp<ex>onat</ex></expan>
+            </choice></w>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <lb n="14"/><w><choice><orig><c corresp="#v">u</c>igenti</orig><reg>viginti</reg></choice></w><reg>;</reg>
           <w>excepto</w>
-          <w>conpositionis</w>
-          <w>placarum</w>
+          <w>cui</w>
+          <w>plagas</w>
           <lb n="15"/><w>aut</w>
           <w>feritas</w><reg>,</reg>
-          <w>si</w>
           <w>fecerit</w><reg>:</reg>
           <w>sicut</w>
           <w>in</w>
           <w>hoc</w>
           <lb n="16"/><w>edictum</w>
           <w>legitur</w><reg>,</reg>
-          <w>persolvat</w><reg>.</reg>
+          <w>persol<c corresp="#v">u</c>at</w><reg>.</reg>
         </p>
 
-        <p><lb n="17"/><label n="35"><num><w>I</w></num>
-            <w>De</w>
-            <w>scandalum</w></label>
-          <w>Si</w>
+        <p><lb n="17"/><label n="35"><num><w>XXXV</w></num>
+            <w><hi rend="empty">D</hi>e</w>
+            <w>scandalum</w></label><reg>.</reg>
+          <w><choice>
+            <orig>si</orig>
+            <reg>Si</reg>
+          </choice></w>
           <w>quis</w>
-          <lb n="18"/><w>in</w>
-          <w>ecclesia</w>
-          <w>scandalum</w>
-          <w>pene<lb n=""/>traverit</w><reg>,</reg>
+          <lb n="18"/><w>scandalum</w>
+          <w>in</w>
+          <w><choice>
+            <abbr>ecclesi<am><g ref="#atilde"/></am></abbr>
+            <expan>ecclesia<ex>m</ex></expan>
+          </choice></w>
+          <w>pen<subst><del rend="overwritten">n</del><add place="inline">e</add></subst><lb n="19"/>traverit</w><reg>,</reg><!-- CHECK 
+            sfondo particolare, altra e finale cancellata? -->
           <w>quadragenta</w>
-          <w>solidos</w>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
           <w>ipsi<lb n="20"/>us</w>
-          <w>venerabilis</w>
+          <w><choice>
+            <orig><c corresp="#v">u</c>enera<c corresp="#v">u</c>elis</orig>
+            <reg>venerabilis</reg>
+          </choice></w>
           <w>loci</w>
           <w>sit</w>
-          <w>culpavelis</w><reg>,</reg>
+          <w><choice>
+              <orig>culpa<c corresp="#v">u</c>elis</orig>
+              <reg>culpabilis</reg></choice></w><reg>,</reg>
 
           <pb n="025v" xml:id="CV188_folio_025v"/>
 
@@ -2636,79 +2688,109 @@
           <w>feritas</w><reg>,</reg>
           <w>cui</w>
           <w>fe<lb n="2"/>cerit</w><reg>.</reg>
-          <w>Et</w>
+          <w><choice>
+            <orig>et</orig>
+            <reg>Et</reg>
+          </choice></w>
           <w>predicti</w>
           <w>quadragenta</w>
-          <lb n="3"/><w>solidi</w>
+          <lb n="3"/><w><choice><abbr>so<am><g ref="#ltailstrok"/></am></abbr><expan>sol<ex>idi</ex></expan>
+            </choice></w>
           <w>per</w>
-          <w>sculdhais</w>
+          <w><choice>
+            <orig>scul<add place="above">dahi</add>s</orig>
+            <reg>sculdhais</reg>
+          </choice></w>
           <w>aut</w>
           <w>iudicem</w><reg>,</reg>
           <w>qui</w>
           <w>in</w>
-          <w>loco</w>
+          <w><choice>
+            <sic>loc<g ref="#uslig"/></sic>
+            <corr>loco</corr>
+          </choice></w>
           <lb n="4"/><w>ordinatus</w>
           <w>fuerit</w><reg>,</reg>
           <w>exegantur</w>
           <w>et</w>
           <lb n="5"/><w>in</w>
-          <w>sacro</w>
-          <w>altario</w>
-          <w>ponantur</w><reg>,</reg>
+          <choice>
+            <sic><w>sacrum</w> <w>altarium</w></sic>
+            <corr><w>sacro</w> <w>altario</w></corr>
+          </choice>
+          <supplied><w>ponantur</w></supplied><reg>,</reg>
           <w>ubi</w>
           <w>iniuria</w>
           <lb n="6" rend="align-right"/><w>facta</w>
           <w>est</w>
-          <w>conponatur</w><reg>.</reg>
+          <w>conponatur</w><choice><orig><pc>:</pc></orig><reg>.</reg></choice><!-- CHECK punteggiatura originale: carattere migliore di ':'? -->
         </p>
 
-        <p><lb n="7"/><label n="36"><num><w>I</w></num></label>
-          <w>Si</w>
+        <p><lb n="7"/><label n="36"><num><w>XXX<g ref="#romnumsix"/></w></num></label>
+          <w><hi rend="red">S</hi>i</w>
           <w>quis</w>
           <w>intra</w>
           <w>palatium</w>
-          <w>regis</w><reg>,</reg>
+          <!--<w>regis</w><reg>,</reg>-->
           <lb n="8"/><w>ubi</w>
-          <w>rex</w>
-          <w>praesens</w>
+          <w><choice>
+            <sic>rege</sic>
+            <corr>rex</corr>
+          </choice></w>
+          <w><choice><!-- CHECK praeesse invece di praesens esse -->
+            <orig>pre</orig>
+            <reg>prae</reg>
+          </choice></w>
           <w>est</w><reg>,</reg>
           <w>scandalum</w>
-          <w>pe<lb n="9"/>netrare</w>
-          <w>praesumpserit</w><reg>,</reg>
-          <w>animae</w>
+          <w><choice>
+            <orig>pe<lb n="9"/>nitra<c corresp="#v">u</c>erit</orig>
+            <reg>pe<lb n="9"/>netraverit</reg>
+          </choice></w><!-- CHECK segno di punteggiatura molto nitido -->
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>suae</w>
           <w>incurrat</w>
           <lb n="10"/><w>periculum</w><reg>,</reg>
           <w>aut</w>
-          <w>redimat</w>
-          <w>anima</w>
-          <w>sua</w><reg>,</reg>
+          <w><choice>
+            <orig>redemat</orig>
+            <reg>redimat</reg>
+          </choice></w>
+          <w>se</w><reg>,</reg>
           <w>si</w>
           <w>opte<lb n="11"/>nere</w>
           <w>potuerit</w>
           <w>a</w>
-          <w>rege</w><reg>.</reg>
+          <w>rege</w><choice><orig><pc>:</pc></orig><reg>.</reg></choice><!-- CHECK punteggiatura originale: carattere migliore di ':''? -->
         </p>
 
-        <p><lb n="12"/><label n="37"><num><w>I</w></num></label>
-          <w>Si</w>
+        <p><lb n="12"/><label n="37"><num><w>XXX<g ref="#romnumsix"/>I</w></num></label>
+          <w><hi rend="decorated phytomorphic">S</hi>i</w>
           <w>quis</w>
           <w>liber</w>
           <w>homo</w>
           <w>in</w>
-          <w>eadem</w>
+          <w><choice>
+            <abbr>ead<am><g ref="#etilde"/></am></abbr>
+            <expan>eade<ex>m</ex></expan>
+          </choice></w>
           <lb n="13"/><w>civitatem</w><reg>,</reg>
           <w>ubi</w>
           <w>rex</w>
-          <w>praesens</w>
-          <w>est</w>
-          <lb n="14"/><w>aut</w>
+          <w><choice>
+            <orig>preest</orig>
+            <reg>praeest</reg>
+          </choice></w><!-- CHECK segno di punteggiatura molto nitido -->
+          <lb n="14"/><w>et</w>
           <w>tunc</w>
-          <w>invenitur</w>
+          <w>in<c corresp="#v">u</c>enitur</w>
           <w>esse</w><reg>,</reg>
           <w>scan<lb n="15"/>dalum</w>
           <w>penetrare</w>
-          <w>praesumpserit</w><reg>,</reg>
+          <w>praesumpseri<add place="above">t</add></w><reg>,</reg>
           <!--<w>id</w>
           <w>est</w><reg>,</reg>
           <w>si</w>
@@ -2716,27 +2798,48 @@
           <w>et</w>
           <w>non</w>
           <w>percusserit</w><reg>,</reg>-->
-          <lb n="16"/><w>sit</w>
-          <w>culpabiles</w>
-          <w>solidos</w>
-          <w>duodicem</w>
+          <lb n="16"/><damage><w>sit</w></damage>
+          <w><choice>
+              <orig>culpa<c corresp="#v">u</c>elis</orig>
+              <reg>culpabilis</reg>
+            </choice></w>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <num value="12"><w><choice>
+            <abbr>duodic<am><g ref="#etilde"/></am></abbr>
+            <expan>duodic<ex>m</ex></expan>
+          </choice></w></num>
           <w>in</w>
-          <w>pa<lb n="17"/>latium</w>
+          <w>pa<lb n="17"/>latio</w><!-- palatium -->
           <w>regis</w><reg>.</reg>
-          <w>Nam</w>
+          <w><choice>
+            <orig>nam</orig>
+            <reg>Nam</reg>
+          </choice></w>
           <w>si</w>
-          <w>perfecerit</w>
+          <w>perf<subst><del rend="overwritten">i</del><add place="inline">e</add></subst>cerit</w>
           <lb n="18" rend="align-right"/><w>et</w>
-          <w>percusserit</w><reg>,</reg>
+          <space extent="6"/><w>percusserit</w><reg>,</reg>
           <w>sit</w>
-          <w>culpa<lb n="19"/>biles</w>
+          <w><choice>
+            <orig>culpa<lb n="19"/><c corresp="#v">u</c>elis</orig>
+            <reg>culpa<lb n="19"/>biles</reg>
+          </choice></w>
           <w>in</w>
-          <w>palatium</w>
+          <w>palatium</w><!-- palatium -->
           <w>regis</w>
-          <w>solidos</w>
-          <w>vigin<lb n="20"/>ti</w>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <w><choice>
+            <orig><c corresp="#v">u</c>igen<lb n="20"/>ti</orig>
+            <reg>vigin<lb n="20"/>ti</reg>
+          </choice></w>
           <w>et</w>
-          <w>quattuor</w><reg>;</reg>
+          <w>quattuor</w><reg>;</reg><!-- CHECK segno di punteggiatura molto nitido -->
           <w>excepto</w>
           <w>plagas</w>
 
@@ -2752,10 +2855,12 @@
           <lb n="2"/><w>edictum</w>
           <w>adnexum</w>
           <w>est</w><reg>,</reg>
-          <w>conponat</w><reg>.</reg>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+              <expan>conp<ex>onat</ex></expan></choice></w><choice><orig><pc>:</pc></orig><reg>.</reg></choice><!-- CHECK punteggiatura originale: carattere migliore di ':''? -->
         </p>
 
-        <p><lb n="3"/><label n="38"><num><w>I</w></num></label>
+        <p><lb n="3"/><label n="38"><num><w>XXX<g ref="#romnumsix"/>II</w></num></label>
           <w>Si</w>
           <w>servus</w>
           <w>in</w>
