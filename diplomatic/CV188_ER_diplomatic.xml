@@ -3414,44 +3414,77 @@
           <lb n="14"/><w>rumpantur</w><reg>,</reg>
           <w>pro</w>
           <choice><!-- CHECK -->
-            <sic><w>unum</w> <lb n="15"/> <w>ossum</w></sic>
-            <corr><w>uno</w> <lb n="15"/> <w>osso</w></corr>
+            <sic><w>unum</w><lb n="15"/><w>ossum</w></sic>
+            <corr><w>uno</w><lb n="15"/><w>osso</w></corr>
           </choice>
-          <w>conponat</w>
-          <w>solidos</w>
-          <w>duodicem</w><reg>;</reg>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+              <expan>conp<ex>onat</ex></expan>
+            </choice></w>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <num value="12"><w>xii</w></num><choice><orig><pc>:</pc></orig><reg>;</reg></choice><!-- CHECK punteggiatura originale: carattere migliore di ':''? -->
           <w>si</w>
           <w>duo</w>
-          <w>fue<lb n="16"/>rint</w><reg>,</reg>
-          <w>conponat</w>
-          <w>solidos</w>
-          <w>viginti</w>
-          <w>et</w>
-          <w>quattuor</w><reg>;</reg>
+          <w><choice>
+            <orig>fue<lb n="16"/>rent</orig>
+            <reg>fue<lb n="16"/>rint</reg>
+          </choice></w><reg>,</reg>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+              <expan>conp<ex>onat</ex></expan>
+            </choice></w>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <num value="24"><w>xxiiii</w></num><choice><orig><pc>:</pc></orig><reg>;</reg></choice><!-- CHECK punteggiatura originale: carattere migliore di ':''? -->
           <w>si</w>
           <w>tres</w>
           <!--<w>ossas</w>-->
-          <lb n="17"/><w>fuerint</w><reg>,</reg>
-          <w>conponat</w>
-          <w>solidos</w>
-          <w>trigenta</w>
-          <w>et</w>
-          <w>sex</w><reg>;</reg>
+          <lb n="17"/><w><choice><orig>fuerent</orig><reg>fuerint</reg>
+           </choice></w><reg>,</reg>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+              <expan>conp<ex>onat</ex></expan>
+            </choice></w>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <num value="36"><w>xxx<g ref="#romnumsix"/></w></num><choice><orig><pc>:</pc></orig><reg>;</reg></choice><!-- CHECK punteggiatura originale -->
           <w>si</w>
           <lb n="18"/><w>super</w>
-          <w>fuerint</w><reg>,</reg>
+          <w><choice>
+            <orig>fuerent</orig>
+            <reg>fuerint</reg>
+          </choice></w><reg>,</reg>
           <w>non</w>
-          <w>numeren<lb n="19"/>tur</w><reg>.</reg>
-          <w>sic</w>
+          <w><choice>
+            <orig>nomiren<lb n="19"/>tur</orig>
+            <reg>numeren<lb n="19"/>tur</reg>
+          </choice></w><choice><orig><pc>:</pc></orig><reg>.</reg></choice>
+          <w><choice>
+            <orig>sic</orig>
+            <reg>Sic</reg>
+          </choice></w>
           <w>ita</w><reg>,</reg>
           <w>ut</w>
           <w>unus</w>
           <w>ossus</w>
-          <w>ta<lb n="20"/>les</w>
-          <w>inveniatur</w><reg>,</reg>
+          <w><choice><!-- CHECK -->
+            <orig>ta<lb n="20"/>lis</orig>
+            <reg>ta<lb n="20"/>les</reg>
+          </choice></w>
+          <w>in<c corresp="#v">u</c>eni<del rend="erasure">t</del>atur</w><reg>,</reg>
           <w>qui</w>
           <w>ad</w>
-          <w>pedes</w>
+          <w><choice>
+            <sic>pedis</sic>
+            <corr>pedes</corr>
+          </choice></w>
 
           <pb n="028r" xml:id="CV188_folio_028r"/>
 
