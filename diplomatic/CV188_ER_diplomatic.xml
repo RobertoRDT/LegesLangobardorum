@@ -3014,102 +3014,147 @@
           <pb n="026v" xml:id="CV188_folio_026v"/>
 
           <lb n="1"/><w>scandalum</w>
-          <w>conmiserit</w><reg>,</reg>
-          <w>solidos</w>
-          <w>tres</w>
+          <w><choice>
+            <sic>comiserit</sic>
+            <corr>conmiserit</corr>
+          </choice></w><reg>,</reg>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <num value="3"><w>III</w></num>
           <lb n="2"/><w>sit</w>
-          <w>culpabiles</w>
+          <w><choice>
+              <orig>culpa<c corresp="#v">u</c>elis</orig>
+              <reg>culpabilis</reg>
+            </choice></w>
           <w>in</w>
-          <w>palatium</w>
+          <w>palatio</w><!-- palatium -->
           <w>regis</w>
           <lb n="3"/><w>si</w>
           <w>autem</w>
-          <w>plagas</w>
-          <w>aut</w>
           <w>feritas</w>
+          <w>aut</w>
+          <w>plagas</w>
           <w>fe<lb n="4"/>cerit</w><reg>,</reg>
           <w>sit</w>
-          <w>culpabiles</w>
+          <w><choice>
+              <orig>culpa<c corresp="#v">u</c>elis</orig>
+              <reg>culpabilis</reg>
+            </choice></w>
           <w>in</w>
-          <w>palatium</w>
+          <w>palatio</w><!-- palatium -->
           <w>re<lb n="5"/>gis</w>
-          <w>solidos</w>
-          <w>sex</w><reg>;</reg>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <num value="6"><w>sex</w></num><reg>;</reg>
           <w>excepto</w>
           <w>plagas</w>
           <w>aut</w>
           <lb n="6"/><w>feritas</w><reg>,</reg>
           <w>cui</w>
-          <w>fecerit</w>
-          <!--<w>conponat</w>--><reg>.</reg>
+          <w>fecerit</w><!--<w>conponat</w>--><choice><orig><pc>:</pc></orig><reg>.</reg></choice><!-- CHECK punteggiatura originale: carattere migliore di ':''? -->
         </p>
 
         <p><lb n="7"/><label n="41"><num><w>XLI</w></num>
-            <w>De</w>
+            <w><hi rend="red">D</hi>e</w>
             <w>homine</w>
             <w>libero</w>
-            <w>battuto</w></label>
-          <lb n="8"/><w>Si</w>
-          <w>quis</w>
-          <w>homine</w>
-          <w>libero</w>
-          <w>insi<lb n="9"/>diatus</w>
+            <w><choice>
+              <orig>battudo</orig>
+              <reg>battuto</reg></choice></w></label><reg>.</reg>
+          <lb n="8"/><w><choice><orig>si</orig><reg>Si</reg>
+            </choice></w>
+          <w>qu<damage>i</damage>s</w>
+          <choice><!-- CHECK -->
+            <sic><w>hominem</w> <w>liberum</w></sic>
+            <corr><w>homine</w> <w>libero</w></corr>
+          </choice>
+          <w><damage>in</damage>si<lb n="9"/>diatus</w>
           <w>fuerit</w>
           <w>cum</w>
-          <w>virtute</w>
+          <choice>
+            <sic><w>virtutem</w></sic>
+            <corr><w>virtute</w></corr>
+          </choice>
           <w>aut</w>
-          <lb n="10"/><w>solatio</w><reg>,</reg>
-          <w>vedens</w>
+          <lb n="10"/><w><choice><!-- CHECK --><sic>sol<damage>a</damage>tium</sic><corr>solatio</corr>
+            </choice></w><reg>,</reg>
+          <w><c corresp="#v">u</c>idens</w><!-- vedens -->
           <w>eum</w>
-          <w>inparatum</w>
-          <lb n="11"/><w>simpleciter</w>
+          <w><choice>
+            <abbr>inparat<am><g ref="#utilde"/></am></abbr>
+            <expan>inparatu<ex>m</ex></expan>
+          </choice></w>
+          <lb n="11"/><w>simpliciter</w>
           <w>ambolantem</w>
           <w>aut</w>
-          <lb n="12"/><w>stantem</w><reg>,</reg>
-          <w>subito</w>
+          <lb n="12"/><w><damage>stant</damage>em</w><reg>,</reg>
+          <w>subito</w><!-- CHECK tilde tra due parole -->
           <w>super</w>
           <w>eum</w>
-          <w>adve<lb n="13"/>niens</w><reg>,</reg>
+          <w>ad<c corresp="#v">u</c>e<lb n="13"/><damage>ni</damage>ens</w><reg>,</reg>
           <w>et</w>
           <w>turpiter</w>
           <w>eum</w>
-          <w>tenue<lb n="14"/>rit</w>
+          <w>tenue<lb n="14"/><damage>rit</damage></w>
           <w>et</w>
-          <w>battuerit</w>
+          <w><choice>
+            <orig>bat<damage>te</damage>der<add place="above">it</add></orig>
+            <reg>battuerit</reg>
+          </choice></w>
           <w>sine</w>
-          <w>iussione</w>
-          <w>re<lb n="15"/>gis</w><reg>,</reg>
+          <w><choice>
+            <abbr>iussion<am><g ref="#etilde"/></am></abbr>
+            <expan>iussione<ex>m</ex></expan>
+          </choice></w><!-- iussione -->
+          <w><choice>
+            <sic>re<lb n="15"/>gi</sic>
+            <corr>re<lb n="15"/>gis</corr>
+          </choice></w><reg>,</reg>
           <w>medietatem</w>
           <w>pretii</w>
           <w>ipsius</w><reg>,</reg>
           <w>ac</w>
           <lb n="16"/><w>si</w>
           <w>eum</w>
-          <w>occidissit</w><reg>,</reg>
+          <w><choice>
+            <sic>occisissit</sic>
+            <corr>occidissit</corr>
+          </choice></w><reg>,</reg>
           <w>ei</w>
           <w>conponat</w><reg>,</reg>
           <w>eo</w>
-          <lb n="17"/><w>quod</w>
+          <lb n="17"/><w><damage>quod</damage></w>
           <w>in</w>
-          <w>turpe</w>
+          <w>t<damage>urpe</damage></w>
           <w>et</w>
-          <w>in</w>
-          <w>derisiculum</w>
+          <w><damage>i</damage>n</w>
+          <w><choice>
+            <abbr>derisicul<am><g ref="#utilde"/></am></abbr>
+            <expan>derisiculu<ex>m</ex></expan>
+          </choice></w>
           <lb n="18"/><w>ipsius</w>
           <w>eum</w>
           <w>male</w>
-          <w>tractavit</w><reg>.</reg></p>
-        <p><lb n="19"/><label n="42"><num><w>I</w></num>
-            <w>De</w>
+          <w>tracta<c corresp="#v">u</c>it</w><reg>.</reg>
+        </p>
+
+        <p><lb n="19"/><label n="42"><num><w>XLII</w></num>
+            <w><hi rend="decorated phytomorphic">D</hi>e</w>
             <w>homine</w>
             <w>libero</w>
-            <w>legato</w>
-          </label>
+            <w>legato</w></label><reg>.</reg>
           <lb n="20"/><w>Si</w>
           <w>quis</w>
-          <w>hominem</w>
+          <w><damage>h</damage>o<damage>m</damage>inem</w>
           <w>liberum</w>
-          <w>legaverit</w>
+          <w><choice>
+            <orig>liga<c corresp="#v">u</c>erit</orig>
+            <reg>legaverit</reg>
+          </choice></w>
 
           <pb n="027r" xml:id="CV188_folio_027r"/>
 
@@ -3122,169 +3167,256 @@
           <w>partis</w>
           <w>praetii</w>
           <w>ipsius</w><reg>,</reg>
-          <w>tamquam</w>
+          <w><choice>
+            <abbr>tamqu<am><g ref="#atilde"/></am></abbr>
+            <expan>tamqua<ex>m</ex></expan>
+          </choice></w>
           <lb n="3"/><w>si</w>
           <w>eum</w>
-          <w>occidissit</w><reg>,</reg>
+          <w><choice>
+            <sic>occisissit</sic>
+            <corr>occidissit</corr>
+          </choice></w><reg>,</reg>
           <w>ei</w>
-          <w>conponat</w><reg>.</reg></p>
+          <w><choice>
+              <abbr><am>c<g ref="#combtildevert"/></am>o<am>n<g ref="#combtildevert"/></am><am>p<g ref="#combtildevert"/></am></abbr>
+              <expan>conp<ex>onat</ex></expan></choice></w><choice><orig><pc>:</pc></orig><reg>.</reg></choice><!-- CHECK punteggiatura originale: carattere migliore di ':''? -->
+        </p>
+
         <p><lb n="4"/><label n="43"><num><w>XLIII</w></num>
-            <w>De</w>
+            <w><hi>D</hi>e</w>
             <w>ferita</w>
             <w>aut</w>
             <w>percussura</w><!-- CHECK tre tilde a fine di tre righe -->
-          <lb n="5"/><w>hominis</w>
-            <w>liberi</w>
-          </label>
-          <w>Si</w>
+          <lb n="5"/><w><choice><orig>homenis</orig><reg>hominis</reg>
+            </choice></w>
+            <w>liberi</w></label><reg>.</reg>
+          <w><choice>
+            <orig>si</orig>
+            <reg>Si</reg>
+          </choice></w>
           <w>quis</w>
-          <w>hominem</w>
+          <w><choice>
+            <abbr>homin<am><g ref="#etilde"/></am></abbr>
+            <expan>homine<ex>m</ex></expan>
+          </choice></w>
           <lb n="6"/><w>liberum</w>
-          <w>subito</w>
-          <w>surgente</w>
+          <w>sibi</w><!-- subito --><!-- CHECK segno sopra ultima i -->
+          <w><choice>
+            <sic>surgentem</sic><!-- CHECK -->
+            <corr>surgente</corr>
+          </choice></w>
           <w>rexa</w>
           <lb n="7"/><w>percusserit</w>
           <w>et</w>
           <w>liborem</w>
           <w>aut</w>
-          <w>vul<lb n="8"/>nus</w>
+          <w><c corresp="#v">u</c>ul<lb n="8"/>nus</w>
           <w>fecerit</w><reg>,</reg>
           <w>pro</w>
           <w>una</w>
-          <w>ferita</w>
-          <w>conponat</w>
+          <w><choice>
+            <abbr>ferit<am><g ref="#atilde"/></am></abbr>
+            <expan>ferita<ex>m</ex></expan>
+          </choice></w>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+              <expan>conp<ex>onat</ex></expan>
+            </choice></w>
           <lb n="9"/><w>ei</w>
-          <w>solidos</w>
-          <w>tres</w><reg>;</reg>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <num value="3"><w>tres</w></num><choice><orig>:</orig><reg>;</reg></choice>
           <w>si</w>
           <w>duas</w>
           <w>fecerit</w><reg>,</reg>
-          <w>solidos</w>
-          <w>sex</w><reg>;</reg>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <num value="6"><w>sex</w></num><!-- CHECK ligature ex? --><choice><orig>:</orig><reg>;</reg></choice>
           <lb n="10"/><w>si</w>
           <w>tres</w>
           <w>fecerit</w><reg>,</reg>
-          <w>solidos</w>
-          <w>novem</w><reg>;</reg>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <num value="6"><w>novem</w></num><choice><orig>:</orig><reg>;</reg></choice>
           <w>si</w>
           <w>quat<lb n="11"/>tuor</w>
           <w>fecerit</w><reg>,</reg>
-          <w>solidos</w>
-          <w>duodicem</w><reg>;</reg>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <num value="12"><w>duodicem</w></num><choice><orig>:</orig><reg>;</reg></choice>
           <lb n="12"/><w>si</w>
-          <w>vero</w>
+          <w><c corresp="#v">u</c>ero</w>
           <w>amplius</w>
-          <w>duraverit</w><reg>,</reg>
+          <w>dura<c corresp="#v">u</c>erit</w><reg>,</reg>
           <!--<w>feritas</w>
           <w>non</w>
           <w>numerentur</w><reg>,</reg>
           <w>et</w>-->
           <w>sit</w>
           <w>si<lb n="13" rend="align-right"/>bi</w>
-          <w>contemtus</w><reg>.</reg>
+          <w><choice>
+            <sic>contemptus</sic><corr>contemtus</corr></choice></w><choice><orig>:</orig><reg>;</reg></choice>
         </p>
 
         <p><lb n="14"/><label n="44"><num><w>XLIIII</w></num></label>
-          <w>Si</w>
+          <w><hi rend="decorated phytomorphic">S</hi>i</w>
           <w>quis</w>
           <w>alium</w>
           <w>pugno</w>
           <lb n="15"/><w>percusserit</w><reg>,</reg>
-          <w>solidos</w>
-          <w>tres</w><reg>;</reg>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <num value="3"><w>tres</w></num>
           <w>ei</w>
-          <lb n="16"/><w>conponat</w>
+          <lb n="16"/><w><choice><abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr><expan>conp<ex>onat</ex></expan></choice></w><reg>,</reg>
           <w>si</w>
-          <w>alapas</w><reg>,</reg>
-          <w>solid<am>.</am></w>
-          <w>sex</w><reg>.</reg></p>
-        <p><lb n="17"/><label n="45"><num><w>I</w></num></label>
-          <w>De</w>
-          <w>feritas</w>
+          <w>alapas</w>
+          <num value="6"><w>sex</w></num><choice><orig><pc>;</pc></orig><reg>.</reg></choice><!-- CHECK punteggiatura originale: carattere migliore di ';''? -->
+        </p>
+
+        <p><lb n="17"/><label n="45"><num><w>XLV</w></num></label>
+          <w><hi rend="decorated phytomorphic">D</hi>e</w>
+          <w>plagas</w>
           <w>et</w>
-          <w>conpositi<lb n="18"/>onis</w>
+          <w>c<damage>o<unclear>np</unclear>o</damage>s<damage>iti</damage><lb n="18"/>onis</w>
           <w>plagarum</w>
-          <w>quae</w>
+          <w>qu<space extent="1"/>ae</w>
           <w>inter</w>
-          <w>ho<lb n="19"/>minis</w>
-          <w>liveros</w>
-          <w>eveniunt</w><reg>,</reg>
+          <w><choice><!-- CHECK -->
+            <orig>ho<lb n="19"/>menis</orig>
+            <reg>ho<lb n="19"/>minis</reg>
+          </choice></w>
+          <w>liberus</w><!-- CHECK homines liberi? -->
+          <w>e<c corresp="#v">u</c>enerint</w><reg>,</reg><!-- CHECK -->
           <w>per</w>
           <lb n="20"/><w>hoc</w>
           <w>tinorem</w><reg>,</reg>
-          <w>sicut</w>
+          <w>sicut</w><!-- CHECK legatura uT -->
           <w>subter</w>
-          <w>adn<lb rend="align-right"/>exum</w>
+          <w>adne<lb rend="align-right"/>xum</w>
           <w>est</w><reg>,</reg>
 
           <pb n="027v" xml:id="CV188_folio_027v"/>
 
-          <lb n="1"/><w>conponantur</w><reg>,</reg>
+          <lb n="1"/><w><choice><sic>conponatur</sic><corr>conponantur</corr>
+          </choice></w><reg>,</reg>
           <w>cessantem</w>
-          <term ref="#faida" xml:id="CV188_term_faida_45" xml:lang="lng"><w>faida</w></term>
+          <term ref="#faida" xml:id="CV188_term_faida_45" xml:lang="lng"><w><damage>f</damage>aida</w></term>
           <gloss target="#CV188_term_faida_45" xml:id="CV188_gloss_faida_45">
             <lb n="2" rend="align-right"/><w>id</w>
             <w>est</w>
-            <w>inimicitia</w>
+            <w><choice><!-- CHECK -->
+              <orig>inimisitia</orig>
+              <reg>inimicitia</reg>
+            </choice></w>
           </gloss>
         </p>
-        <p><lb n="3"/><label n="46"><num><w>I</w></num></label>
+
+        <p><lb n="3"/><label n="46"><num><w>XL<g ref="#romnumsix"/></w></num></label>
           <w>Si</w>
           <w>quis</w>
-          <w>alii</w>
+          <!--<w>alii</w>-->
           <w>plagam</w>
           <w>in</w>
           <w>ca<lb n="4"/>put</w>
           <w>fecerit</w><reg>,</reg>
           <w>ut</w>
-          <w>cuti<lb n="5"/>ca</w>
+          <w><choice>
+            <sic>cuti<lb n="5"/>gam</sic>
+            <corr>cuti<lb n="5"/>ca</corr>
+          </choice></w>
           <w>tantum</w>
-          <w>rumpatur</w><reg>,</reg>
-          <w>quod</w>
+          <w><choice>
+            <sic>rumpantur</sic>
+            <corr>rumpatur</corr>
+          </choice></w><reg>,</reg>
+          <w>quo<add place="above">d</add></w>
           <lb n="6"/><w>capilli</w>
-          <w>cooperiunt</w><reg>,</reg>
-          <w>conponat</w>
-          <w>solidos</w>
-          <lb n="7"/><w>sex</w><reg>;</reg>
+          <w><choice>
+            <sic>cooperunt</sic>
+            <corr>cooperiunt</corr>
+          </choice></w><reg>,</reg>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+              <expan>conp<ex>onat</ex></expan>
+            </choice></w>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <lb n="7"/><num value="6"><w>sex</w></num><choice><orig><pc><!-- CHECK mid comma? --></pc></orig><reg>;</reg></choice>
           <w>si</w>
           <w>duas</w>
           <w>plagas</w>
-          <w>fecerit</w><reg>,</reg>
-          <lb n="8"/><w>conponat</w>
-          <w>solidos</w>
-          <w>duodicem</w><reg>;</reg>
+          <w>fecerit</w><choice><orig><pc><!-- CHECK mid comma? --></pc></orig><reg>,</reg></choice>
+          <lb n="8"/><w><choice><abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr><expan>conp<ex>onat</ex></expan>
+            </choice></w>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <num value="12"><w>duodicem</w></num><choice><orig><pc><!-- CHECK mid comma? --></pc></orig><reg>;</reg></choice>
           <w>si</w>
           <w>usque</w>
           <w>tres</w>
-          <w>fe<lb n="9"/>cerit</w><reg>,</reg>
-          <w>conponat</w>
-          <w>solidos</w>
-          <w>decem</w>
-          <w>et</w>
-          <w>octo</w><reg>;</reg>
+          <w>fe<lb n="9"/>cerit</w><choice><orig><pc><!-- CHECK mid comma? --></pc></orig><reg>,</reg></choice>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+              <expan>conp<ex>onat</ex></expan>
+            </choice></w>
+          <w><choice>
+              <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
+              <expan>sol<ex>idos</ex></expan>
+            </choice></w>
+          <num value="18"><w>X<g ref="#romnumsix"/>II</w></num><choice><orig><pc>:</pc></orig><reg>;</reg></choice><!-- CHECK punteggiatura originale: carattere migliore di ':''? -->
           <w>si</w>
           <w>vero</w>
-          <w>am<lb n="10"/>plius</w>
+          <w><choice>
+            <abbr><am><g ref="#atilde"/></am><lb n="10"/>plius</abbr>
+            <expan>a<ex>m</ex><lb n="10"/>plius</expan>
+          </choice></w>
           <w>fecerit</w><reg>,</reg>
           <w>non</w>
-          <w>numerentur</w><reg>,</reg>
+          <w><choice>
+            <orig>nomirentur</orig>
+            <reg>numerentur</reg>
+          </choice></w><reg>,</reg>
           <lb n="11" rend="align-right"/><w>nisi</w>
+          <w>in</w>
           <w>istas</w>
           <w>tres</w>
-          <w>conponantur</w><reg>.</reg></p>
-        <p><lb n="12"/><label n="47"><num><w>I</w></num></label>
+          <w><choice>
+              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
+              <expan>conp<ex>onantur</ex></expan>
+            </choice></w><reg>.</reg>
+        </p>
+
+        <p><lb n="12"/><label n="47"><num><w>XL<g ref="#romnumsix"/>I</w></num></label>
           <w>Si</w>
           <w>quis</w>
           <w>alium</w>
-          <w>plaga<lb n="13"/>verit</w>
+          <w>plaga<lb n="13"/><c corresp="#v">u</c>erit</w>
           <w>in</w>
           <w>caput</w><reg>,</reg>
           <w>ut</w>
-          <w>ossa</w>
+          <w>os<add place="above">s</add>a</w>
           <lb n="14"/><w>rumpantur</w><reg>,</reg>
           <w>pro</w>
-          <w>uno</w>
-          <lb n="15"/><w>osso</w>
+          <choice><!-- CHECK -->
+            <sic><w>unum</w> <lb n="15"/> <w>ossum</w></sic>
+            <corr><w>uno</w> <lb n="15"/> <w>osso</w></corr>
+          </choice>
           <w>conponat</w>
           <w>solidos</w>
           <w>duodicem</w><reg>;</reg>
