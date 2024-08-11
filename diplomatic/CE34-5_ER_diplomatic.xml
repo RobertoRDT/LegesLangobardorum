@@ -554,8 +554,11 @@
     <body>
 
       <div subtype="edition_text" type="prose" xml:id="CE34-5_ER_Incipit">
+
         <pb n="057r" xml:id="CE34-5_folio_057r"/>
+
         <fw place="top-right" type="fol">57</fw>
+
         <head>
           <lb n="1" xml:id="CE34-5_lb_057r_1"/>
           <w><hi rend="init[x.y] red">I</hi>N</w>
@@ -611,9 +614,8 @@
           </w>
           <w>PR<hi rend="smallcap">O</hi>L<hi rend="smallcap">O</hi>G<c corresp="#ucap">V</c>S</w>
         </head>
-        <lb n="9" xml:id="CE34-5_lb_057r_9"/>
         <p>
-          <w><hi rend="init[x.y] red">E</hi>go</w>
+          <lb n="9" xml:id="CE34-5_lb_057r_9"/><w><hi rend="init[x.y] red">E</hi>go</w>
           <w>in</w>
           <w>
             <choice>
@@ -631,8 +633,7 @@
             </choice>
           </w>
           <w>rex</w>
-          <lb n="10" xml:id="CE34-5_lb_057r_10"/>
-          <w><g ref="#openetlig"/></w>
+          <lb n="10" xml:id="CE34-5_lb_057r_10"/><w><g ref="#openetlig"/></w>
           <w>septimo</w>
           <w>
             <choice>
@@ -663,7 +664,9 @@
               <expan>m<ex>ei</ex></expan>
             </choice>
           </w>
-          <pb n="057v" xml:id="CE34-5_folio_057v"/>
+  
+        <pb n="057v" xml:id="CE34-5_folio_057v"/>
+
           <lb n="1" xml:id="CE34-5_lb_057v_01"/>
           <w>octabo</w>
           <w>anno</w>
@@ -956,8 +959,11 @@
           <persName ref="#Godeoch"><w><hi rend="cap">G</hi>odeoch</w></persName>
           <w>filius</w>
           <persName ref="#Zeldehoc"><w>zeldehoc</w></persName>
-          <pb n="058r" xml:id="CE34-5_folio_058r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">58</add></fw>
+  
+        <pb n="058r" xml:id="CE34-5_folio_058r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">58</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_058r_01"/>
           <persName ref="#Gaffo"><w><hi rend="black and red">G</hi>affo</w></persName>
           <w>filius</w>
@@ -1205,7 +1211,9 @@
             <w>scandalum</w>
             <w>comiser<g ref="#jnodotenl"/>t</w>
           </p>
-          <pb n="058v" xml:id="CE34-5_folio_058v"/>
+  
+        <pb n="058v" xml:id="CE34-5_folio_058v"/>
+
           <lb n="1" xml:id="CE34-5_lb_058v_01"/>
           <p corresp="#CE34-5_p_066v_09">
             <label n="9"><num><w>VIIII</w></num></label>
@@ -1628,7 +1636,9 @@
             <w>scandalum</w>
             <w>penetrav<g ref="#openetlig"/>r<g ref="#jnodotenl"/>t</w>
           </p>
-          <pb n="059r" xml:id="CE34-5_folio_059r"/>
+  
+        <pb n="059r" xml:id="CE34-5_folio_059r"/>
+
           <lb n="1" xml:id="CE34-5_lb_059r_01"/>
           <p corresp="#CE34-5_p_069v_36">
             <label n="35"><num><w>XXXV</w></num></label>
@@ -1880,7 +1890,9 @@
             <w>brachio</w>
             <w>transforatum</w>
           </p>
-          <pb n="059v" xml:id="CE34-5_folio_059v"/>
+  
+        <pb n="059v" xml:id="CE34-5_folio_059v"/>
+
           <lb n="1" xml:id="CE34-5_lb_059v_01"/>
           <p corresp="#CE34-5_p_071r_58">
             <label n="57"><num><w>LVII</w></num></label>
@@ -2140,8 +2152,11 @@
             <w>absciso</w>
           </p>
 
-          <pb n="060r" xml:id="CE34-5_folio_060r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">60</add></fw>
+  
+        <pb n="060r" xml:id="CE34-5_folio_060r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">60</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_060r_01"/>
           <p corresp="#CE34-5_p_072v_83">
             <label n="82"><num><w>LXXXII</w></num></label>
@@ -2343,7 +2358,9 @@
             <w>absciso</w>
           </p>
 
-          <pb n="060v" xml:id="CE34-5_folio_060v"/>
+  
+        <pb n="060v" xml:id="CE34-5_folio_060v"/>
+
           <lb n="1" xml:id="CE34-5_lb_060v_01"/>
           <p corresp="#CE34-5_p_074r_109">
             <label n="108"><num><w>CVIII</w></num></label>
@@ -2562,8 +2579,11 @@
             <w>bo<c corresp="#v">u</c>ulco</w>
             <w>occiso</w>
           </p>
-          <pb n="061r" xml:id="CE34-5_folio_061r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">61</add></fw>
+  
+        <pb n="061r" xml:id="CE34-5_folio_061r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">61</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_061r_01"/>
           <p corresp="#CE34-5_p_075r_134">
             <label n="133"><num><w>CXXXIII</w></num></label>
@@ -2917,7 +2937,9 @@
             <w>natural<g ref="#jnodotenl"/>s</w>
           </p>
 
-          <pb n="061v" xml:id="CE34-5_folio_061v"/>
+  
+        <pb n="061v" xml:id="CE34-5_folio_061v"/>
+
           <lb n="1" xml:id="CE34-5_lb_061v_01"/>
           <p corresp="#CE34-5_p_078v_160">
             <label n="159"><num><w>CLVIIII</w></num></label>
@@ -3243,8 +3265,11 @@
             <w>lebrosa</w>
             <w>appar<c corresp="#v">u</c><space quantity="6" unit="chars"/>erit</w>
           </p>
-          <pb n="062r" xml:id="CE34-5_folio_062r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">62</add></fw>
+  
+        <pb n="062r" xml:id="CE34-5_folio_062r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">62</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_062r_01"/>
           <p corresp="#CE34-5_p_081v_181">
             <label n="180"><num><w>CLXXX</w></num></label>
@@ -3539,7 +3564,9 @@
             <w>aldia</w>
             <w><c corresp="#v">u</c>iolentata</w>
           </p>
-          <pb n="062v" xml:id="CE34-5_folio_062v"/>
+  
+        <pb n="062v" xml:id="CE34-5_folio_062v"/>
+
           <lb n="1" xml:id="CE34-5_lb_062v_01"/>
           <p corresp="#CE34-5_p_086r_206">
             <label n="206"><num><w>CCVI</w></num></label>
@@ -3830,8 +3857,11 @@
             <w><hi rend="cap">D</hi>e</w>
             <w>possesionem</w>
           </p>
-          <pb n="063r" xml:id="CE34-5_folio_063r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">63</add></fw>
+  
+        <pb n="063r" xml:id="CE34-5_folio_063r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">63</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_063r_01"/>
           <p corresp="#CE34-5_p_088v_229">
             <label n="231"><num><w>CCXXXI</w></num></label>
@@ -4169,7 +4199,9 @@
             <w>aut</w>
             <w>bo<c corresp="#v">u</c>es</w>
           </p>
-          <pb n="063v" xml:id="CE34-5_folio_063v"/>
+  
+        <pb n="063v" xml:id="CE34-5_folio_063v"/>
+
           <lb n="1" xml:id="CE34-5_lb_063v_01"/>
           <p corresp="#CE34-5_p_091r_252">
             <label n="254"><num><w>CCLIIII</w></num></label>
@@ -4529,8 +4561,11 @@
             </w>
             <w>eius</w>
           </p>
-          <pb n="064r" xml:id="CE34-5_folio_064r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">64</add></fw>
+  
+        <pb n="064r" xml:id="CE34-5_folio_064r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">64</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_064r_01"/>
           <p corresp="#CE34-5_p_093v_275">
             <label n="275"><num><w>CCLXXV</w></num></label>
@@ -4797,7 +4832,9 @@
             <w><hi rend="cap">D</hi>e</w>
             <w>arbores</w>
           </p>
-          <pb n="064v" xml:id="CE34-5_folio_064v"/>
+  
+        <pb n="064v" xml:id="CE34-5_folio_064v"/>
+
           <lb n="1" xml:id="CE34-5_lb_064v_01"/>
           <p corresp="#CE34-5_p_095r_299">
             <label n="300"><num><w>CCC</w></num></label>
@@ -5012,8 +5049,11 @@
             <w>hominem</w>
             <w>rabiosum</w>
           </p>
-          <pb n="065r" xml:id="CE34-5_folio_065r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">65</add></fw>
+  
+        <pb n="065r" xml:id="CE34-5_folio_065r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">65</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_065r_01"/>
           <p corresp="#CE34-5_p_097r_324">
             <label n="324"><num><w>CCCXXIIII</w></num></label>
@@ -5362,7 +5402,9 @@
             <w>fuerit</w>
             <w>caballus</w>
           </p>
-          <pb n="065v" xml:id="CE34-5_folio_065v"/>
+  
+        <pb n="065v" xml:id="CE34-5_folio_065v"/>
+
           <lb n="1" xml:id="CE34-5_lb_065v_01"/>
           <p corresp="#CE34-5_p_099v_349">
             <label n="348"><num><w>CCCXLVIII</w></num></label>
@@ -5636,8 +5678,11 @@
             <w><hi rend="cap">D</hi>e</w>
             <w>sculdais</w>
           </p>
-          <pb n="066r" xml:id="CE34-5_folio_066r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">66</add></fw>
+  
+        <pb n="066r" xml:id="CE34-5_folio_066r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">66</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_066r_01"/>
           <p corresp="#CE34-5_p_103r_375">
             <label n="374"><num><w>CCCLXXIIII</w></num></label>
@@ -5968,7 +6013,9 @@
           <w>patitur</w>
           <w>quia</w>
           <w>postquam</w>
-          <pb n="066v" xml:id="CE34-5_folio_066v"/>
+  
+        <pb n="066v" xml:id="CE34-5_folio_066v"/>
+
           <lb n="1" xml:id="CE34-5_lb_066v_01"/>
           <w>corda</w>
           <w>regum</w>
@@ -6295,8 +6342,11 @@
           <w>mittat</w>
           <w>liceat</w>
           <w>eum</w>
-          <pb n="067r" xml:id="CE34-5_folio_067r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">67</add></fw>
+  
+        <pb n="067r" xml:id="CE34-5_folio_067r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">67</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_067r_01"/>
           <w>per</w>
           <w>camphiones</w>
@@ -6650,8 +6700,12 @@
           <w>si</w>
           <w>potuerit</w>
         </p>
+
         <pb n="067v" xml:id="CE34-5_folio_067v"/>
-        <p n="13" xml:id="CE34-5_p_067v_13"><lb n="1" type="rubric" xml:id="CE34-5_lb_067v_01"/><label><num><w><damage
+
+        <p n="13" xml:id="CE34-5_p_067v_13">
+
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_067v_01"/><label><num><w><damage
                   agent="rubbing"/>
                 <gap extent="4" unit="chars"/><supplied reason="illegible">XIII</supplied></w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -7016,8 +7070,11 @@
               <expan><c corresp="#v">u</c>icinib<ex>us</ex></expan>
             </choice>
           </w>
-          <pb n="068r" xml:id="CE34-5_folio_068r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">68</add></fw>
+  
+        <pb n="068r" xml:id="CE34-5_folio_068r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">68</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_068r_01"/>
           <w>patefecerit</w>
           <w><g ref="#openetlig"/></w>
@@ -7395,7 +7452,9 @@
               <expan>adp<ex>rae</ex>tiatu<ex>m</ex></expan>
             </choice>
           </w>
-          <pb n="068v" xml:id="CE34-5_folio_068v"/>
+  
+        <pb n="068v" xml:id="CE34-5_folio_068v"/>
+
           <lb n="1" xml:id="CE34-5_lb_068v_01"/>
           <w>fuerit</w>
           <w>Ita</w>
@@ -7748,8 +7807,11 @@
           <w>libero</w>
           <w><c corresp="#v">u</c>iam</w>
           <w>antesteterit</w>
-          <pb n="069r" xml:id="CE34-5_folio_069r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">69</add></fw>
+  
+        <pb n="069r" xml:id="CE34-5_folio_069r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">69</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_069r_01"/>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
           <w>
@@ -8187,7 +8249,9 @@
           <w>aut</w>
           <w>absconse</w>
           <w>ingrediatur</w>
-          <pb n="069v" xml:id="CE34-5_folio_069v"/>
+  
+        <pb n="069v" xml:id="CE34-5_folio_069v"/>
+
           <lb n="1" xml:id="CE34-5_lb_069v_01"/>
           <w>sed</w>
           <w>si</w>
@@ -8606,8 +8670,10 @@
           <w>culpabilis</w>
           <w>In</w>
           <w>pa<lb n="1" xml:id="CE34-5_lb_070r_01"/>
-            <pb n="070r" xml:id="CE34-5_folio_070r"/>
-            <fw place="top-right" type="fol"><add hand="unknown">70</add></fw> latio</w>
+    
+        <pb n="070r" xml:id="CE34-5_folio_070r"/>
+    
+        <fw place="top-right" type="fol"><add hand="unknown">70</add></fw> latio</w>
           <w>regis</w>
           <w>
             <choice>
@@ -9059,7 +9125,9 @@
             </choice>
           </w>
           <measure quantity="9" type="currency" unit="soldi"><w>VIIII</w></measure>
-          <pb n="070v" xml:id="CE34-5_folio_070v"/>
+  
+        <pb n="070v" xml:id="CE34-5_folio_070v"/>
+
           <lb n="1" xml:id="CE34-5_lb_070v_01"/>
           <w>si</w>
           <w>quattuor</w>
@@ -9516,10 +9584,13 @@
           </w>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
         </p>
+
         <pb n="071r" xml:id="CE34-5_folio_071r"/>
+
         <fw place="top-right" type="fol"><add hand="unknown">71</add></fw>
-        <p n="51" xml:id="CE34-5_p_071r_51"><lb n="1" type="rubric" xml:id="CE34-5_lb_071r_01"
-              /><label><num><w>LI</w></num></label>
+
+        <p n="51" xml:id="CE34-5_p_071r_51">
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_071r_01"/><label><num><w>LI</w></num></label>
           <w>LI</w>
           <w><hi rend="cap">D</hi>e</w>
           <w>dentes</w>
@@ -9903,7 +9974,9 @@
             </choice>
           </w>
           <w>quoque</w>
-          <pb n="071v" xml:id="CE34-5_folio_071v"/>
+  
+        <pb n="071v" xml:id="CE34-5_folio_071v"/>
+
           <lb n="1" xml:id="CE34-5_lb_071v_01"/>
           <w>plaga</w>
           <w>
@@ -10309,10 +10382,13 @@
           </w>
           <measure quantity="2" type="currency" unit="soldi"><w>II</w></measure>
         </p>
+
         <pb n="072r" xml:id="CE34-5_folio_072r"/>
+
         <fw place="top-right" type="fol"><add hand="unknown">72</add></fw>
-        <p n="74" xml:id="CE34-5_p_072r_74"><lb n="1" type="rubric" xml:id="CE34-5_lb_072r_01"
-                /><label><num><w>LXXIIII</w></num></label>
+
+        <p n="74" xml:id="CE34-5_p_072r_74">
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_072r_01"/><label><num><w>LXXIIII</w></num></label>
           <w><hi rend="cap">I</hi>n</w>
           <w>omnes</w>
           <w>istas</w>
@@ -10680,7 +10756,9 @@
               <expan>ministeriale<ex>m</ex></expan>
             </choice>
           </w>
-          <pb n="072v" xml:id="CE34-5_folio_072v"/>
+  
+        <pb n="072v" xml:id="CE34-5_folio_072v"/>
+
           <lb n="1" xml:id="CE34-5_lb_072v_01"/>
           <w>plaga<c corresp="#v">u</c>erit</w>
           <w>In</w>
@@ -11001,8 +11079,11 @@
               <expan>alienu<ex>m</ex></expan>
             </choice>
           </w>
-          <pb n="073r" xml:id="CE34-5_folio_073r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">73</add></fw>
+  
+        <pb n="073r" xml:id="CE34-5_folio_073r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">73</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_073r_01"/>
           <w>aut</w>
           <w>ser<c corresp="#v">u</c>um</w>
@@ -11544,8 +11625,11 @@
           </w>
           <measure quantity="2" type="currency" unit="soldi"><w>II</w></measure>
         </p>
+
         <pb n="073v" xml:id="CE34-5_folio_073v"/>
-        <p n="98" xml:id="CE34-5_p_073v_98"><lb n="1" type="rubric" xml:id="CE34-5_lb_073v_01"/>
+
+        <p n="98" xml:id="CE34-5_p_073v_98">
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_073v_01"/>
           <label><num><w>XCVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>tertio</w>
@@ -11961,8 +12045,11 @@
           <w>rusticano</w>
           <w>aurem</w>
           <w>absciderit</w>
-          <pb n="074r" xml:id="CE34-5_folio_074r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">74</add></fw>
+  
+        <pb n="074r" xml:id="CE34-5_folio_074r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">74</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_074r_01"/>
           <w>
             <choice>
@@ -12463,9 +12550,11 @@
           </w>
           <measure quantity="3" type="currency" unit="soldi"><w>III</w></measure>
         </p>
+
         <pb n="074v" xml:id="CE34-5_folio_074v"/>
-        <p n="116" xml:id="CE34-5_p_074v_116"><lb n="1" type="rubric" xml:id="CE34-5_lb_074v_01"
-                /><label><num><w>CXVI</w></num></label>
+
+        <p n="116" xml:id="CE34-5_p_074v_116">
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_074v_01"/><label><num><w>CXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>tert<g ref="#jnodotenl"/>um</w>
           <unclear reason="faded"><w>nu</w></unclear>
@@ -12936,8 +13025,11 @@
           <w>e<c corresp="#v">u</c>adere</w>
           <w>aut</w>
           <w>sanari</w>
-          <pb n="75r" xml:id="CE34-5_folio_075r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">75</add></fw>
+  
+        <pb n="75r" xml:id="CE34-5_folio_075r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">75</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_075r_01"/>
           <w>non</w>
           <w>possint</w>
@@ -13296,9 +13388,11 @@
           </w>
           <measure quantity="16" type="currency" unit="soldi"><w>XVI</w></measure>
         </p>
+
         <pb n="75v" xml:id="CE34-5_folio_075v"/>
-        <p n="135" xml:id="CE34-5_p_075v_135"><lb n="1" type="rubric" xml:id="CE34-5_lb_075v_01"
-                /><label><num><w>CXXXV</w></num></label>
+
+        <p n="135" xml:id="CE34-5_p_075v_135">
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_075v_01"/><label><num><w>CXXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>pastores</w>
           <w>porcarios</w>
@@ -13678,8 +13772,11 @@
           </w>
           <w>dare</w>
           <w><c corresp="#v">u</c>oluerit</w>
-          <pb n="076r" xml:id="CE34-5_folio_076r"/><w>76r</w>
-          <fw place="top-right" type="fol"><add hand="unknown">76</add></fw>
+  
+        <pb n="076r" xml:id="CE34-5_folio_076r"/><w>76r</w>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">76</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_076r_01"/>
           <w>
             <choice>
@@ -14044,7 +14141,9 @@
           <w>se</w>
           <w><c corresp="#v">u</c>indicare</w>
           <w>tempta<c corresp="#v">u</c>erit</w>
-          <pb n="076v" xml:id="CE34-5_folio_076v"/>
+  
+        <pb n="076v" xml:id="CE34-5_folio_076v"/>
+
           <lb n="1" xml:id="CE34-5_lb_076v_01"/>
           <w>in</w>
           <w>dublum</w>
@@ -14408,8 +14507,11 @@
           </w>
           <w>iuratus</w>
           <w>dicat</w>
-          <pb n="077r" xml:id="CE34-5_folio_077r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">77</add></fw>
+  
+        <pb n="077r" xml:id="CE34-5_folio_077r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">77</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_077r_01"/>
           <w>quantum</w>
           <w>In</w>
@@ -14765,7 +14867,9 @@
           <measure quantity="12" type="currency" unit="soldi"><w>XII</w></measure>
           <w>ill<g ref="#jnodotenl"/></w>
           <w>cuius</w>
-          <pb n="077v" xml:id="CE34-5_folio_077v"/>
+  
+        <pb n="077v" xml:id="CE34-5_folio_077v"/>
+
           <lb n="1" xml:id="CE34-5_lb_077v_01"/>
           <w>In<c corresp="#v">u</c>enitur</w>
           <w>
@@ -15165,10 +15269,13 @@
           <w>nos</w>
           <w>dicimus</w>
         </p>
+
         <pb n="078r" xml:id="CE34-5_folio_078r"/>
+
         <fw place="top-right" type="fol"><add hand="unknown">78</add></fw>
-        <p n="154" xml:id="CE34-5_p_078r_154"><lb n="1" type="rubric" xml:id="CE34-5_lb_078r_01"
-                /><label><num><w>CLIIII</w></num></label>
+
+        <p n="154" xml:id="CE34-5_p_078r_154">
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_078r_01"/><label><num><w>CLIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>filios</w>
           <w>legitimos</w>
@@ -15504,7 +15611,9 @@
               <expan>h<ex>re</ex>des</expan>
             </choice>
           </w>
-          <pb n="078v" xml:id="CE34-5_folio_078v"/>
+  
+        <pb n="078v" xml:id="CE34-5_folio_078v"/>
+
           <lb n="1" xml:id="CE34-5_lb_078v_01"/>
           <w>equaliter</w>
           <w>di<c corresp="#v">u</c>ident</w>
@@ -15748,8 +15857,11 @@
           </w>
           <w>tollant</w>
           <w>legitimi</w>
-          <pb n="079r" xml:id="CE34-5_folio_079r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">79</add></fw>
+  
+        <pb n="079r" xml:id="CE34-5_folio_079r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">79</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_079r_01"/>
           <w>filii</w>
           <w>partes</w>
@@ -16098,7 +16210,9 @@
           <w>debeat</w>
           <w>si</w>
           <w>sic</w>
-          <pb n="079v" xml:id="CE34-5_folio_079v"/>
+  
+        <pb n="079v" xml:id="CE34-5_folio_079v"/>
+
           <lb n="1" xml:id="CE34-5_lb_079v_01"/>
           <w>fecerit</w>
           <w>habeat</w>
@@ -16437,8 +16551,11 @@
           <w>uxorem</w>
           <w>tullerint</w>
           <w>aut</w>
-          <pb n="080r" xml:id="CE34-5_folio_080r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">80</add></fw>
+  
+        <pb n="080r" xml:id="CE34-5_folio_080r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">80</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_080r_01"/>
           <w>quando</w>
           <w>ad</w>
@@ -16773,7 +16890,9 @@
           <w>aut</w>
           <w>plures</w>
           <w>post</w>
-          <pb n="080v" xml:id="CE34-5_folio_080v"/>
+  
+        <pb n="080v" xml:id="CE34-5_folio_080v"/>
+
           <lb n="1" xml:id="CE34-5_lb_080v_01"/>
           <w>post</w>
           <term ref="#thinx" xml:lang="lng"><w>thinx</w></term>
@@ -17089,8 +17208,11 @@
           </w>
           <w>qui</w>
           <term xml:lang="lng"><w>gar<g ref="#jnodotenl"/>thinx</w></term>
-          <pb n="081r" xml:id="CE34-5_folio_081r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">81</add></fw>
+  
+        <pb n="081r" xml:id="CE34-5_folio_081r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">81</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_081r_01"/>
           <w>susciperit</w>
           <w>ab</w>
@@ -17436,7 +17558,9 @@
           <w><g ref="#openetlig"/></w>
           <w>dilata<c corresp="#v">u</c>erit</w>
           <w>nupt<g ref="#jnodotenl"/>as</w>
-          <pb n="081v" xml:id="CE34-5_folio_081v"/>
+  
+        <pb n="081v" xml:id="CE34-5_folio_081v"/>
+
           <lb n="1" xml:id="CE34-5_lb_081v_01"/>
           <w>exequi</w>
           <w>post</w>
@@ -17770,8 +17894,11 @@
               <expan>legtima<ex>m</ex></expan>
             </choice>
           </w>
-          <pb n="082r" xml:id="CE34-5_folio_082r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">82</add></fw>
+  
+        <pb n="082r" xml:id="CE34-5_folio_082r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">82</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_082r_01"/>
           <w>alii</w>
           <w>ad</w>
@@ -18131,8 +18258,11 @@
           <w>potestatem</w>
           <w>regis</w>
         </p>
+
         <pb n="082v" xml:id="CE34-5_folio_082v"/>
-        <p n="183" xml:id="CE34-5_p_082v_183"><lb n="1" type="rubric" xml:id="CE34-5_lb_082v_01"/><label><num><w><damage
+
+        <p n="183" xml:id="CE34-5_p_082v_183">
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_082v_01"/><label><num><w><damage
                   agent="rubbing">CL</damage>XXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
@@ -18498,7 +18628,9 @@
               <expan>sol<ex>idi</ex></expan>
             </choice>
           </w>
-          <pb n="083r" xml:id="CE34-5_folio_083r"/><fw place="top-right" type="fol"><add hand="unknown">83</add></fw>
+  
+        <pb n="083r" xml:id="CE34-5_folio_083r"/><fw place="top-right" type="fol"><add hand="unknown">83</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_083r_01"/>
           <w>ad</w>
           <w>
@@ -18919,7 +19051,9 @@
               <expan>ambaru<ex>m</ex></expan>
             </choice>
           </w>
-          <pb n="083v" xml:id="CE34-5_folio_083v"/>
+  
+        <pb n="083v" xml:id="CE34-5_folio_083v"/>
+
           <lb n="1" xml:id="CE34-5_lb_083v_01"/>
           <w>partium</w>
           <w>steterit</w>
@@ -19342,8 +19476,10 @@
           <w>fideiussori</w>
           <w>aut</w>
           <w>rapturi</w>
-          <pb n="084r" xml:id="CE34-5_folio_084r"/><fw place="top-right" type="fol"><add hand="unknown">84</add></fw><lb
-            n="1" xml:id="CE34-5_lb_084r_01"/>
+  
+        <pb n="084r" xml:id="CE34-5_folio_084r"/><fw place="top-right" type="fol"><add hand="unknown">84</add></fw>
+
+          <lb n="1" xml:id="CE34-5_lb_084r_01"/>
           <lb n="2" xml:id="CE34-5_lb_084r_02"/>
           <w>ab</w>
           <w>ipso</w>
@@ -19689,7 +19825,9 @@
           <w>re<c corresp="#v">u</c>erti</w>
           <w><c corresp="#v">u</c>ult</w>
           <w>ad</w>
-          <pb n="084v" xml:id="CE34-5_folio_084v"/>
+  
+        <pb n="084v" xml:id="CE34-5_folio_084v"/>
+
           <lb n="1" xml:id="CE34-5_lb_084v_01"/>
           <w>curtem</w>
           <w>regis</w>
@@ -20044,9 +20182,13 @@
           </w>
           <w>cum</w>
           <w>duodecim</w>
-          <w>sacra <pb n="085r" xml:id="CE34-5_folio_085r"/>
+          <w>sacra
+
+            <pb n="085r" xml:id="CE34-5_folio_085r"/>
+
             <fw place="top-right" type="fol"><add hand="unknown">85</add>
             </fw>
+
             <lb n="1" xml:id="CE34-5_lb_085r_01"/>mentalis</w>
           <w>suos</w>
           <w>quod</w>
@@ -20482,7 +20624,9 @@
             </choice>
           </w>
           <w>occiderit</w>
-          <pb n="085v" xml:id="CE34-5_folio_085v"/>
+  
+        <pb n="085v" xml:id="CE34-5_folio_085v"/>
+
           <lb n="1" xml:id="CE34-5_lb_085v_01"/>
           <w>inmerentem</w>
           <w>quod</w>
@@ -20940,7 +21084,9 @@
           <w>qui</w>
           <w>Iam</w>
           <w>de</w>
-          <pb n="086r" xml:id="CE34-5_folio_086r"/><fw place="top-right" type="fol"><add hand="unknown">86</add></fw>
+  
+        <pb n="086r" xml:id="CE34-5_folio_086r"/><fw place="top-right" type="fol"><add hand="unknown">86</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_086r_01"/>
           <w>matre</w>
           <w>libera</w>
@@ -21482,7 +21628,9 @@
           </w>
           <w>uxo<lb rend="align_right" type="extra"/>rem</w>
           <w>duxerit</w>
-          <pb n="086v" xml:id="CE34-5_folio_086v"/>
+  
+        <pb n="086v" xml:id="CE34-5_folio_086v"/>
+
           <lb n="1" xml:id="CE34-5_lb_086v_01"/>
           <w>
             <choice>
@@ -21898,10 +22046,13 @@
             </choice>
           </w>
           <w><c corresp="#v">u</c>itium</w>
-          <pb n="087r" xml:id="CE34-5_folio_087r"/>
-          <fw place="top-right" type="fol">
+  
+        <pb n="087r" xml:id="CE34-5_folio_087r"/>
+  
+        <fw place="top-right" type="fol">
             <add hand="unknown">87</add>
           </fw>
+
           <lb n="1" xml:id="CE34-5_lb_087r_01"/>
           <w>suum</w>
           <w>repotit</w>
@@ -22271,7 +22422,9 @@
             </choice>
           </w>
           <w>regia</w>
-          <pb n="087v" xml:id="CE34-5_folio_087v"/>
+  
+        <pb n="087v" xml:id="CE34-5_folio_087v"/>
+
           <lb n="1" xml:id="CE34-5_lb_087v_01"/>
           <w>
             <choice>
@@ -22691,8 +22844,11 @@
               <expan>liberu<ex>m</ex></expan>
             </choice>
           </w>
-          <pb n="088r" xml:id="CE34-5_folio_088r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">88</add></fw>
+  
+        <pb n="088r" xml:id="CE34-5_folio_088r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">88</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_088r_01"/>
           <w>aut</w>
           <w>
@@ -23133,9 +23289,11 @@
           <w>sibi</w>
           <w>conpara<c corresp="#v">u</c>it</w>
         </p>
+
         <pb n="088v" xml:id="CE34-5_folio_088v"/>
-        <p n="228" xml:id="CE34-5_p_088v_228"><lb n="1" type="rubric" xml:id="CE34-5_lb_088v_01"
-                /><label><num><w>CCXXVIII</w></num></label>
+
+        <p n="228" xml:id="CE34-5_p_088v_228">
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_088v_01"/><label><num><w>CCXXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>possesionem</w>
           <w><hi rend="cap">S</hi>i</w>
@@ -23556,8 +23714,11 @@
           <w><add hand="scribe_1" place="above">se</add>quantur</w>
           <w><g ref="#openetlig"/></w>
           <w>si</w>
-          <pb n="089r" xml:id="CE34-5_folio_089r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">89</add></fw>
+  
+        <pb n="089r" xml:id="CE34-5_folio_089r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">89</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_089r_01"/>
           <w>auctor</w>
           <w>mortuus</w>
@@ -23935,7 +24096,9 @@
           <w>et</w>
           <w>de</w>
           <w>minuto</w>
-          <pb n="089v" xml:id="CE34-5_folio_089v"/>
+  
+        <pb n="089v" xml:id="CE34-5_folio_089v"/>
+
           <lb n="1" xml:id="CE34-5_lb_089v_01"/>
           <w>peculio</w>
           <w>in</w>
@@ -24300,7 +24463,9 @@
             </choice>
           </w>
           <measure quantity="40" type="currency" unit="soldi"><w>xl</w></measure>
-          <pb n="090r" xml:id="CE34-5_folio_090r"/><fw place="top-right" type="fol"><add hand="unknown">90</add></fw>
+  
+        <pb n="090r" xml:id="CE34-5_folio_090r"/><fw place="top-right" type="fol"><add hand="unknown">90</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_090r_01"/>
           <w>medi<g ref="#openetlig"/>atem</w>
           <w>regi</w>
@@ -24667,9 +24832,11 @@
             <w>est</w>
           </gloss>
         </p>
+
         <pb n="090v" xml:id="CE34-5_folio_090v"/>
-        <p n="248" xml:id="CE34-5_p_090v_248"><lb n="1" type="rubric" xml:id="CE34-5_lb_090v_01"
-                /><label><num><w>CCXLVIII</w></num></label>
+
+        <p n="248" xml:id="CE34-5_p_090v_248">
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_090v_01"/><label><num><w>CCXLVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>
@@ -25111,8 +25278,11 @@
           <w>dilata<c corresp="#v">u</c>erit</w>
           <w>facere</w>
           <w>sit</w>
-          <pb n="091r" xml:id="CE34-5_folio_091r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">91</add></fw>
+  
+        <pb n="091r" xml:id="CE34-5_folio_091r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">91</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_091r_01"/>
           <w>culpabilis</w>
           <w>In</w>
@@ -25576,7 +25746,9 @@
             </choice>
           </w>
           <w>alii</w>
-          <pb n="091v" xml:id="CE34-5_folio_091v"/>
+  
+        <pb n="091v" xml:id="CE34-5_folio_091v"/>
+          <!-- CHECK manca lb n. 1? -->
           <w>fecerit</w>
           <w><g ref="#openetlig"/></w>
           <w>in</w>
@@ -25998,10 +26170,13 @@
           <w>ill<g ref="#jnodotenl"/>s</w>
           <w>efficiantur</w>
         </p>
+
         <pb n="092r" xml:id="CE34-5_folio_092r"/>
+
         <fw place="top-right" type="fol"><add hand="unknown">92</add></fw>
-        <p n="262" xml:id="CE34-5_p_092r_262"><lb n="1" type="rubric" xml:id="CE34-5_lb_092r_01"
-                /><label><num><w>CCLXII</w></num></label>
+
+        <p n="262" xml:id="CE34-5_p_092r_262">
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_092r_01"/><label><num><w>CCLXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>dum</w>
@@ -26393,7 +26568,9 @@
             </choice>
           </w>
           <w>quod</w>
-          <pb n="092v" xml:id="CE34-5_folio_092v"/>
+  
+        <pb n="092v" xml:id="CE34-5_folio_092v"/>
+
           <lb n="1" xml:id="CE34-5_lb_092v_01"/>
           <w>fugiti<c corresp="#v">u</c>us</w>
           <w>aut</w>
@@ -26738,8 +26915,11 @@
           </w>
           <w>eum</w>
           <w><c corresp="#v">u</c>indicta</w>
-          <pb n="093r" xml:id="CE34-5_folio_093r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">93</add></fw>
+  
+        <pb n="093r" xml:id="CE34-5_folio_093r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">93</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_093r_01"/>
           <w>non</w>
           <w>dedissit</w>
@@ -27113,8 +27293,11 @@
           <w>est</w>
           <w>ponatur</w>
         </p>
+
         <pb n="093v" xml:id="CE34-5_folio_093v"/>
-        <p n="273" xml:id="CE34-5_p_093v_273"><lb n="1" type="rubric" xml:id="CE34-5_lb_093v_01"
+
+        <p n="273" xml:id="CE34-5_p_093v_273">
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_093v_01"
                 /><label><num><w>CCLXXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
@@ -27589,8 +27772,11 @@
           <w>ostenderit</w>
           <w><g ref="#openetlig"/></w>
           <w>mancipis</w>
-          <pb n="094r" xml:id="CE34-5_folio_094r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">94</add></fw>
+  
+        <pb n="094r" xml:id="CE34-5_folio_094r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">94</add></fw>
+
           <add hand="scribe_2" place="top">
             <unclear>
               <w><c corresp="#v">u</c>ada</w>
@@ -28167,7 +28353,9 @@
             </choice>
           </w>
           <w>superius</w>
-          <pb n="094v" xml:id="CE34-5_folio_094v"/>
+  
+        <pb n="094v" xml:id="CE34-5_folio_094v"/>
+
           <lb n="1" xml:id="CE34-5_lb_094v_01"/>
           <w>institutum</w>
           <w>est</w>
@@ -28538,8 +28726,11 @@
             </choice>
           </w>
           <measure quantity="3" type="currency" unit="soldi"><w>III</w></measure>
-          <pb n="095r" xml:id="CE34-5_folio_095r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">95</add></fw>
+  
+        <pb n="095r" xml:id="CE34-5_folio_095r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">95</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_095r_01"/>
           <w>nam</w>
           <w>si</w>
@@ -29044,7 +29235,9 @@
               <expan>arbore<ex>m</ex></expan>
             </choice>
           </w>
-          <pb n="095v" xml:id="CE34-5_folio_095v"/>
+  
+        <pb n="095v" xml:id="CE34-5_folio_095v"/>
+
           <lb n="1" xml:id="CE34-5_lb_095v_01"/>
           <w>tremisses</w>
           <w>duo</w>
@@ -29437,8 +29630,11 @@
           <w>ille</w>
           <w>qui</w>
           <w>acciperit</w>
-          <pb n="096r" xml:id="CE34-5_folio_096r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">96</add></fw>
+  
+        <pb n="096r" xml:id="CE34-5_folio_096r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">96</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_096r_01"/>
           <w>aliquid</w>
           <w>mal<g ref="#jnodotenl"/></w>
@@ -29807,7 +30003,9 @@
           <w>tal<g ref="#jnodotenl"/>ola</w>
           <w>tenta</w>
           <w>aut</w>
-          <pb n="096v" xml:id="CE34-5_folio_096v"/>
+  
+        <pb n="096v" xml:id="CE34-5_folio_096v"/>
+
           <lb n="1" xml:id="CE34-5_lb_096v_01"/>
           <w>a</w>
           <w>
@@ -30167,8 +30365,11 @@
           <w>In<c corresp="#v">u</c>ener<g ref="#jnodotenl"/>t</w>
           <w>iure</w>
           <w>natural<g ref="#jnodotenl"/></w>
-          <pb n="097r" xml:id="CE34-5_folio_097r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">97</add></fw>
+  
+        <pb n="097r" xml:id="CE34-5_folio_097r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">97</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_097r_01"/>
           <w>habeat</w>
           <w>sibi</w>
@@ -30529,7 +30730,9 @@
           <w>animalem</w>
           <w>fuerit</w>
           <w>cessante</w>
-          <pb n="097v" xml:id="CE34-5_folio_097v"/>
+  
+        <pb n="097v" xml:id="CE34-5_folio_097v"/>
+
           <lb n="1" xml:id="CE34-5_lb_097v_01"/>
           <w>In</w>
           <w>hoc</w>
@@ -30943,10 +31146,13 @@
           <w><g ref="#openetlig"/></w>
           <w>pecus</w>
         </p>
+
         <pb n="098r" xml:id="CE34-5_folio_098r"/>
+
         <fw place="top-right" type="fol"><add hand="unknown">98</add></fw>
-        <p n="333" xml:id="CE34-5_p_098r_333"><lb n="1" type="rubric" xml:id="CE34-5_lb_098r_01"
-                /><label><num><w>CCCXXXIII</w></num></label>
+
+        <p n="333" xml:id="CE34-5_p_098r_333">
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_098r_01"/><label><num><w>CCCXXXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -31472,7 +31678,9 @@
             </choice>
           </w>
           <measure quantity="2" type="currency" unit="soldi"><w>II</w></measure>
-          <pb n="098v" xml:id="CE34-5_folio_098v"/>
+  
+        <pb n="098v" xml:id="CE34-5_folio_098v"/>
+
           <lb n="1" xml:id="CE34-5_lb_098v_01"/>
           <w>nam</w>
           <w>si</w>
@@ -31938,8 +32146,11 @@
           </w>
           <w>fuerit</w>
           <w>sibi</w>
-          <pb n="099r" xml:id="CE34-5_folio_099r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">99</add></fw>
+  
+        <pb n="099r" xml:id="CE34-5_folio_099r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">99</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_099r_01"/>
           <w>nono</w>
           <w>eum</w>
@@ -32388,7 +32599,9 @@
           <w>aut</w>
           <w>quis<lb rend="align_right" type="extra"/>lebit</w>
           <w>pecul<g ref="#jnodotenl"/>us</w>
-          <pb n="099v" xml:id="CE34-5_folio_099v"/>
+  
+        <pb n="099v" xml:id="CE34-5_folio_099v"/>
+
           <lb n="1" xml:id="CE34-5_lb_099v_01"/>
           <w>secutus</w>
           <w>fuerit</w>
@@ -32758,10 +32971,13 @@
             </choice>
           </w>
         </p>
+
         <pb n="100r" xml:id="CE34-5_folio_100r"/>
+
         <fw place="top-right" type="fol"><add hand="unknown">100</add></fw>
-        <p n="351" xml:id="CE34-5_p_100r_351"><lb n="1" type="rubric" xml:id="CE34-5_lb_100r_01"
-                /><label><num><w>CCCLI</w></num></label>
+
+        <p n="351" xml:id="CE34-5_p_100r_351">
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_100r_01"/><label><num><w>CCCLI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><c corresp="#v">u</c>errem</w>
           <w><hi rend="cap">S</hi>i</w>
@@ -33085,7 +33301,9 @@
           <w>sega<c corresp="#v">u</c>erit</w>
           <w>aut</w>
           <w>exara<c corresp="#v">u</c>erit</w>
-          <pb n="100v" xml:id="CE34-5_folio_100v"/>
+  
+        <pb n="100v" xml:id="CE34-5_folio_100v"/>
+
           <lb n="1" xml:id="CE34-5_lb_100v_01"/>
           <w><g ref="#openetlig"/></w>
           <w>fenum</w>
@@ -33411,8 +33629,11 @@
           <w><g ref="#openetlig"/></w>
           <w>alium</w>
           <w>sibi</w>
-          <pb n="101r" xml:id="CE34-5_folio_101r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">101</add></fw>
+  
+        <pb n="101r" xml:id="CE34-5_folio_101r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">101</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_101r_01"/>
           <w>querat</w>
           <add hand="scribe_2" place="above"><w><g ref="#openetlig"/></w></add>
@@ -33766,7 +33987,9 @@
           <w>sacramentum</w>
           <w>iudicatum</w>
           <w>aliquid</w>
-          <pb n="101v" xml:id="CE34-5_folio_101v"/>
+  
+        <pb n="101v" xml:id="CE34-5_folio_101v"/>
+
           <lb n="1" xml:id="CE34-5_lb_101v_01"/>
           <w>moriatur</w>
           <w>si</w>
@@ -34236,9 +34459,13 @@
           </w>
           <w>tales</w>
           <w>pra<c corresp="#v">u</c>as</w>
-          <w>oppo <pb n="102r" xml:id="CE34-5_folio_102r"/>
-            <fw place="top-right" type="fol"><add hand="unknown">102</add></fw>
-            <lb n="1" xml:id="CE34-5_lb_102r_01"/> nentes</w>
+          <w>oppo
+            
+         <pb n="102r" xml:id="CE34-5_folio_102r"/>
+    
+          <fw place="top-right" type="fol"><add hand="unknown">102</add></fw>
+  
+          <lb n="1" xml:id="CE34-5_lb_102r_01"/> nentes</w>
           <w>Intentiones</w>
           <w>haec</w>
           <w>nos</w>
@@ -34655,7 +34882,9 @@
               <expan>manu<ex>m</ex></expan>
             </choice>
           </w>
-          <pb n="102v" xml:id="CE34-5_folio_102v"/>
+  
+        <pb n="102v" xml:id="CE34-5_folio_102v"/>
+
           <lb n="1" xml:id="CE34-5_lb_102v_01"/>
           <w>ipse</w>
           <w>camphio</w>
@@ -35148,8 +35377,11 @@
               <expan>conp<ex>ona</ex>tur</expan>
             </choice>
           </w>
-          <pb n="103r" xml:id="CE34-5_folio_103r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">103</add></fw>
+  
+        <pb n="103r" xml:id="CE34-5_folio_103r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">103</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_103r_01"/>
           <w>excepto</w>
           <w>In</w>
@@ -35675,9 +35907,11 @@
           </w>
           <w>mortuo</w>
         </p>
+
         <pb n="103v" xml:id="CE34-5_folio_103v"/>
-        <p n="378" xml:id="CE34-5_p_103v_378"><lb n="1" type="rubric" xml:id="CE34-5_lb_103v_01"
-                /><label><num><w>CCCLXXVIII</w></num></label>
+
+        <p n="378" xml:id="CE34-5_p_103v_378">
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_103v_01"/><label><num><w>CCCLXXVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>mulier</w>
           <w>libera</w>
@@ -36149,8 +36383,11 @@
           </w>
           <w>gubito</w>
           <w>ruperit</w>
-          <pb n="104r" xml:id="CE34-5_folio_104r"/>
-          <fw place="top-right" type="fol"><add hand="unknown">104</add></fw>
+  
+        <pb n="104r" xml:id="CE34-5_folio_104r"/>
+  
+        <fw place="top-right" type="fol"><add hand="unknown">104</add></fw>
+
           <lb n="1" xml:id="CE34-5_lb_104r_01"/>
           <w>
             <choice>
@@ -36690,7 +36927,9 @@
             </choice>
           </w>
           <w>confirmantes</w>
-          <pb n="104v" xml:id="CE34-5_folio_104v"/>
+  
+        <pb n="104v" xml:id="CE34-5_folio_104v"/>
+
           <lb n="1" xml:id="CE34-5_lb_104v_01"/>
           <w>ut</w>
           <w>sit</w>
