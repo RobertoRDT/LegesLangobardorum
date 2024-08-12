@@ -577,8 +577,7 @@
             </choice></w>
           <choice>
             <orig><w>occiserit</w></orig>
-            <reg><w>occiderit</w></reg>
-          </choice><reg>,</reg>
+            <reg><w>occiderit</w></reg></choice><reg>,</reg>
           <w>in</w>
           <lb n="13" xml:id="CV188_lb_018v_13"/><w>nullo</w>
           <w>sit</w>
