@@ -1900,9 +1900,9 @@
 
         <pb n="059v" xml:id="CE34-5_folio_059v"/>
 
-        <lb n="1" xml:id="CE34-5_lb_059v_01"/>
+
         <ab corresp="#CE34-5_p_071r_58">
-          <label n="57"><num><w>LVII</w></num></label>
+          <lb n="1" xml:id="CE34-5_lb_059v_01"/><label n="57"><num><w>LVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>alium</w>
@@ -1910,9 +1910,9 @@
           <w>bracchio</w>
           <w>puncxerit</w>
         </ab>
-        <lb n="2" xml:id="CE34-5_lb_059v_02"/>
+
         <ab corresp="#CE34-5_p_071r_59">
-          <label n="58"><num><w>LVIII</w></num></label>
+          <lb n="2" xml:id="CE34-5_lb_059v_02"/><label n="58"><num><w>LVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -1925,38 +1925,38 @@
           <w>capso</w>
           <w>placa<c corresp="#v">u</c>erit</w>
         </ab>
-        <lb n="3" xml:id="CE34-5_lb_059v_03"/>
+
         <ab corresp="#CE34-5_p_071r_60">
-          <label n="59"><num><w>LVIIII</w></num></label>
+          <lb n="3" xml:id="CE34-5_lb_059v_03"/><label n="59"><num><w>LVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>plaga</w>
           <w>in</w>
           <w>cocxa</w>
         </ab>
-        <lb n="4" xml:id="CE34-5_lb_059v_04"/>
+
         <ab corresp="#CE34-5_p_071r_61">
-          <label n="60"><num><w>LX</w></num></label>
+          <lb n="4" xml:id="CE34-5_lb_059v_04"/><label n="60"><num><w>LX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>numero</w>
           <w>plagarum</w>
         </ab>
-        <lb n="5" xml:id="CE34-5_lb_059v_05"/>
+
         <ab corresp="#CE34-5_p_071v_62">
-          <label n="61"><num><w>LXI</w></num></label>
+          <lb n="5" xml:id="CE34-5_lb_059v_05"/><label n="61"><num><w>LXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>incisione</w>
           <w>manus</w>
         </ab>
-        <lb n="6" xml:id="CE34-5_lb_059v_06"/>
+
         <ab corresp="#CE34-5_p_071v_63">
-          <label n="62"><num><w>LXII</w></num></label>
+          <lb n="6" xml:id="CE34-5_lb_059v_06"/><label n="62"><num><w>LXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>digita</w>
           <w>manus</w>
         </ab>
-        <lb n="7" xml:id="CE34-5_lb_059v_07"/>
+
         <ab corresp="#CE34-5_p_071v_64">
-          <label n="63"><num><w>LXIII</w></num></label>
+          <lb n="7" xml:id="CE34-5_lb_059v_07"/><label n="63"><num><w>LXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>secundum</w>
           <w>
@@ -1966,72 +1966,72 @@
             </choice>
           </w>
         </ab>
-        <lb n="8" xml:id="CE34-5_lb_059v_08"/>
+
         <ab corresp="#CE34-5_p_071v_65">
-          <label n="64"><num><w>LXIIII</w></num></label>
+          <lb n="8" xml:id="CE34-5_lb_059v_08"/><label n="64"><num><w>LXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>tertium</w>
           <w>digitum</w>
         </ab>
-        <lb n="9" xml:id="CE34-5_lb_059v_09"/>
+
         <ab corresp="#CE34-5_p_071v_66">
-          <label n="65"><num><w>LXV</w></num></label>
+          <lb n="9" xml:id="CE34-5_lb_059v_09"/><label n="65"><num><w>LXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>quartum</w>
           <w>digitum</w>
         </ab>
-        <lb n="10" xml:id="CE34-5_lb_059v_10"/>
+
         <ab corresp="#CE34-5_p_071v_67">
-          <label n="66"><num><w>LXVI</w></num></label>
+          <lb n="10" xml:id="CE34-5_lb_059v_10"/><label n="66"><num><w>LXVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>quintum</w>
           <w>digitum</w>
         </ab>
-        <lb n="11" xml:id="CE34-5_lb_059v_11"/>
+
         <ab corresp="#CE34-5_p_071v_68">
-          <label n="67"><num><w>LXVII</w></num></label>
+          <lb n="11" xml:id="CE34-5_lb_059v_11"/><label n="67"><num><w>LXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>incisione</w>
           <w>pedum</w>
         </ab>
-        <lb n="12" xml:id="CE34-5_lb_059v_12"/>
+
         <ab corresp="#CE34-5_p_071v_69">
-          <label n="68"><num><w>LXVIII</w></num></label>
+          <lb n="12" xml:id="CE34-5_lb_059v_12"/><label n="68"><num><w>LXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>policem</w>
           <w>pedis</w>
         </ab>
-        <lb n="13" xml:id="CE34-5_lb_059v_13"/>
+
         <ab corresp="#CE34-5_p_071v_70">
-          <label n="69"><num><w>LXVIIII</w></num></label>
+          <lb n="13" xml:id="CE34-5_lb_059v_13"/><label n="69"><num><w>LXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>secundum</w>
           <w>digitum</w>
         </ab>
-        <lb n="14" xml:id="CE34-5_lb_059v_14"/>
+
         <ab corresp="#CE34-5_p_071v_71">
-          <label n="70"><num><w>LXX</w></num></label>
+          <lb n="14" xml:id="CE34-5_lb_059v_14"/><label n="70"><num><w>LXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>tertium</w>
           <w>digitum</w>
         </ab>
-        <lb n="15" xml:id="CE34-5_lb_059v_15"/>
+
         <ab corresp="#CE34-5_p_071v_72">
-          <label n="71"><num><w>LXXI</w></num></label>
+          <lb n="15" xml:id="CE34-5_lb_059v_15"/><label n="71"><num><w>LXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>quartum</w>
           <w>digitum</w>
         </ab>
-        <lb n="16" xml:id="CE34-5_lb_059v_16"/>
+
         <ab corresp="#CE34-5_p_071v_73">
-          <label n="72"><num><w>LXXII</w></num></label>
+          <lb n="16" xml:id="CE34-5_lb_059v_16"/><label n="72"><num><w>LXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>quintum</w>
           <w>digitum</w>
         </ab>
-        <lb n="17" xml:id="CE34-5_lb_059v_17"/>
+
         <ab corresp="#CE34-5_p_072r_74">
-          <label n="73"><num><w>LXXIII</w></num></label>
+          <lb n="17" xml:id="CE34-5_lb_059v_17"/><label n="73"><num><w>LXXIII</w></num></label>
           <w><hi rend="cap">I</hi>n</w>
           <w>omnes</w>
           <w>istas</w>
@@ -2047,9 +2047,9 @@
           <w>liberos</w>
           <w>e<c corresp="#v">u</c>enerit</w>
         </ab>
-        <lb n="19" xml:id="CE34-5_lb_059v_19"/>
+
         <ab corresp="#CE34-5_p_072r_75">
-          <label n="74"><num><w>LXXIIII</w></num></label>
+          <lb n="19" xml:id="CE34-5_lb_059v_19"/><label n="74"><num><w>LXXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>infans</w>
           <w>in</w>
@@ -2058,18 +2058,18 @@
           <w>occisus</w>
           <w>fuerit</w>
         </ab>
-        <lb n="20" xml:id="CE34-5_lb_059v_20"/>
+
         <ab corresp="#CE34-5_p_072r_76">
-          <label n="75"><num><w>LXXV</w></num></label>
+          <lb n="20" xml:id="CE34-5_lb_059v_20"/><label n="75"><num><w>LXXV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>aldius</w>
           <w>aut</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>minister<g ref="#jnodotenl"/>alem</w>
         </ab>
-        <lb n="21" xml:id="CE34-5_lb_059v_21"/>
+
         <ab corresp="#CE34-5_p_072r_77">
-          <label n="76"><num><w>LXXVI</w></num></label>
+          <lb n="21" xml:id="CE34-5_lb_059v_21"/><label n="76"><num><w>LXXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -2093,9 +2093,9 @@
             </choice>
           </w>
         </ab>
-        <lb n="22" xml:id="CE34-5_lb_059v_22"/>
+
         <ab corresp="#CE34-5_p_072r_78">
-          <label n="77"><num><w>LXXVII</w></num></label>
+          <lb n="22" xml:id="CE34-5_lb_059v_22"/><label n="77"><num><w>LXXVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -2114,9 +2114,9 @@
           </w>
           <w>plaga<c corresp="#v">u</c>erit</w>
         </ab>
-        <lb n="23" xml:id="CE34-5_lb_059v_23"/>
+
         <ab corresp="#CE34-5_p_072v_79">
-          <label n="78"><num><w>LXXVIII</w></num></label>
+          <lb n="23" xml:id="CE34-5_lb_059v_23"/><label n="78"><num><w>LXXVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -2136,86 +2136,84 @@
           <w>in</w>
           <w>caput</w>
         </ab>
-        <lb n="24" xml:id="CE34-5_lb_059v_24"/>
+
         <ab corresp="#CE34-5_p_072v_80">
-          <label n="79"><num><w>LXXVIIII</w></num></label>
+          <lb n="24" xml:id="CE34-5_lb_059v_24"/><label n="79"><num><w>LXXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>plaga</w>
           <w>in</w>
           <w>faciem</w>
         </ab>
-        <lb n="25" xml:id="CE34-5_lb_059v_25"/>
+
         <ab corresp="#CE34-5_p_072v_81">
-          <label n="80"><num><w>LXXX</w></num></label>
+          <lb n="25" xml:id="CE34-5_lb_059v_25"/><label n="80"><num><w>LXXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>oculo</w>
           <w>e<c corresp="#v">u</c>ulso</w>
         </ab>
-        <lb n="26" xml:id="CE34-5_lb_059v_26"/>
+        
         <ab corresp="#CE34-5_p_072v_82">
-          <label n="81"><num><w>LXXXI</w></num></label>
+          <lb n="26" xml:id="CE34-5_lb_059v_26"/><label n="81"><num><w>LXXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>naso</w>
           <w>absciso</w>
         </ab>
 
-
         <pb n="060r" xml:id="CE34-5_folio_060r"/>
 
         <fw place="top-right" type="fol"><add hand="unknown">60</add></fw>
 
-        <lb n="1" xml:id="CE34-5_lb_060r_01"/>
         <ab corresp="#CE34-5_p_072v_83">
-          <label n="82"><num><w>LXXXII</w></num></label>
+          <lb n="1" xml:id="CE34-5_lb_060r_01"/><label n="82"><num><w>LXXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>aure</w>
           <w>absciso</w>
         </ab>
-        <lb n="2" xml:id="CE34-5_lb_060r_02"/>
+
         <ab corresp="#CE34-5_p_072v_84">
-          <label n="83"><num><w>LXXIII</w></num></label>
+          <lb n="2" xml:id="CE34-5_lb_060r_02"/><label n="83"><num><w>LXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>labro</w>
           <w>absciso</w>
         </ab>
-        <lb n="3" xml:id="CE34-5_lb_060r_03"/>
+
         <ab corresp="#CE34-5_p_072v_85">
-          <label n="84"><num><w>LXXXIIII</w></num></label>
+          <lb n="3" xml:id="CE34-5_lb_060r_03"/><label n="84"><num><w>LXXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>dentes</w>
           <w>excussos</w>
         </ab>
-        <lb n="4" xml:id="CE34-5_lb_060r_04"/>
+
         <ab corresp="#CE34-5_p_073r_86">
-          <label n="85"><num><w>LXXXV</w></num></label>
+          <lb n="4" xml:id="CE34-5_lb_060r_04"/><label n="85"><num><w>LXXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>dentes</w>
           <w>maxillare</w>
         </ab>
-        <lb n="5" xml:id="CE34-5_lb_060r_05"/>
+
         <ab corresp="#CE34-5_p_073r_87">
-          <label n="86"><num><w>LXXXVI</w></num></label>
+          <lb n="5" xml:id="CE34-5_lb_060r_05"/><label n="86"><num><w>LXXXVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>brachio</w>
           <w>rupto</w>
         </ab>
-        <lb n="6" xml:id="CE34-5_lb_060r_06"/>
+
         <ab corresp="#CE34-5_p_073r_88">
-          <label n="87"><num><w>LXXXVII</w></num></label>
+          <lb n="6" xml:id="CE34-5_lb_060r_06"/><label n="87"><num><w>LXXXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>mano</w>
           <w>abscisa</w>
         </ab>
-        <lb n="7" xml:id="CE34-5_lb_060r_07"/>
+
         <ab corresp="#CE34-5_p_073r_89">
-          <label n="88"><num><w>LXXXVIII</w></num></label>
+          <lb n="7" xml:id="CE34-5_lb_060r_07"/><label n="88"><num><w>LXXXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>digita</w>
           <w>manus</w>
         </ab>
-        <lb n="8" xml:id="CE34-5_lb_060r_08"/>
+
         <ab corresp="#CE34-5_p_073r_90">
-          <label n="89"><num><w>LXXXVIIII</w></num></label>
+          <lb n="8" xml:id="CE34-5_lb_060r_08"/><label n="89"><num><w>LXXXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
@@ -2230,9 +2228,9 @@
             </choice>
           </w>
         </ab>
-        <lb n="9" xml:id="CE34-5_lb_060r_09"/>
+
         <ab corresp="#CE34-5_p_073r_91">
-          <label n="90"><num><w>XC</w></num></label>
+          <lb n="9" xml:id="CE34-5_lb_060r_09"/><label n="90"><num><w>XC</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>tertium</w>
           <w>
@@ -2242,135 +2240,133 @@
             </choice>
           </w>
         </ab>
-        <lb n="10" xml:id="CE34-5_lb_060r_10"/>
+
         <ab corresp="#CE34-5_p_073r_92">
-          <label n="91"><num><w>XCI</w></num></label>
+          <lb n="10" xml:id="CE34-5_lb_060r_10"/><label n="91"><num><w>XCI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>quartum</w>
           <w>digitum</w>
         </ab>
-        <lb n="11" xml:id="CE34-5_lb_060r_11"/>
+
         <ab corresp="#CE34-5_p_073r_93">
-          <label n="92"><num><w>XCII</w></num></label>
+          <lb n="11" xml:id="CE34-5_lb_060r_11"/><label n="92"><num><w>XCII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>quintum</w>
           <w>digitum</w>
         </ab>
-        <lb n="12" xml:id="CE34-5_lb_060r_12"/>
+
         <ab corresp="#CE34-5_p_073r_94">
-          <label n="93"><num><w>XCIII</w></num></label>
+          <lb n="12" xml:id="CE34-5_lb_060r_12"/><label n="93"><num><w>XCIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>coxa</w>
           <w>rupta</w>
         </ab>
-        <lb n="13" xml:id="CE34-5_lb_060r_13"/>
+
         <ab corresp="#CE34-5_p_073r_95">
-          <label n="94"><num><w>XCIIII</w></num></label>
+          <lb n="13" xml:id="CE34-5_lb_060r_13"/><label n="94"><num><w>XCIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>pede</w>
           <w>absciso</w>
         </ab>
-        <lb n="14" xml:id="CE34-5_lb_060r_14"/>
+
         <ab corresp="#CE34-5_p_073r_96">
-          <label n="95"><num><w>XCV</w></num></label>
+          <lb n="14" xml:id="CE34-5_lb_060r_14"/><label n="95"><num><w>XCV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>digita</w>
           <w>pedum</w>
         </ab>
-        <lb n="15" xml:id="CE34-5_lb_060r_15"/>
+
         <ab corresp="#CE34-5_p_073r_97">
-          <label n="96"><num><w>XCVI</w></num></label>
+          <lb n="15" xml:id="CE34-5_lb_060r_15"/><label n="96"><num><w>XCVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>secundo</w>
           <w>digito</w>
         </ab>
-        <lb n="16" xml:id="CE34-5_lb_060r_16"/>
+
         <ab corresp="#CE34-5_p_073v_98">
-          <label n="97"><num><w>XCVII</w></num></label>
+          <lb n="16" xml:id="CE34-5_lb_060r_16"/><label n="97"><num><w>XCVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>tertio</w>
           <w>digito</w>
         </ab>
-        <lb n="17" xml:id="CE34-5_lb_060r_17"/>
+
         <ab corresp="#CE34-5_p_073v_99">
-          <label n="98"><num><w>XCVIII</w></num></label>
+          <lb n="17" xml:id="CE34-5_lb_060r_17"/><label n="98"><num><w>XCVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>quarto</w>
           <w>digito</w>
         </ab>
-        <lb n="18" xml:id="CE34-5_lb_060r_18"/>
+
         <ab corresp="#CE34-5_p_073v_100">
-          <label n="99"><num><w>XCVIIII</w></num></label>
+          <lb n="18" xml:id="CE34-5_lb_060r_18"/><label n="99"><num><w>XCVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>quinto</w>
           <w>digito</w>
         </ab>
-        <lb n="19" xml:id="CE34-5_lb_060r_19"/>
+
         <ab corresp="#CE34-5_p_073v_101">
-          <label n="100"><num><w>C</w></num></label>
+          <lb n="19" xml:id="CE34-5_lb_060r_19"/><label n="100"><num><w>C</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>plaga</w>
           <w>intra</w>
           <w>capso</w>
         </ab>
-        <lb n="20" xml:id="CE34-5_lb_060r_20"/>
+
         <ab corresp="#CE34-5_p_073v_102">
-          <label n="101"><num><w>CI</w></num></label>
+          <lb n="20" xml:id="CE34-5_lb_060r_20"/><label n="101"><num><w>CI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>brachio</w>
           <w>coxa</w>
           <w>transforata</w>
         </ab>
-        <lb n="21" xml:id="CE34-5_lb_060r_21"/>
+
         <ab corresp="#CE34-5_p_073v_103">
-          <label n="102"><num><w>CII</w></num></label>
+          <lb n="21" xml:id="CE34-5_lb_060r_21"/><label n="102"><num><w>CII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>rusticano</w>
         </ab>
-        <lb n="22" xml:id="CE34-5_lb_060r_22"/>
+
         <ab corresp="#CE34-5_p_073v_104">
-          <label n="103"><num><w>CIII</w></num></label>
+          <lb n="22" xml:id="CE34-5_lb_060r_22"/><label n="103"><num><w>CIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>plaga</w>
           <w>in</w>
           <w>faciem</w>
         </ab>
-        <lb n="23" xml:id="CE34-5_lb_060r_23"/>
+
         <ab corresp="#CE34-5_p_073v_105">
-          <label n="104"><num><w>CIIII</w></num></label>
+          <lb n="23" xml:id="CE34-5_lb_060r_23"/><label n="104"><num><w>CIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>oculo</w>
           <w>e<c corresp="#v">u</c>ulso</w>
         </ab>
-        <lb n="24" xml:id="CE34-5_lb_060r_24"/>
+
         <ab corresp="#CE34-5_p_073v_106">
-          <label n="105"><num><w>CV</w></num></label>
+          <lb n="24" xml:id="CE34-5_lb_060r_24"/><label n="105"><num><w>CV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>naso</w>
           <w>absciso</w>
         </ab>
-        <lb n="25" xml:id="CE34-5_lb_060r_25"/>
+
         <ab corresp="#CE34-5_p_073v_107">
-          <label n="106"><num><w>CVI</w></num></label>
+          <lb n="25" xml:id="CE34-5_lb_060r_25"/><label n="106"><num><w>CVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>aure</w>
           <w>abscisa</w>
         </ab>
-        <lb n="26" xml:id="CE34-5_lb_060r_26"/>
+
         <ab corresp="#CE34-5_p_074r_108">
-          <label n="107"><num><w>CVII</w></num></label>
+          <lb n="26" xml:id="CE34-5_lb_060r_26"/><label n="107"><num><w>CVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>labro</w>
           <w>absciso</w>
         </ab>
 
-
         <pb n="060v" xml:id="CE34-5_folio_060v"/>
 
-        <lb n="1" xml:id="CE34-5_lb_060v_01"/>
         <ab corresp="#CE34-5_p_074r_109">
-          <label n="108"><num><w>CVIII</w></num></label>
+          <lb n="1" xml:id="CE34-5_lb_060v_01"/><label n="108"><num><w>CVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>dentes</w>
           <w>qui</w>
@@ -2378,26 +2374,26 @@
           <w>riso</w>
           <w>apparent</w>
         </ab>
-        <lb n="2" xml:id="CE34-5_lb_060v_02"/>
+
         <ab corresp="#CE34-5_p_074r_110">
-          <label n="109"><num><w>CVIIII</w></num></label>
+          <lb n="2" xml:id="CE34-5_lb_060v_02"/><label n="109"><num><w>CVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>brachio</w>
           <w>aut</w>
           <w>coxa</w>
           <w>transforata</w>
         </ab>
-        <lb n="3" xml:id="CE34-5_lb_060v_03"/>
+
         <ab corresp="#CE34-5_p_074r_111">
-          <label n="110"><num><w>CX</w></num></label>
+          <lb n="3" xml:id="CE34-5_lb_060v_03"/><label n="110"><num><w>CX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>plaga</w>
           <w>intra</w>
           <w>capso</w>
         </ab>
-        <lb n="4" xml:id="CE34-5_lb_060v_04"/>
+
         <ab corresp="#CE34-5_p_074r_112">
-          <label n="111"><num><w>CXI</w></num></label>
+          <lb n="4" xml:id="CE34-5_lb_060v_04"/><label n="111"><num><w>CXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>brachio</w>
           <w>coxa</w>
@@ -2405,73 +2401,73 @@
           <w>tibia</w>
           <w>rupta</w>
         </ab>
-        <lb n="5" xml:id="CE34-5_lb_060v_05"/>
+
         <ab corresp="#CE34-5_p_074r_113">
-          <label n="112"><num><w>CXII</w></num></label>
+          <lb n="5" xml:id="CE34-5_lb_060v_05"/><label n="112"><num><w>CXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>mano</w>
           <w>abscisa</w>
         </ab>
-        <lb n="6" xml:id="CE34-5_lb_060v_06"/>
+
         <ab corresp="#CE34-5_p_074r_114">
-          <label n="113"><num><w>CXIII</w></num></label>
+          <lb n="6" xml:id="CE34-5_lb_060v_06"/><label n="113"><num><w>CXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>digita</w>
           <w>manus</w>
         </ab>
-        <lb n="7" xml:id="CE34-5_lb_060v_07"/>
+
         <ab corresp="#CE34-5_p_074r_115">
-          <label n="114"><num><w>CXIIII</w></num></label>
+          <lb n="7" xml:id="CE34-5_lb_060v_07"/><label n="114"><num><w>CXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>secundo</w>
           <w>digito</w>
         </ab>
-        <lb n="8" xml:id="CE34-5_lb_060v_08"/>
+
         <ab corresp="#CE34-5_p_074v_116">
-          <label n="115"><num><w>CXV</w></num></label>
+          <lb n="8" xml:id="CE34-5_lb_060v_08"/><label n="115"><num><w>CXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>tertium</w>
           <w>digitum</w>
         </ab>
-        <lb n="9" xml:id="CE34-5_lb_060v_09"/>
+
         <ab corresp="#CE34-5_p_074v_117">
-          <label n="116"><num><w>CXVI</w></num></label>
+          <lb n="9" xml:id="CE34-5_lb_060v_09"/><label n="116"><num><w>CXVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>quartum</w>
           <w>digitum</w>
         </ab>
-        <lb n="10" xml:id="CE34-5_lb_060v_10"/>
+
         <ab corresp="#CE34-5_p_074v_118">
-          <label n="117"><num><w>CXVII</w></num></label>
+          <lb n="10" xml:id="CE34-5_lb_060v_10"/><label n="117"><num><w>CXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>quintum</w>
           <w>digitum</w>
         </ab>
-        <lb n="11" xml:id="CE34-5_lb_060v_11"/>
+
         <ab corresp="#CE34-5_p_074v_119">
-          <label n="118"><num><w>CXVIII</w></num></label>
+          <lb n="11" xml:id="CE34-5_lb_060v_11"/><label n="118"><num><w>CXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>pede</w>
           <w>ser<c corresp="#v">u</c>i</w>
           <w>rusticano</w>
         </ab>
-        <lb n="12" xml:id="CE34-5_lb_060v_12"/>
+
         <ab corresp="#CE34-5_p_074v_120">
-          <label n="119"><num><w>CXVIIII</w></num></label>
+          <lb n="12" xml:id="CE34-5_lb_060v_12"/><label n="119"><num><w>CXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>digita</w>
           <w>pedum</w>
         </ab>
-        <lb n="13" xml:id="CE34-5_lb_060v_13"/>
+
         <ab corresp="#CE34-5_p_074v_121">
-          <label n="120"><num><w>CXX</w></num></label>
+          <lb n="13" xml:id="CE34-5_lb_060v_13"/><label n="120"><num><w>CXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>secundo</w>
           <w>digito</w>
         </ab>
-        <lb n="14" xml:id="CE34-5_lb_060v_14"/>
+
         <ab corresp="#CE34-5_p_074v_122">
-          <label n="121"><num><w>CXXI</w></num></label>
+          <lb n="14" xml:id="CE34-5_lb_060v_14"/><label n="121"><num><w>CXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>tertium</w>
           <w>
@@ -2481,39 +2477,39 @@
             </choice>
           </w>
         </ab>
-        <lb n="15" xml:id="CE34-5_lb_060v_15"/>
+
         <ab corresp="#CE34-5_p_074v_123">
-          <label n="122"><num><w>CXXII</w></num></label>
+          <lb n="15" xml:id="CE34-5_lb_060v_15"/><label n="122"><num><w>CXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>quarto</w>
           <w>digito</w>
         </ab>
-        <lb n="16" xml:id="CE34-5_lb_060v_16"/>
+        
         <ab corresp="#CE34-5_p_074v_124">
-          <label n="123"><num><w>CXXIII</w></num></label>
+          <lb n="16" xml:id="CE34-5_lb_060v_16"/><label n="123"><num><w>CXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>quintum</w>
           <w>digitum</w>
         </ab>
-        <lb n="17" xml:id="CE34-5_lb_060v_17"/>
+        
         <ab corresp="#CE34-5_p_074v_125">
-          <label n="124"><num><w>CXXIIII</w></num></label>
+          <lb n="17" xml:id="CE34-5_lb_060v_17"/><label n="124"><num><w>CXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>rusticano</w>
           <w>battudo</w>
         </ab>
-        <lb n="18" xml:id="CE34-5_lb_060v_18"/>
+        
         <ab corresp="#CE34-5_p_074v_126">
-          <label n="125"><num><w>CXXXV</w></num></label>
+          <lb n="18" xml:id="CE34-5_lb_060v_18"/><label n="125"><num><w>CXXXV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>membro</w>
           <w>sideratum</w>
           <w>fuerit</w>
         </ab>
-        <lb n="19" xml:id="CE34-5_lb_060v_19"/>
+        
         <ab corresp="#CE34-5_p_074v_127">
-          <label n="126"><num><w>CXXVI</w></num></label>
+          <lb n="19" xml:id="CE34-5_lb_060v_19"/><label n="126"><num><w>CXXVI</w></num></label>
           <w><hi rend="cap">O</hi>mnes</w>
           <w><c corresp="#v">u</c>ero</w>
           <w>plagas</w>
@@ -2536,9 +2532,9 @@
           <w>tinore</w>
           <w>finiantur</w>
         </ab>
-        <lb n="21" xml:id="CE34-5_lb_060v_21"/>
+        
         <ab corresp="#CE34-5_p_075r_128">
-          <label n="127"><num><w>CXXVII</w></num></label>
+          <lb n="21" xml:id="CE34-5_lb_060v_21"/><label n="127"><num><w>CXXVII</w></num></label>
           <w><hi rend="cap">Q</hi>ui</w>
           <w>plagas </w>
           <w>facit</w>
@@ -2546,24 +2542,24 @@
           <w>querat</w>
           <w>medicus</w>
         </ab>
-        <lb n="22" xml:id="CE34-5_lb_060v_22"/>
+        
         <ab corresp="#CE34-5_p_075r_129">
-          <label n="128"><num><w>CXXVIII</w></num></label>
+          <lb n="22" xml:id="CE34-5_lb_060v_22"/><label n="128"><num><w>CXXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>aldio</w>
           <w>occiso</w>
         </ab>
-        <lb n="23" xml:id="CE34-5_lb_060v_23"/>
+        
         <ab corresp="#CE34-5_p_075r_130">
-          <label n="129"><num><w>CXXVIIII</w></num></label>
+          <lb n="23" xml:id="CE34-5_lb_060v_23"/><label n="129"><num><w>CXXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>ministeriale</w>
           <w>occiso</w>
         </ab>
-        <lb n="24" xml:id="CE34-5_lb_060v_24"/>
+        
         <ab corresp="#CE34-5_p_075r_131">
-          <label n="130"><num><w>CXXX</w></num></label>
+          <lb n="24" xml:id="CE34-5_lb_060v_24"/><label n="130"><num><w>CXXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>alio</w>
           <w>ministeriale</w>
@@ -2571,17 +2567,17 @@
           <w>secundus</w>
           <w>est</w>
         </ab>
-        <lb n="25" xml:id="CE34-5_lb_060v_25"/>
+        
         <ab corresp="#CE34-5_p_075r_132">
-          <label n="131"><num><w>CXXXI</w></num></label>
+          <lb n="25" xml:id="CE34-5_lb_060v_25"/><label n="131"><num><w>CXXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>massario</w>
           <w>occiso</w>
         </ab>
-        <lb n="26" xml:id="CE34-5_lb_060v_26"/>
+        
         <ab corresp="#CE34-5_p_075r_133">
-          <label n="132"><num><w>CXXXII</w></num></label>
+          <lb n="26" xml:id="CE34-5_lb_060v_26"/><label n="132"><num><w>CXXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>bo<c corresp="#v">u</c>ulco</w>
           <w>occiso</w>
@@ -2591,24 +2587,23 @@
 
         <fw place="top-right" type="fol"><add hand="unknown">61</add></fw>
 
-        <lb n="1" xml:id="CE34-5_lb_061r_01"/>
         <ab corresp="#CE34-5_p_075r_134">
-          <label n="133"><num><w>CXXXIII</w></num></label>
+          <lb n="1" xml:id="CE34-5_lb_061r_01"/><label n="133"><num><w>CXXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>rusticano</w>
           <w>occiso</w>
         </ab>
-        <lb n="2" xml:id="CE34-5_lb_061r_02"/>
+        
         <ab corresp="#CE34-5_p_075v_135">
-          <label n="134"><num><w>CXXXIIII</w></num></label>
+          <lb n="2" xml:id="CE34-5_lb_061r_02"/><label n="134"><num><w>CXXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>pastore</w>
           <w>occiso</w>
         </ab>
-        <lb n="3" xml:id="CE34-5_lb_061r_03"/>
+        
         <ab corresp="#CE34-5_p_075v_136">
-          <label n="135"><num><w>CXXXV</w></num></label>
+          <lb n="3" xml:id="CE34-5_lb_061r_03"/><label n="135"><num><w>CXXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>pecorario</w>
           <w>caprario</w>
@@ -2616,9 +2611,9 @@
           <w>armentario</w>
           <w>occiso</w>
         </ab>
-        <lb n="4" xml:id="CE34-5_lb_061r_04"/>
+        
         <ab corresp="#CE34-5_p_075v_137">
-          <label n="136"><num><w>CXXXVI</w></num></label>
+          <lb n="4" xml:id="CE34-5_lb_061r_04"/><label n="136"><num><w>CXXXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>infans</w>
           <w>par<c corresp="#v">u</c>ulo</w>
@@ -2627,9 +2622,9 @@
           <w>occisus</w>
           <w>fuerit</w>
         </ab>
-        <lb n="5" xml:id="CE34-5_lb_061r_05"/>
+        
         <ab corresp="#CE34-5_p_075v_138">
-          <label n="137"><num><w>CXXXVII</w></num></label>
+          <lb n="5" xml:id="CE34-5_lb_061r_05"/><label n="137"><num><w>CXXXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>arbore</w>
           <w>communiter</w>
@@ -2644,16 +2639,16 @@
           </w>
           <w>occiderint</w>
         </ab>
-        <lb n="6" xml:id="CE34-5_lb_061r_06"/>
+        
         <ab corresp="#CE34-5_p_075v_139">
-          <label n="138"><num><w>CXXXVIII</w></num></label>
+          <lb n="6" xml:id="CE34-5_lb_061r_06"/><label n="138"><num><w>CXXXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><c corresp="#v">u</c>eneno</w>
           <w>temperato</w>
         </ab>
-        <lb n="7" xml:id="CE34-5_lb_061r_07"/>
+        
         <ab corresp="#CE34-5_p_076r_140">
-          <label n="139"><num><w>CXXXVIIII</w></num></label>
+          <lb n="7" xml:id="CE34-5_lb_061r_07"/><label n="139"><num><w>CXXXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>liber</w>
           <w>aut</w>
@@ -2667,9 +2662,9 @@
           <w>alicui</w>
           <w>dederit</w>
         </ab>
-        <lb n="8" xml:id="CE34-5_lb_061r_08"/>
+        
         <ab corresp="#CE34-5_p_076r_141">
-          <label n="140"><num><w>CXL</w></num></label>
+          <lb n="8" xml:id="CE34-5_lb_061r_08"/><label n="140"><num><w>CXL</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -2682,9 +2677,9 @@
           <w>bibendum</w>
           <w>dederit</w>
         </ab>
-        <lb n="9" xml:id="CE34-5_lb_061r_09"/>
+        
         <ab corresp="#CE34-5_p_076r_142">
-          <label n="141"><num><w>CXLI</w></num></label>
+          <lb n="9" xml:id="CE34-5_lb_061r_09"/><label n="141"><num><w>CXLI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>i</w>
           <w>aut</w>
@@ -2693,9 +2688,9 @@
           <w>alii</w>
           <w>dederit</w>
         </ab>
-        <lb n="10" xml:id="CE34-5_lb_061r_10"/>
+        
         <ab corresp="#CE34-5_p_076r_143">
-          <label n="142"><num><w>CLXII</w></num></label>
+          <lb n="10" xml:id="CE34-5_lb_061r_10"/><label n="142"><num><w>CLXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>eo</w>
           <w>qui</w>
@@ -2720,9 +2715,9 @@
             </choice>
           </w>
         </ab>
-        <lb n="11" xml:id="CE34-5_lb_061r_11"/>
+        
         <ab corresp="#CE34-5_p_076v_144">
-          <label n="143"><num><w>CXLIII</w></num></label>
+          <lb n="11" xml:id="CE34-5_lb_061r_11"/><label n="143"><num><w>CXLIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>magistros</w>
           <w>
@@ -2732,9 +2727,9 @@
             </choice>
           </w>
         </ab>
-        <lb n="12" xml:id="CE34-5_lb_061r_12"/>
+        
         <ab corresp="#CE34-5_p_076v_145">
-          <label n="144"><num><w>CXLIIII</w></num></label>
+          <lb n="12" xml:id="CE34-5_lb_061r_12"/><label n="144"><num><w>CXLIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>conductos</w>
           <w>aut</w>
@@ -2746,9 +2741,9 @@
             </choice>
           </w>
         </ab>
-        <lb n="13" xml:id="CE34-5_lb_061r_13"/>
+        
         <ab corresp="#CE34-5_p_076v_146">
-          <label n="145"><num><w>CXLV</w></num></label>
+          <lb n="13" xml:id="CE34-5_lb_061r_13"/><label n="145"><num><w>CXLV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
@@ -2757,9 +2752,9 @@
             </choice>
           </w>
         </ab>
-        <lb n="14" xml:id="CE34-5_lb_061r_14"/>
+        
         <ab corresp="#CE34-5_p_077r_147">
-          <label n="146"><num><w>CXLVI</w></num></label>
+          <lb n="14" xml:id="CE34-5_lb_061r_14"/><label n="146"><num><w>CXLVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>fogo</w>
           <w>foris</w>
@@ -2769,9 +2764,9 @@
           <w>fogalare</w>
           <w>portats</w>
         </ab>
-        <lb n="15" xml:id="CE34-5_lb_061r_15"/>
+        
         <ab corresp="#CE34-5_p_077r_148">
-          <label n="147"><num><w>CXLVII</w></num></label>
+          <lb n="15" xml:id="CE34-5_lb_061r_15"/><label n="147"><num><w>CXLVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -2797,16 +2792,16 @@
           </w>
           <w>porta<c corresp="#v">u</c>erit</w>
         </ab>
-        <lb n="16" xml:id="CE34-5_lb_061r_16"/>
+        
         <ab corresp="#CE34-5_p_077r_149">
-          <label n="148"><num><w>CXLVIII</w></num></label>
+          <lb n="16" xml:id="CE34-5_lb_061r_16"/><label n="148"><num><w>CXLVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>molino</w>
           <w>incenso</w>
         </ab>
-        <lb n="17" xml:id="CE34-5_lb_061r_17"/>
+        
         <ab corresp="#CE34-5_p_077r_150">
-          <label n="149"><num><w>CXLVIIII</w></num></label>
+          <lb n="17" xml:id="CE34-5_lb_061r_17"/><label n="149"><num><w>CXLVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -2818,9 +2813,9 @@
           <w>alter<g ref="#jnodotenl"/>us</w>
           <w>capella<c corresp="#v">u</c>er<g ref="#jnodotenl"/>t</w>
         </ab>
-        <lb n="18" xml:id="CE34-5_lb_061r_18"/>
+        
         <ab corresp="#CE34-5_p_077v_151">
-          <label n="150"><num><w>CL</w></num></label>
+          <lb n="18" xml:id="CE34-5_lb_061r_18"/><label n="150"><num><w>CL</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -2834,9 +2829,9 @@
           <w>al<g ref="#jnodotenl"/>ena</w>
           <w>aedifica<c corresp="#v">u</c>erit</w>
         </ab>
-        <lb n="19" xml:id="CE34-5_lb_061r_19"/>
+        
         <ab corresp="#CE34-5_p_077v_152">
-          <label n="151"><num><w>CLI</w></num></label>
+          <lb n="19" xml:id="CE34-5_lb_061r_19"/><label n="151"><num><w>CLI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>operarius</w>
           <w>rogatus</w>
@@ -2851,9 +2846,9 @@
           </w>
           <w>fuerit</w>
         </ab>
-        <lb n="20" xml:id="CE34-5_lb_061r_20"/>
+        
         <ab corresp="#CE34-5_p_077v_153">
-          <label n="152"><num><w>CLII</w>
+          <lb n="20" xml:id="CE34-5_lb_061r_20"/><label n="152"><num><w>CLII</w>
             </num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>grados</w>
@@ -2864,18 +2859,18 @@
             </choice>
           </w>
         </ab>
-        <lb n="21" xml:id="CE34-5_lb_061r_21"/>
+        
         <ab corresp="#CE34-5_p_078r_154">
-          <label n="153"><num><w>CLIII</w></num></label>
+          <lb n="21" xml:id="CE34-5_lb_061r_21"/><label n="153"><num><w>CLIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>filius</w>
           <w>legitimus</w>
           <w><g ref="#openetlig"/></w>
           <w>natural<g ref="#jnodotenl"/>s</w>
         </ab>
-        <lb n="22" xml:id="CE34-5_lb_061r_22"/>
+        
         <ab corresp="#CE34-5_p_078r_155">
-          <label n="154"><num><w>CLIIII</w></num></label>
+          <lb n="22" xml:id="CE34-5_lb_061r_22"/><label n="154"><num><w>CLIIII</w></num></label>
           <w><hi rend="cap">N</hi>ulli</w>
           <w>sit</w>
           <w>
@@ -2889,17 +2884,16 @@
           <w><g ref="#eogon"/>quales</w>
           <w>facere</w>
         </ab>
-        <lb n="23" xml:id="CE34-5_lb_061r_23"/>
+        
         <ab corresp="#CE34-5_p_078r_156">
-          <label n="155"><num><w>CLV</w></num></label>
+          <lb n="23" xml:id="CE34-5_lb_061r_23"/><label n="155"><num><w>CLV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>fil<g ref="#jnodotenl"/>o</w>
           <w>naturalem</w>
         </ab>
 
-        <lb n="24" xml:id="CE34-5_lb_061r_24"/>
         <ab corresp="#CE34-5_p_078r_157">
-          <label n="156"><num><w>CLVI</w></num></label>
+          <lb n="24" xml:id="CE34-5_lb_061r_24"/><label n="156"><num><w>CLVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>eo</w>
           <w>qui</w>
@@ -2908,9 +2902,9 @@
           <w>naturale</w>
           <w>nascitur</w>
         </ab>
-        <lb n="25" xml:id="CE34-5_lb_061r_25"/>
+        
         <ab corresp="#CE34-5_p_078r_158">
-          <label n="157"><num><w>CLVII</w></num></label>
+          <lb n="25" xml:id="CE34-5_lb_061r_25"/><label n="157"><num><w>CLVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -2925,9 +2919,9 @@
           <w>fil<g ref="#jnodotenl"/>us</w>
           <w>natural<g ref="#jnodotenl"/>s</w>
         </ab>
-        <lb n="26" xml:id="CE34-5_lb_061r_26"/>
+        
         <ab corresp="#CE34-5_p_078v_159">
-          <label n="158"><num><w>CLVIII</w></num></label>
+          <lb n="26" xml:id="CE34-5_lb_061r_26"/><label n="158"><num><w>CLVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -2944,12 +2938,10 @@
           <w>natural<g ref="#jnodotenl"/>s</w>
         </ab>
 
-
         <pb n="061v" xml:id="CE34-5_folio_061v"/>
 
-        <lb n="1" xml:id="CE34-5_lb_061v_01"/>
         <ab corresp="#CE34-5_p_078v_160">
-          <label n="159"><num><w>CLVIIII</w></num></label>
+          <lb n="1" xml:id="CE34-5_lb_061v_01"/><label n="159"><num><w>CLVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -2968,9 +2960,9 @@
           <w>filium</w>
           <w>legitimum</w>
         </ab>
-        <lb n="3" xml:id="CE34-5_lb_061v_03"/>
+        
         <ab corresp="#CE34-5_p_078v_161">
-          <label n="160"><num><w>CLX</w></num></label>
+          <lb n="3" xml:id="CE34-5_lb_061v_03"/><label n="160"><num><w>CLX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>fuerint</w>
           <w>filii</w>
@@ -2984,9 +2976,9 @@
           <w>mundio</w>
           <w>earum</w>
         </ab>
-        <lb n="5" xml:id="CE34-5_lb_061v_05"/>
+        
         <ab corresp="#CE34-5_p_079r_162">
-          <label n="161"><num><w>CLXI</w></num></label>
+          <lb n="5" xml:id="CE34-5_lb_061v_05"/><label n="161"><num><w>CLXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>fuerint</w>
           <w>filii</w>
@@ -2997,9 +2989,9 @@
           <w>aut</w>
           <w>plures</w>
         </ab>
-        <lb n="6" xml:id="CE34-5_lb_061v_06"/>
+        
         <ab corresp="#CE34-5_p_079r_163">
-          <label n="162"><num><w>CLXII</w></num></label>
+          <lb n="6" xml:id="CE34-5_lb_061v_06"/><label n="162"><num><w>CLXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -3019,9 +3011,9 @@
           <w>insidiatus</w>
           <w>fuer<g ref="#jnodotenl"/>t</w>
         </ab>
-        <lb n="7" xml:id="CE34-5_lb_061v_07"/>
+        
         <ab corresp="#CE34-5_p_079r_164">
-          <label n="163"><num><w>CLXIII</w></num></label>
+          <lb n="7" xml:id="CE34-5_lb_061v_07"/><label n="163"><num><w>CLXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>dixer<g ref="#jnodotenl"/>t</w>
@@ -3044,9 +3036,9 @@
           </w>
           <w>sit</w>
         </ab>
-        <lb n="8" xml:id="CE34-5_lb_061v_08"/>
+        
         <ab corresp="#CE34-5_p_079v_165">
-          <label n="164"><num><w>CLXIIII</w></num></label>
+          <lb n="8" xml:id="CE34-5_lb_061v_08"/><label n="164"><num><w>CLXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -3075,9 +3067,9 @@
             </choice>
           </w>
         </ab>
-        <lb n="10" xml:id="CE34-5_lb_061v_10"/>
+        
         <ab corresp="#CE34-5_p_079v_166">
-          <label n="165"><num><w>CLXV</w></num></label>
+          <lb n="10" xml:id="CE34-5_lb_061v_10"/><label n="165"><num><w>CLXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>suspectionem</w>
           <w>In</w>
@@ -3097,9 +3089,9 @@
           </w>
           <w>occidis<add hand="scribe_1" place="above">set</add></w>
         </ab>
-        <lb n="11" xml:id="CE34-5_lb_061v_11"/>
+        
         <ab corresp="#CE34-5_p_079v_167">
-          <label n="166"><num><w>CLXVI</w></num></label>
+          <lb n="11" xml:id="CE34-5_lb_061v_11"/><label n="166"><num><w>CLXVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>frater</w>
           <w>qui</w>
@@ -3113,9 +3105,9 @@
           </w>
           <w>remansit</w>
         </ab>
-        <lb n="12" xml:id="CE34-5_lb_061v_12"/>
+        
         <ab corresp="#CE34-5_p_080r_168">
-          <label n="167"><num><w>CLXVII</w></num></label>
+          <lb n="12" xml:id="CE34-5_lb_061v_12"/><label n="167"><num><w>CLXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>exhereditationem</w>
           <w>
@@ -3125,18 +3117,18 @@
             </choice>
           </w>
         </ab>
-        <lb n="13" xml:id="CE34-5_lb_061v_13"/>
+        
         <ab corresp="#CE34-5_p_080r_169">
-          <label n="168"><num><w>CLXVIII</w></num></label>
+          <lb n="13" xml:id="CE34-5_lb_061v_13"/><label n="168"><num><w>CLXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>iustas</w>
           <w>culpas</w>
           <w>filius</w>
           <w>exherditare</w>
         </ab>
-        <lb n="14" xml:id="CE34-5_lb_061v_14"/>
+        
         <ab corresp="#CE34-5_p_080r_170">
-          <label n="169"><num><w>CLXVIIII</w></num></label>
+          <lb n="14" xml:id="CE34-5_lb_061v_14"/><label n="169"><num><w>CLXVIIII</w></num></label>
           <w><hi rend="cap">U</hi>t</w>
           <w><c corresp="#v">u</c>i<c corresp="#v">u</c>o</w>
           <w>patre</w>
@@ -3153,9 +3145,9 @@
           </w>
           <w>thingare</w>
         </ab>
-        <lb n="16" xml:id="CE34-5_lb_061v_16"/>
+        
         <ab corresp="#CE34-5_p_080r_171">
-          <label n="170"><num><w>CLXX</w></num></label>
+          <lb n="16" xml:id="CE34-5_lb_061v_16"/><label n="170"><num><w>CLXX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>propter</w>
@@ -3163,9 +3155,9 @@
           <w>se</w>
           <w>dispera<c corresp="#v">u</c>erit</w>
         </ab>
-        <lb n="17" xml:id="CE34-5_lb_061v_17"/>
+        
         <ab corresp="#CE34-5_p_080v_172">
-          <label n="171"><num><w>CLXXI</w></num></label>
+          <lb n="17" xml:id="CE34-5_lb_061v_17"/><label n="171"><num><w>CLXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#thinx" xml:id="CE34-5_term_thinx" xml:lang="lng"><w>thinx</w></term>
           <gloss target="#CE34-5_term_thinx" xml:id="CE34-5_gloss_thinx">
@@ -3174,9 +3166,9 @@
             <w>donatio</w>
           </gloss>
         </ab>
-        <lb n="18" xml:id="CE34-5_lb_061v_18"/>
+        
         <ab corresp="#CE34-5_p_080v_173">
-          <label n="172"><num><w>CLXXII</w></num></label>
+          <lb n="18" xml:id="CE34-5_lb_061v_18"/><label n="172"><num><w>CLXXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -3189,9 +3181,9 @@
           <w>alii</w>
           <w>thinga<c corresp="#v">u</c>erit</w>
         </ab>
-        <lb n="19" xml:id="CE34-5_lb_061v_19"/>
+        
         <ab corresp="#CE34-5_p_080v_174">
-          <label n="173"><num><w>CLXXIII</w></num></label>
+          <lb n="19" xml:id="CE34-5_lb_061v_19"/><label n="173"><num><w>CLXXIII</w></num></label>
           <w><hi rend="cap">N</hi>ulli</w>
           <w>liceat</w>
           <w>primo</w>
@@ -3201,9 +3193,9 @@
           <w>homine</w>
           <w>facere</w>
         </ab>
-        <lb n="20" xml:id="CE34-5_lb_061v_20"/>
+        
         <ab corresp="#CE34-5_p_081r_175">
-          <label n="174"><num><w>CLXXIIII</w></num></label>
+          <lb n="20" xml:id="CE34-5_lb_061v_20"/><label n="174"><num><w>CLXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#launegild" xml:id="CE34-5_term_launegild" xml:lang="lng">
             <w>
@@ -3214,15 +3206,15 @@
             </w>
           </term>
         </ab>
-        <lb n="21" xml:id="CE34-5_lb_061v_21"/>
+        
         <ab corresp="#CE34-5_p_081r_176">
-          <label n="175"><num><w>CLXXV</w></num></label>
+          <lb n="21" xml:id="CE34-5_lb_061v_21"/><label n="175"><num><w>CLXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>lebroso</w>
         </ab>
-        <lb n="22" xml:id="CE34-5_lb_061v_22"/>
+        
         <ab corresp="#CE34-5_p_081r_177">
-          <label n="176"><num><w>CLXXVI</w></num></label>
+          <lb n="22" xml:id="CE34-5_lb_061v_22"/><label n="176"><num><w>CLXXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>possit</w>
           <w>migrare</w>
@@ -3230,9 +3222,9 @@
           <w>fara</w>
           <w>sua</w>
         </ab>
-        <lb n="23" xml:id="CE34-5_lb_061v_23"/>
+        
         <ab corresp="#CE34-5_p_081r_178">
-          <label n="177"><num><w>CLXXVII</w></num></label>
+          <lb n="23" xml:id="CE34-5_lb_061v_23"/><label n="177"><num><w>CLXXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
@@ -3243,9 +3235,9 @@
           <g ref="#openetlig"/>
           <w>nuptiis</w>
         </ab>
-        <lb n="24" xml:id="CE34-5_lb_061v_24"/>
+        
         <ab corresp="#CE34-5_p_081v_179">
-          <label n="178"><num><w>CLXXVIII</w></num></label>
+          <lb n="24" xml:id="CE34-5_lb_061v_24"/><label n="178"><num><w>CLXXVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>dixerit</w>
           <w>sponso</w>
@@ -3255,9 +3247,9 @@
           <w>adultera</w>
           <w>sit</w>
         </ab>
-        <lb n="25" xml:id="CE34-5_lb_061v_25"/>
+        
         <ab corresp="#CE34-5_p_081v_180">
-          <label n="179"><num><w>CLXXVIIII</w></num></label>
+          <lb n="25" xml:id="CE34-5_lb_061v_25"/><label n="179"><num><w>CLXXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -3277,15 +3269,14 @@
 
         <fw place="top-right" type="fol"><add hand="unknown">62</add></fw>
 
-        <lb n="1" xml:id="CE34-5_lb_062r_01"/>
         <ab corresp="#CE34-5_p_081v_181">
-          <label n="180"><num><w>CLXXX</w></num></label>
+          <lb n="1" xml:id="CE34-5_lb_062r_01"/><label n="180"><num><w>CLXXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>nuptiis</w>
         </ab>
-        <lb n="2" xml:id="CE34-5_lb_062r_02"/>
+        
         <ab corresp="#CE34-5_p_082r_182">
-          <label n="181"><num><w>CLXXXI</w></num></label>
+          <lb n="2" xml:id="CE34-5_lb_062r_02"/><label n="181"><num><w>CLXXXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -3306,9 +3297,9 @@
           <w>coniugio</w>
           <w>deder<g ref="#jnodotenl"/>t</w>
         </ab>
-        <lb n="3" xml:id="CE34-5_lb_062r_03"/>
+        
         <ab corresp="#CE34-5_p_082v_183">
-          <label n="182"><num><w>CLXXXII</w></num></label>
+          <lb n="3" xml:id="CE34-5_lb_062r_03"/><label n="182"><num><w>CLXXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
@@ -3318,40 +3309,40 @@
           </w>
           <w>puell<g ref="#eogon"/></w>
         </ab>
-        <lb n="4" xml:id="CE34-5_lb_062r_04"/>
+        
         <ab corresp="#CE34-5_p_082v_184">
-          <label n="183"><num><w>CLXXXIII</w></num></label>
+          <lb n="4" xml:id="CE34-5_lb_062r_04"/><label n="183"><num><w>CLXXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>exenio</w>
           <w>nuptial<g ref="#jnodotenl"/></w>
         </ab>
-        <lb n="5" xml:id="CE34-5_lb_062r_05"/>
+        
         <ab corresp="#CE34-5_p_082v_185">
-          <label n="184"><num><w>CLXXXIIII</w></num></label>
+          <lb n="5" xml:id="CE34-5_lb_062r_05"/><label n="184"><num><w>CLXXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>inlicitas</w>
           <w>nuptias</w>
         </ab>
-        <lb n="6" xml:id="CE34-5_lb_062r_06"/>
+        
         <ab corresp="#CE34-5_p_082v_186">
-          <label n="185"><num><w>CLXXXV</w></num></label>
+          <lb n="6" xml:id="CE34-5_lb_062r_06"/><label n="185"><num><w>CLXXXV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w><c corresp="#v">u</c>ir</w>
           <w>mul<g ref="#jnodotenl"/>er</w>
           <w><c corresp="#v">u</c>iolentias</w>
           <w>fecerit</w>
         </ab>
-        <lb n="7" xml:id="CE34-5_lb_062r_07"/>
+        
         <ab corresp="#CE34-5_p_083r_187">
-          <label n="186"><num><w>CLXXXVI</w></num></label>
+          <lb n="7" xml:id="CE34-5_lb_062r_07"/><label n="186"><num><w>CLXXXVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><c corresp="#v">u</c>iolentia</w>
           <w>mul<g ref="#jnodotenl"/>er</w>
           <w>libere</w>
         </ab>
-        <lb n="8" xml:id="CE34-5_lb_062r_08"/>
+        
         <ab corresp="#CE34-5_p_083r_188">
-          <label n="187"><num><w>CLXXXVII</w></num></label>
+          <lb n="8" xml:id="CE34-5_lb_062r_08"/><label n="187"><num><w>CLXXXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>puella</w>
           <w>aut</w>
@@ -3368,36 +3359,38 @@
           <w>maritum</w>
           <w>ambula<c corresp="#v">u</c>erit</w>
         </ab>
+
         <ab corresp="#CE34-5_p_083r_188">
           <gap extent="9"/>
           <supplied resp="alim-pi">
             <label n="188"><num><w>CLXXXVIII</w></num></label>
           </supplied>
         </ab>
+
         <!-- riprende la numerazione regolare -->
-        <lb n="10" xml:id="CE34-5_lb_062r_10"/>
+
         <ab corresp="#CE34-5_p_083r_189">
-          <label n="189"><num><w>CLXXXVIIII</w></num></label>
+          <lb n="10" xml:id="CE34-5_lb_062r_10"/><label n="189"><num><w>CLXXXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>fornicationis</w>
           <w>causa</w>
         </ab>
-        <lb n="11" xml:id="CE34-5_lb_062r_11"/>
+        
         <ab corresp="#CE34-5_p_083v_190">
-          <label n="190"><num><w>CXC</w></num></label>
+          <lb n="11" xml:id="CE34-5_lb_062r_11"/><label n="190"><num><w>CXC</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>sponsata</w>
           <w>alterius</w>
         </ab>
-        <lb n="12" xml:id="CE34-5_lb_062r_12"/>
+        
         <ab corresp="#CE34-5_p_083v_191">
-          <label n="191"><num><w>CXCI</w></num></label>
+          <lb n="12" xml:id="CE34-5_lb_062r_12"/><label n="191"><num><w>CXCI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>rapto</w>
         </ab>
-        <lb n="13" xml:id="CE34-5_lb_062r_13"/>
+        
         <ab corresp="#CE34-5_p_084r_192">
-          <label n="192"><num><w>CXCII</w></num></label>
+          <lb n="13" xml:id="CE34-5_lb_062r_13"/><label n="192"><num><w>CXCII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>pater</w>
           <w>aut</w>
@@ -3411,9 +3404,9 @@
             <w>sponsa<c corresp="#v">u</c>erit</w>
           </add>
         </ab>
-        <lb n="14" xml:id="CE34-5_lb_062r_14"/>
+        
         <ab corresp="#CE34-5_p_084r_193">
-          <label n="193"><num><w>CXCIII</w></num></label>
+          <lb n="14" xml:id="CE34-5_lb_062r_14"/><label n="193"><num><w>CXCIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>puella</w>
           <w>libera</w>
@@ -3430,9 +3423,9 @@
           <w>secuta</w>
           <w>fuerit</w>
         </ab>
-        <lb n="16" xml:id="CE34-5_lb_062r_16"/>
+        
         <ab corresp="#CE34-5_p_084r_194">
-          <label n="194"><num><w>CXCIIII</w></num></label>
+          <lb n="16" xml:id="CE34-5_lb_062r_16"/><label n="194"><num><w>CXCIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -3444,30 +3437,32 @@
           <w>ancilla</w>
           <w>fornica<c corresp="#v">u</c>erit</w>
         </ab>
+
         <ab corresp="#CE34-5_p_084r_195">
           <supplied resp="alim-pi">
             <label n="195"><num><w>CXCV</w></num></label>
             <gap extent="several lines"/>
           </supplied>
         </ab>
+
         <!-- errore di numerazione, la rubrica 195 al capitulum 196 del testo -->
-        <lb n="17" xml:id="CE34-5_lb_062r_17"/>
+
         <ab corresp="#CE34-5_p_084v_196">
-          <label n="195"><num><w>CXCV</w></num></label>
+          <lb n="17" xml:id="CE34-5_lb_062r_17"/><label n="195"><num><w>CXCV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>crimen</w>
           <w>adulterii</w>
         </ab>
-        <lb n="18" xml:id="CE34-5_lb_062r_18"/>
+        
         <ab corresp="#CE34-5_p_084v_197">
-          <label n="196"><num><w>CXCVI</w></num></label>
+          <lb n="18" xml:id="CE34-5_lb_062r_18"/><label n="196"><num><w>CXCVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>crimen</w>
           <w>nefandi</w>
         </ab>
-        <lb n="19" xml:id="CE34-5_lb_062r_19"/>
+        
         <ab corresp="#CE34-5_p_084v_198">
-          <label n="197"><num><w>CXCVII</w></num></label>
+          <lb n="19" xml:id="CE34-5_lb_062r_19"/><label n="197"><num><w>CXCVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>crimen</w>
           <w>in</w>
@@ -3478,9 +3473,9 @@
           <w>mundio</w>
           <w>est</w>
         </ab>
-        <lb n="20" xml:id="CE34-5_lb_062r_20"/>
+        
         <ab corresp="#CE34-5_p_085r_199">
-          <label n="198"><num><w>CXCVIII</w></num></label>
+          <lb n="20" xml:id="CE34-5_lb_062r_20"/><label n="198"><num><w>CXCVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w><c corresp="#v">u</c>idua</w>
           <w>in</w>
@@ -3488,31 +3483,33 @@
           <w>patris</w>
           <w>remanserit</w>
         </ab>
-        <lb n="21" xml:id="CE34-5_lb_062r_21"/>
+        
         <ab corresp="#CE34-5_p_085r_200">
-          <label n="199"><num><w>CXCVIIII</w></num></label>
+          <lb n="21" xml:id="CE34-5_lb_062r_21"/><label n="199"><num><w>CXCVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>occisione</w>
           <w>mul<g ref="#jnodotenl"/>eris</w>
         </ab>
+
         <ab corresp="#CE34-5_p_085r_200">
           <gap extent="2"/>
           <supplied resp="alim-pi">
             <label n="200"><num><w>CC</w></num></label>
           </supplied>
         </ab>
+
         <!-- riprende la numerazione regolare -->
-        <lb n="22" xml:id="CE34-5_lb_062r_22"/>
+
         <ab corresp="#CE34-5_p_085v_201">
-          <label n="201"><num><w>CCI</w></num></label>
+          <lb n="22" xml:id="CE34-5_lb_062r_22"/><label n="201"><num><w>CCI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>mul<g ref="#jnodotenl"/>ere</w>
           <w>libera</w>
           <w>occisa</w>
         </ab>
-        <lb n="23" xml:id="CE34-5_lb_062r_23"/>
+
         <ab corresp="#CE34-5_p_085v_202">
-          <label n="202"><num><w>CCII</w></num></label>
+          <lb n="23" xml:id="CE34-5_lb_062r_23"/><label n="202"><num><w>CCII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>mulier</w>
           <w>In</w>
@@ -3521,9 +3518,9 @@
           <w>sui</w>
           <w>consil<g ref="#jnodotenl"/>a<c corresp="#v">u</c>erit</w>
         </ab>
-        <lb n="24" xml:id="CE34-5_lb_062r_24"/>
+        
         <ab corresp="#CE34-5_p_085v_203">
-          <label n="203"><num><w>CCIII</w></num></label>
+          <lb n="24" xml:id="CE34-5_lb_062r_24"/><label n="203"><num><w>CCIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>mulier</w>
           <w>
@@ -3540,9 +3537,9 @@
           </w>
           <w>occiderit</w>
         </ab>
-        <lb n="25" xml:id="CE34-5_lb_062r_25"/>
+        
         <ab corresp="#CE34-5_p_085v_204">
-          <label n="204"><num><w>CCIIII</w></num></label>
+          <lb n="25" xml:id="CE34-5_lb_062r_25"/><label n="204"><num><w>CCIIII</w></num></label>
           <w><hi rend="cap">N</hi>ulla</w>
           <w>mul<g ref="#jnodotenl"/>er</w>
           <w>sub</w>
@@ -3564,9 +3561,9 @@
             </choice>
           </w>
         </ab>
-        <lb n="26" xml:id="CE34-5_lb_062r_26"/>
+        
         <ab corresp="#CE34-5_p_085v_205">
-          <label n="205"><num><w>CCV</w></num></label>
+          <lb n="26" xml:id="CE34-5_lb_062r_26"/><label n="205"><num><w>CCV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>aldia</w>
           <w><c corresp="#v">u</c>iolentata</w>
@@ -3574,39 +3571,38 @@
 
         <pb n="062v" xml:id="CE34-5_folio_062v"/>
 
-        <lb n="1" xml:id="CE34-5_lb_062v_01"/>
         <ab corresp="#CE34-5_p_086r_206">
-          <label n="206"><num><w>CCVI</w></num></label>
+          <lb n="1" xml:id="CE34-5_lb_062v_01"/><label n="206"><num><w>CCVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>libera</w>
           <w><c corresp="#v">u</c>iolentata</w>
         </ab>
-        <lb n="2" xml:id="CE34-5_lb_062v_02"/>
+        
         <ab corresp="#CE34-5_p_086r_207">
-          <label n="207"><num><w>CCVII</w></num></label>
+          <lb n="2" xml:id="CE34-5_lb_062v_02"/><label n="207"><num><w>CCVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ancilla</w>
           <w><c corresp="#v">u</c>iolentata</w>
         </ab>
-        <lb n="3" xml:id="CE34-5_lb_062v_03"/>
+        
         <ab corresp="#CE34-5_p_086r_208">
-          <label n="208"><num><w>CCVIII</w></num></label>
+          <lb n="3" xml:id="CE34-5_lb_062v_03"/><label n="208"><num><w>CCVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>rapuerit</w>
           <w>aldia</w>
           <w>aliena</w>
         </ab>
-        <lb n="4" xml:id="CE34-5_lb_062v_04"/>
+        
         <ab corresp="#CE34-5_p_086r_209">
-          <label n="209"><num><w>CCVIIII</w></num></label>
+          <lb n="4" xml:id="CE34-5_lb_062v_04"/><label n="209"><num><w>CCVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ancilla</w>
           <w>rapta</w>
         </ab>
-        <lb n="5" xml:id="CE34-5_lb_062v_05"/>
+        
         <ab corresp="#CE34-5_p_086r_210">
-          <label n="210"><num><w>CCX</w></num></label>
+          <lb n="5" xml:id="CE34-5_lb_062v_05"/><label n="210"><num><w>CCX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>rapto</w>
           <w>qui</w>
@@ -3620,9 +3616,9 @@
           <w>regis</w>
           <w>duxerit</w>
         </ab>
-        <lb n="6" xml:id="CE34-5_lb_062v_06"/>
+        
         <ab corresp="#CE34-5_p_086r_211">
-          <label n="211"><num><w>CCXI</w></num></label>
+          <lb n="6" xml:id="CE34-5_lb_062v_06"/><label n="211"><num><w>CCXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -3634,9 +3630,9 @@
           <w>alterius</w>
           <w>tullerit</w>
         </ab>
-        <lb n="7" xml:id="CE34-5_lb_062v_07"/>
+        
         <ab corresp="#CE34-5_p_086r_212">
-          <label n="212"><num><w>CCXII</w></num></label>
+          <lb n="7" xml:id="CE34-5_lb_062v_07"/><label n="212"><num><w>CCXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -3661,16 +3657,16 @@
           <w>fornicantem</w>
           <w>in<c corresp="#v">u</c>enerit</w>
         </ab>
-        <lb n="8" xml:id="CE34-5_lb_062v_08"/>
+        
         <ab corresp="#CE34-5_p_086r_213">
-          <label n="213"><num><w>CCXIII</w></num></label>
+          <lb n="8" xml:id="CE34-5_lb_062v_08"/><label n="213"><num><w>CCXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>crimen</w>
           <w>adulterii</w>
         </ab>
-        <lb n="9" xml:id="CE34-5_lb_062v_09"/>
+        
         <ab corresp="#CE34-5_p_086r_214">
-          <label n="214"><num><w>CCXIIII</w></num></label>
+          <lb n="9" xml:id="CE34-5_lb_062v_09"/><label n="214"><num><w>CCXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -3693,53 +3689,52 @@
               <expan>parentu<ex>m</ex></expan>
             </choice>
           </w>
-          <lb n="10" xml:id="CE34-5_lb_062v_10"/>
-          <w>duxerit</w>
+          <lb n="10" xml:id="CE34-5_lb_062v_10"/><w>duxerit</w>
           <w>uxorem</w>
         </ab>
-        <lb n="11" xml:id="CE34-5_lb_062v_11"/>
+        
         <ab corresp="#CE34-5_p_086v_215">
-          <label n="215"><num><w>CCXV</w></num></label>
+          <lb n="11" xml:id="CE34-5_lb_062v_11"/><label n="215"><num><w>CCXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>sponsata</w>
           <w>mortua</w>
         </ab>
-        <lb n="12" xml:id="CE34-5_lb_062v_12"/>
+        
         <ab corresp="#CE34-5_p_086v_216">
-          <label n="216"><num><w>CCXVI</w></num></label>
+          <lb n="12" xml:id="CE34-5_lb_062v_12"/><label n="216"><num><w>CCXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>aldius</w>
           <w>uxorem</w>
           <w>libera</w>
           <w>tullerit</w>
         </ab>
-        <lb n="13" xml:id="CE34-5_lb_062v_13"/>
+        
         <ab corresp="#CE34-5_p_086v_217">
-          <label n="217"><num><w>CCXVII</w></num></label>
+          <lb n="13" xml:id="CE34-5_lb_062v_13"/><label n="217"><num><w>CCXVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>aldia</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>tulerit</w>
         </ab>
-        <lb n="14" xml:id="CE34-5_lb_062v_14"/>
+        
         <ab corresp="#CE34-5_p_087r_218">
-          <label n="218"><num><w>CCXVIII</w></num></label>
+          <lb n="14" xml:id="CE34-5_lb_062v_14"/><label n="218"><num><w>CCXVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>aldius</w>
           <w>aldia</w>
           <w>tulerit</w>
         </ab>
-        <lb n="15" xml:id="CE34-5_lb_062v_15"/>
+        
         <ab corresp="#CE34-5_p_087r_219">
-          <label n="219"><num><w>CCXVIIII</w></num></label>
+          <lb n="15" xml:id="CE34-5_lb_062v_15"/><label n="219"><num><w>CCXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>aldius</w>
           <w>ancilla</w>
           <w>tulerit</w>
         </ab>
-        <lb n="16" xml:id="CE34-5_lb_062v_16"/>
+        
         <ab corresp="#CE34-5_p_087r_220">
-          <label n="220"><num><w>CCXX</w></num></label>
+          <lb n="16" xml:id="CE34-5_lb_062v_16"/><label n="220"><num><w>CCXX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ancilla</w>
           <w>In</w>
@@ -3749,9 +3744,9 @@
           <w>marito</w>
           <w>Intra<add hand="scribe_1" place="above"><c corresp="#v">u</c>erit</add></w>
         </ab>
-        <lb n="17" xml:id="CE34-5_lb_062v_17"/>
+        
         <ab corresp="#CE34-5_p_087r_221">
-          <label n="221"><num><w>CCXXI</w></num></label>
+          <lb n="17" xml:id="CE34-5_lb_062v_17"/><label n="221"><num><w>CCXXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>libera</w>
@@ -3763,9 +3758,9 @@
           </w>
           <w>tulerit</w>
         </ab>
-        <lb n="18" xml:id="CE34-5_lb_062v_18"/>
+        
         <ab corresp="#CE34-5_p_087r_222">
-          <label n="222"><num><w>CCXII</w></num></label>
+          <lb n="18" xml:id="CE34-5_lb_062v_18"/><label n="222"><num><w>CCXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ancilla</w>
           <w>matrimonii</w>
@@ -3778,10 +3773,11 @@
             <gap extent="several lines"/>
           </supplied>
         </ab>
+
         <!-- errore di numerazione, le rubriche 223, 224, 225 e 226 corrispondono a diverse parti del capitulum 224 del testo -->
-        <lb n="19" xml:id="CE34-5_lb_062v_19"/>
+
         <ab corresp="#CE34-5_p_087v_224_part1">
-          <label n="223"><num><w>CCXXIII</w></num></label>
+          <lb n="19" xml:id="CE34-5_lb_062v_19"/><label n="223"><num><w>CCXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
@@ -3790,9 +3786,9 @@
             </choice>
           </w>
         </ab>
-        <lb n="20" xml:id="CE34-5_lb_062v_20"/>
+        
         <ab corresp="#CE34-5_p_087v_224_part2">
-          <label n="224"><num><w>CCXXIIII</w></num></label>
+          <lb n="20" xml:id="CE34-5_lb_062v_20"/><label n="224"><num><w>CCXXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>In</w>
           <w><c corresp="#v">u</c>otum</w>
@@ -3805,17 +3801,17 @@
           </w>
           <w>dimittitur</w>
         </ab>
-        <lb n="21" xml:id="CE34-5_lb_062v_21"/>
+        
         <ab corresp="#CE34-5_p_087v_224_part3">
-          <label n="225"><num><w>CCXXV</w></num></label>
+          <lb n="21" xml:id="CE34-5_lb_062v_21"/><label n="225"><num><w>CCXXV</w></num></label>
           <w><hi rend="cap">I</hi>tem</w>
           <w>qui</w>
           <term ref="#fulcfree" xml:id="CE34-5_term_fulcfree" xml:lang="lng"><w>fulfree</w></term>
           <w>fecerit</w>
         </ab>
-        <lb n="22" xml:id="CE34-5_lb_062v_22"/>
+        
         <ab corresp="#CE34-5_p_087v_224_part4">
-          <label n="226"><num><w>CCXXVI</w></num></label>
+          <lb n="22" xml:id="CE34-5_lb_062v_22"/><label n="226"><num><w>CCXXVI</w></num></label>
           <w><hi rend="cap">I</hi>tem</w>
           <w>qui</w>
           <w>aldio</w>
@@ -3823,26 +3819,27 @@
           <w>fecere</w>
           <w><c corresp="#v">u</c>ult</w>
         </ab>
+
         <!-- errore di numerazione, la rubrica 227 al capitulum 225 del testo -->
-        <lb n="23" xml:id="CE34-5_lb_062v_23"/>
+
         <ab corresp="#CE34-5_p_088r_225">
-          <label n="227"><num><w>CCXXVII</w></num></label>
+          <lb n="23" xml:id="CE34-5_lb_062v_23"/><label n="227"><num><w>CCXXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>filiis</w>
           <w>libertinis</w>
         </ab>
-        <lb n="24" xml:id="CE34-5_lb_062v_24"/>
+        
         <ab corresp="#CE34-5_p_088r_226">
-          <label n="228"><num><w>CCXXVIII</w></num></label>
+          <lb n="24" xml:id="CE34-5_lb_062v_24"/><label n="228"><num><w>CCXXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>libertis</w>
           <w>qui</w>
           <w>libertate</w>
           <w>meruerunt</w>
         </ab>
-        <lb n="25" xml:id="CE34-5_lb_062v_25"/>
+        
         <ab corresp="#CE34-5_p_088r_227">
-          <label n="229"><num><w>CCXXVIIII</w></num></label>
+          <lb n="25" xml:id="CE34-5_lb_062v_25"/><label n="229"><num><w>CCXXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
@@ -3858,9 +3855,9 @@
             </choice>
           </w>
         </ab>
-        <lb n="26" xml:id="CE34-5_lb_062v_26"/>
+        
         <ab corresp="#CE34-5_p_088v_228">
-          <label n="230"><num><w>CCXXX</w></num></label>
+          <lb n="26" xml:id="CE34-5_lb_062v_26"/><label n="230"><num><w>CCXXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>possesionem</w>
         </ab>
@@ -3869,9 +3866,8 @@
 
         <fw place="top-right" type="fol"><add hand="unknown">63</add></fw>
 
-        <lb n="1" xml:id="CE34-5_lb_063r_01"/>
         <ab corresp="#CE34-5_p_088v_229">
-          <label n="231"><num><w>CCXXXI</w></num></label>
+          <lb n="1" xml:id="CE34-5_lb_063r_01"/><label n="231"><num><w>CCXXXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -3888,9 +3884,9 @@
             <reg>.</reg>
           </choice>
         </ab>
-        <lb n="2" xml:id="CE34-5_lb_063r_02"/>
+        
         <ab corresp="#CE34-5_p_088v_230">
-          <label n="232"><num><w>CCXXXII</w></num></label>
+          <lb n="2" xml:id="CE34-5_lb_063r_02"/><label n="232"><num><w>CCXXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>mancipio</w>
           <w>lebrosus</w>
@@ -3899,9 +3895,9 @@
             <reg>.</reg>
           </choice>
         </ab>
-        <lb n="3" xml:id="CE34-5_lb_063r_03"/>
+        
         <ab corresp="#CE34-5_p_088v_231">
-          <label n="233"><num><w>CCXXXIII</w></num></label>
+          <lb n="3" xml:id="CE34-5_lb_063r_03"/><label n="233"><num><w>CCXXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ancilla</w>
           <w>conparata</w>
@@ -3910,9 +3906,9 @@
             <reg>.</reg>
           </choice>
         </ab>
-        <lb n="4" xml:id="CE34-5_lb_063r_04"/>
+        
         <ab corresp="#CE34-5_p_089r_232">
-          <label n="234"><num><w>CCXXXIIII</w></num></label>
+          <lb n="4" xml:id="CE34-5_lb_063r_04"/><label n="234"><num><w>CCXXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ca<c corresp="#v">u</c>allo</w>
           <w>conparato</w>
@@ -3921,9 +3917,9 @@
             <reg>.</reg>
           </choice>
         </ab>
-        <lb n="5" xml:id="CE34-5_lb_063r_05"/>
+        
         <ab corresp="#CE34-5_p_089r_233">
-          <label n="235"><num><w>CCXXXV</w></num></label>
+          <lb n="5" xml:id="CE34-5_lb_063r_05"/><label n="235"><num><w>CCXXXV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>de</w>
@@ -3934,9 +3930,9 @@
             <reg>.</reg>
           </choice>
         </ab>
-        <lb n="6" xml:id="CE34-5_lb_063r_06"/>
+        
         <ab corresp="#CE34-5_p_089r_234">
-          <label n="236"><num><w>CCXXXVI</w></num></label>
+          <lb n="6" xml:id="CE34-5_lb_063r_06"/><label n="236"><num><w>CCXXXVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>massario</w>
@@ -3945,9 +3941,9 @@
             <reg>.</reg>
           </choice>
         </ab>
-        <lb n="7" xml:id="CE34-5_lb_063r_07"/>
+        
         <ab corresp="#CE34-5_p_089v_235">
-          <label n="237"><num><w>CCXXXVII</w></num></label>
+          <lb n="7" xml:id="CE34-5_lb_063r_07"/><label n="237"><num><w>CCXXXVII</w></num></label>
           <w><hi rend="cap">N</hi>on</w>
           <w>liceat</w>
           <w><g ref="#ttilde"/>ra</w>
@@ -3959,16 +3955,16 @@
             <reg>.</reg>
           </choice>
         </ab>
-        <lb n="8" xml:id="CE34-5_lb_063r_08"/>
+        
         <ab corresp="#CE34-5_p_089v_236">
-          <label n="238"><num><w>CCXXXVIII</w></num></label>
+          <lb n="8" xml:id="CE34-5_lb_063r_08"/><label n="238"><num><w>CCXXXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>terminos</w>
           <w>effossos</w>
         </ab>
-        <lb n="9" xml:id="CE34-5_lb_063r_09"/>
+        
         <ab corresp="#CE34-5_p_089v_237">
-          <label n="239"><num><w>CCXXXVIIII</w></num></label>
+          <lb n="9" xml:id="CE34-5_lb_063r_09"/><label n="239"><num><w>CCXXXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>
@@ -3983,9 +3979,9 @@
             <reg>.</reg>
           </choice>
         </ab>
-        <lb n="10" xml:id="CE34-5_lb_063r_10"/>
+        
         <ab corresp="#CE34-5_p_089v_238">
-          <label n="240"><num><w>CCXL</w></num></label>
+          <lb n="10" xml:id="CE34-5_lb_063r_10"/><label n="240"><num><w>CCXL</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>arbore</w>
           <w>signato</w>
@@ -3994,9 +3990,9 @@
             <reg>.</reg>
           </choice>
         </ab>
-        <lb n="11" xml:id="CE34-5_lb_063r_11"/>
+        
         <ab corresp="#CE34-5_p_089v_239">
-          <label n="241"><num><w>CCXLI</w></num></label>
+          <lb n="11" xml:id="CE34-5_lb_063r_11"/><label n="241"><num><w>CCXLI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>arborem</w>
@@ -4007,9 +4003,9 @@
             <reg>.</reg>
           </choice>
         </ab>
-        <lb n="12" xml:id="CE34-5_lb_063r_12"/>
+        
         <ab corresp="#CE34-5_p_089v_240">
-          <label n="242"><num><w>CCXLII</w></num></label>
+          <lb n="12" xml:id="CE34-5_lb_063r_12"/><label n="242"><num><w>CCXLII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#snaida" xml:id="CE34-5_term_snaida" xml:lang="lng"><w>senaida</w></term>
           <w>in</w>
@@ -4021,9 +4017,9 @@
             <reg>.</reg>
           </choice>
         </ab>
-        <lb n="13" xml:id="CE34-5_lb_063r_13"/>
+        
         <ab corresp="#CE34-5_p_090r_241">
-          <label n="243"><num><w>CCXLIII</w></num></label>
+          <lb n="13" xml:id="CE34-5_lb_063r_13"/><label n="243"><num><w>CCXLIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>qui</w>
@@ -4034,9 +4030,9 @@
             <reg>.</reg>
           </choice>
         </ab>
-        <lb n="14" xml:id="CE34-5_lb_063r_14"/>
+        
         <ab corresp="#CE34-5_p_090r_242">
-          <label n="244"><num><w>CCXLIIII</w></num></label>
+          <lb n="14" xml:id="CE34-5_lb_063r_14"/><label n="244"><num><w>CCXLIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>aurum</w>
@@ -4049,16 +4045,16 @@
             <reg>.</reg>
           </choice>
         </ab>
-        <lb n="15" xml:id="CE34-5_lb_063r_15"/>
+        
         <ab corresp="#">
-          <label n="245"><num><w>CCXLV</w></num></label>
+          <lb n="15" xml:id="CE34-5_lb_063r_15"/><label n="245"><num><w>CCXLV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>cartola</w>
           <w>falsa</w>
         </ab>
-        <lb n="16" xml:id="CE34-5_lb_063r_16"/>
+        
         <ab corresp="#CE34-5_p_090r_243">
-          <label n="246"><num><w>CCXLVI</w></num></label>
+          <lb n="16" xml:id="CE34-5_lb_063r_16"/><label n="246"><num><w>CCXLVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>
@@ -4079,6 +4075,7 @@
             <reg>.</reg>
           </choice>
         </ab>
+
         <ab corresp="#CE34-5_p_090r_244">
           <gap extent="8"/>
           <supplied resp="alim-pi">
@@ -4086,15 +4083,15 @@
             <gap extent="several lines"/>
           </supplied>
         </ab>
-        <lb n="18" xml:id="CE34-5_lb_063r_18"/>
+        
         <ab corresp="#CE34-5_p_090r_245">
-          <label n="247"><num><w>CCXLVII</w></num></label>
+          <lb n="18" xml:id="CE34-5_lb_063r_18"/><label n="247"><num><w>CCXLVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>pigneratonibus</w>
         </ab>
-        <lb n="19" xml:id="CE34-5_lb_063r_19"/>
+        
         <ab corresp="#CE34-5_p_090r_246">
-          <label n="248"><num><w>CCXLVIII</w></num></label>
+          <lb n="19" xml:id="CE34-5_lb_063r_19"/><label n="248"><num><w>CCXLVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>ante</w>
@@ -4107,9 +4104,9 @@
           <w>e</w>
           <w>pignera<add hand="scribe_1" place="above"><c corresp="#v">u</c>erit</add></w>
         </ab>
-        <lb n="20" xml:id="CE34-5_lb_063r_20"/>
+        
         <ab corresp="#CE34-5_p_090r_247">
-          <label n="249"><num><w>CCXLVIIII</w></num></label>
+          <lb n="20" xml:id="CE34-5_lb_063r_20"/><label n="249"><num><w>CCXLVIIII</w></num></label>
           <w><hi rend="cap">N</hi>ulli</w>
           <w>liciat</w>
           <w>al<g ref="#jnodotenl"/>o</w>
@@ -4117,9 +4114,9 @@
           <w>al<g ref="#jnodotenl"/>o</w>
           <w>pignerare</w>
         </ab>
-        <lb n="21" xml:id="CE34-5_lb_063r_21"/>
+        
         <ab corresp="#CE34-5_p_090v_249">
-          <label n="250"><num><w>CCL</w></num></label>
+          <lb n="21" xml:id="CE34-5_lb_063r_21"/><label n="250"><num><w>CCL</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>gre<damage/><space quantity="12" unit="chars"/>ges</w>
           <w>
@@ -4131,9 +4128,9 @@
           <w>seu</w>
           <w>porco<g ref="#rum"/></w>
         </ab>
-        <lb n="22" xml:id="CE34-5_lb_063r_22"/>
+        
         <ab corresp="#CE34-5_p_090v_248">
-          <label n="251"><num><w>CCLI</w></num></label>
+          <lb n="22" xml:id="CE34-5_lb_063r_22"/><label n="251"><num><w>CCLI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -4156,9 +4153,9 @@
           </w>
           <w>pignera<c corresp="#v">u</c>erit</w>
         </ab>
-        <lb n="23" xml:id="CE34-5_lb_063r_23"/>
+        
         <ab corresp="#CE34-5_p_090v_250">
-          <label n="252"><num><w>CCLII</w></num></label>
+          <lb n="23" xml:id="CE34-5_lb_063r_23"/><label n="252"><num><w>CCLII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -4180,9 +4177,9 @@
             </choice>
           </w>
         </ab>
-        <lb n="25" xml:id="CE34-5_lb_063r_25"/>
+        
         <ab corresp="#CE34-5_p_090v_251">
-          <label n="253"><num><w>CCLIII</w></num></label>
+          <lb n="25" xml:id="CE34-5_lb_063r_25"/><label n="253"><num><w>CCLIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -4209,9 +4206,8 @@
 
         <pb n="063v" xml:id="CE34-5_folio_063v"/>
 
-        <lb n="1" xml:id="CE34-5_lb_063v_01"/>
         <ab corresp="#CE34-5_p_091r_252">
-          <label n="254"><num><w>CCLIIII</w></num></label>
+          <lb n="1" xml:id="CE34-5_lb_063v_01"/><label n="254"><num><w>CCLIIII</w></num></label>
           <w><hi rend="cap">N</hi>ulli</w>
           <w>liceat</w>
           <w>casa</w>
@@ -4234,23 +4230,23 @@
           <w>pigneri</w>
           <w>tollere</w>
         </ab>
-        <lb n="3" xml:id="CE34-5_lb_063v_03"/>
+        
         <ab corresp="#CE34-5_p_091r_253">
-          <label n="255"><num><w>CCLV</w></num></label>
+          <lb n="3" xml:id="CE34-5_lb_063v_03"/><label n="255"><num><w>CCLV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>furtis</w>
         </ab>
-        <lb n="4" xml:id="CE34-5_lb_063v_04"/>
+        
         <ab corresp="#CE34-5_p_091r_254">
-          <label n="256"><num><w>CCLVI</w></num></label>
+          <lb n="4" xml:id="CE34-5_lb_063v_04"/><label n="256"><num><w>CCLVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>furtum</w>
           <w>fecerit</w>
         </ab>
-        <lb n="5" xml:id="CE34-5_lb_063v_05"/>
+        
         <ab corresp="#CE34-5_p_091r_255">
-          <label n="257"><num><w>CCLVII</w></num></label>
+          <lb n="5" xml:id="CE34-5_lb_063v_05"/><label n="257"><num><w>CCLVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -4267,9 +4263,9 @@
           <w>furtum</w>
           <w>in<c corresp="#v">u</c>enerit</w>
         </ab>
-        <lb n="6" xml:id="CE34-5_lb_063v_06"/>
+        
         <ab corresp="#CE34-5_p_091r_256">
-          <label n="258"><num><w>CCLVIII</w></num></label>
+          <lb n="6" xml:id="CE34-5_lb_063v_06"/><label n="258"><num><w>CCLVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>dum</w>
@@ -4291,9 +4287,9 @@
           </w>
           <w>fecerit</w>
         </ab>
-        <lb n="7" xml:id="CE34-5_lb_063v_07"/>
+        
         <ab corresp="#CE34-5_p_091v_257">
-          <label n="259"><num><w>CCLVIIII</w></num></label>
+          <lb n="7" xml:id="CE34-5_lb_063v_07"/><label n="259"><num><w>CCLVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>mul<g ref="#jnodotenl"/>er</w>
           <w>libera</w>
@@ -4312,9 +4308,9 @@
           <w>temptata</w>
           <w>fuerit</w>
         </ab>
-        <lb n="8" xml:id="CE34-5_lb_063v_08"/>
+        
         <ab corresp="#CE34-5_p_091v_258">
-          <label n="260"><num><w>CCLX</w></num></label>
+          <lb n="8" xml:id="CE34-5_lb_063v_08"/><label n="260"><num><w>CCLX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>aldia</w>
           <w>aut</w>
@@ -4334,9 +4330,9 @@
           <w>fuerit</w>
           <w>tempta</w>
         </ab>
-        <lb n="9" xml:id="CE34-5_lb_063v_09"/>
+        
         <ab corresp="#CE34-5_p_091v_259">
-          <label n="261"><num><w>CCLXI</w></num></label>
+          <lb n="9" xml:id="CE34-5_lb_063v_09"/><label n="261"><num><w>CCLXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -4362,9 +4358,9 @@
           <w>facere</w>
           <w>iusserit</w>
         </ab>
-        <lb n="10" xml:id="CE34-5_lb_063v_10"/>
+        
         <ab corresp="#CE34-5_p_091v_260">
-          <label n="262"><num><w>CCLXII</w></num></label>
+          <lb n="10" xml:id="CE34-5_lb_063v_10"/><label n="262"><num><w>CCLXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>quale</w>
@@ -4379,9 +4375,9 @@
           <w>in</w>
           <w><c corresp="#v">u</c>ia</w>
         </ab>
-        <lb n="11" xml:id="CE34-5_lb_063v_11"/>
+        
         <ab corresp="#CE34-5_p_091v_261">
-          <label n="263"><num><w>CCLXIII</w></num></label>
+          <lb n="11" xml:id="CE34-5_lb_063v_11"/><label n="263"><num><w>CCLXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>dum</w>
@@ -4396,9 +4392,9 @@
           </w>
           <w>fecerit</w>
         </ab>
-        <lb n="12" xml:id="CE34-5_lb_063v_12"/>
+        
         <ab corresp="#CE34-5_p_092r_262">
-          <label n="264"><num><w>CCLXIIII</w></num></label>
+          <lb n="12" xml:id="CE34-5_lb_063v_12"/><label n="264"><num><w>CCLXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>dum</w>
@@ -4410,18 +4406,18 @@
           <w>cuil<g ref="#jnodotenl"/><lb n="13" xml:id="CE34-5_lb_063v_13"/>b<g ref="#openetlig"/></w>
           <w>commenda<c corresp="#v">u</c>erit</w>
         </ab>
-        <lb n="14" xml:id="CE34-5_lb_063v_14"/>
+        
         <ab corresp="#CE34-5_p_092r_263">
-          <label n="265"><num><w>CCLXV</w></num></label>
+          <lb n="14" xml:id="CE34-5_lb_063v_14"/><label n="265"><num><w>CCLXV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>plures</w>
           <w>homines</w>
           <w>furtum</w>
           <w>fecerint</w>
         </ab>
-        <lb n="15" xml:id="CE34-5_lb_063v_15"/>
+        
         <ab corresp="#CE34-5_p_092r_264">
-          <label n="266"><num><w>CCLXVI</w></num></label>
+          <lb n="15" xml:id="CE34-5_lb_063v_15"/><label n="266"><num><w>CCLXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>liber</w>
           <w>aut</w>
@@ -4432,12 +4428,13 @@
           <lb n="16" xml:id="CE34-5_lb_063v_16"/>
           <w>fugire</w>
         </ab>
-        <lb n="17" xml:id="CE34-5_lb_063v_17"/>
+        
         <ab corresp="#CE34-5_p_092r_265">
-          <label n="267"><num><w>CCLXVII</w></num></label>
+          <lb n="17" xml:id="CE34-5_lb_063v_17"/><label n="267"><num><w>CCLXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>portonario</w>
         </ab>
+
         <ab corresp="#CE34-5_p_092v_266">
           <gap extent="6"/>
           <supplied resp="alim-pi">
@@ -4445,6 +4442,7 @@
             <gap extent="several lines"/>
           </supplied>
         </ab>
+
         <ab corresp="#CE34-5_p_092v_267">
           <gap extent="7"/>
           <supplied resp="alim-pi">
@@ -4452,19 +4450,20 @@
             <gap extent="several lines"/>
           </supplied>
         </ab>
+
         <!-- riprende la numerazione regolare -->
-        <lb n="18" xml:id="CE34-5_lb_063v_18"/>
+        
         <ab corresp="#CE34-5_p_092v_268">
-          <label n="268"><num><w>CCLXVIII</w></num></label>
+          <lb n="18" xml:id="CE34-5_lb_063v_18"/><label n="268"><num><w>CCLXVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>portonarius</w>
           <w>mancipias</w>
           <w>fogaces</w>
           <w>transpo<add hand="scribe_1" place="above">suerit</add></w>
         </ab>
-        <lb n="19" xml:id="CE34-5_lb_063v_19"/>
+        
         <ab corresp="#CE34-5_p_092v_269">
-          <label n="269"><num><w>CCLXVIIII</w></num></label>
+          <lb n="19" xml:id="CE34-5_lb_063v_19"/><label n="269"><num><w>CCLXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>mancipius</w>
           <w>post</w>
@@ -4482,9 +4481,9 @@
           </w>
           <w>fugierit</w>
         </ab>
-        <lb n="20" xml:id="CE34-5_lb_063v_20"/>
+        
         <ab corresp="#CE34-5_p_093r_270">
-          <label n="270"><num><w>CCLXX</w></num></label>
+          <lb n="20" xml:id="CE34-5_lb_063v_20"/><label n="270"><num><w>CCLXX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>ille</w>
@@ -4496,8 +4495,7 @@
           </w>
           <damage/><space extent="10" unit="chars"/>
           <w>mancipius</w>
-          <lb n="21" xml:id="CE34-5_lb_063v_21"/>
-          <w>al<g ref="#jnodotenl"/>ena</w>
+          <lb n="21" xml:id="CE34-5_lb_063v_21"/><w>al<g ref="#jnodotenl"/>ena</w>
           <w>fugi<c corresp="#v">u</c>erit</w>
           <w><g ref="#openetlig"/></w>
           <w>nolui</w>
@@ -4509,9 +4507,9 @@
           </w>
           <w>reddere</w>
         </ab>
-        <lb n="22" xml:id="CE34-5_lb_063v_22"/>
+        
         <ab corresp="#CE34-5_p_093r_271">
-          <label n="271"><num><w>CCLXXI</w></num></label>
+          <lb n="22" xml:id="CE34-5_lb_063v_22"/><label n="271"><num><w>CCLXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>curte</w>
           <w>regis</w>
@@ -4519,24 +4517,24 @@
           <w>no<damage/><space extent="12" unit="chars"/>luerit</w>
           <w>reddere</w>
         </ab>
-        <lb n="23" xml:id="CE34-5_lb_063v_23"/>
+        
         <ab corresp="#CE34-5_p_093r_272">
-          <label n="272"><num><w>CCLXXII</w></num></label>
+          <lb n="23" xml:id="CE34-5_lb_063v_23"/><label n="272"><num><w>CCLXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ecclesia</w>
         </ab>
-        <lb n="24" xml:id="CE34-5_lb_063v_24"/>
+        
         <ab corresp="#CE34-5_p_093v_273">
-          <label n="273"><num><w>CCLXXIII</w></num></label>
+          <lb n="24" xml:id="CE34-5_lb_063v_24"/><label n="273"><num><w>CCLXXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>In</w>
           <w>fuga</w>
           <w><c corresp="#v">u</c>agat</w>
         </ab>
-        <lb n="25" xml:id="CE34-5_lb_063v_25"/>
+        
         <ab corresp="#CE34-5_p_093v_274">
-          <label n="274"><num><w>CCLXXIIII</w></num></label>
+          <lb n="25" xml:id="CE34-5_lb_063v_25"/><label n="274"><num><w>CCLXXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -6352,8 +6350,7 @@
   
         <fw place="top-right" type="fol"><add hand="unknown">67</add></fw>
 
-          <lb n="1" xml:id="CE34-5_lb_067r_01"/>
-          <w>per</w>
+          <lb n="1" xml:id="CE34-5_lb_067r_01"/><w>per</w>
           <w>camphiones</w>
           <w>id</w>
           <w>est</w>
