@@ -494,6 +494,11 @@
     - TUTTA la trascrizione 1-50 è da controllare e completare
     - sistematizzare tutti i "capX.Y"
     - marcare con <num> tutti i numeri riportati
+    - correggere anime/ae in orig/reg
+    - mantenere solidos invece di regolarizzare in solidus
+    - valutare se mantenere dittongo ae nelle forme regolarizzate (es. adpraetiatum ma forse più corretto adpretiatum) >>> mantenere registro linguistico uniforme
+    - visualizzare supplied solo nell'interpretativa
+    - mantenere numeri romani, uniformare con <num>
 
     -->
 
@@ -541,7 +546,7 @@
               </choice></w>
             <lb n="07" xml:id="CV188_lb_018v_07"/><w>REGIS</w>
             <w>CO<add place="inline" rend="smaller"
-            >gi</add>TAVERI<subst><del rend="erasure">M</del><add>T</add></subst></w><!-- CHECK subst -->
+            >gi</add>TAVERI<subst><del rend="erasure">M</del><add>T</add></subst></w><!-- CHECK subst ok -->
           </seg>
           <lb n="08" xml:id="CV188_lb_018v_08"/><w><choice><orig>anime</orig><reg resp="RRDT">animae</reg>
             </choice></w>
@@ -572,7 +577,7 @@
           <lb n="12" xml:id="CV188_lb_018v_12"/><w>per</w>
           <w>ipsius</w>
           <w><choice>
-              <abbr>iussion<am><g ref="#emacr"/></am></abbr><!-- CHECK emacr o etilde? -->
+              <abbr>iussion<am><g ref="#emacr"/></am></abbr><!-- CHECK emacr o etilde? meglio tilde -->
               <expan>iussione<ex>m</ex></expan>
             </choice></w>
           <choice>
@@ -594,7 +599,7 @@
           <lb n="01" xml:id="CV188_lb_019r_"/><w><choice><sic>heredis</sic><corr resp="RRDT">heredes</corr>
             </choice></w>
           <w>eius</w>
-          <w>quoquo</w><!-- CHECK -->
+          <w>quoquo</w><!-- CHECK ok -->
           <w>tempore</w>
           <w>ab</w>
           <w>il<lb n="02" xml:id="CV188_lb_019r_02"/>lo</w>
@@ -627,8 +632,8 @@
           <w>
             <choice><!-- CHECK -->
               <sic>posse<c corresp="#v">u</c>ilem</sic>
-              <corr resp="bluhme azzara">possibile</corr>
-              <!-- come mai non possibilis? -->
+              <corr resp="bluhme azzara">possibilis</corr>
+              <!-- come mai non possibilis? yes -->
             </choice></w><reg>,</reg>
           <lb n="06" xml:id="CV188_lb_019r_06"/><w>ut</w>
           <w>homo</w>
@@ -659,7 +664,7 @@
           <w>res</w>
           <w>
             <choice>
-              <orig>eiu<add>s</add></orig><!-- CHECK forma s alternativa o legatura con u -->
+              <orig>eiu<add>s</add></orig><!-- CHECK forma s lunga + legatura con u -->
               <reg>eius</reg>
             </choice></w>
           <w>
@@ -820,8 +825,8 @@
           </gloss>
           <w>
             <choice>
-              <sic>anime</sic>
-              <corr resp="RRDT">animae</corr>
+              <orig>anime</orig>
+              <reg resp="RRDT">animae</reg>
             </choice>
           </w>
           <w>suae</w>
@@ -833,7 +838,10 @@
           <w><hi rend="cap1.5">S</hi>i</w>
           <w>quis</w>
           <w>in</w>
-          <w>concilium</w><!-- dovrebbe essere concilio -->
+          <w><choice>
+            <sic>concilium</sic>
+            <corr>concilio</corr>
+          </choice></w><!-- dovrebbe essere concilio ok -->
           <w>vel</w>
           <w>in</w>
           <w>
@@ -841,7 +849,10 @@
               <sic>quole<lb n="11" xml:id="CV188_lb_019v_11_sic"/>bit</sic>
               <corr resp="RRDT">quoli<lb n="11" xml:id="CV188_lb_019v_11_corr"/>bet</corr>
             </choice></w>
-          <w>c<space extent="1"/>on<c corresp="#v">u</c>entum</w><!-- dovrebbe essere conventu -->
+          <w><choice>
+            <sic>c<space extent="1"/>on<c corresp="#v">u</c>entum</sic>
+            <corr>conventu</corr>
+          </choice></w><!-- dovrebbe essere conventu ok -->
           <w>scandalum</w>
           <choice>
             <orig><w>comi<lb n="12" xml:id="CV188_lb_019v_12_orig"/>serit</w></orig>
@@ -882,7 +893,10 @@
           <w>accusatus</w>
           <w>fuerit</w><reg>,</reg>
           <lb n="18" xml:id="CV188_lb_019v_18"/><w>cum</w>
-          <w>sacramentalibus</w><!-- CHECK sacramentum -->
+          <w><choice>
+            <sic>sacramentalibus</sic>
+            <corr>sacramentum</corr>
+          </choice></w><!-- CHECK sacramentum -->
           <w>satis<lb n="19" xml:id="CV188_lb_019v_19"/>facere</w>
           <w>et</w>
           <w>s<damage>e</damage></w>
@@ -984,10 +998,13 @@
           <w>potuerit</w>
           <w>et</w>
           <w>cognus<lb n="7" xml:id="CV188_lb_020r_07"/>citur</w><!-- CHECK us ligature-->
-          <w>dolosae</w><!-- CHECK dolusae -->
+          <w><choice>
+            <orig>dolosae</orig>
+            <reg>dolose</reg>
+          </choice></w><!-- CHECK dolusae -->
           <w><choice>
             <orig>accusassit</orig>
-            <reg>adcusassit</reg><!-- CHECK -->
+            <reg>adcusassit</reg><!-- CHECK ok -->
           </choice></w><reg>,</reg>
           <w>tunc</w>
           <lb n="8" xml:id="CV188_lb_020r_08"/><w>ipse</w><reg>,</reg>
@@ -1040,9 +1057,9 @@
           <w>ipse</w>
           <w>consiliator</w>
           <w>conponat</w>
-          <lb n="16" xml:id="CV188_lb_020r_16"/><space extent="12"/><!-- CHECK --><w><choice>
-            <orig>solidos</orig>
-            <reg>solidus</reg>
+          <lb n="16" xml:id="CV188_lb_020r_16"/><space extent="12"/><!-- CHECK ok --><w><choice>
+            <orig>soledus</orig>
+            <reg>solidos</reg>
           </choice></w>
           <w><choice><orig><c corresp="#v">u</c>igenti</orig><reg>viginti</reg>
           </choice></w><reg>.</reg>
@@ -1058,7 +1075,7 @@
             </choice></w>
           <w><choice>
             <orig>home<lb n="18" xml:id="CV188_lb_020r_18_orig"/>nis</orig>
-            <reg>homi<lb n="18" xml:id="CV188_lb_020r_18_reg"/>nis</reg>
+            <reg>homi<lb n="18" xml:id="CV188_lb_020r_18_reg"/>nes</reg>
           </choice></w>
           <space extent="3"/><w>liberi</w>
           <w>inter</w>
@@ -1066,7 +1083,7 @@
           <w>in</w>
           <w>morte</w>
           <w>al<lb n="19" xml:id="CV188_lb_020r_19"/>terius</w>
-          <w><choice><!-- CHECK -->
+          <w><choice><!-- CHECK ok -->
             <sic>consiliaverit</sic>
             <corr>consiliaverint</corr>
           </choice></w>
@@ -1130,7 +1147,7 @@
         </p>
 
         <p><lb n="6" type="rubric"/><label n="12"><num><w>XII</w></num></label>
-          <w><hi rend="decorated">S<!-- CHECK forma s alternativa, slong? --></hi>i</w>
+          <w><hi rend="decorated">S<!-- CHECK forma s alternativa slong? yes --></hi>i</w>
           <w>duo</w>
           <w>aut</w>
           <w>tres</w>
@@ -1142,7 +1159,7 @@
           <w>si<c corresp="#v">u</c>e</w>
           <lb n="7"/><w>am<space extent="2"/>plius</w>
           <w>liberi</w>
-          <w><choice><!-- CHECK -->
+          <w><choice><!-- CHECK ok -->
             <orig>humicidium</orig>
             <reg>homicidium</reg>
           </choice></w>
@@ -1178,7 +1195,7 @@
           </choice></w>
           <w>si</w>
           <w>aliquis</w>
-          <supplied><w>se</w></supplied><!-- CHECK -->
+          <supplied><w>se</w></supplied><!-- CHECK CSS solo interpretativa -->
           <w>de</w>
           <w>ip<lb n="12"/>sis</w>
           <w>subtraxerit</w>
@@ -1205,8 +1222,10 @@
           <w>nec</w>
           <w>ferita</w>
           <w>in</w>
-          <w>ip<lb n="15"/>sum</w><!-- CHECK -->
-          <w>hominem</w><reg>,</reg><!-- CHECK -->
+          <choice>
+            <sic><w>ip<lb n="15"/>sum</w><!-- CHECK --> <w>hominem</w><!-- CHECK --></sic>
+            <corr><w>ip<lb n="15"/>so</w> <w>homine</w></corr><reg>,</reg>
+          </choice>
           <w>qui</w>
           <w>occisus</w>
           <w>est</w><reg>,</reg>
@@ -1215,7 +1234,7 @@
           <w>tunc</w>
           <w>sit</w>
           <w><choice>
-            <orig>culpavelis</orig><!-- CHECK -->
+            <orig>culpavelis</orig><!-- CHECK ok -->
             <reg>culpabiles</reg>
           </choice></w>
           <lb n="17"/><w>sicut</w>
@@ -1235,7 +1254,7 @@
           <lb n="18"/><w>se</w>
           <w>purifica<c corresp="#v">u</c>erit</w><reg>,</reg>
           <w>sit</w>
-          <w>absolutus</w><!-- CHECK exsolutus -->
+          <w>absolutus</w><!-- exsolutus -->
           <lb n="19"/><w>a</w>
           <w>pena</w>
           <w><choice>
@@ -1249,31 +1268,24 @@
           <w>tamen</w>
           <w>in</w>
           <w>con<lb n="20"/>silio</w>
-          <w>fuerit</w><reg>,</reg><!-- CHECK fuit -->
+          <w>fuerit</w><reg>,</reg><!-- CHECK fuit no -->
           <w>conponat</w><reg>,</reg>
           <w>ut</w>
           <w>supra</w><reg>,</reg>
 
           <pb n="021r" xml:id="CV188_folio_021r"/>
 
-          <lb n="1"/><w><choice>
-            <orig>soledos</orig>
-            <reg>solidos</reg>
+          <lb n="1"/><w><choice><orig>soledos</orig><reg>solidos</reg>
           </choice></w>
-          <w><choice>
-            <orig>XX</orig>
-            <reg>viginti</reg>
-          </choice></w><reg>,</reg>
+          <w>XX</w><reg>,</reg>
           <w>aut</w>
           <w>de</w>
-          <choice><!-- CHECK -->
-            <orig><w>ipsum</w>
-              <w>consilium</w></orig>
-            <reg><w>ipso</w>
-              <w>consilio</w></reg>
+          <choice><!-- CHECK ok -->
+            <sic><w>ipsum</w> <w>consilium</w></sic>
+            <corr><w>ipso</w> <w>consilio</w></corr>
           </choice>
           <lb n="2"/><space extent="4"/><w>se</w>
-          <w><choice><!-- CHECK -->
+          <w><choice><!-- CHECK ok -->
             <orig>purifecit</orig>
             <reg>purificit</reg>
           </choice></w><reg>,</reg>
@@ -1330,13 +1342,10 @@
               <reg>culpabilis</reg>
             </choice></w>
           <w><choice>
-            <orig>solidos</orig>
-            <reg>solidus</reg><!-- CHECK solidûs -->
+            <orig>soledus</orig>
+            <reg>solidos</reg>
           </choice></w>
-          <w><choice>
-            <orig>dttt</orig><!-- CHECK -->
-            <reg>noningentos</reg>
-          </choice></w><reg>,</reg>
+          <w><num value="900">dcccc</num></w><reg>,</reg>
           <w><choice>
             <abbr>medie<lb n="8"/>tat<g ref="#etilde"/></abbr>
             <expan>medietate<ex>m</ex></expan>
@@ -1345,7 +1354,7 @@
           <w>et</w>
           <w>medietatem</w>
           <w><choice>
-            <abbr>par<g ref="#etilde"/><lb n="9"/>tibus</abbr><!-- CHECK non sembra una tilde -->
+            <abbr>par<g ref="#etilde"/><lb n="9"/>tibus</abbr><!-- CHECK sembra una tilde venuta male -->
             <expan>pare<ex>n</ex><lb n="9"/>tibus</expan>
           </choice></w>
           <w>mortui</w><reg>;</reg>
@@ -1367,10 +1376,7 @@
               <abbr>so<am><g ref="#ltailstrok"/></am>d</abbr>
               <expan>sol<ex>i</ex>d<ex>os</ex></expan>
             </choice></w>
-          <lb n="13"/><w><choice>
-            <orig>L</orig>
-            <reg>quinquagenta</reg><!-- CHECK quinquaginta? -->
-          </choice></w><reg>,</reg>
+          <lb n="13"/><w>L</w><reg>,</reg><!-- quinquagenta -->
           <w>medietatem</w>
           <w>regi</w>
           <w>et</w>
@@ -1399,9 +1405,9 @@
           <w>absconse</w>
           <w>penetra<c corresp="#v">u</c>e<lb n="17"/>rit</w>
           <w>in</w>
-          <w>homine</w><!-- CHECK barone -->
+          <w>homine</w><!-- CHECK barone no -->
           <w>libero</w>
-          <supplied><w>aut</w></supplied><!-- CHECK -->
+          <supplied><w>aut</w></supplied><!-- CHECK ok -->
           <w>ser<c corresp="#v">u</c>o</w>
           <w><c corresp="#v">u</c>el</w>
           <w>an<lb n="18"/>cilla</w><reg>,</reg>
@@ -1417,11 +1423,8 @@
             <orig>humicidium</orig>
             <reg>homicidium</reg>
           </choice></w>
-          <w>fece<lb n="20"/>rit</w><reg>,</reg><!-- CHECK fecerint -->
-          <w><choice>
-            <orig>dcccc</orig><!-- CHECK -->
-            <reg>noningentos</reg>
-          </choice></w>
+          <w>fece<lb n="20"/>rit</w><reg>,</reg><!-- fecerint -->
+          <w><num value="900">dcccc</num></w>
           <w><choice>
               <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
               <expan>sol<ex>idos</ex></expan>
@@ -1481,7 +1484,7 @@
             <w>plodraub</w>
           </term>
           <w>conponat</w>
-          <w>octu<lb rend="align-right"/>genta</w><!-- CHECK -->
+          <w>octu<lb rend="align-right"/>genta</w><!-- CHECK si può regolarizzare -->
           <w><choice>
               <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
               <expan>sol<ex>idos</ex></expan>
@@ -1489,7 +1492,8 @@
         </p>
 
         <p><lb n="8" type="rubric"/><label n="15"><num><w>XV</w></num>
-          <w>De</w><!-- CHECK qualcosa di cancellato subito dopo? -->
+          <w>De</w><!-- CHECK qualcosa di cancellato subito dopo? 
+            da controllare con ingrandimento ma potrebbe aver cancellato ca o ba -->
           <term ref="#grabworfin" xml:id="CV188_term_grabworfin_15" xml:lang="lng">
             <w>crap<c corresp="#v">u</c><c corresp="#v">u</c>orfin</w>
           </term></label><reg>.</reg>
@@ -1537,7 +1541,7 @@
           <w>gas<lb n="15"/>taldius</w>
           <w>regis</w>
           <w>aut</w>
-          <w><choice><!-- CHECK -->
+          <w><choice><!-- CHECK ok -->
             <orig>sculdahis</orig>
             <reg>sculdhais</reg>
           </choice></w>
@@ -1601,10 +1605,9 @@
           <w>mercedis</w>
           <lb n="2"/><w><choice><sic>causa</sic><corr>causam</corr>
           </choice></w>
-          <add hand="hand2" place="above"><w><choice><!-- CHECK hand e testo -->
-            <sic>feci<g ref="#slong"/><g ref="#slong"/>et</sic>
-            <corr>fecit</corr>
-          </choice></w></add><reg>,</reg>
+          <add hand="hand2" place="above"><w><choice><!-- CHECK hand -->
+            <sic>feci<g ref="#slong"/><g ref="#slong"/>e<g ref="#slong"/></sic>
+            <corr>fecit</corr></choice></w></add><reg>,</reg>
           <w>nam</w>
           <w>non</w>
           <w><choice>
@@ -1659,7 +1662,10 @@
             <orig>itenere</orig>
             <reg>itinere</reg>
           </choice></w>
-          <w>iniuria</w><!-- CHECK non dovrebbe essere accusativo in accordo con aliquam e molestiam? -->
+          <w><choice>
+            <sic>iniuria</sic>
+            <corr>iniuriam</corr>
+          </choice></w><!-- CHECK non dovrebbe essere accusativo in accordo con aliquam e molestiam? -->
           <w>aut</w>
           <w><choice>
             <abbr>mo<lb n="10"/>lesti<am><g ref="#atilde"/></am></abbr>
@@ -1680,7 +1686,7 @@
           <w>festinat</w><reg>,</reg>
           <lb n="12"/><w>venire</w>
           <w><choice>
-            <orig>oneste</orig><!-- CHECK -->
+            <orig>oneste</orig><!-- CHECK ok -->
             <reg>honeste</reg>
           </choice></w>
           <w><c corresp="#v">u</c>eniat</w>
@@ -1715,7 +1721,7 @@
           <w>f<space extent="2"/>aciat</w><reg>;</reg>
           <w>nam</w>
           <w>si</w>
-          <w><retrace hand="#hand2">f</retrace>e<lb n="16"/>cerit</w><reg>,</reg><!-- CHECK -->
+          <w><retrace hand="#hand2">f</retrace>e<lb n="16"/>cerit</w><reg>,</reg><!-- CHECK hand -->
           <w>sicut</w>
           <w><choice>
             <orig>supter</orig>
@@ -1726,9 +1732,7 @@
           <w>edictum</w> -->
           <w>adnexum</w><!-- <w>constitutum</w> -->
           <w>est</w><reg>,</reg>
-          <lb rend="below align-right"/><w><choice>
-              <abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr>
-              <expan>conp<ex>onat</ex></expan>
+          <lb rend="below align-right"/><w><choice><abbr>c<am><g ref="#otilde"/><g ref="#ntilde"/></am>p</abbr><expan>conp<ex>onat</ex></expan>
             </choice></w><reg>.</reg>
         </p>
 
