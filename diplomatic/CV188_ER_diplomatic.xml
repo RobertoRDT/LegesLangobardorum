@@ -1345,7 +1345,7 @@
             <orig>soledus</orig>
             <reg>solidos</reg>
           </choice></w>
-          <w><num value="900">dcccc</num></w><reg>,</reg>
+          <num value="900"><w>dcccc</w></num><reg>,</reg>
           <w><choice>
             <abbr>medie<lb n="8"/>tat<g ref="#etilde"/></abbr>
             <expan>medietate<ex>m</ex></expan>
@@ -1424,7 +1424,7 @@
             <reg>homicidium</reg>
           </choice></w>
           <w>fece<lb n="20"/>rit</w><reg>,</reg><!-- fecerint -->
-          <w><num value="900">dcccc</num></w>
+          <num value="900"><w>dcccc</w></num>
           <w><choice>
               <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
               <expan>sol<ex>idos</ex></expan>
