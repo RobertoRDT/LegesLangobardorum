@@ -479,7 +479,7 @@
 
   <!-- TODO:
             
-    - aggiornare schema di codifica
+    + aggiornare schema di codifica
     - inserire le rubriche iniziali nel <front>
     - aggiungere @corresp alle glosse relative per i <term>, in modo da poter anche individuare quali <term> hanno una <gloss>
     - aggiungere @rend per <del>
@@ -491,7 +491,7 @@
     - problema delle rubriche: usare <seg type="line" rend="rubric">? o <w rend="red"> <hi rend="red"> etc.? sistematizzare
     - controllare che i <label> includano i titoletti (quelli che cominciano con "De ... etc.")
     - Vtilde o Vmacron? usare i combining macron/tilde per segni estesi su più vocali?
-    - TUTTA la trascrizione 1-50 è da controllare e completare
+    + TUTTA la trascrizione 1-50 è da controllare e completare
     - sistematizzare tutti i "capX.Y"
     - marcare con <num> tutti i numeri riportati
     - correggere anime/ae in orig/reg
