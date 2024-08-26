@@ -1,0 +1,62 @@
+/* ************************* */
+
+/* EVT 2.0 CUSTOM STYLESHEET */
+
+/* ***************************************************************** */
+
+/*                                                                   */
+
+/* Add here your CSS to customize the style of the elements          */
+
+/* If you'll not see any changes, try adding !important to the rule  */
+
+/*                                                                   */
+
+/* For generic TEI elements, use the tagName as class                */
+
+/* e.g. <del/> => .del{ # your style goes here # }                   */
+
+/*                                                                   */
+
+/* ***************************************************************** */
+
+.w[data-rend="red"] {
+  color: red !important;
+}
+.hi[data-rend="red"] {
+  color: red !important;
+}
+.label[data-rend="red"] {
+  color: red !important;
+}
+.add[data-rend="black"]  {
+  color: black !important;
+}
+
+.lb[data-rend="align-right"], .seg[data-rend="align-right"] {
+  text-align: right !important;
+}
+
+.term {
+	background-color: coral;
+}
+
+.figDesc {
+	display: block;
+	border-left: 5px solid #b30000;
+	background-color: #ffe6e6;
+	padding: 5px 5px 5px 8px;
+	margin-bottom: 3%;
+	text-align: justify;
+	font-size: 95%;
+	font-style: italic;
+}
+
+span.analogue span.analogue__text span.quote {
+	font-style: italic;
+}
+
+span.quote sup.iconbis-evt_quote-left,
+span.quote sup.iconbis-evt_quote-right {
+	display: none;
+}
