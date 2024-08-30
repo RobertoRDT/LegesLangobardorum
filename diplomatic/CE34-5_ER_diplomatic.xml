@@ -1119,7 +1119,7 @@
 
       <div subtype="edition_text" type="prose" xml:id="CE34-5_ER_rubriche_iniziali">
 
-        <head><supplied>INCIPIT CAPITULA AD INQUIRENDUM</supplied></head>
+        <head><supplied>INCIPIT CAPITULA AD INQUIRENDUM</supplied></head><!-- CHECK bluhme lo riferisce al vatlat 5359 -->
 
         <ab corresp="#CE34-5_p_066r_01">
           <lb n="19" xml:id="CE34-5_lb_058r_19"/><label n="1"><num><w>I</w></num></label>
@@ -8671,11 +8671,13 @@
           <w>sit</w>
           <w>culpabilis</w>
           <w>In</w>
-          <w>pa<lb n="1" xml:id="CE34-5_lb_070r_01"/>
+          <w>pa
     
         <pb n="070r" xml:id="CE34-5_folio_070r"/>
     
-        <fw place="top-right" type="fol"><add hand="unknown">70</add></fw> latio</w>
+        <fw place="top-right" type="fol"><add hand="unknown">70</add></fw> 
+            
+          <lb n="1" xml:id="CE34-5_lb_070r_01"/>latio</w>
           <w>regis</w>
           <w>
             <choice>
