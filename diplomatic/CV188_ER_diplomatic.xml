@@ -520,6 +520,8 @@
 
         <pb n="1r" xml:id="CV188_folio_001r"/>
 
+        <fw place="top-right" type="fol"><add hand="unknown">1</add></fw>
+        
         <head><supplied>INCIPIT CAPITULA AD INQUIRENDUM</supplied></head>
 
         <ab corresp="#CV188_p_183">
@@ -858,6 +860,8 @@
 
         <pb n="2r" xml:id="CV188_folio_002r"/>
 
+        <fw place="top-right" type="fol"><add hand="unknown">2</add></fw>
+        
         <ab corresp="#CV188_p_248">
           <lb n="1" xml:id="CV188_lb_002r_01"/><label n="248"><num><w>CCXL<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -1041,7 +1045,7 @@
           <w>in</w>
           <w>fuga</w>
           <w>est</w>
-          <lb n="2" xml:id="CV188_lb_063v_02"/><w>cuilevet</w>
+          <lb n="2" xml:id="CV188_lb_002v_02"/><w>cuilevet</w>
           <w>aliquit</w>
           <w>
             <choice>
@@ -1051,446 +1055,364 @@
         </ab>
 
         <ab corresp="#CV188_p_263">
-          <lb n="3" xml:id="CV188_lb_063v_03"/><label n="263"><num><w>CCLXIII</w></num></label>
+          <lb n="3" xml:id="CV188_lb_002v_03"/><label n="263"><num><w>CCLXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>plures</w>
           <w>homines</w>
-          <w>fur<lb n="4" rend="align-right" xml:id="CV188_lb_063v_04"/>tum</w>
+          <w>fur<lb n="4" rend="align-right" xml:id="CV188_lb_002v_04"/>tum</w>
           <w>fecerent</w>
         </ab>
 
         <ab corresp="#CV188_p_264">
-          <lb n="5" xml:id="CV188_lb_063v_05"/><label n="266"><num><w>CCLXIIII</w></num></label>
+          <lb n="5" xml:id="CV188_lb_002v_05"/><label n="266"><num><w>CCLXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>liber</w>
           <w>aut</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>fori<add place="above"><g ref="#slong"/></add></w>
-          <lb n="6" xml:id="CV188_lb_063v_06"/><w>pro<c corresp="#v">u</c>incia</w>
+          <lb n="6" xml:id="CV188_lb_002v_06"/><w>pro<c corresp="#v">u</c>incia</w>
           <w>fugire</w>
           <w><c corresp="#v">u</c>olu<lb rend="below align-right"/>erit</w>
         </ab>
 
         <ab corresp="#CV188_p_265">
-          <lb n="7" xml:id="CV188_lb_063v_07"/><label n="265"><num><w>CCLXVII</w></num></label>
+          <lb n="7" xml:id="CV188_lb_002v_07"/><label n="265"><num><w>CCLXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>portonario</w>
         </ab>
 
         <ab corresp="#CV188_p_266">
-          <lb n="8" xml:id="CV188_lb_063v_08"/><label n="266"><num><w>CCLX<g ref="#romnumsix"/></w></num></label>
+          <lb n="8" xml:id="CV188_lb_002v_08"/><label n="266"><num><w>CCLX<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>portunarius</w>
           <w><choice>
             <abbr>furon<am><g ref="#etilde"/></am></abbr>
             <expan>furone<ex>m</ex></expan>
           </choice></w>
-          <lb n="9" xml:id="CV188_lb_063v_09"/><w>sciens</w>
+          <lb n="9" xml:id="CV188_lb_002v_09"/><w>sciens</w>
           <w>transposuerit</w>
         </ab>
 
         <ab corresp="#CV188_p_267">
-            <lb n="10" xml:id="CV188_lb_063v_10"/><label n="267"><num><w>CCLX<g ref="#romnumsix"/>I</w></num></label>
+          <lb n="10" xml:id="CV188_lb_002v_10"/><label n="267"><num><w>CCLX<g ref="#romnumsix"/>I</w></num></label>
+          <w><hi rend="cap">S</hi>i</w>
+          <w>portunarius</w>
+          <w>
+            <choice>
+              <abbr>mancipi<lb n="11" xml:id="CV188_lb_002v_11_abbr"/><am><g ref="#utilde"/></am></abbr>
+              <expan>mancipi<lb n="11" xml:id="CV188_lb_002v_11_expan"/>u<ex>m</ex></expan>
+            </choice></w>
+          <w><choice>
+            <abbr>fugac<am><g ref="#etilde"/></am></abbr>
+            <expan>fugace<ex>m</ex></expan>
+          </choice></w>
+          <w>transposue<lb rend="below align-right"/>rit</w>
         </ab>
 
-        <!-- riprende la numerazione regolare -->
-
         <ab corresp="#CV188_p_268">
-          <lb n="18" xml:id="CV188_lb_063v_18"/><label n="268"><num><w>CCLXVIII</w></num></label>
+          <lb n="12" xml:id="CV188_lb_002v_12"/><label n="268"><num><w>CCLX<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>portonarius</w>
-          <w>mancipias</w>
-          <w>fogaces</w>
-          <w>transpo<add hand="scribe_1" place="above">suerit</add></w>
+          <w><choice>
+            <abbr>homi<lb n="13" xml:id="CV188_lb_002v_13_abbr"/>n<am><g ref="#etilde"/></am></abbr>
+            <expan>homi<lb n="13" xml:id="CV188_lb_002v_13_expan"/>ne<ex>m</ex></expan>
+          </choice></w>
+          <w>liberum</w>
+          <w>transpo<lb rend="below align-right"/>suerit</w>
         </ab>
 
         <ab corresp="#CV188_p_269">
-          <lb n="19" xml:id="CV188_lb_063v_19"/><label n="269"><num><w>CCLXVIIII</w></num></label>
+          <lb n="14" xml:id="CV188_lb_002v_14"/><label n="269"><num><w>CCLX<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
-          <w>mancipius</w>
-          <w>post</w>
+          <w>quis</w>
+          <w><choice>
+            <abbr>mancipi<am><g ref="#utilde"/></am></abbr>
+            <expan>mancipiu<ex>m</ex></expan>
+          </choice></w>
+          <w>alicu<lb n="15" xml:id="CV188_lb_002v_15"/>ius</w>
           <w>
             <choice>
-              <abbr>ali<am><g ref="#utilde"/></am></abbr>
-              <expan>aliu<ex>m</ex></expan>
-            </choice>
-          </w>
-          <w>
-            <choice>
-              <abbr>homin<am><g ref="#etilde"/></am></abbr>
-              <expan>homine<ex>m</ex></expan>
+              <abbr>alter<am><g ref="#utilde"/></am></abbr>
+              <expan>alteru<ex>m</ex></expan>
             </choice>
           </w>
           <w>fugierit</w>
         </ab>
 
         <ab corresp="#CV188_p_270">
-          <lb n="20" xml:id="CV188_lb_063v_20"/><label n="270"><num><w>CCLXX</w></num></label>
-          <w><hi rend="cap">S</hi>i</w>
-          <w>quis</w>
-          <w>ille</w>
-          <w>
-            <choice>
-              <abbr>postqu<am><g ref="#atilde"/></am></abbr>
-              <expan>postqua<ex>m</ex></expan>
-            </choice>
-          </w>
-          <damage/><space extent="10" unit="chars"/>
-          <w>mancipius</w>
-          <lb n="21" xml:id="CV188_lb_063v_21"/><w>aliena</w>
-          <w>fugi<c corresp="#v">u</c>erit</w>
-          <w><g ref="#openetlig"/></w>
-          <w>nolui</w>
-          <w>
-            <choice>
-              <abbr>e<am><g ref="#atilde"/></am></abbr>
-              <expan>ea<ex>m</ex></expan>
-            </choice>
-          </w>
-          <w>reddere</w>
-        </ab>
-
-        <ab corresp="#CV188_p_271">
-          <lb n="22" xml:id="CV188_lb_063v_22"/><label n="271"><num><w>CCLXXI</w></num></label>
+          <lb n="16" xml:id="CV188_lb_002v_16"/><label n="270"><num><w>CCLXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
-          <w>curte</w>
-          <w>regis</w>
-          <w>si</w>
-          <w>no<damage/><space extent="12" unit="chars"/>luerit</w>
-          <w>reddere</w>
-        </ab>
-
-        <ab corresp="#CV188_p_272">
-          <lb n="23" xml:id="CV188_lb_063v_23"/><label n="272"><num><w>CCLXXII</w></num></label>
-          <w><hi rend="cap">D</hi>e</w>
-          <w>ecclesia</w>
-        </ab>
-
-        <ab corresp="#CV188_p_273">
-          <lb n="24" xml:id="CV188_lb_063v_24"/><label n="273"><num><w>CCLXXIII</w></num></label>
-          <w><hi rend="cap">S</hi>i</w>
-          <w>ser<c corresp="#v">u</c>us</w>
-          <w>In</w>
-          <w>fuga</w>
-          <w><c corresp="#v">u</c>agat</w>
-        </ab>
-
-        <ab corresp="#CV188_p_274">
-          <lb n="25" xml:id="CV188_lb_063v_25"/><label n="274"><num><w>CCLXXIIII</w></num></label>
-          <w><hi rend="cap">S</hi>i</w>
-          <w>
-            <choice>
-              <abbr><am><g ref="#qtilde"/></am></abbr>
-              <expan>q<ex>uis</ex></expan>
-            </choice>
-          </w>
-          <w>manci<damage/><space extent="12" unit="chars"/>pio</w>
-          <w>in</w>
-          <w>casa</w>
-          <w>sua</w>
-          <lb n="26" xml:id="CV188_lb_063v_26"/>
-          <w>
-            <choice>
-              <abbr>su<am><g ref="#pbardes"/></am></abbr>
-              <expan>sup<ex>per</ex></expan>
-            </choice>
-          </w>
-          <w>no<c corresp="#v">u</c>em</w>
-          <w>noctes</w>
-          <w>ha<damage/><space extent="12" unit="chars"/>buerit</w>
-          <w>nesciente</w>
-          <lb n="27" rend="align_right" xml:id="CV188_lb_063v_27"/>
-          <w>
-            <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
-              <expan>d<ex>omi</ex>no</expan>
-            </choice>
-          </w>
-          <w>eius</w>
-        </ab>
-
-        <pb n="064r" xml:id="CV188_folio_064r"/>
-
-        <fw place="top-right" type="fol"><add hand="unknown">64</add></fw>
-
-        <lb n="1" xml:id="CV188_lb_064r_01"/>
-        <ab corresp="#CV188_p_275">
-          <label n="275"><num><w>CCLXXV</w></num></label>
-          <w><hi rend="cap">S</hi>i</w>
-          <w>mancipius</w>
-          <w>
-            <choice>
-              <abbr>alien<am><g ref="#utilde"/></am></abbr>
-              <expan>alienu<ex>m</ex></expan>
-            </choice>
-          </w>
-          <w>
-            <choice>
-              <abbr>refugi<am><g ref="#utilde"/></am></abbr>
-              <expan>refugiu<ex>m</ex></expan>
-            </choice>
-          </w>
+          <w>illum</w>
           <w>post</w>
           <w>
             <choice>
-              <abbr>ali<am><g ref="#utilde"/></am></abbr>
-              <expan>aliu<ex>m</ex></expan>
+              <abbr>qu<am><g ref="#etilde"/></am></abbr>
+              <expan>que<ex>m</ex></expan>
             </choice>
           </w>
-          <w>fecerit</w>
+          <w>man<lb n="17" xml:id="CV188_lb_002v_17"/>cipium</w>
+          <w>fugierit</w>
         </ab>
-        <lb n="2" xml:id="CV188_lb_064r_02"/>
-        <ab corresp="#CV188_p_093v_276">
-          <label n="276"><num><w>CCLXXVI</w></num></label>
+
+        <ab corresp="#CV188_p_271">
+          <lb n="18" xml:id="CV188_lb_002v_18"/><label n="271"><num><w>CCLXXI</w></num></label>
+          <w><hi rend="cap">D</hi>e</w>
+          <w>curtem</w>
+          <w>regis</w>
+        </ab>
+
+        <ab corresp="#CV188_p_272">
+          <lb n="19" xml:id="CV188_lb_002v_19"/><label n="272"><num><w>CCLXXII</w></num></label>
+          <w><hi rend="cap">D</hi>e</w>
+          <w><add place="above">e</add>cclesia</w><pc>:</pc>
+        </ab>
+
+        <ab corresp="#CV188_p_273">
+          <lb n="20" xml:id="CV188_lb_002v_20"/><label n="273"><num><w>CCLXXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
-          <w>
-            <choice>
-              <abbr><am><g ref="#qtilde"/></am></abbr>
-              <expan>q<ex>uis</ex></expan>
-            </choice>
-          </w>
-          <w>mancipius</w>
-          <w>sciens</w>
-          <w>fugacem</w>
-          <w>
-            <choice>
-              <abbr><am><g ref="#etilde"/></am><am><g ref="#etilde"/></am></abbr>
-              <expan>e<ex>ss</ex>e</expan>
-            </choice>
-          </w>
-          <w>susciperit</w>
-          <lb n="3" xml:id="CV188_lb_064r_03"/>
-          <w>aut</w>
-          <w>annonam</w>
-          <w>dederit</w>
+          <w>ser<c corresp="#v">u</c>us</w>
+          <w>Intra</w>
+          <w>pro<c corresp="#v">u</c>in<lb n="21" xml:id="CV188_lb_002v_21"/>cia</w>
+          <w><c corresp="#v">u</c>aca<c corresp="#v">u</c>erit</w><pc>:</pc>
         </ab>
-        <lb n="4" xml:id="CV188_lb_064r_04"/>
+
+        <!-- #######################################  folio 3r  ####################################### -->
+
+        <pb n="3r" xml:id="CV188_folio_003r"/>
+
+        <fw place="top-right" type="fol"><add hand="unknown">3</add></fw>
+
+        <ab corresp="#CV188_p_274">
+          <lb n="1" xml:id="CV188_lb_003r_01"/><label n="274"><num><w>CCLXXIIII</w></num></label>
+          <w><hi rend="cap">S</hi>i</w>
+          <w>quis</w>
+          <w>mancipium</w>
+          <w><choice>
+            <abbr>fogac<am><g ref="#etilde"/></am></abbr>
+            <expan>fogace<ex>m</ex></expan>
+          </choice></w>
+          <lb rend="below align-right"/><w>habuerit</w>
+        </ab>
+
+        <ab corresp="#CV188_p_275">
+          <lb n="2" xml:id="CV188_lb_003r_02"/><label n="275"><num><w>CCLXXV</w></num></label>
+          <w><hi rend="cap">D</hi>e</w>
+          <w>fugam</w>
+          <w>mancipii</w><pc>:</pc>
+        </ab>
+
+        <ab corresp="#CV188_p_093v_276">
+          <lb n="3" xml:id="CV188_lb_003r_03"/><label n="276"><num><w>CCLXX<g ref="#romnumsix"/></w></num></label>
+          <w><hi rend="cap">S</hi>i</w>
+          <w>quis</w>
+          <w>mancipium</w>
+          <w>sciens</w><!-- CHECK ns ligature -->
+          <lb n="4" xml:id="CV188_lb_003r_04"/><w><choice><abbr>fugac<am><g ref="#etilde"/></am></abbr>
+              <expan>fugace<ex>m</ex></expan>
+            </choice>
+          </w>
+          <w>exceperit</w>
+        </ab>
+        
         <ab corresp="#CV188_p_277">
-          <label n="277"><num><w>CCLXXVII</w></num></label>
+          <lb n="5" xml:id="CV188_lb_003r_05"/><label n="277"><num><w>CCLXX<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
-          <term ref="#haistan" xml:id="CV188_term_haistan" xml:lang="lng"><w>aistan</w></term>
-          <gloss target="#CV188_term_haistan" xml:id="CV188_gloss_haistan">
-            <w>id</w>
-            <w>est</w>
+          <!-- CE 34-5
+            <term ref="#haistan" xml:id="CV188_term_haistan" xml:lang="lng"><w>aistan</w></term>
+            <gloss target="#CV188_term_haistan" xml:id="CV188_gloss_haistan">
+              <w>id</w>
+              <w>est</w>
+              <w>forore</w>
+            </gloss>-->
             <w>forore</w>
-          </gloss>
-          <add hand="scribe_2" place="inline">
-            <w>In</w>
-            <w>ac</w>
-            <w>lege</w>
-            <w>de</w>
-            <w>clara</w>
-            <w>ut</w>
-            <w>par</w>
-          </add>
         </ab>
-        <lb n="5" xml:id="CV188_lb_064r_05"/>
+        
         <ab corresp="#CV188_p_278">
-          <label n="278"><num><w>CCLXXVIII</w></num></label>
+          <lb n="6" xml:id="CV188_lb_003r_06"/><label n="278"><num><w>CCLXX<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
-          <term ref="#hoberos" xml:id="CV188_term_hoberos" xml:lang="lng"><w>oberos</w></term>
-          <gloss target="#CV188_term_hoberos" xml:id="CV188_gloss_hoberos">
-            <w>id</w>
-            <w>est</w>
-            <w>curtis</w>
-            <w>ruptura</w>
-          </gloss>
-          <add hand="scribe_2" place="inline">
-            <w>ut</w>
-            <w>fr<g ref="#amacr"/></w>
-            <w>dare</w>
-            <w>posit</w>
-          </add>
+          <!-- CE 34-5
+            <term ref="#hoberos" xml:id="CV188_term_hoberos" xml:lang="lng"><w>oberos</w></term>
+            <gloss target="#CV188_term_hoberos" xml:id="CV188_gloss_hoberos">
+              <w>id</w>
+              <w>est</w>
+              <w>curtis</w>
+              <w>ruptura</w>
+            </gloss>-->
+            <w>curte</w>
+            <w>rupta</w>
         </ab>
-        <lb n="6" xml:id="CV188_lb_064r_06"/>
+        
         <ab corresp="#CV188_p_279">
-          <label n="279"><num><w>CCLXXVIIII</w></num></label>
+          <lb n="7" xml:id="CV188_lb_003r_07"/><label n="279"><num><w>CCLXX<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
-          <w>concilio</w>
-          <w>rusticanorum</w>
-          <add hand="scribe_2" place="inline">
-            <w>ad</w>
-            <w>cuingi<g ref="#utilde"/></w>
-          </add>
+          <w>consilio</w>
+          <w><choice>
+            <abbr>rusticanor<am><g ref="#utilde"/></am></abbr>
+            <expan>rusticanoru<ex>m</ex></expan>
+          </choice></w>
         </ab>
-        <lb n="7" xml:id="CV188_lb_064r_07"/>
+        
         <ab corresp="#CV188_p_280">
-          <label n="280"><num><w>CCXXX</w></num></label>
+          <lb n="8" xml:id="CV188_lb_003r_08"/><label n="280"><num><w>CCXXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
-          <w>rusticorum</w>
+          <w>rusticanorum</w>
           <w>
             <choice>
-              <abbr>sedition<am><g ref="#etilde"/></am></abbr>
-              <expan>seditione<ex>m</ex></expan>
+              <abbr>siditi<lb rend="below align-right"/>on<am><g ref="#etilde"/></am></abbr>
+              <expan>siditi<lb rend="below align-right"/>one<ex>m</ex></expan>
             </choice>
           </w>
         </ab>
-        <lb n="8" xml:id="CV188_lb_064r_08"/>
+
         <ab corresp="#CV188_p_281">
-          <label n="281"><num><w>CCLXXXI</w></num></label>
+          <lb n="9" xml:id="CV188_lb_003r_09"/><label n="281"><num><w>CCLXXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>furta</w>
-          <w><g ref="#openetlig"/></w>
+          <w>et</w>
           <w>pena</w>
           <w>finita</w>
         </ab>
-        <lb n="9" xml:id="CV188_lb_064r_09"/>
+        
         <ab corresp="#CV188_p_094v_282">
-          <label n="282"><num><w>CCLXXXII</w></num></label>
+          <lb n="10" xml:id="CV188_lb_003r_10"/><label n="282"><num><w>CCLXXXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
-          <w>
-            <choice>
-              <abbr><am><g ref="#qtilde"/></am></abbr>
-              <expan>q<ex>uis</ex></expan>
-            </choice>
-          </w>
+          <w>quis</w>
           <w>de</w>
           <w>casa</w>
-          <w>lignum</w>
-          <w>qualib<g ref="#openetlig"/></w>
-          <w>fura<c corresp="#v">u</c>erit</w>
+          <w>ligna</w>
+          <w>fura<lb rend="below align-right"/><c corresp="#v">u</c>erit</w>
         </ab>
-        <lb n="10" xml:id="CV188_lb_064r_10"/>
+        
         <ab corresp="#CV188_p_283">
-          <label n="283"><num><w>CCLXXXIII</w></num></label>
-          <w><hi rend="cap">S</hi>i</w>
-          <w>
-            <choice>
-              <abbr><am><g ref="#qtilde"/></am></abbr>
-              <expan>q<ex>uis</ex></expan>
-            </choice>
-          </w>
-          <w>de</w>
+          <lb n="11" xml:id="CV188_lb_003r_11"/><label n="283"><num><w>CCLXXXIII</w></num></label>
+          <w><hi rend="cap">D</hi>e</w>
           <w>lignamen</w>
-          <w>
-            <choice>
-              <abbr>dolat<am><g ref="#utilde"/></am></abbr>
-              <expan>dolatu<ex>m</ex></expan>
-            </choice>
-          </w>
-          <w>fura<c corresp="#v">u</c>erit</w>
+          <w><choice>
+            <abbr>adunat<am><g ref="#utilde"/></am></abbr>
+            <expan>adunatu<ex>m</ex></expan>
+          </choice></w>
         </ab>
-        <lb n="11" xml:id="CV188_lb_064r_11"/>
+        
         <ab corresp="#CV188_p_284">
-          <label n="284"><num><w>CCLXXXIIII</w></num></label>
+          <lb n="12" xml:id="CV188_lb_003r_12"/><label n="284"><num><w>CCLXXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>orto</w>
         </ab>
-        <lb n="12" xml:id="CV188_lb_064r_12"/>
+        
         <ab corresp="#CV188_p_094v_285">
-          <label n="285"><num><w>CCLXXXV</w></num></label>
+          <lb n="13" xml:id="CV188_lb_003r_13"/><label n="285"><num><w>CCLXXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
-          <term ref="#iderzun" xml:id="CV188_term_iderzun" xml:lang="lng"><w>iderzon</w></term>
-          <gloss target="#CV188_term_iderzun" xml:id="CV188_gloss_iderzun">
-            <w>id</w>
-            <w>est</w>
-            <w>sepem</w>
-          </gloss>
-        </ab>
-        <lb n="13" xml:id="CV188_lb_064r_13"/>
-        <ab corresp="#CV188_p_094v_286">
-          <label n="286"><num><w>CCLXXXVI</w></num></label>
-          <w><hi rend="cap">D</hi>e</w>
-          <w>axegias</w>
-        </ab>
-        <lb n="14" xml:id="CV188_lb_064r_14"/>
-        <ab corresp="#CV188_p_094v_287">
-          <label n="287"><num><w>CCLXXXVII</w></num></label>
-          <w><hi rend="cap">D</hi>e</w>
+          <!-- CE 34-5
+            <term ref="#iderzun" xml:id="CV188_term_iderzun" xml:lang="lng"><w>iderzon</w></term>
+            <gloss target="#CV188_term_iderzun" xml:id="CV188_gloss_iderzun">
+              <w>id</w>
+              <w>est</w>
+              <w>sepem</w>
+            </gloss>-->
           <w>sepe</w>
+        </ab>
+        
+        <ab corresp="#CV188_p_094v_286">
+          <lb n="14" xml:id="CV188_lb_003r_14"/><label n="286"><num><w>CCLXXX<g ref="#romnumsix"/></w></num></label>
+          <w><hi rend="cap">D</hi>e</w>
+          <w>axeg<space extent="1" unit="char"/>ias</w>
+        </ab>
+        
+        <ab corresp="#CV188_p_094v_287">
+          <lb n="15" xml:id="CV188_lb_003r_15"/><label n="287"><num><w>CCLXXX<g ref="#romnumsix"/>I</w></num></label>
+          <w><hi rend="cap">D</hi>e</w>
+          <w>s<add place="above" rend="small">e</add>pe</w>
           <w>stantaria</w>
         </ab>
-        <lb n="15" xml:id="CV188_lb_064r_15"/>
+        
         <ab corresp="#CV188_p_094v_288">
-          <label n="288"><num><w>CCLXXXVIII</w></num></label>
+          <lb n="16" xml:id="CV188_lb_003r_16"/><label n="288"><num><w>CCLXXX<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#plovum" xml:id="CV188_term_plovum" xml:lang="lng"><w>plo<c corresp="#v">u</c>o</w></term>
         </ab>
-        <lb n="16" xml:id="CV188_lb_064r_16"/>
+        
         <ab corresp="#CV188_p_095r_289">
-          <label n="289"><num><w>CCCLXXXVIIII</w></num></label>
+          <lb n="17" xml:id="CV188_lb_003r_17"/><label n="289"><num><w>CCCLXXX<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
-          <w>tentinno</w>
+          <w>tintinno</w>
         </ab>
-        <lb n="17" xml:id="CV188_lb_064r_17"/>
+        
         <ab corresp="#CV188_p_095r_290">
-          <label n="290"><num><w>CCLXC</w></num></label>
+          <lb n="18" xml:id="CV188_lb_003r_18"/><label n="290"><num><w>CCLXC</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
-          <w>iugum</w>
+          <w>iugo</w>
         </ab>
-        <lb n="18" xml:id="CV188_lb_064r_18"/>
+        
         <ab corresp="#CV188_p_095r_291">
-          <label n="291"><num><w>CCLXCI</w></num></label>
+          <lb n="19" xml:id="CV188_lb_003r_19"/><label n="291"><num><w>CCLXCI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>sogas</w>
         </ab>
-        <lb n="19" xml:id="CV188_lb_064r_19"/>
+        
         <ab corresp="#CV188_p_095r_292">
-          <label n="292"><num><w>CCLXCII</w></num></label>
+          <lb n="20" xml:id="CV188_lb_003r_20"/><label n="292"><num><w>CCLXCII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><c corresp="#v">u</c>ite</w>
           <w>u<c corresp="#v">u</c>arum</w>
         </ab>
-        <lb n="20" xml:id="CV188_lb_064r_20"/>
+        
+        <!-- #######################################  folio 3v  ####################################### -->
+
+        <pb n="3v" xml:id="CV188_folio_003v"/>
+
         <ab corresp="#CV188_p_095r_293">
-          <label n="293"><num><w>CCLXCIII</w></num></label>
+          <lb n="1" xml:id="CV188_lb_003v_01"/><label n="293"><num><w>CCLXCIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>palo</w>
-          <w>quod</w>
-          <w>est</w>
-          <w>caratio</w>
+          <w>carracio</w>
         </ab>
-        <lb n="21" xml:id="CV188_lb_064r_21"/>
+        
         <ab corresp="#CV188_p_095r_294">
-          <label n="294"><num><w>CCLXCIIII</w></num></label>
+          <lb n="2" xml:id="CV188_lb_064r_02"/><label n="294"><num><w>CCLXCIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><c corresp="#v">u</c>ite</w>
           <w>incisa</w>
         </ab>
-        <lb n="22" xml:id="CV188_lb_064r_22"/>
+        
         <ab corresp="#CV188_p_095r_295">
-          <label n="295"><num><w>CCLXCV</w></num></label>
+          <lb n="3" xml:id="CV188_lb_064r_03"/><label n="295"><num><w>CCLXCV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>tra<c corresp="#v">u</c>icem</w>
           <w><c corresp="#v">u</c>itis</w>
         </ab>
-        <lb n="23" xml:id="CV188_lb_064r_23"/>
+        
         <ab corresp="#CV188_p_095r_296">
-          <label n="296"><num><w>CCLXCVI</w></num></label>
+          <lb n="4" xml:id="CV188_lb_064r_04"/><label n="296"><num><w>CCLXC<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>u<c corresp="#v">u</c>as</w>
         </ab>
-        <lb n="24" xml:id="CV188_lb_064r_24"/>
+        
         <ab corresp="#CV188_p_095r_297">
-          <label n="297"><num><w>CCLXCVII</w></num></label>
+          <lb n="5" xml:id="CV188_lb_064r_05"/><label n="297"><num><w>CCLXC<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
-          <w>ambulatorias</w>
+          <w>ambolatorias</w>
         </ab>
-        <lb n="25" xml:id="CV188_lb_064r_25"/>
+        
         <ab corresp="#CV188_p_095r_298">
-          <label n="298"><num><w>CCLXCVIII</w></num></label>
+          <lb n="6" xml:id="CV188_lb_064r_06"/><label n="298"><num><w>CCLXC<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
-          <w>capistros</w>
-        </ab>
-        <!-- leggi 299 e 300 invertite -->
-        <lb n="26" xml:id="CV188_lb_064r_26"/>
-        <ab corresp="#CV188_p_095r_300">
-          <label n="299"><num><w>CCLXCVIIII</w></num></label>
-          <w><hi rend="cap">D</hi>e</w>
-          <w>arbores</w>
+          <w>cabistro</w>
         </ab>
 
-        <pb n="064v" xml:id="CV188_folio_064v"/>
-
-        <lb n="1" xml:id="CV188_lb_064v_01"/>
         <ab corresp="#CV188_p_095r_299">
-          <label n="300"><num><w>CCC</w></num></label>
+          <lb n="7" xml:id="CV188_lb_064v_07"/><label n="299"><num><w>CCLXC<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
-          <w>r<g ref="#openetlig"/>es</w>
+          <w>rete</w>
         </ab>
-        <lb n="2" xml:id="CV188_lb_064v_02"/>
+
+        <ab corresp="#CV188_p_095r_300">
+          <lb n="8" xml:id="CV188_lb_064v_08"/><label n="300"><num><w>CCC</w></num></label>
+          <w><hi rend="cap">D</hi>e</w>
+          <w>arbore</w>
+        </ab>
+        
         <ab corresp="#CV188_p_095v_301">
-          <label n="301"><num><w>CCCI</w></num></label>
+          <lb n="9" xml:id="CV188_lb_064v_09"/><label n="301"><num><w>CCCI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>castenia</w>
           <w>noce</w>
@@ -1498,6 +1420,11 @@
           <w>aut</w>
           <w>melo</w>
         </ab>
+
+
+
+
+
         <lb n="3" xml:id="CV188_lb_064v_03"/>
         <ab corresp="#CV188_p_095v_302">
           <label n="302"><num><w>CCCII</w></num></label>
