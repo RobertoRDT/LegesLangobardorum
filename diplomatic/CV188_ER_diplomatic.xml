@@ -1856,24 +1856,26 @@
         <ab corresp="#CV188_p_099v_349">
           <lb n="6" xml:id="CV188_lb_005r_06"/><label n="349"><num><w>CCCXL<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
-          <w>porci</w>
+          <w>porcus</w>
+          <add place="above"><w><g ref="#slong"/>i</w></add>
           <w>in</w>
           <w>isca</w>
           <w>alterius</w>
+          <w>pa<c corresp="#v">u</c>erit</w>
         </ab>
 
         <ab corresp="#CV188_p_099v_350">
           <lb n="7" xml:id="CV188_lb_005r_07"/><label n="350"><num><w>CCCL</w></num></label>
-          <w><hi rend="cap">S</hi>i</w>
-          <w>quis</w>
-          <w>In</w>
-          <w>prado</w>
-          <w>porcum</w>
+          <w><hi rend="cap">D</hi>e</w>
+          <w>porcus</w>
+          <add place="above"><w>si</w></add>
+          <w>in</w>
+          <w>prato</w>
           <w>fossas</w>
-          <w>facientem</w>
-          <add hand="scribe_1" place="above">
-            <w>In<c corresp="#v">u</c>enerit</w>
-          </add>
+          <w><choice>
+            <abbr>facient<am><g ref="#etilde"/></am></abbr>
+            <expan>faciente<ex>m</ex></expan>
+          </choice></w>
         </ab>
 
         <ab corresp="#CV188_p_100r_351">
@@ -1886,7 +1888,7 @@
           <lb n="9" xml:id="CV188_lb_005r_09"/><label n="352"><num><w>CCCLII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>porcario</w>
-          <w>battudo</w>
+          <w>battuto</w>
         </ab>
 
         <ab corresp="#CV188_p_100r_353">
@@ -1894,6 +1896,7 @@
           <w><hi rend="cap">S</hi>i</w>
           <w>duo</w>
           <w>porcarii</w>
+          <w>inter</w>
           <w>se</w>
           <w>re<lb n="11" xml:id="CV188_lb_005r_11"/>xa<c corresp="#v">u</c>erent</w>
         </ab>
@@ -1902,78 +1905,77 @@
           <lb n="12" xml:id="CV188_lb_005r_12"/><label n="354"><num><w>CCCLIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>campo</w>
-          <w>alieno</w>
-          <w>arato</w>
+          <w><choice>
+            <abbr>alien<am><g ref="#utilde"/></am></abbr>
+            <expan>alienu<ex>m</ex></expan>
+          </choice></w>
+          <w>aratum</w>
         </ab>
 
         <ab corresp="#CV188_p_100r_355">
-          <lb n="13" xml:id="CV188_lb_005r_13"/><label n="354"><num><w>CCCLIIII</w></num></label>
+          <lb n="13" xml:id="CV188_lb_005r_13"/><label n="354"><num><w>CCCLV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>campo</w>
-          <w>exarado</w>
+          <w>exarato</w>
         </ab>
 
         <ab corresp="#CV188_p_100r_356">
-          <lb n="14" xml:id="CV188_lb_005r_14"/><label n="355"><num><w>CCCLV</w></num></label>
+          <lb n="14" xml:id="CV188_lb_005r_14"/><label n="355"><num><w>CCCL<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>prato</w>
-          <w>secato</w>
+          <w>segato</w>
+          <w>aut</w>
+          <w>exarato</w>
         </ab>
 
         <ab corresp="#CV188_p_100v_357">
-          <lb n="15" xml:id="CV188_lb_005r_15"/><label n="357"><num><w>CCCLVI</w></num></label>
+          <lb n="15" xml:id="CV188_lb_005r_15"/><label n="357"><num><w>CCCL<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
-          <w>
-            <choice>
-              <abbr><am><g ref="#qtilde"/></am></abbr>
-              <expan>q<ex>uis</ex></expan>
-            </choice>
-          </w>
-          <w>campo</w>
+          <w>quis</w>
+          <w><choice>
+            <abbr>camp<am><g ref="#utilde"/></am></abbr>
+            <expan>campu<ex>m</ex></expan>
+          </choice></w>
           <w>alterius</w>
-          <w>cum</w>
-          <lb n="16" xml:id="CV188_lb_005r_16"/><w>peculio</w>
-          <w>deligerit</w>
+          <w><choice>
+            <abbr>c<am><g ref="#utilde"/></am></abbr>
+            <expan>cu<ex>m</ex></expan>
+          </choice></w>
+          <lb n="16" xml:id="CV188_lb_005r_16"/><w>peculium</w>
+          <w>delierit</w>
         </ab>
 
         <ab corresp="#CV188_p_100v_358">
-          <lb n="17" xml:id="CV188_lb_005r_17"/><label n="357"><num><w>CCCLVII</w></num></label>
-          <w><hi rend="cap">N</hi>ulli</w>
-          <w>sit</w>
-          <w>licentia</w>
-          <w>iterantibus</w>
+          <lb n="17" xml:id="CV188_lb_005r_17"/><label n="357"><num><w>CCCL<g ref="#romnumsix"/>II</w></num></label>
+          <w><hi rend="cap">N</hi>on</w>
+          <w>devit</w>
+          <w>eterantibus</w>
           <w>er<lb n="18" xml:id="CV188_lb_005r_18"/>ba</w>
           <w>negare</w>
-          <w>
-            <choice>
-              <abbr>herb<am><g ref="#atilde"/></am></abbr>
-              <expan>herba<ex>m</ex></expan>
-            </choice>
-          </w>
         </ab>
 
         <ab corresp="#CV188_p_100v_359">
-          <lb n="19" xml:id="CV188_lb_005r_19"/><label n="358"><num><w>CCCLVIII</w></num></label>
+          <lb n="19" xml:id="CV188_lb_005r_19"/><label n="358"><num><w>CCCL<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>sagramentis</w>
         </ab>
 
-        <ab corresp="#CV188_p_100v_359">
-          <lb n="20" xml:id="CV188_lb_005r_20"/><label n="359"><num><w>CCCLVIIII</w></num></label>
+        <ab corresp="#CV188_p_100v_360">
+          <lb n="20" xml:id="CV188_lb_005r_20"/><label n="360"><num><w>CCCLX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#wadia" xml:id="CV188_term_wadia" xml:lang="lng">
             <w><c corresp="#v">u</c><c corresp="#v">u</c>adia</w>
           </term>
-          <w><g ref="#openetlig"/></w>
-          <w>fideiussore</w>
+          <w>et</w>
+          <w>fidiussorem</w>
         </ab>
 
-        <!-- #######################################  folio 5r  ####################################### -->
+        <!-- #######################################  folio 5v  ####################################### -->
         
         <pb n="5v" xml:id="CV188_folio_005v"/>
         
         <ab corresp="#CV188_p_101r_361">
-          <label n="360"><num><w>CCCLX</w></num></label>
+          <label n="360"><num><w>CCCLXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -1989,7 +1991,7 @@
           <w>sacramentum</w>
           <w>dederit</w>
         </ab>
-        <lb n="14" xml:id="CV188_lb_065v_14"/>
+
         <ab corresp="#CV188_p_101r_362">
           <label n="361"><num><w>CCCLXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -2015,7 +2017,7 @@
           <w>aliquis</w>
           <w>moriat<g ref="#ur"/></w>
         </ab>
-        <lb n="15" xml:id="CV188_lb_065v_15"/>
+
         <ab corresp="#CV188_p_101v_363">
           <label n="362"><num><w>CCCLXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
@@ -2027,7 +2029,7 @@
           </w>
           <w>ruptu</w>
         </ab>
-        <lb n="16" xml:id="CV188_lb_065v_16"/>
+
         <ab corresp="#CV188_p_101v_364">
           <label n="363"><num><w>CCCLXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
@@ -2036,7 +2038,7 @@
           <w>primus</w>
           <w>manifesta<c corresp="#v">u</c>erit</w>
         </ab>
-        <lb n="17" xml:id="CV188_lb_065v_17"/>
+
         <ab corresp="#CV188_p_102r_365">
           <label n="364"><num><w>CCCLXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
@@ -2044,7 +2046,7 @@
           <w>patris</w>
           <w>mortui</w>
         </ab>
-        <lb n="18" xml:id="CV188_lb_065v_18"/>
+
         <ab corresp="#CV188_p_102r_366">
           <label n="365"><num><w>CCCLXV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -2058,7 +2060,7 @@
             <w>Intentio</w>
           </add>
         </ab>
-        <lb n="19" xml:id="CV188_lb_065v_19"/>
+
         <ab corresp="#CV188_p_102r_367">
           <label n="366"><num><w>CCCLXVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
@@ -2066,7 +2068,7 @@
             <w><c corresp="#v">u</c><c corresp="#v">u</c>aregang</w>
           </term>
         </ab>
-        <lb n="20" xml:id="CV188_lb_065v_20"/>
+
         <ab corresp="#CV188_p_102r_368">
           <label n="367"><num><w>CCCLXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
@@ -2077,14 +2079,14 @@
             </choice>
           </w>
         </ab>
-        <lb n="21" xml:id="CV188_lb_065v_21"/>
+
         <ab corresp="#CV188_p_102v_369">
           <label n="368"><num><w>CCCLXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>causas</w>
           <w>regales</w>
         </ab>
-        <lb n="22" xml:id="CV188_lb_065v_22"/>
+
         <ab corresp="#CV188_p_102v_370">
           <label n="369"><num><w>CCCLXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -2093,7 +2095,7 @@
           <term ref="#mordh" xml:id="CV188_term_mordh" xml:lang="lng"><w>mord</w></term>
           <w>fecerit</w>
         </ab>
-        <lb n="23" xml:id="CV188_lb_065v_23"/>
+
         <ab corresp="#CV188_p_102v_371">
           <label n="370"><num><w>CCCLXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
@@ -2101,7 +2103,7 @@
           <w><c corresp="#v">u</c>ero</w>
           <w>causas</w>
         </ab>
-        <lb n="24" xml:id="CV188_lb_065v_24"/>
+
         <ab corresp="#CV188_p_102v_372">
           <label n="371"><num><w>CCCLXXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -2115,7 +2117,7 @@
           </w>
           <w>fecerit</w>
         </ab>
-        <lb n="25" xml:id="CV188_lb_065v_25"/>
+
         <ab corresp="#CV188_p_102v_373">
           <label n="372"><num><w>CCCLXXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -2131,7 +2133,7 @@
           <w>sculdais</w>
         </ab>
 
-        <lb n="1" xml:id="CV188_lb_066r_01"/>
+
         <ab corresp="#CV188_p_103r_375">
           <label n="374"><num><w>CCCLXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
@@ -2144,7 +2146,7 @@
           <lb n="2" xml:id="CV188_lb_066r_02"/>
           <w>quesierit</w>
         </ab>
-        <lb n="3" xml:id="CV188_lb_066r_03"/>
+
         <ab corresp="#CV188_p_103r_376">
           <label n="375"><num><w>CCCLXXV</w></num></label>
           <w><hi rend="cap">N</hi>ullus</w>
@@ -2156,7 +2158,7 @@
           <w>stricam</w>
           <w>clamare</w>
         </ab>
-        <lb n="5" xml:id="CV188_lb_066r_05"/>
+
         <ab corresp="#CV188_p_103r_377">
           <label n="376"><num><w>CCCLXXVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
@@ -2180,7 +2182,7 @@
             </choice>
           </w>
         </ab>
-        <lb n="6" xml:id="CV188_lb_066r_06"/>
+
         <ab corresp="#CV188_p_103v_378">
           <label n="377"><num><w>CCCLXXVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -2202,7 +2204,6 @@
         
         <fw place="top-right" type="fol"><add hand="unknown">6</add></fw>
         
-        <lb n="7" xml:id="CV188_lb_066r_07"/>
         <ab corresp="#CV188_p_103v_379">
           <label n="378"><num><w>CCCLXXVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -2233,7 +2234,7 @@
           </w>
           <w>disturba<c corresp="#v">u</c>erit</w>
         </ab>
-        <lb n="8" xml:id="CV188_lb_066r_08"/>
+
         <ab corresp="#CV188_p_103v_380">
           <label n="379"><num><w>CCCLXXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -2256,7 +2257,7 @@
           <w>aliena</w>
           <w>tullerit</w>
         </ab>
-        <lb n="9" xml:id="CV188_lb_066r_09"/>
+
         <ab corresp="#CV188_p_103v_381">
           <label n="380"><num><w>CCCLXXX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -2270,7 +2271,7 @@
           <term ref="#arga" xml:id="CV188_term_arga" xml:lang="lng"><w>arga</w></term>
           <w>clama<c corresp="#v">u</c>erit</w>
         </ab>
-        <lb n="10" xml:id="CV188_lb_066r_10"/>
+
         <ab corresp="#CV188_p_104r_382">
           <label n="381"><num><w>CCCLXXXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -2291,7 +2292,7 @@
           <w>ut</w>
           <w>cadat</w>
         </ab>
-        <lb n="11" xml:id="CV188_lb_066r_11"/>
+
         <ab corresp="#CV188_p_103v_383">
           <label n="382"><num><w>CCCLXXXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -2317,10 +2318,9 @@
           <w>barbas</w>
           <w>aut</w>
           <w>capillos</w>
-          <lb n="12" xml:id="CV188_lb_066r_12"/>
           <w>traxerit</w>
         </ab>
-        <lb n="13" xml:id="CV188_lb_066r_13"/>
+
         <ab corresp="#CV188_p_103v_384">
           <label n="383"><num><w>CCCLXXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
@@ -2330,7 +2330,7 @@
           <w>tibia</w>
           <w>rupta</w>
         </ab>
-        <lb n="14" xml:id="CV188_lb_066r_14"/>
+
         <ab corresp="#CV188_p_104r_385">
           <label n="384"><num><w>CCCLXXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
@@ -2339,14 +2339,14 @@
           <w>aut</w>
           <w>debito</w>
         </ab>
-        <lb n="15" xml:id="CV188_lb_066r_15"/>
+
         <ab corresp="#CV188_p_104r_386">
           <label n="385"><num><w>CCCLXXXV</w></num></label>
           <w>presentis</w>
           <w><c corresp="#v">u</c>ero</w>
           <w>dispositionis</w>
         </ab>
-        <lb n="16" xml:id="CV188_lb_066r_16"/>
+
         <ab corresp="#CV188_p_104v_387">
           <label n="386"><num><w>CCCLXXXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -2361,7 +2361,7 @@
           <w>nolendum</w>
           <w>occiderit</w>
         </ab>
-        <lb n="17" xml:id="CV188_lb_066r_17"/>
+
         <ab corresp="#CV188_p_104v_388">
           <label n="387"><num><w>CCCLXXXVII</w></num></label>
           <w>hoc</w>
@@ -2372,7 +2372,7 @@
         <!-- errore di numerazione, alla rubrica 388 corrisponde una parte del capitulum 388 del testo -->
 
         <ab corresp="#CV188_p_104v_388">
-          <lb n="18" xml:id="CV188_lb_066r_18"/><label n="388"><num><w>CCCLXXXVIII</w></num></label>
+          <label n="388"><num><w>CCCLXXXVIII</w></num></label>
           <w><hi rend="cap">E</hi>t</w>
           <w>hoc</w>
           <w>generaliter</w>
