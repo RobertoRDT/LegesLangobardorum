@@ -2473,8 +2473,8 @@
           <w>dede<lb n="17" xml:id="CV188_lb_019r_17"/>rit</w><reg>,</reg>
           <w>
             <choice>
-              <sic>anime</sic>
-              <corr resp="bluhme">animae</corr>
+              <orig>anime</orig>
+              <reg>animae</reg>
             </choice></w>
           <w>suae</w>
           <w>incurrat</w>
@@ -2524,8 +2524,8 @@
           <w>exercitum</w>
           <w>sedu<lb n="04" xml:id="CV188_lb_019v_04"/>xerit</w><reg>,</reg>
           <choice>
-            <sic>anime</sic>
-            <corr resp="RRDT">animae</corr>
+            <orig>anime</orig>
+            <reg resp="RRDT">animae</reg>
           </choice>
           <w>suae</w>
           <w>incurrat</w>
@@ -2631,7 +2631,7 @@
           <w>regem</w>
           <w>incusa<c corresp="#v">u</c>erit</w><reg>,</reg>
           <w>quod</w>
-          <lb n="16" xml:id="CV188_lb_019v_16"/><w><choice><sic>anime</sic><corr resp="bluhme">animae</corr>
+          <lb n="16" xml:id="CV188_lb_019v_16"/><w><choice><orig>anime</orig><reg resp="bluhme">animae</reg>
             </choice></w>
           <w>perteneat</w>
           <w>periculum</w><reg>,</reg>
@@ -4169,7 +4169,7 @@
           <w>iniquo</w>
           <w>animo</w><reg>,</reg>
           <w><choice><!-- CHECK segno dopo n fine rigo? -->
-            <sic>octu<add place="above">a</add><del rend="overstrike">gi</del>n<lb n="2"/>g<subst><del rend="overwritten">e</del><add place="inline">i</add></subst>nta</sic>
+            <sic>octu<add place="above">a</add><del rend="overstrike">gi</del>n<lb n="2"/>g<subst><del rend="overwrite">e</del><add place="inline">i</add></subst>nta</sic>
             <corr>octua<lb n="2"/>ginta</corr>
           </choice></w>
           <w>solidus</w>
@@ -4212,7 +4212,7 @@
           <term ref="#walupaus" xml:lang="lng">
             <w><c corresp="#v">u</c><c corresp="#v">u</c>alapautz</w>
           </term>
-          <w>octu<add place="above">a</add>g<subst><del rend="overwritten">e</del><add place="inline">i</add></subst>nta</w>
+          <w>octu<add place="above">a</add>g<subst><del rend="overwrite">e</del><add place="inline">i</add></subst>nta</w>
           <lb n="8"/><w><choice><abbr>so<am><g ref="#ltailstrok"/></am></abbr><expan>sol<ex>idos</ex></expan>
             </choice></w>
           <w>ei</w>
@@ -4281,7 +4281,7 @@
           <lb n="19"/><w>dit</w>
           <w>pro</w>
           <w>se</w>
-          <w>octu<add place="above">a</add>g<subst><del rend="overwritten">e</del><add place="inline">i</add></subst>nta</w>
+          <w>octu<add place="above">a</add>g<subst><del rend="overwrite">e</del><add place="inline">i</add></subst>nta</w>
           <w><choice>
               <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
               <expan>sol<ex>idos</ex></expan></choice></w><reg>:</reg>
@@ -4422,7 +4422,7 @@
             <abbr>ecclesi<am><g ref="#atilde"/></am></abbr>
             <expan>ecclesia<ex>m</ex></expan>
           </choice></w>
-          <w>pen<subst><del rend="overwritten">n</del><add place="inline">e</add></subst><lb n="19"/>traverit</w><reg>,</reg><!-- CHECK 
+          <w>pen<subst><del rend="overwrite">n</del><add place="inline">e</add></subst><lb n="19"/>traverit</w><reg>,</reg><!-- CHECK 
             sfondo particolare, altra e finale cancellata? -->
           <w>quadragenta</w>
           <w><choice>
@@ -4579,7 +4579,7 @@
             <reg>Nam</reg>
           </choice></w>
           <w>si</w>
-          <w>perf<subst><del rend="overwritten">i</del><add place="inline">e</add></subst>cerit</w>
+          <w>perf<subst><del rend="overwrite">i</del><add place="inline">e</add></subst>cerit</w>
           <lb n="18" rend="align-right"/><w>et</w>
           <space extent="6"/><w>percusserit</w><reg>,</reg>
           <w>sit</w>
@@ -17184,7 +17184,7 @@
             </choice></w>
           <w>socia<lb n="9" xml:id="CV188_lb_063v_9"/>re</w>
           <w><choice>
-              <sic>anime</sic>
+              <orig>anime</orig>
               <corr>animae</corr>
             </choice></w>
           <w>suae</w>
@@ -21957,7 +21957,10 @@
           <fw place="top-right" type="fol"><add hand="unknown">76</add></fw>
           <lb n="1" xml:id="CV188_lb_076r_01"/><w>fugax</w>
           <w>est</w>
-          <w>anime</w>
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>suae</w>
           <w>incurrat</w>
           <w>pe<lb n="2" xml:id="CV188_lb_076r_02"/>riculum</w>
@@ -23218,7 +23221,10 @@
           <w>in</w>
           <lb n="24" xml:id="CV188_lb_078r_24"/><w>capite</w>
           <w>fuerit</w>
-          <w>anime</w>
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>suae</w>
           <w>incurrat</w>
           <w>
@@ -29523,7 +29529,10 @@
           <w>regis</w>
           <w>si</w>
           <w>fecerit</w>
-          <w>anime</w>
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>su<lb n="3" xml:id="CV188_lb_097v_03"/>ae</w>
           <w>incurrat</w>
           <w>periculum</w>
