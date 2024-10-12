@@ -230,6 +230,14 @@
           <mapping type="normalized">p</mapping>
         </char>
 
+        <!-- aggiunto 2024-10 -->
+        <char xml:id="Ptilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER P WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0050 + U+0303</mapping>
+          <mapping type="diplomatic">P̃</mapping>
+          <mapping type="normalized">P</mapping>
+        </char>
+        
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="qtilde">
           <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH TILDE"/>
@@ -237,7 +245,6 @@
           <mapping type="diplomatic">q̃</mapping>
           <mapping type="normalized">q</mapping>
         </char>
-
 
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="nscapslonglig">
@@ -409,6 +416,14 @@
           <mapping type="normalized">et</mapping>
         </char>
 
+        <!-- aggiunto 2024-10 --><!-- CHECK completamente custom per ora, v. CE34-5 f. 57r --> 
+        <glyph xml:id="eilig">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER P WITH TILDE"/>
+          <!--<mapping subtype="composed" type="codepoint">U+0050 + U+0303</mapping>-->
+          <mapping type="diplomatic">ei</mapping>
+          <mapping type="normalized">ei</mapping>
+        </glyph>
+
         <!-- aggiunto 2019-01-21 -->
         <glyph xml:id="urlig">
           <unicodeProp name="Name" value="LATIN SMALL LIGATURE UR"/>
@@ -552,6 +567,10 @@
     
     - rivedere type e subtype per i div non capitula
     - sostituire <p> con <ab> nella lista dei capitula iniziali, modificare xml:id di conseguenza
+    - sostituire <charDecl> con quella esterna
+    - controllare gli usi di etlig, non sembra il carattere giusto al f. 57r 
+      v. https://www.fileformat.info/info/unicode/char/1f672/index.htm
+    - mancango moltissimi caratteri speciali: slong, a nella forma aperta (cc)
     
     -->
 
@@ -664,8 +683,8 @@
           <w>regni</w>
           <w>
             <choice>
-              <abbr>m<am><g ref="#etlig"/></am></abbr>
-              <expan>m<ex>ei</ex></expan>
+              <abbr>m<am><g ref="#eilig"/></am></abbr>
+              <expan>me<ex>i</ex></expan>
             </choice>
           </w>
   
@@ -675,9 +694,9 @@
           <w>octabo</w>
           <w>anno</w>
           <w>
-            <choice>
-              <abbr>ablatisq<am><g ref="#twodot"/></am></abbr>
-              <expan>ablatisq<ex>ue</ex></expan>
+            <choice><!-- CHECK -->
+              <sic><abbr>aelatisq<am><g ref="#twodot"/></am></abbr></sic>
+              <corr resp="rrdt"><expan>aetatisq<ex>ue</ex></expan></corr>
             </choice>
           </w>
           <w>
@@ -695,7 +714,7 @@
           <w>advento</w>
           <w>in</w>
           <w>provincia</w>
-          <placeName ref="#Italia"><w>ital<g ref="#jnodotenl"/>e</w></placeName>
+          <placeName ref="#Italia"><w>Ital<g ref="#jnodotenl"/><g ref="#eogon"/></w></placeName>
           <lb n="3" xml:id="CE34-5_lb_057v_3"/>
           <w>langobardorum</w>
           <w>ex</w>
@@ -705,13 +724,13 @@
           <w>temporis</w>
           <lb n="4" xml:id="CE34-5_lb_057v_4"/>
           <w>regem</w>
-          <w>precedentem</w>
+          <w>pr<g ref="#eogon"/>cedentem</w>
           <w>divina</w>
           <w>potent<g ref="#jnodotenl"/>a</w>
           <w>adduct<g ref="#jnodotenl"/></w>
           <w>
             <choice>
-              <abbr><am><g ref="#stilde"/></am>o</abbr>
+              <abbr><am><g ref="#stilde"/></am></abbr>
               <expan>s<ex>unt</ex></expan>
             </choice>
           </w>
@@ -785,7 +804,7 @@
           <w>
             <choice>
               <abbr>om<am><g ref="#ptilde"/></am>tis</abbr>
-              <expan>om<ex>ni</ex>p<ex>o</ex>t<ex>en</ex>is</expan>
+              <expan>om<ex>ni</ex>p<ex>oten</ex>tis</expan>
             </choice>
           </w>
           <w>grat<g ref="#jnodotenl"/>am</w>
@@ -846,7 +865,7 @@
           <w>salua</w>
           <w>lege</w>
           <w><g ref="#openetlig"/></w>
-          <w>iustit<g ref="#jnodotenl"/>a</w>
+          <w>iustit<g ref="#jnodotenl"/><g ref="#atilde"/></w> <!-- CHECK actually a versione cc/alfpha shaped -->
           <w>qui<g ref="#openetlig"/>e</w>
           <w><c corresp="#v">u</c>i<c corresp="#v">u</c>ere</w>
           <lb n="18" xml:id="CE34-5_lb_057v_18"/>
@@ -946,7 +965,7 @@
 
       <div subtype="edition_text" type="prose" xml:id="CE34-5_ER_Catalogus_regum">
 
-        <p>
+        <p><!-- CHECK mancano regolarizzazioni -->
           <lb n="25" xml:id="CE34-5_lb_057v_25"/>
           <w><hi rend="black and red">F</hi>uit</w>
           <w>primus</w>
@@ -954,8 +973,8 @@
           <w>rex</w>
           <w>ex</w>
           <w>genere</w>
-          <persName xml:lang="lng">
-            <surname><w>gunzingur</w></surname>
+          <persName xml:lang="lng"><!-- CHECK manca ref -->
+            <surname><w>gunzingus</w></surname>
           </persName>
           <lb n="26" xml:id="CE34-5_lb_057v_26"/>
           <persName ref="#Laamisio"><w><hi rend="black and red">L</hi>aamisio</w></persName>
@@ -963,7 +982,7 @@
           <persName ref="#Geldehoc"><w><hi rend="cap">G</hi>eldehoc</w></persName>
           <persName ref="#Godeoch"><w><hi rend="cap">G</hi>odeoch</w></persName>
           <w>filius</w>
-          <persName ref="#Zeldehoc"><w>zeldehoc</w></persName>
+          <lb/><add place="below" rend="align-right"><persName ref="#Zeldehoc"><w>zeldehoc</w></persName></add><!-- CHECK add o lb? -->
   
         <pb n="058r" xml:id="CE34-5_folio_058r"/>
   
@@ -6295,7 +6314,10 @@
           <w>incusa<c corresp="#v">u</c>erit</w>
           <lb n="23" xml:id="CE34-5_lb_066v_23"/><w>quod</w>
           <w>ad</w>
-          <w>anime</w>
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>
             <choice>
               <abbr><am><g ref="#pbardes"/></am>tineat</abbr>
@@ -8498,7 +8520,10 @@
           <lb n="17" xml:id="CE34-5_lb_069v_17"/>
           <w>penetrare</w>
           <w>pr<g ref="#eogon"/>sumpserit</w>
-          <w>anime</w>
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>su<g ref="#eogon"/></w>
           <w>incurrat</w>
           <w>
@@ -22205,7 +22230,10 @@
             </choice>
           </w>
           <w>sociare</w>
-          <w>anime</w>
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>suae</w>
           <w>incurrat</w>
           <w>periculum</w>
@@ -25633,7 +25661,10 @@
           <measure quantity="80" type="currency" unit="soldi"><w>LXXX</w></measure>
           <lb n="21" xml:id="CE34-5_lb_091r_21"/>
           <w>aut</w>
-          <w>anime</w>
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>suae</w>
           <w>Incurrat</w>
           <w>periculum</w>
@@ -28096,7 +28127,10 @@
           <w>in</w>
           <w>capite</w>
           <w>fuerit</w>
-          <w>anime</w>
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>sue</w>
           <w>Incurrat</w>
           <w>
@@ -35209,7 +35243,10 @@
           <w>regis</w>
           <w>si</w>
           <w>fecerit</w>
-          <w>anime</w>
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>sue</w>
           <w>Incurrat</w>
           <w>per<g ref="#jnodotenl"/><lb n="19" xml:id="CE34-5_lb_102v_19"/>culu</w>

@@ -480,9 +480,9 @@
   <!-- TODO:
             
     + aggiornare schema di codifica
-    - inserire le rubriche iniziali nel <front>
+    + inserire le rubriche iniziali
     - aggiungere @corresp alle glosse relative per i <term>, in modo da poter anche individuare quali <term> hanno una <gloss>
-    - aggiungere @rend per <del>
+    - aggiungere @rend per <del> che non ce l'hanno, controllare i rend esistenti
     - aggiungere <listPerson> con id per nomi di persona
     - aggiungere <num value="900">dcccc</num> (con valori corretti ovviamente) per tutti i numeri
     - aggiungere carattere per d enlarged in tutte le iniziali dei capitula
@@ -494,11 +494,12 @@
     + TUTTA la trascrizione 1-50 è da controllare e completare
     - sistematizzare tutti i "capX.Y"
     - marcare con <num> tutti i numeri riportati
-    - correggere anime/ae in orig/reg
+    + correggere anime/ae in orig/reg (ma vedi anche sotto su dittongo ae)
     - mantenere solidos invece di regolarizzare in solidus
     - valutare se mantenere dittongo ae nelle forme regolarizzate (es. adpraetiatum ma forse più corretto adpretiatum) >>> mantenere registro linguistico uniforme
     - visualizzare supplied solo nell'interpretativa
     - mantenere numeri romani, uniformare con <num>
+    - sostituire <charDecl> con quella esterna
 
     -->
 
