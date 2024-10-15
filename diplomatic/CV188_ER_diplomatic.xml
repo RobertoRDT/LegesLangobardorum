@@ -5,19 +5,26 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>The Edictus Rothari: a machine readable transcription</title>
-        <author>Unknown</author>
+        <title>Edizione digitale dell'<title>Editto di Rotari</title>: Vercelli, Biblioteca e Archivio
+            Capitolare, Cod. CLXXXVIII (ms 2)</title>
+        <author>Rotari, re longobardo, per mano del notaio Ansoaldo.</author>
+        <principal>Marina Buzzoni</principal>
         <principal>Roberto Rosselli Del Turco</principal>
         <respStmt>
-          <resp>Conversion to TEI-conformant markup: </resp>
-          <name>Roberto Rosselli Del Turco</name>
-        </respStmt>
-        <respStmt>
           <resp>General overview: </resp>
+          <name>Marina Buzzoni</name>
           <name>Roberto Rosselli Del Turco</name>
         </respStmt>
         <respStmt>
-          <resp>Experimental style sheets: </resp>
+          <resp>Tracrizione e codifica TEI iniziale effettuata da</resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica TEI effettuata da</resp>
+          <name>Marianna Giardina</name>
+        </respStmt>
+        <respStmt>
+          <resp>Revisione e finalizzazione della codifica TEI effettuata da</resp>
           <name>Roberto Rosselli Del Turco</name>
         </respStmt>
       </titleStmt>
@@ -55,38 +62,64 @@
             <settlement>Vercelli</settlement>
             <repository>Biblioteca e Archivio Capitolare di Vercelli</repository>
             <idno>CLXXXVIII</idno>
+            <altIdentifier>
+              <settlement>Vercelli</settlement>
+              <repository>Biblioteca Capitolare</repository>
+              <idno>(ms 2)</idno><!-- CHECK format also for other witnesses -->
+            </altIdentifier>
           </msIdentifier>
+
           <msContents>
+            <summary></summary>
             <textLang mainLang="lat">The primary language in this manuscript is Latin, with a few isolated Langobardic
               words.</textLang>
 
             <msItem>
-              <locus from="1r" to="9r">1r - 9r</locus>
-              <title type="work">Homily I</title>
+              <locus from="1r" to="18r">Ff. 1r - 18r</locus>
+              <title type="work">Lista dei capitula</title>
             </msItem>
 
+            <msItem>
+              <locus from="18v" to="102v">Ff. 18v - 102v (riga 3)</locus>
+              <title type="work">Editto di Rotari</title>
+            </msItem>
+            
+            <msItem>
+              <locus from="102v" to="106v">Ff. 102v (riga 4) - 106v (riga 5)</locus>
+              <title type="work">Leggi di Grimoaldo</title>
+            </msItem>
+
+            <msItem>
+              <locus from="106v" to="169v">Ff. 106v (riga 6) - 169v</locus>
+              <title type="work">Leggi di Liutprando</title>
+            </msItem>
+
+            <msItem><!-- CHECK todo -->
+              <locus from="170r" to="169v">Ff. 170r - 171r</locus>
+              <title type="work">Leggi di Liutprando (cont.)</title>
+            </msItem>
           </msContents>
 
           <physDesc>
-            <objectDesc form="book">
+            <objectDesc form="codex">
               <supportDesc material="parchment">
                 <extent>
-                  <measure type="leaves">The codex is composed by ff. III (paper, modern); 169 (of which 5 where added
-                    in the IX c.); II (paper, XIX c.); III (paper, modern). </measure>
+                  <measure type="leaves">Il codice si compone di ff. I (carta, rilegatura moderna); II (guardia
+                    anteriore); 171 (di cui 5 sono stati aggiunti nel IX sec.); II (guardia posteriore); I (carta,
+                    rilegatura moderna).</measure>
                   <measure type="dimensions">Ca. 250 x 180 mm.</measure>
-                  <measure type="lines">21-23 lines of text per page.</measure>
+                  <measure type="lines">24-25 righe di testo per foglio.</measure>
                 </extent>
-                <collation>
-                  <p>
-                    <formula>...</formula>
-                    <signatures>...</signatures>
-                    <catchwords>None</catchwords> Quires begin on fols. 1(1), [...] </p>
-                </collation>
               </supportDesc>
+              
             </objectDesc>
 
             <handDesc>
               <handNote medium="dark_brown" xml:id="scribe2">Later hand doing sporadic additions.</handNote>
+              <handNote medium="dark_brown" xml:id="scribe3">Later hand responsible for adding lost text on f. 78 and
+                ff. 126-129r.</handNote>
+              <handNote medium="dark_brown" xml:id="scribe4">Later hand responsible for adding further text at the end of the manuscript (ff. 170-171r).</handNote>
+              <handNote medium="dark_brown" xml:id="scribe5">Later hand responsible for adding further text at the end of the manuscript (f. 171r).</handNote>
             </handDesc>
 
           </physDesc>
@@ -98,8 +131,13 @@
 
     <encodingDesc>
       <projectDesc>
-        <p/>
+        <p>Progetto PRIN 2022 PNRR - Missione 4 “Istruzione e Ricerca” del Piano Nazionale di Ripresa e Resilienza;
+          componente C2 – investimento 1.1, Fondo per il Programma Nazionale di Ricerca e Progetti di Rilevante
+          Interesse Nazionale (PRIN), dal titolo <title>A digital scholarly edition of the "Leges Langobardorum": social
+            memory, historical legacy and valorisation of cultural heritage</title> - CUP H53D23009340001 - finanziato
+          dal Bando PRIN 2022 PNRR - D.D. n. 1409 del 14/09/2022.</p>
       </projectDesc>
+
       <editorialDecl>
         <hyphenation eol="all">
           <p>Physical line breaks are preserved in the encoded text.</p>
@@ -462,24 +500,34 @@
        
       </charDecl>
     </encodingDesc>
+
     <profileDesc>
       <langUsage>
-        <language ident="lng">Langobardic</language>
+        <language ident="lat">Latino</language>
+        <language ident="lng">Longobardo</language>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="form">Prosa</term>
+          <term type="source">Documentaria</term>
+          <term type="genre">Testo giuridico</term>
+        </keywords>
+      </textClass>
     </profileDesc>
 
     <revisionDesc status="draft">
-      <change status="draft" when="2018-10" who="RRDT">First add to GitHub repository with minor changes.</change>
-      <change status="draft" when="2018-10" who="MG">Encoding by Marianna Giardina [29-10-2018].</change>
-      <!-- nuova revisione MG il 2-02-2020 -->
-      <change status="draft" when="2014-08" who="RRDT">First TEI encoding.</change>
+      <change from="2022" who="RRDT">Revisione e finalizzazione della codifica a cura di Roberto Rosselli Del
+        Turco</change>
+      <change when="2020-02" who="MG">Revision by Marianna Giardina [29-10-2018].</change>
+      <change when="2018-10" who="RRDT">First add to GitHub repository with minor changes.</change>
+      <change when="2018-10" who="MG">Encoding by Marianna Giardina [29-10-2018].</change>
+      <change when="2014-08" who="RRDT">First TEI encoding.</change>
     </revisionDesc>
 
   </teiHeader>
 
   <!-- TODO:
             
-    - aggiungere @corresp alle glosse relative per i <term>, in modo da poter anche individuare quali <term> hanno una <gloss>
     - aggiungere @rend per <del> che non ce l'hanno, controllare i rend esistenti
     - aggiungere <listPerson> con id per nomi di persona
     - aggiungere <num value="900">dcccc</num> (con valori corretti ovviamente) per tutti i numeri
@@ -498,6 +546,8 @@
     - sostituire <charDecl> con quella esterna
     - <lb rend="align_right" type="extra"/>: sistematizzare, controllare che sia la stessa forma su tutti i testimoni
     - cambiare resp="alim-pi" in resp="leges" (o altro) in tutti i testimoni
+    + aggiungere @target alle glosse per i <term>, e @corresp ai <term>, in modo da poter anche individuare quali
+      <term> hanno una <gloss>
     + aggiornare schema di codifica
     + inserire le rubriche iniziali
     + TUTTA la trascrizione 1-50 è da controllare e completare
@@ -6700,10 +6750,10 @@
           <w>supra</w><reg>,</reg>
           <w>cessante</w>
           <lb n="11" xml:id="CV188_lb_031r_11"/>
-          <term ref="#faida" xml:id="CV188_term_faida_75" xml:lang="lng">
+          <term corresp="#CV188_gloss_faida_75" ref="#faida" xml:id="CV188_term_faida_75" xml:lang="lng">
             <w>faida</w>
           </term>
-          <gloss>
+          <gloss target="#CV188_term_faida_75" xml:id="CV188_gloss_faida_75">
             <w>idest</w>
             <w>inimisitia</w>
           </gloss>
@@ -10403,7 +10453,7 @@
             </choice>
           </w>
           <lb n="10" xml:id="CV188_lb_041v_10"/>
-          <term ref="#ferquido" xml:id="CV188_term_ferquido_147" xml:lang="lng">
+          <term corresp="#CV188_ferquido_147" ref="#ferquido" xml:id="CV188_term_ferquido_147" xml:lang="lng">
             <w>ferquidum</w>
           </term>
           <gloss target="#CV188_term_ferquido_147" xml:id="CV188_ferquido_147">
@@ -11583,7 +11633,7 @@
           <w>ita</w>
           <lb n="4" xml:id="CV188_lb_046r_04"/><w>pre<c corresp="#v">u</c>idimus</w>
           <w>propter</w>
-          <term ref="#faida" xml:id="CV188_term_faida_162" xml:lang="lng">
+          <term corresp="#CV188_gloss_faida_162" ref="#faida" xml:id="CV188_term_faida_162" xml:lang="lng">
             <w>faida</w>
           </term>
           <w>deponen<lb n="5" xml:id="CV188_lb_046r_05"/>da</w>
@@ -11617,7 +11667,7 @@
           <w>fratri</w>
           <w>suo</w>
           <w>aut</w>
-          <term ref="#barba" xml:id="CV188_term_barba_163" xml:lang="lng">
+          <term corresp="#CV188_gloss_barba_163" ref="#barba" xml:id="CV188_term_barba_163" xml:lang="lng">
             <w>barba<lb n="9" xml:id="CV188_lb_046r_09"/>nes</w>
           </term>
           <w>suos</w>
@@ -11717,7 +11767,7 @@
           <w>parentibus</w>
           <w>id</w>
           <lb n="3" xml:id="CV188_lb_046v_03"/><w>est</w>
-          <term ref="#barba" xml:id="CV188_term_barba_164" xml:lang="lng">
+          <term corresp="#CV188_gloss_barba_164" ref="#barba" xml:id="CV188_term_barba_164" xml:lang="lng">
             <w>ba<space/>rbas</w>
           </term>
           <gloss target="#CV188_term_barba_164" xml:id="CV188_gloss_barba_164">
@@ -12199,7 +12249,7 @@
           </w>
           <w>ma<lb n="12" xml:id="CV188_lb_048r_12"/>trinia</w>
           <w>sua</w>
-          <gloss>
+          <gloss><!-- CHECK contenuto (dove finisce la glossa?), aggiungere attributi -->
             <w>id</w>
             <w>est</w>
             <w>
@@ -12305,7 +12355,7 @@
           <w>le<lb n="9" xml:id="CV188_lb_048v_09"/>gitimus</w>
           <w>procreare</w>
           <w>omne</w>
-          <term ref="#thinx" xml:id="CV188_term_thinx_171" xml:lang="lng">
+          <term corresp="#CV188_gloss_thinx_171" ref="#thinx" xml:id="CV188_term_thinx_171" xml:lang="lng">
             <w>thinx</w>
           </term>
           <lb n="10" xml:id="CV188_lb_048v_10"/>
@@ -12394,7 +12444,7 @@
         <p n="172" xml:id="CV188_p_049r_151"><lb n="3" type="rubric" xml:id="CV188_lb_049r_03"
                 /><label><num><w>CLXXII</w></num></label>
           <w><hi rend="cap red">D</hi>e</w>
-          <term ref="#thinx" xml:id="CV188_term_thinx_172" xml:lang="lng">
+          <term corresp="#CV188_gloss_thinx_172" ref="#thinx" xml:id="CV188_term_thinx_172" xml:lang="lng">
             <w>thinx</w>
           </term>
           <gloss target="#CV188_term_thinx_172" xml:id="CV188_gloss_thinx_172">
@@ -12459,7 +12509,7 @@
           <term ref="#thinx" xml:id="CV188_term_thinx_173" xml:lang="lng">
             <w>thinx</w>
           </term>
-          <term ref="#lidinlaib" xml:id="CV188_term_lidinlaib_173" xml:lang="lng">
+          <term corresp="#CV188_gloss_lidinlaib_173" ref="#lidinlaib" xml:id="CV188_term_lidinlaib_173" xml:lang="lng">
             <w>lid</w>
             <w>in</w>
             <w>laib</w>
@@ -12713,7 +12763,7 @@
           <w>sit</w>
           <w>red<lb n="9" xml:id="CV188_lb_050r_09"/>dat</w>
           <w>ei</w>
-          <term ref="#ferquido" xml:id="CV188_term_ferquido_175" xml:lang="lng">
+          <term corresp="#CV188_gloss_ferquido_175" ref="#ferquido" xml:id="CV188_term_ferquido_175" xml:lang="lng">
             <w>ferquido</w>
           </term>
           <gloss target="#CV188_term_ferquido_175" xml:id="CV188_gloss_ferquido_175">
@@ -13689,7 +13739,7 @@
           <w>nupti<space/>as</w>
           <w>nulli</w>
           <w>leceat</w>
-          <term ref="#noverca" xml:id="CV188_term_noverca_185" xml:lang="lng">
+          <term corresp="#CV188_gloss_noverca_185" ref="#noverca" xml:id="CV188_term_noverca_185" xml:lang="lng">
             <w>no<c corresp="#v">u</c>er<lb n="9" xml:id="CV188_lb_053v_09"/>cam</w>
           </term>
           <w>suam</w>
@@ -13703,7 +13753,7 @@
             <w>patri</w>
           </gloss>
           <w>neque</w>
-          <term ref="#privigna" xml:id="CV188_term_privigna_185" xml:lang="lng">
+          <term corresp="#CV188_gloss_privigna_185" ref="#privigna" xml:id="CV188_term_privigna_185" xml:lang="lng"><!-- CHECK -->
             <w>pri<c corresp="#v">u</c>ignam</w>
           </term>
           <gloss target="#CV188_term_privigna_185" xml:id="CV188_gloss_privigna_185">
@@ -17719,7 +17769,7 @@
           <w>similiter</w>
           <w>et</w>
           <w>qui</w>
-          <term ref="#inpans" xml:id="CV188_term_inpans_224" xml:lang="lng">
+          <term corresp="#CV188_gloss_inpans_224" ref="#inpans" xml:id="CV188_term_inpans_224" xml:lang="lng">
             <w>in</w>
             <w>pans</w>
           </term>
@@ -23016,7 +23066,7 @@
 
         <p n="277" xml:id="CV188_p_078r_277"><lb type="rubric"/><label><num><w>CCLX<damage/>XII</w></num></label><!-- CHECK manca lb -->
           <w>De</w>
-          <term ref="#haistan" xml:id="CV188_term_haistan_277" xml:lang="lng">
+          <term corresp="#CV188_gloss_haistan_277" ref="#haistan" xml:id="CV188_term_haistan_277" xml:lang="lng">
             <w>
               <choice>
                 <orig>aistant</orig>
@@ -23085,7 +23135,7 @@
 
         <p n="278" xml:id="CV188_p_078r_278"><lb n="20" type="rubric" xml:id="CV188_lb_078r_20"/>
           <w>De</w>
-          <term ref="#hoberos" xml:id="CV188_term_hoberos_278" xml:lang="lng">
+          <term corresp="#CV188_gloss_hoberos_278" ref="#hoberos" xml:id="CV188_term_hoberos_278" xml:lang="lng">
             <w>
               <choice>
                 <orig>oberus</orig>
@@ -24382,7 +24432,7 @@
           <term ref="#modola" xml:id="CV188_term_modola_300" xml:lang="lng">
             <w>mo<lb n="13" xml:id="CV188_lb_080v_13"/>dola</w>
           </term>
-          <term ref="#hisclo" xml:id="CV188_term_hisclo_300" xml:lang="lng">
+          <term corresp="#CV188_gloss_hisclo_300" ref="#hisclo" xml:id="CV188_term_hisclo_300" xml:lang="lng">
             <w>hisclo</w>
           </term>
           <gloss target="#CV188_term_hisclo_300" xml:id="CV188_gloss_hisclo_300">
@@ -25894,11 +25944,11 @@
           <w>in</w>
           <w>hoc</w>
           <w>capitolo</w>
-          <term ref="#faida" xml:id="CV188_term_faida_326" xml:lang="lng">
+          <term corresp="#CV188_gloss_faida_326" ref="#faida" xml:id="CV188_term_faida_326" xml:lang="lng">
             <w>faida</w>
           </term>
           <lb n="20" xml:id="CV188_lb_084v_20"/>
-          <gloss>
+          <gloss target="#CV188_term_faida_326" xml:id="CV188_gloss_faida_326">
             <w>id</w>
             <w>est</w>
             <w>inimicitia</w>
@@ -26122,7 +26172,7 @@
           <w>eum</w>
           <w>occide<lb n="11" xml:id="CV188_lb_085v_11"/>rit</w>
           <w>reddat</w>
-          <term ref="#ferquido" xml:id="CV188_term_ferquido_330" xml:lang="lng">
+          <term corresp="#CV188_gloss_ferquido_330" ref="#ferquido" xml:id="CV188_term_ferquido_330" xml:lang="lng">
             <w>ferquidum</w>
           </term>
           <gloss target="#CV188_term_ferquido_330" xml:id="CV188_gloss_ferquido_330">
@@ -26457,7 +26507,7 @@
           <w>et</w>
           <w>red<lb n="9" xml:id="CV188_lb_086v_09"/>dat</w>
           <w>ei</w>
-          <term ref="#ferquido" xml:id="CV188_term_ferquido_337" xml:lang="lng">
+          <term corresp="#CV188_gloss_ferquido_337" ref="#ferquido" xml:id="CV188_term_ferquido_337" xml:lang="lng">
             <w>ferquido</w>
           </term>
           <gloss target="#CV188_term_ferquido_337" xml:id="CV188_gloss_ferquido_337">
@@ -27732,7 +27782,7 @@
           <measure quantity="12" type="currency" unit="soldi"><w>dudicem</w></measure>
           <w>ipsum</w>
           <w>dicitur</w>
-          <term ref="#sonorpair" xml:id="CV188_term_sonorpair_351" xml:lang="lng">
+          <term corresp="#CV188_gloss_sonorpair_351" ref="#sonorpair" xml:id="CV188_term_sonorpair_351" xml:lang="lng">
             <w>sonor<lb n="20" xml:id="CV188_lb_090v_20"/>pair</w></term>
           <gloss target="#CV188_term_sonorpair_351" xml:id="CV188_gloss_sonorpair_351">
             <w>qui</w>
@@ -28783,7 +28833,7 @@
           <w>natos</w>
           <w>au<gap extent="1" unit="chars"/><supplied reason="illegible" resp="alim-pi">t</supplied></w>
           <lb n="4" xml:id="CV188_lb_094v_04"/><w>de</w>
-          <term ref="#gamahalos" xml:id="CV188_term_gamahalos_362" xml:lang="lng">
+          <term corresp="#CV188_gloss_gamahalos_362" ref="#gamahalos" xml:id="CV188_term_gamahalos_362" xml:lang="lng">
             <w>gamahalos</w>
           </term>
           <gloss target="#CV188_term_gamahalos_362" xml:id="CV188_gloss_gamahalos_362">
@@ -29807,10 +29857,10 @@
           </w>
           <w>per</w>
           <lb n="12" xml:id="CV188_lb_098r_12"/>
-          <term ref="#gairethinx" xml:id="CV188_term_gairethinx_375" xml:lang="lng">
+          <term corresp="#CV188_gloss_gairethinx_375" ref="#gairethinx" xml:id="CV188_term_gairethinx_375" xml:lang="lng">
             <w>thinx</w>
           </term>
-          <gloss>
+          <gloss target="#CV188_term_gairethinx_375" xml:id="CV188_gloss_gairethinx_375">
             <w>id</w>
             <w>est</w>
             <w>donationem</w>

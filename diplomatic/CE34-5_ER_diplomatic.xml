@@ -5,9 +5,16 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Edizione digitale dell' Editto di Rotari<title><hi rend="italic">Edictum Rothari</hi>: Ivrea, Biblioteca
-            Capitolare, XXXIV (5) (ms 3) - 643 d.C.</title></title>
+        <title>Edizione digitale dell'Editto di Rotari <title><hi rend="italic">Edictum Rothari</hi>: Ivrea, Biblioteca
+            Capitolare, Cod. XXXIV (5) (ms 3) - 643 d.C.</title></title>
         <author>Rotari, re longobardo, per mano del notaio Ansoaldo.</author>
+        <principal>Marina Buzzoni</principal>
+        <principal>Roberto Rosselli Del Turco</principal>
+        <respStmt>
+          <resp>General overview: </resp>
+          <name>Marina Buzzoni</name>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
         <respStmt>
           <resp>Trascrizione diplomatica effettuata da </resp>
           <name>Omar Hashem Abdo Khalaf</name>
@@ -25,6 +32,7 @@
           <name>Roberto Rosselli Del Turco</name>
         </respStmt>
       </titleStmt>
+
       <editionStmt>
         <edition>Edizioni precedenti Leges Langobardorum</edition>
         <respStmt xml:id="azzara">
@@ -64,26 +72,26 @@
               <settlement>Ivrea</settlement>
               <repository>Biblioteca Capitolare</repository>
               <idno>(ms 3) - La numerazione progressiva (ms 3) è ripresa da Bluhme, Fr. (1868) (Hg.),Leges
-                Langobardorum, Hannover (MGH, LL IV) (ristampa anastatica Stuttgart 1965).</idno>
+                Langobardorum, Hannover (MGH, LL IV) (ristampa anastatica Stuttgart 1965).</idno><!-- CHECK format also other witnesses -->
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <p>Contiene tutte le <hi rend="italic">Leges</hi>, l' <hi rend="italic">Admonitio generalis</hi> e alcuni
+            <p>Contiene tutte le <hi rend="italic">Leges</hi>, l'<hi rend="italic">Admonitio generalis</hi> e alcuni
               capitolari (tra cui quelli di Pipino, Carlo Magno, Lotario).</p>
             <p>L'Editto di Rotari è contenuto ai ff. 57r.-104v.</p>
             <p>Sulla base di questo manoscritto Bluhme (1868, 1) ricostruisce la titolatura e, soprattutto, il prologo
-              dell'Editto, mancanti sia nel sangallese che nel vercellese. Anche l' elenco dei <hi rend="italic"
+              dell'Editto, mancanti sia nel sangallese che nel vercellese. Anche l'elenco dei <hi rend="italic"
                 >capitula</hi> è riportato secondo il codice di Ivrea (f. 58).</p>
-            <p>Il testo mostra, conformemente a quanto richiesto dalla politica purista dell' epoca carolingia, un
+            <p>Il testo mostra, conformemente a quanto richiesto dalla politica purista dell'epoca carolingia, un
               latino più sorvegliato rispetto ai volgarismi che caratterizzano i due codici più antichi (sangallese e
               vercellese). Sono presenti circa 80 termini in lingua longobarda.</p>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="parchment">
                 <support>Parchment.</support>
                 <extent>
-                  <measure type="leaves">Il codice è composto da 168 foll</measure>
+                  <measure type="leaves">Il codice è composto da 168 foll.</measure>
                   <measure type="dimensions"> -- </measure>
                   <measure type="lines">26-27 righe per pagina</measure>
                 </extent>
@@ -101,8 +109,8 @@
           <history>
             <p>Inizi del IX sec., di provenienza italiana settentrionale, forse Pavia secondo Mordek (1995). È il primo
               codice a rendere nota tutta la tradizione delle <hi rend="italic">Leges</hi> fino ad Astolfo.</p>
-            <p>Dal punto di vista culturale, l' <hi rend="italic">Eporedianus</hi> XXXIV (5) si inserisce in un progetto
-              di ampio respiro, promosso all' interno di un centro scrittorio dinamico e specializzato quale è quello di
+            <p>Dal punto di vista culturale, l'<hi rend="italic">Eporedianus</hi> XXXIV (5) si inserisce in un progetto
+              di ampio respiro, promosso all'interno di un centro scrittorio dinamico e specializzato quale è quello di
               Ivrea in particolare durante il lungo periodo di attività riferibile alla prestigiosa figura del vescovo
               Giuseppe (825?-855?).</p>
           </history>
@@ -112,6 +120,20 @@
     </fileDesc>
 
     <encodingDesc>
+
+      <projectDesc>
+        <p>Progetto PRIN 2022 PNRR - Missione 4 “Istruzione e Ricerca” del Piano Nazionale di Ripresa e Resilienza;
+          componente C2 – investimento 1.1, Fondo per il Programma Nazionale di Ricerca e Progetti di Rilevante
+          Interesse Nazionale (PRIN), dal titolo <title>A digital scholarly edition of the "Leges Langobardorum": social
+            memory, historical legacy and valorisation of cultural heritage</title> - CUP H53D23009340001 - finanziato
+          dal Bando PRIN 2022 PNRR - D.D. n. 1409 del 14/09/2022.</p>
+      </projectDesc>
+
+      <editorialDecl>
+        <hyphenation eol="all">
+          <p>Physical line breaks are preserved in the encoded text.</p>
+        </hyphenation>
+      </editorialDecl>
 
       <charDecl>
 
@@ -540,7 +562,7 @@
     <profileDesc>
       <langUsage>
         <language ident="lat">Latino</language>
-        <language ident="lng">Langobardic</language>
+        <language ident="lng">Longobardo</language>
       </langUsage>
       <textClass>
         <keywords>
@@ -553,8 +575,9 @@
         <date when="2016-06-13">13/06/2016</date>
       </creation>
     </profileDesc>
+
     <revisionDesc>
-      <change when="2022-02" who="RRDT">Revisione e finalizzazione della codifica a cura di Roberto Rosselli Del
+      <change from="2022-02" who="RRDT">Revisione e finalizzazione della codifica a cura di Roberto Rosselli Del
         Turco</change>
       <change when="2019-12" who="MG">Codifica effettuata da Marianna Giardina</change>
       <change when="2016-06" who="LC">Codifica effettuata da Laura Calzavara</change>
@@ -570,7 +593,8 @@
     - sostituire <charDecl> con quella esterna
     - controllare gli usi di etlig, non sembra il carattere giusto al f. 57r 
       v. https://www.fileformat.info/info/unicode/char/1f672/index.htm
-    - mancango moltissimi caratteri speciali: slong, a nella forma aperta (cc)
+    - mancano moltissimi caratteri speciali: slong, a nella forma aperta (cc)
+    - manca gestione punteggiatura
     
     -->
 
