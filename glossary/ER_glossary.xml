@@ -72,7 +72,9 @@
 
       <!--TODO -->
       <!--
-      
+
+      - NB: rintracciare versione precedente, forse sull'Asus? vedi data di ER_glossary_org.xml.bak
+
       + usare <mentioned> invece di <w> per i termini citati in <etym> come suggerito dalle Guidelines? 
         secondo Bowers e Romary 2016 non una buona soluzione, invece di <cit> etc. però perché non <w>?
         SI <mentioned> NO <w> per omogeneità con il resto della codifica
@@ -188,7 +190,8 @@
 
         <form type="variants">
           <orth>astalin <ref>MSS 1, 5, 8, 9, 10, 11; Gloss. Matr.</ref></orth>
-          <orth>anstallin <ref target="#CV188_p_019v_07">MS 2</ref></orth>
+          <!-- NB al momento il target punta alla riga in attesa di xml:id per il <term> -->
+          <orth>anstallin <ref target="#CV188_p_019v_7">MS 2</ref></orth>
           <orth>anstallim <ref>MS 3</ref></orth>
           <orth>anstalin <ref>MS 3</ref></orth>
           <orth>astalium <ref>MS 12</ref></orth>
