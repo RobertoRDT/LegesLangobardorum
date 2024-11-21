@@ -115,6 +115,394 @@
             </note>
           </person>
 
+          <!-- #### aggiunto da FS in data 2024-04-13 #### -->
+          <person source="https://www.treccani.it/enciclopedia/astolfo-re-dei-longobardi/" xml:id="Aistulf">
+            <persName xml:lang="ita">Astolfo</persName>
+            <persName xml:lang="eng">Aistulf</persName>
+            <persName xml:id="lng">Astolf</persName>
+            <persName xml:lang="lat">Aistulfus</persName>
+            <idno source="http://viaf.org/viaf/273159474185027661658" type="VIAF">273159474185027661658</idno>
+            <idno source="https://d-nb.info/gnd/102419353" type="DNB">102419353</idno>
+            <idno source="https://www.wikidata.org/wiki/Q312504" type="WKD">Q312504</idno>
+            <sex>M</sex>
+            <birth></birth>
+            <death>756</death>
+            <floruit>749-756</floruit>
+            <occupation>Rex Langobardorum et Italiae 749-756</occupation>
+            <note>Duca del Friuli, fu eletto re nel 749 dopo aver provocato l'abdicazione del fratello
+              <ref target="#Ratchis">Rachi</ref>. V. anche la voce corrispondente
+              sul <ref target="https://www.treccani.it/enciclopedia/astolfo-re-dei-longobardi/">Dizionario Bibliografico degli italiani</ref> 
+              e su <ref target="https://dbpedia.org/page/Aistulf">DBpedia</ref>
+            </note>
+          </person>
+          
+          <person source="https://www.treccani.it/enciclopedia/grimoaldo_res-545d776b-87ee-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/https://www.treccani.it/enciclopedia/re-dei-longobardi-grimoaldo_%28Dizionario-Biografico%29/" xml:id="Grimoald">
+            <persName xml:lang="ita">Grimoaldo</persName>
+            <persName xml:lang="lng">Grimoald</persName>
+            <idno source="http://viaf.org/viaf/42648108" type="VIAF">42648108</idno>
+            <idno source="https://d-nb.info/gnd/119427303" type="DNB">119427303</idno>
+            <sex>M</sex>
+            <birth>Inizio del VII secolo</birth>
+            <death>671</death>
+            <floruit>662-671</floruit>
+            <occupation>Rex Langoboardorum et Italiae 662-671</occupation>
+            <note>Nato in Friuli agli inizi del VII secolo, fu duca di <ref target="#Benevento" type="place">Benevento</ref> a partire dal 646-647 e divenne re dei 
+              Longobardi spodestando i figli di re Ariperto I nel 662. V. anche la voce corrispondente sul 
+              <ref target="https://www.treccani.it/enciclopedia/grimoaldo_res-545d776b-87ee-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/https://www.treccani.it/enciclopedia/re-dei-longobardi-grimoaldo_%28Dizionario-Biografico%29/">
+                Dizionario Biografico degli italiani</ref>.</note>
+          </person>
+          
+          <person source="https://www.treccani.it/enciclopedia/liutprando-re-dei-longobardi/" xml:id="Liutprand">
+            <persName xml:lang="ita">Liutprando</persName>
+            <persName xml:lang="lng">Liutprand</persName>
+            <persName xml:lang="lat">Liutprandus</persName>
+            <idno source="http://viaf.org/viaf/47155269" type="VIAF">47155269</idno>
+            <idno source="https://isni.org/isni/0000000115857435" type="ISNI">0000000115857435</idno>
+            <idno source="https://d-nb.info/gnd/102517460" type="DNB">102517460</idno>
+            <idno source="https://www.wikidata.org/wiki/Q251836" type="WKD">Q251836</idno>
+            <sex>M</sex>
+            <birth>690 circa</birth>
+            <death>744</death>
+            <floruit>712-744</floruit>
+            <occupation>Rex Langobardorum et Italiae 712-744</occupation>
+            <note>Succedette al padre Ansprando nel 712. A partire dal 725 entrò in conflitto con i bizantini
+              e conquistò per un breve periodo l'esarcato di <ref target="#Ravenna" type="place">Ravenna</ref> (732). A partire dal 729 assunse il controllo
+              dei ducati di <ref target="#Spoleto" type="place">Spoleto</ref> e <ref target="#Benevento" type="place">Benevento</ref>, installando duchi a lui fedeli. V. anche la voce corrispondente
+              sul <ref target="https://www.treccani.it/enciclopedia/liutprando-re-dei-longobardi/">Dizionario Bibliografico degli italiani</ref> 
+              e su <ref target="https://dbpedia.org/page/Liutprand">DBpedia</ref>
+            </note>
+          </person>
+          
+          <person source="https://www.treccani.it/enciclopedia/rachi-re-dei-longobardi/" xml:id="Ratchis">
+            <persName xml:lang="ita">Rachi</persName>
+            <persName xml:lang="lat">Ratchis</persName>
+            <idno source="http://viaf.org/viaf/37720680" type="VIAF">37720680</idno>
+            <idno source="https://d-nb.info/gnd/119168219" type="DNB">119168219</idno>
+            <idno source="https://www.wikidata.org/wiki/Q312624" type="WKD">Q312624</idno>
+            <sex>M</sex>
+            <birth></birth>
+            <death></death>
+            <floruit>744-749</floruit>
+            <floruit>756-757</floruit>
+            <occupation>Rex Langoboardorum et Italiae 744-749 e 756-757</occupation>
+            <note>Duca del Friuli nell'VIII secolo, succedette al trono nel 744. Deposto dal partito militare
+              nel 749, si fece monaco e si ritirò a <ref target="#Montecassino" type="place">Montecassino</ref>. Morto il suo successore <ref target="#Aistulf" type="person">Astolfo</ref>, ritornò a <ref target="#Pavia" type="place">Pavia</ref> 
+              e fu nuovamente proclamato re nel 756. Il trono tuttavia gli fu conteso dal duca Desiderio, il quale
+              lo costrinse a ritornare a <ref target="#Montecassino" type="place">Montecassino</ref> (757). V. anche la voce corrispondente sul <ref target="https://www.treccani.it/enciclopedia/rachi-re-dei-longobardi/">Dizionario Biografico
+                degli italiani</ref> e <ref target="https://dbpedia.org/page/Ratchis">DBpedia</ref>.
+            </note>
+          </person>
+          
+          <person xml:id="Agilmund">
+            <persName xml:lang="ita">Agilmondo</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Agilmund</persName>
+            <sex>M</sex>
+            <occupation>Rex Langobardorum.</occupation>
+            <note>Primo re dei Longobardi.</note>
+          </person>
+          
+          <person xml:id="Gugincus">
+            <persName xml:lang="ita">Gugingo</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Gugincus</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note>Nome della stirpe di Agilmund, primo re dei Longobardi.</note>
+          </person>
+          
+          <person xml:id="Laamisio">
+            <persName xml:lang="ita">Lamissione</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Lamisio</persName>
+            <sex>M</sex>
+            <occupation>Rex Langobardorum.</occupation>
+            <note>Secondo re dei Longobardi.</note>
+          </person>
+          
+          <person xml:id="Leth">
+            <persName xml:lang="ita">Leth</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Leth</persName>
+            <sex>M</sex>
+            <occupation>Rex Langobardorum.</occupation>
+            <note>Terzo re dei Longobardi.</note>
+          </person>
+
+          <person xml:id="Geldehoc">
+            <persName xml:lang="ita">Ildeoc</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Geldehoc</persName>
+            <sex>M</sex>
+            <occupation>Rex Langobardorum.</occupation>
+            <note>Quarto re dei Longobardi, figlio di Leth.</note>
+          </person>
+          
+          <person xml:id="Godeoch">
+            <persName xml:lang="ita">Godeoc</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Godehoc</persName>
+            <sex>M</sex>
+            <occupation>Rex Langobardorum.</occupation>
+            <note>Quinto re dei Longobardi, figlio di Geldehoc.</note>
+          </person>
+          
+          <person xml:id="Gaffo">
+            <persName xml:lang="ita">Claffone</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Claffo</persName>
+            <sex>M</sex>
+            <occupation>Rex Langobardorum.</occupation>
+            <note>Sesto re dei Longobardi, figlio di Godehoc.</note>
+          </person>
+
+
+          <person xml:id="Tatto">
+            <persName xml:lang="ita">Tatone</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Tato</persName>
+            <sex>M</sex>
+            <occupation>Rex Langobardorum.</occupation>
+            <note>Settimo re dei Longobardi, figlio di Claffo.</note>
+          </person>
+          
+          <person xml:id="Waccho">
+            <persName xml:lang="ita">Vacone</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Wacho</persName>
+            <sex>M</sex>
+            <occupation>Rex Langobardorum.</occupation>
+            <note>Ottavo re dei Longobardi, figlio di Winigis e nipote di Tato</note>
+          </person>
+          
+          <person xml:id="Winigis">
+            <persName xml:lang="ita">Vinigi</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Winichis</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note>Figlio di Claffo, sesto re dei Longobardi, fratello di Tatone, 
+              settimo re dei Longobardi, padre di Vacone, ottavo re dei Longobardi.</note>
+          </person>
+          
+          <person xml:id="Walthari">
+            <persName xml:lang="ita">Valtari</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat"></persName>
+            <sex>M</sex>
+            <occupation>Rex Langobardorum.</occupation>
+            <note>Nono re dei Longobardi.</note>
+          </person>
+          
+          <person xml:id="Audoin">
+            <persName xml:lang="ita">Audoino</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Audoin</persName>
+            <sex>M</sex>
+            <occupation>Rex Langobardorum.</occupation>
+            <note>Decimo re dei Longobardi.</note>
+          </person>
+          
+          <person xml:id="Causus">
+            <persName xml:lang="ita">Gauso</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Causus</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note>Stirpe di Audoino e Alboino</note>
+          </person>
+          
+          <person xml:id="Clef">
+            <persName xml:lang="ita">Clefi</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Clep</persName>
+            <sex>M</sex>
+            <occupation>Rex Langobardorum et Italiae 572-574.</occupation>
+            <note>Dodicesimo re dei Longobardi.</note>
+          </person>
+          
+          <person xml:id="Beleos">
+            <persName xml:lang="ita">Beleos</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Beleos</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note>Stirpe di Clefi e Autari.</note>
+          </person>
+          
+          <person xml:id="Authari">
+            <persName xml:lang="ita">Autari</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Autarich</persName>
+            <sex>M</sex>
+            <occupation>Rex Langobardorum et Italiae 584-590.</occupation>
+            <note>Tredicesimo re dei Longobardi, figlio di Clefi, dodicesimo 
+            re dei Longobardi.</note>
+          </person>
+          
+          <person xml:id="Aginulf">
+            <persName xml:lang="ita">Agilulfo</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Agilluf</persName>
+            <sex>M</sex>
+            <occupation>Rex Langobardorum et Italiae 591-616.</occupation>
+            <note>Quattordicesimo re dei Longobardi, </note>
+          </person>
+          
+          <person xml:id="Anawain">
+            <persName xml:lang="ita">Anawas</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Anawas</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note>Stirpe di Agilulfo, quattordicesimo re dei Longobardi.</note>
+          </person>
+          
+          <person xml:id="Adawald">
+            <persName xml:lang="ita">Adaloaldo</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Adaliuald</persName>
+            <sex>M</sex>
+            <occupation>Rex Langobardorum et Italiae 616-626.</occupation>
+            <note>Quindicesimo re dei Longobardi</note>
+          </person>
+          
+          <person xml:id="Arioald">
+            <persName xml:lang="ita">Arioaldo</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Arioald</persName>
+            <sex>M</sex>
+            <occupation>Rex Langobardorum et Italiae 626-636.</occupation>
+            <note>Sedicesimo re dei Longobardi</note>
+          </person>
+          
+          <person xml:id="Caupus">
+            <persName xml:lang="ita">Caupu</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Caupus</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note>Stirpe di Arioaldo, sedicesimo re dei Longobardi.</note>
+          </person>
+          
+          <person xml:id="Nanding">
+            <persName xml:lang="ita">Nandinig</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat"></persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note></note>
+          </person>
+          
+          <person xml:id="Nozu">
+            <persName xml:lang="ita">Notzone</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Nozu</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note></note>
+          </person>
+          
+          <person xml:id="Alamund">
+            <persName xml:lang="ita">Adamundo</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Alamund</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note></note>
+          </person>
+          
+          <person xml:id="Alaman">
+            <persName xml:lang="ita">Alaman</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Alaman</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note></note>
+          </person>
+          
+          <person xml:id="Hilzo">
+            <persName xml:lang="ita">Hiltzone</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Hilzo</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note></note>
+          </person>
+          
+          <person xml:id="Weilo">
+            <persName xml:lang="ita">Wehilone</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Weilo</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note></note>
+          </person>
+          
+          <person xml:id="Weo">
+            <persName xml:lang="ita">Weone</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Weo</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note></note>
+          </person>
+          
+          <person xml:id="Frocho">
+            <persName xml:lang="ita">Fronchone</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Frocho</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note></note>
+          </person>
+          
+          <person xml:id="Facho">
+            <persName xml:lang="ita">Fachone</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Facho</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note></note>
+          </person>
+          
+          <person xml:id="Mammo">
+            <persName xml:lang="ita">Mammone</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Mammo</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note></note>
+          </person>
+          
+          <person xml:id="Obthora">
+            <persName xml:lang="ita">Ustbora</persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat">Obthora</persName>
+            <sex>M</sex>
+            <occupation></occupation>
+            <note></note>
+          </person>
+          
+          <person source="" xml:id="">
+            <persName xml:lang="ita"></persName>
+            <persName xml:lang="lng"></persName>
+            <persName xml:lang="lat"></persName>
+            <idno source="" type="VIAF"></idno>
+            <idno source="" type="ISNI"></idno>
+            <idno source="" type="DNB"></idno>
+            <idno source="" type="WKD"></idno>
+            <sex></sex>
+            <birth></birth>
+            <death></death>
+            <floruit></floruit>
+            <occupation></occupation>
+            <note>V. anche la voce corrispondente
+              sul <ref target="">Dizionario Bibliografico degli italiani</ref> 
+              e su <ref target="">DBpedia</ref>
+            </note>
+          </person>
+
         </listPerson>
 
         <!-- ########## Lista dei luoghi ########## -->
@@ -360,6 +748,56 @@
               <cit>
                 <quote></quote>
                 <ref></ref>
+              </cit>
+            </note>
+          </place>
+
+          <!-- #### aggiunto da FS in data 2024-04-13 #### -->
+          
+          <place xml:id="Benevento">
+            <placeName>Benevento</placeName>
+            <location cert="high">
+              <region>Campania</region>
+              <country type="modern">Italy</country>
+              <geo>41.12952, 14.78614</geo>
+            </location>
+            <idno subtype="GeoNames" type="URI">https://www.geonames.org/3182179/benevento.html</idno>
+            <note>
+              <cit>
+                <quote/>
+                <ref/>
+              </cit>
+            </note>
+          </place>
+          
+          <place xml:id="Montecassino">
+            <placeName>Montecassino</placeName>
+            <location cert="high">
+              <region>Lazio</region>
+              <country type="modern">Italy</country>
+              <geo>41.48916, 13.81222</geo>
+            </location>
+            <idno subtype="GeoNames" type="URI">https://www.geonames.org/3173005/abbazia-di-montecassino.html</idno>
+            <note>
+              <cit>
+                <quote/>
+                <ref/>
+              </cit>
+            </note>
+          </place>
+          
+          <place xml:id="Spoleto">
+            <placeName>Spoleto</placeName>
+            <location cert="high">
+              <region>Umbria</region>
+              <country type="modern">Italy</country>
+              <geo>42.74071, 12.73899</geo>
+            </location>
+            <idno subtype="GeoNames" type="URI">https://www.geonames.org/3166236/spoleto.html</idno>
+            <note>
+              <cit>
+                <quote/>
+                <ref/>
               </cit>
             </note>
           </place>
@@ -812,6 +1250,276 @@
           <mapping type="diplomatic">P̃</mapping>
           <mapping type="normalized">P</mapping>
         </char>
+        
+        <!-- ##### aggiunto da FS in data 2024-04-13 ##### -->
+        <glyph xml:id="ctlig">
+          <glyphName>LATIN SMALL LIGATURE CT</glyphName>
+          <mapping type="ligature">U+0063 + U+0074</mapping>
+          <mapping type="diplomatic">ct</mapping>
+          <mapping type="normalized">ct</mapping>
+        </glyph>
+        
+        <glyph xml:id="stlig">
+          <glyphName>LATIN SMALL LIGATURE ST</glyphName>
+          <mapping type="ligature">U+0073 + U+0074</mapping>
+          <mapping type="diplomatic">st</mapping>
+          <mapping type="normalized">st</mapping>
+        </glyph>
+        
+        <glyph xml:id="aelig">
+          <glyphName>LATIN SMALL LIGATURE AE</glyphName>
+          <mapping type="ligature">U+0061 + U+0065</mapping>
+          <mapping type="diplomatic">æ</mapping>
+          <mapping type="normalized">ae</mapping>
+        </glyph>
+        
+        <char xml:id="Rtilde">
+          <unicodeProp name="Name" value="LATIN CAPIPTAL LETTER R WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0052 + U+0303</mapping>
+          <mapping type="diplomatic">R̃</mapping>
+          <mapping type="normalized">R</mapping>
+        </char>
+        
+        <char xml:id="Htilde">
+          <unicodeProp name="Name" value="LATIN CAPIPTAL LETTER H WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0048 + U+0303</mapping>
+          <mapping type="diplomatic">H̃</mapping>
+          <mapping type="normalized">H</mapping>
+        </char>
+        
+        <char xml:id="mmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER M WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+006D + U+0304</mapping>
+          <mapping type="diplomatic">m̄</mapping>
+          <mapping type="normalized">m</mapping>
+        </char>
+        
+        <char xml:id="tmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+00AF</mapping>
+          <mapping type="diplomatic">t̄</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+        
+        <glyph xml:id="filig">
+          <glyphName>LATIN SMALL LIGATURE FI</glyphName>
+          <mapping type="ligature">U+0066 + U+0069</mapping>
+          <mapping type="diplomatic">fi</mapping>
+          <mapping type="normalized">fi</mapping>
+        </glyph>
+        
+        <glyph xml:id="exlig">
+          <glyphName>LATIN SMALL LIGATURE EX</glyphName>
+          <mapping type="ligature">U+0065 + U+0078</mapping>
+          <mapping type="diplomatic">ex</mapping>
+          <mapping type="normalized">ex</mapping>
+        </glyph>
+        
+        <char xml:id="nmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER N WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+006E + U+0304</mapping>
+          <mapping type="diplomatic">n̄</mapping>
+          <mapping type="normalized">n</mapping>
+        </char>
+        
+        <char xml:id="Qtilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER Q WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0051 + U+0303</mapping>
+          <mapping type="diplomatic">Q̃</mapping>
+          <mapping type="normalized">Q</mapping>
+        </char>
+        
+        <char xml:id="Itilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER I WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0049 + U+0303</mapping>
+          <mapping type="diplomatic">Ĩ</mapping>
+          <mapping type="normalized">I</mapping>
+        </char>
+        
+        <char xml:id="Utilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER U WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0055 + U+0303</mapping>
+          <mapping type="diplomatic">Ũ</mapping>
+          <mapping type="normalized">U</mapping>
+        </char>
+        
+        <char xml:id="lmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER L WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+006C + U+0304</mapping>
+          <mapping type="diplomatic">l̄</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+        
+        <char xml:id="Ntilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER N WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+00D1</mapping>
+          <mapping type="diplomatic">Ñ</mapping>
+          <mapping type="normalized">N</mapping>
+        </char>
+        
+        <char xml:id="racute">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER R WITH ACUTE"/>
+          <mapping subtype="composed" type="codepoint">U+0155</mapping>
+          <mapping type="diplomatic">ŕ</mapping>
+          <mapping type="normalized">r</mapping>
+        </char>
+        
+        <char xml:id="gtilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER G WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0067 + U+0303</mapping>
+          <mapping type="diplomatic">g̃</mapping>
+          <mapping type="normalized">g</mapping>
+        </char>
+        
+        <char xml:id="smacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER S WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0073 + U+0304</mapping>
+          <mapping type="diplomatic">s̄</mapping>
+          <mapping type="normalized">s</mapping>
+        </char>
+        
+        <char xml:id="dstroke">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER D WITH STROKE"/>
+          <mapping subtype="composed" type="codepoint">U+0111</mapping>
+          <mapping type="diplomatic">đ</mapping>
+          <mapping type="normalized">d</mapping>
+        </char>
+        
+        <char xml:id="bstroke">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH STROKE"/>
+          <mapping subtype="composed" type="codepoint">U+0180</mapping>
+          <mapping type="diplomatic">ƀ</mapping>
+          <mapping type="normalized">b</mapping>
+        </char>
+        
+        <char xml:id="tacute">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH ACUTE"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+02CA</mapping>
+          <mapping type="diplomatic">tˊ</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+        
+        <glyph xml:id="orlig">
+          <glyphName>LATIN SMALL LIGATURE OR</glyphName>
+          <mapping type="ligature">U+006F + U+0280</mapping>
+          <mapping type="diplomatic">oʀ</mapping>
+          <mapping type="normalized">or</mapping>
+        </glyph>
+        
+        <char xml:id="iring">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH ACUTE"/>
+          <mapping subtype="composed" type="codepoint">U+0069 + U+0357</mapping>
+          <mapping type="diplomatic">i͗</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        
+        <char xml:id="pflourish">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH FLOURISH"/>
+          <mapping subtype="composed" type="codepoint">U+A753</mapping>
+          <mapping type="diplomatic">ꝓ</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+        
+        <char xml:id="Dtilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER D WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0044 + U+02DC</mapping>
+          <mapping type="diplomatic">D˜</mapping>
+          <mapping type="normalized">D</mapping>
+        </char>
+        
+        <char xml:id="cmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER C WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0063 + U+0304</mapping>
+          <mapping type="diplomatic">c̄</mapping>
+          <mapping type="normalized">c</mapping>
+        </char>
+<!-- AGGIUNTI DA FABIO SONCIN PER BSL3519 
+        i glifi qui codificati indicano lettere cui un'altra lettera o segno è posto 
+        sopra la lettera principale-->        
+        <char xml:id="tverticaltilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH VERTICAL TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+033E</mapping>
+          <mapping type="diplomatic">t̾</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+        
+        <char xml:id="bcomma">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH COMMA ABOVE RIGHT"/>
+          <mapping subtype="composed" type="codepoint">U+0062 + U+0315</mapping>
+          <mapping type="diplomatic">b̕</mapping>
+          <mapping type="normalized">b</mapping>
+        </char>
+        
+        <char xml:id="gcomma">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER G WITH COMMA ABOVE RIGHT"/>
+          <mapping subtype="composed" type="codepoint">U+0067 + U+0315</mapping>
+          <mapping type="diplomatic">g̕</mapping>
+          <mapping type="normalized">g</mapping>
+        </char>
+        
+        <char xml:id="pcomma">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH COMMA ABOVE RIGHT"/>
+          <mapping subtype="composed" type="codepoint">U+0070 + U+0315</mapping>
+          <mapping type="diplomatic">p̕</mapping>
+          <mapping type="normalized">P</mapping>
+        </char>
+        
+        <char xml:id="tcomma">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH COMMA ABOVE RIGHT"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+0315</mapping>
+          <mapping type="diplomatic">t̕</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+        
+        <glyph xml:id="qbardesa">
+          <glyphName>LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER AND 
+            SMALL LATIN LETTER A ABOVE </glyphName>
+          <mapping type="ligature">U+A757 + U+0363</mapping>
+          <mapping type="diplomatic">ꝗͣ </mapping>
+          <mapping type="normalized">q</mapping>
+        </glyph>
+        
+        <glyph xml:id="qiabove">
+          <glyphName>LATIN SMALL LETTER Q WITH SMALL LATIN LETTER I ABOVE </glyphName>
+          <mapping type="ligature">U+0071 + U+0365</mapping>
+          <mapping type="diplomatic">qͥ</mapping>
+          <mapping type="normalized">q</mapping>
+        </glyph>
+        
+        <glyph xml:id="giabove">
+          <glyphName>LATIN SMALL LETTER G WITH SMALL LATIN LETTER I ABOVE </glyphName>
+          <mapping type="ligature">U+0067 + U+0365</mapping>
+          <mapping type="diplomatic">gͥ</mapping>
+          <mapping type="normalized">g</mapping>
+        </glyph>
+        
+        <glyph xml:id="xrevstop">
+          <glyphName>LATIN SMALL LETTER X WITH REVERS GLOTTAL STOP ABOVE </glyphName>
+          <mapping type="ligature">U+0078 + U+02C1</mapping>
+          <mapping type="diplomatic">xˁ</mapping>
+          <mapping type="normalized">x</mapping>
+        </glyph>
+        
+        <glyph xml:id="maabove">
+          <glyphName>LATIN SMALL LETTER M WITH SMALL LATIN LETTER A ABOVE </glyphName>
+          <mapping type="ligature">U+006D + U+0363</mapping>
+          <mapping type="diplomatic">mͣ</mapping>
+          <mapping type="normalized">m</mapping>
+        </glyph>
+        
+        <glyph xml:id="caabove">
+          <glyphName>LATIN SMALL LETTER C WITH SMALL LATIN LETTER A ABOVE </glyphName>
+          <mapping type="ligature">U+0063 + U+0363</mapping>
+          <mapping type="diplomatic">cͣ</mapping>
+          <mapping type="normalized">c</mapping>
+        </glyph>
+        
+        <glyph xml:id="scomma">
+          <glyphName>LATIN SMALL LETTER S WITH COMMA ABOVE RIGHT</glyphName>
+          <mapping type="ligature">U+ 0073 + U+0315</mapping>
+          <mapping type="diplomatic">s̕</mapping>
+          <mapping type="normalized">s</mapping>
+        </glyph>
 
       </charDecl>
     </encodingDesc>
