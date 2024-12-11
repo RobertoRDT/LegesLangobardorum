@@ -1,0 +1,6722 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>The Edictus Rothari: a diplomatic and interpretative edition of two manuscripts</title>
+                <principal>Marina Buzzoni</principal>
+                <principal>Roberto Rosselli Del Turco</principal>
+                <respStmt>
+                    <resp>Encoding in TEI-conformant markup: </resp>
+                    <name>Roberto Rosselli Del Turco</name>
+                    <name>Marianna Giardina</name>
+                </respStmt>
+                <respStmt><!-- #############################################################################################  -->
+                    <resp>Encoding Capitula 263-388: </resp>
+                    <name>Elisa Iacopini</name>
+                </respStmt><!-- #############################################################################################  -->
+                <respStmt>
+                    <resp>General overview: </resp>
+                    <name>Roberto Rosselli Del Turco</name>
+                    <name>Marina Buzzoni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Experimental EVT edition: </resp>
+                    <name>Roberto Rosselli Del Turco</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+            <edition>Previous editions</edition>
+            <respStmt xml:id="azzara">
+               <resp>Editor</resp>
+               <name ref="#Azzara1992">Azzara-Gasparri</name>
+            </respStmt>
+            <respStmt xml:id="beyerle">
+               <resp>Editor</resp>
+               <name ref="#Beyerle1962a">Beyerle</name>
+            </respStmt>
+            <respStmt xml:id="bluhme">
+               <resp>Editor</resp>
+               <name ref="#Bluhme1868">Beyerle</name>
+            </respStmt>
+         </editionStmt>
+
+         <extent>[??] kilobytes</extent>
+            
+            <publicationStmt>
+                <authority>Leges Langobardorum Project</authority>
+                <date>2014-</date>
+                <availability>
+                    <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+
+                <msDesc xml:id="CE34">
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Ivrea</settlement>
+                        <repository>Biblioteca Capitolare di Ivrea</repository>
+                        <idno>34</idno>
+                    </msIdentifier>
+
+                </msDesc>
+                <msDesc xml:id="CV188">
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Vercelli</settlement>
+                        <repository>Biblioteca e Archivio Capitolare di Vercelli</repository>
+                        <idno>CLXXXVIII</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="lat">The primary language in this manuscript is Latin, with a few isolated
+                            Langobardic words.</textLang>
+                        
+                        <!-- fill in the MS sections as <msItem>s -->
+
+                        <msItem>
+                            <locus from="1r" to="9r">1r - 9r</locus>
+                            <title type="work">Homily I</title>
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="book">
+                            <supportDesc material="parchment">
+                                <extent>
+                                    <measure type="leaves">The codex is composed by ff. III (paper, modern); 169 (of which 5
+                                        where added in the IX c.); II (paper, XIX c.); III (paper, modern).
+                                    </measure>
+                                    <measure type="dimensions">Ca. 250 x 180 mm.</measure>
+                                    <measure type="lines">21-23 lines of text per page.</measure>
+                                </extent>
+                                <collation>
+                                    <p>
+                                        <formula>...</formula>
+                                        <signatures>...</signatures>
+                                        <catchwords>None</catchwords>
+                                        Quires begin on fols. 1(1), [...] </p>
+                                </collation>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    
+                </msDesc>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="unknown" method="silent">
+                    <p/>
+                </correction>
+                <normalization method="silent">
+                    <p/>
+                </normalization>
+                <segmentation>
+                    <p/>
+                </segmentation>
+                <hyphenation eol="all">
+                    <p>Physical line breaks are rigidly observed.</p>
+                </hyphenation>
+            </editorialDecl>
+            
+            <charDecl>
+                
+                <!-- regular letters -->
+                
+                <char xml:id="ucap">
+                    <charName>LATIN CAPITAL LETTER U</charName>
+                    <mapping type="codepoint">U+0055</mapping>
+                    <mapping type="diplomatic">U</mapping>
+                    <mapping type="normalized">U</mapping>
+                </char>
+                
+                <char xml:id="vcap">
+                    <charName>LATIN CAPITAL LETTER V</charName>
+                    <mapping type="codepoint">U+0056</mapping>
+                    <mapping type="diplomatic">V</mapping>
+                    <mapping type="normalized">V</mapping>
+                </char>
+                
+                <char xml:id="u">
+                    <charName>LATIN SMALL LETTER U</charName>
+                    <mapping type="codepoint">U+0075</mapping>
+                    <mapping type="diplomatic">u</mapping>
+                    <mapping type="normalized">u</mapping>
+                </char>
+                
+                <char xml:id="v">
+                    <charName>LATIN SMALL LETTER V</charName>
+                    <mapping type="codepoint">U+0076</mapping>
+                    <mapping type="diplomatic">v</mapping>
+                    <mapping type="normalized">v</mapping>
+                </char>
+                
+                <!-- variant forms -->
+                
+                <char xml:id="romnumsix">
+                    <charName>ROMAN NUMERAL SIX LATE FORM</charName>
+                    <mapping subtype="MUFI-PUA" type="codepoint">U+EEFD</mapping>
+                    <mapping type="diplomatic">ↅ</mapping>
+                    <mapping type="normalized">ↅ</mapping>
+                </char>
+                
+                <char xml:id="ltailstrok">
+                  <charName>LATIN SMALL LETTER LUM</charName>
+                  <mapping type="codepoint">A772</mapping>
+                  <mapping type="diplomatic">ꝲ</mapping>
+                  <mapping type="normalized">l</mapping>
+                </char>
+
+                <char xml:id="amacr">
+                    <charName>LATIN SMALL LETTER A WITH MACRON</charName>
+                    <mapping type="codepoint">U+0101</mapping>
+                    <mapping type="diplomatic">ā</mapping>
+                    <mapping type="normalized">a</mapping>
+                </char>
+                <char xml:id="emacr">
+                    <charName>LATIN SMALL LETTER E WITH MACRON</charName>
+                    <mapping type="codepoint">U+0113</mapping>
+                    <mapping type="diplomatic">ē</mapping>
+                    <mapping type="normalized">e</mapping>
+                </char>
+                <char xml:id="imacr">
+                    <charName>LATIN SMALL LETTER I WITH MACRON</charName>
+                    <mapping type="codepoint">U+012B</mapping>
+                    <mapping type="diplomatic">ī</mapping>
+                    <mapping type="normalized">i</mapping>
+                </char>
+                <char xml:id="omacr">
+                    <charName>LATIN SMALL LETTER O WITH MACRON</charName>
+                    <mapping type="codepoint">U+014D</mapping>
+                    <mapping type="diplomatic">ō</mapping>
+                    <mapping type="normalized">o</mapping>
+                </char>
+                <char xml:id="umacr">
+                    <charName>LATIN SMALL LETTER U WITH MACRON</charName>
+                    <mapping type="codepoint">U+016B</mapping>
+                    <mapping type="diplomatic">ū</mapping>
+                    <mapping type="normalized">u</mapping>
+                </char>
+                <char xml:id="ymacr">
+                    <!-- VBD entity: ytilde -->
+                    <charName>LATIN SMALL LETTER Y WITH MACRON</charName>
+                    <mapping type="codepoint">U+0233</mapping>
+                    <mapping type="diplomatic">ȳ</mapping>
+                    <mapping type="normalized">y</mapping>
+                </char>
+                
+                <char xml:id="ntilde">
+                    <charName>LATIN SMALL LETTER N WITH TILDE</charName>
+                    <mapping type="codepoint">00F1</mapping>
+                    <mapping type="diplomatic">ñ</mapping>
+                    <mapping type="normalized">n</mapping>
+                </char>
+
+                <char xml:id="qtilde">
+                    <!-- VBD entity: ytilde -->
+                    <charName>LATIN SMALL LETTER Q WITH TILDE</charName>
+                    <mapping type="codepoint">U+0071 + U+0303</mapping>
+                    <mapping type="diplomatic">q̃</mapping>
+                    <mapping type="normalized">q</mapping>
+                </char>
+
+                <!-- ligatures -->
+            
+            <glyph xml:id="uslig">
+               <glyphName>LATIN SMALL LIGATURE US</glyphName>
+               <mapping type="ligature">U+0075 + U+017F</mapping>
+               <mapping type="diplomatic">us</mapping>
+               <mapping type="normalized">us</mapping>
+            </glyph>
+                
+             <!-- pucntuation -->
+
+            <char xml:id="ductsimpl">
+              <charName>HIGH COMMA POSITURA (SIMPLEX DUCTUS)</charName>
+              <mapping type="codepoint">F1E3</mapping>
+              <mapping type="diplomatic"></mapping>
+              <mapping type="normalized">:</mapping>
+            </char>
+
+         </charDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">Latin</language>
+                <language ident="lng">Langobardic</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc status="draft">
+            <change status="draft" when="2016-12" who="RRDT">Separate teiHeader file to accomodate manuscript
+                description, character declaration and more.</change>
+            <change when="2016-09" who="GV" status="draft">Experimental and partial TEI encoding by Giulia Vicari.</change>
+            <change when="2014-08" who="RRDT" status="draft">First experimental and partial TEI encoding.</change>
+        </revisionDesc>
+        
+    </teiHeader>   
+    
+    <text n="Editto di Rotari" xml:id="CV188_ER">
+        <front>
+            <div>
+                <p>...</p>
+            </div>
+        </front>
+        
+        <body>
+	     
+            <div n="Capp. 263-388" subtype="lesioni" type="capitula" xml:id="CV188_div_263-388">
+		    
+		<!-- #######################################  folio 74r  ####################################### -->
+		   	
+                <pb n="074r" xml:id="CV188_folio_074r"/>
+                
+		<p xml:id="CV188_p_074r_263" n="263">
+		  <lb xml:id="CV188_lb__074r_19" n="19" type="rubric"/><label n="263"><num>CCLXIII</num></label>
+		  Si
+		  plures
+		  homines
+		  fur<lb xml:id="CV188_lb__074r_20" n="20"/>tum
+		  in
+		  unum
+		  fecerint,
+		  tam
+		  li<lb xml:id="CV188_lb__074r_21" n="21"/>beri
+		  quam
+		  servi,
+		  liceat
+		  eos,	
+		<!-- #######################################  folio 74v  ####################################### --> 
+		   
+		<pb n="074v" xml:id="CV188_folio_074v"/>
+		
+		  <lb xml:id="CV188_lb__074v_01" n="01"/>si 
+		  voluerint,	
+		  se
+	          insimul
+		  aduna<lb xml:id="CV188_lb__074v_02" n="02"/>re
+		  et
+		  furtum
+		  ipsum
+		  in
+		  actugild
+		  red<lb xml:id="CV188_lb__074v_03" n="03"/>dere.
+		  Si
+		  quis
+		  se
+		  ex
+		  ipsis
+		  deviderit,
+		  pro
+		  <lb xml:id="CV188_lb__074v_04" n="04"/>se
+		  tantum
+		  legibus
+		  conponat,
+		  id
+		  est
+	          ip<lb xml:id="CV188_lb__074v_05" n="05"/>sum
+		  furtum
+		  sibi
+		  nonum. 
+		</p>   
+		<p xml:id="CV188_p_074v_264" n="264">
+		  <lb xml:id="CV188_lb__074v_06" n="06" type="rubric"/><label n="264"><num>CCLXIIII</num>num></label> 
+		  Si
+		  liber
+		  aut
+		  servus
+		  ve<lb xml:id="CV188_lb__074v_07" n="07"/>llit
+		  foris
+		  provinciae
+		  fugire
+		  et
+		  <lb xml:id="CV188_lb__074v_08" n="08"/>iudex
+		  aut
+		  quicumque, 
+		  qui
+		  in
+		  fini<lb xml:id="CV188_lb__074v_09" n="09"/>bus
+		  provinciae
+		  resedit,
+		  eum
+                  praese<lb xml:id="CV188_lb__074v_10" n="10"/>rit,
+                  teneat
+                  eum,
+                  et
+                  res,
+                  quas
+                  secum
+                  <lb xml:id="CV188_lb__074v_11" n="11"/>detulerit,
+                  salvas
+                  faciat;
+		  et
+		  mox
+		  <lb xml:id="CV188_lb__074v_12" n="12"/>mandet
+		  ad
+		  iudicem
+		  de
+		  locum,
+		  unde
+		  <lb xml:id="CV188_lb__074v_13" n="13"/>fugire
+		  coepit,
+		  quatinus
+		  eum
+		  recipi<lb xml:id="CV188_lb__074v_14" n="14"/>at,
+		  et
+		  dit
+		  pro
+		  uno
+		  fugace
+		  solidos
+		  duo,
+		  <lb xml:id="CV188_lb__074v_15" n="15"/>ita
+		  ut
+		  cum
+		  rebus,
+		  quas
+		  secum
+		  de<lb xml:id="CV188_lb__074v_16" n="16"/>tulerit,
+		  reddatur.
+		  Et
+		  si
+	          contege<lb xml:id="CV188_lb__074v_17" n="17"/>rit
+	          eum
+	          de
+	          legamen
+	          fugire,	
+	          prae<lb xml:id="CV188_lb__074v_18" n="18"/>beat
+	          sacramentum
+	          ille,
+	          qui 
+	          eum
+	          <lb xml:id="CV188_lb__074v_19" n="19"/>tenuit,
+	          quod
+	          non
+	          asto
+	          eum
+	          laxas<lb xml:id="CV188_lb__074v_20" n="20"/>sit,	
+	          sed
+                  cum
+                  tota
+                  virtutem
+                  custodi<lb xml:id="CV188_lb__074v_21" n="21"/>re
+                  voluissit: 
+                  post
+                  datum
+                  sacramen<lb rend="align_right" type="extra"/>tum  
+                  
+                <!-- #######################################  folio 75r  ####################################### -->  
+                  
+                <pb n="075r" xml:id="CV188_folio_075r"/>
+                
+                  <lb xml:id="CV188_lb__075r_01" n="01"/>res,
+	          quas
+	          ei
+	          tulit,
+	          reddat,
+	          presura
+	          au<lb xml:id="CV188_lb__075r_02" n="02"/>tem
+	          non
+	          queratur,
+	          et
+	          amplius
+	          non
+	          calo<lb xml:id="CV188_lb__075r_03" n="03"/>mnietur.
+	          Et
+	          si
+	          fugax
+	          ille
+	          manus
+	          ad
+	          <lb xml:id="CV188_lb__075r_04" n="04"/>legandum
+	          non
+	          dederit
+	          et
+	          occisus
+	          fu<lb xml:id="CV188_lb__075r_05" n="05"/>erit,
+	          non
+                  requiratur,
+                  nisi
+                  ipsas
+                  res
+                  red
+                  <lb xml:id="CV188_lb__075r_06" n="06"/>dantur;
+                  et
+                  si
+                  ille,
+                  qui
+                  ipsum
+                  fugacem
+                  <lb xml:id="CV188_lb__075r_07" n="07"/>prendere
+                  voluerit,
+                  ab
+                  ipso
+                  occisus
+                  fue
+                  <lb xml:id="CV188_lb__075r_08" n="08"/>rit,
+                  nec
+                  ipse
+                  nec
+                  ipse
+                  requiratur.
+                </p> 
+		<p xml:id="CV188_p_075r_265" n="265">
+		  <lb xml:id="CV188_lb__075r_09" n="09" type="rubric"/><label n="265"><num>CCLXV</num></label>
+		  De
+		  portonario
+		  qui
+		  sup<lb xml:id="CV188_lb__075r_10" n="10"/>er
+		  flumen
+		  portum
+		  custodit.
+		  <lb xml:id="CV188_lb__075r_11" n="11"/>Si
+	          quis
+	          portonarium
+	          pulsaverit,
+	          quod
+	          <lb xml:id="CV188_lb__075r_12" n="12"/>fugacem
+	          hominem
+	          aut	
+	          furem
+	          trans<lb xml:id="CV188_lb__075r_13" n="13"/>posuisset,
+	          et
+	          portonarius
+	          negave<lb xml:id="CV188_lb__075r_14" n="14"/>rit:
+	          ita
+	          decernimus,
+	          ut
+	          praeveat
+	          so<lb xml:id="CV188_lb__075r_15" n="15"/>lus
+	          sacramentum,
+	          quod
+	          ad
+                  con<lb xml:id="CV188_lb__075r_16" n="16"/>scientiam
+                  ipsius
+                  non
+                  pervenisset,
+                  <lb xml:id="CV188_lb__075r_17" n="17"/>quod
+	          fugitivos
+	          aut
+	          fugaces
+	          tran<lb xml:id="CV188_lb__075r_18" n="18"/>sposuerit,
+	          et
+	          sit
+	          exolutus
+	          a
+	          calom<lb rend="align_right" type="extra"/>nia.
+		</p>
+	        <p xml:id="CV188_p_075r_266" n="266">
+		  <lb xml:id="CV188_lb__075r_19" n="19" type="rubric"/><label n="266"><num>CCLXVI</num></label>
+		  Si
+		  portonarius
+		  furo<lb xml:id="CV188_lb__075r_20" n="20"/>nem
+		  hominem
+		  sciens
+		  trans<lb xml:id="CV188_lb__075r_21" n="21"/>posuerit
+		  cum
+		  aliquas<lb rend="align_right" type="extra"/>res
+		  
+		<!-- #######################################  folio 75v  ####################################### -->
+		  
+		<pb n="075v" xml:id="CV188_folio_075v"/> 
+		 
+		  <lb xml:id="CV188_lb__075v_01" n="01"/>furtivas,
+		  collega
+		  sit
+		  furoni
+		  et
+		  <lb xml:id="CV188_lb__075v_02" n="02"/>cum
+		  ipso
+	          furtum
+	          conponat;
+		  excepto
+		  sit
+		  cul<lb xml:id="CV188_lb__075v_03" n="03"/>pavelis
+		  in
+		  curtem
+		  regis
+		  solidos
+		  XX.
+		</p>  
+		<p xml:id="CV188_p_075v_267" n="267">
+		  <lb xml:id="CV188_lb__075v_04" n="04" type="rubric"/><label n="267"><num>CCLXVII</num>num></label>
+		  Si
+		  portunarius
+		  man<lb xml:id="CV188_lb__075v_05" n="05"/>cipia
+		  fugitiva
+		  sciens
+		  trans<lb xml:id="CV188_lb__075v_06" n="06"/>posuerit,
+		  si
+		  probatum
+		  fu<lb xml:id="CV188_lb__075v_07" n="07"/>erit,
+		  perquirat
+		  eas
+		  et 
+		  proprio
+		  domino
+		  <lb xml:id="CV188_lb__075v_08" n="08"/>cum
+		  rebus,
+		  quas
+		  secum
+		  detolerit,
+		  <lb xml:id="CV188_lb__075v_09" n="09"/>restituat.
+		  Et
+		  si
+		  ipsi
+		  fugaces
+		  ali<lb xml:id="CV188_lb__075v_10" n="10"/>bi
+		  transmigraverint,
+		  ut
+		  non
+		  inve<lb xml:id="CV188_lb__075v_11" n="11"/>niantur,
+		  tunc
+		  portitor
+		  ipsa
+		  man<lb xml:id="CV188_lb__075v_12" n="12"/>cipia,
+		  simul
+		  et
+		  res,	
+		  de
+		  quantas
+		  au<lb xml:id="CV188_lb__075v_13" n="13"/>sus
+		  fuerit
+		  iurare,
+		  qui
+		  perdedit,
+		  <lb xml:id="CV188_lb__075v_14" n="14"/>ei
+	          ab
+	          ipso,
+	          qui
+	          sciens
+	          transposuit
+	          fu<lb xml:id="CV188_lb__075v_15" n="15"/>gacem,
+	          reddantur
+	          sub
+	          <lb xml:id="CV188_lb__075v_16" n="16"/>extimationem
+	          pretii;
+	          excep<lb xml:id="CV188_lb__075v_17" n="17"/>to
+	          pro
+	          culpa
+	          conponat
+	          ipse
+	          portitor
+	          <lb xml:id="CV188_lb__075v_18" n="18"/>in
+	          curte
+	          regis
+	          solidos
+	          XX.
+	        </p>  
+	        <p xml:id="CV188_p_075v_268" n="268">
+		  <lb xml:id="CV188_lb__075v_19" n="19" type="rubric"/><label n="268"><num>CCLXVIII</num></label> 
+		  Si
+		  portonarius
+		  homi<lb xml:id="CV188_lb__075v_20" n="20"/>nem
+		  liberum
+		  fugacem
+		  transpo<lb xml:id="CV188_lb__075v_21" n="21"/>suerit
+		  et
+		  cognoverit, 
+		  quod 
+		  
+		<!-- #######################################  folio 76r  ####################################### --> 
+		 
+		<pb n="076r" xml:id="CV188_folio_076r"/>
+		
+		  <lb xml:id="CV188_lb__076r_01" n="01"/>fugax 
+		  est,
+		  animae 
+		  suae 
+		  incurrat
+		  pe<lb xml:id="CV188_lb__076r_02" n="02"/>riculum, 
+		  aut 
+		  conponat 
+		  wergild 
+		  suo;
+		  quia
+		  <lb xml:id="CV188_lb__076r_03" n="03"/>postquam 
+		  cognovit, 
+		  quod 
+		  in 
+		  fuga
+		  <lb xml:id="CV188_lb__076r_04" n="04"/>erat,
+		  si 
+		  eum 
+		  tenere 
+		  non 
+		  potuit, 
+		  mox
+		  <lb xml:id="CV188_lb__076r_05" n="05"/>innotescere 
+		  aut 
+		  antecurrere 
+		  de<lb rend="align_right" type="extra"/>buit.	  
+	        </p>
+	        <p xml:id="CV188_p_076r_269" n="269">
+		  <lb xml:id="CV188_lb__076r_06" n="06" type="rubric"/><label n="269"><num>CCLXVIIII</num></label>  
+	          Si 
+	          mancipius 
+	          cuiuscum<lb xml:id="CV188_lb__076r_07" n="07"/>que 
+	          post 
+	          alium 
+	          hominem 
+	          fugi<lb xml:id="CV188_lb__076r_08" n="08"/>erit,
+	          et 
+	          dominus 
+	          secutus 
+	          invita<lb xml:id="CV188_lb__076r_09" n="09"/>verit 
+	          in 
+	          pace,
+	          ut 
+	          reddatur 
+	          in
+                  gra<lb xml:id="CV188_lb__076r_10" n="10"/>tia,
+                  et 
+                  si 
+                  in 
+                  gratia 
+                  redditus 
+                  fu<lb xml:id="CV188_lb__076r_11" n="11"/>erit 
+                  et 
+                  in 
+                  ipsa 
+                  culpa 
+                  dominus 
+                  in 
+                  eum 
+                  <lb xml:id="CV188_lb__076r_12" n="12"/>vindictam 
+                  dederit,
+	          conponat 
+	          solidos 
+	          XX 
+	          <lb xml:id="CV188_lb__076r_13" n="13"/>illi,
+	          de 
+	          cuius 
+	          curte 
+	          eum 
+	          tolit;
+	          et 
+	          <lb xml:id="CV188_lb__076r_14" n="14"/>si 
+	          denegat,
+	          quod 
+	          pro 
+	          ipsa 
+	          culpa 
+	          <lb xml:id="CV188_lb__076r_15" n="15"/>in 
+	          eum 
+	          vindictam 
+	          non 
+	          dedisset,
+	          pr<lb xml:id="CV188_lb__076r_16" n="16"/>aebeat 
+	          sagramentum
+		  singulus 
+		  ad 
+		  <lb xml:id="CV188_lb__076r_17" n="17"/>evangelia 
+		  et 
+		  sit 
+		  exsolutus.
+		</p>  
+	        <p xml:id="CV188_p_076r_270" n="270">
+		  <lb xml:id="CV188_lb__076r_18" n="18" type="rubric"/><label n="270"><num>CCLXX</num></label>  
+		  Si 
+		  quis 
+		  ille,
+		  post 
+		  quem 
+		  <lb xml:id="CV188_lb__076r_19" n="19"/>mancipius 
+		  alienus 
+		  fugierit,
+		  <lb xml:id="CV188_lb__076r_20" n="20"/>et 
+		  noluerit 
+		  eum 
+		  post 
+		  secun<lb xml:id="CV188_lb__076r_21" n="21"/>dam 
+		  aut 
+		  tertiam 
+		  contestationem
+		  
+		<!-- #######################################  folio 76v  ####################################### -->
+		 
+		<pb n="076r" xml:id="CV188_folio_076v"/>
+		
+		  <lb xml:id="CV188_lb__076v_01" n="01"/>reddere, 
+		  tunc 
+		  constrictus 
+		  restitu<lb xml:id="CV188_lb__076v_02" n="02"/>at 
+		  ipsum 
+		  mancipium, 
+		  et 
+		  alium 
+		  si<lb xml:id="CV188_lb__076v_03" n="03"/>milem 
+		  sub 
+		  extimationem 
+		  pretii 
+		  <lb rend="align_right" type="extra"/>conponat. 
+		</p>
+		<p xml:id="CV188_p_076v_271" n="271">
+		  <lb xml:id="CV188_lb__076v_04" n="04" type="rubric"/><label n="271"><num>CCLXXI</num></label>
+		  De 
+		  curtem 
+		  regis.
+		  Si 
+		  man<lb xml:id="CV188_lb__076v_05" n="05"/>cipius 
+		  cuiuscumque 
+		  in 
+		  curtem 
+		  <lb xml:id="CV188_lb__076v_06" n="06"/>regis 
+		  confugium 
+		  fecerit,
+		  et 
+		  gastal<lb xml:id="CV188_lb__076v_07" n="07"/>dius 
+		  aut 
+		  actor 
+		  regis
+		  ipsum 
+		  manci<lb xml:id="CV188_lb__076v_08" n="08"/>pium 
+		  post 
+		  secundam 
+		  aut 
+		  ter<lb xml:id="CV188_lb__076v_09" n="09"/>tiam 
+		  contestationem 
+		  reddere 
+		  <lb xml:id="CV188_lb__076v_10" n="10"/>dilataverit,
+		  ita 
+		  iubemus, 
+		  ut 
+		  red<lb xml:id="CV188_lb__076v_11" n="11"/>dat 
+		  ipsum
+		  mancipium, 
+		  et 
+		  alium 
+		  <lb xml:id="CV188_lb__076v_12" n="12"/>similem 
+		  de 
+		  suis 
+		  propriis 
+		  rebus, 
+		  <lb xml:id="CV188_lb__076v_13" n="13"/>domino,
+		  quem 
+		  dilataverit, 
+		  redde<lb xml:id="CV188_lb__076v_14" n="14"/>re 
+		  cogatur.
+		  Et 
+		  si 
+		  ille, 
+		  qui 
+		  de
+                  cur<lb xml:id="CV188_lb__076v_15" n="15"/>te 
+                  regis 
+                  ipsum 
+                  in 
+                  gratia 
+                  recepe<lb xml:id="CV188_lb__076v_16" n="16"/>rit,
+                  postea 
+                  pro 
+                  ipsa 
+                  culpa 
+                  in 
+                  eum 
+                  <lb xml:id="CV188_lb__076v_17" n="17"/>vindictam 
+                  dederit, 
+                  conponat 
+                  in 
+                  cur<lb xml:id="CV188_lb__076v_18" n="18"/>tem 
+                  regis,
+                  unde 
+                  eum 
+                  tolit, 
+                  solidos 
+                  quadraginta.
+		</p> 
+		<p xml:id="CV188_p_076v_272" n="272">
+		  <lb xml:id="CV188_lb__076v_19" n="19" type="rubric"/><label n="272"><num>CCLXXII</num></label>
+		  De 
+		  ecclesia. 
+		  Si 
+		  in 
+		  eccle<lb xml:id="CV188_lb__076v_20" n="20"/>siam 
+		  aut 
+		  in 
+		  domum 
+		  secerdo<lb xml:id="CV188_lb__076v_21" n="21"/>tis 
+		  mancipius 
+		  cuiuscumque 
+		  
+		<!-- #######################################  folio 77r  ####################################### -->
+		  
+		<pb n="077r" xml:id="CV188_folio_077r"/>
+		  
+		  <lb xml:id="CV188_lb__077r_01" n="01"/>confugium 
+		  fecerit 
+		  et 
+		  episcopus
+		  aut 
+		  sacer<lb xml:id="CV188_lb__077r_02" n="02"/>dos, 
+		  qui 
+		  in 
+		  loco 
+		  praeest,
+		  eum 
+		  <lb xml:id="CV188_lb__077r_03" n="03"/>reddere 
+		  in 
+		  gratia 
+		  post 
+		  ter<lb xml:id="CV188_lb__077r_04" n="04"/>tiam 
+		  contestationem 
+		  dilataverit,
+		  <lb xml:id="CV188_lb__077r_05" n="05"/>ita 
+		  decernimus, 
+		  ut
+		  reddat 
+		  ipsum 
+		  mancipi<lb xml:id="CV188_lb__077r_06" n="06"/>um 
+		  et 
+		  alium 
+		  similem 
+		  de 
+		  suis 
+		  pro<lb xml:id="CV188_lb__077r_07" n="07"/>priis 
+		  rebus, 
+		  ut 
+		  supra.
+		  Et 
+		  si 
+		  in 
+		  <lb xml:id="CV188_lb__077r_08" n="08"/>gratia 
+		  redditus 
+		  fuerit 
+		  et 
+		  postea
+		  <lb xml:id="CV188_lb__077r_09" n="09"/>dominus 
+		  in 
+		  ipsum 
+		  vindictam 
+		  pro 
+		  ipsa 
+		  culpa 
+		  dederit,
+		  <lb xml:id="CV188_lb__077r_10" n="10"/>aut 
+		  se 
+		  edoniet, 
+		  ut 
+		  su<lb xml:id="CV188_lb__077r_11" n="11"/>pra, 
+		  aut 
+		  sit 
+		  culpabilis 
+		  ecclesiae 
+		  <lb xml:id="CV188_lb__077r_12" n="12"/>ipsius
+		  solidos 
+		  XL 
+		  ita, 
+		  ut 
+		  per 
+		  actorem 
+		  <lb xml:id="CV188_lb__077r_13" n="13"/>regis 
+		  exegantur 
+		  et 
+		  in 
+		  sagrum 
+		  al<lb xml:id="CV188_lb__077r_14" n="14"/>tarium,
+		  ubi 
+		  iniura 
+		  facta 
+		  est, 
+		  ponantur.
+		</p>
+		<p xml:id="CV188_p_077r_273" n="273">
+		  <lb xml:id="CV188_lb__076v_15" n="15" type="rubric"/><label n="273"><num>CCLXXIII</num></label>
+		  Si 
+		  servus 
+		  intra 
+		  provincia 
+		  in 
+		  fuga 
+		  vagatur 
+		  et 
+		  <lb xml:id="CV188_lb__077r_16" n="16"/>dominus 
+		  eum 
+		  invenerit 
+		  et 
+		  servus 
+		  ipse
+		  <lb xml:id="CV188_lb__077r_17" n="17"/>fugiens 
+		  in 
+		  curtem 
+		  alienam, 
+		  et  
+		  <lb xml:id="CV188_lb__077r_18" n="18"/>dominus 
+		  eius 
+		  insequens 
+		  eum 
+		  adpre<lb xml:id="CV188_lb__077r_19" n="19"/>hensus 
+		  fuerit,
+		  non 
+		  reputetur 
+		  <lb xml:id="CV188_lb__077r_20" n="20"/>culpa 
+		  domini 
+		  pro 
+		  eo,
+		  quod 
+		  in 
+		  curte 
+		  
+		<!-- #######################################  folio 77v  ####################################### -->
+		  
+		<pb n="077v" xml:id="CV188_folio_077v"/>
+		  
+		  <lb xml:id="CV188_lb__077v_01" n="01"/>alterius 
+		  furorem
+		  in 
+		  servum 
+		  suum 
+		  <lb xml:id="CV188_lb__077v_02" n="02"/>habens 
+		  rem 
+		  suam 
+		  prehindere 
+		  vi<lb xml:id="CV188_lb__077v_03" n="03"/>sus 
+		  est.
+		  Et 
+		  si 
+		  ille, 
+		  cuius 
+		  curtis 
+		  <lb xml:id="CV188_lb__077v_04" n="04"/>fuerit, 
+		  aut 
+		  aliquis 
+		  ex 
+		  hominibus 
+		  <lb xml:id="CV188_lb__077v_05" n="05"/>illius
+		  mancipium 
+		  ipsum 
+		  de 
+		  manum 
+		  <lb xml:id="CV188_lb__077v_06" n="06"/>tulerit 
+		  aut 
+		  antesteterit, 
+		  nullum
+		  <lb xml:id="CV188_lb__077v_07" n="07"/>penitus,
+		  qui 
+		  servum 
+		  sequitur, 
+		  in
+		  <lb xml:id="CV188_lb__077v_08" n="08"/>curte 
+		  ipsa 
+		  scandalum
+		  faciat; 
+		  <lb xml:id="CV188_lb__077v_09" n="09"/>si 
+		  fecerit: 
+		  qualiter 
+		  in 
+		  hoc 
+		  edictum 
+		  <lb xml:id="CV188_lb__077v_10" n="10"/>legitur, 
+		  conponat.
+		  Et 
+		  qui 
+		  servum 
+		  an<lb xml:id="CV188_lb__077v_11" n="11"/>testeterit 
+		  aut 
+		  de 
+		  manum 
+		  tole<lb xml:id="CV188_lb__077v_12" n="12"/>rit, 
+		  in
+		  ipsius 
+		  sit 
+		  periculum.
+		  Nam 
+		  <lb xml:id="CV188_lb__077v_13" n="13"/>si 
+		  casu 
+		  facientem 
+		  contigerit 
+		  <lb xml:id="CV188_lb__077v_14" n="14"/>mancipium 
+		  ipsum 
+		  mori 
+		  aut 
+		  alibi 
+		  <lb xml:id="CV188_lb__077v_15" n="15"/>transmegrare,
+		  ipse, 
+		  qui 
+		  eum
+      de
+      <lb xml:id="CV188_lb__077v_16" n="16"/>manu 
+      domini 
+      sui 
+      tolerit, 
+      restituat.
+      <lb xml:id="CV188_lb__077v_17" n="17"/>Et 
+      si 
+      inventus 
+      fuerit, 
+      ut 
+      reddatur,
+     <lb xml:id="CV188_lb__077v_18" n="18"/>non 
+      cogatur 
+      dominus 
+      post 
+      tale 
+      fatiga<lb xml:id="CV188_lb__077v_19" n="19"/>tionem
+      eum 
+      in 
+      gratia 
+      recipere, 
+      <lb xml:id="CV188_lb__077v_20" n="20"/>nisi
+      voluerit.
+   </p>
+	        
+	        <!-- #######################################  folio 78r  NON DIVISO, DIFFICILE!!!! ####################################### -->
+	        
+	        <pb n="078r" xml:id="CV188_folio_078r"/>
+	        
+    <p xml:id="CV188_p_078r_274" n="274">
+		  <lb xml:id="CV188_lb__078r_01" n="01" type="rubric"/><label n="274"><num>CCLXXIIII</num></label><!-- No rubrica No numero -->
+		  Si 
+		  quis 
+		  mancipium 
+		  fugacem 
+		  in 
+		  casa 
+		  sua 
+		  nesciente
+		  <lb xml:id="CV188_lb__078r_02" n="02"/>domino 
+		  super 
+		  novem 
+		  noctes 
+		  habuerit,
+		  et 
+		  contigerit 
+		  <lb xml:id="CV188_lb__078r_03" n="03"/>ipsum
+		  mancipium 
+		  aliquid 
+		  mali 
+		  penetra<lb xml:id="CV188_lb__078r_04" n="04"/>re, 
+		  aut 
+		  mori 
+		  aut 
+		  aberrare:
+		  ille, 
+		  qui 
+		  eum 
+		  suscepit 
+		  et
+		  <lb xml:id="CV188_lb__078r_05" n="05"/>celavit 
+		  aut 
+		  mandare 
+		  neglexit,
+		  reddat 
+		  ipsum 
+		  man<lb xml:id="CV188_lb__078r_06" n="06"/>cipium 
+		  aut 
+		  pretium 
+		  eius, 
+		  et 
+		  damnum,
+		  quod 
+		  fecerit, 
+		  <lb xml:id="CV188_lb__078r_07" n="07"/>ipse 
+		  conponat, 
+		  qui 
+		  eum 
+		  post 
+		  se 
+		  habuit.
+		</p>
+		<p xml:id="CV188_p_078r_275" n="275">
+		  <lb xml:id="CV188_lb__078r_08" n="08" type="rubric"/><label n="275"><num>CCLXXV</num></label><!-- No rubrica No numero -->
+		  Si 
+		  mancipium 
+		  alienum 
+		  refugium 
+		  post 
+		  alium 
+		  fecerit,
+		  <lb xml:id="CV188_lb__078r_09" n="09"/>id 
+		  est 
+		  in 
+		  fraida, 
+		  mox 
+		  mandet 
+		  domino 
+		  ipsius, 
+		  quam 
+		  citius
+		  potuerit,
+		  <lb xml:id="CV188_lb__078r_10" n="10"/>aut 
+		  per 
+		  scriptum 
+		  aut 
+		  per 
+		  certo 
+		  homine,
+		  quatenus 
+		  eum 
+		  in 
+		  gratia 
+		  <lb xml:id="CV188_lb__078r_11" n="11"/>recipiat;
+		  et 
+		  si 
+		  noluerit 
+		  eum 
+		  recipere 
+		  et
+                  dilateverit,
+                  et 
+                  contigerit 
+                  <lb xml:id="CV188_lb__078r_12" n="12"/>eum 
+                  alibi 		
+                  translatare,
+                  nulla 
+                  culpa 
+                  illi 
+                  sit, 
+                  qui 
+                  eum 
+                  prius 
+                  in 
+                  casa 
+                  sua 
+                  su<lb xml:id="CV188_lb__078r_13" n="13"/>scepit.
+                  Nam 
+                  qui
+                  susceperit 
+                  et 
+                  non 
+                  mandaverit,
+                  reddat 
+                  ipsum 
+                  mancipium 
+                  et 
+                  damnum, 
+                  cui 
+                  fecerit; 
+                  <lb xml:id="CV188_lb__078r_14" n="14"/>simul 
+                  et 
+                  operas.
+		</p>
+		<p xml:id="CV188_p_078r_276" n="276">
+		  <label n="275"><num>CCLXXVI</num></label><!-- No rubrica No numero No a capo-->	
+		  Si 
+		  quis 
+		  mancipium 
+		  sciens 
+		  fugacem 
+		  susceperit 
+		  <lb xml:id="CV188_lb__078r_15" n="15"/>aut 
+		  anonam 
+		  dederit 
+		  aut 
+		  viam 
+		  ostenderit,
+		  et 
+		  mancipius 
+		  ipse 
+		  fuga
+		  lapsus 
+		  inantea 
+		  fugerit, 
+		  ipse 
+		  eum 
+		  <lb xml:id="CV188_lb__078r_16" n="16"/>perquirat,	
+		  qui 
+		  anonam 
+		  dedit 
+		  aut 
+		  viam 
+		  ostendere 
+		  praesumpsit; 
+		  et 
+		  si 
+		  eum 
+		  non
+		  invener<lb xml:id="CV188_lb__078r_17" n="17"/>it, 
+		  reddat 
+		  pretium 
+		  mancipii, 
+		  simul 
+		  et 
+		  de 
+		  res, 
+		  quas 
+		  secum 
+		  portaverit;
+		  et 
+		  si 
+		  inven<lb xml:id="CV188_lb__078r_18" n="18"/>tum 
+		  fuerit, 
+		  reddat 
+		  ipsum 
+		  et
+		  operas. 
+		</p>
+		<p xml:id="CV188_p_078r_277" n="277">
+		  <label n="277"><num>CCLXXVII</num></label><!-- No rubrica No numero No a capo-->
+		  De 
+		  haistan, 
+		  id 
+		  est 
+		  furorem.
+		  <lb xml:id="CV188_lb__078r_19" n="19"/>Si 
+		  quis 
+		  in 
+		  curtem 
+		  alienam 
+		  haistan,
+		  id 
+		  est 
+		  irato 
+		  animo, 
+		  ingressus 
+		  fuerit, 
+		  vigenti 
+		  sol.
+		  illi <!-- i maiuscola dopo punto???-->
+		  conponat 
+		  cuius 
+		  curtis 
+		  fuerit.	
+    </p> 
+    <p xml:id="CV188_p_078r_278" n="278">
+		  <lb xml:id="CV188_lb__078r_20" n="20" type="rubric"/><label n="278"><num>CCLXXVIII</num></label><!-- No rubrica No numero --> 
+	          De 
+	          hoberos, 
+	          id 
+	          est 
+	          curtis 
+	          ruptura. 
+	          Mulier 
+	          curtis 
+	          rupturam 
+	          facere 
+	          non 
+	          potest,
+	          quod 
+	          est 
+	          hobe<lb xml:id="CV188_lb__078r_21" n="21"/>ros; 
+	          absurdum
+	          videtur 
+	          esse, 
+	          ut 
+	          mulier 
+	          libera, 
+	          aut 
+	          ancilla, 
+	          quasi 
+	          vir 
+	          cum 
+	          armis 
+	          vim 
+	          facere 
+	          possit.
+	        </p>
+	        <p xml:id="CV188_p_078r_279" n="279">
+		  <lb xml:id="CV188_lb__078r_22" n="22" type="rubric"/><label n="279"><num>CCLXXIX</num></label><!-- No rubrica No numero -->
+		  De 
+		  concilio 
+		  rusticanorum. 
+		  Si 
+		  servi, 
+		  id 
+		  est 
+		  concilius,
+		  manu 
+		  armata 
+		  in 
+		  vico 
+		  intraverint 
+		  <lb xml:id="CV188_lb__078r_23" n="23"/>ad 
+		  malum 
+		  faciendum, 
+		  et
+		  quicumque 
+		  liber 
+		  homo 
+		  sub 
+		  regni 
+		  nostri 
+		  dicione 
+		  positus 
+		  cum 
+		  illis 
+		  in 
+		  <lb xml:id="CV188_lb__078r_24" n="24"/>capite 
+		  fuerit,
+		  animae 
+		  suae 
+		  incurrat 
+		  periculum
+		  fuerint 
+		  ex 
+		  eodem 
+		  concilio, 
+		  unusquisque 
+		  solidos 
+		  quadraginta 
+		  sit 
+		  culpabilis,
+		  medietatem 
+		  <lb xml:id="CV188_lb__078r_25" n="25"/>regi 
+		  et 
+		  medietatem, 
+		  ut 
+		  supra.
+		</p>  
+		<p xml:id="CV188_p_078r_280" n="280">
+		  <lb xml:id="CV188_lb__078r_26" n="26"/><label n="280"><num>CCLXXX</num></label><!-- No rubrica No numero -->
+		  De 
+		  rusticanorum 
+		  seditionem.
+		  Si 
+		  per 
+		  quacumque 
+		  causa 
+		  homines 
+		  rusticani 
+		  se 
+		  collegerint, 
+		  id 
+		  est 
+		  concilios 
+		  <lb xml:id="CV188_lb__078r_27" n="27"/>et
+		  seditionis 
+		  facere 
+		  presumpserint 
+		  et 
+		  cuicumque 
+		  se 
+		  anteposuerint
+		  aut 
+		  mancipium 
+		  aut 
+		  pec<lb xml:id="CV188_lb__078r_28" n="28"/>ulium 
+		  da 
+		  manu 
+		  tullerint, 
+		  quod
+		  de 
+		  casa 
+		  servi 
+		  sui 
+		  dominus 
+		  tollere 
+		  voluerit, 
+		  tunc 
+		  ille,
+		  qui 
+		  in 
+		  caput 
+		  ex 
+		  ipsis 
+		  <lb xml:id="CV188_lb__078r_29" n="29"/>rusticis 
+		  fuerit, 
+		  aut 
+		  occidatur 
+		  aut 
+		  redimat
+		  animam 
+		  suam, 
+		  quantum 
+		  adpretiatus 
+		  fuerit; 
+		  et 
+		  unusquisque,
+		  <lb xml:id="CV188_lb__078r_30" n="30"/>qui 
+		  in 
+		  ipsam 
+		  seditionem 
+		  cucurrerit 
+		  ad 
+		  malum 
+		  faciendum,
+		  conponat 
+		  sol. 
+		  duodecim, 
+		  medietatem 
+		  regi 
+		  et 
+		  me<lb xml:id="CV188_lb__078r_31" n="31"/>dietatem,
+		  cui 
+		  iniuria 
+		  fecerit 
+		  aut 
+		  se 
+		  anteponere 
+		  presumpserit. 
+		  Et 
+		  si
+		  ille, 
+		  qui 
+		  rem 
+		  suam 
+		  quaerere 
+		  aut 
+		  <lb xml:id="CV188_lb__078r_32" n="32"/>exegere 
+		  videtur,
+		  ab 
+		  ipsis 
+		  rusticis 
+		  feritas 
+		  aut 
+		  plagas 
+		  facta 
+		  habuerit: 
+		  sicut 
+		  superi<lb xml:id="CV188_lb__078r_33" n="33"/>us
+		  statutum 
+		  est, 
+		  ei 
+		  conponatur;
+		  nam 
+		  pro 
+		  praesumptione 
+		  tantum 
+		  poena 
+		  suprascripta 
+		  patiantur. 
+		  Et 
+		  si 
+		  aliquis 
+		  <lb xml:id="CV188_lb__078r_34" n="34"/>ex 
+		  ipsis
+		  rusticis 
+		  occisus 
+		  fuerit, 
+		  non 
+		  requiratur, 
+		  quia 
+		  ille,
+		  qui 
+		  eum 
+		  occisit, 
+		  <lb xml:id="CV188_lb__078r_35" n="35"/>se 
+		  defendendum 
+		  et 
+		  res 
+		  suas 
+		  vindicandum 
+		  hoc 
+		  egit.
+		</p>  
+		
+		<!-- #######################################  folio 78v PAGINA VUOTA ####################################### -->
+		
+	        
+	        <!-- #######################################  folio 79r ####################################### -->
+	        
+	        <pb n="079r" xml:id="CV188_folio_079r"/> 
+	        
+	        <p xml:id="CV188_p_079r_281" n="281">
+		  <lb xml:id="CV188_lb_079r_01" n="01"/><label n="281"><num>CCLXXXI</num></label>
+		  De 
+		  furta 
+		  et 
+		  pena 
+		  fe<lb xml:id="CV188_lb_079r_02" n="02"/>nita. 
+		  Si 
+		  quis 
+		  de 
+		  lignario 
+		  alterius 
+		  <lb xml:id="CV188_lb_079r_03" n="03"/>lignum 
+		  furaverit,
+		  conponat 
+		  illi, 
+		  cuius 
+		  <lb xml:id="CV188_lb_079r_04" n="04"/>lignarius 
+		  fuerit, 
+		  solidos 
+		  sex.
+		</p> 
+		<p xml:id="CV188_p_079r_282" n="282">
+		  <lb xml:id="CV188_lb_078v_05" n="05"/><label n="282"><num>CCLXXXII</num></label>
+		  Si 
+		  quis 
+		  de 
+		  casa 
+		  erec<lb xml:id="CV188_lb_079r_06" n="06"/>ta 
+		  lignum 
+		  quodlibet 
+		  aut 
+		  scin<lb xml:id="CV188_lb_079r_07" n="07"/>dolam 
+		  furaverit, 
+		  conponat 
+		  solidos 
+		  sex.
+		</p>
+		<p xml:id="CV188_p_079r_283" n="283">
+		  <lb xml:id="CV188_lb_079r_08" n="08"/><label n="283"><num>CCLXXXIII</num></label>
+		  Si 
+		  quis 
+		  de 
+		  lignamen 
+		  ad<lb xml:id="CV188_lb_079r_09" n="09"/>unatum 
+		  in 
+		  curte 
+		  aut 
+		  in 
+		  pla<lb xml:id="CV188_lb_079r_10" n="10"/>tea 
+		  ad 
+		  casam 
+		  faciendam 
+		  fura 
+		  ve<lb xml:id="CV188_lb__079r_11" n="11"/>rit,
+		  conponat 
+		  solidos 
+		  sex; 
+		  si
+		  autem 
+		  in 
+		  silva 
+		  <lb xml:id="CV188_lb_079r_12" n="12"/>dispersum 
+		  fuerit 
+		  et 
+		  furaverit, 
+		  conponat 
+		  <lb rend="align_right" type="extra"/>in 
+		  actugild.
+		</p>
+		<p xml:id="CV188_p_079r_284" n="284">
+		  <lb xml:id="CV188_lb_079r_13" n="13"/><label n="284"><num>CCLXXXIIII</num></label>
+		  De 
+		  orto. 
+		  Si 
+		  quis 
+		  in 
+		  orto 
+		  <lb xml:id="CV188_lb_079r_14" n="14"/>alterius 
+		  introierit 
+		  aut 
+		  salierit 
+		  <lb xml:id="CV188_lb_079r_15" n="15"/>ad 
+		  furtum 
+		  faciendum,
+		  conponat 
+		  solidos 
+		  sex; 
+		  <lb xml:id="CV188_lb_079r_16" n="16"/>nam 
+		  si 
+		  post 
+		  suam 
+		  rem 
+		  ingreditur 
+		  <lb xml:id="CV188_lb_079r_17" n="17"/>et 
+		  damnum 
+		  non 
+		  fecerit, 
+		  non 
+		  sit 
+		  <lb rend="align_right" type="extra"/>culpavilis.<!-- <lb xml:id="CV188_lb__078v"/> l'identificativo univoco ci vuole???? -->     
+	        </p>
+	        <p xml:id="CV188_p_079r_285" n="285">
+		  <lb xml:id="CV188_lb_079r_18" n="18"/><label n="285"><num>CCLXXXV</num></label>
+		  De 
+		  iderzun. 
+		  Si 
+		  quis 
+		  <lb xml:id="CV188_lb_079r_19" n="19"/>sepem 
+		  alienam 
+		  ruperit, 
+		  id 
+		  est 
+		  <lb xml:id="CV188_lb_079r_19" n="19"/>iderzun, 
+		  conponat 
+		  sol. 
+		  sex.
+		</p> 
+		<p xml:id="CV188_p_079r_286" n="286">
+		  <lb xml:id="CV188_lb_079r_20" n="20"/><label n="286"><num>CCLXXXVI</num></label>
+		  De 
+		  axegias. 
+		  Si 
+		  quis 
+		  axe<lb rend="align_right" type="extra"/>gias <!-- <lb xml:id="CV188_lb__078v"/> l'identificativo univoco ci vuole???? -->
+		  
+		<!-- #######################################  folio 79r ####################################### -->
+		
+		<pb n="079v" xml:id="CV188_folio_079v"/>
+		  
+		  <lb xml:id="CV188_lb_079r_01" n="01"/>de 
+		  sepe,
+		  id 
+		  est 
+		  axegiato,
+		  una 
+		  aut 
+		  duas 
+		  tulerit, 
+		  <lb xml:id="CV188_lb_079v_02" n="02"/>conponat 
+		  solido 
+		  uno.
+		</p>
+		<p xml:id="CV188_p_079v_287" n="287">
+		  <lb xml:id="CV188_lb_079v_03" n="03"/><label n="287"><num>CCLXXXVII</num></label>
+		  De 
+		  sepe 
+		  stantaria. 
+		  Si 
+		  quis 
+		  <lb xml:id="CV188_lb_079v_04" n="04"/>de 
+		  sepe 
+		  stantaria 
+		  facta 
+		  vimen 
+		  <lb xml:id="CV188_lb_079v_05" n="05"/>tulerit, 
+		  conponat 
+		  solidum 
+		  unum; 
+		  si 
+		  autem 
+		  <lb xml:id="CV188_lb_079v_06" n="06"/>pertica
+		  transversaria 
+		  tulerit, 
+		  <lb xml:id="CV188_lb_079v_07" n="07"/>conponat 
+		  solidos 
+		  sex.
+		</p>
+		<p xml:id="CV188_p_079v_288" n="288">
+		  <lb xml:id="CV188_lb_079v_08" n="08"/><label n="288"><num>CCLXXXVIII</num></label>
+		  De 
+		  plovum. 
+		  Si 
+		  quis 
+		  plo<lb xml:id="CV188_lb_079v_09" n="09"/>vum 
+		  aut 
+		  aratrum 
+		  alienum 
+		  ini<lb xml:id="CV188_lb_079v_10" n="10"/>quo 
+		  animo 
+		  capellaverit, 
+		  conponat 
+		  solidos 
+		  <lb xml:id="CV188_lb_079v_11" n="11"/>tres, 
+		  et 
+		  si
+		  furaverit, 
+		  reddat 
+		  in 
+		  actogild.
+		</p> 
+		<p xml:id="CV188_p_079v_289" n="289">
+		  <lb xml:id="CV188_lb_079v_12" n="12"/><label n="289"><num>CCLXXXVIIII</num></label>
+		  De 
+		  tentinno. 
+		  Si 
+		  quis 
+		  tintinno 
+		  de 
+		  super 
+		  <lb xml:id="CV188_lb_079v_13" n="13"/>cavallo 
+		  aut 
+		  bove 
+		  furaverit, 
+		  <lb xml:id="CV188_lb_079v_14" n="14"/>conponat 
+		  solidos 
+		  sex.
+		</p>
+		<p xml:id="CV188_p_079v_290" n="290">
+		  <lb xml:id="CV188_lb_079v_15" n="15"/><label n="290"><num>CCXC</num></label>
+		  De 
+		  iugum. 
+		  Si 
+		  quis 
+		  iugum 
+		  furaverit, 
+		  <lb xml:id="CV188_lb_079v_16" n="16"/>conponat 
+		  solidos 
+		  sex.
+		</p> 
+		  <lb xml:id="CV188_lb_079v_17" n="17"/><!-- È UNA RIGA VUOTA??? -->
+		<p xml:id="CV188_p_079v_291" n="291">
+		  <lb xml:id="CV188_lb_079v_18" n="18"/><label n="291"><num>CCXCI</num></label>
+		  De 
+		  sogas. 
+		  Si 
+		  quis 
+		  sogas 
+		  <lb xml:id="CV188_lb_079v_19" n="19"/>furaverit 
+		  de 
+		  bovis 
+		  iunctorios, 
+		  <lb xml:id="CV188_lb_079v_20" n="20"/>conponat 
+		  solidos 
+		  sex.
+		  Et 
+		  si 
+		  qualemcum<lb xml:id="CV188_lb_079v_21" n="21"/>que 
+		  rem
+		  mediocrem, 
+		  unde 
+		  sex 
+		<!-- #######################################  folio 80r ####################################### -->
+		
+		<pb n="080r" xml:id="CV188_folio_080r"/>  
+		  
+		  <lb xml:id="CV188_lb_080r_01" n="01"/>solidi 
+		  aut 
+		  minus 
+		  in 
+		  hoc 
+		  edictum 
+		  sunt 
+		  iudicati:
+		  si 
+		  fur 
+		  <lb xml:id="CV188_lb_080r_02" n="02"/>ipse 
+		  supertentus 
+		  fuerit, 
+		  non 
+		  sit 
+		  <lb xml:id="CV188_lb_080r_03" n="03"/>figangit,
+		  nisi 
+		  tantum 
+		  conponat, 
+		  sicut 
+		  <lb xml:id="CV188_lb_080r_04" n="04"/>constitutum 
+		  est.
+		</p> 
+		<p xml:id="CV188_p_080r_292" n="292">
+		  <lb xml:id="CV188_lb_080r_05" n="05"/><label n="292"><num>CCXCII</num></label>
+		  De 
+		  vitem 
+		  uvarum. 
+		  Si 
+		  quis 
+		  <lb xml:id="CV188_lb_080r_06" n="06"/>vitem 
+		  expoliaverit, 
+		  id 
+		  est 
+		  amini<lb xml:id="CV188_lb_080r_07" n="07"/>cula 
+		  tulerit 
+		  super 
+		  tres 
+		  aut 
+		  quattu<lb xml:id="CV188_lb_080r_08" n="08"/>or, 
+		  conponat 
+		  solidos 
+		  sex.
+		</p>
+		<p xml:id="CV188_p_080r_293" n="293">
+		  <lb xml:id="CV188_lb_080r_09" n="09"/><label n="293"><num>CCXCIII</num></label>
+		  De 
+		  palo, 
+		  quod 
+		  est 
+		  carracio. 
+		  <lb xml:id="CV188_lb_080r_10" n="10"/>Si 
+		  quis 
+		  palum 
+		  de 
+		  vite 
+		  tulerit, 
+		  <lb xml:id="CV188_lb_080r_11" n="11"/>conponat 
+		  solidus 
+		  sex.
+		</p>
+		<p xml:id="CV188_p_080r_294" n="294">
+		  <lb xml:id="CV188_lb_080r_12" n="12"/><label n="294"><num>CCXCIIII</num></label>
+		  De 
+		  vite 
+		  incisa. 
+		  Si 
+		  quis 
+		  <lb xml:id="CV188_lb_080r_13" n="13"/>vitem 
+		  de 
+		  una 
+		  fossa 
+		  asto 
+		  ca<lb xml:id="CV188_lb_080r_13" n="13"/>pellaverit, 
+		  conponat 
+		  solido 
+		  uno.
+		</p>
+		<p xml:id="CV188_p_080r_295" n="295">
+		  <lb xml:id="CV188_lb_080r_14" n="14"/><label n="295"><num>CCXCV</num></label>
+		  De 
+		  travicem 
+		  vitis. 
+		  Si 
+		  quis 
+		  <lb xml:id="CV188_lb_080r_15" n="15"/>travicem 
+		  de 
+		  vitem 
+		  inci<lb xml:id="CV188_lb_080r_16" n="16"/>derit, 
+		  conponat 
+		  medio 
+		  solido.
+		</p> 
+		<p xml:id="CV188_p_080r_296" n="296">
+		  <lb xml:id="CV188_lb_080r_15" n="15"/><label n="296"><num>CCXCVI</num></label>
+		  De 
+		  ubas. 
+		  Si 
+		  quis 
+		  super 
+		  tres 
+		  uvas 
+		  <lb xml:id="CV188_lb_080r_16" n="16"/>de 
+		  vinea 
+		  alienam 
+		  tulerit,
+		  conponat 
+		  <lb xml:id="CV188_lb_080r_17" n="17"/>solidos 
+		  sex; 
+		  nam 
+		  si 
+		  usque 
+		  tres 
+		  tule<lb xml:id="CV188_lb_080r_18" n="18"/>rit, 
+		  nulla
+		  sit 
+		  illi 
+		  culpa.
+		</p> 
+		
+		<!-- #######################################  folio 80v ####################################### -->
+		
+		<pb n="080v" xml:id="CV188_folio_080v"/>  
+		
+		<p xml:id="CV188_p_080v_297" n="297">
+		  <lb xml:id="CV188_lb_080v_01" n="01"/><label n="297"><num>CCXCVII</num></label>
+		  De 
+		  ambulatorias. 
+		  Si 
+		  quis 
+		  <lb xml:id="CV188_lb_080v_02" n="02"/>pastoriam 
+		  de 
+		  caballo 
+		  alieno 
+		  <lb xml:id="CV188_lb_080v_03" n="03"/>tulerit, 
+		  conponat 
+		  solidos 
+		  sex.
+		</p>
+		<p xml:id="CV188_p_080v_298" n="298">
+		  <lb xml:id="CV188_lb_080v_04" n="04"/><label n="298"><num>CCXCVIII</num></label>
+		  De 
+		  capistro. 
+		  Si 
+		  quis 
+		  capis<lb xml:id="CV188_lb_080v_05" n="05"/>trum 
+		  de 
+		  caballo 
+		  tulerit, 
+		  con<lb xml:id="CV188_lb_080v_06" n="06"/>ponat 
+		  solidos 
+		  sex.
+		</p> 
+		<p xml:id="CV188_p_080v_299" n="299">
+		  <lb xml:id="CV188_lb_080v_07" n="07"/><label n="299"><num>CCXCVIIII</num></label>
+		  De 
+		  retis. 
+		  Si 
+		  quis 
+		  retes 
+		  <lb xml:id="CV188_lb_080v_08" n="08"/>alienas 
+		  aut 
+		  nassas 
+		  levave<lb xml:id="CV188_lb_080v_09" n="09"/>rit 
+		  aut 
+		  in 
+		  piscaria 
+		  aliena 
+		  pisces 
+		  tule<lb xml:id="CV188_lb_080v_10" n="10"/>rit, 
+		  conponat 
+		  solidos 
+		  tres.
+		</p> 
+		<p xml:id="CV188_p_080v_300" n="300">
+		  <lb xml:id="CV188_lb_080v_11" n="11"/><label n="300"><num>CCC</num></label>
+		  De 
+		  arboribus. 
+		  Si 
+		  quis 
+		  rovore 
+		  aut 
+		  ce<lb xml:id="CV188_lb_080v_12" n="12"/>rrum 
+		  seu 
+		  quercum, 
+		  quod 
+		  est 
+		  mo<lb xml:id="CV188_lb_080v_13" n="13"/>dola, 
+		  hisclo, 
+		  quod 
+		  est 
+		  fagia, 
+		  infra 
+		  <lb xml:id="CV188_lb_080v_14" n="14"/>agrum
+		  alienum 
+		  aut 
+		  culturam 
+		  <lb xml:id="CV188_lb_080v_15" n="15"/>seu 
+		  clausuram, 
+		  vicinos 
+		  ad 
+		  vicinum, 
+		  <lb xml:id="CV188_lb_080v_16" n="16"/>inciderit, 
+		  conponat 
+		  per 
+		  arborem 
+		  tre<lb xml:id="CV188_lb_080v_17" n="17"/>misses 
+		  duos. 
+		  Nam
+		  iterans 
+		  homo, 
+		  <lb xml:id="CV188_lb_080v_18" n="18"/>si 
+		  propter 
+		  utilitatem 
+		  suam 
+		  foris 
+		  <lb xml:id="CV188_lb_080v_19" n="19"/>clausuram 
+		  capellaverit, 
+		  non 
+		  sit 
+		  <lb rend="align_right" type="extra"/>culpavilis.
+		</p>  
+		<p xml:id="CV188_p_080v_301" n="301">
+		  <lb xml:id="CV188_lb_080v_20" n="20"/><label n="301"><num>CCCI</num></label>
+		  Si 
+		  quis 
+		  castenea, 
+		  nuce, 
+		  pe<lb xml:id="CV188_lb_080v_21" n="21"/>ro 
+		  aut 
+		  melum 
+		  inciderit, 
+		  conponat 
+		  solido 
+		  uno.
+		</p> 
+		
+		<!-- #######################################  folio 81r ####################################### -->                 
+		
+		<pb n="081r" xml:id="CV188_folio_081r"/>
+		
+		
+		<p xml:id="CV188_p_081r_302" n="302">
+		  <lb xml:id="CV188_lb_081r_01" n="01"/><label n="302"><num>CCCII</num></label>
+		  De 
+		  olivam. 
+		  Si 
+		  quis 
+		  olivo 
+		  capellaverit 
+		  <lb xml:id="CV188_lb_081r_02" n="02"/>aut 
+		  succiderit, 
+		  conponat 
+		  solidos 
+		  tres.
+		</p>
+		<p xml:id="CV188_p_081r_303" n="303">
+		  <lb xml:id="CV188_lb_081r_03" n="03"/><label n="303"><num>CCCIII</num></label> 
+		  Si 
+		  homo 
+		  aut 
+		  quislevit 
+		  <lb xml:id="CV188_lb_081r_03" n="03"/>peculius 
+		  in 
+		  sepe 
+		  alterius 
+		  texta 
+		  <lb xml:id="CV188_lb_081r_04" n="04"/>cum 
+		  vimen 
+		  se 
+		  inpegerit 
+		  et 
+		  mortu<lb xml:id="CV188_lb_081r_05" n="05"/>us 
+		  aut 
+		  aliquam 
+		  lesionem
+		  passus 
+		  fu<lb xml:id="CV188_lb_081r_06" n="06"/>erit, 
+		  tunc 
+		  ille, 
+		  qui 
+		  sepem 
+		  ipsam 
+		  fe<lb xml:id="CV188_lb_081r_07" n="07"/>cit 
+		  et 
+		  caput 
+		  maiorem 
+		  aut 
+		  minorem 
+		  de 
+		  vimen 
+		  foris 
+		  dimisit, 
+		  ipse 
+		  sit
+		  culpa<lb xml:id="CV188_lb_081r_08" n="08"/>velis 
+		  homicidii 
+		  aut 
+		  lesionis.
+		</p>
+		<p xml:id="CV188_p_081r_304" n="304">
+		  <lb xml:id="CV188_lb_081r_09" n="09"/><label n="304"><num>CCCIIII</num></label>
+		  Si 
+		  cavallus 
+		  aut 
+		  quislibet 
+		  <lb xml:id="CV188_lb_081r_10" n="10"/>peculius 
+		  in 
+		  clausura 
+		  alterius 
+		  <lb xml:id="CV188_lb_081r_11" n="11"/>intus 
+		  saliendum 
+		  se 
+		  inpalaverit, 
+		  <lb xml:id="CV188_lb_081r_12" n="12"/>non 
+		  reddatur 
+		  ab 
+		  ipso,
+		  cuius 
+		  sepem 
+		  <lb xml:id="CV188_lb_081r_12" n="12"/>est: 
+		  et 
+		  si 
+		  ab 
+		  infra 
+		  in 
+		  foris 
+		  salierit 
+		  <lb xml:id="CV188_lb_081r_13" n="13"/>et 
+		  se 
+		  inpalaverit, 
+		  tunc 
+		  ille, 
+		  cuius 
+		  <lb xml:id="CV188_lb_081r_14" n="14"/>sepe 
+		  esse 
+		  invenitur, 
+		  eum 
+		  conponat.
+		  <lb xml:id="CV188_lb_081r_15" n="15"/>Et 
+		  damnum, 
+		  si 
+		  intra 
+		  ipsa 
+		  clausura 
+		  <lb xml:id="CV188_lb_081r_16" n="16"/>fecerit, 
+		  conponat 
+		  ei, 
+		  cuius 
+		  clausura 
+		  est.
+		</p>
+		<p xml:id="CV188_p_081r_305" n="305">
+		  <lb xml:id="CV188_lb_081r_17" n="17"/><label n="305"><num>CCCV</num></label>
+		  Si 
+		  quis 
+		  fossatum 
+		  circa 
+		  <lb xml:id="CV188_lb_081r_18" n="18"/>campum 
+		  suum 
+		  fecerit 
+		  
+		<!-- #######################################  folio 81v ####################################### -->                 
+		
+		<pb n="081v" xml:id="CV188_folio_081v"/>  
+		  
+		  <lb xml:id="CV188_lb_081v_01" n="01"/>et 
+		  cavallus 
+		  aut 
+		  alter 
+		  peculius 
+		  <lb xml:id="CV188_lb_081v_02" n="02"/>ibidem 
+		  ceciderit 
+		  aut 
+		  homo
+		  pericli<lb xml:id="CV188_lb_081v_03" n="03"/>taverit, 
+		  non 
+		  requiratur 
+		  ab 
+		  ipso, 
+		  cu<lb xml:id="CV188_lb_081v_04" n="04"/>ius 
+		  fossatum 
+		  invenitur 
+		  esse, 
+		  quia 
+		  pro 
+		  <lb xml:id="CV188_lb_081v_05" n="05"/>salvatione 
+		  campi 
+		  sui 
+		  fecit, 
+		  nam 
+		  <lb xml:id="CV188_lb_081v_06" n="06"/>non
+		  dolose 
+		  tractavit. 
+		  Et 
+		  si 
+		  eum 
+		  oc<lb xml:id="CV188_lb_081v_07" n="07"/>culte 
+		  cooperierit 
+		  et 
+		  damnum 
+		  si 
+		  factum 
+		  fuerit, 
+		  conponatur 
+		  ab 
+		  ipso, 
+		  qui 
+		  oc<lb xml:id="CV188_lb_081v_08" n="08"/>culte 
+		  fecit.
+		</p>
+		<p xml:id="CV188_p_081v_306" n="306">
+		  <lb xml:id="CV188_lb_081v_09" n="09"/><label n="306"><num>CCCVI</num></label>
+		  De 
+		  puteo. 
+		  Si 
+		  aliquid 
+		  in 
+		  puteo 
+		  alte<lb xml:id="CV188_lb_081v_10" n="10"/>rius 
+		  ceciderit 
+		  et 
+		  mortuum 
+		  <lb xml:id="CV188_lb_081v_11" n="11"/>aut 
+		  debilitatum 
+		  fuerit, 
+		  non 
+		  requiratur, 
+		  cuius 
+		  pu<lb xml:id="CV188_lb_081v_12" n="12"/>teus
+		  est: 
+		  quia 
+		  puteus 
+		  aquae 
+		  communis 
+		  omnium 
+		  utilitatis 
+		  invenitur 
+		  <lb rend="align_right" type="extra"/>esse.
+		</p> 
+		<p xml:id="CV188_p_081v_307" n="307">
+		  <lb xml:id="CV188_lb_081v_13" n="13"/><label n="307"><num>CCCVII</num></label>
+		  De 
+		  arma. 
+		  Si 
+		  quis 
+		  alii 
+		  armam 
+		  suam 
+		  <lb xml:id="CV188_lb_081v_14" n="14"/>simpliciter 
+		  prestaverit 
+		  et 
+		  il<lb xml:id="CV188_lb_081v_15" n="15"/>le, 
+		  qui 
+		  acceperit, 
+		  aliquid 
+		  mali 
+		  cum 
+		  <lb xml:id="CV188_lb_081v_16" n="16"/>ipsa 
+		  fecerit,
+		  non 
+		  reputetur 
+		  a 
+		  il<lb xml:id="CV188_lb_081v_17" n="17"/>li 
+		  culpa, 
+		  qui 
+		  prestetit, 
+		  sed 
+		  ei, 
+		  qui 
+		  <lb xml:id="CV188_lb_081v_18" n="18"/>malum 
+		  cum 
+		  ea 
+		  penetravit. 
+		  
+		<!-- #######################################  folio 82r ####################################### -->                 
+		
+		<pb n="082r" xml:id="CV188_folio_082r"/>
+		  
+		  <lb xml:id="CV188_lb_082r_01" n="01"/>Et 
+		  e 
+		  contrario, 
+		  si 
+		  ille, 
+		  qui 
+		  prestetit,
+		  con<lb xml:id="CV188_lb_082r_02" n="02"/>sensum 
+		  ad 
+		  malum 
+		  fa 
+		  ciendum 
+		  habu<lb xml:id="CV188_lb_082r_03" n="03"/>it, 
+		  collegas 
+		  illi 
+		  sit 
+		  ad 
+		  ipsum 
+		  malum 
+		  sa<lb xml:id="CV188_lb_082r_04" n="04"/>nandum.
+		</p> 
+		<p xml:id="CV188_p_082r_308" n="308">
+		  <lb xml:id="CV188_lb_082r_05" n="05"/><label n="308"><num>CCCVIII</num></label>
+		  Si 
+		  quis 
+		  suam 
+		  auctoritatem 
+		  <lb xml:id="CV188_lb_082r_06" n="06"/>arma 
+		  alterius 
+		  tollere 
+		  presumpse<lb xml:id="CV188_lb_082r_07" n="07"/>rit 
+		  et 
+		  malum 
+		  cum 
+		  ea 
+		  fecerit, 
+		  non 
+		  sit 
+		  illi 
+		  culpa, 
+		  cuius
+		  arma 
+		  est, 
+		  sed 
+		  <lb xml:id="CV188_lb_082r_08" n="08"/>illi, 
+		  qui 
+		  cum 
+		  ea 
+		  malum 
+		  fecit.
+		</p>
+		<p xml:id="CV188_p_082r_309" n="309">
+		  <lb xml:id="CV188_lb_082r_09" n="09"/><label n="309"><num>CCCVIIII</num></label>
+		  De 
+		  fera. 
+		  Si 
+		  qua 
+		  fera 
+		  ab 
+		  homine 
+		  plagata 
+		  <lb xml:id="CV188_lb_082r_10" n="10"/>fuerit 
+		  et 
+		  in 
+		  ipso 
+		  furore 
+		  hominem 
+		  <lb xml:id="CV188_lb_082r_11" n="11"/>occiderit 
+		  aut 
+		  quodlibet 
+		  damnum
+		  <lb xml:id="CV188_lb_082r_12" n="12"/>fecerit, 
+		  tunc 
+		  ipse, 
+		  qui 
+		  plagavit, 
+		  ipsum 
+		  homicidium 
+		  aut 
+		  damnum 
+		  conponat 
+		  sub 
+		  <lb xml:id="CV188_lb_082r_13" n="13"/>ea 
+		  vidilicit 
+		  observatione, 
+		  ut 
+		  tam<lb xml:id="CV188_lb_082r_14" n="14"/>diu
+		  intellegatur 
+		  culpa 
+		  venatoris, 
+		  <lb xml:id="CV188_lb_082r_15" n="15"/>quamdiu 
+		  eam 
+		  secutus 
+		  fuerit 
+		  aut 
+		  <lb xml:id="CV188_lb_082r_16" n="16"/>canis 
+		  ipsius. 
+		  Nam 
+		  si 
+		  ipsa 
+		  fera 
+		  post<lb xml:id="CV188_lb_082r_17" n="17"/>posuerit 
+		  et 
+		  se 
+		  ab 
+		  ea
+		  turnaverit, 
+		  <lb xml:id="CV188_lb_082r_18" n="18"/>posteaque 
+		  fera 
+		  ipsa 
+		  damnum 
+		  fe<lb xml:id="CV188_lb_082r_19" n="19"/>cerit, 
+		  non 
+		  requiratur 
+		  ab 
+		  eo, 
+		  qui 
+		  pla<lb xml:id="CV188_lb_082r_20" n="20"/>gavit 
+		  aut 
+		  incitavit.
+		</p>
+		
+		<!-- #######################################  folio 82v ####################################### -->                 
+		
+		<pb n="082v" xml:id="CV188_folio_082v"/>
+		
+		
+		<p xml:id="CV188_p_082v_310" n="310">
+		  <lb xml:id="CV188_lb_082v_01" n="01"/><label n="310"><num>CCCX</num></label>         
+		  De 
+		  pedica. 
+		  Si 
+		  in 
+		  pedica 
+		  aut 
+		  <lb xml:id="CV188_lb_082v_02" n="02"/>in 
+		  taliola 
+		  fera 
+		  tenta 
+		  fuerit 
+		  et 
+		  in 
+		  homi<lb xml:id="CV188_lb_082v_02" n="02"/>nem 
+		  aut 
+		  in 
+		  peculium 
+		  damnum 
+		  fece<lb xml:id="CV188_lb_082v_03" n="03"/>rit, 
+		  ipse
+		  conponat, 
+		  qui 
+		  pedica 
+		  misit.
+		</p>
+		<p xml:id="CV188_p_082v_311" n="311">
+		  <lb xml:id="CV188_lb_082v_04" n="04"/><label n="311"><num>CCCXI</num></label>
+		  Si 
+		  quis 
+		  super 
+		  fera 
+		  ab 
+		  alio 
+		  pla<lb xml:id="CV188_lb_082v_04" n="04"/>gata 
+		  aut 
+		  in 
+		  taliola 
+		  tenta 
+		  aut 
+		  a 
+		  ca<lb xml:id="CV188_lb_082v_05" n="05"/>nibus 
+		  circumdata, 
+		  iter 
+		  suum 
+		  pos<lb xml:id="CV188_lb_082v_06" n="06"/>tponens, 
+		  volens
+		  eam 
+		  lucrari, 
+		  super 
+		  ip<lb xml:id="CV188_lb_082v_07" n="07"/>sam 
+		  se 
+		  miserit, 
+		  et 
+		  ab 
+		  ipsa 
+		  plaga<lb xml:id="CV188_lb_082v_08" n="08"/>tus 
+		  fuerit 
+		  aut 
+		  occisus, 
+		  non 
+		  requi<lb xml:id="CV188_lb_082v_09" n="09"/>ratur 
+		  ab 
+		  eo, 
+		  qui 
+		  plagavit 
+		  aut
+		  inci<lb xml:id="CV188_lb_082v_10" n="10"/>tavit, 
+		  sed 
+		  suae 
+		  culpe 
+		  et 
+		  audaciae 
+		  <lb xml:id="CV188_lb_082v_11" n="11"/>repotit, 
+		  qui 
+		  cum 
+		  auctoritate 
+		  lu<lb xml:id="CV188_lb_082v_12" n="12"/>crandi 
+		  animo 
+		  se 
+		  super 
+		  eam 
+		  misit.
+		</p> 
+		<p xml:id="CV188_p_082v_312" n="312">
+		  <lb xml:id="CV188_lb_082v_13" n="13"/><label n="312"><num>CCCXII</num></label>
+		  De 
+		  fera 
+		  inventa 
+		  ab 
+		  alio 
+		  <lb xml:id="CV188_lb_082v_14" n="14"/>vulnerata. 
+		  Si 
+		  quis 
+		  fera 
+		  ab 
+		  alio 
+		  vulnerata 
+		  aut 
+		  in 
+		  taliola 
+		  ten<lb xml:id="CV188_lb_082v_15" n="15"/>ta 
+		  aut 
+		  a 
+		  canibus 
+		  circumdata
+		  inve<lb xml:id="CV188_lb_082v_16" n="16"/>nerit, 
+		  aut 
+		  forsitan 
+		  mortua, 
+		  aut 
+		  <lb xml:id="CV188_lb_082v_17" n="17"/>ipse 
+		  occiderit 
+		  et 
+		  salvaverit 
+		  et 
+		  bo<lb xml:id="CV188_lb_082v_18" n="18"/>no 
+		  animo 
+		  manefestaverit, 
+		  lice<lb xml:id="CV188_lb_082v_19" n="19"/>at 
+		  eum 
+		  de 
+		  ipsa 
+		  fera
+		  tollere 
+		  dextro 
+		  <lb xml:id="CV188_lb_082v_20" n="20"/>armo 
+		  cum 
+		  septem 
+		  costas.
+		</p>
+		
+		<!-- #######################################  folio 83r ####################################### -->                 
+		
+		<pb n="083r" xml:id="CV188_folio_083r"/>
+		
+		<p xml:id="CV188_p_083r_313" n="313">
+		  <lb xml:id="CV188_lb_083r_01" n="01"/><label n="313"><num>CCCXIII</num></label>
+		  De 
+		  fera 
+		  celata. 
+		  Si 
+		  quis 
+		  fe<lb xml:id="CV188_lb_083r_02" n="02"/>ra 
+		  ab 
+		  alio 
+		  plagata 
+		  aut 
+		  forsitan 
+		  <lb xml:id="CV188_lb_083r_03" n="03"/>mortua 
+		  invenerit 
+		  et 
+		  celaverit, 
+		  conponat 
+		  <lb xml:id="CV188_lb_083r_04" n="04"/>solidos 
+		  sex 
+		  illi,
+		  qui 
+		  eam 
+		  plagavit.
+		</p>
+		<p xml:id="CV188_p_083r_314" n="314">
+		  <lb xml:id="CV188_lb_083r_05" n="05"/><label n="314"><num>CCCXIIII</num></label>
+		  Quamdiu 
+		  fera 
+		  intellega<lb xml:id="CV188_lb_083r_06" n="06"/>tur 
+		  esse 
+		  venatoris. 
+		  Si 
+		  cervus 
+		  <lb xml:id="CV188_lb_083r_07" n="07"/>aut 
+		  qualebit
+		  fera 
+		  ab 
+		  alio 
+		  hominem 
+		  sa<lb xml:id="CV188_lb_083r_08" n="08"/>gittata 
+		  fuerit, 
+		  tamdiu
+		  illius 
+		  esse 
+		  in<lb xml:id="CV188_lb_083r_09" n="09"/>tellegatur, 
+		  qui 
+		  eam 
+		  sagittavit, 
+		  us<lb xml:id="CV188_lb_083r_10" n="10"/>que 
+		  ad 
+		  aliam 
+		  talem 
+		  horam 
+		  diei 
+		  aut 
+		  <lb xml:id="CV188_lb_083r_11" n="11"/>noctis, 
+		  id 
+		  est 
+		  oras 
+		  vigenti 
+		  quattuor,
+		  quo 
+		  eam 
+		  <lb xml:id="CV188_lb_083r_12" n="12"/>posposuit 
+		  et 
+		  se 
+		  turnavit. 
+		  Nam 
+		  qui 
+		  <lb xml:id="CV188_lb_083r_13" n="13"/>eam 
+		  post 
+		  transactas 
+		  predictas 
+		  horas 
+		  <lb xml:id="CV188_lb_083r_14" n="14"/>invenerit, 
+		  non 
+		  sit 
+		  culpavelis, 
+		  sed
+		  ha<lb xml:id="CV188_lb_083r_15" n="15"/>beat 
+		  sibi 
+		  ipsa 
+		  fera.
+		</p> 
+		<p xml:id="CV188_p_083r_315" n="315">
+		  <lb xml:id="CV188_lb_083r_16" n="16"/><label n="315"><num>CCCXV</num></label>
+		  De 
+		  cervo 
+		  domestico. 
+		  Si 
+		  quis 
+		  <lb xml:id="CV188_lb_083r_17" n="17"/>cervum 
+		  domesticum, 
+		  qui 
+		  tempo<lb xml:id="CV188_lb_083r_18" n="18"/>re 
+		  suo 
+		  rugire 
+		  solit, 
+		  fragiaverit, 
+		  <lb xml:id="CV188_lb_083r_19" n="19"/>conponat 
+		  domino
+		  eius 
+		  solidûs 
+		  duo<lb xml:id="CV188_lb_083r_20" n="20"/>dicem; 
+		  nam 
+		  si 
+		  furaverit, 
+		  in 
+		  actugild 
+		  <lb rend="align_right" type="extra"/>reddat.
+		</p>
+		<p xml:id="CV188_p_083r_316" n="316">
+		  <lb xml:id="CV188_lb_083r_21" n="21"/><label n="316"><num>CCCXVI</num></label>
+		  Si 
+		  quis 
+		  cervum 
+		  domesti<lb rend="align_right" type="extra"/>cum 
+		  
+		<!-- #######################################  folio 83v ####################################### -->                 
+		
+		<pb n="083v" xml:id="CV188_folio_083v"/> 
+		  
+		  <lb xml:id="CV188_lb_083v_01" n="01"/>alienum, 
+		  qui 
+		  non 
+		  rugierit, 
+		  intriga<lb xml:id="CV188_lb_083v_02" n="02"/>verit, 
+		  conponat 
+		  domino 
+		  eius 
+		  solidos 
+		  sex; 
+		  nam 
+		  si
+		  <lb xml:id="CV188_lb_083v_03" n="03"/>eum 
+		  furaverit, 
+		  reddat 
+		  in 
+		  actugild.
+		</p>
+		<p xml:id="CV188_p_083v_317" n="317">
+		  <lb xml:id="CV188_lb_083v_04" n="04"/><label n="317"><num>CCCXVII</num></label>
+		  De 
+		  aves 
+		  domesticas. 
+		  <lb xml:id="CV188_lb_083v_05" n="05"/>Si 
+		  quis 
+		  acceptore, 
+		  grova 
+		  aut 
+		  <lb xml:id="CV188_lb_083v_06" n="06"/>cicino 
+		  domestico 
+		  alieno 
+		  in<lb xml:id="CV188_lb_083v_07" n="07"/>trigaverit, 
+		  sit 
+		  culpabiles 
+		  sol. 
+		  sex.<!-- Maiuscola??? -->
+		</p>
+		<p xml:id="CV188_p_083v_318" n="318">
+		  <lb xml:id="CV188_lb_083v_08" n="08"/><label n="318"><num>CCCXVIII</num></label>
+		  De 
+		  apes. 
+		  Si 
+		  quis 
+		  de 
+		  <lb xml:id="CV188_lb_083v_09" n="09"/>apeculare 
+		  vas 
+		  cum 
+		  apes 
+		  furave<lb xml:id="CV188_lb_083v_10" n="10"/>rit, 
+		  unum 
+		  aut 
+		  plures, 
+		  conponat 
+		  solidos 
+		  duodecim.
+		</p>
+		<p xml:id="CV188_p_083v_319" n="319">
+		  <lb xml:id="CV188_lb_083v_11" n="11"/><label n="319"><num>CCCXVIIII</num></label>
+                  Si 
+                  quis 
+                  de 
+                  arbore 
+                  sig<lb xml:id="CV188_lb_083v_12" n="12"/>nato 
+                  in 
+                  silva 
+                  alterius 
+                  apes 
+                  <lb xml:id="CV188_lb_083v_13" n="13"/>tulerit, 
+                  conponat 
+                  solidûs 
+                  sex. 
+                  Nam 
+                  <lb xml:id="CV188_lb_083v_14" n="14"/>si 
+                  signatum 
+                  non 
+                  fuerit, 
+                  tunc,
+                  qui<lb xml:id="CV188_lb_083v_15" n="15"/>cumque 
+                  invenerit, 
+                  iure 
+                  naturale 
+                  <lb xml:id="CV188_lb_083v_16" n="16"/>habeat 
+                  sibi, 
+                  excepto 
+                  in 
+                  gahagio 
+                  regis; 
+                  et 
+                  <lb xml:id="CV188_lb_083v_17" n="17"/>si 
+                  contegerit 
+                  dominum, 
+                  cuius 
+                  silva 
+                  <lb xml:id="CV188_lb_083v_18" n="18"/>est,
+                  supervenerit, 
+                  tollat 
+                  mel, 
+                  et 
+                  <lb xml:id="CV188_lb_083v_19" n="19"/>amplius 
+                  culpa 
+                  non 
+                  requiratur.		
+		</p> 
+		<p xml:id="CV188_p_083v_320" n="320">
+		  <lb xml:id="CV188_lb_083v_20" n="20"/><label n="320"><num>CCCXX</num></label>          
+		  De 
+		  acceptoris. 
+		  Si 
+		  quis 
+		  de 
+		  <lb xml:id="CV188_lb_083v_21" n="21"/>silva 
+		  alterius 
+		  accepturis 
+		  tule<lb rend="align_right" type="extra"/>rit, 
+		  
+		<!-- #######################################  folio 84r ####################################### -->                 
+		
+		<pb n="084r" xml:id="CV188_folio_084r"/>
+		  
+		  <lb xml:id="CV188_lb_084r_01" n="01"/>excepto 
+		  gahagium 
+		  regis, 
+		  habeat 
+		  sibi. 
+		  Nam 
+		  <lb xml:id="CV188_lb_084r_02" n="02"/>si
+		  dominus 
+		  selvae 
+		  supervenerit, 
+		  tollat 
+		  <lb xml:id="CV188_lb_084r_03" n="03"/>acceptoris, 
+		  et 
+		  amplius 
+		  culpa 
+		  adver<lb xml:id="CV188_lb_084r_04" n="04"/>sus 
+		  eum 
+		  non 
+		  requirat. 
+		  Et 
+		  <lb xml:id="CV188_lb_084r_05" n="05"/>hoc 
+		  iubemus: 
+		  si
+		  quis 
+		  de 
+		  gahagio 
+		  regis 
+		  <lb xml:id="CV188_lb_084r_06" n="06"/>tulerit 
+		  accepturis, 
+		  sit 
+		  culpabiles 
+		  solid. 
+		  duodicem.
+		</p>
+		<p xml:id="CV188_p_084r_321" n="321">
+		  <lb xml:id="CV188_lb_084r_07" n="07"/><label n="321"><num>CCCXXI</num></label>
+		  Si 
+		  quis 
+		  de 
+		  arbore 
+		  signa<lb xml:id="CV188_lb_084r_08" n="08"/>to 
+		  in 
+		  silva 
+		  alterius 
+		  accep<lb xml:id="CV188_lb_084r_09" n="09"/>tures 
+		  de 
+		  nido 
+		  tulerit, 
+		  conponat 
+		  solidos 
+		  <lb rend="align_right" type="extra"/>sex.
+		</p>
+		<p xml:id="CV188_p_084r_322" n="322">
+		  <lb xml:id="CV188_lb_084r_10" n="10"/><label n="322"><num>CCCXXII</num></label>  
+		  De 
+		  canis 
+		  incetatus. 
+		  Si 
+		  <lb xml:id="CV188_lb_084r_11" n="11"/>quis 
+		  canis 
+		  alienus 
+		  clamave<lb xml:id="CV188_lb_084r_12" n="12"/>rit 
+		  aut 
+		  incetaverit, 
+		  et 
+		  damnum 
+		  <lb xml:id="CV188_lb_084r_13" n="13"/>fecirint 
+		  in 
+		  hominem 
+		  aut 
+		  in
+		  peculi<lb xml:id="CV188_lb_084r_14" n="14"/>um, 
+		  non 
+		  repotetur 
+		  illi 
+		  culpa, 
+		  cu<lb xml:id="CV188_lb_084r_15" n="15"/>ius 
+		  canis 
+		  sunt, 
+		  sed 
+		  illi, 
+		  qui 
+		  eos 
+		  inci<lb rend="align_right" type="extra"/>tavit.
+		</p>
+		<p xml:id="CV188_p_084r_323" n="323">
+		  <lb xml:id="CV188_lb_084r_16" n="16"/><label n="323"><num>CCCXXIII</num></label>
+		  De 
+		  homine 
+		  rabioso. 
+		  <lb xml:id="CV188_lb_084r_17" n="17"/>Si 
+		  peccatis 
+		  eminentibus 
+		  ho<lb xml:id="CV188_lb_084r_18" n="18"/>mo 
+		  rabiosus 
+		  aut 
+		  demoniacus 
+		  <lb xml:id="CV188_lb_084r_19" n="19"/>factus 
+		  fuerit, 
+		  et 
+		  damnum 
+		  fe<lb xml:id="CV188_lb_084r_20" n="20"/>cerit 
+		  in
+		  hominem 
+		  aut 
+		  in 
+		  peculi<lb xml:id="CV188_lb_084r_21" n="21"/>um, 
+		  non 
+		  requiratur 
+		  ab 
+		  heredibus; 
+		  et 
+		  si 
+		  ipse 
+		  occisus 
+		  fuerit, 
+		  simili 
+		  modo 
+		  non 
+		  requiratur; 
+		  tantum
+		  <lb xml:id="CV188_lb_084r_22" n="22"/>est, 
+		  ut 
+		  sine 
+		  culpa 
+		  non 
+		  occidatur.
+		</p> 
+		
+		<!-- #######################################  folio 84v ####################################### -->                 
+		
+		<pb n="084v" xml:id="CV188_folio_084v"/> 
+		
+		<p xml:id="CV188_p_084v_324" n="324">
+		  <lb xml:id="CV188_lb_084v_01" n="01"/><label n="324"><num>CCCXXIIII</num></label>
+		  Si 
+		  canis 
+		  aut 
+		  caballus 
+		  <lb xml:id="CV188_lb_084v_02" n="02"/>aut 
+		  quislibet 
+		  peculius 
+		  rabiosus 
+		  <lb xml:id="CV188_lb_084v_03" n="03"/>factus 
+		  fuerit 
+		  et 
+		  damnum 
+		  fecerit 
+		  <lb xml:id="CV188_lb_084v_04" n="04"/>in 
+		  hominem 
+		  aut 
+		  in
+		  peculium, 
+		  non 
+		  <lb xml:id="CV188_lb_084v_05" n="05"/>requiratur 
+		  a 
+		  domino, 
+		  et 
+		  qui 
+		  ipsum 
+		  occi<lb xml:id="CV188_lb_084v_06" n="06"/>derit, 
+		  simili 
+		  modo 
+		  non 
+		  requiratur, 
+		  <lb xml:id="CV188_lb_084v_07" n="07"/>ut 
+		  supra.
+		</p>
+		<p xml:id="CV188_p_084v_325" n="325">
+		  <lb xml:id="CV188_lb_084v_08" n="08"/><label n="325"><num>CCCXXV</num></label>
+		  De 
+		  quadrupedia, 
+		  si 
+		  in 
+		  ho<lb xml:id="CV188_lb_084v_09" n="09"/>minem 
+		  aut 
+		  in 
+		  peculium 
+		  dam<lb xml:id="CV188_lb_084v_10" n="10"/>num 
+		  fecerit 
+		  peculius.
+		</p>
+		<p xml:id="CV188_p_084v_326" n="326">
+		  <lb xml:id="CV188_lb_084v_11" n="11"/><label n="326"><num>CCCXXVI</num></label>
+		  Si 
+		  caballus 
+		  cum 
+		  pede, 
+		  <lb xml:id="CV188_lb_084v_11" n="11"/>si 
+		  boves 
+		  cum 
+		  corno, 
+		  si 
+		  porcus 
+		  <lb xml:id="CV188_lb_084v_12" n="12"/>cum 
+		  dentem 
+		  hominem 
+		  intrigave<lb xml:id="CV188_lb_084v_13" n="13"/>rit 
+		  aut 
+		  si 
+		  canis 
+		  morderit, 	  
+		  excep<lb xml:id="CV188_lb_084v_14" n="14"/>to, 
+		  ut 
+		  supra, 
+		  si 
+		  rabiosus 
+		  fuerit: 
+		  <lb xml:id="CV188_lb_084v_15" n="15"/>ipse 
+		  conponat 
+		  homicidium 
+		  aut 
+		  dam<lb xml:id="CV188_lb_084v_16" n="16"/>num, 
+		  cuius 
+		  animales 
+		  fuerit, 
+		  <lb xml:id="CV188_lb_084v_17" n="17"/>cessante 
+		  in 
+		  hoc
+		  capitulo 
+		  faida, 
+		  <lb xml:id="CV188_lb_084v_18" n="18"/>quod 
+		  est 
+		  inimicitia,
+		  quia 
+		  muta 
+		  res 
+		  <lb xml:id="CV188_lb_084v_19" n="19"/>fecit, 
+		  nam 
+		  non 
+		  hominis 
+		  studium.
+		</p>
+		
+		<!-- #######################################  folio 85r ####################################### -->                 
+		
+		<pb n="085r" xml:id="CV188_folio_085r"/>
+		
+		<p xml:id="CV188_p_085r_327" n="327">
+		  <lb xml:id="CV188_lb_085r_01" n="01"/><label n="327"><num>CCCXXVII</num></label>
+		  De 
+		  caballo 
+		  praestito. 
+		  Si 
+		  quis 
+		  praestitum 
+		  aut 
+		  <lb xml:id="CV188_lb_085r_02" n="02"/>conductum 
+		  caballum 
+		  aut 
+		  <lb xml:id="CV188_lb_085r_03" n="03"/>bovem 
+		  aut 
+		  canem 
+		  aut 
+		  quolibet 
+		  <lb xml:id="CV188_lb_085r_04" n="04"/>animalem
+		  habuerit 
+		  et, 
+		  dum 
+		  in 
+		  ipso 
+		  <lb xml:id="CV188_lb_085r_05" n="05"/>beneficio 
+		  aut 
+		  conductura 
+		  est, 
+		  <lb xml:id="CV188_lb_085r_06" n="06"/>damnum 
+		  fecerit, 
+		  non 
+		  requiratur 
+		  <lb xml:id="CV188_lb_085r_07" n="07"/>proprio 
+		  domino, 
+		  sed 
+		  ille, 
+		  qui
+		  praes<lb xml:id="CV188_lb_085r_08" n="08"/>titum 
+		  post 
+		  se 
+		  habuit, 
+		  ipse 
+		  homicidium 
+		  <lb xml:id="CV188_lb_085r_09" n="09"/>aut 
+		  damnum 
+		  conponat.
+		</p>
+		<p xml:id="CV188_p_085r_328" n="328">
+		  <lb xml:id="CV188_lb_085r_10" n="10"/><label n="328"><num>CCCXXVIII</num></label>
+		  Si 
+		  animales 
+		  <lb xml:id="CV188_lb_085r_11" n="11"/>alienum 
+		  animalem 
+		  occiderit 
+		  aut 
+		  intri<lb xml:id="CV188_lb_085r_12" n="12"/>gaverit, 
+		  id 
+		  est 
+		  boves 
+		  bovem 
+		  <lb xml:id="CV188_lb_085r_13" n="13"/>aut 
+		  quislibet 
+		  peculius, 
+		  tunc
+		  dominus, 
+		  qui 
+		  animalem 
+		  suum 
+		  intrigatum 
+		  <lb xml:id="CV188_lb_085r_14" n="14"/>invenerit 
+		  aut 
+		  forsan 
+		  iam 
+		  mar<lb xml:id="CV188_lb_085r_12" n="12"/>cidum 
+		  aut 
+		  minuatum, 
+		  iubemus 
+		  <lb xml:id="CV188_lb_085r_13" n="13"/>ut 
+		  consignet
+		  ipsum 
+		  intrigatum 
+		  <lb xml:id="CV188_lb_085r_14" n="14"/>illi, 
+		  cuius 
+		  animales 
+		  eum 
+		  intrigavit, 
+		  <lb xml:id="CV188_lb_085r_15" n="15"/>ut 
+		  similem, 
+		  qualis 
+		  in 
+		  illa 
+		  diae 
+		  fuit, 
+		  <lb xml:id="CV188_lb_085r_16" n="16"/>quando 
+		  fragiatus 
+		  est,
+		  recipi<lb xml:id="CV188_lb_085r_17" n="17"/>at 
+		  ab 
+		  ipso, 
+		  cuius 
+		  animales 
+		  hoc 
+		  fecit.
+		</p> 
+		
+		<!-- #######################################  folio 85v ####################################### -->                 
+		
+		<pb n="085v" xml:id="CV188_folio_085v"/>
+		
+		<p xml:id="CV188_p_085v_329" n="329">
+		  <lb xml:id="CV188_lb_085v_01" n="01"/><label n="329"><num>CCCXXVIIII</num></label>
+	          De 
+	          cane 
+	          furato. 
+	          Si 
+	          quis 
+	          <lb xml:id="CV188_lb_085v_02" n="02"/>canem 
+	          furaverit, 
+	          sibi 
+	          nunum 
+	          red<lb rend="align_right" type="extra"/>dat.	
+		</p> 
+		<p xml:id="CV188_p_085v_330" n="330">
+		  <lb xml:id="CV188_lb_085v_03" n="03"/><label n="329"><num>CCCXXX</num></label>
+		  Si 
+		  quis 
+		  se 
+		  vindicandum 
+		  <lb xml:id="CV188_lb_085v_04" n="04"/>occiderit 
+		  canem 
+		  alienum, 
+		  id 
+		  est 
+		  <lb xml:id="CV188_lb_085v_05" n="05"/>cum 
+		  spata 
+		  aut 
+		  virga 
+		  aut 
+		  <lb xml:id="CV188_lb_085v_06" n="06"/>cum 
+		  qualebit 
+		  arma 
+		  mano
+		  tenen<lb xml:id="CV188_lb_085v_07" n="07"/>do, 
+		  non 
+		  ei 
+		  requiratur; 
+		  tantum 
+		  est, 
+		  <lb xml:id="CV188_lb_085v_08" n="08"/>ut 
+		  ipsa 
+		  virga 
+		  tales 
+		  inveniatur 
+		  esse, 
+		  <lb xml:id="CV188_lb_085v_09" n="09"/>ut 
+		  mediocris 
+		  spata. 
+		  Nam 
+		  si 
+		  post 
+		  <lb xml:id="CV188_lb_085v_10" n="10"/>ipsum
+		  iactaverit 
+		  et 
+		  eum 
+		  occide<lb xml:id="CV188_lb_085v_11" n="11"/>rit, 
+		  reddat 
+		  ferquido, 
+		  id 
+		  est 
+		  si<lb rend="align_right" type="extra"/>milem.
+		</p>
+		<p xml:id="CV188_p_085v_331" n="331">
+		  <lb xml:id="CV188_lb_085v_12" n="12"/><label n="331"><num>CCCXXXI</num></label>
+		  Si 
+		  quis 
+		  canem 
+		  alienum 
+		  <lb xml:id="CV188_lb_085v_13" n="13"/>nocte 
+		  aut 
+		  in 
+		  diem 
+		  dam<lb xml:id="CV188_lb_085v_14" n="14"/>num 
+		  facientem 
+		  in 
+		  casa 
+		  sua 
+		  <lb xml:id="CV188_lb_085v_15" n="15"/>invenerit, 
+		  si 
+		  eum 
+		  occiderit, 
+		  non
+		  <lb xml:id="CV188_lb_085v_16" n="16"/>requiratur; 
+		  et 
+		  si 
+		  occisus 
+		  non 
+		  fu<lb xml:id="CV188_lb_085v_17" n="17"/>erit, 
+		  damnum 
+		  quod 
+		  fecirit, 
+		  dominus 
+		  red<lb rend="align_right" type="extra"/>dat.
+		</p>
+		<p xml:id="CV188_p_085v_332" n="332">
+		  <lb xml:id="CV188_lb_085v_18" n="18"/><label n="332"><num>CCCXXXII</num></label>
+	          De 
+	          vacca 
+	          praegnante. 
+	          <lb xml:id="CV188_lb_085v_19" n="19"/>Si 
+	          quis 
+	          percusserit 
+	          vacca 
+	          <lb xml:id="CV188_lb_085v_20" n="20"/>pregnantem 
+	          et 
+	          avortum 
+	          fecirit, 
+	          conponat 
+	          <lb xml:id="CV188_lb_085v_21" n="21"/>tremisse 
+	          uno. 
+	          Et 
+	          si
+	          mortua 
+	          fuerit, 
+	          
+	        <!-- #######################################  folio 86r ####################################### -->                 
+		
+		<pb n="086r" xml:id="CV188_folio_086r"/>
+	          
+	          <lb xml:id="CV188_lb_086r_01" n="01"/>reddat 
+	          eam, 
+	          qualiter 
+	          adpraetiata 
+	          fu<lb xml:id="CV188_lb_086r_02" n="02"/>erit, 
+	          simul 
+	          et 
+	          pecus.	
+		</p>
+		<p xml:id="CV188_p_086r_333" n="333">
+		  <lb xml:id="CV188_lb_086r_03" n="03"/><label n="333"><num>CCCXXXIII</num></label>
+		  De 
+		  equa 
+		  praegnante. 
+		  <lb xml:id="CV188_lb_086r_04" n="04"/>Si 
+		  quis 
+		  percusserit 
+		  equa 
+		  praeg<lb xml:id="CV188_lb_086r_05" n="05"/>nante 
+		  et 
+		  avortum 
+		  fecirit, 
+		  conponat 
+		  <lb xml:id="CV188_lb_086r_06" n="06"/>solidum 
+		  unum; 
+		  et 
+		  si
+		  mortua 
+		  fuerit, 
+		  reddat 
+		  eam, 
+		  <lb xml:id="CV188_lb_086r_07" n="07"/>simul 
+		  et 
+		  pecus, 
+		  ut 
+		  supra.
+		</p>
+		<p xml:id="CV188_p_086r_334" n="334">
+		  <lb xml:id="CV188_lb_086r_08" n="08"/><label n="334"><num>CCCXXXIIII</num></label>
+		  De 
+		  ancilla 
+		  praegnan<lb xml:id="CV188_lb_086r_09" n="09"/>te. 
+		  Si 
+		  quis 
+		  percusserit 
+		  ancil<lb xml:id="CV188_lb_086r_10" n="10"/>la 
+		  gravida 
+		  et 
+		  avortum 
+		  feci<lb xml:id="CV188_lb_086r_11" n="11"/>rit, 
+		  conponat 
+		  solidos 
+		  tres. 
+		  Si 
+		  autem
+		  ex 
+		  ip<lb xml:id="CV188_lb_086r_12" n="12"/>sa 
+		  percussura 
+		  mortua 
+		  <lb xml:id="CV188_lb_086r_13" n="13"/>fuerit, 
+		  conponat 
+		  eam, 
+		  simul 
+		  et 
+		  quod 
+		  in 
+		  <lb xml:id="CV188_lb_086r_14" n="14"/>utero 
+		  eius 
+		  mortuum 
+		  est.
+		</p> 
+		<p xml:id="CV188_p_086r_335" n="335">
+		  <lb xml:id="CV188_lb_086r_15" n="15"/><label n="335"><num>CCCXXXV</num></label>
+		  De 
+		  animale 
+		  excoriato. 
+		  <lb xml:id="CV188_lb_086r_16" n="16"/>Si 
+		  lupus 
+		  animalem 
+		  <lb xml:id="CV188_lb_086r_17" n="17"/>cuiuscumque 
+		  occiderit 
+		  et 
+		  aliqui 
+		  eum 
+		  nes<lb xml:id="CV188_lb_086r_18" n="18"/>ciente 
+		  domino
+		  excortecaverit 
+		  et 
+		  ce<lb xml:id="CV188_lb_086r_19" n="19"/>laverit 
+		  et 
+		  per proditurem inventum fuerit, conponat solidos duodicem.
+		</p> 
+		<p xml:id="CV188_p_086r_336" n="336">
+		  <lb xml:id="CV188_lb_086r_20" n="20"/><label n="336"><num>CCCXXXV</num></label>          
+		  Si 
+		  in 
+		  flumine 
+		  animal 
+		  
+		<!-- #######################################  folio 86v ####################################### -->                 
+		
+		<pb n="086v" xml:id="CV188_folio_086v"/>
+	          
+	          <lb xml:id="CV188_lb_086v_01" n="01"/>mortuus 
+	          fuerit 
+	          aut 
+	          ubicumque, 
+	          <lb xml:id="CV188_lb_086v_02" n="02"/>et 
+	          ab 
+	          alio 
+	          homine, 
+	          cuius 
+		  non 
+		  fuerit, 
+		  <lb xml:id="CV188_lb_086v_03" n="03"/>excoriatus 
+		  fuerit: 
+		  quieum 
+		  excoriavit, 
+		  conponat 
+		  solidos 
+		  duodicem.
+		</p>
+		<p xml:id="CV188_p_086v_337" n="337">
+		  <lb xml:id="CV188_lb_086v_04" n="04"/><label n="337"><num>CCCXXXI</num></label>
+		  De 
+		  caballo 
+		  plagato. 
+		  Si 
+		  <lb xml:id="CV188_lb_086v_05" n="05"/>quis 
+		  caballum 
+		  alienum 
+		  aurem 
+		  <lb xml:id="CV188_lb_086v_06" n="06"/>aut 
+		  oculum 
+		  excusserit 
+		  aut 
+		  aliquam 
+		  <lb xml:id="CV188_lb_086v_07" n="07"/>laesionem 
+		  corporis
+		  fecerit, 
+		  recepiat 
+		  <lb xml:id="CV188_lb_086v_08" n="08"/>ipsum, 
+		  qui 
+		  laesus 
+		  factus 
+		  est, 
+		  et 
+		  red<lb xml:id="CV188_lb_086v_09" n="09"/>dat 
+		  ei 
+		  ferquido, 
+		  id 
+		  est 
+		  similem.
+		</p>
+		<p xml:id="CV188_p_086v_338" n="338">
+		  <lb xml:id="CV188_lb_086v_10" n="10"/><label n="338"><num>CCCXXXII</num></label>
+		  De 
+		  coda 
+		  caballi. 
+		  Si 
+		  quis 
+		  <lb xml:id="CV188_lb_086v_11" n="11"/>caballum 
+		  alienum 
+		  coda 
+		  <lb xml:id="CV188_lb_086v_11" n="11"/>cappellaverit, 
+		  id 
+		  est 
+		  setas 
+		  tantum, 
+		  <lb xml:id="CV188_lb_086v_13" n="13"/>conponat 
+		  solidos 
+		  sex.
+		</p>
+		<p xml:id="CV188_p_086v_339" n="339">
+		  <lb xml:id="CV188_lb_086v_14" n="14"/><label n="339"><num>CCCXXXIII</num></label>
+		  Si 
+		  quis 
+		  caballum 
+		  ali<lb xml:id="CV188_lb_086v_15" n="15"/>enum 
+		  plagaverit 
+		  aut 
+		  aliquam 
+		  <lb xml:id="CV188_lb_086v_16" n="16"/>lesionem 
+		  fecerit, 
+		  tunc 
+		  dominus 
+		  <lb xml:id="CV188_lb_086v_17" n="17"/>illius 
+		  cavalli 
+		  retradat
+		  cavallum 
+		  <lb xml:id="CV188_lb_086v_18" n="18"/>ipsum 
+		  illi 
+		  homini, 
+		  qui 
+		  ei 
+		  lesio<lb xml:id="CV188_lb_086v_19" n="19"/>nem 
+		  fecit, 
+		  ut 
+		  ipse 
+		  eum 
+		  sa 
+		  net; 
+		  et 
+		  dum 
+		  <lb xml:id="CV188_lb_086v_20" n="20"/>ipsum 
+		  sanare 
+		  potuerit, 
+		  det 
+		  illi 
+		  suum
+		  <lb xml:id="CV188_lb_086v_21" n="21"/>proprium 
+		  cavallum, 
+		  qualiter 
+		  usque 
+		  
+		<!-- #######################################  folio 87r ####################################### -->                 
+		
+		<pb n="087r" xml:id="CV188_folio_087r"/>
+	          
+	          <lb xml:id="CV188_lb_087r_01" n="01"/>suam 
+	          faciat 
+	          utilitatem. 
+	          Et 
+	          si 
+	          cav<lb xml:id="CV188_lb_087r_02" n="02"/>allus, 
+	          qui 
+	          lesus 
+	          fuit, 
+	          ad 
+	          pristinam 
+	          <lb xml:id="CV188_lb_087r_03" n="03"/>redierit
+		  sanitatem, 
+		  reddat 
+		  ipsum 
+		  <lb xml:id="CV188_lb_087r_04" n="04"/>proprio 
+		  domino; 
+		  si 
+		  autem 
+		  ex 
+		  ipsa 
+		  lesio<lb xml:id="CV188_lb_087r_05" n="05"/>ne 
+		  mortuus 
+		  fuerit, 
+		  reddat 
+		  alium 
+		  <lb xml:id="CV188_lb_087r_06" n="06"/>similem. 
+		  Et 
+		  si
+		  contegerit, 
+		  ipse 
+		  caval<lb xml:id="CV188_lb_087r_07" n="07"/>lus, 
+		  qui 
+		  pigneratus 
+		  est, 
+		  post 
+		  ipsum 
+		  <lb xml:id="CV188_lb_087r_08" n="08"/>moriatur, 
+		  tunc 
+		  satisfaciat 
+		  ille, 
+		  <lb xml:id="CV188_lb_087r_09" n="09"/>qui 
+		  eum 
+		  pigneratum 
+		  habuit,
+		  si 
+		  <lb xml:id="CV188_lb_087r_10" n="10"/>pulsatus 
+		  fuerit, 
+		  quia 
+		  non 
+		  per 
+		  <lb xml:id="CV188_lb_087r_11" n="11"/>illius 
+		  neglectum 
+		  mortuos 
+		  fuet; 
+		  pos<lb xml:id="CV188_lb_087r_12" n="12"/>tea 
+		  nulla 
+		  sit 
+		  repetitio.
+		</p>
+		<p xml:id="CV188_p_087r_340" n="340">
+		  <lb xml:id="CV188_lb_087r_13" n="13"/><label n="340"><num>CCCXL</num></label>
+		  Si 
+		  quis 
+		  cavallum 
+		  alie<lb xml:id="CV188_lb_087r_14" n="14"/>num 
+		  ascenderit 
+		  et 
+		  infra 
+		  vi<lb xml:id="CV188_lb_087r_15" n="15"/>cinia 
+		  tantum 
+		  cavallicaverit, 
+		  id 
+		  <lb xml:id="CV188_lb_087r_16" n="16"/>est 
+		  prope 
+		  ipsum 
+		  vicum,
+		  conponat 
+		  <lb xml:id="CV188_lb_087r_17" n="17"/>solidos 
+		  duos; 
+		  nam 
+		  si 
+		  inantea 
+		  eum 
+		  caba<lb xml:id="CV188_lb_087r_18" n="18"/>llicare 
+		  presumpserit 
+		  et 
+		  dominum 
+		  <lb xml:id="CV188_lb_087r_19" n="19"/>non 
+		  rogaverit, 
+		  in 
+		  actogild 
+		  red<lb rend="align_right" type="extra"/>dat.
+		</p>
+		<p xml:id="CV188_p_087r_341" n="341">
+		  <lb xml:id="CV188_lb_087r_20" n="20"/><label n="341"><num>CCCXLI</num></label>
+		  De 
+		  disfigurato 
+		  cavallo. 
+		  <lb xml:id="CV188_lb_087r_21" n="21"/>Si 
+		  quis 
+		  cavallum 
+		  alienum 
+		  pre<lb rend="align_right" type="extra"/>serit 
+		  
+		  
+		<!-- #######################################  folio 87v ####################################### -->                 
+		
+		<pb n="087v" xml:id="CV188_folio_087v"/>
+	          
+	          <lb xml:id="CV188_lb_087v_01" n="01"/>ipsumque 
+	          disfiguraverit 
+	          aut 
+	          cir<lb xml:id="CV188_lb_087v_02" n="02"/>cinaverit, 
+	          furti 
+	          poena
+		  sit 
+		  culpa<lb xml:id="CV188_lb_087v_03" n="03"/>bilis, 
+		  id 
+		  est 
+		  in 
+		  actogild, 
+		  sibi 
+		  nonum.
+		</p>
+		<p xml:id="CV188_p_087v_342" n="342">
+		  <lb xml:id="CV188_lb_087v_04" n="04"/><label n="342"><num>CCCXLII</num></label> 
+		  Si 
+		  quis 
+		  cavallum 
+		  ali<lb xml:id="CV188_lb_087v_05" n="05"/>enum 
+		  aut 
+		  quodlibet 
+		  pe<lb xml:id="CV188_lb_087v_06" n="06"/>culium 
+		  credens 
+		  suum 
+		  praeserit 
+		  et 
+		  dominus 
+		  proprius 
+		  eum 
+		  <lb xml:id="CV188_lb_087v_07" n="07"/>cognoverit
+		  calumniaque 
+		  ge<lb xml:id="CV188_lb_087v_08" n="08"/>nerare 
+		  voluerit, 
+		  ita 
+		  decernimus, 
+		  <lb xml:id="CV188_lb_087v_09" n="09"/>ut 
+		  prebeat 
+		  sacramentum 
+		  ille 
+		  qui
+		  eum 
+		  <lb xml:id="CV188_lb_087v_10" n="10"/>tenuit: 
+		  quia 
+		  non 
+		  asto 
+		  animo
+		  nec 
+		  aliqua 
+		  <lb xml:id="CV188_lb_087v_11" n="11"/>causa 
+		  faciente 
+		  eum 
+		  praesisset, 
+		  <lb xml:id="CV188_lb_087v_12" n="12"/>sed 
+		  credidit 
+		  suus 
+		  fuisset: 
+		  sit 
+		  <lb xml:id="CV188_lb_087v_13" n="13"/>absolutus 
+		  a 
+		  culpa 
+		  furti, 
+		  et 
+		  red<lb xml:id="CV188_lb_087v_14" n="14"/>dat 
+		  caballum
+		  proprio 
+		  domino 
+		  inle<lb xml:id="CV188_lb_087v_15" n="15"/>sum. 
+		  Si 
+		  autem 
+		  non 
+		  praesumpserit 
+		  <lb xml:id="CV188_lb_087v_16" n="16"/>iurare, 
+		  reddat 
+		  eum 
+		  in 
+		  actogild; 
+		  <lb xml:id="CV188_lb_087v_17" n="17"/>quia, 
+		  postquam 
+		  cognovit,
+		  quod 
+		  <lb xml:id="CV188_lb_087v_18" n="18"/>suus 
+		  non 
+		  fuit, 
+		  mox 
+		  debuit 
+		  pro<lb xml:id="CV188_lb_087v_19" n="19"/>prio 
+		  domino 
+		  innotescere. 
+		  Nam 
+		  si 
+		  eum, 
+		  <lb xml:id="CV188_lb_087v_20" n="20"/>postquam 
+		  cognovit, 
+		  quod 
+		  suus 
+		  
+		  
+		<!-- #######################################  folio 88r ####################################### -->                 
+		
+		<pb n="088r" xml:id="CV188_folio_088r"/>
+	          
+	          <lb xml:id="CV188_lb_088r_01" n="01"/>non 
+	          fuit,
+		  ascenderit, 
+		  sit 
+		  culpabilis, 
+		  <lb xml:id="CV188_lb_088r_02" n="02"/>ut 
+		  supra, 
+		  solidos 
+		  duo.       
+		</p>
+		<p xml:id="CV188_p_088r_343" n="343">
+		  <lb xml:id="CV188_lb_088r_03" n="03"/><label n="343"><num>CCCXLIII</num></label>
+		  De 
+		  peculio 
+		  in 
+		  damnum 
+		  in<lb xml:id="CV188_lb_088r_04" n="04"/>vento. 
+		  Si 
+		  quis 
+		  caballum 
+		  alienum 
+		  <lb xml:id="CV188_lb_088r_05" n="05"/>aut 
+		  quodlibet 
+		  peculium 
+		  damnum 
+		  <lb xml:id="CV188_lb_088r_06" n="06"/>facientem 
+		  invenerit
+		  <lb xml:id="CV188_lb_088r_07" n="07"/>ipsumque 
+		  in 
+		  curte 
+		  inclauserit, 
+		  et 
+		  non 
+		  vene<lb xml:id="CV188_lb_088r_08" n="08"/>rit 
+		  certus 
+		  dominus, 
+		  qui 
+		  eum 
+		  cognuscat: 
+		  <lb xml:id="CV188_lb_088r_09" n="09"/>tunc 
+		  ille, 
+		  qui 
+		  eum 
+		  in 
+		  damnum
+		  inve<lb xml:id="CV188_lb_088r_10" n="10"/>nit, 
+		  ducat 
+		  eum 
+		  ad 
+		  iudicem, 
+		  qui 
+		  in 
+		  lo<lb xml:id="CV188_lb_088r_11" n="11"/>co 
+		  ordinatus 
+		  est, 
+		  aut 
+		  certe 
+		  ante 
+		  <lb xml:id="CV188_lb_088r_12" n="12"/>ecclesia 
+		  in 
+		  convento 
+		  usque 
+		  quar<lb xml:id="CV188_lb_088r_13" n="13"/>ta 
+		  et 
+		  quinta
+		  vicem, 
+		  et 
+		  omnibus 
+		  <lb xml:id="CV188_lb_088r_14" n="14"/>vocem 
+		  praeconia 
+		  innotescat, 
+		  quia 
+		  caballum 
+		  invenit. 
+		  Et 
+		  si 
+		  non 
+		  vene<lb xml:id="CV188_lb_088r_15" n="15"/>rit, 
+		  qui 
+		  eum 
+		  cognuscat,
+		  iubemus, 
+		  <lb xml:id="CV188_lb_088r_16" n="16"/>ut 
+		  ille, 
+		  qui 
+		  eum 
+		  invenit, 
+		  caballicet 
+		  <lb xml:id="CV188_lb_088r_17" n="17"/>et 
+		  custodiat 
+		  eum 
+		  tamquam 
+		  suum 
+		  pro<lb xml:id="CV188_lb_088r_18" n="18"/>prium. 
+		  Et 
+		  si 
+		  mortuus 
+		  fuerit, 
+		  sig<lb xml:id="CV188_lb_088r_19" n="019"/>na
+		  de 
+		  ipso 
+		  corio 
+		  conservit, 
+		  
+		  
+		<!-- #######################################  folio 88v ####################################### -->                 
+		
+		<pb n="088v" xml:id="CV188_folio_088v"/>
+	          
+	          <lb xml:id="CV188_lb_088v_01" n="01"/>ut, 
+	          cum 
+	          venerit 
+	          certus 
+	          dominus, 
+	          habe<lb xml:id="CV188_lb_088v_02" n="02"/>at, 
+	          quod 
+	          ei 
+	          ostenderet. 
+	          Nam 
+	          si 
+	          ista 
+	          <lb xml:id="CV188_lb_088v_03" n="03"/>neclexerit 
+	          et
+		  inventum 
+		  fuerit, 
+		  <lb xml:id="CV188_lb_088v_04" n="04"/>sibi 
+		  nonum 
+		  eum 
+		  reddat, 
+		  et 
+		  si 
+		  is<lb xml:id="CV188_lb_088v_05" n="05"/>ta 
+		  cautela 
+		  observaverit, 
+		  sit 
+		  abso<lb xml:id="CV188_lb_088v_06" n="06"/>lutus 
+		  a 
+		  calumnia.
+		</p> 
+		<p xml:id="CV188_p_088v_344" n="344">
+		  <lb xml:id="CV188_lb_088v_07" n="07"/><label n="344"><num>CCCXLIIII</num></label>
+	          De 
+	          peculio 
+	          asto 
+	          in 
+	          dam<lb xml:id="CV188_lb_088v_08" n="08"/>no 
+	          misso. 
+	          Si 
+	          quis 
+	          caballus 
+	          aut 
+	          <lb xml:id="CV188_lb_088v_09" n="09"/>armenta 
+	          asto 
+	          animo 
+	          in 
+	          messe 
+	          <lb xml:id="CV188_lb_088v_10" n="10"/>aliena 
+	          aut 
+	          in 
+	          prato 
+	          vel 
+	          in
+	          quo<lb xml:id="CV188_lb_088v_11" n="11"/>libet 
+	          damnum 
+	          miserit, 
+	          conponat 
+	          per 
+	          ca<lb xml:id="CV188_lb_088v_12" n="12"/>put 
+	          solidum 
+	          unum, 
+	          excepto 
+	          damnum, 
+	          <lb xml:id="CV188_lb_088v_13" n="13"/>sicut 
+	          arbitratum 
+	          fuerit 
+	          et 
+	          loci
+	          con<lb xml:id="CV188_lb_088v_14" n="14"/>suetudo 
+	          est, 
+	          sic 
+	          tamen: 
+	          si 
+	          pastor 
+	          non 
+	          <lb xml:id="CV188_lb_088v_015" n="15"/>ausaverit 
+	          iurare, 
+	          quod 
+	          asto 
+	          ani<lb xml:id="CV188_lb_088v_16" n="16"/>mo 
+	          non 
+	          misisset; 
+	          si 
+	          iuraverit, 
+	          sit 
+	          <lb xml:id="CV188_lb_088v_17" n="17"/>exsolutus 
+	          a
+	          culpa, 
+	          tamen 
+	          damnum 
+	          <lb xml:id="CV188_lb_088v_18" n="18"/>conponat.
+	        </p>
+	        <p xml:id="CV188_p_088v_345" n="345">
+		  <lb xml:id="CV188_lb_088v_19" n="19"/><label n="345"><num>CCCXLV</num></label>
+		  Si 
+		  quis 
+		  porcûs 
+		  aut 
+		  pecora 
+		  as<lb xml:id="CV188_lb_088v_20" n="20"/>to 
+		  animo 
+		  in 
+		  damnum 
+		  alterius 
+		  
+		  
+		<!-- #######################################  folio 89r ####################################### -->                 
+		
+		<pb n="089r" xml:id="CV188_folio_089r"/>
+	          
+	          <lb xml:id="CV188_lb_089r_01" n="01"/>miserit 
+	          et 
+	          se 
+	          non 
+	          ausaverit 
+	          eduniare, 
+	          <lb xml:id="CV188_lb_089r_02" n="02"/>conponat
+		  solido 
+		  uno, 
+		  excepto 
+		  dam<lb rend="align_right" type="extra"/>no.
+		</p>
+		<p xml:id="CV188_p_089r_346" n="346">
+		  <lb xml:id="CV188_lb_088v_03" n="03"/><label n="346"><num>CCCXL</num></label>
+		  Si 
+		  quis 
+		  peculium 
+		  de 
+		  <lb xml:id="CV188_lb_088v_04" n="04"/>damno 
+		  ad 
+		  clausura 
+		  mina<lb xml:id="CV188_lb_088v_05" n="05"/>verit 
+		  et 
+		  ille, 
+		  cuius 
+		  peculius 
+		  est, 
+		  <lb xml:id="CV188_lb_088v_06" n="06"/>ei 
+		  antesteterit, 
+		  conponat 
+		  solidum
+		  unum, 
+		  <lb xml:id="CV188_lb_088v_07" n="07"/>excepto 
+		  damno, 
+		  ut 
+		  arbitratum 
+		  <lb xml:id="CV188_lb_088v_08" n="08"/>fuerit. 
+		  Et 
+		  si 
+		  in 
+		  curtem 
+		  perminaverit, 
+		  <lb xml:id="CV188_lb_088v_09" n="09"/>tunc 
+		  ille, 
+		  cuius 
+		  peculius 
+		  est, 
+		  roget 
+		  <lb xml:id="CV188_lb_088v_10" n="10"/>eum, 
+		  ut
+		  ei 
+		  reddatur; 
+		  sic 
+		  tamen, 
+		  ut 
+		  dit 
+		  pig<lb xml:id="CV188_lb_088v_11" n="11"/>nus 
+		  per 
+		  ultimum 
+		  valente 
+		  siliquas 
+		  <lb xml:id="CV188_lb_088v_12" n="12"/>tres 
+		  aut 
+		  certe 
+		  fideiussorem 
+		  sub 
+		  <lb xml:id="CV188_lb_088v_13" n="13"/>tali 
+		  titulo, 
+		  ut
+		  damnum, 
+		  quod 
+		  ar<lb xml:id="CV188_lb_088v_14" n="14"/>bitratum 
+		  fuerit, 
+		  conponatur, 
+		  aut 
+		  fabula, 
+		  <lb xml:id="CV188_lb_088v_15" n="15"/>quae 
+		  inter 
+		  vicinus 
+		  est. 
+		  Et 
+		  si 
+		  pignus 
+		  <lb xml:id="CV188_lb_088v_16" n="16"/>suscipere 
+		  noluerit 
+		  et
+		  una 
+		  <lb xml:id="CV188_lb_088v_17" n="17"/>nocte 
+		  peculium 
+		  post 
+		  se 
+		  tenuerit, 
+		  <lb xml:id="CV188_lb_088v_18" n="18"/>conponat 
+		  solido 
+		  uno. 
+		  Et 
+		  si 
+		  ille, 
+		  cuius 
+		  pe<lb xml:id="CV188_lb_088v_19" n="19"/>culius 
+		  est, 
+		  tenens 
+		  duritiam 
+		  cor<lb xml:id="CV188_lb_088v_20" n="20"/>dis 
+		  eum
+		  liberare 
+		  dispexerit, 
+		  
+		  
+		<!-- #######################################  folio 89v ####################################### -->                 
+		
+		<pb n="089v" xml:id="CV188_folio_089v"/>
+	          
+	          <lb xml:id="CV188_lb_089v_01" n="01"/>tunc 
+	          habeat 
+	          eum 
+	          ille, 
+	          qui 
+	          in 
+	          dam<lb xml:id="CV188_lb_089v_02" n="02"/>num 
+	          invenit, 
+	          novem 
+	          noctis; 
+	          <lb xml:id="CV188_lb_089v_03" n="03"/>aqua 
+	          tantum 
+	          ei 
+	          dit 
+	          et 
+	          de 
+	          damnum 
+	          in
+		  hoc 
+		  si<lb xml:id="CV188_lb_089v_04" n="04"/>bi 
+		  sit 
+		  contentus, 
+		  eo 
+		  quod 
+		  no<lb xml:id="CV188_lb_089v_05" n="05"/>vem 
+		  noctis 
+		  ipsum 
+		  peculium 
+		  <lb xml:id="CV188_lb_089v_06" n="06"/>tenuit. 
+		  Et 
+		  si 
+		  ex 
+		  ipso 
+		  peculio 
+		  <lb xml:id="CV188_lb_089v_07" n="07"/>aliquid 
+		  mortuum 
+		  fuerit,
+		  neg<lb xml:id="CV188_lb_089v_08" n="08"/>legentiae 
+		  suae 
+		  repotit, 
+		  qui 
+		  dis<lb xml:id="CV188_lb_089v_09" n="09"/>pignerare 
+		  neglexit.
+		</p>  
+		<p xml:id="CV188_p_089v_347" n="347">
+		  <lb xml:id="CV188_lb_089v_10" n="10"/><label n="347"><num>CCCXLI</num></label>
+		  Si 
+		  hominem 
+		  iteran<lb xml:id="CV188_lb_089v_11" n="11"/>tem 
+		  caballus 
+		  aut 
+		  quislibet 
+		  <lb xml:id="CV188_lb_089v_12" n="12"/>peculius 
+		  secutus 
+		  fuerit 
+		  <lb xml:id="CV188_lb_089v_13" n="13"/>et 
+		  ille, 
+		  quem 
+		  sequitur, 
+		  in 
+		  ligamen 
+		  <lb xml:id="CV188_lb_089v_14" n="14"/>aut 
+		  in
+		  clausura 
+		  eum 
+		  miserit, 
+		  <lb xml:id="CV188_lb_089v_15" n="15"/>ipse 
+		  eum 
+		  salvum 
+		  faciat, 
+		  sicut 
+		  <lb xml:id="CV188_lb_089v_16" n="16"/>supra 
+		  constitutum 
+		  est, 
+		  ut 
+		  ve<lb xml:id="CV188_lb_089v_17" n="17"/>niente 
+		  proprio 
+		  domino 
+		  restituat.
+		  <lb xml:id="CV188_lb_089v_18" n="18"/>Nam 
+		  si 
+		  sequere 
+		  coepit 
+		  se 
+		  de 
+		  via 
+		  <lb xml:id="CV188_lb_089v_19" n="19"/>turnavit, 
+		  nulla 
+		  sit 
+		  culpa 
+		  illi, 
+		  <lb xml:id="CV188_lb_089v_20" n="20"/>quem 
+		  sequere 
+		  coepit.
+		</p>
+		  
+		<!-- #######################################  folio 90r ####################################### -->                 
+		
+		<pb n="090r" xml:id="CV188_folio_090r"/>
+	          
+	        <p xml:id="CV188_p_090r_348" n="348">
+		  <lb xml:id="CV188_lb_090r_01" n="01"/><label n="348"><num>CCCXLII</num></label>   
+	          Si 
+	          quis 
+	          ab 
+	          alio 
+	          homi<lb xml:id="CV188_lb_090r_02" n="02"/>ne 
+	          rogatus 
+	          fuerit 
+	          caballum 
+	          <lb xml:id="CV188_lb_090r_03" n="03"/>aut 
+	          quolibet 
+	          peculium 
+	          que<lb xml:id="CV188_lb_090r_04" n="04"/>rere 
+	          signaque 
+	          ei 
+	          dictaverit, 
+	          et 
+	          <lb xml:id="CV188_lb_090r_05" n="05"/>ille
+	          forsan, 
+	          qui 
+	          rogatus 
+	          est, 
+	          ca<lb xml:id="CV188_lb_090r_06" n="06"/>ballum 
+	          alienum 
+	          aut 
+	          peculium 
+	          p<lb xml:id="CV188_lb_090r_07" n="07"/>er 
+	          errorem 
+	          praeserit; 
+	          si 
+	          venerit 
+	          <lb xml:id="CV188_lb_090r_08" n="08"/>proprius 
+	          dominus 
+	          et
+	          calumniam 
+	          genera<lb xml:id="CV188_lb_090r_09" n="09"/>re 
+	          voluerit, 
+	          ita 
+	          prospeximus, 
+	          ut 
+	          ille, 
+	          qui 
+	          eum 
+	          per 
+	          errorem 
+	          tenuit, 
+	          <lb xml:id="CV188_lb_090r_10" n="10"/>praebeat 
+	          sacramentum: 
+	          quia
+	          <lb xml:id="CV188_lb_090r_11" n="11"/>crededit 
+	          ipsum 
+	          esse, 
+	          unde 
+	          roga<lb xml:id="CV188_lb_090r_12" n="12"/>tus 
+	          fuerit; 
+	          tunc 
+	          reddat 
+	          cabal<lb xml:id="CV188_lb_090r_13" n="13"/>lum 
+	          et 
+	          amplius 
+	          non 
+	          calumnietur, 
+	          <lb xml:id="CV188_lb_090r_14" n="14"/>si 
+	          eum 
+	          male 
+	          non
+	          tracta<lb xml:id="CV188_lb_090r_15" n="15"/>verit. 
+	          Et 
+	          si 
+	          non 
+	          venerit 
+	          propri<lb xml:id="CV188_lb_090r_16" n="16"/>us 
+	          dominus, 
+	          reddat 
+	          eum 
+	          illi, 
+	          de 
+	          quem 
+	          <lb xml:id="CV188_lb_090r_17" n="17"/>ipsum 
+	          tulit, 
+	          ut 
+	          ipse 
+	          iterum 
+	          iuxta 
+	          <lb xml:id="CV188_lb_090r_18" n="18"/>legem,
+	          sicut 
+	          supra 
+	          decretum 
+	          est, 
+	          conservit.
+		</p>   
+		
+		<!-- #######################################  folio 90v ####################################### -->                 
+		
+		<pb n="090v" xml:id="CV188_folio_090v"/>
+	          
+	        <p xml:id="CV188_p_090v_349" n="349">
+	          <lb xml:id="CV188_lb_090v_01" n="01"/><label n="349"><num>CCCXLIII</num></label>      
+		  De 
+		  porcûs, 
+		  si 
+		  in 
+		  isca 
+		  al<lb xml:id="CV188_lb_090v_02" n="02"/>terius 
+		  paverint 
+		  et 
+		  inventi 
+		  <lb xml:id="CV188_lb_090v_03" n="03"/>fuerint, 
+		  si 
+		  minus 
+		  sunt 
+		  de 
+		  decim, 
+		  <lb xml:id="CV188_lb_090v_04" n="04"/>non 
+		  occidatur 
+		  neque 
+		  unus 
+		  ex
+		  ip<lb xml:id="CV188_lb_090v_05" n="05"/>sis; 
+		  sed 
+		  ille, 
+		  qui 
+		  eos 
+		  invenerit, 
+		  tene<lb xml:id="CV188_lb_090v_06" n="06"/>at 
+		  unum 
+		  ex 
+		  ipsis, 
+		  et 
+		  habeat 
+		  salvum, 
+		  <lb xml:id="CV188_lb_090v_07" n="07"/>et 
+		  conponatur 
+		  ei 
+		  per 
+		  porco 
+		  siliquas 
+		  tres.
+		  <lb xml:id="CV188_lb_090v_08" n="08"/>Nam 
+		  si 
+		  super 
+		  fuerint 
+		  de 
+		  decim 
+		  <lb xml:id="CV188_lb_090v_09" n="09"/>et 
+		  usque 
+		  ad 
+		  decim, 
+		  occidatur 
+		  unus 
+		  <lb xml:id="CV188_lb_090v_10" n="10"/>mediocris 
+		  et 
+		  non 
+		  requiratur; 
+		  <lb xml:id="CV188_lb_090v_11" n="11"/>nisi 
+		  si 
+		  minus 
+		  fuerint
+		  de 
+		  decim 
+		  et 
+		  <lb xml:id="CV188_lb_090v_12" n="12"/>occiderit, 
+		  reddat 
+		  ferquido, 
+		  id 
+		  est 
+		  similem.
+		</p>
+		<p xml:id="CV188_p_090v_350" n="350">
+	          <lb xml:id="CV188_lb_090v_13" n="13"/><label n="349"><num>CCCL</num></label> 
+	          Si 
+	          quis 
+	          in 
+	          pratum 
+	          porcos 
+	          <lb xml:id="CV188_lb_090v_14" n="14"/>fossas 
+	          facientes 
+	          <lb xml:id="CV188_lb_090v_15" n="15"/>unum 
+	          aut 
+	          plures 
+	          invenerit, 
+	          occidatur 
+	          <lb xml:id="CV188_lb_090v_16" n="16"/>unus 
+	          tantum 
+	          et 
+	          non 
+	          requiratur.
+	        </p>
+	        <p xml:id="CV188_p_090v_351" n="351">
+	          <lb xml:id="CV188_lb_090v_17" n="17"/><label n="351"><num>CCCLI</num></label>
+	          De 
+	          verre. 
+	          Si 
+	          quis 
+	          verrem 
+	          <lb xml:id="CV188_lb_090v_18" n="18"/>alienum 
+	          furaverit, 
+	          conponat 
+	          solidos 
+	          <lb xml:id="CV188_lb_090v_19" n="19"/>duodicem. 
+	          Ipse 
+	          dicitur 
+	          sonor<lb xml:id="CV188_lb_090v_20" n="20"/>pair, 
+	          qui 
+	          omnis
+	          alius 
+	          verres
+	        <!-- #######################################  folio 91r ####################################### -->                 
+		
+		<pb n="091r" xml:id="CV188_folio_091r"/>  
+	           
+	          <lb xml:id="CV188_lb_091r_01" n="01"/>in 
+	          grege 
+	          battit 
+	          et 
+	          vincit. 
+	          Tamen 
+	          <lb xml:id="CV188_lb_091r_02" n="02"/>in 
+	          uno 
+	          grege, 
+	          quamvis 
+	          mul<lb xml:id="CV188_lb_091r_03" n="03"/>titudo 
+	          porcorum 
+	          fuerit, 
+	          unus 
+	          co<lb xml:id="CV188_lb_091r_04" n="04"/>npotetur
+	          sonorpair; 
+	          <lb xml:id="CV188_lb_091r_05" n="05"/>nam 
+	          si 
+	          minor 
+	          grex 
+	          de 
+	          trigenta 
+	          <lb xml:id="CV188_lb_091r_06" n="06"/>capetum 
+	          fuerit, 
+	          non 
+	          repotetur 
+	          <lb xml:id="CV188_lb_091r_07" n="07"/>sonorpair, 
+	          nisi 
+	          si 
+	          triginta 
+	          aut 
+	          super 
+	          <lb xml:id="CV188_lb_091r_08" n="08"/>fuerint.
+	          Et 
+	          si 
+	          in 
+	          damnum 
+	          ipse 
+	          <lb xml:id="CV188_lb_091r_09" n="09"/>sonorpair 
+	          occisus 
+	          fuerit, 
+	          aut 
+	          <lb xml:id="CV188_lb_091r_10" n="10"/>similem 
+	          aut 
+	          meliorem 
+	          ipse, 
+	          qui 
+	          <lb xml:id="CV188_lb_091r_11" n="11"/>occiderit, 
+	          restituat, 
+	          et 
+	          damnum 
+	          <lb xml:id="CV188_lb_091r_12" n="12"/>ei
+	          conponatur. 
+	          Nam 
+	          si 
+	          alii 
+	          verres 
+	          aut 
+	          por<lb xml:id="CV188_lb_091r_13" n="13"/>ci 
+	          furati 
+	          fuerint, 
+	          in 
+	          actugild 
+	          <lb rend="align_right" type="extra"/>reddatur.
+	        </p>
+	        <p xml:id="CV188_p_091r_352" n="352">
+	          <lb xml:id="CV188_lb_091r_14" n="14"/><label n="352"><num>CCCLII</num></label>    
+	          De 
+	          porcario 
+	          battudo. 
+	          <lb xml:id="CV188_lb_091r_15" n="15"/>Si 
+	          quis 
+	          porcario 
+	          de 
+	          homine 
+	          <lb xml:id="CV188_lb_091r_16" n="16"/>libero 
+	          battederit, 
+	          ipse, 
+	          qui 
+	          de 
+	          cur<lb xml:id="CV188_lb_091r_17" n="17"/>te 
+	          ipsius 
+	          exit, 
+	          nam 
+	          non 
+	          de
+	          ca<lb xml:id="CV188_lb_091r_18" n="18"/>sa 
+	          massarii, 
+	          conponat 
+	          solidos 
+	          vigenti. 
+	          Tantum 
+	          <lb xml:id="CV188_lb_091r_19" n="19"/>est, 
+	          ut 
+	          porcarius 
+	          ipse 
+	          ferita 
+	          <lb xml:id="CV188_lb_091r_20" n="20"/>prius 
+	          non 
+	          faciat 
+	          aut 
+	          scandalum
+	          
+	          
+	        <!-- #######################################  folio 91v ####################################### -->                 
+		
+		<pb n="091v" xml:id="CV188_folio_091v"/>  
+	           
+	          <lb xml:id="CV188_lb_091v_01" n="01"/>committat; 
+	          nam 
+	          si 
+	          fecerit 
+	          plagas 
+	          <lb xml:id="CV188_lb_091v_02" n="02"/>aut 
+	          feritas, 
+	          arbitrentur 
+	          et 
+	          conponantur.	
+		</p>
+		<p xml:id="CV188_p_091v_353" n="353">
+	          <lb xml:id="CV188_lb_091v_03" n="03"/><label n="353"><num>CCCLIII</num></label>
+	          Si 
+	          duo 
+	          porcarii 
+	          inter 
+	          <lb xml:id="CV188_lb_091v_04" n="04"/>se 
+	          battederint 
+	          aut 
+	          scanda<lb xml:id="CV188_lb_091v_05" n="05"/>lum 
+	          commiserint, 
+	          plagas 
+	          aut 
+	          fe<lb xml:id="CV188_lb_091v_06" n="06"/>ritas 
+	          conponatur; 
+	          nam 
+	          alia 
+	          culpa
+	          <lb rend="align_right" type="extra"/>non 
+	          requiratur.
+	        </p>
+	        <p xml:id="CV188_p_091v_354" n="354">
+	          <lb xml:id="CV188_lb_091v_07" n="07"/><label n="354"><num>CCCLIIII</num></label>
+	          De 
+	          campo 
+	          alieno 
+	          arato. 
+	          <lb xml:id="CV188_lb_091v_08" n="08"/>Si 
+	          quis 
+	          campum 
+	          alienum 
+	          ara<lb xml:id="CV188_lb_091v_09" n="09"/>verit, 
+	          sciens 
+	          non 
+	          suum, 
+	          aut 
+	          se<lb xml:id="CV188_lb_091v_10" n="10"/>mentem 
+	          spargere
+	          presumpse<lb xml:id="CV188_lb_091v_11" n="11"/>rit, 
+	          perdat 
+	          opera 
+	          et 
+	          frugis, 
+	          et 
+	          il<lb xml:id="CV188_lb_091v_12" n="12"/>le, 
+	          qui 
+	          campum 
+	          suum 
+	          conpro<lb xml:id="CV188_lb_091v_13" n="13"/>baverit, 
+	          habeat 
+	          fruges.
+	        </p>
+	        <p xml:id="CV188_p_091v_355" n="355">
+	          <lb xml:id="CV188_lb_091v_14" n="14"/><label n="355"><num>CCCLV</num></label>
+	          De 
+	          campo 
+	          exarato. 
+	          <lb xml:id="CV188_lb_091v_15" n="15"/>Si 
+	          quis 
+	          exaraverit 
+	          campum 
+	          <lb xml:id="CV188_lb_091v_16" n="16"/>alienum 
+	          seminatum 
+	          et 
+	          suum 
+	          <lb xml:id="CV188_lb_091v_17" n="17"/>non 
+	          potuerit 
+	          provare, 
+	          aliud 
+	          ta<lb xml:id="CV188_lb_091v_18" n="18"/>ntum
+	          fruges, 
+	          quod 
+	          devasta<lb xml:id="CV188_lb_091v_19" n="19"/>vit, 
+	          proprio 
+	          domino 
+	          reddat, 
+	          et 
+	          pro 
+	          <lb xml:id="CV188_lb_091v_20" n="20"/>incautam 
+	          presumptionem 
+	          conponat 
+	          solidos 
+	          sex.
+	        </p> 
+	        
+	        <!-- #######################################  folio 92r ####################################### -->                 
+		
+		<pb n="092r" xml:id="CV188_folio_092r"/>
+	        
+	        <p xml:id="CV188_p_092r_356" n="356">
+	          <lb xml:id="CV188_lb_092r_01" n="01"/><label n="356"><num>CCCL6</num></label>
+	          De 
+	          prato 
+	          secato 
+	          aut 
+	          ex<lb xml:id="CV188_lb_092r_02" n="02"/>arato. 
+	          Si 
+	          quis 
+	          pratum 
+	          alienum 
+	          <lb xml:id="CV188_lb_092r_03" n="03"/>segaverit 
+	          aut 
+	          exaraverit, 
+	          et 
+	          fe<lb xml:id="CV188_lb_092r_04" n="04"/>num 
+	          reddat 
+	          et 
+	          pro 
+	          inlecita
+	          presump<lb xml:id="CV188_lb_092r_05" n="05"/>tione 
+	          conponat 
+	          solidos 
+	          sex.
+	        </p>
+	        <p xml:id="CV188_p_092r_357" n="357"><label n="357"><num>CCCL6I</num></label>
+	          <lb xml:id="CV188_lb_092r_06" n="06"/>
+	          Si 
+	          quis 
+	          campum 
+	          alienum 
+	          <lb xml:id="CV188_lb_092r_07" n="07"/>asto 
+	          cum 
+	          peculio 
+	          suo 
+	          deli<lb xml:id="CV188_lb_092r_08" n="08"/>erit 
+	          aut 
+	          spicas 
+	          manibus 
+	          <lb xml:id="CV188_lb_092r_09" n="09"/>evellerit, 
+	          conponat 
+	          solidos
+	          sex.
+	        </p>         
+		<p xml:id="CV188_p_092r_358" n="358"><label n="358"><num>CCCL6II</num></label>
+	          <lb xml:id="CV188_lb_092r_10" n="10"/>
+	          Nulli 
+	          sit 
+	          licentia 
+	          iteran<lb xml:id="CV188_lb_092r_11" n="11"/>tibus 
+	          erba 
+	          negare, 
+	          excepto 
+	          <lb xml:id="CV188_lb_092r_12" n="12"/>prato 
+	          intacto 
+	          tempore 
+	          suo 
+	          aut 
+	          <lb xml:id="CV188_lb_092r_13" n="13"/>messem. 
+	          Post 
+	          fenum 
+	          autem 
+	          aut
+	          fruges 
+	          <lb xml:id="CV188_lb_092r_14" n="14"/>collectas 
+	          tantum 
+	          vindicit, 
+	          cu<lb xml:id="CV188_lb_092r_15" n="15"/>ius 
+	          terra 
+	          est, 
+	          quantum 
+	          cum 
+	          <lb xml:id="CV188_lb_092r_16" n="16"/>clausura 
+	          sua 
+	          potest 
+	          defen<lb xml:id="CV188_lb_092r_17" n="17"/>ndee. 
+	          Nam 
+	          si 
+	          cavallûs 
+	          iter
+	          facien<lb xml:id="CV188_lb_092r_18" n="18"/>tibus 
+	          de 
+	          stupla 
+	          aut 
+	          de 
+	          ipsa 
+	          pascua, 
+	          <lb xml:id="CV188_lb_092r_19" n="19"/>ubi 
+	          alia 
+	          peculia 
+	          pascent, 
+	          move<lb xml:id="CV188_lb_092r_20" n="20"/>re 
+	          presumpserit, 
+	          in 
+	          actogild 
+	          
+	        <!-- #######################################  folio 92v ####################################### -->                 
+		
+		<pb n="092v" xml:id="CV188_folio_092v"/>
+	          
+	          <lb xml:id="CV188_lb_092v_01" n="01"/>ipsûs 
+	          cavallûs
+	          conponat 
+	          pro 
+	          eo, 
+	          quod 
+	          <lb xml:id="CV188_lb_092v_02" n="02"/>ipsos 
+	          de 
+	          arvo 
+	          campo, 
+	          quod 
+	          est 
+	          <lb xml:id="CV188_lb_092v_03" n="03"/>fornaccar, 
+	          movere 
+	          presumps<lb rend="align_right" type="extra"/>it.
+	        </p>
+	        <p xml:id="CV188_p_092v_359" n="359"><label n="359"><num>CCCL6III</num></label>
+	          <lb xml:id="CV188_lb_092v_04" n="04"/>
+	          De 
+	          sacramentis. 
+	          Si 
+	          qua<lb xml:id="CV188_lb_092v_05" n="05"/>liscumque 
+	          causa 
+	          inter 
+	          ho<lb xml:id="CV188_lb_092v_06" n="06"/>mines 
+	          liberos, 
+	          et 
+	          sacra<lb xml:id="CV188_lb_092v_07" n="07"/>mentum 
+	          dandum 
+	          fuerit, 
+	          si 
+	          <lb xml:id="CV188_lb_092v_08" n="08"/>usque 
+	          ad
+	          vigenti 
+	          solidos 
+	          fuerit 
+	          <lb xml:id="CV188_lb_092v_09" n="09"/>causa 
+	          ipsa 
+	          aut 
+	          amplius, 
+	          ad 
+	          evan<lb xml:id="CV188_lb_092v_10" n="10"/>gelia 
+	          sancta 
+	          iurit 
+	          cum 
+	          duodecim 
+	          aidos 
+	          <lb xml:id="CV188_lb_092v_11" n="11"/>suos, 
+	          id 
+	          est
+	          sacramentales, 
+	          ita, 
+	          <lb xml:id="CV188_lb_092v_12" n="12"/>ut 
+	          sex 
+	          illi 
+	          nominentur 
+	          ab 
+	          illo, 
+	          <lb xml:id="CV188_lb_092v_13" n="13"/>qui 
+	          pulsat, 
+	          et 
+	          septimus 
+	          sit 
+	          ille, 
+	          <lb xml:id="CV188_lb_092v_14" n="14"/>qui 
+	          pulsatur, 
+	          et 
+	          quinque, 
+	          qua<lb xml:id="CV188_lb_092v_15" n="15"/>les
+	          voluerit, 
+	          liberos, 
+	          ut 
+	          sint 
+	          duo<lb xml:id="CV188_lb_092v_16" n="16"/>dicem. 
+	          Quod 
+	          si 
+	          minor 
+	          fuerit 
+	          cau<lb xml:id="CV188_lb_092v_17" n="17"/>sa 
+	          de 
+	          vigenti 
+	          solidis 
+	          usque 
+	          ad 
+	          duo<lb xml:id="CV188_lb_092v_18" n="18"/>dicem, 
+	          sibi 
+	          sextus
+	          iurit 
+	          ad 
+	          arma 
+	          <lb xml:id="CV188_lb_092v_19" n="19"/>sacrata; 
+	          tres 
+	          ei 
+	          nominit, 
+	          qui 
+	          pul<lb xml:id="CV188_lb_092v_20" n="20"/>sat, 
+	          et 
+	          duos 
+	          liberos 
+	          sibi 
+	          elegat, 
+	       
+	        <!-- #######################################  folio 93r ####################################### -->                 
+		
+		<pb n="093r" xml:id="CV188_folio_093r"/>
+	          
+	          <lb xml:id="CV188_lb_093r_01" n="01"/>qui 
+	          pulsatur, 
+	          quales 
+	          voluerit; 
+	          et 
+	          sextus
+	          sit 
+	          <lb xml:id="CV188_lb_093r_02" n="02"/>ipse. 
+	          Et 
+	          si 
+	          minor 
+	          fuerit 
+	          causa 
+	          de 
+	          <lb xml:id="CV188_lb_093r_03" n="03"/>duodicem 
+	          solidis, 
+	          sibi 
+	          tertius 
+	          iurit 
+	          <lb xml:id="CV188_lb_093r_04" n="04"/>ad 
+	          arma; 
+	          unum 
+	          ei 
+	          nominit 
+	          et 
+	          al<lb xml:id="CV188_lb_093r_05" n="05"/>ium 
+	          sibi
+	          querat 
+	          et 
+	          tertius 
+	          sit 
+	          ipse.        
+	        </p>
+	        <p xml:id="CV188_p_093r_360" n="360"><label n="360"><num>CCCLX</num></label>
+	          <lb xml:id="CV188_lb_093r_06" n="06"/>
+	          De 
+	          wadia 
+	          et 
+	          fideiussorem. 
+	          <lb xml:id="CV188_lb_093r_07" n="07"/>Si 
+	          quis 
+	          alii 
+	          wadia 
+	          et 
+	          fideiussorem 
+	          de 
+	          sacramentum 
+	          dederit, 
+	          per 
+	          <lb xml:id="CV188_lb_093r_08" n="08"/>omnia, 
+	          quod 
+	          per
+	          wadia 
+	          obligavit, 
+	          adinpleat. 
+	          Et 
+	          ille, 
+	          qui 
+	          pulsat 
+	          <lb xml:id="CV188_lb_093r_09" n="09"/>et 
+	          wadia 
+	          suscipit, 
+	          proximioris 
+	          <lb xml:id="CV188_lb_093r_10" n="10"/>sacramentalis, 
+	          qui 
+	          nascendo 
+	          <lb xml:id="CV188_lb_093r_11" n="11"/>sunt,
+	          debeat 
+	          nominare: 
+	          tantum 
+	          <lb xml:id="CV188_lb_093r_12" n="12"/>est 
+	          excepto 
+	          illo, 
+	          qui 
+	          gravem 
+	          <lb xml:id="CV188_lb_093r_13" n="13"/>inimicitiam 
+	          cum 
+	          ipso, 
+	          qui 
+	          pulsat, 
+	          <lb xml:id="CV188_lb_093r_14" n="14"/>commissam 
+	          habet,
+	          id 
+	          est 
+	          si
+	          ei 
+	          plaga 
+	          <lb xml:id="CV188_lb_093r_15" n="15"/>fecit, 
+	          aut 
+	          in 
+	          mortem 
+	          consensit, 
+	          <lb xml:id="CV188_lb_093r_16" n="16"/>aut 
+	          res 
+	          suas 
+	          alii 
+	          thingavit: 
+	          ipse 
+	          <lb xml:id="CV188_lb_093r_17" n="17"/>non 
+	          potest 
+	          esse 
+	          sacramentales, 
+	          <lb xml:id="CV188_lb_093r_18" n="18"/>quamvis
+	          proximus 
+	          sit, 
+	          eo 
+	          quod 
+	          <lb xml:id="CV188_lb_093r_19" n="19"/>inimicus 
+	          aut 
+	          extraneus 
+	          invenitur 
+	          <lb rend="align_right" type="extra"/>esse.
+	        </p> 
+	        
+	        <!-- #######################################  folio 93v ####################################### -->                 
+		
+		<pb n="093v" xml:id="CV188_folio_093v"/>
+		
+		<p xml:id="CV188_p_093v_361" n="361"><label n="361"><num>CCCLXI</num></label>
+	          <lb xml:id="CV188_lb_093v_01" n="01"/>
+	          Si 
+	          quis 
+	          alii 
+	          pro 
+	          quacum<lb xml:id="CV188_lb_093v_02" n="02"/>que 
+	          causa 
+	          wadia 
+	          et 
+	          fideius<lb xml:id="CV188_lb_093v_03" n="03"/>sorem 
+	          de 
+	          sacramento 
+	          de<lb xml:id="CV188_lb_093v_04" n="04"/>derit, 
+	          dit 
+	          ei 
+	          spatium 
+	          usque 
+	          in
+	          <lb xml:id="CV188_lb_093v_05" n="05"/>duodecim 
+	          noctis 
+	          ad 
+	          ipsum 
+	          sa<lb xml:id="CV188_lb_093v_06" n="06"/>cramentum 
+	          dandum; 
+	          et 
+	          si 
+	          fors<lb xml:id="CV188_lb_093v_07" n="07"/>an 
+	          propter 
+	          aegritudinem 
+	          aut 
+	          <lb xml:id="CV188_lb_093v_08" n="08"/>alia 
+	          causa 
+	          supervenientem
+                  <lb xml:id="CV188_lb_093v_09" n="09"/>in 
+                  predictum 
+                  constitutum 
+                  <lb xml:id="CV188_lb_093v_10" n="10"/>non 
+                  potuerit 
+                  iurare, 
+                  suspenda<lb xml:id="CV188_lb_093v_11" n="11"/>tur 
+                  causa 
+                  usque 
+                  ad 
+                  alias 
+                  doudecim 
+                  <lb xml:id="CV188_lb_093v_12" n="12"/>noctis. 
+                  Et 
+                  si 
+                  nec 
+                  tunc
+                  conpleve<lb xml:id="CV188_lb_093v_13" n="13"/>rit 
+                  et 
+                  totum 
+                  annum 
+                  unum 
+                  vo<lb xml:id="CV188_lb_093v_14" n="14"/>lontariae 
+                  dilataverit 
+                  et 
+                  sacramentum 
+                  non 
+                  dederit, 
+                  tunc 
+                  <lb xml:id="CV188_lb_093v_15" n="15"/>rem 
+                  ipsam, 
+                  unde 
+                  agitur,
+                  amittat, 
+                  <lb xml:id="CV188_lb_093v_16" n="16"/>et 
+                  ille 
+                  adquirat, 
+                  qui 
+                  wadia 
+                  sus<lb xml:id="CV188_lb_093v_17" n="17"/>cepit. 
+                  Et 
+                  contrario: 
+                  si 
+                  ille, 
+                  qui 
+                  wa<lb xml:id="CV188_lb_093v_18" n="18"/>dia 
+                  susceperit, 
+                  dilataverit 
+                  sa<lb xml:id="CV188_lb_093v_19" n="19"/>cramentum
+                  audire 
+                  et 
+                  annum 
+                 
+                <!-- #######################################  folio 94r ####################################### -->                 
+		
+		<pb n="094r" xml:id="CV188_folio_094r"/>  
+                  
+                  <lb xml:id="CV188_lb_094r_01" n="01"/>totum 
+                  protraxerit, 
+                  post 
+                  transac<lb xml:id="CV188_lb_094r_02" n="02"/>ti 
+                  anni 
+                  spatium 
+                  nulla 
+                  in 
+                  poste<lb xml:id="CV188_lb_094r_03" n="03"/>rum 
+                  habeat 
+                  facundiam 
+                  de 
+                  ipsam 
+                  rem
+                  <lb xml:id="CV188_lb_094r_04" n="04"/>loquendi; 
+                  sed 
+                  ille, 
+                  qui 
+                  paratus 
+                  fuit 
+                  <lb xml:id="CV188_lb_094r_05" n="05"/>sacramentum 
+                  dare, 
+                  firmiter 
+                  pos<lb rend="align_right" type="extra"/>sedeat.
+	        </p>
+	        <p xml:id="CV188_p_094r_362" n="362"><label n="362"><num>CCCLXII</num></label>
+	          <lb xml:id="CV188_lb_094r_06" n="06"/>
+	          Si 
+	          post 
+	          sacramentum 
+	          <lb xml:id="CV188_lb_094r_07" n="07"/>iudicatum 
+	          aliquis 
+	          moriatur. 
+	          <lb xml:id="CV188_lb_094r_08" n="08"/>Si 
+	          contegerit 
+	          homini 
+	          post 
+	          <lb xml:id="CV188_lb_094r_09" n="09"/>datum 
+	          fideiussorem 
+	          de
+	          sacramentum 
+	          et 
+	          sacra<lb xml:id="CV188_lb_094r_10" n="10"/>mentalis 
+	          nominatûs 
+	          mori, 
+	          et 
+	          <lb xml:id="CV188_lb_094r_11" n="11"/>filiûs 
+	          demiserit, 
+	          posteaque 
+	          ille, 
+	          <lb xml:id="CV188_lb_094r_12" n="12"/>qui 
+	          causam 
+	          quaerit, 
+	          pulsaverit
+                  <lb xml:id="CV188_lb_094r_13" n="13"/>filiûs 
+                  dicendo: 
+                  quia 
+                  quicquid 
+                  pater 
+                  <lb xml:id="CV188_lb_094r_14" n="14"/>per 
+                  wadia 
+                  et 
+                  fideiussorem 
+                  obli<lb xml:id="CV188_lb_094r_15" n="15"/>gavit, 
+                  fili 
+                  conplere 
+                  debent, 
+                  <lb xml:id="CV188_lb_094r_16" n="16"/>tunc 
+                  necesse 
+                  est
+                  filiûs, 
+                  quamvis 
+                  <lb xml:id="CV188_lb_094r_17" n="17"/>virtutem 
+                  minorem 
+                  habeant 
+                  a 
+                  pa<lb xml:id="CV188_lb_094r_18" n="18"/>tre, 
+                  aut 
+                  per 
+                  sacramentum 
+                  nega<lb xml:id="CV188_lb_094r_19" n="19"/>re, 
+                  quod 
+                  pater 
+                  eorum 
+                  non 
+                  promisissit,
+                  <lb xml:id="CV188_lb_094r_20" n="20"/>aut 
+                  certe, 
+                  quod 
+                  pater 
+                  eorum 
+                  spondedit, 
+                  adinpleant. 
+                  Et 
+                  si 
+                  aliquis 
+                  de 
+                  ipsos 
+                  
+                <!-- #######################################  folio 94v ####################################### -->                 
+		
+		<pb n="094v" xml:id="CV188_folio_094v"/>  
+                  
+                  <lb xml:id="CV188_lb_094v_01" n="01"/>sacramentalis 
+                  mortuus 
+                  fuerit, 
+                  potestatem
+                  habeat 
+                  ille, 
+                  qui 
+                  pulsat, 
+                  in 
+                  locum 
+                  mortui 
+                  <lb xml:id="CV188_lb_094v_02" n="02"/>alium 
+                  similem 
+                  nominare 
+                  de 
+                  pro<lb xml:id="CV188_lb_094v_03" n="03"/>ximûs 
+                  legitimûs 
+                  aut 
+                  de 
+                  natûs 
+                  aut 
+                  <lb xml:id="CV188_lb_094v_04" n="04"/>de
+                  gamahalos, 
+                  id 
+                  est 
+                  confabula<lb xml:id="CV188_lb_094v_05" n="05"/>tûs. 
+                  Et 
+                  si 
+                  dixerit, 
+                  qui 
+                  pulsat, 
+                  quod 
+                  <lb xml:id="CV188_lb_094v_06" n="06"/>sacramentum 
+                  ruptum 
+                  fuissit, 
+                  <lb xml:id="CV188_lb_094v_07" n="07"/>praebeat 
+                  sacramentum
+                  qui 
+                  ne<lb xml:id="CV188_lb_094v_08" n="08"/>gat, 
+                  si 
+                  ausus 
+                  fuerit: 
+                  quia 
+                  neque 
+                  <lb xml:id="CV188_lb_094v_09" n="09"/>patris 
+                  neque 
+                  ipsius 
+                  sacramentus 
+                  <lb xml:id="CV188_lb_094v_10" n="10"/>ruptus 
+                  non 
+                  fuissit; 
+                  postea 
+                  iurit, 
+                  <lb xml:id="CV188_lb_094v_11" n="11"/>sicut supra
+                  constitutum 
+                  est.
+	        </p>
+	        <p xml:id="CV188_p_094v_363" n="363"><label n="363"><num>CCCLXIII</num></label>
+	          <lb xml:id="CV188_lb_094v_12" n="12"/>
+	          De 
+	          sacramentum 
+	          rup<lb xml:id="CV188_lb_094v_13" n="13"/>tum. 
+	          Sacramentum 
+	          tunc 
+	          in<lb xml:id="CV188_lb_094v_14" n="14"/>tellegitur 
+	          ruptum, 
+	          quando 
+	          <lb xml:id="CV188_lb_094v_15" n="15"/>presentis 
+	          sacrosanta 
+	          evange<lb xml:id="CV188_lb_094v_16" n="16"/>lia 
+	          aut
+	          arma 
+	          sacrata 
+	          ipse, 
+	          qui 
+	          <lb xml:id="CV188_lb_094v_17" n="17"/>pulsatur, 
+	          cum 
+	          sacramentalis 
+	          <lb xml:id="CV188_lb_094v_18" n="18"/>suos 
+	          coniuncxerit 
+	          et 
+	          non 
+	          ausave<lb xml:id="CV188_lb_094v_19" n="19"/>rit 
+	          iurare 
+	          aut 
+	          ipse 
+	          aut 
+	          aliquis 
+	          <lb xml:id="CV188_lb_094v_20" n="20"/>de
+                  sacramentales 
+                  suos 
+                  se 
+                  sub<lb rend="align_right" type="extra"/>traxerit: 
+                  
+                <!-- #######################################  folio 95r ####################################### -->                 
+		
+		<pb n="095r" xml:id="CV188_folio_095r"/>
+		  
+                  <lb xml:id="CV188_lb_095r_01" n="01"/>tunc 
+                  intellegitur 
+                  sacramentum 
+                  <lb rend="align_right" type="extra"/>ruptum.
+	        </p>
+	        <p xml:id="CV188_p_095r_364" n="364"><label n="364"><num>CCCLXIIII</num></label>
+	          <lb xml:id="CV188_lb_095r_02" n="02"/>
+	          De 
+	          eo, 
+	          qui 
+	          prius 
+	          mane<lb xml:id="CV188_lb_095r_03" n="03"/>festaverit 
+	          et 
+	          sacramentum 
+	          <lb xml:id="CV188_lb_095r_04" n="04"/>promittit. 
+	          Si 
+	          pro 
+	          quacumque 
+	          <lb xml:id="CV188_lb_095r_05" n="05"/>culpa 
+	          homo 
+	          pulsatus 
+	          fuerit 
+	          ab
+	          <lb xml:id="CV188_lb_095r_06" n="06"/>alio 
+	          et 
+	          negaverit, 
+	          liceat 
+	          eum 
+	          se 
+	          <lb xml:id="CV188_lb_095r_07" n="07"/>eduniare 
+	          secundum 
+	          legem 
+	          et 
+	          <lb xml:id="CV188_lb_095r_08" n="08"/>qualitatem 
+	          causae. 
+	          Si 
+	          autem 
+	          <lb xml:id="CV188_lb_095r_09" n="09"/>manifestaverit 
+	          se 
+	          fecissit,
+                  conponat 
+                  <lb xml:id="CV188_lb_095r_10" n="10"/>secundum 
+                  quod 
+                  in 
+                  hoc 
+                  edictum 
+                  <lb xml:id="CV188_lb_095r_11" n="11"/>legitur. 
+                  Nam 
+                  nulli 
+                  liceat, 
+                  post<lb xml:id="CV188_lb_095r_12" n="12"/>quam 
+                  prius 
+                  manefestaverit, 
+                  pos<lb xml:id="CV188_lb_095r_13" n="13"/>tea 
+                  per
+		  sacramentum 
+		  negare, 
+		  quod 
+		  non 
+		  sit 
+		  colpabiles, 
+		  post<lb xml:id="CV188_lb_095r_14" n="14"/>quam 
+		  ipse 
+		  se 
+		  culpabilem 
+		  adsig<lb xml:id="CV188_lb_095r_15" n="15"/>nat. 
+		  Quia 
+		  multûs 
+		  cognovimus 
+		  <lb xml:id="CV188_lb_095r_16" n="16"/>in
+		  regno 
+		  nostro 
+		  tales 
+		  pravas 
+		  op<lb xml:id="CV188_lb_095r_17" n="17"/>ponentes 
+		  intentiones; 
+		  haec 
+		  nos 
+		  mo<lb xml:id="CV188_lb_095r_18" n="18"/>verunt 
+		  presentem 
+		  corregere 
+		  le<lb xml:id="CV188_lb_095r_19" n="19"/>gem 
+		  et 
+		  ad 
+		  meliorem
+		  statum 
+		  <lb rend="align_right" type="extra"/>revocare.<!--right???-->
+	        </p> 
+	        
+	        <!-- #######################################  folio 95v ####################################### -->                 
+				
+		<pb n="095v" xml:id="CV188_folio_095v"/>
+		
+		<p xml:id="CV188_p_095v_365" n="365"><label n="365"><num>CCCLXV</num></label>
+	          <lb xml:id="CV188_lb_095v_01" n="01"/>
+	          De 
+	          debitum 
+	          patris 
+	          <lb xml:id="CV188_lb_095v_02" n="02"/>mortui. 
+	          Si 
+	          quis 
+	          post 
+	          mortem 
+	          <lb xml:id="CV188_lb_095v_03" n="03"/>patris 
+	          filium 
+	          de 
+	          debitum 
+	          appella<lb xml:id="CV188_lb_095v_04" n="04"/>verit, 
+	          quod 
+	          pater 
+	          debitor
+	          fuis<lb xml:id="CV188_lb_095v_05" n="05"/>sit, 
+	          et 
+	          filius 
+	          negaverit, 
+	          ita 
+	          de<lb xml:id="CV188_lb_095v_06" n="06"/>cernimus, 
+	          ut 
+	          praebeat 
+	          filius 
+	          sacramentum 
+	          secundum 
+	          <lb xml:id="CV188_lb_095v_07" n="07"/>qualitatem 
+	          pecuniae, 
+	          unde
+	          pul<lb xml:id="CV188_lb_095v_08" n="08"/>satur, 
+	          quod 
+	          pater 
+	          ipsius 
+	          ei 
+	          de 
+	          <lb xml:id="CV188_lb_095v_09" n="09"/>bitor 
+	          non 
+	          fuissit; 
+	          aut 
+	          per 
+	          pug<lb xml:id="CV188_lb_095v_10" n="10"/>na 
+	          defendat, 
+	          si 
+	          potuerit.
+	        </p>
+	        <p xml:id="CV188_p_095v_366" n="366"><label n="366"><num>CCCLX6</num></label>
+	          <lb xml:id="CV188_lb_095v_11" n="11"/>
+	          Si 
+	          aliqua 
+	          inter 
+	          cre<lb xml:id="CV188_lb_095v_12" n="12"/>ditorem 
+	          et 
+	          debiturem 
+	          at<lb xml:id="CV188_lb_095v_13" n="13"/>que 
+	          fideiussurem 
+	          surre<lb xml:id="CV188_lb_095v_14" n="14"/>xerit 
+	          intentio, 
+	          et 
+	          dixerit 
+	          cre<lb xml:id="CV188_lb_095v_15" n="15"/>ditor. 
+	          "Quia 
+	          in 
+	          tale
+	          praetexto 
+	          <lb xml:id="CV188_lb_095v_16" n="16"/>wadia 
+	          suscepi" 
+	          et 
+	          fideiussor 
+	          <lb xml:id="CV188_lb_095v_17" n="17"/>negaverit, 
+	          non 
+	          est 
+	          causa 
+	          fide<lb xml:id="CV188_lb_095v_18" n="18"/>iussori 
+	          sacramentum 
+	          preve<lb xml:id="CV188_lb_095v_19" n="19"/>re; 
+	          nisi 
+	          debitur
+                  singolus 
+                  satis<lb xml:id="CV188_lb_095v_20" n="20"/>faciat 
+                  aut 
+                  ad 
+                  evangelia 
+                  aut 
+                  ad 
+                  <lb rend="align_right" type="extra"/>arma:
+                  
+                <!-- #######################################  folio 96r ####################################### -->                 
+				
+		<pb n="096r" xml:id="CV188_folio_096r"/> 
+                  
+                  <lb xml:id="CV188_lb_096r_01" n="01"/>"quia
+                  in 
+                  tale 
+                  capitulo 
+                  nec 
+                  wadia 
+                  <lb xml:id="CV188_lb_096r_02" n="02"/>dedi 
+                  nec 
+                  fideiussore 
+                  posui".
+	        </p>
+	        <p xml:id="CV188_p_096r_367" n="367"><label n="367"><num>CCCLX6I</num></label>
+	          <lb xml:id="CV188_lb_096r_03" n="03"/>
+	          De 
+	          waregang. 
+	          Omnes 
+	          <lb xml:id="CV188_lb_096r_04" n="04"/>waregang, 
+	          qui 
+	          de 
+	          exteras 
+	          fi<lb xml:id="CV188_lb_096r_05" n="05"/>nes 
+	          in 
+	          regni 
+	          nostri 
+	          finibus 
+	          advene<lb xml:id="CV188_lb_096r_06" n="06"/>rint 
+	          seque 
+	          sub 
+	          scuto
+	          potestatis 
+	          <lb xml:id="CV188_lb_096r_07" n="07"/>nostrae 
+	          subdederint, 
+	          legibus 
+	          <lb xml:id="CV188_lb_096r_08" n="08"/>nostris 
+	          langobardorum 
+	          vivere 
+	          debe<lb xml:id="CV188_lb_096r_09" n="09"/>ant, 
+	          nisi 
+	          si 
+	          aliam 
+	          legem 
+	          ad 
+	          pieta<lb xml:id="CV188_lb_096r_10" n="10"/>tem
+		  nostram 
+		  meruerint. 
+		  Si 
+		  fi<lb xml:id="CV188_lb_096r_11" n="11"/>liûs 
+		  legetimûs 
+		  habuerint, 
+		  heredes 
+		  eorum 
+		  existant 
+		  sicut 
+		  et 
+		  filii 
+		  langobardorum; 
+		  si 
+		  filiûs
+		  legetimûs 
+		  non 
+		  habuerint, 
+		  non 
+		  <lb xml:id="CV188_lb_096r_12" n="12"/>sit 
+		  illis 
+		  potestas 
+		  absque 
+		  iussionem 
+		  <lb xml:id="CV188_lb_096r_13" n="13"/>regis 
+		  res 
+		  suas 
+		  cuicumque 
+		  thin<lb xml:id="CV188_lb_096r_14" n="14"/>gare 
+		  aut 
+		  per 
+		  quolibet
+		  titulo 
+		  <lb rend="align_right" type="extra"/>alienare.
+	        </p>
+	        <p xml:id="CV188_p_096r_368" n="368"><label n="368"><num>CCCLX6II</num></label>
+	          <lb xml:id="CV188_lb_096r_15" n="15"/>
+		  De 
+		  camfionibus. 
+		  Nul<lb xml:id="CV188_lb_096r_16" n="16"/>lus 
+		  camphio 
+		  praesumat, 
+		  quan<lb xml:id="CV188_lb_096r_17" n="17"/>do 
+		  ad 
+		  pugnando 
+		  contra 
+		  alium 
+		  va<lb xml:id="CV188_lb_096r_18" n="18"/>dit, 
+		  herbas, 
+		  quod 
+		  ad
+		  malefici<lb xml:id="CV188_lb_096r_19" n="19"/>as 
+		  pertenit, 
+		  super 
+		  se 
+		  habere 
+		  <lb xml:id="CV188_lb_096r_20" n="20"/>nec 
+		  alias 
+		  tales 
+		  similes 
+		  res, 
+		  nisi 
+		  <lb xml:id="CV188_lb_096r_21" n="21"/>tantum 
+		  arma 
+		  sua, 
+		  quae 
+		  conve<lb rend="align_right" type="extra"/>nit. 
+		  
+		  
+		<!-- #######################################  folio 96r ####################################### -->                 
+				
+		<pb n="096v" xml:id="CV188_folio_096v"/> 
+                  
+                  <lb xml:id="CV188_lb_096v_01" n="01"/>Et 
+                  si 
+                  suspicio
+		  fuerit, 
+		  quod 
+		  eas 
+		  oc<lb xml:id="CV188_lb_096v_02" n="02"/>culte 
+		  habeat, 
+		  inquiratur 
+		  ad 
+		  iu<lb xml:id="CV188_lb_096v_03" n="03"/>dicem, 
+		  et 
+		  si 
+		  inventa 
+		  super 
+		  eum 
+		  <lb xml:id="CV188_lb_096v_04" n="04"/>fuerit, 
+		  evellantur 
+		  et 
+		  iactentur. 
+		  <lb xml:id="CV188_lb_096v_05" n="05"/>Et 
+		  post
+		  istam 
+		  inquisitionem 
+		  <lb xml:id="CV188_lb_096v_06" n="06"/>tendat 
+		  manum 
+		  ipse 
+		  camfio 
+		  in 
+		  <lb xml:id="CV188_lb_096v_07" n="07"/>manum 
+		  parentes 
+		  aut 
+		  conliber<lb xml:id="CV188_lb_096v_08" n="08"/>ti 
+		  sui; 
+		  ante 
+		  iudice 
+		  satisfaci<lb xml:id="CV188_lb_096v_09" n="09"/>ens 
+		  dicat,
+		  quod 
+		  nullam 
+		  talem 
+		  <lb xml:id="CV188_lb_096v_10" n="10"/>rem, 
+		  quod 
+		  ad 
+		  maleficias 
+		  per<lb xml:id="CV188_lb_096v_11" n="11"/>tenit, 
+		  super 
+		  se 
+		  habeat; 
+		  tunc 
+		  va<lb xml:id="CV188_lb_096v_12" n="12"/>dat 
+		  ad 
+		  certamen.
+	        </p>
+	        <p xml:id="CV188_p_096v_369" n="369"><label n="369"><num>CCCLX6III</num></label>
+	          <lb xml:id="CV188_lb_096v_13" n="13"/>
+	          De 
+	          causas 
+	          regales. 
+	          <lb xml:id="CV188_lb_096v_14" n="14"/>Omnis 
+	          vero 
+	          regales 
+	          causas, 
+	          <lb xml:id="CV188_lb_096v_15" n="15"/>quae 
+	          ad 
+	          manum 
+	          regis 
+	          perte<lb xml:id="CV188_lb_096v_16" n="16"/>neunt, 
+	          unde 
+	          conpositio 
+	          expecta<lb xml:id="CV188_lb_096v_17" n="17"/>tur
+	          aut 
+	          culpa 
+	          queritur, 
+	          dupli<lb xml:id="CV188_lb_096r_18" n="18"/>ceter 
+	          secundum 
+	          antiquam 
+	          <lb xml:id="CV188_lb_096v_19" n="19"/>consuitudinem 
+	          conpunantur; 
+	          excep<lb xml:id="CV188_lb_096v_20" n="20"/>to 
+	          mundium 
+	          de 
+	          liberas 
+	          aut
+                  mordh 
+                  <lb xml:id="CV188_lb_096r_21" n="21"/>aut 
+                  alias,v
+                  que 
+                  similes 
+                  sunt,
+                  
+                <!-- #######################################  folio 97r ####################################### -->                 
+				
+		<pb n="097r" xml:id="CV188_folio_097r"/> 
+                  
+                  <lb xml:id="CV188_lb_097r_01" n="01"/>unde 
+                  noningenti 
+                  solidi 
+                  iudicantur, 
+                  qua<lb xml:id="CV188_lb_097r_02" n="02"/>s 
+                  in 
+                  suum 
+                  vigorem 
+                  constituimus 
+                  <lb xml:id="CV188_lb_097r_03" n="03"/>permanere.
+                  Reliquas 
+                  om<lb xml:id="CV188_lb_097r_04" n="04"/>nis, 
+                  ut 
+                  praediximus, 
+                  in 
+                  duplum 
+                  <lb rend="align_right" type="extra"/>exegantur.
+	        </p>
+	        <p xml:id="CV188_p_097r_370" n="370"><label n="370"><num>CCCLXX</num></label>
+	          <lb xml:id="CV188_lb_097r_05" n="05"/>
+	          Si 
+	          servus 
+	          regis 
+	          mordh 
+	          <lb xml:id="CV188_lb_097r_06" n="06"/>fecerit, 
+	          ita 
+	          decernimus, 
+	          <lb xml:id="CV188_lb_097r_07" n="07"/>ut 
+	          conponatur 
+	          ipsa 
+	          persona, 
+	          <lb xml:id="CV188_lb_097r_08" n="08"/>sicut 
+	          adpraetiatus 
+	          fuerit, 
+	          et 
+	          <lb xml:id="CV188_lb_097r_09" n="09"/>servus
+	          ipse 
+	          super 
+	          fossa 
+	          ipsius 
+	          <lb xml:id="CV188_lb_097r_10" n="10"/>mortui 
+	          adpendatur, 
+	          ut 
+	          in 
+	          eum 
+	          <lb xml:id="CV188_lb_097r_11" n="11"/>vindicta 
+	          detur, 
+	          et 
+	          sit 
+	          causa 
+	          <lb rend="align_right" type="extra"/>supita.
+	        </p>
+	        <p xml:id="CV188_p_097r_371" n="371"><label n="371"><num>CCCLXXI</num></label>
+	          <lb xml:id="CV188_lb_097r_12" n="12"/>
+	          De 
+	          alias 
+	          vero 
+	          causas, 
+	          <lb xml:id="CV188_lb_097r_13" n="13"/>unde 
+	          liberi 
+	          et 
+	          servi 
+	          alio<lb xml:id="CV188_lb_097r_14" n="14"/>rum 
+	          hominum 
+	          nuningentos 
+	          solidos 
+	          fiunt 
+	          <lb xml:id="CV188_lb_097r_15" n="15"/>culpabiles, 
+	          id 
+	          est: 
+	          de
+	          muliere 
+	          li<lb xml:id="CV188_lb_097r_16" n="16"/>bera, 
+	          si 
+	          viam 
+	          antesteterit 
+	          aut 
+	          iniu<lb xml:id="CV188_lb_097r_17" n="17"/>riam 
+	          fecerit, 
+	          seu 
+	          de 
+	          greges, 
+	          equa<lb xml:id="CV188_lb_097r_18" n="18"/>rum 
+	          aut 
+	          porcorum 
+	          pigneratûs, 
+	          <lb xml:id="CV188_lb_097r_19" n="19"/>vel
+		  reliquas 
+		  quae 
+		  similes 
+		  sunt, 
+		  <lb xml:id="CV188_lb_097r_20" n="20"/>unde, 
+		  ut 
+		  prefati 
+		  sumus, 
+		  nongenti 
+		  solidi 
+		  <lb xml:id="CV188_lb_097r_21" n="21"/>queruntur, 
+		  de 
+		  quas 
+		  supra 
+		  
+		  
+		<!-- #######################################  folio 97v ####################################### -->                 
+				
+		<pb n="097v" xml:id="CV188_folio_097v"/> 
+                  
+                  <lb xml:id="CV188_lb_097v_01" n="01"/>in 
+                  hoc 
+                  edictum
+		  constituimus: 
+		  <lb xml:id="CV188_lb_097v_02" n="02"/>servus 
+		  regis 
+		  si 
+		  fecerit, 
+		  anime 
+		  su<lb xml:id="CV188_lb_097v_03" n="03"/>e 
+		  incurrat 
+		  periculum 
+		  et 
+		  nongenti 
+		  <lb xml:id="CV188_lb_097v_04" n="04"/>solidi 
+		  non 
+		  requiratur 
+		  ad 
+		  curtem
+		  <lb rend="align_right" type="extra"/>regis.
+	        </p>
+	        <p xml:id="CV188_p_097v_372" n="372"><label n="372"><num>CCCLXXII</num></label>
+	          <lb xml:id="CV188_lb_097v_05" n="05"/>
+		  Si 
+		  servus 
+		  regis 
+		  furtum 
+		  <lb xml:id="CV188_lb_097v_06" n="06"/>fecerit, 
+		  reddat 
+		  in 
+		  actogild, 
+		  <lb xml:id="CV188_lb_097v_07" n="07"/>et 
+		  non 
+		  sit 
+		  fegangi.	
+	        </p> 
+	        <p xml:id="CV188_p_097v_373" n="373"><label n="373"><num>CCCLXXIII</num></label>
+	          <lb xml:id="CV188_lb_097v_08" n="08"/>
+	          Si 
+	          servus 
+	          regis 
+	          hobe<lb xml:id="CV188_lb_097v_09" n="09"/>rus 
+	          aut 
+	          wecvorin 
+	          seu 
+	          marah<lb xml:id="CV188_lb_097v_10" n="10"/>vorf 
+	          aut 
+	          qualibit 
+	          alia 
+	          culpa 
+	          <lb xml:id="CV188_lb_097v_11" n="11"/>minorem 
+	          fecerit, 
+	          ita 
+	          conponat,
+	          sicut 
+	          <lb xml:id="CV188_lb_097v_12" n="12"/>aliorum 
+	          exercitalium, 
+	          quae 
+	          su<lb xml:id="CV188_lb_097v_13" n="13"/>pra 
+	          decreta 
+	          sunt, 
+	          conponuntur.
+	        </p>
+	        <p xml:id="CV188_p_097v_374" n="374"><label n="374"><num>CCCLXXIIII</num></label>
+	          <lb xml:id="CV188_lb_097v_14" n="14"/>
+		  De 
+		  sculdhais. 
+		  Si 
+		  quis 
+		  <lb xml:id="CV188_lb_097v_15" n="15"/>sculdhais 
+		  aut 
+		  actorem 
+		  regis 
+		  <lb xml:id="CV188_lb_097v_16" n="16"/>occiderit 
+		  utilitatem 
+		  regis 
+		  facien<lb xml:id="CV188_lb_097v_17" n="17"/>tem, 
+		  adpretietur 
+		  pro 
+		  libero
+		  homi<lb xml:id="CV188_lb_097v_18" n="18"/>nem, 
+		  sicut 
+		  in 
+		  hoc 
+		  edictum 
+		  legitur, 
+		  <lb xml:id="CV188_lb_097v_19" n="19"/>et 
+		  parentibus 
+		  legitimis 
+		  conponatur, 
+		  <lb xml:id="CV188_lb_097v_20" n="20"/>excepto 
+		  in 
+		  curtem 
+		  regis 
+		  conponat, 
+		  <lb xml:id="CV188_lb_097v_21" n="21"/>qui
+		  eum 
+		  occiderit, 
+		  solidos 
+		  octugen<lb rend="align_right" type="extra"/>ta. 
+		  
+		<!-- #######################################  folio 98r ####################################### -->                 
+				
+		<pb n="098r" xml:id="CV188_folio_098r"/> 
+                  
+                  <lb xml:id="CV188_lb_098r_01" n="01"/>Et 
+                  si 
+                  battutus 
+                  fuerit 
+                  aut 
+                  legatus, 
+                  <lb xml:id="CV188_lb_098r_02" n="02"/>similiter 
+                  conponatur 
+                  pro 
+                  liberum 
+                  homi<lb xml:id="CV188_lb_098r_03" n="03"/>nem 
+                  aut
+		  secundum 
+		  nationem 
+		  suam, 
+		  <lb xml:id="CV188_lb_098r_04" n="04"/>sicut 
+		  in 
+		  hoc 
+		  edictum 
+		  constitutum 
+		  <lb xml:id="CV188_lb_098r_05" n="05"/>est; 
+		  excepto 
+		  in 
+		  curtem 
+		  regis 
+		  pro 
+		  <lb xml:id="CV188_lb_098r_06" n="06"/>culpa 
+		  solidos
+		  octugenta.
+	        </p>
+	        <p xml:id="CV188_p_098r_375" n="375"><label n="375"><num>CCCLXXV</num></label>
+	          <lb xml:id="CV188_lb_098r_07" n="07"/>
+	          Si 
+	          gastaldius 
+	          aut 
+	          <lb xml:id="CV188_lb_098r_08" n="08"/>quicumque 
+	          actor 
+	          regis 
+	          post 
+	          <lb xml:id="CV188_lb_098r_09" n="09"/>susceptas 
+	          aut 
+	          commissas 
+	          <lb xml:id="CV188_lb_098r_10" n="10"/>ad 
+	          gobernandum 
+	          curtes 
+	          regis 
+	          <lb xml:id="CV188_lb_098r_11" n="11"/>et 
+	          causas
+	          regias 
+	          aliquid 
+	          per 
+	          <lb xml:id="CV188_lb_098r_12" n="12"/>gairethinx, 
+	          id 
+	          est 
+	          donationem, 
+	          ab 
+	          alio 
+	          <lb xml:id="CV188_lb_098r_13" n="13"/>quocumque 
+	          factam 
+	          conquesierit, 
+	          <lb xml:id="CV188_lb_098r_14" n="14"/>sit 
+	          illi 
+	          stabilem, 
+	          si 
+	          per
+		  preceptio<lb xml:id="CV188_lb_098r_15" n="15"/>nem 
+		  indulgentiae 
+		  regis 
+		  in 
+		  eum 
+		  <lb xml:id="CV188_lb_098r_14" n="14"/>fuerit 
+		  confirmatum. 
+		  Alioquin: 
+		  <lb xml:id="CV188_lb_098r_15" n="15"/>quidquid, 
+		  ut 
+		  predictum 
+		  est, 
+		  post 
+		  <lb xml:id="CV188_lb_098r_16" n="16"/>susceptam
+		  administrationem 
+		  per 
+		  <lb xml:id="CV188_lb_098r_17" n="17"/>gairethinx 
+		  adquesierit, 
+		  hoc 
+		  <lb xml:id="CV188_lb_098r_18" n="18"/>totum 
+		  regi 
+		  adquirat 
+		  et 
+		  non 
+		  suo 
+		  <lb xml:id="CV188_lb_098r_19" n="19"/>proprio 
+		  nomine 
+		  vindicet 
+		  
+		  
+		<!-- #######################################  folio 98v ####################################### -->                 
+				
+		<pb n="098v" xml:id="CV188_folio_098v"/> 
+                  
+                  <lb xml:id="CV188_lb_098v_01" n="01"/>nec 
+                  ipse,
+		  nec 
+		  heredis 
+		  ipsius.
+	        </p>
+	        <p xml:id="CV188_p_098v_376" n="376"><label n="376"><num>CCCLXX6</num></label>
+	          <lb xml:id="CV188_lb_098v_02" n="02"/>                                 
+	          Nullus 
+	          presumat 
+	          al<lb xml:id="CV188_lb_098v_03" n="03"/>diam 
+	          alienam 
+	          aut 
+	          ancillam 
+	          <lb xml:id="CV188_lb_098v_04" n="04"/>quasi 
+	          strigam, 
+	          quem 
+	          dicunt 
+	          mas<lb xml:id="CV188_lb_098v_05" n="05"/>cam, 
+	          occidere, 
+	          quod 
+	          christianis
+	          men<lb xml:id="CV188_lb_098v_06" n="06"/>tibus 
+	          nullatenus 
+	          credendum 
+	          est 
+	          <lb xml:id="CV188_lb_098v_07" n="07"/>nec 
+	          possibilem, 
+	          ut 
+	          mulier 
+	          ho<lb xml:id="CV188_lb_098v_08" n="08"/>minem 
+	          vivum 
+	          intrinsecus 
+	          pos<lb xml:id="CV188_lb_098v_09" n="09"/>sit 
+	          comedere. 
+	          Si 
+	          quis
+                  de 
+                  cetero 
+                  ta<lb xml:id="CV188_lb_098v_10" n="10"/>lem 
+                  inlecitam 
+                  et 
+                  nefandam 
+                  <lb xml:id="CV188_lb_098v_11" n="11"/>rem 
+                  penetrare 
+                  presumpserit: 
+                  <lb xml:id="CV188_lb_098v_12" n="12"/>si 
+                  aldiam 
+                  occiderit, 
+                  conponat 
+                  pro 
+                  sta<lb xml:id="CV188_lb_098v_13" n="13"/>tum 
+                  eius
+                  solidos 
+                  LX, 
+                  et 
+                  insuper 
+                  ad<lb xml:id="CV188_lb_098v_14" n="14"/>dat 
+                  pro 
+                  culpa 
+                  solidos 
+                  centum, 
+                  medieta<lb xml:id="CV188_lb_098v_15" n="15"/>tem 
+                  regi 
+                  et 
+                  medietatem 
+                  cuius 
+                  al<lb xml:id="CV188_lb_098v_16" n="16"/>dia 
+                  fuerit. 
+                  Si 
+                  autem
+                  ancilla 
+                  <lb xml:id="CV188_lb_098v_17" n="17"/>fuerit, 
+                  conponat 
+                  pro 
+                  statum 
+                  eius, 
+                  <lb xml:id="CV188_lb_098v_18" n="18"/>ut 
+                  supra 
+                  constitutum 
+                  est, 
+                  si 
+                  mini<lb xml:id="CV188_lb_098v_19" n="19"/>stiriales 
+                  aut 
+                  rusticana 
+                  fuerit; 
+                  <lb xml:id="CV188_lb_098v_20" n="20"/>et 
+                  insuper 
+                  pro
+                  culpa 
+                  solidos 
+                  LX,
+                  medietatem 
+                  regi 
+                  et 
+                  medieta<lb rend="align_right" type="extra"/>tem
+                  
+                   
+                <!-- #######################################  folio 99r ####################################### -->                 
+				
+		<pb n="099r" xml:id="CV188_folio_099r"/> 
+                  
+                  <lb xml:id="CV188_lb_099r_01" n="01"/>cuius 
+                  ancilla 
+                  fuerit. 
+                  Si 
+                  vero 
+                  iudex 
+                  <lb xml:id="CV188_lb_099r_02" n="02"/>huic 
+                  opus 
+                  malum 
+                  penetrare
+                  ius<lb xml:id="CV188_lb_099r_03" n="03"/>serit, 
+                  ipse 
+                  de 
+                  suo 
+                  proprio 
+                  pe<lb xml:id="CV188_lb_099r_04" n="04"/>na 
+                  suprascripta 
+                  conponat.
+                </p>
+                <p xml:id="CV188_p_099r_377" n="377"><label n="377"><num>CCCLXX6I</num></label>
+	          <lb xml:id="CV188_lb_099r_05" n="05"/>
+		  Si 
+		  quis 
+		  hominem 
+		  liberum 
+		  unum 
+		  <lb xml:id="CV188_lb_099r_06" n="06"/>oculum 
+		  habentem 
+		  ipsum 
+		  excusse<lb xml:id="CV188_lb_099r_07" n="07"/>rit, 
+		  duas 
+		  partes 
+		  pretii 
+		  ip<lb xml:id="CV188_lb_099r_08" n="08"/>sius, 
+		  quod 
+		  adpretiatus
+		  fuerit, 
+		  <lb xml:id="CV188_lb_099r_09" n="09"/>si 
+		  eum 
+		  occidissit, 
+		  conponat. 
+		  Si 
+		  autem 
+		  <lb xml:id="CV188_lb_099r_10" n="10"/>haldium 
+		  aut 
+		  servum 
+		  <lb xml:id="CV188_lb_099r_11" n="11"/>alienum 
+		  unum 
+		  oculum 
+		  habentem 
+		  ipsum 
+		  excusserit,
+		  <lb xml:id="CV188_lb_099r_12" n="12"/>conponat 
+		  eum 
+		  pro 
+		  mortuo.	
+	        </p>
+	        <p xml:id="CV188_p_099r_378" n="378"><label n="378"><num>CCCLXX6II</num></label>
+	          <lb xml:id="CV188_lb_099r_013" n="13"/>
+	          Si 
+	          mulier 
+	          libera 
+	          <lb xml:id="CV188_lb_099r_14" n="14"/>in 
+	          scandalum 
+	          cocurrerit, 
+	          ubi 
+	          <lb xml:id="CV188_lb_099r_15" n="15"/>viri 
+	          litigant, 
+	          si 
+	          plagam 
+	          <lb xml:id="CV188_lb_099r_16" n="16"/>aut 
+	          feritam 
+	          factam 
+	          habuerit 
+	          <lb xml:id="CV188_lb_099r_17" n="17"/>aut 
+	          forsitan
+	          inpincta 
+	          fuerit 
+	          <lb xml:id="CV188_lb_099r_18" n="18"/>aut 
+	          occisa, 
+	          adpretietur 
+	          se<lb xml:id="CV188_lb_099r_19" n="19"/>cundum 
+	          nobilitatem 
+	          suam 
+	          et 
+	          sic 
+	          <lb xml:id="CV188_lb_099r_20" n="20"/>conponatur, 
+	          tamquam 
+	          si 
+	          in 
+	          fratrem 
+	          
+	          
+	        <!-- #######################################  folio 99v ####################################### -->                 
+				
+		<pb n="099v" xml:id="CV188_folio_099v"/> 
+                  
+                  <lb xml:id="CV188_lb_099v_01" n="01"/>ipsius
+		  mulieris 
+		  perpetratum 
+		  <lb xml:id="CV188_lb_099v_02" n="02"/>fuisset; 
+		  nam 
+		  alia 
+		  culpa 
+		  pro 
+		  <lb xml:id="CV188_lb_099v_03" n="03"/>iniuria 
+		  sua, 
+		  unde 
+		  nongenti 
+		  solidi 
+		  <lb xml:id="CV188_lb_099v_04" n="04"/>iudicantur, 
+		  non 
+		  re<lb xml:id="CV188_lb_099v_05" n="05"/>quiratur, 
+		  eo
+		  quod 
+		  ipsa 
+		  ad 
+		  lit<lb xml:id="CV188_lb_099v_06" n="06"/>em 
+		  cocurrit, 
+		  quod 
+		  inhonestum 
+		  <lb xml:id="CV188_lb_099v_07" n="07"/>est 
+		  mulieribus 
+		  facere.
+	        </p>
+	        <p xml:id="CV188_p_099v_379" n="379"><label n="379"><num>CCCLXX6III</num></label>
+	          <lb xml:id="CV188_lb_099v_08" n="08"/>
+	          Si 
+	          quis 
+	          cassinam 
+	          <lb xml:id="CV188_lb_099v_09" n="09"/>aut 
+	          tectum 
+	          alienum 
+	          foris 
+	          cur<lb xml:id="CV188_lb_099v_10" n="10"/>tem, 
+	          ubi 
+	          vir 
+	          non 
+	          habitat, 
+	          dum 
+	          <lb xml:id="CV188_lb_099v_11" n="11"/>intentio 
+	          fuerit 
+	          de 
+	          terra,
+	          distur<lb xml:id="CV188_lb_099v_12" n="12"/>baverit 
+	          aut 
+	          in 
+	          terram 
+	          iactave<lb xml:id="CV188_lb_099v_13" n="13"/>rit 
+	          et 
+	          terram 
+	          suam, 
+	          sicut 
+	          lex 
+	          <lb xml:id="CV188_lb_099v_14" n="14"/>habet, 
+	          convincere 
+	          non 
+	          potuerit, 
+	          <lb xml:id="CV188_lb_099v_15" n="15"/>restauret 
+	          ipsam
+                  cassinam 
+                  et
+                  <lb xml:id="CV188_lb_099v_16" n="16"/>conponat 
+                  aliam 
+                  talem 
+                  sub 
+                  extima<lb xml:id="CV188_lb_099v_17" n="17"/>tionem 
+                  pretii. 
+                  Nam 
+                  si 
+                  casa, 
+                  ubi 
+                  <lb xml:id="CV188_lb_099v_18" n="18"/>habitatur, 
+                  disturbaverit, 
+                  <lb xml:id="CV188_lb_099v_19" n="19"/>conponat,
+		  sicut 
+		  in 
+		  hoc 
+		  edictum 
+		  le<lb xml:id="CV188_lb_099v_20" n="20"/>gitur, 
+		  haritraib.
+	        </p>
+	        <p xml:id="CV188_p_099v_380" n="380"><label n="380"><num>CCCLXXX</num></label>
+	          <lb xml:id="CV188_lb_099v_21" n="21"/>
+	          Si 
+	          quis 
+	          peculium 
+	          suum 
+	          
+	        <!-- #######################################  folio 100r ####################################### -->                 
+				
+		<pb n="100r" xml:id="CV188_folio_100r"/> 
+                  
+                  <lb xml:id="CV188_lb_100r_01" n="01"/>de 
+                  clausura 
+                  aliena 
+                  occulte 
+                  <lb xml:id="CV188_lb_100r_02" n="02"/>tulerit 
+                  et 
+                  non 
+                  rogaverit, 
+                  con 
+                  ponat 
+                  cur<lb xml:id="CV188_lb_100r_03" n="03"/>tis 
+                  rupturae, 
+                  id 
+                  est
+	          hoberos: 
+	          solidos 
+	          XX.
+	        </p>
+	        <p xml:id="CV188_p_100r_381" n="381"><label n="381"><num>CCCLXXXI</num></label>
+	          <lb xml:id="CV188_lb_100r_04" n="04"/>
+	          Si 
+	          quis 
+	          alium 
+	          " arga" 
+	          per 
+	          fu<lb xml:id="CV188_lb_100r_05" n="05"/>rorem 
+	          clamaverit 
+	          et 
+	          ne<lb xml:id="CV188_lb_100r_06" n="06"/>gare 
+	          non 
+	          potuerit 
+	          et 
+	          dixe<lb xml:id="CV188_lb_100r_07" n="07"/>rit, 
+	          quod 
+	          per 
+	          furorem 
+	          dixisset, 
+	          <lb xml:id="CV188_lb_100r_08" n="08"/>tunc
+	          iuratus 
+	          dicat, 
+	          quod 
+	          eum 
+	          <lb xml:id="CV188_lb_100r_09" n="09"/>arga 
+	          non 
+	          cognovisset; 
+	          postea 
+	          <lb xml:id="CV188_lb_100r_10" n="10"/>conponat 
+	          pro 
+	          ipso 
+	          iniurioso 
+	          ver<lb xml:id="CV188_lb_100r_11" n="11"/>bo 
+	          solidos 
+	          duodecim. 
+	          Et 
+	          si
+		  perseverave<lb xml:id="CV188_lb_100r_12" n="12"/>rit, 
+		  convincat 
+		  per 
+		  pugnam, 
+		  si 
+		  po<lb xml:id="CV188_lb_100r_13" n="13"/>tuerit, 
+		  aut 
+		  certe 
+		  conponat, 
+		  ut 
+		  supra.
+	        </p>
+	        <p xml:id="CV188_p_100r_382" n="382"><label n="382"><num>CCCLXXXII</num></label>
+	          <lb xml:id="CV188_lb_100r_14" n="14"/>         
+	          Si 
+	          quis 
+	          hominem 
+	          <lb xml:id="CV188_lb_100r_15" n="15"/>liberum 
+	          inpegerit, 
+	          ut 
+	          ca<lb xml:id="CV188_lb_100r_16" n="16"/>dat, 
+	          conponat 
+	          solidos 
+	          sex, 
+	          sic 
+	          tamen: 
+	          si 
+	          <lb xml:id="CV188_lb_100r_17" n="17"/>alteram 
+	          lesionem 
+	          in 
+	          corpo<lb xml:id="CV188_lb_100r_18" n="18"/>re
+	          ipsius 
+	          non 
+	          fecerit. 
+	          Si 
+	          autem 
+	          <lb xml:id="CV188_lb_100r_19" n="19"/>eum 
+	          inpegerit 
+	          et 
+	          non 
+	          cecide<lb xml:id="CV188_lb_100r_20" n="20"/>rit, 
+	          conponat 
+	          solidos 
+	          tres.
+	        </p>
+	        <p xml:id="CV188_p_100r_383" n="383"><label n="383"><num>CCCLXXXIII</num></label>
+	          <lb xml:id="CV188_lb_100r_21" n="21"/>
+	          Si 
+	          quis 
+	          hominem 
+	          
+	          
+	        <!-- #######################################  folio 100v ####################################### -->                 
+				
+		<pb n="100v" xml:id="CV188_folio_100v"/> 
+                  
+                  <lb xml:id="CV188_lb_100v_01" n="01"/>liberum 
+                  surgentem 
+                  rexa 
+                  per 
+                  <lb xml:id="CV188_lb_100v_02" n="02"/>barbas 
+                  aut 
+                  capillos 
+                  traxerit, 
+                  <lb xml:id="CV188_lb_100v_03" n="03"/>conponat 
+                  solidos 
+                  sex; 
+                  si 
+                  aldium 
+                  aut
+	          mi<lb xml:id="CV188_lb_100v_04" n="04"/>nistirialem 
+	          seu 
+	          servo 
+	          rustica<lb xml:id="CV188_lb_100v_05" n="05"/>no 
+	          per 
+	          barbas 
+	          aut 
+	          capillos 
+	          traxe<lb xml:id="CV188_lb_100v_06" n="06"/>rit, 
+	          conponat 
+	          sicut 
+	          pro 
+	          ferita 
+	          una.
+	        </p>
+	        <p xml:id="CV188_p_100v_384" n="384"><label n="384"><num>CCCLXXXIIII</num></label>
+	          <lb xml:id="CV188_lb_100v_07" n="07"/>
+                  De 
+                  brachio, 
+                  <lb xml:id="CV188_lb_100v_08" n="08"/>coxa 
+                  seu 
+                  tibia 
+                  rupta. 
+                  Si 
+                  quis 
+                  ho<lb xml:id="CV188_lb_100v_09" n="09"/>mini 
+                  libero 
+                  brachium 
+                  super 
+                  gu<lb xml:id="CV188_lb_100v_10" n="10"/>bitum, 
+                  hoc 
+                  est 
+                  murioth, 
+                  ruperit,
+                  <lb xml:id="CV188_lb_100v_11" n="11"/>conponat 
+                  solidos 
+                  vigenti; 
+                  si 
+                  autem 
+                  subtus 
+                  <lb xml:id="CV188_lb_100v_12" n="12"/>gubitum, 
+                  quod 
+                  est 
+                  treno, 
+                  conponat 
+                  <lb xml:id="CV188_lb_100v_13" n="13"/>solidos 
+                  sedecim; 
+                  si 
+                  coxa 
+                  ruperit 
+                  super
+		  <lb xml:id="CV188_lb_100v_14" n="14"/>genuculum, 
+		  quod 
+		  est 
+		  lagi, 
+		  conponat 
+		  <lb xml:id="CV188_lb_100v_15" n="15"/>solidos 
+		  vigenti; 
+		  si 
+		  subtus 
+		  genuculum, 
+		  <lb xml:id="CV188_lb_100v_16" n="16"/>quod 
+		  est 
+		  tibia, 
+		  conponat 
+		  solidos 
+		  sedecim.
+		  Si 
+		  <lb xml:id="CV188_lb_100v_17" n="17"/>vero 
+		  semus 
+		  aut 
+		  clodus 
+		  fuerit, 
+		  <lb xml:id="CV188_lb_100v_18" n="18"/>conponat, 
+		  sicut 
+		  in 
+		  hoc 
+		  edictum 
+		  le<lb xml:id="CV188_lb_100v_19" n="19"/>gitur: 
+		  quartam 
+		  partem 
+		  pretii. 	        
+	        </p>
+	        <p xml:id="CV188_p_100v_385" n="385"><label n="385"><num>CCCLXXXV</num></label>
+	          <lb xml:id="CV188_lb_100v_20" n="20"/>
+	          De 
+	          mundio 
+	          puelle 
+	          <lb xml:id="CV188_lb_100v_21" n="21"/>et 
+	          devitum. 
+	          Si 
+	          mundius 
+	          
+	          
+	        <!-- #######################################  folio 101r ####################################### -->                 
+				
+		<pb n="101r" xml:id="CV188_folio_101r"/> 
+                  
+                  <lb xml:id="CV188_lb_101r_01" n="01"/>de 
+                  puella 
+                  libera, 
+                  parentes 
+                  mortu<lb xml:id="CV188_lb_101r_02" n="02"/>os, 
+                  ad 
+                  curtem 
+                  regis 
+                  ceciderit 
+                  et
+	          <lb xml:id="CV188_lb_101r_03" n="03"/>pater 
+	          vel 
+	          frater 
+	          devitum 
+	          demi<lb xml:id="CV188_lb_101r_04" n="04"/>serit, 
+	          in 
+	          quotam 
+	          portionem 
+	          pa<lb xml:id="CV188_lb_101r_05" n="05"/>tri 
+	          vel 
+	          fratri 
+	          heredes 
+	          successe<lb xml:id="CV188_lb_101r_06" n="06"/>rit, 
+	          ita 
+	          et 
+	          devitum
+		  persolvat. 
+		  <lb xml:id="CV188_lb_101r_07" n="07"/>Simili 
+		  modo 
+		  et, 
+		  si 
+		  naturales 
+		  filii 
+		  <lb rend="align_right" type="extra"/>fuerint.
+	        </p>
+	        <p xml:id="CV188_p_101r_386" n="386"><label n="386"><num>CCCLXXX6</num></label>
+	          <lb xml:id="CV188_lb_101r_08" n="08"/>
+	          Praesentem 
+	          vero 
+	          dis<lb xml:id="CV188_lb_101r_09" n="09"/>positionis 
+	          nostrae 
+	          edictum, 
+	          quem 
+	          deo 
+	          <lb xml:id="CV188_lb_101r_08" n="10"/>propitio 
+	          cum 
+	          summo 
+	          studio 
+	          et 
+	          su<lb xml:id="CV188_lb_101r_1" n="11"/>mmis 
+	          vigilis 
+	          a
+	          celestem 
+	          faborem 
+	          praestitis 
+	          inquirentes 
+	          et 
+	          reme<lb xml:id="CV188_lb_101r_12" n="12"/>morantes 
+	          antiquas 
+	          legis 
+	          pa<lb xml:id="CV188_lb_101r_13" n="13"/>trum 
+	          nostrorum, 
+	          quae 
+	          <lb xml:id="CV188_lb_101r_14" n="14"/>scriptae 
+	          non 
+	          erant,
+		  con<lb xml:id="CV188_lb_101r_15" n="15"/>dedimus, 
+		  et 
+		  quod 
+		  pro 
+		  co<lb xml:id="CV188_lb_101r_16" n="16"/>mmune 
+		  omnium 
+		  gentis 
+		  nostrae 
+		  <lb xml:id="CV188_lb_101r_17" n="17"/>utilitatibus 
+		  expediunt, 
+		  pari 
+		  <lb xml:id="CV188_lb_101r_18" n="18"/>consilio 
+		  parique 
+		  consen<lb xml:id="CV188_lb_101r_19" n="19"/>sum
+		  cum 
+		  primatos 
+		  iudices 
+		  <lb xml:id="CV188_lb_101r_20" n="20"/>cunctosque 
+		  felicissimus 
+		  
+		  
+		<!-- #######################################  folio 101v ####################################### -->                 
+				
+		<pb n="101v" xml:id="CV188_folio_101v"/> 
+                  
+                  <lb xml:id="CV188_lb_101v_01" n="01"/>exercitum 
+                  nostrum 
+                  augentes 
+                  <lb xml:id="CV188_lb_101v_02" n="02"/>constituimus, 
+                  in 
+                  hoc 
+                  membranum
+		  <lb xml:id="CV188_lb_101v_03" n="03"/>scribere 
+		  iussimus; 
+		  pertractan<lb xml:id="CV188_lb_101v_04" n="04"/>tes 
+		  et 
+		  sub 
+		  hoc 
+		  tamen 
+		  capitulo 
+		  <lb xml:id="CV188_lb_101v_05" n="05"/>reservantes, 
+		  ut, 
+		  quod 
+		  adhuc 
+		  an<lb xml:id="CV188_lb_101v_06" n="06"/>nuentem 
+		  divinam
+		  clementiam 
+		  <lb xml:id="CV188_lb_101v_07" n="07"/>per 
+		  subtilem 
+		  inquisitionem 
+		  de 
+		  <lb xml:id="CV188_lb_101v_08" n="08"/>antiquas 
+		  legis 
+		  langobardorum, 
+		  <lb xml:id="CV188_lb_101v_09" n="09"/>tam 
+		  per 
+		  nosmetipsos 
+		  quam 
+		  per 
+		  <lb xml:id="CV188_lb_101v_10" n="10"/>antiquos
+		  homines, 
+		  memorare 
+		  potuerimus, 
+		  <lb xml:id="CV188_lb_101v_11" n="11"/>in 
+		  hoc 
+		  edictum 
+		  subiungere 
+		  debea<lb xml:id="CV188_lb_101v_12" n="12"/>mus; 
+		  addentes, 
+		  quin 
+		  etiam 
+		  et 
+		  per 
+		  gairethinx
+		  <lb xml:id="CV188_lb_101v_13" n="13"/>secundum 
+		  ritus 
+		  gentis 
+		  nostrae 
+		  con<lb xml:id="CV188_lb_101v_14" n="14"/>firmantes, 
+		  <lb xml:id="CV188_lb_101v_15" n="15"/>ut 
+		  sit 
+		  haec 
+		  lex 
+		  firma 
+		  et 
+		  <lb xml:id="CV188_lb_101v_16" n="16"/>stabelis, 
+		  quatinus 
+		  nostris 
+		  <lb xml:id="CV188_lb_101v_17" n="17"/>felicissimis 
+		  et 
+		  futuris
+		  tempori<lb xml:id="CV188_lb_101v_18" n="18"/>bus 
+		  firmiter 
+		  et 
+		  inviolabiliter 
+		  ab 
+		  <lb xml:id="CV188_lb_101v_19" n="19"/>omnibus 
+		  nostris 
+		  subiectis 
+		  cos<lb xml:id="CV188_lb_101v_20" n="20"/>todiatur.
+	        </p> 
+	        
+	        <!-- #######################################  folio 102r ####################################### -->                 
+				
+		<pb n="102r" xml:id="CV188_folio_102r"/>
+	        
+	        <p xml:id="CV188_p_102r_387" n="387"><label n="387"><num>CCCLXXX6I</num></label>
+	          <lb xml:id="CV188_lb_102r_01" n="01"/>
+	          Si 
+	          quis 
+	          hominem 
+	          li<lb xml:id="CV188_lb_102r_02" n="02"/>berum 
+	          casum 
+	          facientem 
+	          nolen<lb xml:id="CV188_lb_102r_03" n="03"/>do 
+	          occiderit, 
+	          conponat 
+	          eum, 
+	          sicut 
+	          ad<lb xml:id="CV188_lb_102r_04" n="04"/>pretiatus 
+	          fuerit, 
+	          et 
+	          faida
+	          non 
+	          re<lb xml:id="CV188_lb_102r_05" n="05"/>quiratur, 
+	          eo 
+	          quod 
+	          nolendo 
+	          fecit.
+	        </p>
+	        <p xml:id="CV188_p_102r_388" n="388"><label n="388"><num>CCCLXXX6II</num></label>
+	          <lb xml:id="CV188_lb_102r_06" n="06"/>
+	          Et 
+	          hoc 
+	          addimus 
+	          ac 
+	          <lb xml:id="CV188_lb_102r_07" n="07"/>decernimus, 
+	          ut 
+	          causae, 
+	          que 
+	          fenit<lb xml:id="CV188_lb_102r_08" n="08"/>ae 
+	          sunt, 
+	          non 
+	          revolvantur. 
+	          Quae 
+	          <lb xml:id="CV188_lb_102r_09" n="09"/>autem 
+	          non 
+	          sunt 
+	          fenitae 
+	          et 
+	          a
+	          pre<lb xml:id="CV188_lb_102r_10" n="10"/>sente 
+	          vigesima 
+	          secunda 
+	          diae 
+	          <lb xml:id="CV188_lb_102r_11" n="11"/>mensis 
+	          huius 
+	          novembris 
+	          indictio<lb xml:id="CV188_lb_102r_12" n="12"/>ne 
+	          secunda 
+	          incoatae 
+	          aut 
+	          commo<lb xml:id="CV188_lb_102r_13" n="13"/>tae 
+	          fuerint, 
+	          per 
+	          hoc 
+	          edictum 
+	          incidan<lb xml:id="CV188_lb_102r_14" n="14"/>tur 
+	          et 
+	          finiantur. 
+	          Et 
+	          a 
+	          hoc 
+	          genera<lb xml:id="CV188_lb_102r_15" n="15"/>liter 
+	          damus 
+	          in 
+	          mandatis, 
+	          ne 
+	          ali<lb xml:id="CV188_lb_102r_16" n="16"/>qua 
+	          fraus 
+	          per 
+	          vicium 
+	          scripto<lb xml:id="CV188_lb_102r_17" n="17"/>rum 
+	          in 
+	          hoc 
+	          edictum 
+	          adibeatur: 
+	          si 
+	          <lb xml:id="CV188_lb_102r_18" n="18"/>aliqua 
+	          fuerit 
+	          intentio, 
+	          nulla 
+	          alia 
+	          <lb xml:id="CV188_lb_102r_19" n="19"/>exemplaria 
+	          credatur 
+	          aut 
+	          sus<lb xml:id="CV188_lb_102r_20" n="20"/>cipiatur, 
+	          nisi 
+	          quod 
+	          per 
+	          manus 
+	          <lb xml:id="CV188_lb_102r_21" n="21"/>ansoald 
+	          notario 
+	          nostro 
+	          
+	        <!-- #######################################  folio 102v ####################################### -->                 
+				
+		<pb n="102v" xml:id="CV188_folio_102v"/>
+	          
+	          <lb xml:id="CV188_lb_102v_01" n="01"/>scriptum 
+	          aut 
+	          recognitum 
+	          seu 
+	          <lb xml:id="CV188_lb_102v_02" n="02"/>requisitum 
+	          fuerit, 
+	          qui 
+	          per 
+	          nos<lb xml:id="CV188_lb_102v_03" n="03"/>tram 
+	          iussionem 
+	          scripsit.
+	        </p>           
+	        
+	        
+	           
+            </div> <!--chiusura capitula-->
+        </body>
+        
+        
+        
+        
+        <back>
+            
+            <div type="biblCompleta">
+                <listBibl>
+
+                    <biblStruct type="book" xml:id="Azzara1992">
+                        <monogr>
+                            <title level="m">Le Leggi dei Longobardi: storia, memoria e diritto di un popolo
+                                germanico</title>
+                            <title type="short">Le Leggi dei Longobardi</title>
+                            <idno type="ISBN">88-86156-00-6 978-88-86156-00-4</idno>
+                            <author><forename>Claudio</forename><surname>Azzara</surname></author>
+                            <author><forename>Stefano</forename><surname>Gasparri</surname></author>
+                            <imprint>
+                                <pubPlace>Milano</pubPlace>
+                                <publisher>Editrice La Storia</publisher>
+                                <date>1992</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct type="book" xml:id="Azzara2005">
+                        <monogr>
+                            <title level="m">Le leggi dei Longobardi: storia, memoria e diritto di un popolo
+                                germanico</title>
+                            <title type="short">Le leggi dei Longobardi</title>
+                            <idno type="ISBN">88-8334-099-X</idno>
+                            <editor><forename>Claudio</forename><surname>Azzara</surname></editor>
+                            <editor><forename>Stefano</forename><surname>Gasparri</surname></editor>
+                            <edition>2. ed</edition>
+                            <imprint>
+                                <pubPlace>Roma</pubPlace>
+                                <publisher>Viella</publisher>
+                                <date>2005</date>
+                            </imprint>
+                        </monogr>
+                        <series><title level="s">Altomedioevo</title><biblScope unit="volume">4</biblScope></series>
+                    </biblStruct>
+
+                    <biblStruct type="book" xml:id="Beyerle1962a">
+                        <monogr>
+                            <title level="m">Leges langobardorum: 643-866</title>
+                            <title type="short">Leges langobardorum</title>
+                            <author><forename>Franz</forename><surname>Beyerle</surname></author>
+                            <imprint>
+                                <pubPlace>Witzenhausen</pubPlace>
+                                <publisher>Deutschrechtlicher Instituts-Verlag</publisher>
+                                <date>1962</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct type="book" xml:id="Beyerle1962c">
+                        <monogr>
+                            <title level="m">Edictus Rothari</title>
+                            <author><forename>Franz</forename><surname>Beyerle</surname></author>
+                            <imprint>
+                                <pubPlace>Witzenhausen</pubPlace>
+                                <publisher>Deutschrechtl. Inst.-Verl</publisher>
+                                <date>1962</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    
+                    <biblStruct type="book" xml:id="Bluhme1868">
+                        <monogr>
+                            <title level="m">[Leges Langobardorum]</title>
+                            <author><forename>Friedrich</forename><surname>Bluhme</surname></author>
+                            <author><forename>Alfred</forename><surname>Boretius</surname></author>
+                            <imprint>
+                                <pubPlace>Hannover</pubPlace>
+                                <publisher>Hahn</publisher>
+                                <date>1868</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                </listBibl>
+            </div>
+
+        </back>
+
+    </text>
+
+</TEI>
+
+
+       
