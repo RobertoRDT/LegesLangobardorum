@@ -1443,10 +1443,10 @@
           <mapping type="normalized">t</mapping>
         </char>
         
-        <char xml:id="bcomma">
-          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH COMMA ABOVE RIGHT"/>
-          <mapping subtype="composed" type="codepoint">U+0062 + U+0315</mapping>
-          <mapping type="diplomatic">b̕</mapping>
+        <char xml:id="bus">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH US ABOVE"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">&#61539;</mapping>
+          <mapping type="diplomatic"></mapping>
           <mapping type="normalized">b</mapping>
         </char>
         

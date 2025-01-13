@@ -17612,7 +17612,16 @@
           <w>nomerentur</w>
           <w>ut</w>
           <w>parens</w>
-          <add hand="scribe_1" place="above"><w>ppinti</w></add><!-- CHECK ·|· abbreviazione per id est? -->
+          <add hand="scribe_1" place="above">
+            <choice>
+              <abbr><am><g ref="#Itwodot"/></am></abbr><!-- CHECK need new g -->
+              <expan><w><ex>id</ex></w> <w><ex>est</ex></w></expan>
+            </choice>
+            <choice>
+              <abbr><w><g ref="#pbardes"/>pinqi</w></abbr>
+              <expan><w>p<ex>ro</ex>pinqui</w></expan>
+            </choice>
+          </add>
           <w>parenti</w>
           <lb n="20" xml:id="CE34-5_lb_077v_20"/>
           <w>

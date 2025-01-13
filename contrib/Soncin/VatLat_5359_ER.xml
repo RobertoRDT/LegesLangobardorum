@@ -1262,7 +1262,7 @@
       <body>
         
 <!-- ########## FOLIO 1r ########## -->
-          <pb n="1r" xml:id="VL5359_folio_01r"/>
+        <pb facs="https://digi.vatlib.it/iiifimage/MSS_Vat.lat.5359/Vat.lat.5359_0011_fa_0001r.jp2/full/full/0/default.jpg" n="1r" xml:id="VL5359_folio_01r"/>
               <fw type="fol" place="top-right">
                 <add hand="unknown">1</add>
               </fw>
@@ -1462,7 +1462,7 @@
             <w>hoc</w> 
             
 <!-- ########## FOLIO 1v ########## -->
-            <w>con<pb n="1v" xml:id="VL5359_folio_01v"/><lb xml:id="VL5359_lb_01v_1" n="1"/>siderantes</w> 
+            <w>con<pb facs="https://digi.vatlib.it/iiifimage/MSS_Vat.lat.5359/Vat.lat.5359_0013_fa_0001v.jp2/full/full/0/default.jpg" n="1v" xml:id="VL5359_folio_01v"/><lb xml:id="VL5359_lb_01v_1" n="1"/>siderantes</w> 
             <w><choice>
               <abbr>d<am><g ref="#imacr"/></am></abbr>
               <expan>d<ex>e</ex>i</expan>
@@ -1654,7 +1654,7 @@
             <w>fili<c>u</c>s</w>
 
 <!-- ##### FOLIO 2r ###### -->
-            <pb n="2r" xml:id="VL5359_folio_02r"/>
+            <pb facs="https://digi.vatlib.it/iiifimage/MSS_Vat.lat.5359/Vat.lat.5359_0015_fa_0002r.jp2/full/full/0/default.jpg" n="2r" xml:id="VL5359_folio_02r"/>
             
             <lb xml:id="VL5359_lb_02r_1" n="1"/>
             <persName ref="#Winigis"><w><c corresp="#v">u</c>inichis</w></persName> 
