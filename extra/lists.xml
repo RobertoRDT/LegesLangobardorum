@@ -69,6 +69,7 @@
             oppure: <idno type="URI" subtype="VIAF">http://viaf.org/viaf/7524651</idno>
           - nelle note mantenere i riferimenti a testi enciclopedici e simili, basta che siano human readable 
             (= Wikipedia sì, DBpedia no)
+          - inserire i <floruit> mancanti 
           
         -->
 
@@ -90,6 +91,7 @@
             <death>572</death>
             <floruit>560-572</floruit>
             <occupation>Rex Langobardorum 560-572</occupation>
+            <affiliation>Stirpe dei Gausi</affiliation>
             <note>Figlio di Audoino, re dei Longobardi, e di Rodelinda, salì al trono fra il 560 e il 565. V. la voce
               corrispondente sul <ref target="http://www.treccani.it/enciclopedia/re-dei-longobardi-alboino_(Dizionario-Biografico)"
                 >Dizionario Biografico degli italiani</ref> e su <ref target="http://dbpedia.org/resource/Alboin"
@@ -198,6 +200,7 @@
             <persName xml:lang="lng"></persName>
             <persName xml:lang="lat">Agilmund</persName>
             <sex>M</sex>
+            <floruit>IV-V secolo</floruit>
             <occupation>Rex Langobardorum.</occupation>
             <note>Primo re dei Longobardi.</note>
           </person>
@@ -207,24 +210,27 @@
             <persName xml:lang="lng"></persName>
             <persName xml:lang="lat">Gugincus</persName>
             <sex>M</sex>
-            <occupation></occupation>
-            <note>Nome della stirpe di Agilmund, primo re dei Longobardi.</note>
+            <note>Stirpe dei Guginghi, alla quale appartiene Agilmund, primo re dei Longobardi.</note>
           </person>
           
           <person xml:id="Laamisio">
             <persName xml:lang="ita">Lamissione</persName>
+            <persName xml:lang="ita">Lamissone</persName>
             <persName xml:lang="lng"></persName>
             <persName xml:lang="lat">Lamisio</persName>
             <sex>M</sex>
+            <floruit>V secolo</floruit>
             <occupation>Rex Langobardorum.</occupation>
             <note>Secondo re dei Longobardi.</note>
           </person>
           
           <person xml:id="Leth">
-            <persName xml:lang="ita">Leth</persName>
+            <persName xml:lang="ita">Lethu</persName>
+            <persName xml:lang="ita">Leti</persName>
             <persName xml:lang="lng"></persName>
             <persName xml:lang="lat">Leth</persName>
             <sex>M</sex>
+            <floruit>Prima metà del V secolo</floruit>
             <occupation>Rex Langobardorum.</occupation>
             <note>Terzo re dei Longobardi.</note>
           </person>
@@ -234,6 +240,7 @@
             <persName xml:lang="lng"></persName>
             <persName xml:lang="lat">Geldehoc</persName>
             <sex>M</sex>
+            <floruit>Seconda metà del V secolo</floruit>
             <occupation>Rex Langobardorum.</occupation>
             <note>Quarto re dei Longobardi, figlio di Leth.</note>
           </person>
@@ -243,6 +250,7 @@
             <persName xml:lang="lng"></persName>
             <persName xml:lang="lat">Godehoc</persName>
             <sex>M</sex>
+            <floruit>Seconda metà del V secolo</floruit>
             <occupation>Rex Langobardorum.</occupation>
             <note>Quinto re dei Longobardi, figlio di Geldehoc.</note>
           </person>
@@ -252,16 +260,17 @@
             <persName xml:lang="lng"></persName>
             <persName xml:lang="lat">Claffo</persName>
             <sex>M</sex>
+            <floruit>Fine del V secolo</floruit>
             <occupation>Rex Langobardorum.</occupation>
             <note>Sesto re dei Longobardi, figlio di Godehoc.</note>
           </person>
-
 
           <person xml:id="Tatto">
             <persName xml:lang="ita">Tatone</persName>
             <persName xml:lang="lng"></persName>
             <persName xml:lang="lat">Tato</persName>
             <sex>M</sex>
+            <floruit>500-510 ca.</floruit>
             <occupation>Rex Langobardorum.</occupation>
             <note>Settimo re dei Longobardi, figlio di Claffo.</note>
           </person>
@@ -271,6 +280,7 @@
             <persName xml:lang="lng"></persName>
             <persName xml:lang="lat">Wacho</persName>
             <sex>M</sex>
+           <floruit>510-540 ca.</floruit>
             <occupation>Rex Langobardorum.</occupation>
             <note>Ottavo re dei Longobardi, figlio di Winigis e nipote di Tato</note>
           </person>
@@ -290,16 +300,19 @@
             <persName xml:lang="lng"></persName>
             <persName xml:lang="lat"></persName>
             <sex>M</sex>
+            <floruit>540 ca.-547</floruit>
             <occupation>Rex Langobardorum.</occupation>
             <note>Nono re dei Longobardi.</note>
           </person>
-          
+
           <person xml:id="Audoin">
             <persName xml:lang="ita">Audoino</persName>
             <persName xml:lang="lng"></persName>
             <persName xml:lang="lat">Audoin</persName>
             <sex>M</sex>
+            <floruit>547-560 ca.</floruit>
             <occupation>Rex Langobardorum.</occupation>
+            <affiliation>Stirpe dei Gausi</affiliation>
             <note>Decimo re dei Longobardi.</note>
           </person>
           
@@ -317,6 +330,7 @@
             <persName xml:lang="lng"></persName>
             <persName xml:lang="lat">Clep</persName>
             <sex>M</sex>
+            <floruit>572-574</floruit>
             <occupation>Rex Langobardorum et Italiae 572-574.</occupation>
             <note>Dodicesimo re dei Longobardi.</note>
           </person>
@@ -335,12 +349,13 @@
             <persName xml:lang="lng"></persName>
             <persName xml:lang="lat">Autarich</persName>
             <sex>M</sex>
+            <floruit>584-590</floruit>
             <occupation>Rex Langobardorum et Italiae 584-590.</occupation>
             <note>Tredicesimo re dei Longobardi, figlio di Clefi, dodicesimo 
             re dei Longobardi.</note>
           </person>
           
-          <person xml:id="Aginulf">
+          <person xml:id="Aginulf"><!-- CHECK Agilulf? -->
             <persName xml:lang="ita">Agilulfo</persName>
             <persName xml:lang="lng"></persName>
             <persName xml:lang="lat">Agilluf</persName>
@@ -484,6 +499,7 @@
             <note></note>
           </person>
           
+<!--
           <person source="" xml:id="">
             <persName xml:lang="ita"></persName>
             <persName xml:lang="lng"></persName>
@@ -502,6 +518,7 @@
               e su <ref target="">DBpedia</ref>
             </note>
           </person>
+-->
 
         </listPerson>
 
@@ -820,12 +837,20 @@
             <desc>I Franchi furono uno dei popoli germanici occidentali che entrarono nel tardo Impero romano come
               federati e stabilirono un reame duraturo, in Gallia, da loro chiamata Francia, e in parte dell'attuale
               Germania.</desc>
+            <note>V. anche la voce corrispondente
+              sul <ref target="https://www.treccani.it/enciclopedia/franchi/">Enciclopedia Treccani</ref> 
+              e su <ref target="https://dbpedia.org/page/Franks">DBpedia</ref>
+            </note>
           </org>
 
           <org xml:id="Longobardi">
             <orgName type="gens">Longobardi</orgName>
             <desc>Popolazione germanica, già menzionata da Tacito e Strabone, che in seguito a un lungo percorso migratorio entra
               in Italia nel 568 sotto la guida di re Alboino e crea un proprio regno.</desc>
+            <note>V. anche la voce corrispondente
+              sul <ref target="https://www.treccani.it/enciclopedia/longobardi/">Enciclopedia Treccani</ref> 
+              e su <ref target="https://dbpedia.org/page/Lombards">DBpedia</ref>
+            </note>
           </org>
 
         </listOrg>
@@ -836,6 +861,14 @@
     
     <encodingDesc>
       <charDecl>
+        
+        <!-- TODO -->
+        
+        <!-- 
+          
+           - <localProp> per i glifi relativi a legature?
+          
+         -->
 
         <!-- regular letters -->
 
@@ -875,6 +908,13 @@
           <mapping type="diplomatic">Ϛ</mapping>
           <mapping type="normalized">VI</mapping>
         </char>
+        <!-- old version
+                <char xml:id="romnumsix">
+                    <unicodeProp name="Name" value="ROMAN NUMERAL SIX LATE FORM"/>
+                    <mapping subtype="MUFI-PUA" type="codepoint">U+EEFD</mapping>
+                    <mapping type="diplomatic">ↅ</mapping>
+                    <mapping type="normalized">ↅ</mapping>
+                </char>-->
 
         <char xml:id="amacr">
           <unicodeProp name="Name" value="LATIN SMALL LETTER A WITH MACRON"/>
@@ -907,12 +947,19 @@
           <mapping type="normalized">u</mapping>
         </char>
         <char xml:id="ymacr">
-          <!-- VBD entity: ytilde -->
           <unicodeProp name="Name" value="LATIN SMALL LETTER Y WITH MACRON"/>
           <mapping type="codepoint">U+0233</mapping>
           <mapping type="diplomatic">ȳ</mapping>
           <mapping type="normalized">y</mapping>
         </char>
+
+        <glyph xml:id="Eunc">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER E UNCIAL FORM"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F10A</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">E</mapping>
+        </glyph>
+
         <!-- Letter L ltailstrok -->
         <char xml:id="ltailstrok">
           <unicodeProp name="Name" value="LATIN SMALL LETTER LUM"/>
@@ -920,12 +967,40 @@
           <mapping type="diplomatic">ꝲ</mapping>
           <mapping type="normalized">l</mapping>
         </char>
-        <!-- ntilde -->
+
+        <glyph xml:id="munc">
+          <localProp name="Name" value="LATIN SMALL LETTER UNCIAL M"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F225</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">m</mapping>
+        </glyph>
+        
+        <glyph xml:id="Munc">
+          <localProp name="Name" value="LATIN CAPITAL LETTER UNCIAL M"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F11A</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">M</mapping>
+        </glyph>
+        
+        <glyph xml:id="muncmacr">
+          <localProp name="Name" value="LATIN SMALL LETTER UNCIAL M WITH MACRON"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F225 U+0304</mapping>
+          <mapping type="diplomatic">̄</mapping><!-- CHECK -->
+          <mapping type="normalized">m</mapping>
+        </glyph>
+        
         <char xml:id="ntilde">
           <unicodeProp name="Name" value="LATIN SMALL LETTER N WITH TILDE"/>
           <mapping type="codepoint">00F1</mapping>
           <mapping type="diplomatic">ñ</mapping>
           <mapping type="normalized">n</mapping>
+        </char>
+
+        <char xml:id="Ntilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER N WITH TILDE"/>
+          <mapping type="codepoint">U+00D1</mapping>
+          <mapping type="diplomatic">Ñ</mapping>
+          <mapping type="normalized">N</mapping>
         </char>
 
         <!-- aggiunto 2018-11-21 -->
@@ -944,12 +1019,26 @@
           <mapping type="normalized">ae</mapping>
         </char>
 
+        <char xml:id="penl">
+          <unicodeProp name="Name" value="LATIN ENLARGED LETTER SMALL P"/>
+          <mapping type="codepoint">U+EEF1</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="ptilde">
           <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH TILDE"/>
           <mapping subtype="composed" type="codepoint">U+0070 + U+0303</mapping>
           <mapping type="diplomatic">p̃</mapping>
           <mapping type="normalized">p</mapping>
+        </char>
+
+        <char xml:id="Ptilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER P WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0050 + U+0303</mapping>
+          <mapping type="diplomatic">P̃</mapping>
+          <mapping type="normalized">P</mapping>
         </char>
 
         <!-- aggiunto 2018-11-21 -->
@@ -960,7 +1049,13 @@
           <mapping type="normalized">q</mapping>
         </char>
 
-
+        <glyph xml:id="slong">
+          <localProp name="Name" value="LATIN SMALL LETTER LONG S"/>
+          <mapping type="codepoint">U+017F</mapping>
+          <mapping type="diplomatic">ſ</mapping>
+          <mapping type="normalized">s</mapping>
+        </glyph>
+        
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="nscapslonglig">
           <unicodeProp name="Name" value="LATIN SMALL LIGATURE SMALL CAPITAL N LONG S"/>
@@ -1017,6 +1112,12 @@
           <!--<mapping type="normalized">.</mapping>-->
         </char>
 
+        <char xml:id="us">
+          <unicodeProp name="Name" value="COMBINING US ABOVE"/>
+          <mapping type="codepoint">U+1DD2</mapping>
+          <mapping type="diplomatic"></mapping>
+        </char>
+
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="usmod">
           <unicodeProp name="Name" value="MODIFIER LETTER US"/>
@@ -1036,9 +1137,16 @@
         <!-- aggiunto 2018-12-05 -->
         <char xml:id="atilde">
           <unicodeProp name="Name" value="LATIN SMALL LETTER A WITH TILDE"/>
-          <mapping type="codepoint">00E3</mapping>
+          <mapping type="codepoint">U+00E3</mapping>
           <mapping type="diplomatic">ã</mapping>
           <mapping type="normalized">a</mapping>
+        </char>
+
+        <char xml:id="Atilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER A WITH TILDE"/>
+          <mapping type="codepoint">U+00C3</mapping>
+          <mapping type="diplomatic">Ã</mapping>
+          <mapping type="normalized">A</mapping>
         </char>
 
         <!-- aggiunto 2018-12-05 -->
@@ -1072,6 +1180,7 @@
           <mapping type="diplomatic">c̃</mapping>
           <mapping type="normalized">c</mapping>
         </char>
+
         <!-- aggiunto 2018-12-23 -->
         <char xml:id="otilde">
           <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH TILDE"/>
@@ -1083,14 +1192,27 @@
         <!-- aggiunto 2019-01-21 -->
         <char xml:id="rum">
           <unicodeProp name="Name" value="LATIN SMALL LETTER RUM ROTUNDA"/>
-          <mapping type="codepoint">A75D</mapping>
+          <mapping type="codepoint">U+A75D</mapping>
           <mapping type="diplomatic">ꝝ</mapping>
           <mapping type="normalized">rum</mapping>
         </char>
 
-        <!-- aggiunto 2019-01-21 -->
+        <char xml:id="rscaptailstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER RUM ROTUNDA"/><!-- CHECK Unicode name -->
+          <mapping type="codepoint">U+A776</mapping>
+          <mapping type="diplomatic">ꝶ</mapping>
+          <mapping type="normalized">rum</mapping>
+        </char>
+
         <char xml:id="rmacr">
-          <unicodeProp name="Name" value="Latin Small Letter R with Dot Below and Macron"/>
+          <unicodeProp name="Name" value="LATIN SMALL LETTER R WITH MACRON"/>
+          <mapping type="codepoint">U+F054</mapping>
+          <mapping type="diplomatic">r̄</mapping>
+          <mapping type="normalized">r</mapping>
+        </char>
+
+        <char xml:id="rmacrdotbl">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER R WITH DOT BELOW AND MACRON"/>
           <mapping type="codepoint">U+1E5D</mapping>
           <mapping type="diplomatic">ṝ</mapping>
           <mapping type="normalized">r</mapping>
@@ -1112,22 +1234,37 @@
           <mapping type="diplomatic">us</mapping>
           <mapping type="normalized">us</mapping>
         </glyph>
+
         <!-- aggiunto 2019-01-21 -->
+        <!-- CHECK non sembra esserci supporto nei font per questo carattere, v. etlig -->
+        <!-- https://www.fileformat.info/info/unicode/char/1f672/index.htm -->
         <char xml:id="openetlig">
           <unicodeProp name="Name" value="Ligature Open Et Ornament"/>
           <mapping type="codepoint">U+1F672</mapping>
           <mapping type="diplomatic">🙲</mapping>
+          <!--<mapping type="diplomatic">et</mapping>-->
           <mapping type="normalized">et</mapping>
         </char>
 
         <!-- aggiunto 2019-01-21 -->
+        <!-- CHECK non c'è supporto nei font MUFI per questo carattere, non sembra neanche quello appropriato -->
+        <!-- https://www.fileformat.info/info/unicode/char/1f670/index.htm -->
         <char xml:id="etlig">
           <unicodeProp name="Name" value="Script Ligature Et Ornament"/>
           <mapping type="codepoint">U+1F670</mapping>
           <mapping type="diplomatic">🙰</mapping>
+          <!--<mapping type="diplomatic">et</mapping>-->
           <mapping type="normalized">et</mapping>
         </char>
 
+        <!-- aggiunto 2024-10 --><!-- CHECK completamente custom per ora, v. CE34-5 f. 57r --> 
+        <glyph xml:id="eilig">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER P WITH TILDE"/>
+          <!--<mapping subtype="composed" type="codepoint">U+0050 + U+0303</mapping>-->
+          <mapping type="diplomatic">ei</mapping>
+          <mapping type="normalized">ei</mapping>
+        </glyph>
+        
         <!-- aggiunto 2019-01-21 -->
         <glyph xml:id="urlig">
           <unicodeProp name="Name" value="LATIN SMALL LIGATURE UR"/>
@@ -1184,12 +1321,26 @@
           <mapping type="normalized">ae</mapping>
         </char>
 
+        <glyph xml:id="cogon">
+          <localProp name="Name" value="LATIN SMALL LETTER C WITH OGONEK"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E476</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">c</mapping>
+        </glyph>
+
         <!-- aggiunto 2019-03-13 -->
         <char xml:id="xtilde">
           <unicodeProp name="Name" value="LATIN SMALL LETTER X WITH TILDE"/>
           <mapping subtype="composed" type="codepoint">U+0078 + U+0303</mapping>
           <mapping type="diplomatic">x̃</mapping>
           <mapping type="normalized">x</mapping>
+        </char>
+
+        <char xml:id="hstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER H WITH STROKE"/>
+          <mapping type="codepoint">U+0127</mapping>
+          <mapping type="diplomatic">ħ</mapping>
+          <mapping type="normalized">h</mapping>
         </char>
 
         <!-- aggiunto 2019-03-14 -->
@@ -1215,6 +1366,21 @@
           <mapping type="diplomatic">m̃</mapping>
           <mapping type="normalized">m</mapping>
         </char>
+
+        <char xml:id="tildevert">
+          <unicodeProp name="Name" value="VERTICAL TILDE"/>
+          <mapping type="codepoint">U+2E2F</mapping>
+          <mapping type="diplomatic">ⸯ</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+        
+        <char xml:id="combtildevert">
+          <unicodeProp name="Name" value="COMBINING VERTICAL TILDE"/>
+          <mapping type="codepoint">U+033E</mapping>
+          <mapping type="diplomatic">̾</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+
         <!-- aggiunto 2019-03-20 -->
         <char xml:id="ur">
           <unicodeProp name="Name" value="COMBINING UR ABOVE"/>
@@ -1222,6 +1388,25 @@
           <mapping type="diplomatic">᷑</mapping>
           <mapping type="normalized">ur</mapping>
         </char>
+
+        <char xml:id="combhook">
+          <unicodeProp name="Name" value="COMBINING HOOK ABOVE"/>
+          <mapping type="codepoint">U+0309</mapping>
+          <mapping type="diplomatic">̉</mapping>
+        </char>
+        
+        <char xml:id="combcurl">
+          <unicodeProp name="Name" value="COMBINING CURL HIGH POSITION"/>
+          <mapping type="codepoint">U+1DCE</mapping>
+          <mapping type="diplomatic">᷎</mapping>
+        </char>
+        
+        <char xml:id="combcurlhigh">
+          <unicodeProp name="Name" value="COMBINING CURL HIGH POSITION"/>
+          <mapping type="codepoint">U+F1C5</mapping>
+          <mapping type="diplomatic"></mapping>
+        </char>
+        
         <!-- aggiunto 2019-03-20 -->
         <char xml:id="semi">
           <unicodeProp name="Name" value="SEMICOLON"/>
@@ -1230,6 +1415,14 @@
           <mapping type="normalized">us</mapping>
         </char>
 
+        <!-- aggiunto 2020-01-14 -->
+        <char xml:id="bstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH STROKE"/>
+          <mapping type="codepoint">0180</mapping>
+          <mapping type="diplomatic">ƀ</mapping>
+          <mapping type="normalized">b</mapping>
+        </char>
+        
         <char xml:id="middot">
           <unicodeProp name="Name" value="MIDDLE DOT"/>
           <mapping type="codepoint">U+00B7</mapping>
@@ -1244,30 +1437,23 @@
           <!--<mapping type="normalized"></mapping>-->
         </char>
 
-        <char xml:id="Ptilde">
-          <unicodeProp name="Name" value="LATIN CAPIPTAL LETTER P WITH TILDE"/>
-          <mapping subtype="composed" type="codepoint">U+0050 + U+0303</mapping>
-          <mapping type="diplomatic">P̃</mapping>
-          <mapping type="normalized">P</mapping>
-        </char>
-        
         <!-- ##### aggiunto da FS in data 2024-04-13 ##### -->
         <glyph xml:id="ctlig">
-          <glyphName>LATIN SMALL LIGATURE CT</glyphName>
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE CT"/>
           <mapping type="ligature">U+0063 + U+0074</mapping>
           <mapping type="diplomatic">ct</mapping>
           <mapping type="normalized">ct</mapping>
         </glyph>
         
         <glyph xml:id="stlig">
-          <glyphName>LATIN SMALL LIGATURE ST</glyphName>
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE ST"/>
           <mapping type="ligature">U+0073 + U+0074</mapping>
           <mapping type="diplomatic">st</mapping>
           <mapping type="normalized">st</mapping>
         </glyph>
         
         <glyph xml:id="aelig">
-          <glyphName>LATIN SMALL LIGATURE AE</glyphName>
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE AE"/>
           <mapping type="ligature">U+0061 + U+0065</mapping>
           <mapping type="diplomatic">æ</mapping>
           <mapping type="normalized">ae</mapping>
@@ -1302,14 +1488,14 @@
         </char>
         
         <glyph xml:id="filig">
-          <glyphName>LATIN SMALL LIGATURE FI</glyphName>
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE FI"/>
           <mapping type="ligature">U+0066 + U+0069</mapping>
-          <mapping type="diplomatic">fi</mapping>
+          <mapping type="diplomatic">fi</mapping><!-- CHECK esiste? -->
           <mapping type="normalized">fi</mapping>
         </glyph>
         
         <glyph xml:id="exlig">
-          <glyphName>LATIN SMALL LIGATURE EX</glyphName>
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE EX"/>
           <mapping type="ligature">U+0065 + U+0078</mapping>
           <mapping type="diplomatic">ex</mapping>
           <mapping type="normalized">ex</mapping>
@@ -1348,13 +1534,6 @@
           <mapping subtype="composed" type="codepoint">U+006C + U+0304</mapping>
           <mapping type="diplomatic">l̄</mapping>
           <mapping type="normalized">l</mapping>
-        </char>
-        
-        <char xml:id="Ntilde">
-          <unicodeProp name="Name" value="LATIN CAPITAL LETTER N WITH TILDE"/>
-          <mapping subtype="composed" type="codepoint">U+00D1</mapping>
-          <mapping type="diplomatic">Ñ</mapping>
-          <mapping type="normalized">N</mapping>
         </char>
         
         <char xml:id="racute">
@@ -1400,7 +1579,7 @@
         </char>
         
         <glyph xml:id="orlig">
-          <glyphName>LATIN SMALL LIGATURE OR</glyphName>
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE OR"/>
           <mapping type="ligature">U+006F + U+0280</mapping>
           <mapping type="diplomatic">oʀ</mapping>
           <mapping type="normalized">or</mapping>
@@ -1433,7 +1612,8 @@
           <mapping type="diplomatic">c̄</mapping>
           <mapping type="normalized">c</mapping>
         </char>
-<!-- AGGIUNTI DA FABIO SONCIN PER BSL3519 
+
+        <!-- AGGIUNTI DA FABIO SONCIN PER BSL3519 
         i glifi qui codificati indicano lettere cui un'altra lettera o segno è posto 
         sopra la lettera principale-->        
         <char xml:id="tverticaltilde">
@@ -1443,6 +1623,13 @@
           <mapping type="normalized">t</mapping>
         </char>
         
+        <char xml:id="bus">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH US ABOVE"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">&#61539;</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">b</mapping>
+        </char>
+
         <char xml:id="bcomma">
           <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH COMMA ABOVE RIGHT"/>
           <mapping subtype="composed" type="codepoint">U+0062 + U+0315</mapping>
@@ -1472,54 +1659,71 @@
         </char>
         
         <glyph xml:id="qbardesa">
-          <glyphName>LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER AND 
-            SMALL LATIN LETTER A ABOVE </glyphName>
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER AND 
+            SMALL LATIN LETTER A ABOVE"/>
           <mapping type="ligature">U+A757 + U+0363</mapping>
-          <mapping type="diplomatic">ꝗͣ </mapping>
+          <mapping type="diplomatic">ꝗͣ</mapping>
           <mapping type="normalized">q</mapping>
         </glyph>
         
         <glyph xml:id="qiabove">
-          <glyphName>LATIN SMALL LETTER Q WITH SMALL LATIN LETTER I ABOVE </glyphName>
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH SMALL LATIN LETTER I ABOVE"/>
           <mapping type="ligature">U+0071 + U+0365</mapping>
           <mapping type="diplomatic">qͥ</mapping>
           <mapping type="normalized">q</mapping>
         </glyph>
         
         <glyph xml:id="giabove">
-          <glyphName>LATIN SMALL LETTER G WITH SMALL LATIN LETTER I ABOVE </glyphName>
+          <unicodeProp name="Name" value="LATIN SMALL LETTER G WITH SMALL LATIN LETTER I ABOVE"/>
           <mapping type="ligature">U+0067 + U+0365</mapping>
           <mapping type="diplomatic">gͥ</mapping>
           <mapping type="normalized">g</mapping>
         </glyph>
         
         <glyph xml:id="xrevstop">
-          <glyphName>LATIN SMALL LETTER X WITH REVERS GLOTTAL STOP ABOVE </glyphName>
+          <unicodeProp name="Name" value="LATIN SMALL LETTER X WITH REVERS GLOTTAL STOP ABOVE"/>
           <mapping type="ligature">U+0078 + U+02C1</mapping>
           <mapping type="diplomatic">xˁ</mapping>
           <mapping type="normalized">x</mapping>
         </glyph>
         
         <glyph xml:id="maabove">
-          <glyphName>LATIN SMALL LETTER M WITH SMALL LATIN LETTER A ABOVE </glyphName>
+          <unicodeProp name="Name" value="LATIN SMALL LETTER M WITH SMALL LATIN LETTER A ABOVE"/>
           <mapping type="ligature">U+006D + U+0363</mapping>
           <mapping type="diplomatic">mͣ</mapping>
           <mapping type="normalized">m</mapping>
         </glyph>
         
         <glyph xml:id="caabove">
-          <glyphName>LATIN SMALL LETTER C WITH SMALL LATIN LETTER A ABOVE </glyphName>
+          <unicodeProp name="Name" value="LATIN SMALL LETTER C WITH SMALL LATIN LETTER A ABOVE"/>
           <mapping type="ligature">U+0063 + U+0363</mapping>
           <mapping type="diplomatic">cͣ</mapping>
           <mapping type="normalized">c</mapping>
         </glyph>
         
         <glyph xml:id="scomma">
-          <glyphName>LATIN SMALL LETTER S WITH COMMA ABOVE RIGHT</glyphName>
+          <unicodeProp name="Name" value="LATIN SMALL LETTER S WITH COMMA ABOVE RIGHT"/>
           <mapping type="ligature">U+ 0073 + U+0315</mapping>
           <mapping type="diplomatic">s̕</mapping>
           <mapping type="normalized">s</mapping>
         </glyph>
+
+        <!-- BREVIGRAFI CE34-5. CHECK: add normalized mapping? -->
+        
+        <char xml:id="Itwodot">
+          <localProp name="Name" value="LATIN CAPITAL LETTER I WITH TWO MIDDLE DOTS"/>
+          <mapping type="diplomatic">·I·</mapping>
+        </char>
+        
+        <char xml:id="slongdot">
+          <localProp name="Name" value="LATIN SMALL LETTER LONG S WITH MIDDLE DOT"/>
+          <mapping type="diplomatic">ſ·</mapping>
+        </char>
+        
+        <char xml:id="slongtwodot">
+          <localProp name="Name" value="LATIN SMALL LETTER LONG S WITH TWO MIDDLE DOTS"/>
+          <mapping type="diplomatic">·ſ·</mapping>
+        </char>
 
       </charDecl>
     </encodingDesc>
