@@ -1481,6 +1481,20 @@
           <mapping type="normalized">m</mapping>
         </char>
         
+        <char xml:id="mmacrmed">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER M WITH MEDIUM-HIGH MACRON"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E5B8</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">m</mapping>
+        </char>
+        
+        <char xml:id="Mmacrhigh">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER M WITH HIGH MACRON (ABOVE CHARACTER)"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E1B8</mapping>
+          <mapping type="diplomatic">M̄</mapping>
+          <mapping type="normalized">M</mapping>
+        </char>
+
         <char xml:id="tmacr">
           <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH MACRON"/>
           <mapping subtype="composed" type="codepoint">U+0074 + U+00AF</mapping>
