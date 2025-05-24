@@ -73,7 +73,7 @@
       <!--TODO -->
       <!--
 
-      + usare <listBibl> e <bibl> invece di <note type="biblio"> e <ref>? NO <ref> più appropriati SI usare <bibl>
+      + usare <listBibl> e <bibl> invece di <note type="biblio"> e <ref>? SI usare <listBibl> con dei <bibl>
         con dentro i <ref>
       + perché non si può avere <listBibl> in <entry>? ADESSO SI PUO' MA NON SERVE PER DEI <ref>
       - usare <mentioned> invece di <w> per i termini citati in <etym> come suggerito dalle Guidelines? 
@@ -241,11 +241,18 @@
 
         <!-- ######## Bibliografia ######## -->
 
-        <note type="biblio">
-          <ref target="#Onesti2000">Francovich Onesti 2000, pp. 54-5.</ref>
-          <ref target="#PrinciBraccini1994">Princi Braccini 1994, pp. 76-8.</ref>
-          <ref target="#Molinari1989">Molinari 1989, pp. 233-4.</ref>
-        </note>
+          <!--<bibl>
+            <ref target="#Onesti2000">Francovich Onesti 2000, pp. 54-5.</ref>
+            <ref target="#PrinciBraccini1994">Princi Braccini 1994, pp. 76-8.</ref>
+            <ref target="#Molinari1989">Molinari 1989, pp. 233-4.</ref>
+          </bibl>-->
+        
+          <listBibl>
+            <bibl><ref target="#Onesti2000">Francovich Onesti 2000</ref>, pp. 54-5.</bibl>
+            <bibl><ref target="#PrinciBraccini1994">Princi Braccini 1994</ref>, pp. 76-8.</bibl>
+            <bibl><ref target="#Molinari1989">Molinari 1989</ref>, pp. 233-4.</bibl>
+          </listBibl>
+
       </entry>
 
       <!-- ############################### -->
