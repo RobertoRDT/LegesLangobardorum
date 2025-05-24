@@ -173,7 +173,7 @@
         <form type="inflected">
           <orth>astalin</orth>
           <gramGrp>
-            <case value="nominative"/>
+            <case value="accusative"/>
             <number value="singular">sing</number>
           </gramGrp>
           <cit type="main">
@@ -192,6 +192,13 @@
           </cit>
         </form>
 
+        <!-- ######## Le occorrenze e le relative glosse in altri testi (??? vedi template) ######## -->
+        
+        <cit>
+          <quote>Astalin. Id <ex>est</ex> decipere</quote>
+          <ref>Gloss. Matr.</ref>
+        </cit>
+        
         <!-- ######## Le forme grafiche alternative ######## -->
 
         <!-- Per ogni testimone di cui abbiamo la trascrizione il ref contiene un target -->
@@ -208,21 +215,49 @@
 
         <!-- ######## Il significato o i significati del termine ######## -->
 
-        <sense n="1">
+        <sense>
           <def>Tradimento, fuga o abbandono dei compagni in battaglia.</def>
+
+          <!-- ######## Testo di commento/spiegazione relativa al termine ######## -->
+
+          Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa corrispondente.
+          
+          <seg type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
+            nella glossa corrispondente.</seg>
+
+          <gloss type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
+            nella glossa corrispondente.</gloss>
+          
+          <sense>Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
+            corrispondente (Francovich Onesti).</sense>
+          
+          <sense value="desc">Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
+            corrispondente (Francovich Onesti).</sense>
+
         </sense>
-
-        <!-- ######## Le occorrenze e le relative glosse in altri testi (??? vedi template) ######## -->
-
-        <cit>
-          <quote>Astalin. Id <ex>est</ex> decipere</quote>
-          <ref>Gloss. Matr.</ref>
-        </cit>
+        
+        <!-- ######## In caso di più <sense> (n="1", n="2" etc.) con <def> al loro interno: ######## -->
+        
+        <sense>Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
+          corrispondente (Francovich Onesti).</sense>
+        
+        <sense value="desc">Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
+          corrispondente (Francovich Onesti).</sense>
+        
+        <sense>
+          
+          <seg type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
+            nella glossa corrispondente.</seg>
+          
+          <gloss type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
+            nella glossa corrispondente.</gloss>
+          
+        </sense>
 
         <!-- ######## Una nota di commento/spiegazione relativa al termine ######## -->
 
-        <note type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
-          nella glossa corrispondente.</note>
+        <!-- <note type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
+          nella glossa corrispondente.</note>-->
 
         <!-- ######## Note etimologiche ######## --> 
         <!-- Oltre al testo narrativo possono essere definite più precisamente altre forme con sotto-<etym>
