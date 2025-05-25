@@ -75,11 +75,12 @@
 
       + usare <listBibl> e <bibl> invece di <note type="biblio"> e <ref>? SI usare <listBibl> con dei <bibl>
         con dentro i <ref>
-      + perché non si può avere <listBibl> in <entry>? ADESSO SI PUO' MA NON SERVE PER DEI <ref>
-      - usare <mentioned> invece di <w> per i termini citati in <etym> come suggerito dalle Guidelines? 
-        secondo Bowers e Romary 2016 non una buona soluzione, invece di <cit> etc. però perché non <w>?
-        Inizialmente: SI <mentioned> NO <w> per omogeneità con il resto della codifica, ma <mentioned> non ha @lemmaRef!
-        se si usa <w> come avere il contenuto in corsivo all'interno di <etym?> stile CSS?
+      + perché non si può avere <listBibl> in <entry>? ADESSO SI PUO'
+      + usare <mentioned> invece di <w> per i termini citati in <etym> come suggerito dalle Guidelines? 
+         secondo Bowers e Romary 2016 non una buona soluzione, invece di <cit> etc. però perché non <w>?
+         Inizialmente: SI <mentioned> NO <w> per omogeneità con il resto della codifica, ma <mentioned> non ha @lemmaRef!
+         se si usa <w> come avere il contenuto in corsivo all'interno di <etym?> stile CSS?
+         FINAL: usare <w> dentro <mentioned> quando necessario
       - rivedere tutto alla luce della struttura aggiornata
       - valutare utilità elemento <xr>
       - invece dei link a un manoscritto servono link a ed. critica
@@ -124,7 +125,6 @@
         <form type="lemma">
           <orth>astalin</orth>
         </form>
-        <gramGrp>
 
           <!-- Per le informazioni grammaticali varie forme possibili:
             
@@ -136,24 +136,35 @@
             sconsigliata l'ultima se si desidera avere la possibilità di localizzare il glossario: con value="noun"
             abbiamo sempre la possibilità di tradurre l'output in più lingue.
           -->          
-          <pos value="noun">n</pos>
-          <gen value="feminine">f</gen>
-          <iType type="theme">-i</iType> <!-- oppure <iType type="theme" value="-i"></iType> -->
-        </gramGrp>
 
-        <!-- ######## Le occorrenze del termine nel testo critico: per prima cosa la forma del lemma ######## -->
+        <!--<gramGrp>
+         <pos value="noun">n</pos>
+          <gen value="feminine">f</gen>
+          <iType type="theme">-i</iType> oppure <iType type="theme" value="-i"></iType>
+        </gramGrp> -->
+
+        <gramGrp>
+          <pos value="noun"/>
+          <gen value="feminine"/>
+          <iType type="theme" value="-i"/>
+        </gramGrp>
+        
+        <!-- ######## Le occorrenze del termine nel testo critico ######## -->
+        
+        <!-- La forma del lemma -->
 
         <form>
           <orth>astalin</orth>
           <gramGrp>
             <case value="nominative"/>
-            <number value="singular">sing</number>
+            <number value="singular"/>
           </gramGrp>
-          <cit type="main">
+          <cit type="lemma">
             <!-- Riferimento a <term> nel testo critico (<term> e <gloss> impiegati nel testo critico -->
+            <!-- Marcare nel testo anche term e gloss? -->
             <quote>Si quis contra inimicús pugnando collegam suum dimiserit aut astalin fecerit, id est si eum diceperit
-              et cum eum non laboraverit, animae suae incurrat periculum.</quote>
-            <!-- Nella versione finale target punta al testo critico  -->
+              et cum eum non laboraverit, animae suae incurrat periculum.</quote><!-- NB in realtà è un accusativo, cercare es. al nominativo  -->
+            <!-- Nella versione finale target punta al testo critico, ovviamente a una forma al nominativo  -->
             <ref target="#CV188_p_019v_7">ER 7</ref>
           </cit>
           <!-- 
@@ -167,16 +178,17 @@
           </cit>
         </form>
         
-        <!-- ######## Le occorrenze del termine nel testo critico: le forme flesse ######## -->
+        <!-- Le forme flesse -->
         
         <!-- Da cambiare con forma flessa se esiste -->
         <form type="inflected">
           <orth>astalin</orth>
           <gramGrp>
             <case value="accusative"/>
-            <number value="singular">sing</number>
+            <number value="singular"/>
           </gramGrp>
           <cit type="main">
+            <!-- Nella versione finale target punta al testo critico, ovviamente a una forma al nominativo  -->
             <!-- Marcare nel testo anche term e gloss? -->
             <quote>Si quis contra inimicús pugnando collegam suum dimiserit aut astalin fecerit, id est si eum diceperit
               et cum eum non laboraverit, animae suae incurrat periculum.</quote>
@@ -192,9 +204,9 @@
           </cit>
         </form>
 
-        <!-- ######## Le occorrenze e le relative glosse in altri testi (??? vedi template) ######## -->
+        <!-- Le occorrenze e le relative glosse in altri testi (??? vedi template) -->
         
-        <cit>
+        <cit type="other">
           <quote>Astalin. Id <ex>est</ex> decipere</quote>
           <ref>Gloss. Matr.</ref>
         </cit>
@@ -218,9 +230,11 @@
         <sense>
           <def>Tradimento, fuga o abbandono dei compagni in battaglia.</def>
 
-          <!-- ######## Testo di commento/spiegazione relativa al termine ######## -->
+          <!-- Testo di commento/spiegazione relativa al termine -->
 
           Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa corrispondente.
+          
+          <!-- Soluzioni scartate: 
           
           <seg type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
             nella glossa corrispondente.</seg>
@@ -233,14 +247,18 @@
           
           <sense value="desc">Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
             corrispondente (Francovich Onesti).</sense>
+            
+           -->
 
         </sense>
         
-        <!-- ######## In caso di più <sense> (n="1", n="2" etc.) con <def> al loro interno: ######## -->
+        <!-- In caso di più <sense> (n="1", n="2" etc.) con <def> al loro interno: -->
         
         <sense>Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
           corrispondente (Francovich Onesti).</sense>
         
+        <!-- Soluzioni scartate: 
+
         <sense value="desc">Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
           corrispondente (Francovich Onesti).</sense>
         
@@ -253,34 +271,62 @@
             nella glossa corrispondente.</gloss>
           
         </sense>
+        
+        -->
 
-        <!-- ######## Una nota di commento/spiegazione relativa al termine ######## -->
+        <!-- Una nota di commento/spiegazione relativa al termine -->
 
-        <!-- <note type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
-          nella glossa corrispondente.</note>-->
+        <!-- Non usare <note> perché aprirebbe note pop-up
+          
+          <note type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
+          nella glossa corrispondente.</note>
+        
+        -->
+        
+        <!-- cross-reference interna al glossario -->
+        <xr type="see">V. <ref target="#xxxx">xxxx</ref></xr>
+        
 
-        <!-- ######## Note etimologiche ######## --> 
+        <!-- ######## Note etimologiche e linguistiche ######## -->
+
         <!-- Oltre al testo narrativo possono essere definite più precisamente altre forme con sotto-<etym>
           (vedi articolo sulla codifica delle informazioni etimologiche) -->
 
-        <etym>Formazione deverbale basata sul prefisso <m>a-</m>, <m>an-</m> unito alla radice del verbo
-          <mentioned>*staljan</mentioned>
-          <def>sottrarsi, sfuggire</def> (cfr. ia. <mentioned>stelan</mentioned>
+        <etym>
+          Formazione deverbale basata sul prefisso <m>a-</m>, <m>an-</m> unito alla radice del verbo
+          <mentioned>*staljan</mentioned> <def>sottrarsi, sfuggire</def> (cfr. <lang>ia.</lang>
+          <mentioned><w lemmaRef="https://bosworthtoller.com/2350">a-stælan</w></mentioned> <def>insinuarsi,
+            sedurre</def> e <mentioned><w lemmaRef="https://bosworthtoller.com/28857">stelan</w></mentioned>
           <def>sottrarsi</def>), con suffisso <m>-ini-</m> tipico dei sostantivi femminili.
+          <!-- cross-reference interna al glossario -->
+          <xr type="etym">Etimologicamente connesso con <ref target="#yyyy">yyyy</ref>, ma anche
+          <!-- link a risorsa esterna con lemmaRef -->
+            <mentioned><w lemmaRef="https://bosworthtoller.com/28857">stelan</w></mentioned>
+          </xr>
         </etym>
 
         <!-- ######## Eventuali forme collegate ######## -->
         
-        <re></re>     <!-- all'interno del glossario --> <!-- NOPE -->
-        <ref></ref>   <!-- in altri testi -->
+        <!-- <re></re>    all'interno del glossario --> <!-- NOPE vedi sopra alla fine di <sense> -->
+        <!-- <ref></ref>  in altri testi -->
 
         <!-- ######## Bibliografia ######## -->
 
-          <!--<bibl>
+          <!-- Soluzioni scartate:
+            
+         <note type="biblio">
             <ref target="#Onesti2000">Francovich Onesti 2000, pp. 54-5.</ref>
             <ref target="#PrinciBraccini1994">Princi Braccini 1994, pp. 76-8.</ref>
             <ref target="#Molinari1989">Molinari 1989, pp. 233-4.</ref>
-          </bibl>-->
+        </note>
+
+          <bibl>
+            <ref target="#Onesti2000">Francovich Onesti 2000, pp. 54-5.</ref>
+            <ref target="#PrinciBraccini1994">Princi Braccini 1994, pp. 76-8.</ref>
+            <ref target="#Molinari1989">Molinari 1989, pp. 233-4.</ref>
+          </bibl>
+          
+          -->
         
           <listBibl>
             <bibl><ref target="#Onesti2000">Francovich Onesti 2000</ref>, pp. 54-5.</bibl>
