@@ -123,6 +123,7 @@
         <!-- ########  Il lemma  ######## -->
         
         <form type="lemma">
+          <!-- in caso di forme regolarizzate alternative indicare con type="main" quella accettata per il glossario (normalmente coincide con l'xml:id comunque) -->
           <orth>astalin</orth>
         </form>
 
@@ -148,6 +149,14 @@
           <gen value="feminine"/>
           <iType type="theme" value="-i"/>
         </gramGrp>
+        
+        <!-- vecchia soluzione di codifica, ma codifica comunque valida: supportare???
+        <gramGrp>
+          <gram type="pos">noun</gram>
+          <gram type="gen">neuter</gram>
+          <gram type="theme">-a</gram>
+        </gramGrp>
+        -->
         
         <!-- ######## Le occorrenze del termine nel testo critico ######## -->
         
@@ -342,16 +351,15 @@
       
       <entry xml:id="andegauuerc">
         <form type="lemma">
-          <orth type="main" resp="#Onesti">andegauuerc</orth><!-- in caso di forme regolarizzate alternative indicare 
-            con type="main" quella accettata per il glossario (normalmente coincide con l'xml:id comunque) -->
+          <!-- in caso di forme regolarizzate alternative indicare con type="main" quella accettata per il glossario (normalmente coincide con l'xml:id comunque) -->
+          <orth type="main" resp="#Onesti">andegauuerc</orth>
           <orth resp="#Azzara2005">handegawerc</orth>
         </form>
 
         <gramGrp>
-          <!-- vecchia soluzione di codifica, ma codifica comunque valida: supportare??? -->
-          <gram type="pos">noun</gram>
-          <gram type="gen">neuter</gram>
-          <gram type="theme">-a</gram>
+           <pos value="noun"/>
+          <gen value="neuter"/>
+          <iType type="theme" value="-a"/>
         </gramGrp>
 
         <cit type="main">
@@ -373,9 +381,8 @@
 
         <sense>
           <def>Manufatti e attrezzi che passano in eredità.</def>
+          Probabilmente un’espressione desueta già nell’ER.
         </sense>
-
-        <note>Probabilmente un’espressione desueta già nell’ER.</note>
 
         <etym>Composto in cui il primo elemento è chiaramente gc. <mentioned>*handu-</mentioned>
           <def>mano</def> e il secondo gc. <mentioned>*werka</mentioned>
@@ -385,12 +392,12 @@
             lascito in armi e corazze</def>.
         </etym>
 
-        <re corresp="#ande">ande-</re>
+        <xr type="see"><ref target="#ande">ande-</ref></xr>
 
-        <note type="biblio">
-          <ref target="#Bruckner1895">Bruckner 1895, pp. 123, 202</ref>
-          <ref target="#Feist1939">Feist 1939, p. 41</ref>
-        </note>
+        <listBibl>
+          <bibl><ref target="#Bruckner1895">Bruckner 1895</ref>, pp. 123, 202</bibl>
+          <bibl><ref target="#Feist1939">Feist 1939</ref>, p. 41</bibl>
+        </listBibl>
       </entry>
 
       <!-- ############################### -->
@@ -404,10 +411,10 @@
         </form>
 
         <gramGrp>
-          <pos value="noun">noun</pos>
-          <gen value="neuter">n</gen>
-          <number value="singular">sing</number>
-          <gram type="theme">-ja</gram>
+          <pos value="noun"/>
+          <gen value="neuter"/>
+          <!--<number value="singular"/>-->
+          <iType type="theme" value="-ja"/>
         </gramGrp>
         
         <cit type="main">
@@ -430,34 +437,34 @@
           <orth>angar a thungi <ref>MS 12</ref></orth>
         </form>
         
-        <sense n="1">
-          <def>Valore dell'uomo libero secondo i possedimenti di terra; rango sociale di una persona.</def>
-        </sense>
+          <sense>
+            <def>Valore dell'uomo libero secondo i possedimenti di terra; rango sociale di una persona.</def> Ricorre
+            sempre nell'espressione <mentioned>in angargathungi</mentioned> che fa pensare a una formula preesistente in
+            cui fosse già presente <mentioned>in</mentioned>. </sense>
         
         <cit>
           <quote>Inangargathungin. Id est secundum arbitrium regis sicut appretiatur fuerit.</quote>
           <ref>Gloss. Matr.</ref>
         </cit>
         
-        <note type="comment">Ricorre sempre nell'espressione <quote>in
-          angargathungi</quote><!-- usare quote per i termini menzionati nel testo? O mentioned? --> che fa pensare a
+        <note type="comment">Ricorre sempre nell'espressione <mentioned>in
+          angargathungi</mentioned> che fa pensare a
           una formula preesistente in cui fosse già presente <mentioned>in</mentioned>.</note>
         
-        <etym>
-          Il termine risulta composto da gc. <mentioned>*angra-</mentioned>
-          <def>terra non arata, prato, pascolo</def> e gc. <mentioned>*ga-þungja-</mentioned>
-          <def>crescita, prosperità, ricchezza</def>.
-        </etym>
+          <etym>
+            Il termine risulta composto da gc. <mentioned>*angra-</mentioned>
+            <def>terra non arata, prato, pascolo</def> e gc. <mentioned>*ga-þungja-</mentioned>
+            <def>crescita, prosperità, ricchezza</def>.
+          </etym>
         
-        <re corresp="#angar">angar-</re>
-        <ref></ref>
+        <xr type="see"><ref target="#angar">angar-</ref></xr>
         
-        <note type="biblio">
-          <ref target="#Azzara-Gasparri1992">Azzara-Gasparri 1992, p. 108</ref>
-          <ref target="#Molinari1995">Molinari 1995, p. 8</ref>
-          <ref target="#Scardigli1977">Scardigli 1977, p. 342</ref>
-          <ref target="#VdR1970">VdR 1970, pp. 20-31</ref>
-        </note>
+        <listBibl>
+          <bibl><ref target="#Azzara-Gasparri1992">Azzara-Gasparri 1992</ref>, p. 108</bibl>
+          <bibl><ref target="#Molinari1995">Molinari 1995</ref>, p. 8</bibl>
+          <bibl><ref target="#Scardigli1977">Scardigli 1977</ref>, p. 342</bibl>
+          <bibl><ref target="#VdR1970">VdR 1970</ref>, pp. 20-31</bibl>
+        </listBibl>
       </entry>
       
       <!-- ########################### -->
@@ -493,6 +500,12 @@
 
         <sense>
           <def>dono matrimoniale del marito alla moglie</def>
+          Con <mentioned>morgingab</mentioned> si indica il dono matrimoniale versato dal marito alla
+          moglie la mattina successiva alla prima notte di nozze. Si tratta di un termine già presente
+          nell'<title>Editto di Rotari</title>, quindi di origini antiche come testimoniato anche dalle equivalenze in
+          altre lingue germaniche, che entra nel lessico giuridico dove viene ulteriormente sviluppato nelle estensioni
+          successive a Rotari e anzi gode di notevole successo venendo utilizzato fino al XII secolo, ben oltre la fine
+          del regno dei Longobardi in Italia (v. <ref>Francovich Onesti, pp. 105-106</ref>).
         </sense>
         
         <cit type="cit_section">
@@ -507,32 +520,22 @@
           </cit>
         </cit>
         
-        <sense value="desc">Con <mentioned>morgingab</mentioned> si indica il dono matrimoniale versato dal marito alla
-          moglie la mattina successiva alla prima notte di nozze. Si tratta di un termine già presente
-            nell'<title>Editto di Rotari</title>, quindi di origini antiche come testimoniato anche dalle equivalenze in
-          altre lingue germaniche, che entra nel lessico giuridico dove viene ulteriormente sviluppato nelle estensioni
-          successive a Rotari e anzi gode di notevole successo venendo utilizzato fino al XII secolo, ben oltre la fine
-          del regno dei Longobardi in Italia (v. <ref>Francovich Onesti, pp. 105-106</ref>).</sense>
-        
         <etym>
           Termine attestato in altre lingue germaniche, cfr. ad esempio 
           <lang>ia.</lang> <mentioned>morgengifu</mentioned>, <lang>ata.</lang> <mentioned>morgangaba</mentioned>, <lang>alam.</lang>
           <mentioned>morgangepa</mentioned>. Composto formato da <xr>morgin</xr> (&lt; <lang>gc.</lang>
-          <mentioned>*murgana-</mentioned>, cfr. ; &lt; <lang>ie.</lang> <mentioned>*merk-</mentioned>, forse da una radice
+          <mentioned>*murgana-</mentioned>, &lt; <lang>ie.</lang> <mentioned>*merk-</mentioned>, forse da una radice
           <mentioned>*mer-</mentioned> <def>luccicare, brillare</def>) e <xr>gab</xr> (&lt; <lang>gc.</lang>
           <mentioned>*gebō-</mentioned>, cfr. <lang>ia.</lang> <mentioned>giefu</mentioned>, <lang>sass.</lang>
           <mentioned>geba</mentioned>, <mentioned>giba</mentioned>, <lang>ata.</lang> <mentioned>geba</mentioned> &lt; <lang>gc.</lang>
           <mentioned>*geban-</mentioned> <def>dare</def>).
         </etym>
         
-        <re></re>
-        <ref></ref>
-        
-        <note type="biblio">
-          <ref target="#"></ref>
-          <ref target="#"></ref>
-          <ref target="#"></ref>
-        </note>
+        <listBibl>
+          <bibl><ref target="#"></ref></bibl>
+          <bibl><ref target="#"></ref></bibl>
+          <bibl><ref target="#"></ref></bibl>
+        </listBibl>
       </entry>
       
       <!-- ########################### -->
@@ -543,16 +546,12 @@
         <form type="lemma">
           <orth></orth>
         </form>
+
         <gramGrp>
-          
-          <!-- Per le informazioni grammaticali da decidere tra questa forma e 
-            <pos value="noun">n.</pos> 
-            <pos>noun</pos> -->
-          <pos value="noun">n</pos>
-          <gen value="feminine">f</gen>
-          <!-- <case value="nominative">nom</case> "nominativo, genitivo, dativo, accusativo, vocativo e ablativo" -->
+          <pos value="noun"/>
+          <gen value="feminine"/>
           <number value="singular">sing</number>
-          <gram type="theme">-i</gram>
+          <iType type="theme" value="-i"/>
         </gramGrp>
         
         <!-- Le occorrenze del termine nel testo critico -->
@@ -584,10 +583,12 @@
         
         <sense n="1">
           <def></def>
+          Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa corrispondente.
         </sense>
         
         <sense n="2">
           <def></def>
+          Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa corrispondente.
         </sense>
 
         <!-- Le occorrenze e le relative glosse in altri testi -->
@@ -599,8 +600,8 @@
         
         <!-- Una nota di commento/spiegazione relativa al testo -->
         
-        <note type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
-          nella glossa corrispondente.</note>
+        <sense>Probabilmente una parola antica, tale da necessitare una spiegazione
+          nella glossa corrispondente.</sense>
         
         <!-- Note etimologiche, oltre al testo narrativo possono essere definite più precisamente
           altre forme con sotto-<etym> (vedi articolo sulla codifica delle informazioni etimologiche) -->
@@ -611,18 +612,13 @@
           <def>sottrarsi</def>), con suffisso <m>-ini-</m> tipico dei sostantivi femminili.
         </etym>
         
-        <!-- Eventuali forme collegate -->
-        
-        <re></re>     <!-- all'interno del glossario -->
-        <ref></ref>   <!-- in altri testi -->
-        
         <!-- Bibliografia -->
         
-        <note type="biblio">
-          <ref target="#Onesti2000">Francovich Onesti 2000, pp. 54-5</ref>
-          <ref target="#PrinciBraccini1994">Princi Braccini 1994, pp. 76-8</ref>
-          <ref target="#Molinari1989">Molinari 1989, pp. 233-4</ref>
-        </note>
+        <listBibl>
+          <bibl><ref target="#Onesti2000">Francovich Onesti 2000</ref>, pp. 54-5</bibl>
+          <bibl><ref target="#PrinciBraccini1994">Princi Braccini 1994</ref>, pp. 76-8</bibl>
+          <bibl><ref target="#Molinari1989">Molinari 1989</ref>, pp. 233-4</bibl>
+        </listBibl>
       </entry>
       
       <!-- ########################### -->
@@ -666,19 +662,14 @@
           <ref></ref>
         </cit>
         
-        <note type="comment"></note>
-        
         <etym>
         </etym>
         
-        <re></re>
-        <ref></ref>
-        
-        <note type="biblio">
-          <ref target="#"></ref>
-          <ref target="#"></ref>
-          <ref target="#"></ref>
-        </note>
+        <listBibl>
+          <bibl><ref target="#"></ref></bibl>
+          <bibl><ref target="#"></ref></bibl>
+          <bibl><ref target="#"></ref></bibl>
+        </listBibl>
       </entry>
         
       </div>
