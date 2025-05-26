@@ -115,16 +115,16 @@
       -->
 
       <!-- ########################### -->
-      <!-- ########  ASTALIN  ######## -->
+      <!-- ########  ANSTALIN  ######## -->
       <!-- ########################### -->
       
-      <entry xml:id="astalin">
+      <entry xml:id="anstalin">
         
         <!-- ########  Il lemma  ######## -->
         
         <form type="lemma">
           <!-- in caso di forme regolarizzate alternative indicare con type="main" quella accettata per il glossario (normalmente coincide con l'xml:id comunque) -->
-          <orth>astalin</orth>
+          <orth>anstalin</orth>
         </form>
 
           <!-- Per le informazioni grammaticali varie forme possibili:
@@ -163,18 +163,18 @@
         <!-- La forma del lemma -->
 
         <form>
-          <orth>astalin</orth>
+          <orth>anstalin</orth>
           <gramGrp>
             <case value="nominative"/>
             <number value="singular"/>
           </gramGrp>
-          <cit type="lemma">
+          <cit type="lemma"> <!-- lemma o main? -->
             <!-- Riferimento a <term> nel testo critico (<term> e <gloss> impiegati nel testo critico -->
             <!-- Marcare nel testo anche term e gloss? -->
             <quote>Si quis contra inimicús pugnando collegam suum dimiserit aut astalin fecerit, id est si eum diceperit
               et cum eum non laboraverit, animae suae incurrat periculum.</quote><!-- NB in realtà è un accusativo, cercare es. al nominativo  -->
             <!-- Nella versione finale target punta al testo critico, ovviamente a una forma al nominativo  -->
-            <ref target="#CV188_p_019v_7">ER 7</ref>
+            <ref target="#ER_term_astalin_07">ER 7</ref>
           </cit>
           <!-- 
             - inserire anche tutti i riferimenti alla forma del lemma nei vari testimoni??? 
@@ -183,25 +183,24 @@
           <cit type="witness">
             <!-- inserire in <quote> anche la forma originale del testimone? o quella regolarizzata? -->
             <quote>id est si eum diceperit et cum eum non laboraverit</quote>
-            <ref target="#CV188_term_astalin_07">MS 2</ref>
+            <ref target="#CV188_term_anstalin_07">MS 2</ref>
           </cit>
         </form>
         
         <!-- Le forme flesse -->
         
-        <!-- Da cambiare con forma flessa se esiste -->
         <form type="inflected">
-          <orth>astalin</orth>
+          <orth>anstalin</orth>
           <gramGrp>
             <case value="accusative"/>
             <number value="singular"/>
           </gramGrp>
-          <cit type="main">
-            <!-- Nella versione finale target punta al testo critico, ovviamente a una forma al nominativo  -->
+          <cit type="inflected">
+            <!-- Nella versione finale target punta al testo critico, ovviamente a una forma flessa in questo caso  -->
             <!-- Marcare nel testo anche term e gloss? -->
             <quote>Si quis contra inimicús pugnando collegam suum dimiserit aut astalin fecerit, id est si eum diceperit
               et cum eum non laboraverit, animae suae incurrat periculum.</quote>
-            <ref target="#CV188_p_019v_7">ER 7</ref>
+            <ref target="#ER_term_anstalin_07">ER 7</ref>
           </cit>
           <!-- 
             - inserire anche tutti i riferimenti alla forma del lemma nei vari testimoni??? 
@@ -209,7 +208,7 @@
           -->
           <cit type="witness">
             <quote>id est si eum diceperit et cum eum non laboraverit</quote>
-            <ref target="#CV188_term_astalin_07">MS 2</ref>
+            <ref target="#CV188_term_anstalin_07">MS 2</ref>
           </cit>
         </form>
 
@@ -226,11 +225,10 @@
         <!-- NB così come segue o meglio <orth><ref n="MS 2" target="#CV188_term_astalin_07">anstallin</ref></orth>?
                 meglio come segue perché così il riferimento è ai singoli testimoni che potrebbero condividere forma alternativa-->
 
-        <form type="variants">
+        <form type="variants"><!-- lasciare astalin, rimuovere anstalin -->
           <orth>astalin <ref>MSS 1, 5, 8, 9, 10, 11; Gloss. Matr.</ref></orth>
-          <orth>anstallin <ref target="#CV188_term_astalin_07">MS 2</ref></orth>
-          <orth>anstallim <ref>MS 3</ref></orth>
-          <orth>anstalin <ref>MS 3</ref></orth>
+          <orth>anstallin <ref target="#CV188_term_anstalin_07">MS 2</ref></orth>
+          <orth>anstallim <ref target="#CE34-5_term_anstalin_07">MS 3</ref></orth>
           <orth>astalium <ref>MS 12</ref></orth>
         </form>
 
@@ -349,56 +347,55 @@
       <!-- ########  ANDEGAUUERC  ######## -->
       <!-- ############################### -->
       
-      <entry xml:id="andegauuerc">
-        <form type="lemma">
-          <!-- in caso di forme regolarizzate alternative indicare con type="main" quella accettata per il glossario (normalmente coincide con l'xml:id comunque) -->
-          <orth type="main" resp="#Onesti">andegauuerc</orth>
-          <orth resp="#Azzara2005">handegawerc</orth>
-        </form>
+        <entry xml:id="andegauuerc">
+          <form type="lemma">
+            <!-- in caso di forme regolarizzate alternative indicare con type="main" quella accettata per il glossario (normalmente coincide con l'xml:id comunque) -->
+            <orth resp="#Onesti" type="main">andegauuerc</orth>
+            <orth resp="#Azzara2005">handegawerc</orth>
+          </form>
 
-        <gramGrp>
-           <pos value="noun"/>
-          <gen value="neuter"/>
-          <iType type="theme" value="-a"/>
-        </gramGrp>
+          <gramGrp>
+            <pos value="noun"/>
+            <gen value="neuter"/>
+            <iType type="theme" value="-a"/>
+          </gramGrp>
 
-        <cit type="main">
-          <quote>Et si casu faciente sine he- redes mortuus fuerit et antea iudicaverit se vivo res suas proprias, id
-            est handegawerc et hari- gawerc, secundum legem langobardorum, habeat, cui donaverit.</quote>
-          <ref target="#ER_p_225">ER 225</ref>
-        </cit>
+          <cit type="main">
+            <quote>Et si casu faciente sine heredes mortuus fuerit et antea iudicaverit se vivo res suas proprias, id
+              est handegawerc et harigawerc, secundum legem langobardorum, habeat, cui donaverit.</quote>
+            <ref target="#ER_p_225">ER 225</ref>
+          </cit>
 
-        <form type="variants">
-          <orth>andegauuerc<ref>MSS 1, 6, 8, 10</ref></orth>
-          <orth>andegauuere<ref>MS 9</ref></orth>
-          <orth>andegauuero<ref>MS 12</ref></orth>
-          <orth>andecauuerc<ref>MS 2, 3, 11</ref></orth>
-          <orth>andecaauuerc<ref>MS 2, 3, 11</ref></orth>
-          <orth>andecaaurc<ref>MS 5</ref></orth>
-          <orth>andegauerc<ref>Gloss. Cav.</ref></orth>
-          <orth>andecauerc<ref>Gloss. Matr.</ref></orth>
-        </form>
+          <form type="variants">
+            <orth>andegauuerc<ref>MSS 1, 6, 8, 10</ref></orth>
+            <orth>andegauuere<ref>MS 9</ref></orth>
+            <orth>andegauuero<ref>MS 12</ref></orth>
+            <orth>andecauuerc<ref>MS 2, 3, 11</ref></orth>
+            <orth>andecaauuerc<ref>MS 2, 3, 11</ref></orth>
+            <orth>andecaaurc<ref>MS 5</ref></orth>
+            <orth>andegauerc<ref>Gloss. Cav.</ref></orth>
+            <orth>andecauerc<ref>Gloss. Matr.</ref></orth>
+          </form>
 
-        <sense>
-          <def>Manufatti e attrezzi che passano in eredità.</def>
-          Probabilmente un’espressione desueta già nell’ER.
-        </sense>
+          <sense>
+            <def>Manufatti e attrezzi che passano in eredità.</def>
+            Probabilmente un’espressione desueta già nell’ER.
+          </sense>
 
-        <etym>Composto in cui il primo elemento è chiaramente gc. <mentioned>*handu-</mentioned>
-          <def>mano</def> e il secondo gc. <mentioned>*werka</mentioned>
-          <def>opera</def>; cfr. ia. <w lemmaRef="https://bosworthtoller.com/18138">handgeweorc</w>
-          <def>prodotto di attività manuale</def> e <w
-            lemmaRef="https://bosworthtoller.com/18882">heregeatu</w> <def>equipaggiamento militare,
-            lascito in armi e corazze</def>.
-        </etym>
+          <etym>Composto in cui il primo elemento è chiaramente gc. <mentioned>*handu-</mentioned>
+            <def>mano</def> e il secondo gc. <mentioned>*werka</mentioned>
+            <def>opera</def>; cfr. ia. <w lemmaRef="https://bosworthtoller.com/18138">handgeweorc</w>
+            <def>prodotto di attività manuale</def> e <w lemmaRef="https://bosworthtoller.com/18882">heregeatu</w>
+            <def>equipaggiamento militare, lascito in armi e corazze</def>.
+          </etym>
 
-        <xr type="see"><ref target="#ande">ande-</ref></xr>
+          <xr type="see"><ref target="#ande">ande-</ref></xr>
 
-        <listBibl>
-          <bibl><ref target="#Bruckner1895">Bruckner 1895</ref>, pp. 123, 202</bibl>
-          <bibl><ref target="#Feist1939">Feist 1939</ref>, p. 41</bibl>
-        </listBibl>
-      </entry>
+          <listBibl>
+            <bibl><ref target="#Bruckner1895">Bruckner 1895</ref>, pp. 123, 202</bibl>
+            <bibl><ref target="#Feist1939">Feist 1939</ref>, p. 41</bibl>
+          </listBibl>
+        </entry>
 
       <!-- ############################### -->
       <!-- #######  ANGARGATHUNGI  ####### -->
