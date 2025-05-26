@@ -8216,9 +8216,9 @@
           <lb n="17" xml:id="CE34-5_lb_066v_17"/>
           <w>dimiserit</w>
           <w>aut</w>
-          <term ref="#astalin" xml:id="CE34-5_term_astalin_07" xml:lang="lng"><w>anstallim</w></term>
+          <term ref="#anstalin" xml:id="CE34-5_term_anstalin_07" xml:lang="lng"><w>anstallim</w></term>
           <w>fecerit</w>
-          <gloss target="#CE34-5_term_astalin_07" xml:id="CE34-5_gloss_astalin">
+          <gloss target="#CE34-5_term_anstalin_07" xml:id="CE34-5_gloss_anstalin">
             <w>id</w>
             <w>est</w>
             <w>si</w>
