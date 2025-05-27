@@ -1081,6 +1081,13 @@
           <mapping type="normalized">p</mapping>
         </char>
 
+        <char xml:id="Pmacr">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER P WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+004E + U+0304</mapping>
+          <mapping type="diplomatic">P̄</mapping>
+          <mapping type="normalized">P</mapping>
+        </char>
+
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="pbardes">
           <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER"/>
@@ -1502,6 +1509,13 @@
           <mapping type="normalized">t</mapping>
         </char>
         
+        <char xml:id="Tmacr">
+          <localProp name="Name" value="LATIN CAPITAL LETTER T WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+00AF</mapping>
+          <mapping type="diplomatic">T̄</mapping>
+          <mapping type="normalized">T</mapping>
+        </char>
+
         <glyph xml:id="filig">
           <unicodeProp name="Name" value="LATIN SMALL LIGATURE FI"/>
           <mapping type="ligature">U+0066 + U+0069</mapping>

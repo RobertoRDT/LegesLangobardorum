@@ -339,6 +339,22 @@
             <bibl><ref target="#Onesti2000">Francovich Onesti 2000</ref>, pp. 54-5.</bibl>
             <bibl><ref target="#PrinciBraccini1994">Princi Braccini 1994</ref>, pp. 76-8.</bibl>
             <bibl><ref target="#Molinari1989">Molinari 1989</ref>, pp. 233-4.</bibl>
+            <!-- Scardigli, P. (1987), “Le parole longobarde per l’ecdotica dell’Editto di Rotari”, Medioevo e Rinascimento 1, 53-73.
+            <biblStruct type="journalArticle" xml:id="Scardigli1987">
+              <analytic>
+                <title level="a">Le parole longobarde per l'ecdotica dell'Editto di Rotari</title>
+                <author><forename>Piergiuseppe</forename><surname>Scardigli</surname></author>
+              </analytic>
+              <monogr>
+                <title level="j">Medioevo e rinascimento</title>
+                <imprint>
+                  <biblScope unit="volume">1</biblScope>
+                  <biblScope unit="page">53-73</biblScope>
+                  <date>1987</date>
+                </imprint>
+              </monogr>
+            </biblStruct> -->
+            <bibl><ref target="#Scardigli1987">Scardigli 1987</ref>, pp. 53-73.</bibl>
           </listBibl>
 
       </entry>
