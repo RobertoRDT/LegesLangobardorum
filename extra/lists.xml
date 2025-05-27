@@ -1354,7 +1354,15 @@
         <!-- aggiunto 2019-03-14 -->
         <char xml:id="lhighstrok">
           <unicodeProp name="Name" value="LATIN SMALL LETTER L WITH HIGH STROKE"/>
-          <mapping type="codepoint">A749</mapping>
+          <mapping type="codepoint">U+A749</mapping>
+          <mapping type="diplomatic">ł</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+
+        <!-- CHECK duplicato? -->
+        <char xml:id="lstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER L WITH STROKE"/>
+          <mapping type="codepoint">U+0142</mapping>
           <mapping type="diplomatic">ł</mapping>
           <mapping type="normalized">l</mapping>
         </char>
