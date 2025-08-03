@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   
@@ -91,7 +94,6 @@
             <death>572</death>
             <floruit>560-572</floruit>
             <occupation>Rex Langobardorum 560-572</occupation>
-            <affiliation>Stirpe dei Gausi</affiliation>
             <note>Figlio di Audoino, re dei Longobardi, e di Rodelinda, salì al trono fra il 560 e il 565. V. la voce
               corrispondente sul <ref target="http://www.treccani.it/enciclopedia/re-dei-longobardi-alboino_(Dizionario-Biografico)"
                 >Dizionario Biografico degli italiani</ref> e su <ref target="http://dbpedia.org/resource/Alboin"
@@ -116,7 +118,7 @@
               italiani</ref> e su <ref target="http://dbpedia.org/page/Rotari">DBpedia</ref>.
             </note>
           </person>
-
+          
           <!-- #### aggiunto da FS in data 2024-04-13 #### -->
           <person source="https://www.treccani.it/enciclopedia/astolfo-re-dei-longobardi/" xml:id="Aistulf">
             <persName xml:lang="ita">Astolfo</persName>
@@ -304,7 +306,7 @@
             <occupation>Rex Langobardorum.</occupation>
             <note>Nono re dei Longobardi.</note>
           </person>
-
+          
           <person xml:id="Audoin">
             <persName xml:lang="ita">Audoino</persName>
             <persName xml:lang="lng"></persName>
@@ -768,7 +770,7 @@
               </cit>
             </note>
           </place>
-
+          
           <!-- #### aggiunto da FS in data 2024-04-13 #### -->
           
           <place xml:id="Benevento">
@@ -861,7 +863,7 @@
     
     <encodingDesc>
       <charDecl>
-        
+
         <!-- TODO -->
         
         <!-- 
@@ -1056,7 +1058,7 @@
           <mapping type="diplomatic">ſ</mapping>
           <mapping type="normalized">s</mapping>
         </glyph>
-        
+
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="nscapslonglig">
           <unicodeProp name="Name" value="LATIN SMALL LIGATURE SMALL CAPITAL N LONG S"/>
@@ -1081,13 +1083,6 @@
           <mapping type="normalized">p</mapping>
         </char>
 
-        <char xml:id="Pmacr">
-          <unicodeProp name="Name" value="LATIN CAPITAL LETTER P WITH MACRON"/>
-          <mapping subtype="composed" type="codepoint">U+004E + U+0304</mapping>
-          <mapping type="diplomatic">P̄</mapping>
-          <mapping type="normalized">P</mapping>
-        </char>
-
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="pbardes">
           <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER"/>
@@ -1108,7 +1103,7 @@
         <char xml:id="dstrok">
           <unicodeProp name="Name" value="LATIN SMALL LETTER D WITH STROKE"/>
           <mapping type="codepoint">0111</mapping>
-          <mapping type="diplomatic">d</mapping>
+          <mapping type="diplomatic">đ</mapping>
           <mapping type="normalized">d</mapping>
         </char>
 
@@ -1215,6 +1210,7 @@
         <char xml:id="rmacr">
           <unicodeProp name="Name" value="LATIN SMALL LETTER R WITH MACRON"/>
           <mapping type="codepoint">U+F054</mapping>
+          <!--<mapping type="codepoint">U+0072 + U+0304</mapping>-->
           <mapping type="diplomatic">r̄</mapping>
           <mapping type="normalized">r</mapping>
         </char>
@@ -1265,7 +1261,8 @@
           <mapping type="normalized">et</mapping>
         </char>
 
-        <!-- aggiunto 2024-10 --><!-- CHECK completamente custom per ora, v. CE34-5 f. 57r --> 
+        <!-- aggiunto 2024-10 -->
+        <!-- CHECK completamente custom per ora, v. CE34-5 f. 57r --> 
         <glyph xml:id="eilig">
           <unicodeProp name="Name" value="LATIN CAPITAL LETTER P WITH TILDE"/>
           <!--<mapping subtype="composed" type="codepoint">U+0050 + U+0303</mapping>-->
@@ -1411,12 +1408,6 @@
           <mapping type="diplomatic">̉</mapping>
         </char>
         
-        <char xml:id="combcurl">
-          <unicodeProp name="Name" value="COMBINING CURL HIGH POSITION"/>
-          <mapping type="codepoint">U+1DCE</mapping>
-          <mapping type="diplomatic">᷎</mapping>
-        </char>
-        
         <char xml:id="combcurlhigh">
           <unicodeProp name="Name" value="COMBINING CURL HIGH POSITION"/>
           <mapping type="codepoint">U+F1C5</mapping>
@@ -1431,14 +1422,6 @@
           <mapping type="normalized">us</mapping>
         </char>
 
-        <!-- aggiunto 2020-01-14 -->
-        <char xml:id="bstrok">
-          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH STROKE"/>
-          <mapping type="codepoint">0180</mapping>
-          <mapping type="diplomatic">ƀ</mapping>
-          <mapping type="normalized">b</mapping>
-        </char>
-        
         <char xml:id="middot">
           <unicodeProp name="Name" value="MIDDLE DOT"/>
           <mapping type="codepoint">U+00B7</mapping>
@@ -1482,10 +1465,25 @@
           <mapping type="normalized">R</mapping>
         </char>
         
+        <char xml:id="Rmacr">
+          <unicodeProp name="Name" value="LATIN CAPIPTAL LETTER R WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0052 + U+0303</mapping>
+          <mapping type="diplomatic">R̄</mapping>
+          <mapping type="normalized">R</mapping>
+        </char>
+        
+        
         <char xml:id="Htilde">
           <unicodeProp name="Name" value="LATIN CAPIPTAL LETTER H WITH TILDE"/>
           <mapping subtype="composed" type="codepoint">U+0048 + U+0303</mapping>
           <mapping type="diplomatic">H̃</mapping>
+          <mapping type="normalized">H</mapping>
+        </char>
+        
+        <char xml:id="Hmacr">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER H WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0048 + U+ U+0304</mapping>
+          <mapping type="diplomatic">H¯</mapping>
           <mapping type="normalized">H</mapping>
         </char>
         
@@ -1559,10 +1557,24 @@
           <mapping type="normalized">I</mapping>
         </char>
         
+        <char xml:id="Imacr">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER I WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+012A</mapping>
+          <mapping type="diplomatic">Ī</mapping>
+          <mapping type="normalized">I</mapping>
+        </char>
+        
         <char xml:id="Utilde">
           <unicodeProp name="Name" value="LATIN CAPITAL LETTER U WITH TILDE"/>
           <mapping subtype="composed" type="codepoint">U+0055 + U+0303</mapping>
           <mapping type="diplomatic">Ũ</mapping>
+          <mapping type="normalized">U</mapping>
+        </char>
+        
+        <char xml:id="Umacr">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER U WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+016A</mapping>
+          <mapping type="diplomatic">Ū</mapping>
           <mapping type="normalized">U</mapping>
         </char>
         
@@ -1571,6 +1583,13 @@
           <mapping subtype="composed" type="codepoint">U+006C + U+0304</mapping>
           <mapping type="diplomatic">l̄</mapping>
           <mapping type="normalized">l</mapping>
+        </char>
+        
+        <char xml:id="Nmacr">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER N WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+004E + U+0304</mapping>
+          <mapping type="diplomatic">N̄</mapping>
+          <mapping type="normalized">N</mapping>
         </char>
         
         <char xml:id="racute">
@@ -1584,6 +1603,13 @@
           <unicodeProp name="Name" value="LATIN SMALL LETTER G WITH TILDE"/>
           <mapping subtype="composed" type="codepoint">U+0067 + U+0303</mapping>
           <mapping type="diplomatic">g̃</mapping>
+          <mapping type="normalized">g</mapping>
+        </char>
+        
+        <char xml:id="gmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER G WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+1E21</mapping>
+          <mapping type="diplomatic">ḡ</mapping>
           <mapping type="normalized">g</mapping>
         </char>
         
@@ -1616,11 +1642,18 @@
         </char>
         
         <glyph xml:id="orlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE OR ROTUNDA"></unicodeProp>
+          <mapping type="ligature">U+E8AE</mapping>
+          <mapping type="diplomatic">&#59566;</mapping>
+          <mapping type="normalized">or</mapping>
+        </glyph>
+
+        <!--<glyph xml:id="orlig"> CHECK
           <unicodeProp name="Name" value="LATIN SMALL LIGATURE OR"/>
           <mapping type="ligature">U+006F + U+0280</mapping>
           <mapping type="diplomatic">oʀ</mapping>
           <mapping type="normalized">or</mapping>
-        </glyph>
+        </glyph>-->
         
         <char xml:id="iring">
           <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH ACUTE"/>
@@ -1643,13 +1676,107 @@
           <mapping type="normalized">D</mapping>
         </char>
         
+        <char xml:id="Dmacr">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER D WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0044 + U+0304</mapping>
+          <mapping type="diplomatic">D̄</mapping>
+          <mapping type="normalized">D</mapping>
+        </char>
+        
         <char xml:id="cmacr">
           <unicodeProp name="Name" value="LATIN SMALL LETTER C WITH MACRON"/>
           <mapping subtype="composed" type="codepoint">U+0063 + U+0304</mapping>
           <mapping type="diplomatic">c̄</mapping>
           <mapping type="normalized">c</mapping>
         </char>
+        
+<!-- AGGIUNTI DA FABIO SONCIN PER BSL5260
+        i glifi qui codificati indicano lettere cui un'altra lettera o segno è posto 
+        sopra la lettera principale-->        
+        <char xml:id="icurl">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER I WITH CULR"/>
+          <mapping subtype="composed" type="codepoint">U+0069 + U+1DCE</mapping>
+          <mapping type="diplomatic">i᷎</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        
+        <char xml:id="ra">
+          <unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE"/>
+          <mapping subtype="composed" type="codepoint">U+1DD3</mapping>
+          <mapping type="diplomatic">&#7635;</mapping>
+          <mapping type="normalized"></mapping>
+        </char>
+        
+        <char xml:id="erang">
+          <unicodeProp name="Name" value="COMBINING ABBREVIATION MARK ZIGZAG ABOVE ANGLE FORM"/>
+          <mapping subtype="composed" type="codepoint">U+F1C7</mapping>
+          <mapping type="diplomatic">&#61895;</mapping>
+          <mapping type="normalized"></mapping>
+        </char>
+        
+        <char xml:id="asmallabove">
+          <unicodeProp name="Name" value="COMBINING SMALL LETTER A"/>
+          <mapping subtype="composed" type="codepoint">U+0363</mapping>
+          <mapping type="diplomatic">ͣ</mapping>
+          <mapping type="normalized">a</mapping>
+        </char>
+        
+        <char xml:id="bstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH STROKE"/>
+          <mapping subtype="composed" type="codepoint">U+0180</mapping>
+          <mapping type="diplomatic">ƀ</mapping>
+          <mapping type="normalized">b</mapping>
+        </char>
+        
+        <char xml:id="ismallabove">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH CURL"/>
+          <mapping subtype="composed" type="codepoint">U+0180</mapping>
+          <mapping type="diplomatic">ͥ</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        
+        <char xml:id="pcurl">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH CURL"/>
+          <mapping subtype="composed" type="codepoint">U+0070 + U+1DCE</mapping>
+          <mapping type="diplomatic">p᷎</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+        
+        <char xml:id="qbardestilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER AND TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+A757 + U+0303</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
 
+        <char xml:id="et">
+          <unicodeProp name="Name" value="TIRONIAN SIGN ET"/>
+          <mapping subtype="composed" type="codepoint">U+204A</mapping>
+          <mapping type="diplomatic">⁊</mapping>
+          <mapping type="normalized">et</mapping>
+        </char>
+        
+        <char xml:id="orumlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE O RUM"/>
+          <mapping subtype="composed" type="codepoint">U+EFBA</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">orum</mapping>
+        </char>
+        
+        <char xml:id="combcurl">
+          <unicodeProp name="Name" value="COMBINING OGONEK ABOVE"/>
+          <mapping subtype="composed" type="codepoint">U+1DCE</mapping>
+          <mapping type="diplomatic">᷎</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+        
+        <char xml:id="Pmacr">
+          <unicodeProp name="Name" value="LATIN LARGE LETTER P WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0050 + U+0304</mapping>
+          <mapping type="diplomatic">P̄</mapping>
+          <mapping type="normalized">P</mapping>
+        </char>
+                  
         <!-- AGGIUNTI DA FABIO SONCIN PER BSL3519 
         i glifi qui codificati indicano lettere cui un'altra lettera o segno è posto 
         sopra la lettera principale-->        
