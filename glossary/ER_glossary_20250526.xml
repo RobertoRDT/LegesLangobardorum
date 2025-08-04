@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+  <teiHeader>
+
+    <fileDesc>
+
+      <titleStmt>
+        <title>Leges Langobardorum project</title>
+        <title>A glossary of Lombard words used in the text</title>
+        <principal>Marina Buzzoni</principal>
+        <principal>Roberto Rosselli Del Turco</principal>
+        <respStmt>
+          <resp>Encoding in TEI-conformant markup: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+        <respStmt>
+          <resp>General overview: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+          <name>Marina Buzzoni</name>
+        </respStmt>
+        <respStmt>
+          <resp>Experimental EVT edition: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+      </titleStmt>
+
+      <editionStmt>
+        <edition>Previous editions</edition>
+        <respStmt xml:id="azzara">
+          <resp>Editor</resp>
+          <name ref="#Azzara1992">Azzara-Gasparri</name>
+        </respStmt>
+        <respStmt xml:id="beyerle">
+          <resp>Editor</resp>
+          <name ref="#Beyerle1962a">Beyerle</name>
+        </respStmt>
+        <respStmt xml:id="bluhme">
+          <resp>Editor</resp>
+          <name ref="#Bluhme1868">Beyerle</name>
+        </respStmt>
+      </editionStmt>
+
+      <extent>[??] kilobytes</extent>
+
+      <publicationStmt>
+        <authority>Leges Langobardorum Project</authority>
+        <date>2014-</date>
+        <availability>
+          <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc>
+        <p>Experimental glossary</p>
+      </sourceDesc>
+
+    </fileDesc>
+
+    <revisionDesc>
+      <change status="draft" when="2020-01" who="RRDT">First experimental encoding of a glossary in TEI XML
+        format.</change>
+    </revisionDesc>
+
+  </teiHeader>
+  
+  <text>
+    <body>
+      
+      <div type="glossary" xml:id="ER_glossary">
+
+      <!--TODO -->
+      <!--
+
+      + usare <listBibl> e <bibl> invece di <note type="biblio"> e <ref>? SI usare <listBibl> con dei <bibl>
+        con dentro i <ref>
+      + perché non si può avere <listBibl> in <entry>? ADESSO SI PUO'
+      + usare <mentioned> invece di <w> per i termini citati in <etym> come suggerito dalle Guidelines? 
+         secondo Bowers e Romary 2016 non una buona soluzione, invece di <cit> etc. però perché non <w>?
+         Inizialmente: SI <mentioned> NO <w> per omogeneità con il resto della codifica, ma <mentioned> non ha @lemmaRef!
+         se si usa <w> come avere il contenuto in corsivo all'interno di <etym?> stile CSS?
+         FINAL: usare <w> dentro <mentioned> quando necessario
+      - rivedere tutto alla luce della struttura aggiornata
+      - valutare utilità elemento <xr>
+      - invece dei link a un manoscritto servono link a ed. critica
+      - marcare <term> e <gloss> anche nel testo critico
+      - aggiungere waregang
+      
+      -->
+      
+      <!-- SOLUZIONE per gestione dei termini longobardi nel testo -->
+      <!--
+        
+        - occorrenza con <gloss> (o comunque occorrenza di riferimento): usare <term ref="#[entry id]" xml:id="xxxx"> e
+          @corresp alla <gloss> in modo da avere coppie sicure con aggiunta del numero di capitulum all'id,
+          es. ER_term_182, ER_term_199 (da fare sempre e comunque per tutte le id)
+        - idem per tutte le altre occorrenze ma senza @corresp (visto che comunque non c'è la <gloss>
+        - NO usare sempre <term> con xml:lng per specificare la lingua [[tutte le altre occorrenze: <w lemmaRef="#[entry id]">,
+          o <w corresp="#[entry id]"> se vogliamo usare @lemmaRef per un collegamento a dizionari online, assegnando comunque
+          un xml:id a <w> (ER_w_216)]]
+        - invece di @lemmaRef per i <term> aggiungere un <ptr/> o <ref> nell'<entry> del glossario 
+      
+      -->
+      
+      <!--NB All'interno di <text>:
+        
+        <term xml:id="CV188_term_astalin_07" xml:lang="lng" target="#astalin" corresp="#CV188_gloss_astalin_07">
+          <w xml:id="CV188_word_astalin">astalin</w>
+        </term>
+        <gloss target="#CV188_term_astalin_07" xml:id="CV188_gloss_astalin_07">id est....</gloss>
+
+        + serve il doppio xml:id per <term> e <w>? perché _word_ e non _w_? NO non serve doppio ID
+      
+      -->
+
+      <!-- ########################### -->
+      <!-- ########  ANSTALIN  ######## -->
+      <!-- ########################### -->
+      
+      <entry xml:id="anstalin">
+        
+        <!-- ########  Il lemma  ######## -->
+        
+        <form type="lemma">
+          <!-- in caso di forme regolarizzate alternative indicare con type="main" quella accettata per il glossario (normalmente coincide con l'xml:id comunque) -->
+          <orth>anstalin</orth>
+        </form>
+
+          <!-- Per le informazioni grammaticali varie forme possibili:
+            
+            <pos value="noun"></pos>
+            <pos value="noun"/>
+            <pos value="noun">n</pos> 
+            <pos>noun</pos> 
+          
+            sconsigliata l'ultima se si desidera avere la possibilità di localizzare il glossario: con value="noun"
+            abbiamo sempre la possibilità di tradurre l'output in più lingue.
+          -->          
+
+        <!--<gramGrp>
+         <pos value="noun">n</pos>
+          <gen value="feminine">f</gen>
+          <iType type="theme">-i</iType> oppure <iType type="theme" value="-i"></iType>
+        </gramGrp> -->
+
+        <gramGrp>
+          <pos value="noun"/>
+          <gen value="feminine"/>
+          <iType type="theme" value="-i"/>
+        </gramGrp>
+        
+        <!-- vecchia soluzione di codifica, ma codifica comunque valida: supportare???
+        <gramGrp>
+          <gram type="pos">noun</gram>
+          <gram type="gen">neuter</gram>
+          <gram type="theme">-a</gram>
+        </gramGrp>
+        -->
+        
+        <!-- ######## Le occorrenze del termine nel testo critico ######## -->
+        
+        <!-- La forma del lemma -->
+
+        <form>
+          <orth>anstalin</orth>
+          <gramGrp>
+            <case value="nominative"/>
+            <number value="singular"/>
+          </gramGrp>
+          <cit type="lemma"> <!-- lemma o main? -->
+            <!-- Riferimento a <term> nel testo critico (<term> e <gloss> impiegati nel testo critico -->
+            <!-- Marcare nel testo anche term e gloss? -->
+            <quote>Si quis contra inimicús pugnando collegam suum dimiserit aut astalin fecerit, id est si eum diceperit
+              et cum eum non laboraverit, animae suae incurrat periculum.</quote><!-- NB in realtà è un accusativo, cercare es. al nominativo  -->
+            <!-- Nella versione finale target punta al testo critico, ovviamente a una forma al nominativo  -->
+            <ref target="#ER_term_astalin_07">ER 7</ref>
+          </cit>
+          <!-- 
+            - inserire anche tutti i riferimenti alla forma del lemma nei vari testimoni??? 
+            - si potrebbero ricavare automaticamente con uno script???
+          -->
+          <cit type="witness">
+            <!-- inserire in <quote> anche la forma originale del testimone? o quella regolarizzata? -->
+            <quote>id est si eum diceperit et cum eum non laboraverit</quote>
+            <ref target="#CV188_term_anstalin_07">MS 2</ref>
+          </cit>
+        </form>
+        
+        <!-- Le forme flesse -->
+        
+        <form type="inflected">
+          <orth>anstalin</orth>
+          <gramGrp>
+            <case value="accusative"/>
+            <number value="singular"/>
+          </gramGrp>
+          <cit type="inflected">
+            <!-- Nella versione finale target punta al testo critico, ovviamente a una forma flessa in questo caso  -->
+            <!-- Marcare nel testo anche term e gloss? -->
+            <quote>Si quis contra inimicús pugnando collegam suum dimiserit aut astalin fecerit, id est si eum diceperit
+              et cum eum non laboraverit, animae suae incurrat periculum.</quote>
+            <ref target="#ER_term_anstalin_07">ER 7</ref>
+          </cit>
+          <!-- 
+            - inserire anche tutti i riferimenti alla forma del lemma nei vari testimoni??? 
+            - si potrebbero ricavare automaticamente con uno script???
+          -->
+          <cit type="witness">
+            <quote>id est si eum diceperit et cum eum non laboraverit</quote>
+            <ref target="#CV188_term_anstalin_07">MS 2</ref>
+          </cit>
+        </form>
+
+        <!-- Le occorrenze e le relative glosse in altri testi (??? vedi template) -->
+        
+        <cit type="other">
+          <quote>Astalin. Id <ex>est</ex> decipere</quote>
+          <ref>Gloss. Matr.</ref>
+        </cit>
+        
+        <!-- ######## Le forme grafiche alternative ######## -->
+
+        <!-- Per ogni testimone di cui abbiamo la trascrizione il ref contiene un target -->
+        <!-- NB così come segue o meglio <orth><ref n="MS 2" target="#CV188_term_astalin_07">anstallin</ref></orth>?
+                meglio come segue perché così il riferimento è ai singoli testimoni che potrebbero condividere forma alternativa-->
+
+        <form type="variants"><!-- lasciare astalin, rimuovere anstalin -->
+          <orth>astalin <ref>MSS 1, 5, 8, 9, 10, 11; Gloss. Matr.</ref></orth>
+          <orth>anstallin <ref target="#CV188_term_anstalin_07">MS 2</ref></orth>
+          <orth>anstallim <ref target="#CE34-5_term_anstalin_07">MS 3</ref></orth>
+          <orth>astalium <ref>MS 12</ref></orth>
+        </form>
+
+        <!-- ######## Il significato o i significati del termine ######## -->
+
+        <sense>
+          <def>Tradimento, fuga o abbandono dei compagni in battaglia.</def>
+
+          <!-- Testo di commento/spiegazione relativa al termine -->
+
+          Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa corrispondente.
+          
+          <!-- Soluzioni scartate: 
+          
+          <seg type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
+            nella glossa corrispondente.</seg>
+
+          <gloss type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
+            nella glossa corrispondente.</gloss>
+          
+          <sense>Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
+            corrispondente (Francovich Onesti).</sense>
+          
+          <sense value="desc">Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
+            corrispondente (Francovich Onesti).</sense>
+            
+           -->
+
+        </sense>
+        
+        <!-- In caso di più <sense> (n="1", n="2" etc.) con <def> al loro interno: -->
+        
+        <sense>Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
+          corrispondente (Francovich Onesti).</sense>
+        
+        <!-- Soluzioni scartate: 
+
+        <sense value="desc">Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa
+          corrispondente (Francovich Onesti).</sense>
+        
+        <sense>
+          
+          <seg type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
+            nella glossa corrispondente.</seg>
+          
+          <gloss type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
+            nella glossa corrispondente.</gloss>
+          
+        </sense>
+        
+        -->
+
+        <!-- Una nota di commento/spiegazione relativa al termine -->
+
+        <!-- Non usare <note> perché aprirebbe note pop-up
+          
+          <note type="comment">Probabilmente una parola antica, tale da necessitare una spiegazione
+          nella glossa corrispondente.</note>
+        
+        -->
+        
+        <!-- cross-reference interna al glossario -->
+        <xr type="see">V. <ref target="#xxxx">xxxx</ref></xr>
+        
+
+        <!-- ######## Note etimologiche e linguistiche ######## -->
+
+        <!-- Oltre al testo narrativo possono essere definite più precisamente altre forme con sotto-<etym>
+          (vedi articolo sulla codifica delle informazioni etimologiche) -->
+
+        <etym>
+          Formazione deverbale basata sul prefisso <m>a-</m>, <m>an-</m> unito alla radice del verbo
+          <mentioned>*staljan</mentioned> <def>sottrarsi, sfuggire</def> (cfr. <lang>ia.</lang>
+          <mentioned><w lemmaRef="https://bosworthtoller.com/2350">a-stælan</w></mentioned> <def>insinuarsi,
+            sedurre</def> e <mentioned><w lemmaRef="https://bosworthtoller.com/28857">stelan</w></mentioned>
+          <def>sottrarsi</def>), con suffisso <m>-ini-</m> tipico dei sostantivi femminili.
+          <!-- cross-reference interna al glossario -->
+          <xr type="etym">Etimologicamente connesso con <ref target="#yyyy">yyyy</ref>, ma anche
+          <!-- link a risorsa esterna con lemmaRef -->
+            <mentioned><w lemmaRef="https://bosworthtoller.com/28857">stelan</w></mentioned>
+          </xr>
+        </etym>
+
+        <!-- ######## Eventuali forme collegate ######## -->
+        
+        <!-- <re></re>    all'interno del glossario --> <!-- NOPE vedi sopra alla fine di <sense> -->
+        <!-- <ref></ref>  in altri testi -->
+
+        <!-- ######## Bibliografia ######## -->
+
+          <!-- Soluzioni scartate:
+            
+         <note type="biblio">
+            <ref target="#Onesti2000">Francovich Onesti 2000, pp. 54-5.</ref>
+            <ref target="#PrinciBraccini1994">Princi Braccini 1994, pp. 76-8.</ref>
+            <ref target="#Molinari1989">Molinari 1989, pp. 233-4.</ref>
+        </note>
+
+          <bibl>
+            <ref target="#Onesti2000">Francovich Onesti 2000, pp. 54-5.</ref>
+            <ref target="#PrinciBraccini1994">Princi Braccini 1994, pp. 76-8.</ref>
+            <ref target="#Molinari1989">Molinari 1989, pp. 233-4.</ref>
+          </bibl>
+          
+          -->
+        
+          <listBibl>
+            <bibl><ref target="#Onesti2000">Francovich Onesti 2000</ref>, pp. 54-5.</bibl>
+            <bibl><ref target="#PrinciBraccini1994">Princi Braccini 1994</ref>, pp. 76-8.</bibl>
+            <bibl><ref target="#Molinari1989">Molinari 1989</ref>, pp. 233-4.</bibl>
+            <!-- Scardigli, P. (1987), “Le parole longobarde per l’ecdotica dell’Editto di Rotari”, Medioevo e Rinascimento 1, 53-73.
+            <biblStruct type="journalArticle" xml:id="Scardigli1987">
+              <analytic>
+                <title level="a">Le parole longobarde per l'ecdotica dell'Editto di Rotari</title>
+                <author><forename>Piergiuseppe</forename><surname>Scardigli</surname></author>
+              </analytic>
+              <monogr>
+                <title level="j">Medioevo e rinascimento</title>
+                <imprint>
+                  <biblScope unit="volume">1</biblScope>
+                  <biblScope unit="page">53-73</biblScope>
+                  <date>1987</date>
+                </imprint>
+              </monogr>
+            </biblStruct> -->
+            <bibl><ref target="#Scardigli1987">Scardigli 1987</ref>, pp. 53-73.</bibl>
+          </listBibl>
+
+      </entry>
+
+      <!-- ############################### -->
+      <!-- ########  ANDEGAUUERC  ######## -->
+      <!-- ############################### -->
+      
+        <entry xml:id="andegauuerc">
+          <form type="lemma">
+            <!-- in caso di forme regolarizzate alternative indicare con type="main" quella accettata per il glossario (normalmente coincide con l'xml:id comunque) -->
+            <orth resp="#Onesti" type="main">andegauuerc</orth>
+            <orth resp="#Azzara2005">handegawerc</orth>
+          </form>
+
+          <gramGrp>
+            <pos value="noun"/>
+            <gen value="neuter"/>
+            <iType type="theme" value="-a"/>
+          </gramGrp>
+
+          <cit type="main">
+            <quote>Et si casu faciente sine heredes mortuus fuerit et antea iudicaverit se vivo res suas proprias, id
+              est handegawerc et harigawerc, secundum legem langobardorum, habeat, cui donaverit.</quote>
+            <ref target="#ER_p_225">ER 225</ref>
+          </cit>
+
+          <form type="variants">
+            <orth>andegauuerc<ref>MSS 1, 6, 8, 10</ref></orth>
+            <orth>andegauuere<ref>MS 9</ref></orth>
+            <orth>andegauuero<ref>MS 12</ref></orth>
+            <orth>andecauuerc<ref>MS 2, 3, 11</ref></orth>
+            <orth>andecaauuerc<ref>MS 2, 3, 11</ref></orth>
+            <orth>andecaaurc<ref>MS 5</ref></orth>
+            <orth>andegauerc<ref>Gloss. Cav.</ref></orth>
+            <orth>andecauerc<ref>Gloss. Matr.</ref></orth>
+          </form>
+
+          <sense>
+            <def>Manufatti e attrezzi che passano in eredità.</def>
+            Probabilmente un’espressione desueta già nell’ER.
+          </sense>
+
+          <etym>Composto in cui il primo elemento è chiaramente gc. <mentioned>*handu-</mentioned>
+            <def>mano</def> e il secondo gc. <mentioned>*werka</mentioned>
+            <def>opera</def>; cfr. ia. <w lemmaRef="https://bosworthtoller.com/18138">handgeweorc</w>
+            <def>prodotto di attività manuale</def> e <w lemmaRef="https://bosworthtoller.com/18882">heregeatu</w>
+            <def>equipaggiamento militare, lascito in armi e corazze</def>.
+          </etym>
+
+          <xr type="see"><ref target="#ande">ande-</ref></xr>
+
+          <listBibl>
+            <bibl><ref target="#Bruckner1895">Bruckner 1895</ref>, pp. 123, 202</bibl>
+            <bibl><ref target="#Feist1939">Feist 1939</ref>, p. 41</bibl>
+          </listBibl>
+        </entry>
+
+      <!-- ############################### -->
+      <!-- #######  ANGARGATHUNGI  ####### -->
+      <!-- ############################### -->
+      
+      <entry xml:id="angargathungi">
+
+        <form type="lemma">
+          <orth>angargathungi</orth>
+        </form>
+
+        <gramGrp>
+          <pos value="noun"/>
+          <gen value="neuter"/>
+          <!--<number value="singular"/>-->
+          <iType type="theme" value="-ja"/>
+        </gramGrp>
+        
+        <cit type="main">
+          <quote>Si vero plures fuerint, si ingenuus, qualiter in angargathungi, ipsum homicidium conponat;</quote>
+          <ref target="#">ER 14</ref>
+          <quote>Si quis alii oculum excusserit, pro mortuum adpretietur, qualiter in angargathungi, id est secundum
+            qualitatem personae;</quote>
+          <ref target="#">ER 48</ref>
+          <quote>Et si contigerit de ipsas plagas intra anni spatium, qui plagatus est, mori, tunc ille, qui cum
+            plagavit, conponat, qualiter in angargathungi, id est secundum qualitatem personae.</quote>
+          <ref target="#">ER 74</ref>
+        </cit>
+        
+        <form type="variants">
+          <orth>argargathungi <ref>MS 1, 5</ref></orth>
+          <orth>angarghatun <ref target="#CE34-5_lb_070v_20">MS 3</ref></orth>
+          <orth>gargathungin <ref>MS 8</ref></orth>
+          <orth>argargathungi <ref>MS 9</ref></orth>
+          <orth>angarthungi <ref>MS 11</ref></orth>
+          <orth>angar a thungi <ref>MS 12</ref></orth>
+        </form>
+        
+          <sense>
+            <def>Valore dell'uomo libero secondo i possedimenti di terra; rango sociale di una persona.</def> Ricorre
+            sempre nell'espressione <mentioned>in angargathungi</mentioned> che fa pensare a una formula preesistente in
+            cui fosse già presente <mentioned>in</mentioned>. </sense>
+        
+        <cit>
+          <quote>Inangargathungin. Id est secundum arbitrium regis sicut appretiatur fuerit.</quote>
+          <ref>Gloss. Matr.</ref>
+        </cit>
+        
+        <note type="comment">Ricorre sempre nell'espressione <mentioned>in
+          angargathungi</mentioned> che fa pensare a
+          una formula preesistente in cui fosse già presente <mentioned>in</mentioned>.</note>
+        
+          <etym>
+            Il termine risulta composto da gc. <mentioned>*angra-</mentioned>
+            <def>terra non arata, prato, pascolo</def> e gc. <mentioned>*ga-þungja-</mentioned>
+            <def>crescita, prosperità, ricchezza</def>.
+          </etym>
+        
+        <xr type="see"><ref target="#angar">angar-</ref></xr>
+        
+        <listBibl>
+          <bibl><ref target="#Azzara-Gasparri1992">Azzara-Gasparri 1992</ref>, p. 108</bibl>
+          <bibl><ref target="#Molinari1995">Molinari 1995</ref>, p. 8</bibl>
+          <bibl><ref target="#Scardigli1977">Scardigli 1977</ref>, p. 342</bibl>
+          <bibl><ref target="#VdR1970">VdR 1970</ref>, pp. 20-31</bibl>
+        </listBibl>
+      </entry>
+      
+      <!-- ########################### -->
+      <!-- #######  MORGINGAB  ####### -->
+      <!-- ########################### -->
+      
+      <entry xml:id="morgingab">
+        <form type="lemma">
+          <orth>morgingab</orth>
+        </form>
+        
+        <gramGrp>
+          <pos expand="sostantivo" value="noun">sost.</pos>
+          <gen expand="femminile" value="feminine">femm.</gen>
+          <iType type="theme">-ō</iType>
+        </gramGrp>
+        
+        <cit type="main">
+          <quote>Et si noluerit accepere, habeat ipsa mulier et <emph>morgingab</emph> et, quod de parentes adduxit, id est
+            faderfio</quote>
+          <ref target="#ER_term_morgingab_182">ER 182</ref>
+        </cit>
+        
+        <form type="variants">
+          <orth>morgangab  <ref>CDL n° 67 (a. 738 Lucca)</ref></orth>
+          <orth>morgingap <ref target="#CV188_term_morgingab_182">CV188 182, 199, 200, 216</ref>, 
+            <ref target="#CE34-5_term_morgingab_216">CE34(5) 216</ref></orth>
+          <orth>morgincap <ref>Liut. 103</ref></orth>
+          <orth>morghincap <ref>CDL n° 120 (a. 755 Lucca)</ref></orth>
+          <orth>morganicapu <ref>CDL n° 70 (a. 739 Lucca)</ref></orth>
+          <orth>morganicaput <ref>CDL n° 30 (a. 722 Lucca)</ref>, <ref>Liut. 117</ref></orth>
+        </form>        
+
+        <sense>
+          <def>dono matrimoniale del marito alla moglie</def>
+          Con <mentioned>morgingab</mentioned> si indica il dono matrimoniale versato dal marito alla
+          moglie la mattina successiva alla prima notte di nozze. Si tratta di un termine già presente
+          nell'<title>Editto di Rotari</title>, quindi di origini antiche come testimoniato anche dalle equivalenze in
+          altre lingue germaniche, che entra nel lessico giuridico dove viene ulteriormente sviluppato nelle estensioni
+          successive a Rotari e anzi gode di notevole successo venendo utilizzato fino al XII secolo, ben oltre la fine
+          del regno dei Longobardi in Italia (v. <ref>Francovich Onesti, pp. 105-106</ref>).
+        </sense>
+        
+        <cit type="cit_section">
+          <cit>
+            <quote>tunc illa vidua, qui in domo patris aut fratris regressa est, habeat sibi in antea morgingab et
+              metfio</quote>
+            <ref target="#ER_w_morgingab_199">ER 199</ref>
+          </cit>
+          <cit>
+            <quote>Id <ex>est</ex> decipere</quote>
+            <ref>Gloss. Matr.</ref>
+          </cit>
+        </cit>
+        
+        <etym>
+          Termine attestato in altre lingue germaniche, cfr. ad esempio 
+          <lang>ia.</lang> <mentioned>morgengifu</mentioned>, <lang>ata.</lang> <mentioned>morgangaba</mentioned>, <lang>alam.</lang>
+          <mentioned>morgangepa</mentioned>. Composto formato da <xr>morgin</xr> (&lt; <lang>gc.</lang>
+          <mentioned>*murgana-</mentioned>, &lt; <lang>ie.</lang> <mentioned>*merk-</mentioned>, forse da una radice
+          <mentioned>*mer-</mentioned> <def>luccicare, brillare</def>) e <xr>gab</xr> (&lt; <lang>gc.</lang>
+          <mentioned>*gebō-</mentioned>, cfr. <lang>ia.</lang> <mentioned>giefu</mentioned>, <lang>sass.</lang>
+          <mentioned>geba</mentioned>, <mentioned>giba</mentioned>, <lang>ata.</lang> <mentioned>geba</mentioned> &lt; <lang>gc.</lang>
+          <mentioned>*geban-</mentioned> <def>dare</def>).
+        </etym>
+        
+        <listBibl>
+          <bibl><ref target="#"></ref></bibl>
+          <bibl><ref target="#"></ref></bibl>
+          <bibl><ref target="#"></ref></bibl>
+        </listBibl>
+      </entry>
+      
+      <!-- ########################### -->
+      <!-- ########  aaaaaaa  ######## -->
+      <!-- ########################### -->
+      
+      <entry xml:id="aaaaaaa">
+        <form type="lemma">
+          <orth></orth>
+        </form>
+
+        <gramGrp>
+          <pos value="noun"/>
+          <gen value="feminine"/>
+          <number value="singular">sing</number>
+          <iType type="theme" value="-i"/>
+        </gramGrp>
+        
+        <!-- Le occorrenze del termine nel testo critico -->
+        
+        <cit type="main">
+          <!-- Marcare nel testo anche term e gloss? -->
+          <quote>Si quis contra inimicús pugnando collegam suum dimiserit aut astalin fecerit, id est si eum diceperit
+            et cum eum non laboraverit, animae suae incurrat periculum.</quote>
+          <!-- NB al momento il target punta alla riga o al paragrafo, in attesa di xml:id per il <term> sopra -->
+          <ref target="#CV188_p_019v_7">ER 7</ref>
+        </cit>
+        
+        <!-- inserire anche tutti i riferimenti ai vari testimoni??? -->
+        <cit type="witness">
+          <quote>id est si eum diceperit et cum eum non laboraverit</quote>
+          <ref target="#CV188_gloss_astalin">MS 2</ref>
+        </cit>
+        
+        <!-- Le forme grafiche alternative, per ogni testimone di cui abbiamo la 
+          trascrizione il ref contiene un target -->
+        
+        <form type="variants">
+          <orth> <ref target="#">MS </ref></orth>
+          <orth> <ref>MSS 1, 5, 8, 9, 10, 11; Gloss. Matr.</ref></orth>
+          <orth> <ref>MS 12</ref></orth>
+        </form>
+        
+        <!-- Il significato o i significati del termine -->
+        
+        <sense n="1">
+          <def></def>
+          Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa corrispondente.
+        </sense>
+        
+        <sense n="2">
+          <def></def>
+          Probabilmente una parola antica, tale da necessitare una spiegazione nella glossa corrispondente.
+        </sense>
+
+        <!-- Le occorrenze e le relative glosse in altri testi -->
+        
+        <cit>
+          <quote>Id <ex>est</ex> decipere</quote>
+          <ref>Gloss. Matr.</ref>
+        </cit>
+        
+        <!-- Una nota di commento/spiegazione relativa al testo -->
+        
+        <sense>Probabilmente una parola antica, tale da necessitare una spiegazione
+          nella glossa corrispondente.</sense>
+        
+        <!-- Note etimologiche, oltre al testo narrativo possono essere definite più precisamente
+          altre forme con sotto-<etym> (vedi articolo sulla codifica delle informazioni etimologiche) -->
+        
+        <etym>Formazione deverbale basata sul prefisso <m>a-</m>, <m>an-</m> unito alla radice del verbo
+          <mentioned>*staljan</mentioned>
+          <def>sottrarsi, sfuggire</def> (cfr. ia. <mentioned>stelan</mentioned>
+          <def>sottrarsi</def>), con suffisso <m>-ini-</m> tipico dei sostantivi femminili.
+        </etym>
+        
+        <!-- Bibliografia -->
+        
+        <listBibl>
+          <bibl><ref target="#Onesti2000">Francovich Onesti 2000</ref>, pp. 54-5</bibl>
+          <bibl><ref target="#PrinciBraccini1994">Princi Braccini 1994</ref>, pp. 76-8</bibl>
+          <bibl><ref target="#Molinari1989">Molinari 1989</ref>, pp. 233-4</bibl>
+        </listBibl>
+      </entry>
+      
+      <!-- ########################### -->
+      <!-- #########  empty  ######### -->
+      <!-- ########################### -->
+      
+      <entry xml:id="eeeee">
+        <form type="lemma">
+          <orth></orth>
+        </form>
+
+        <gramGrp>
+          <pos value="noun"></pos>
+          <gen value="feminine"></gen>
+          <!-- <case value="nominative">nom</case> -->
+          <number value="singular"></number>
+          <iType type="theme">-i</iType>
+        </gramGrp>
+        
+        <cit type="main">
+          <quote></quote>
+          <ref target="#">ER </ref>
+        </cit>
+        
+        <form type="variants">
+          <orth> <ref target="#"></ref></orth>
+          <orth> <ref></ref></orth>
+          <orth> <ref></ref></orth>
+        </form>
+        
+        <sense n="1">
+          <def></def>
+        </sense>
+        
+        <sense n="2">
+          <def></def>
+        </sense>
+
+        <cit>
+          <quote></quote>
+          <ref></ref>
+        </cit>
+        
+        <etym>
+        </etym>
+        
+        <listBibl>
+          <bibl><ref target="#"></ref></bibl>
+          <bibl><ref target="#"></ref></bibl>
+          <bibl><ref target="#"></ref></bibl>
+        </listBibl>
+      </entry>
+        
+      </div>
+
+    </body>
+  </text>
+
+</TEI>
+
