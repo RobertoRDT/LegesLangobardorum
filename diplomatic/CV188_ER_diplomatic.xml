@@ -2662,6 +2662,7 @@
             <expan>mancipiu<ex>m</ex></expan>
           </choice></w>
           <w>alicu<lb n="15" xml:id="CV188_lb_002v_15"/>ius</w>
+          <w>pos<add place="above">t</add></w>
           <w>
             <choice>
               <abbr>alter<am><g ref="#utilde"/></am></abbr>
@@ -2779,15 +2780,18 @@
           <w><hi rend="cap">D</hi>e</w>
           <w>consilio</w>
           <w><choice>
-            <abbr>rusticanor<am><g ref="#utilde"/></am></abbr>
-            <expan>rusticanoru<ex>m</ex></expan>
+            <orig><abbr>rustiganor<am><g ref="#utilde"/></am></abbr></orig>
+            <reg><expan>rusticanoru<ex>m</ex></expan></reg>
           </choice></w>
         </ab>
         
         <ab corresp="#CV188_p_280">
-          <lb n="8" xml:id="CV188_lb_003r_08"/><label n="280"><num><w>CCXXX</w></num></label>
+          <lb n="8" xml:id="CV188_lb_003r_08"/><label n="280"><num><w>CCLXXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
-          <w>rusticanorum</w>
+          <w><choice>
+            <orig>rustiganorum</orig>
+            <reg>rusticanorum</reg>
+          </choice></w>
           <w>
             <choice>
               <abbr>siditi<lb rend="below align-right"/>on<am><g ref="#etilde"/></am></abbr>
@@ -3295,7 +3299,6 @@
           <w>quis</w>
           <w>animale</w>
           <w>alieno</w>
-          <w>aut</w>
           <lb n="16" xml:id="CV188_lb_004v_16"/><w>pro</w>
           <w>suo</w>
           <w>preserit</w><!-- CHECK segno di punteggiatura nel ms: high dot? -->
@@ -3328,7 +3331,7 @@
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>porcus</w>
-          <w><g ref="#openetlig"/></w>
+          <w>aut</w>
           <w>pecura</w>
           <lb n="20" xml:id="CV188_lb_004v_20"/><w>asto</w>
           <w>in</w>
@@ -4367,7 +4370,7 @@
           </choice></w>
           <w>sine</w>
           <w>regis</w>
-          <lb n="20" xml:id="CV188_lb_020r_20"/><w><choice><orig><abbr>consili<am><g ref="#utilde"/></am></abbr></orig><reg>consilio</reg>
+          <lb n="20" xml:id="CV188_lb_020r_20"/><w><choice><sic><abbr>consili<am><g ref="#utilde"/></am></abbr></sic><corr>consilio</corr>
             </choice></w>
           <w>et</w>
           <w>ex</w>
@@ -4385,9 +4388,7 @@
           <w>fuerit</w><reg>,</reg>
           <w>conponat</w>
           <w>unu<add place="above">s</add>
-          <lb n="2"/>quisque</w><reg>,</reg>
-          <w>ut</w>
-          <w>supra</w><reg>,</reg>
+          <lb n="2"/>quisque</w>
           <w><choice>
             <orig>soledos</orig>
             <reg>solidos</reg>
@@ -4532,7 +4533,7 @@
           <lb n="18"/><w>se</w>
           <w>purifica<c corresp="#v">u</c>erit</w><reg>,</reg>
           <w>sit</w>
-          <w>absolutus</w><!-- exsolutus -->
+          <w>absolutus</w><pc>:</pc><!-- exsolutus -->
           <lb n="19"/><w>a</w>
           <w>pena</w>
           <w><choice>
@@ -4628,11 +4629,11 @@
             <abbr>medie<lb n="8"/>tat<g ref="#etilde"/></abbr>
             <expan>medietate<ex>m</ex></expan>
           </choice></w>
-          <w>regi</w>
+          <w>regis</w>
           <w>et</w>
           <w>medietatem</w>
           <w><choice>
-            <abbr>par<g ref="#etilde"/><lb n="9"/>tibus</abbr><!-- CHECK sembra una tilde venuta male -->
+            <abbr>par<g ref="#etilde"/><lb n="9"/>tibus</abbr><!-- CHECK sembra ci sia un punto sopra la tilde -->
             <expan>pare<ex>n</ex><lb n="9"/>tibus</expan>
           </choice></w>
           <w>mortui</w><reg>;</reg>
@@ -4881,10 +4882,9 @@
           <w>quod</w>
           <w>pro</w>
           <w>mercedis</w>
-          <lb n="2"/><w><choice><sic>causa</sic><corr>causam</corr>
-          </choice></w>
+          <lb n="2"/><w>causam</w>
           <add hand="hand2" place="above"><w><choice><!-- CHECK hand -->
-            <sic>feci<g ref="#slong"/><g ref="#slong"/>e<g ref="#slong"/></sic>
+            <sic>feci<g ref="#slong"/><g ref="#slong"/>et</sic>
             <corr>fecit</corr></choice></w></add><reg>,</reg>
           <w>nam</w>
           <w>non</w>
