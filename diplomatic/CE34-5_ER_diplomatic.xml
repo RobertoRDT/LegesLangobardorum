@@ -254,6 +254,13 @@
           <mapping type="normalized">E</mapping>
         </glyph>
         
+        <char xml:id="lstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER L WITH STROKE"/>
+          <mapping type="codepoint">U+0142</mapping>
+          <mapping type="diplomatic">ł</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+
         <!-- Letter L ltailstrok -->
         <char xml:id="ltailstrok">
           <unicodeProp name="Name" value="LATIN SMALL LETTER LUM"/>
@@ -723,9 +730,9 @@
 
         <char xml:id="Pmacr">
           <unicodeProp name="Name" value="LATIN CAPITAL LETTER P WITH MACRON"/>
-          <mapping subtype="composed" type="codepoint">U+004E + U+0304</mapping>
-          <mapping type="diplomatic">M̄</mapping>
-          <mapping type="normalized">M</mapping>
+          <mapping subtype="composed" type="codepoint">U+0050 + U+0304</mapping>
+          <mapping type="diplomatic">P̄</mapping>
+          <mapping type="normalized">P</mapping>
         </char>
 
         <!-- aggiunto 2018-11-21 -->
@@ -748,6 +755,13 @@
           <mapping subtype="composed" type="codepoint">U+0074 + U+00AF</mapping>
           <mapping type="diplomatic">t̄</mapping>
           <mapping type="normalized">t</mapping>
+        </char>
+
+        <char xml:id="Tmacr">
+          <localProp name="Name" value="LATIN CAPITAL LETTER T WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+00AF</mapping>
+          <mapping type="diplomatic">T̄</mapping>
+          <mapping type="normalized">T</mapping>
         </char>
 
         <char xml:id="xmacr">
@@ -30169,7 +30183,7 @@
             </choice></w></persName>
             <w>si</w>
             <w><choice>
-              <abbr><am><g>q</g></am>s</abbr><!-- CHECK add proper <g> ref -->
+              <abbr><am><g ref="#qbardes"/></am>s</abbr>
               <expan>q<ex>ui</ex>s</expan>
             </choice></w>
             <w>res</w>
@@ -30178,20 +30192,19 @@
               <abbr><am><g ref="#imacr"/></am></abbr>
               <expan>i<ex>n</ex></expan>
             </choice></w>
-              <w><choice>
-                <abbr>cui<am><g ref="#cogon"/></am></abbr>
-                <expan>cui<ex>us</ex>c<ex>um</ex></expan>
-              </choice></w>
-            <w><choice>
-              <abbr>q<am>;</am></abbr>
-              <expan>q<ex>ue</ex></expan>
-            </choice></w>
+            <w>
+              <choice>
+                <abbr>cui<am><g ref="#usmod"/><g ref="#cogon"/></am>q<am>;</am></abbr>
+                <expan>cui<ex>us</ex>c<ex>um</ex>q<ex>ue</ex></expan>
+              </choice>
+            </w>
             <w>causa</w>
             <w>de</w>
             <w><choice>
-              <abbr><g ref="#cmacr"/>l<am><g ref="#imacr"/><g ref="#etlig"/></am></abbr><!-- CHECK add proper <g> refs also last one -->
-              <expan>c<ex>on</ex>li<ex>berto</ex></expan>
-            </choice></w>
+              <abbr><am><g ref="#cmacr"/></am>l<am><g ref="#imacr"/><g ref="#bstrok"/></am>to</abbr>
+              <expan>c<ex>on</ex>lib<ex>er</ex>to</expan>
+            </choice>
+            </w>
             <w>suo</w>
           </add>
         </p>
@@ -30586,7 +30599,12 @@
               <w>ipsa</w>
               <w>lege</w>
               <w>de</w>
-              <w>hac</w>
+              <w>
+                <choice>
+                  <orig>ac</orig>
+                  <reg>hac</reg>
+                </choice>
+              </w>
               <w>
                 <choice>
                   <abbr><am><g ref="#pbardes"/>dicta</am></abbr>
@@ -31123,7 +31141,7 @@
           <add resp="MT" hand="scribe_2" place="margin-left">
             <unclear reason="faded">
               <gap extent="3" unit="chars"/><w><choice>
-                <abbr><supplied reason="illegible" resp="alim-pi">man</supplied>c<g ref="#jnodotenl"/>piu<am><g ref="#umacr"/></am></abbr>
+                <abbr><supplied reason="illegible" resp="alim-pi">man</supplied>c<g ref="#jnodotenl"/>pi<am><g ref="#umacr"/></am></abbr>
                 <expan><supplied reason="illegible" resp="alim-pi">man</supplied>c<g ref="#jnodotenl"/>piu<ex>m</ex></expan>
               </choice></w>
               <w>
@@ -31146,7 +31164,7 @@
               <w>in</w>
               <w>ostes</w>
               <w><choice>
-                <abbr>fre<am><g ref="#qmacr"/></am></abbr><!-- CHECK correct <g> ref, not qmacr -->
+                <abbr>freq<am>;<g ref="#ttilde"/></am></abbr><!-- CHECK correct <g> ref: vertical tilde? -->
                 <expan>freq<ex>uenter</ex></expan>
               </choice></w>
               <w>fieri</w>
@@ -31438,7 +31456,7 @@
                 <expan>e<ex>st</ex></expan>
               </choice></w>
               <w><choice>
-                <abbr>nob<am><g ref="#bstrok"/></am></abbr><!-- CHECK correct ref -->
+                <abbr>no<am><g ref="#bstrok"/></am></abbr>
                 <expan>nob<ex>is</ex></expan>
               </choice></w>
               <w><choice>
@@ -31450,8 +31468,8 @@
                 <expan>aliq<ex>ui</ex></expan>
               </choice></w>
               <w><choice>
-                <abbr>ho<am><g ref="#mmacr"/>i</am></abbr><!-- CHECK correct ref -->
-                <expan>hom<ex>in</ex>i<ex>m</ex></expan>
+                <orig><abbr>o<am><g ref="#mmacr"/>i</am></abbr></orig><!-- CHECK correct ref -->
+                <reg><expan>hom<ex>in</ex>i<ex></ex></expan></reg>
               </choice></w>
               <w><choice>
                 <abbr><am><g ref="#pbardes"/></am>fidi</abbr>
@@ -31460,7 +31478,7 @@
               <w>u<g ref="#imacr"/>uix</w><!-- CHECK ??? -->
               <w>jurate</w>
               <w><choice>
-                <abbr>d<am><g ref="#rmacr"/></am></abbr><!-- CHECK correct ref -->
+                <abbr>d<am><g ref="#rmacr"/></am></abbr>
                 <expan>d<ex>icitu</ex>r</expan>
               </choice></w>
               <w>uix<g ref="#emacr"/></w><!-- CHECK ??? -->
@@ -31483,11 +31501,11 @@
               </choice></w>
               <w>quia</w>
               <w><choice>
-                <abbr><am><g ref="#cmacr"/></am>tinet</abbr><!-- CHECK last letter -->
+                <abbr><am><g ref="#cmacr"/></am>tinet</abbr>
                 <expan>c<ex>on</ex>tinet</expan>
               </choice></w>
               <w><choice>
-                <abbr>capt<am><g ref="#lstrok">ł</g></am></abbr>
+                <abbr>capt<am><g ref="#lstrok"/></am></abbr>
                 <expan>capit<ex>u</ex>l<ex>o</ex></expan>
               </choice></w>
               <w><choice>
@@ -31521,8 +31539,16 @@
             </choice></w>
             <w>collectulle<supplied>r</supplied>i<supplied>t</supplied></w><!-- CHECK am and new <g> instead of <supplied>? -->
             <w>ud<g ref="#rmacr"/>u<g ref="#emacr"/></w><!-- CHECK ??? -->
-            <w>oex</w><!-- CHECK ??? -->
-            <w><g ref="#cmacr"/></w><!-- CHECK ??? -->
+            <w><choice>
+              <abbr>o<am><g ref="#rum"/></am></abbr>
+              <expan>o<ex>rum</ex></expan>
+            </choice></w><!-- CHECK ??? -->
+            <w>
+              <choice>
+                <abbr><am><g ref="#cmacr"/></am></abbr>
+                <expan>c<ex>um</ex></expan>
+              </choice>
+            </w>
             <w><choice>
               <abbr>ann<am><g ref="#umacr"/></am></abbr>
               <expan>annu<ex>m</ex></expan>
@@ -31616,7 +31642,7 @@
             <w>femina</w>
             <w>langobarda</w>
             <w>et</w><!-- CHECK last letter -->
-            <w><choice>
+            <w><choice><!-- CHECK antequam parola unica per Eleonora -->
               <abbr><am><g ref="#amacr"/></am>te</abbr>
               <expan>a<ex>n</ex>te</expan>
             </choice></w>
@@ -32252,7 +32278,7 @@
             <w>lex</w>
             <w>
               <choice>
-                <abbr>q<am>;</am></abbr>
+                <abbr><am><g ref="#qbardes"/>;</am></abbr><!-- CHECK il ; c'è -->
                 <expan>q<ex>ui</ex></expan>
               </choice>
             </w>
@@ -33237,8 +33263,8 @@
               <w>cujus</w>
               <w>sepe</w>
               <w><choice>
-                <abbr><am><g ref="#emacr"/></am></abbr>
-                <expan>e<ex>sse</ex></expan>
+                <abbr><am><g ref="#emacr"/><g ref="#emacr"/></am></abbr>
+                <expan>e<ex>ss</ex>e</expan>
               </choice></w>
               <w>clausura</w>
               <w><choice>
@@ -36836,7 +36862,7 @@
                 <expan>co<ex>n</ex>p<ex>onat</ex></expan>
               </choice>
             </w>
-            <w>ipsu-</w><w>
+            <w>
               <choice>
                 <abbr>ips<am><g ref="#umacr"/></am></abbr>
                 <expan>ipsu<ex>m</ex></expan>
@@ -37966,7 +37992,7 @@
             <w>alii</w>
             <w>uuadia</w>
             <w>dederit</w>
-            <w><g ref="#openetlig"/></w>
+            <!-- <w><g ref="#openetlig"/></w> CHECK -->
             <w>et</w>
             <w>eam</w>
             <w>recipere</w>
@@ -38551,7 +38577,10 @@
           <w>suos</w>
           <w>se</w>
           <add hand="scribe_2" place="margin-left">
-            <w>c</w>
+            <w><choice>
+		<abbr><am><g ref="#cmacr"/></am></abbr>
+		<expan>c<ex>um</ex></expan>
+	    </choice></w>
             <w><c corresp="#v">u</c>inserint</w>
             <w>N</w>
             <w>si</w>
@@ -38559,12 +38588,18 @@
             <w>fueri</w>
             <w>iurare</w>
             <w>aut</w>
-            <w>si</w>
+            <w>si</w><!--CHECK correzione proposta -->
             <w>ipse</w>
             <w>ausilias</w>
             <w>de</w>
-            <w>sacramtalis</w>
-            <w>ei</w>
+            <w><choice>
+		<abbr>sacra<am><g ref="#mmacr"/></am>talis</abbr>
+		<expan>sacram<ex>en</ex>talis</expan>
+            </choice></w>
+            <w><choice>
+              <abbr>ei<am><g ref="#usmod"/></am></abbr>
+              <expan>ei<ex>us</ex></expan>
+            </choice></w>
           </add>
           <w>sub</w>
           <w>traxerit</w>
@@ -40936,7 +40971,7 @@
             <w>omo</w>
             <w>
               <choice>
-                <abbr><am><g ref="#qmacr"/></am></abbr>
+                <abbr><am><g ref="#qbardes"/></am></abbr>
                 <expan>q<ex>ui</ex></expan>
               </choice>
             </w>
@@ -40944,7 +40979,8 @@
             <w>pintus</w>
             <w><g ref="#openetlig"/></w>
             <w>ceperi<supplied>t</supplied></w>
-            <unclear><w>et</w><w>accepibi<supplied>t</supplied></w></unclear>
+            <unclear><w>et</w>
+            <w>accepibi<supplied>t</supplied></w></unclear>
             <w>plagas</w>
             <w>non</w>
             <w>conponatur</w>
