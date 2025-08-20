@@ -1286,6 +1286,14 @@
           <mapping type="normalized">ut</mapping>
         </glyph>
 
+        <!-- aggiunto 2025-08-20 -->
+        <char xml:id="trlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE TR"/>
+          <mapping type="codepoint">U+EED8</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">tr</mapping>
+        </char>
+        
         <!-- aggiunto 2019-03-12 -->
         <char xml:id="Mtilde">
           <unicodeProp name="Name" value="LATIN CAPITAL LETTER M WITH TILDE"/>

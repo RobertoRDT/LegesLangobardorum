@@ -654,10 +654,10 @@
         </entry>
         
         <!-- ########################### -->
-        <!-- #########  ALDIO  ######### -->
+        <!-- #########  ALDIUS  ######### --><!-- Changed from "aldio", see Francovich Onesti RRDT -->
         <!-- ########################### -->
         
-        <entry xml:id="aldio">
+        <entry xml:id="aldius">
           <form type="lemma">
             <orth></orth>
           </form>
