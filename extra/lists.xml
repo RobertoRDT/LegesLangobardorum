@@ -1171,8 +1171,8 @@
         <!-- aggiunto 2018-12-12 -->
         <char xml:id="tridotleft">
           <unicodeProp name="Name" value="THREE DOT PUNCTUATION"/>
-          <mapping type="codepoint">2056</mapping>
-          <mapping type="diplomatic">:.</mapping>
+          <mapping type="codepoint">U+2056</mapping>
+          <mapping type="diplomatic">⁖</mapping>
           <mapping type="normalized">.</mapping>
         </char>
 
@@ -1189,6 +1189,14 @@
           <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH TILDE"/>
           <mapping type="codepoint">U+00F5</mapping>
           <mapping type="diplomatic">õ</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+
+        <!-- aggiunto 2025-08-27 -->
+        <char xml:id="omacrdot">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH MACRON"/>
+          <mapping subtype="composed"  type="codepoint">U+006F + U+304 + U+0307</mapping>
+          <mapping type="diplomatic">ō̇</mapping>
           <mapping type="normalized">o</mapping>
         </char>
 
