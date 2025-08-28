@@ -1192,9 +1192,25 @@
           <mapping type="normalized">o</mapping>
         </char>
 
+        <!-- aggiunto 2025-08-28 -->
+        <char xml:id="amacrdot">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER A WITH MACRON AND DOT ABOVE"/>
+          <mapping subtype="composed"  type="codepoint">U+0061 + U+304 + U+0307</mapping>
+          <mapping type="diplomatic">ā̇</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+        
+        <!-- aggiunto 2025-08-28 -->
+        <char xml:id="emacrdot">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER E WITH MACRON AND DOT ABOVE"/>
+          <mapping subtype="composed"  type="codepoint">U+0065 + U+304 + U+0307</mapping>
+          <mapping type="diplomatic">ē̇</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+        
         <!-- aggiunto 2025-08-27 -->
         <char xml:id="omacrdot">
-          <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH MACRON"/>
+          <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH MACRON AND DOT ABOVE"/>
           <mapping subtype="composed"  type="codepoint">U+006F + U+304 + U+0307</mapping>
           <mapping type="diplomatic">ō̇</mapping>
           <mapping type="normalized">o</mapping>
