@@ -664,6 +664,33 @@
     </fileDesc>
 
     <encodingDesc>
+
+      <projectDesc>
+        <p>Progetto PRIN 2022 PNRR - Missione 4 “Istruzione e Ricerca” del Piano Nazionale di Ripresa e Resilienza;
+          componente C2 – investimento 1.1, Fondo per il Programma Nazionale di Ricerca e Progetti di Rilevante
+          Interesse Nazionale (PRIN), dal titolo <title>A digital scholarly edition of the "Leges Langobardorum": social
+            memory, historical legacy and valorisation of cultural heritage</title> - CUP H53D23009340001 - finanziato
+          dal Bando PRIN 2022 PNRR - D.D. n. 1409 del 14/09/2022.</p>
+        
+        <p>Il progetto si compone di due unità di ricerca:
+          
+          <list>
+            
+            <item>Unità di Ca' Foscari Venezia: prof.ssa Marina Buzzoni (PI), prof.ssa Martina Venuti, prof. Franz Fischer</item>
+            
+            <item>Unità di Torino: prof. Roberto Rosselli Del Turco, prof. Ermanno Malaspina</item>
+            
+          </list>
+        </p>
+        
+      </projectDesc>
+      
+      <editorialDecl>
+        <hyphenation eol="all">
+          <p>Physical line breaks are preserved in the encoded text.</p>
+        </hyphenation>
+      </editorialDecl>
+      
       <charDecl>
 
         <!-- regular letters -->
