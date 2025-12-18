@@ -1256,6 +1256,16 @@
 
         <!-- ligatures -->
 
+        <!-- aggiunto 2051-12-18 -->
+        <!-- CHECK non sembra esserci supporto nei font per questo carattere, nome temporaneo v. MUFI nscapslonglig -->
+        <!-- https://mufi.info/q.php?p=mufi/chars/unichar/61141 -->
+        <glyph xml:id="nslig">
+          <unicodeProp name="Name" value="LATIN SMALL N LONG S LIGATURE"/>
+          <mapping type="ligature">U+006E + U+017F</mapping>
+          <mapping type="diplomatic">nſ</mapping>
+          <mapping type="normalized">ns</mapping>
+        </glyph>
+        
         <glyph xml:id="uslig">
           <unicodeProp name="Name" value="LATIN SMALL LIGATURE US"/>
           <mapping type="ligature">U+0075 + U+017F</mapping>
