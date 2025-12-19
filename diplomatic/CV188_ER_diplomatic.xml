@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
@@ -651,7 +652,9 @@
          altre forme utilizzate: <lb rend="below"/>, <add place="below"/>
          solo per la diplomatica?
          CSS per gestire la posizione?
-         
+    
+    - aldium regolarizzare in haldium? uniformità tra testimoni, v. CS 730, però Onesti considera entrambe le forme 
+    
      GLOBAL
      
      - visualizzare integrazioni con <supplied> anche nella diplomatica o no?

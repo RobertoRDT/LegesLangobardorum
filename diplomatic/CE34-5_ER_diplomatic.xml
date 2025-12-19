@@ -845,6 +845,7 @@
     - <g ref="#eogon"/> non è un segno di abbreviazione, correggere se è usato in <abbr>/<expan>
     - controllare tutti i <g ref="#arbar"/>
     - rmacr manca nella versione di Junicode usata in EVT 2 >>> chiedere a Chiara
+    - sostituiti tutti i <am><g ref="#twodot"/></am> con <am>;</am> ma in alcuni casi potrebbe essere ':' CHECK 'EM ALL
     
     -->
 
@@ -2397,7 +2398,7 @@
           <w>anno</w>
           <w>
             <choice><!-- CHECK -->
-              <sic><abbr>aetatis<am><g ref="#twodot"/></am></abbr></sic>
+              <sic><abbr>aetatis<am>;</am></abbr></sic>
               <corr resp="rrdt"><expan>aetatisq<ex>ue</ex></expan></corr>
             </choice>
           </w>
@@ -2570,7 +2571,7 @@
           <w>unum</w>
           <w>
             <choice>
-              <abbr>quemq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quemq<am>;</am></abbr>
               <expan>quemq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -2594,7 +2595,7 @@
           <lb n="19" xml:id="CE34-5_lb_057v_19"/>
           <w>
             <choice>
-              <abbr>suosq<am><g ref="#twodot"/></am></abbr>
+              <abbr>suosq<am>;</am></abbr>
               <expan>suosq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -3206,7 +3207,7 @@
           </w>
           <w>
             <choice>
-              <abbr>qu<am><g ref="#emacr"/></am>c<am><g ref="#umacr"/></am>q<am><g ref="#twodot"/></am></abbr>
+              <abbr>qu<am><g ref="#emacr"/></am>c<am><g ref="#umacr"/></am>q<am>;</am></abbr>
               <expan>que<ex>m</ex>cu<ex>m</ex>q<ex>ue</ex></expan>
             </choice>
           </w>
@@ -5058,7 +5059,7 @@
           <w>filius</w>
           <w>
             <choice>
-              <abbr>cui<lb n="15" xml:id="CE34-5_lb_061v_15_abbr"/><seg rend="indent-50">cumq<am><g ref="#twodot"/></am></seg></abbr>
+              <abbr>cui<lb n="15" xml:id="CE34-5_lb_061v_15_abbr"/><seg rend="indent-50">cumq<am>;</am></seg></abbr>
               <expan>cui<lb n="15" xml:id="CE34-5_lb_061v_15_expan"/><seg rend="indent-50">cumq<ex>ue</ex></seg></expan>
             </choice>
           </w>
@@ -5607,7 +5608,7 @@
           <w>puella</w>
           <w>
             <choice>
-              <abbr>absq<am><g ref="#twodot"/></am></abbr>
+              <abbr>absq<am>;</am></abbr>
               <expan>absq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -5788,7 +5789,7 @@
           <w><g ref="#openetlig"/></w>
           <w>
             <choice>
-              <abbr><c corresp="#v">u</c>inditionib<am><g ref="#twodot"/></am></abbr>
+              <abbr><c corresp="#v">u</c>inditionib<am>;</am></abbr>
               <expan>vinditionib<ex>us</ex></expan>
             </choice>
           </w>
@@ -6310,7 +6311,7 @@
           <w>quale</w>
           <w>
             <choice>
-              <abbr>c<am><g ref="#umacr"/></am>q<am><g ref="#twodot"/></am></abbr>
+              <abbr>c<am><g ref="#umacr"/></am>q<am>;</am></abbr>
               <expan>cu<ex>m</ex>q<ex>ue</ex></expan>
             </choice>
           </w>
@@ -8303,7 +8304,7 @@
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
-              <abbr>qual<am><g ref="#emacr"/></am>cumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>qual<am><g ref="#emacr"/></am>cumq<am>;</am></abbr>
               <expan>quale<ex>m</ex>cumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -8563,7 +8564,7 @@
           </w>
           <w>
             <choice>
-              <abbr>unusquisq<am><g ref="#twodot"/></am></abbr>
+              <abbr>unusquisq<am>;</am></abbr>
               <expan>unusquisq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -8831,7 +8832,7 @@
           <w>fuerit</w>
           <w>
             <choice>
-              <abbr>unus<lb n="7" xml:id="CE34-5_lb_067v_07_abbr"/>quisq<am><g ref="#twodot"/></am></abbr>
+              <abbr>unus<lb n="7" xml:id="CE34-5_lb_067v_07_abbr"/>quisq<am>;</am></abbr>
               <expan>unus<lb n="7" xml:id="CE34-5_lb_067v_07_expan"/>quisq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -9179,7 +9180,7 @@
           <w>ex</w>
           <w>
             <choice>
-              <abbr>baronib<am><g ref="#twodot"/></am></abbr>
+              <abbr>baronib<am>;</am></abbr>
               <expan>baronib<ex>us</ex></expan>
             </choice>
           </w>
@@ -9252,7 +9253,7 @@
           <w>damno</w>
           <w>
             <choice>
-              <abbr>cuicumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>cuicumq<am>;</am></abbr>
               <expan>cuicumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -9327,7 +9328,7 @@
           <lb n="13" xml:id="CE34-5_lb_068r_13"/>
           <w>
             <choice>
-              <abbr>quemcumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quemcumq<am>;</am></abbr>
               <expan>quemcumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -9340,7 +9341,7 @@
           <w>aut</w>
           <w>
             <choice>
-              <abbr>qualecumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>qualecumq<am>;</am></abbr>
               <expan>qualecumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -9406,7 +9407,7 @@
           </w>
           <w>
             <choice>
-              <abbr>quemc<am><g ref="#umacr"/></am>q<am><g ref="#twodot"/></am></abbr>
+              <abbr>quemc<am><g ref="#umacr"/></am>q<am>;</am></abbr>
               <expan>quemc<ex>um</ex>q<ex>ue</ex></expan>
             </choice>
           </w>
@@ -9418,7 +9419,7 @@
           <w>exercitum</w>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -9481,7 +9482,7 @@
           <w>sunt</w>
           <w>
             <choice>
-              <abbr>unusquisq<am><g ref="#twodot"/></am></abbr>
+              <abbr>unusquisq<am>;</am></abbr>
               <expan>unusquisq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -9659,7 +9660,7 @@
           <w>solat<g ref="#jnodotenl"/>a</w>
           <w>
             <choice>
-              <abbr>unusquisq<am><g ref="#twodot"/></am></abbr>
+              <abbr>unusquisq<am>;</am></abbr>
               <expan>unusquisq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -10376,7 +10377,7 @@
           <w>si</w>
           <w>
             <choice>
-              <abbr>qualecumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>qualecumq<am>;</am></abbr>
               <expan>qualecumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -11182,7 +11183,7 @@
           <w>liga<c corresp="#v">u</c>erit</w>
           <w>
             <choice>
-              <abbr>absq<am><g ref="#twodot"/></am></abbr>
+              <abbr>absq<am>;</am></abbr>
               <expan>absq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -12201,7 +12202,7 @@
           <lb n="26" xml:id="CE34-5_lb_071r_26"/>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -15255,7 +15256,7 @@
           <w>uero</w>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -15308,7 +15309,7 @@
           <w>rusticanos</w>
           <w>
             <choice>
-              <abbr>adq<am><g ref="#twodot"/></am></abbr>
+              <abbr>adq<am>;</am></abbr>
               <expan>adq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -15382,7 +15383,7 @@
           <w>rusicanos</w>
           <w>
             <choice>
-              <abbr>atq<am><g ref="#twodot"/></am></abbr>
+              <abbr>atq<am>;</am></abbr>
               <expan>atq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -15458,7 +15459,7 @@
           <w>dum</w>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -16041,7 +16042,7 @@
           </choice></w>
           <w>
             <choice>
-              <abbr>homineq<am><g ref="#twodot"/></am></abbr>
+              <abbr>homineq<am>;</am></abbr>
               <expan>homineq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -16107,7 +16108,7 @@
           <w>arborem</w>
           <w>
             <choice>
-              <abbr>quanticumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quanticumq<am>;</am></abbr>
               <expan>quanticumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -16184,7 +16185,7 @@
           <lb n="23" xml:id="CE34-5_lb_075v_23"/>
           <w>
             <choice>
-              <abbr>quanticumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quanticumq<am>;</am></abbr>
               <expan>quanticumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -16678,7 +16679,7 @@
           <w>suos</w>
           <w>
             <choice>
-              <abbr>cuiuscumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>cuiuscumq<am>;</am></abbr>
               <expan>cuiuscumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -17314,7 +17315,7 @@
           <w>reliquerit</w>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -17723,7 +17724,7 @@
           <lb n="16" xml:id="CE34-5_lb_077v_16"/>
           <w>
             <choice>
-              <abbr>quemcumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quemcumq<am>;</am></abbr>
               <expan>quemcumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -17766,7 +17767,7 @@
           <lb n="19" xml:id="CE34-5_lb_077v_19"/>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -17812,7 +17813,7 @@
           <w>nominati</w>
           <w>
             <choice>
-              <abbr>unicuiq<am><g ref="#twodot"/></am></abbr>
+              <abbr>unicuiq<am>;</am></abbr>
               <expan>unicuiq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -17967,7 +17968,7 @@
           </w>
           <w>
             <choice>
-              <abbr>quanticumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quanticumq<am>;</am></abbr>
               <expan>quanticumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -18010,7 +18011,7 @@
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
-              <abbr>quinq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quinq<am>;</am></abbr>
               <expan>quinq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -18854,7 +18855,7 @@
             <lb n="21" xml:id="CE34-5_lb_079r_21"/>
             <w>
               <choice>
-                <abbr>quicumq<am><g ref="#twodot"/></am></abbr>
+                <abbr>quicumq<am>;</am></abbr>
                 <expan>quicumq<ex>ue</ex></expan>
               </choice>
             </w>
@@ -19228,7 +19229,7 @@
           <w>antea</w>
           <w>
             <choice>
-              <abbr>absq<am><g ref="#twodot"/></am></abbr>
+              <abbr>absq<am>;</am></abbr>
               <expan>absq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -19510,7 +19511,7 @@
           <w>patre</w>
           <w>
             <choice>
-              <abbr>cuicumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>cuicumq<am>;</am></abbr>
               <expan>cuicumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -20079,7 +20080,7 @@
           </w>
           <w>
             <choice>
-              <abbr>cuicumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>cuicumq<am>;</am></abbr>
               <expan>cuicumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -20292,7 +20293,7 @@
           <w>aut</w>
           <w>
             <choice>
-              <abbr>quicumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quicumq<am>;</am></abbr>
               <expan>quicumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -21076,7 +21077,7 @@
           <w>ad</w>
           <w>
             <choice>
-              <abbr>q<am><g ref="#twodot"/></am></abbr>
+              <abbr>q<am>;</am></abbr>
               <expan>q<ex>uem</ex></expan>
             </choice>
           </w>
@@ -21360,7 +21361,7 @@
           </gloss>
           <w>
             <choice>
-              <abbr>neq<am><g ref="#twodot"/></am></abbr>
+              <abbr>neq<am>;</am></abbr>
               <expan>neq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -21379,7 +21380,7 @@
           </gloss>
           <w>
             <choice>
-              <abbr>neq<am><g ref="#twodot"/></am></abbr><!-- CHECK wrong g -->
+              <abbr>neq<am>;</am></abbr><!-- CHECK wrong g -->
               <expan>neq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -22061,7 +22062,7 @@
           <w>ad</w>
           <w>
             <choice>
-              <abbr>q<am><g ref="#twodot"/></am></abbr>
+              <abbr>q<am>;</am></abbr>
               <expan>q<ex>uem</ex></expan>
             </choice>
           </w>
@@ -22161,7 +22162,7 @@
           <w>ad</w>
           <w>
             <choice>
-              <abbr>q<am><g ref="#twodot"/></am></abbr>
+              <abbr>q<am>;</am></abbr>
               <expan>q<ex>uem</ex></expan>
             </choice>
           </w>
@@ -22339,7 +22340,7 @@
           <w>ad</w>
           <w>
             <choice>
-              <abbr>q<am><g ref="#twodot"/></am></abbr>
+              <abbr>q<am>;</am></abbr>
               <expan>q<ex>uem</ex></expan>
             </choice>
           </w>
@@ -24549,7 +24550,7 @@
           <lb n="15" xml:id="CE34-5_lb_086r_15"/>
           <w>
             <choice>
-              <abbr>quicumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quicumq<am>;</am></abbr>
               <expan>quicumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -24796,7 +24797,7 @@
           </choice></w>
           <w>
             <choice>
-              <abbr>absq<am><g ref="#twodot"/></am></abbr>
+              <abbr>absq<am>;</am></abbr>
               <expan>absq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -24987,7 +24988,7 @@
           <w>aldius</w>
           <w>
             <choice>
-              <abbr>cuiuscumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>cuiuscumq<am>;</am></abbr>
               <expan>cuiuscumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -25067,7 +25068,7 @@
           <w>illa</w>
           <w>
             <choice>
-              <abbr>absq<am><g ref="#twodot"/></am></abbr>
+              <abbr>absq<am>;</am></abbr>
               <expan>absq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -25269,7 +25270,7 @@
           <w>aldius</w>
           <w>
             <choice>
-              <abbr>cuiusc<am><g ref="#umacr"/></am>q<am><g ref="#twodot"/></am></abbr>
+              <abbr>cuiusc<am><g ref="#umacr"/></am>q<am>;</am></abbr>
               <expan>cuiusc<ex>m</ex>q<ex>ue</ex></expan>
             </choice>
           </w>
@@ -25345,7 +25346,7 @@
           <w>ancilla</w>
           <w>
             <choice>
-              <abbr>cuiuscumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>cuiuscumq<am>;</am></abbr>
               <expan>cuiuscumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -25614,7 +25615,7 @@
           <w>prestitum</w>
           <w>
             <choice>
-              <abbr>quicumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quicumq<am>;</am></abbr>
               <expan>quicumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -26445,7 +26446,7 @@
           <w><g ref="#openetlig"/></w>
           <w>
             <choice>
-              <abbr>quinq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quinq<am>;</am></abbr>
               <expan>quinq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -26608,7 +26609,7 @@
           <w>annos</w>
           <w>
             <choice>
-              <abbr>quinq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quinq<am>;</am></abbr>
               <expan>quinq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -26712,7 +26713,7 @@
           </w>
           <w>
             <choice>
-              <abbr>ubicumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>ubicumq<am>;</am></abbr>
               <expan>ubicumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -27306,7 +27307,7 @@
           <w>ser<c corresp="#v">u</c>us</w>
           <w>
             <choice>
-              <abbr>cuius<lb n="19" xml:id="CE34-5_lb_089r_19_abbr"/>cumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>cuius<lb n="19" xml:id="CE34-5_lb_089r_19_abbr"/>cumq<am>;</am></abbr>
               <expan>cuius<lb n="19" xml:id="CE34-5_lb_089r_19_expan"/>cumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -27328,7 +27329,7 @@
           <w>sui</w>
           <w>
             <choice>
-              <abbr>neq<am><g ref="#twodot"/></am></abbr>
+              <abbr>neq<am>;</am></abbr>
               <expan>neq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -27336,7 +27337,7 @@
           <lb n="20" xml:id="CE34-5_lb_089r_20"/>
           <w>
             <choice>
-              <abbr>neq<am><g ref="#twodot"/></am></abbr>
+              <abbr>neq<am>;</am></abbr>
               <expan>neq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -27344,7 +27345,7 @@
           <w>nec</w>
           <w>
             <choice>
-              <abbr>quacumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quacumq<am>;</am></abbr>
               <expan>quacumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -27491,7 +27492,7 @@
           <w>sed</w>
           <w>
             <choice>
-              <abbr>neq<am><g ref="#twodot"/></am></abbr>
+              <abbr>neq<am>;</am></abbr>
               <expan>neq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -28071,7 +28072,7 @@
           <w><g ref="#openetlig"/></w>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -28452,7 +28453,7 @@
           <lb n="15" xml:id="CE34-5_lb_090v_15"/>
           <w>
             <choice>
-              <abbr>quisq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quisq<am>;</am></abbr>
               <expan>quisq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -28639,7 +28640,7 @@
           <w>nisi</w>
           <w>
             <choice>
-              <abbr>queq<am><g ref="#twodot"/></am></abbr>
+              <abbr>queq<am>;</am></abbr>
               <expan>queq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -28666,7 +28667,7 @@
           <w>dum</w>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -28769,7 +28770,7 @@
           <w>faciat</w>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -28998,7 +28999,7 @@
           <w>tunc</w>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -29042,7 +29043,7 @@
           </term>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -29103,7 +29104,7 @@
           <w>furto</w>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -29691,7 +29692,7 @@
           <lb n="2" xml:id="CE34-5_lb_092r_02"/>
           <w>
             <choice>
-              <abbr>cumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>cumq<am>;</am></abbr>
               <expan>cumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -29831,7 +29832,7 @@
           <w>aut</w>
           <w>
             <choice>
-              <abbr>quicumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quicumq<am>;</am></abbr>
               <expan>quicumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -31851,7 +31852,7 @@
           <w><g ref="#openetlig"/></w>
           <w>
             <choice>
-              <abbr>quicumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quicumq<am>;</am></abbr>
               <expan>quicumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -31934,7 +31935,7 @@
           <w>concil<g ref="#jnodotenl"/>o</w>
           <w>
             <choice>
-              <abbr>unusquisq<am><g ref="#twodot"/></am></abbr>
+              <abbr>unusquisq<am>;</am></abbr>
               <expan>unusquisq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -31975,7 +31976,7 @@
           </w>
           <w>
             <choice>
-              <abbr>quacumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quacumq<am>;</am></abbr>
               <expan>quacumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -32000,7 +32001,7 @@
           </w>
           <w><g ref="#openetlig"/></w><w>
             <choice>
-              <abbr>cuicumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>cuicumq<am>;</am></abbr>
               <expan>cuicumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -32077,7 +32078,7 @@
           <w>unus</w>
           <w>
             <choice>
-              <abbr>quisq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quisq<am>;</am></abbr>
               <expan>quisq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -32656,7 +32657,7 @@
           <w>si</w>
           <w>
             <choice>
-              <abbr>qualecumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>qualecumq<am>;</am></abbr>
               <expan>qualecumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -32910,7 +32911,7 @@
           <w>si</w>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -33534,7 +33535,7 @@
           <w>puteus</w>
           <w>
             <choice>
-              <abbr>aq<am><g ref="#twodot"/></am></abbr>
+              <abbr>aq<am>;</am></abbr>
               <expan>aq<ex>uae</ex></expan>
             </choice>
           </w>
@@ -34094,7 +34095,7 @@
           <w>sagita<c corresp="#v">u</c>it</w>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -34366,7 +34367,7 @@
           <w>ille</w>
           <w>
             <choice>
-              <abbr>quicumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quicumq<am>;</am></abbr>
               <expan>quicumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -35485,7 +35486,7 @@
           <w>aut</w>
           <w>
             <choice>
-              <abbr>ubi<lb n="10" xml:id="CE34-5_lb_098r_10_abbr"/>cumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>ubi<lb n="10" xml:id="CE34-5_lb_098r_10_abbr"/>cumq<am>;</am></abbr>
               <expan>ubi<lb n="10" xml:id="CE34-5_lb_098r_10_expan"/>cumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -35628,7 +35629,7 @@
           <w>qualiter</w>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -35844,7 +35845,7 @@
           <w>circina<c corresp="#v">u</c>erit</w>
           <w>
             <choice>
-              <abbr>ips<am><g ref="#umacr"/></am>q<am><g ref="#twodot"/></am></abbr>
+              <abbr>ips<am><g ref="#umacr"/></am>q<am>;</am></abbr>
               <expan>ipsu<ex>m</ex>q<ex>ue</ex></expan>
             </choice>
           </w>
@@ -36128,7 +36129,7 @@
           </choice></w>
           <w>
             <choice>
-              <abbr>ips<am><g ref="#umacr"/></am>q<am><g ref="#twodot"/></am></abbr>
+              <abbr>ips<am><g ref="#umacr"/></am>q<am>;</am></abbr>
               <expan>ipsu<ex>m</ex>q<ex>ue</ex></expan>
             </choice>
           </w>
@@ -36203,7 +36204,7 @@
           <w>conuento</w>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -38456,7 +38457,7 @@
           <w>quia</w>
           <w>
             <choice>
-              <abbr>neq<am><g ref="#twodot"/></am></abbr>
+              <abbr>neq<am>;</am></abbr>
               <expan>neq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -38464,7 +38465,7 @@
           <lb n="15" xml:id="CE34-5_lb_101v_15"/>
           <w>
             <choice>
-              <abbr>neq<am><g ref="#twodot"/></am></abbr>
+              <abbr>neq<am>;</am></abbr>
               <expan>neq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -38638,7 +38639,7 @@
           <w>pro</w>
           <w>
             <choice>
-              <abbr>quacumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quacumq<am>;</am></abbr>
               <expan>quacumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -38888,7 +38889,7 @@
           <w>debitore</w>
           <w>
             <choice>
-              <abbr>atq<am><g ref="#twodot"/></am></abbr>
+              <abbr>atq<am>;</am></abbr>
               <expan>atq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -39004,7 +39005,7 @@
           <w>ad<c corresp="#v">u</c>enerint</w>
           <w>
             <choice>
-              <abbr>seq<am><g ref="#twodot"/></am></abbr>
+              <abbr>seq<am>;</am></abbr>
               <expan>seq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -39069,7 +39070,7 @@
           <w>potestas</w>
           <w>
             <choice>
-              <abbr>absq<am><g ref="#twodot"/></am></abbr>
+              <abbr>absq<am>;</am></abbr>
               <expan>absq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -39080,7 +39081,7 @@
           <w>suas</w>
           <w>
             <choice>
-              <abbr>cui<del>us</del>cumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>cui<del>us</del>cumq<am>;</am></abbr>
               <expan>cui<del>us</del>cumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -39265,7 +39266,7 @@
           <w>causas</w>
           <w>
             <choice>
-              <abbr>usq<am><g ref="#twodot"/></am></abbr>
+              <abbr>usq<am>;</am></abbr>
               <expan>usq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -39318,7 +39319,7 @@
           <w>al<g ref="#jnodotenl"/>as</w>
           <w>
             <choice>
-              <abbr>q<am><g ref="#twodot"/></am></abbr>
+              <abbr>q<am>;</am></abbr>
               <expan>q<ex>ue</ex></expan>
             </choice>
           </w>
@@ -39859,7 +39860,7 @@
           <w>aut</w>
           <w>
             <choice>
-              <abbr>quicumq<am><g ref="#twodot"/></am></abbr>
+              <abbr>quicumq<am>;</am></abbr>
               <expan>quicumq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -39896,7 +39897,7 @@
             <w>illi</w>
             <w>
               <choice>
-                <abbr>quic<am><g ref="#umacr"/></am>q<am><g ref="#twodot"/></am></abbr>
+                <abbr>quic<am><g ref="#umacr"/></am>q<am>;</am></abbr>
                 <expan>quicu<ex>m</ex>q<ex>ue</ex></expan>
               </choice>
             </w>
@@ -41230,7 +41231,7 @@
           <w>consil<g ref="#jnodotenl"/>o</w>
           <w>
             <choice>
-              <abbr>pariq<am><g ref="#twodot"/></am></abbr>
+              <abbr>pariq<am>;</am></abbr>
               <expan>pariq<ex>ue</ex></expan>
             </choice>
           </w>
@@ -41245,7 +41246,7 @@
           <w>iudices</w>
           <w>
             <choice>
-              <abbr>cunctoq<am><g ref="#twodot"/></am></abbr>
+              <abbr>cunctoq<am>;</am></abbr>
               <expan>cuntoq<ex>ue</ex></expan>
             </choice>
           </w>
