@@ -55,7 +55,6 @@
           <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
         </availability>
       </publicationStmt>
-
       <sourceDesc>
         <msDesc>
           <msIdentifier>
@@ -71,7 +70,7 @@
           </msIdentifier>
 
           <msContents>
-            <summary></summary>
+            <summary/>
             <textLang mainLang="lat">The primary language in this manuscript is Latin, with a few isolated Langobardic
               words.</textLang>
 
@@ -2808,7 +2807,7 @@
           <w>mancipii</w><pc>:</pc>
         </ab>
 
-        <ab corresp="#CV188_p_093v_276">
+        <ab corresp="#CV188_p_276">
           <lb n="3" xml:id="CV188_lb_003r_03"/><label n="276"><num value="276"><w>CCLXX<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -2883,7 +2882,7 @@
           <w>finita</w>
         </ab>
         
-        <ab corresp="#CV188_p_094v_282">
+        <ab corresp="#CV188_p_282">
           <lb n="10" xml:id="CV188_lb_003r_10"/><label n="282"><num value="282"><w>CCLXXXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -2909,7 +2908,7 @@
           <w>orto</w>
         </ab>
         
-        <ab corresp="#CV188_p_094v_285">
+        <ab corresp="#CV188_p_285">
           <lb n="13" xml:id="CV188_lb_003r_13"/><label n="285"><num value="285"><w>CCLXXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <!-- CE 34-5
@@ -2922,44 +2921,44 @@
           <w>sepe</w>
         </ab>
         
-        <ab corresp="#CV188_p_094v_286">
+        <ab corresp="#CV188_p_286">
           <lb n="14" xml:id="CV188_lb_003r_14"/><label n="286"><num value="286"><w>CCLXXX<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>axeg<space quantity="1" unit="char"/>ias</w>
         </ab>
         
-        <ab corresp="#CV188_p_094v_287">
+        <ab corresp="#CV188_p_287">
           <lb n="15" xml:id="CV188_lb_003r_15"/><label n="287"><num value="287"><w>CCLXXX<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>s<add place="above" rend="small">e</add>pe</w>
           <w>stantaria</w>
         </ab>
         
-        <ab corresp="#CV188_p_094v_288">
+        <ab corresp="#CV188_p_288">
           <lb n="16" xml:id="CV188_lb_003r_16"/><label n="288"><num value="288"><w>CCLXXX<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#plovum" xml:id="CV188_term_plovum" xml:lang="lng"><w>plo<c corresp="#v">u</c>o</w></term>
         </ab>
         
-        <ab corresp="#CV188_p_095r_289">
+        <ab corresp="#CV188_p_289">
           <lb n="17" xml:id="CV188_lb_003r_17"/><label n="289"><num value="389"><w>CCCLXXX<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>tintinno</w>
         </ab>
         
-        <ab corresp="#CV188_p_095r_290">
+        <ab corresp="#CV188_p_290">
           <lb n="18" xml:id="CV188_lb_003r_18"/><label n="290"><num value="340"><w>CCLXC</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>iugo</w>
         </ab>
         
-        <ab corresp="#CV188_p_095r_291">
+        <ab corresp="#CV188_p_291">
           <lb n="19" xml:id="CV188_lb_003r_19"/><label n="291"><num value="341"><w>CCLXCI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>sogas</w>
         </ab>
         
-        <ab corresp="#CV188_p_095r_292">
+        <ab corresp="#CV188_p_292">
           <lb n="20" xml:id="CV188_lb_003r_20"/><label n="292"><num value="342"><w>CCLXCII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><c corresp="#v">u</c>ite</w>
@@ -2970,71 +2969,71 @@
 
         <pb n="3v" xml:id="CV188_folio_003v"/>
 
-        <ab corresp="#CV188_p_095r_293">
+        <ab corresp="#CV188_p_293">
           <lb n="1" xml:id="CV188_lb_003v_01"/><label n="293"><num value="343"><w>CCLXCIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>palo</w>
           <w>carracio</w>
         </ab>
         
-        <ab corresp="#CV188_p_095r_294">
+        <ab corresp="#CV188_p_294">
           <lb n="2" xml:id="CV188_lb_003v_02"/><label n="294"><num value="344"><w>CCLXCIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><c corresp="#v">u</c>ite</w>
           <w>incisa</w>
         </ab>
         
-        <ab corresp="#CV188_p_095r_295">
+        <ab corresp="#CV188_p_295">
           <lb n="3" xml:id="CV188_lb_003v_03"/><label n="295"><num value="345"><w>CCLXCV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>tra<c corresp="#v">u</c>icem</w>
           <w><c corresp="#v">u</c>itis</w>
         </ab>
         
-        <ab corresp="#CV188_p_095r_296">
+        <ab corresp="#CV188_p_296">
           <lb n="4" xml:id="CV188_lb_003v_04"/><label n="296"><num value="346"><w>CCLXC<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>u<c corresp="#v">u</c>as</w>
         </ab>
         
-        <ab corresp="#CV188_p_095r_297">
+        <ab corresp="#CV188_p_297">
           <lb n="5" xml:id="CV188_lb_003v_05"/><label n="297"><num value="347"><w>CCLXC<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ambolatorias</w>
         </ab>
         
-        <ab corresp="#CV188_p_095r_298">
+        <ab corresp="#CV188_p_298">
           <lb n="6" xml:id="CV188_lb_003v_06"/><label n="298"><num value="348"><w>CCLXC<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>cabistro</w>
         </ab>
 
-        <ab corresp="#CV188_p_095r_299">
+        <ab corresp="#CV188_p_299">
           <lb n="7" xml:id="CV188_lb_003v_07"/><label n="299"><num value="349"><w>CCLXC<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>rete</w>
         </ab>
 
-        <ab corresp="#CV188_p_095r_300">
+        <ab corresp="#CV188_p_300">
           <lb n="8" xml:id="CV188_lb_003v_08"/><label n="300"><num value="300"><w>CCC</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>arbore</w>
         </ab>
         
-        <ab corresp="#CV188_p_095v_301">
+        <ab corresp="#CV188_p_301">
           <lb n="9" xml:id="CV188_lb_003v_09"/><label n="301"><num value="301"><w>CCCI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>poma</w>
           <w>incisa</w>
         </ab>
         
-        <ab corresp="#CV188_p_095v_302">
+        <ab corresp="#CV188_p_302">
           <lb n="10" xml:id="CV188_lb_003v_10"/><label n="302"><num value="302"><w>CCCII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>uli<c corresp="#v">u</c>o</w>
         </ab>
 
-        <ab corresp="#CV188_p_095v_303">
+        <ab corresp="#CV188_p_303">
           <lb n="11" xml:id="CV188_lb_003v_11"/><label n="303"><num value="303"><w>CCCIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>homo</w>
@@ -3048,7 +3047,7 @@
           <w>fuerit</w>
         </ab>
 
-        <ab corresp="#CV188_p_095v_304">
+        <ab corresp="#CV188_p_304">
           <lb n="13" xml:id="CV188_lb_003v_13"/><label n="304"><num value="304"><w>CCCIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ca<c corresp="#v">u</c>allus</w>
@@ -3059,7 +3058,7 @@
           <w>clausura</w><pc>:</pc>
         </ab>
 
-        <ab corresp="#CV188_p_095v_305">
+        <ab corresp="#CV188_p_305">
           <lb n="15" xml:id="CV188_lb_003v_15"/><label n="305"><num value="305"><w>CCCV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>fossato</w>
@@ -3068,32 +3067,32 @@
           <lb rend="below align-right"/><w>facto</w>
         </ab>
 
-        <ab corresp="#CV188_p_095v_306">
+        <ab corresp="#CV188_p_306">
           <lb n="16" xml:id="CV188_lb_003v_16"/><label n="306"><num value="306"><w>CCC<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>puteo</w>
         </ab>
 
-        <ab corresp="#CV188_p_095v_307">
+        <ab corresp="#CV188_p_307">
           <lb n="17" xml:id="CV188_lb_003v_17"/><label n="307"><num value="307"><w>CCC<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>arma</w>
         </ab>
 
-        <ab corresp="#CV188_p_096r_308">
+        <ab corresp="#CV188_p_308">
           <lb n="18" xml:id="CV188_lb_003v_18"/><label n="308"><num value="308"><w>CCC<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>sua</w>
           <w>auctoritatem</w>
         </ab>
         
-        <ab corresp="#CV188_p_096r_309">
+        <ab corresp="#CV188_p_309">
           <lb n="19" xml:id="CV188_lb_003v_19"/><label n="309"><num value="309"><w>CCC<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>feras</w>
         </ab>
         
-        <ab corresp="#CV188_p_096r_310">
+        <ab corresp="#CV188_p_310">
           <lb n="20" xml:id="CV188_lb_003v_20"/><label n="310"><num value="310"><w>CCCX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>pedica</w>
@@ -3105,42 +3104,42 @@
 
         <fw place="top-right" type="fol"><add hand="unknown">4</add></fw>
 
-        <ab corresp="#CV188_p_096r_311">
+        <ab corresp="#CV188_p_311">
           <lb n="1" xml:id="CV188_lb_004r_01"/><label n="311"><num value="311"><w>CCCXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>fera</w>
           <w>plagata</w>
         </ab>
 
-        <ab corresp="#CV188_p_096r_312">
+        <ab corresp="#CV188_p_312">
           <lb n="2" xml:id="CV188_lb_004r_02"/><label n="312"><num value="312"><w>CCCXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>fera</w>
           <w>in<c corresp="#v">u</c>enta</w>
         </ab>
 
-        <ab corresp="#CV188_p_096v_313">
+        <ab corresp="#CV188_p_313">
           <lb n="3" xml:id="CV188_lb_004r_03"/><label n="313"><num value="313"><w>CCCXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>fera</w>
           <w>celata</w>
         </ab>
 
-        <ab corresp="#CV188_p_096v_314">
+        <ab corresp="#CV188_p_314">
           <lb n="4" xml:id="CV188_lb_004r_04"/><label n="314"><num value="314"><w>CCCXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>fera</w>
           <w>sagittata</w>
         </ab>
 
-        <ab corresp="#CV188_p_096v_315">
+        <ab corresp="#CV188_p_315">
           <lb n="5" xml:id="CV188_lb_004r_05"/><label n="315"><num value="315"><w>CCCXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>cer<c corresp="#v">u</c>o</w>
           <w>domestico</w>
         </ab>
 
-        <ab corresp="#CV188_p_096v_316">
+        <ab corresp="#CV188_p_316">
           <lb n="6" xml:id="CV188_lb_004r_06"/><label n="316"><num value="316"><w>CCCX<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -3149,20 +3148,20 @@
           <w>intriga<lb rend="below align-right"/><c corresp="#v">u</c>erit</w>
         </ab>
 
-        <ab corresp="#CV188_p_096v_317">
+        <ab corresp="#CV188_p_317">
           <lb n="7" xml:id="CV188_lb_004r_07"/><label n="317"><num value="317"><w>CCCX<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>a<c corresp="#v">u</c>es</w>
           <w>domesticas</w>
         </ab>
 
-        <ab corresp="#CV188_p_096v_318">
+        <ab corresp="#CV188_p_318">
           <lb n="8" xml:id="CV188_lb_004r_08"/><label n="318"><num value="318"><w>CCCX<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>apes</w>
         </ab>
 
-        <ab corresp="#CV188_p_096v_319">
+        <ab corresp="#CV188_p_319">
           <lb n="9" xml:id="CV188_lb_004r_09"/><label n="319"><num value="319"><w>CCCX<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -3173,13 +3172,13 @@
           <w>tolerit</w>
         </ab>
 
-        <ab corresp="#CV188_p_097r_320">
+        <ab corresp="#CV188_p_320">
           <lb n="10" xml:id="CV188_lb_004r_10"/><label n="320"><num value="320"><w>CCCXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>aceptores</w>
         </ab>
 
-        <ab corresp="#CV188_p_097r_321">
+        <ab corresp="#CV188_p_321">
           <lb n="11" xml:id="CV188_lb_004r_11"/><label n="321"><num value="321"><w>CCCXXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -3190,34 +3189,34 @@
           <w>tulerit</w>
         </ab>
 
-        <ab corresp="#CV188_p_097r_322">
+        <ab corresp="#CV188_p_322">
           <lb n="13" xml:id="CV188_lb_004r_13"/><label n="322"><num value="312"><w>CCCXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>canis</w>
           <w>incidatus</w>
         </ab>
 
-        <ab corresp="#CV188_p_097r_323">
+        <ab corresp="#CV188_p_323">
           <lb n="14" xml:id="CV188_lb_004r_14"/><label n="323"><num value="323"><w>CCCXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>homine</w>
           <w>ra<c corresp="#v">u</c>ioso</w>
         </ab>
 
-        <ab corresp="#CV188_p_097r_324">
+        <ab corresp="#CV188_p_324">
           <lb n="15" xml:id="CV188_lb_004r_15"/><label n="324"><num value="324"><w>CCCXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>animalibus</w>
           <w>ra<c corresp="#v">u</c>iosis</w>
         </ab>
 
-        <ab corresp="#CV188_p_097r_325">
+        <ab corresp="#CV188_p_325">
           <lb n="16" xml:id="CV188_lb_004r_16"/><label n="325"><num value="325"><w>CCCXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>quatrupedia</w>
         </ab>
 
-        <ab corresp="#CV188_p_097r_326">
+        <ab corresp="#CV188_p_326">
           <lb n="17" xml:id="CV188_lb_004r_17"/><label n="326"><num value="326"><w>CCCXX<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>animalibus</w>
@@ -3226,14 +3225,14 @@
           <w>intriga<c corresp="#v">u</c>erit</w>
         </ab>
 
-        <ab corresp="#CV188_p_097v_327">
+        <ab corresp="#CV188_p_327">
           <lb n="19" xml:id="CV188_lb_004r_19"/><label n="327"><num value="327"><w>CCCXX<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ca<c corresp="#v">u</c>allo</w>
           <w>conducto</w>
         </ab>
 
-        <ab corresp="#CV188_p_097v_328">
+        <ab corresp="#CV188_p_328">
           <lb n="20" xml:id="CV188_lb_004r_20"/><label n="328"><num value="328"><w>CCCXX<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>animal</w>
@@ -3248,14 +3247,14 @@
 
         <pb n="4v" xml:id="CV188_folio_004v"/>
 
-        <ab corresp="#CV188_p_097v_329">
+        <ab corresp="#CV188_p_329">
           <lb n="1" xml:id="CV188_lb_004v_01"/><label n="329"><num value="329"><w>CCCXXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>cane</w>
           <w>furato</w>
         </ab>
 
-        <ab corresp="#CV188_p_097v_330">
+        <ab corresp="#CV188_p_330">
           <lb n="2" xml:id="CV188_lb_004v_02"/><label n="330"><num value="330"><w>CCCXXX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -3269,7 +3268,7 @@
           <w>occi<lb rend="below align-right"/>serit</w>
         </ab>
 
-        <ab corresp="#CV188_p_097v_331">
+        <ab corresp="#CV188_p_331">
           <lb n="3" xml:id="CV188_lb_004v_03"/><label n="331"><num value="331"><w>CCCXXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>cane</w>
@@ -3282,35 +3281,35 @@
           </w>
          </ab>
 
-        <ab corresp="#CV188_p_097v_332">
+        <ab corresp="#CV188_p_332">
           <lb n="4" xml:id="CV188_lb_004v_04"/><label n="332"><num value="332"><w>CCCXXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><c corresp="#v">u</c>acca</w>
           <w>prignante</w>
         </ab>
 
-        <ab corresp="#CV188_p_098r_333">
+        <ab corresp="#CV188_p_333">
           <lb n="5" xml:id="CV188_lb_004v_05"/><label n="333"><num value="333"><w>CCCXXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>equ<add place="above">a</add></w>
           <w>prignante</w>
         </ab>
 
-        <ab corresp="#CV188_p_098r_334">
+        <ab corresp="#CV188_p_334">
           <lb n="6" xml:id="CV188_lb_004v_06"/><label n="334"><num value="334"><w>CCCXXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ancilla</w>
           <w>prignante</w>
         </ab>
 
-        <ab corresp="#CV188_p_098r_335">
+        <ab corresp="#CV188_p_335">
           <lb n="7" xml:id="CV188_lb_004v_07"/><label n="335"><num value="335"><w>CCCXXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>animale</w>
           <w>excoriatum</w>
         </ab>
 
-        <ab corresp="#CV188_p_098r_336">
+        <ab corresp="#CV188_p_336">
           <lb n="8" xml:id="CV188_lb_004v_08"/><label n="336"><num value="336"><w>CCCXXX<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>animale</w>
@@ -3324,21 +3323,21 @@
           <w>flu<lb rend="below align-right"/>mine</w><pc>:</pc>
         </ab>
 
-        <ab corresp="#CV188_p_098r_337">
+        <ab corresp="#CV188_p_337">
           <lb n="9" xml:id="CV188_lb_004v_09"/><label n="337"><num value="337"><w>CCCXXX<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ca<c corresp="#v">u</c>allo</w>
           <w>pla<space quantity="1" unit="char"/>gato</w>
         </ab>
 
-        <ab corresp="#CV188_p_098r_33">
+        <ab corresp="#CV188_p_338">
           <lb n="10" xml:id="CV188_lb_004v_10"/><label n="338"><num value="338"><w>CCCXXX<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>coda</w>
           <w>ca<c corresp="#v">u</c>alli</w>
         </ab>
 
-        <ab corresp="#CV188_p_098r_339">
+        <ab corresp="#CV188_p_339">
           <lb n="11" xml:id="CV188_lb_004v_11"/> <label n="339"><num value="339"><w>CCCXXX<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">Q</hi>ui</w>
           <w>cavallum</w>
@@ -3349,7 +3348,7 @@
           <w>pla<lb rend="below align-right"/>ga<c corresp="#v">u</c><space quantity="1" unit="char"/>erit</w>
         </ab>
 
-        <ab corresp="#CV188_p_098r_340">
+        <ab corresp="#CV188_p_340">
           <lb n="12" xml:id="CV188_lb_004v_12"/><label n="340"><num value="340"><w>CCCXL</w></num></label>
           <w><hi rend="cap">Q</hi>ui</w>
           <w>cavallum</w>
@@ -3360,14 +3359,14 @@
           <lb n="13" xml:id="CV188_lb_004v_13"/><w>ascenderit</w><pc>:</pc>
         </ab>
 
-        <ab corresp="#CV188_p_098v_341">
+        <ab corresp="#CV188_p_341">
           <lb n="14" xml:id="CV188_lb_004v_14"/><label n="341"><num value="341"><w>CCCXLI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>disfigurato</w>
           <w>ca<c corresp="#v">u</c>allo</w>
         </ab>
 
-        <ab corresp="#CV188_p_098v_342">
+        <ab corresp="#CV188_p_342">
           <lb n="15" xml:id="CV188_lb_004v_15"/><label n="342"><num value="342"><w>CCCXLII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -3378,7 +3377,7 @@
           <w>preserit</w><!-- CHECK segno di punteggiatura nel ms: high dot? -->
         </ab>
 
-        <ab corresp="#CV188_p_099r_343">
+        <ab corresp="#CV188_p_343">
           <lb n="17" xml:id="CV188_lb_004v_17"/><label n="343"><num value="343"><w>CCCXLIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>piculium</w>
@@ -3390,7 +3389,7 @@
           <w>in<lb rend="below align-right"/>ventum</w><pc>:</pc>
         </ab>
 
-        <ab corresp="#CV188_p_099r_344">
+        <ab corresp="#CV188_p_344">
           <lb n="18" xml:id="CV188_lb_004v_18"/><label n="344"><num value="344"><w>CCCXLIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>piculio</w>
@@ -3400,7 +3399,7 @@
           <lb rend="below align-right"/><w>misso</w><pc>:</pc>
         </ab>
 
-        <ab corresp="#CV188_p_099r_345">
+        <ab corresp="#CV188_p_345">
           <lb n="19" xml:id="CV188_lb_004v_19"/><label n="345"><num value="345"><w>CCCXLV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -3422,7 +3421,7 @@
 
         <fw place="top-right" type="fol"><add hand="unknown">5</add></fw>
 
-        <ab corresp="#CV188_p_099r_346">
+        <ab corresp="#CV188_p_346">
           <lb n="1" xml:id="CV188_lb_005r_01"/><label n="346"><num value="346"><w>CCCXL<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -3437,7 +3436,7 @@
           <w>mina<c corresp="#v">u</c>erit</w>
         </ab>
 
-        <ab corresp="#CV188_p_099r_347">
+        <ab corresp="#CV188_p_347">
           <lb n="3" xml:id="CV188_lb_005r_03"/><label n="347"><num value="347"><w>CCCXL<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w><choice>
@@ -3450,7 +3449,7 @@
           <w>fuerit</w>
         </ab>
 
-        <ab corresp="#CV188_p_099v_348">
+        <ab corresp="#CV188_p_348">
           <lb n="5" xml:id="CV188_lb_005r_05"/><label n="348"><num value="348"><w>CCCXL<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -3462,7 +3461,7 @@
           <w>roga<c corresp="#v">u</c>e<add place="above">rit</add></w>
         </ab>
 
-        <ab corresp="#CV188_p_099v_349">
+        <ab corresp="#CV188_p_349">
           <lb n="6" xml:id="CV188_lb_005r_06"/><label n="349"><num value="349"><w>CCCXL<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>porcus</w>
@@ -3473,7 +3472,7 @@
           <w>pa<c corresp="#v">u</c>erit</w>
         </ab>
 
-        <ab corresp="#CV188_p_099v_350">
+        <ab corresp="#CV188_p_350">
           <lb n="7" xml:id="CV188_lb_005r_07"/><label n="350"><num value="350"><w>CCCL</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>porcus</w>
@@ -3487,20 +3486,20 @@
           </choice></w>
         </ab>
 
-        <ab corresp="#CV188_p_100r_351">
+        <ab corresp="#CV188_p_351">
           <lb n="8" xml:id="CV188_lb_005r_08"/><label n="351"><num value="351"><w>CCCLI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><c corresp="#v">u</c>erre</w>
         </ab>
 
-        <ab corresp="#CV188_p_100r_352">
+        <ab corresp="#CV188_p_352">
           <lb n="9" xml:id="CV188_lb_005r_09"/><label n="352"><num value="352"><w>CCCLII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>porcario</w>
           <w>battuto</w>
         </ab>
 
-        <ab corresp="#CV188_p_100r_353">
+        <ab corresp="#CV188_p_353">
           <lb n="10" xml:id="CV188_lb_005r_10"/><label n="353"><num value="353"><w>CCCLIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>duo</w>
@@ -3510,7 +3509,7 @@
           <w>re<lb n="11" xml:id="CV188_lb_005r_11"/>xa<c corresp="#v">u</c>erent</w>
         </ab>
 
-        <ab corresp="#CV188_p_100r_354">
+        <ab corresp="#CV188_p_354">
           <lb n="12" xml:id="CV188_lb_005r_12"/><label n="354"><num value="354"><w>CCCLIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>campo</w>
@@ -3521,14 +3520,14 @@
           <w>aratum</w>
         </ab>
 
-        <ab corresp="#CV188_p_100r_355">
+        <ab corresp="#CV188_p_355">
           <lb n="13" xml:id="CV188_lb_005r_13"/><label n="355"><num value="355"><w>CCCLV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>campo</w>
           <w>exarato</w>
         </ab>
 
-        <ab corresp="#CV188_p_100r_356">
+        <ab corresp="#CV188_p_356">
           <lb n="14" xml:id="CV188_lb_005r_14"/><label n="356"><num value="356"><w>CCCL<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>prato</w>
@@ -3537,7 +3536,7 @@
           <w>exarato</w>
         </ab>
 
-        <ab corresp="#CV188_p_100v_357">
+        <ab corresp="#CV188_p_357">
           <lb n="15" xml:id="CV188_lb_005r_15"/><label n="357"><num value="357"><w>CCCL<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -3554,7 +3553,7 @@
           <w>delierit</w>
         </ab>
 
-        <ab corresp="#CV188_p_100v_358">
+        <ab corresp="#CV188_p_358">
           <lb n="17" xml:id="CV188_lb_005r_17"/><label n="358"><num value="358"><w>CCCL<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">N</hi>on</w>
           <w>devit</w>
@@ -3563,13 +3562,13 @@
           <w>negare</w>
         </ab>
 
-        <ab corresp="#CV188_p_100v_359">
+        <ab corresp="#CV188_p_359">
           <lb n="19" xml:id="CV188_lb_005r_19"/><label n="359"><num value="359"><w>CCCL<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>sagramentis</w>
         </ab>
 
-        <ab corresp="#CV188_p_100v_360">
+        <ab corresp="#CV188_p_360">
           <lb n="20" xml:id="CV188_lb_005r_20"/><label n="360"><num value="360"><w>CCCLX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#wadia" xml:id="CV188_term_wadia" xml:lang="lng">
@@ -3583,7 +3582,7 @@
         
         <pb n="5v" xml:id="CV188_folio_005v"/>
         
-        <ab corresp="#CV188_p_101r_361">
+        <ab corresp="#CV188_p_361">
           <lb n="1" xml:id="CV188_lb_005v_01"/><label n="361"><num value="361"><w>CCCLXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <term ref="#wadia" xml:lang="lng">
@@ -3593,7 +3592,7 @@
           <w>sagramento</w>
         </ab>
 
-        <ab corresp="#CV188_p_101r_362">
+        <ab corresp="#CV188_p_362">
           <lb n="2" xml:id="CV188_lb_005v_02"/><label n="362"><num value="362"><w>CCCLXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -3609,7 +3608,7 @@
           <w>moritur</w>
         </ab>
 
-        <ab corresp="#CV188_p_101v_363">
+        <ab corresp="#CV188_p_363">
           <lb n="4" xml:id="CV188_lb_005v_04"/><label n="363"><num value="363"><w>CCCLXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>sacramentum</w>
@@ -3619,7 +3618,7 @@
           </choice></w>
         </ab>
 
-        <ab corresp="#CV188_p_101v_364">
+        <ab corresp="#CV188_p_364">
           <lb n="5" xml:id="CV188_lb_005v_05"/><label n="364"><num value="364"><w>CCCLXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>eo</w>
@@ -3628,7 +3627,7 @@
           <w>re<lb rend="below align-right"/>promittit</w><pc>:</pc>
         </ab>
 
-        <ab corresp="#CV188_p_102r_365">
+        <ab corresp="#CV188_p_365">
           <lb n="6" xml:id="CV188_lb_005v_06"/><label n="364"><num value="365"><w>CCCLXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>devitum</w>
@@ -3636,7 +3635,7 @@
           <w>mortui</w><pc>:</pc>
         </ab>
 
-        <ab corresp="#CV188_p_102r_366">
+        <ab corresp="#CV188_p_366">
           <lb n="7" xml:id="CV188_lb_005v_07"/><label n="366"><num value="366"><w>CCCLX<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>aliqua</w>
@@ -3645,7 +3644,7 @@
           <w>sur<lb rend="below align-right"/>rexerit</w>
         </ab>
 
-        <ab corresp="#CV188_p_102r_367">
+        <ab corresp="#CV188_p_367">
           <lb n="8" xml:id="CV188_lb_005v_08"/><label n="367"><num value="367"><w>CCCLX<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#waregang" xml:id="CV188_term_waregang" xml:lang="lng">
@@ -3653,20 +3652,20 @@
           </term>
         </ab>
 
-        <ab corresp="#CV188_p_102r_368">
+        <ab corresp="#CV188_p_368">
           <lb n="9" xml:id="CV188_lb_005v_09"/><label n="368"><num value="368"><w>CCCLX<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>camphionibus</w>
         </ab>
 
-        <ab corresp="#CV188_p_102v_369">
+        <ab corresp="#CV188_p_369">
           <lb n="10" xml:id="CV188_lb_005v_10"/><label n="369"><num value="369"><w>CCCLX<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>causas</w>
           <w>regales</w>
         </ab>
 
-        <ab corresp="#CV188_p_102v_370">
+        <ab corresp="#CV188_p_370">
           <lb n="11" xml:id="CV188_lb_005v_11"/><label n="370"><num value="370"><w>CCCLXX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
@@ -3676,14 +3675,14 @@
           <w>fece<add place="above">rit</add></w>
         </ab>
 
-        <ab corresp="#CV188_p_102v_371">
+        <ab corresp="#CV188_p_371">
           <lb n="12" xml:id="CV188_lb_005v_12"/><label n="371"><num value="371"><w>CCCLXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>causas</w>
           <w>hominum</w>
         </ab>
 
-        <ab corresp="#CV188_p_102v_372">
+        <ab corresp="#CV188_p_372">
           <lb n="13" xml:id="CV188_lb_005v_13"/><label n="372"><num value="372"><w>CCCLXXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>um</w>
@@ -3692,20 +3691,20 @@
           <w>fe<lb rend="below align-right"/>cerit</w>
         </ab>
 
-        <ab corresp="#CV188_p_102v_373">
+        <ab corresp="#CV188_p_373">
           <lb n="14" xml:id="CV188_lb_005v_14"/><label n="373"><num value="373"><w>CCCLXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>regi</w>
         </ab>
 
-        <ab corresp="#CV188_p_102v_374">
+        <ab corresp="#CV188_p_374">
           <lb n="15" xml:id="CV188_lb_005v_15"/><label n="374"><num value="374"><w>CCCLXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>sculdahis</w><!-- CHECK term -->
         </ab>
 
-        <ab corresp="#CV188_p_103r_375">
+        <ab corresp="#CV188_p_375">
           <lb n="16" xml:id="CV188_lb_005v_16"/><label n="375"><num value="375"><w>CCCLXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>gastaldius</w><!-- CHECK term -->
@@ -3714,7 +3713,7 @@
           <w>re<add place="above">gi</add></w>
         </ab>
 
-        <ab corresp="#CV188_p_103r_376">
+        <ab corresp="#CV188_p_376">
           <lb n="17" xml:id="CV188_lb_005v_17"/><label n="376"><num value="376"><w>CCCLXX<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>aldia</w>
@@ -3722,7 +3721,7 @@
           <w>ancilla</w>
         </ab>
 
-        <ab corresp="#CV188_p_103r_377">
+        <ab corresp="#CV188_p_377">
           <lb n="18" xml:id="CV188_lb_005v_18"/><label n="377"><num value="377"><w>CCCLXX<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -3757,7 +3756,7 @@
           <w>excusseri<add place="above">t</add></w>
         </ab>
 
-        <ab corresp="#CV188_p_103v_378">
+        <ab corresp="#CV188_p_378">
           <lb n="20" xml:id="CV188_lb_005v_20"/><label n="378"><num value="378"><w>CCCLXX<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>mulier</w>
@@ -3773,19 +3772,19 @@
         
         <fw place="top-right" type="fol"><add hand="unknown">6</add></fw>
         
-        <ab corresp="#CV188_p_103v_379">
+        <ab corresp="#CV188_p_379">
           <lb n="1" xml:id="CV188_lb_006r_01"/><label n="379"><num value="379"><w>CCCLXX<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>cassina</w>
         </ab>
 
-        <ab corresp="#CV188_p_103v_380">
+        <ab corresp="#CV188_p_380">
           <lb n="2" xml:id="CV188_lb_006r_02"/><label n="380"><num value="380"><w>CCCLXXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>piculio</w>
         </ab>
 
-        <ab corresp="#CV188_p_103v_381">
+        <ab corresp="#CV188_p_381">
           <lb n="3" xml:id="CV188_lb_006r_03"/><label n="381"><num value="381"><w>CCCLXXXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -3794,7 +3793,7 @@
           <w>alteri<add place="above">us</add></w>
         </ab>
 
-        <ab corresp="#CV188_p_104r_382">
+        <ab corresp="#CV188_p_382">
           <lb n="4" xml:id="CV188_lb_006r_04"/><label n="382"><num value="382"><w>CCCLXXXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -3806,7 +3805,7 @@
           <lb rend="below align-right"/><w>liberum</w><pc>:</pc>
         </ab>
 
-        <ab corresp="#CV188_p_103v_383">
+        <ab corresp="#CV188_p_383">
           <lb n="5" xml:id="CV188_lb_006r_05"/><label n="383"><num value="383"><w>CCCLXXXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -3820,7 +3819,7 @@
           <w>traxerit</w><pc>:</pc>
         </ab>
 
-        <ab corresp="#CV188_p_103v_384">
+        <ab corresp="#CV188_p_384">
           <lb n="7" xml:id="CV188_lb_006r_07"/><label n="384"><num value="384"><w>CCCLXXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>brachio</w>
@@ -3829,14 +3828,14 @@
           <w>tibia</w>
         </ab>
 
-        <ab corresp="#CV188_p_104r_385">
+        <ab corresp="#CV188_p_385">
           <lb n="8" xml:id="CV188_lb_006r_08"/><label n="385"><num value="385"><w>CCCLXXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>mundio</w>
           <w>puelle</w>
         </ab>
 
-        <ab corresp="#CV188_p_104r_386">
+        <ab corresp="#CV188_p_386">
           <lb n="9" xml:id="CV188_lb_006r_09"/><label n="386"><num value="386"><w>CCCLXXX<g ref="#romnumsix"/></w></num></label>
           <w>presentis</w>
           <w><c corresp="#v">u</c>ero</w>
@@ -3844,7 +3843,7 @@
           <w>nostre</w>
         </ab>
 
-        <ab corresp="#CV188_p_104v_387">
+        <ab corresp="#CV188_p_387">
           <lb n="11" xml:id="CV188_lb_006r_11"/><label n="387"><num value="387"><w>CCCLXXX<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -3856,7 +3855,7 @@
           <w>oc<lb rend="below align-right"/>ciserit</w><pc>:</pc>
         </ab>
 
-        <ab corresp="#CV188_p_104v_388">
+        <ab corresp="#CV188_p_388">
           <lb n="12" xml:id="CV188_lb_006r_12"/><label n="388"><num value="387"><w>CCCLXXXVII</w></num></label>
           <w><hi rend="cap">E</hi>t</w>
           <w>hoc</w>
@@ -3890,7 +3889,7 @@
 
         <lb n="04" xml:id="CV188_lb_018v_04"/>
 
-        <p xml:id="CV188_p_018v_01">
+        <p xml:id="CV188_p_01">
           <lb n="05" xml:id="CV188_lb_018v_05"/><label n="1"><num value="1"><w>I</w></num></label>
           <seg rend="cap">
             <w><hi rend="decorated cap1.1">S</hi>I</w>
@@ -3919,8 +3918,8 @@
           <w>infiscentur</w><reg>.</reg><!-- segno di punteggiatura finale? NO -->
         </p>
 
-        <p n="2" xml:id="CV188_p_018v_02">
-          <lb n="10" type="rubric" xml:id="CV188_lb_018v_10"/><label><num value="2"><w>II</w></num></label>
+        <p n="2" xml:id="CV188_p_02">
+          <lb n="10" type="rubric" xml:id="CV188_lb_018v_10"/><label n="2"><num value="2"><w>II</w></num></label>
           <w><hi rend="cap1.2">S</hi>i</w>
           <w>quis</w>
           <w>cum</w>
@@ -4008,8 +4007,8 @@
           <w>iusserit</w><reg>.</reg>
         </p>
 
-        <p n="3" xml:id="CV188_p_019r_03">
-          <lb n="08" type="rubric" xml:id="CV188_lb_019r_08"/><label><num value="3"><w>III</w></num></label>
+        <p n="3" xml:id="CV188_p_03">
+          <lb n="08" type="rubric" xml:id="CV188_lb_019r_08"/><label n="3"><num value="3"><w>III</w></num></label>
           <w><hi rend="cap1.1">S</hi>i</w>
           <w>quis</w>
           <w>foris</w>
@@ -4032,7 +4031,7 @@
           </choice>
         </p>
 
-        <p n="4" xml:id="CV188_p_019r_04">
+        <p n="4" xml:id="CV188_p_04">
           <lb n="11" type="rubric" xml:id="CV188_lb_019r_11"/><label n="4"><num value="4"><w>IIII</w></num></label>
           <w><hi rend="cap1.1 empty">S</hi>i</w>
           <w>quis</w>
@@ -4060,7 +4059,7 @@
           <w>infiscentur</w><reg>.</reg>
         </p>
 
-        <p n="5" xml:id="CV188_p_019r_05">
+        <p n="5" xml:id="CV188_p_05">
           <lb n="15" type="rubric" xml:id="CV188_lb_019r_15"/><label n="5"><num value="5"><w>V</w></num></label>
           <w><hi rend="cap1.1">S</hi>i</w>
           <w>quis</w>
@@ -4103,7 +4102,7 @@
           </choice>
         </p>
 
-        <p n="6" xml:id="CV188_p_019r_06">
+        <p n="6" xml:id="CV188_p_06">
           <lb n="19" type="rubric" xml:id="CV188_lb_019r_19"/><label n="6"><num value="6"><w><g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap1.1 empty">S</hi>i</w>
           <w>quis</w>
@@ -4145,7 +4144,7 @@
           </choice>
         </p>
 
-        <p n="7" xml:id="CV188_p_019v_07">
+        <p n="7" xml:id="CV188_p_07">
           <lb n="05" type="rubric" xml:id="CV188_lb_019v_05"/><label n="7"><num value="7"><w><g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap1.1 empty">S</hi>i</w>
           <w>quis</w>
@@ -7086,7 +7085,7 @@
 
         <!-- parte codificata da MG capp. 51-201-->
 
-        <p xml:id="CV188_p_028r_04"><lb n="20" type="rubric" xml:id="CV188_lb_028r_20"/><label n="51"><num value="51">
+        <p xml:id="CV188_p_51"><lb n="20" type="rubric" xml:id="CV188_lb_028r_20"/><label n="51"><num value="51">
           <w>LI</w></num>
           <w><hi rend="cap red">D</hi>e</w>
           <w>dentes</w>
@@ -7172,7 +7171,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_028v_01"><lb n="07" type="rubric" xml:id="CV188_lb_028v_07"/><label n="52"><num value="52"
+        <p xml:id="CV188_p_52"><lb n="07" type="rubric" xml:id="CV188_lb_028v_07"/><label n="52"><num value="52"
                 ><w>LII</w></num></label>
           <w><hi rend="cap empty">D</hi>e</w>
           <w>dentes</w>
@@ -7215,7 +7214,7 @@
           <reg>.</reg>
         </p>
 
-        <p xml:id="CV188_p_028v_02">
+        <p xml:id="CV188_p_53">
           <lb n="11" type="rubric" xml:id="CV188_lb_028v_11"/><label n="53"><num value="53"><w>LIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
@@ -7255,7 +7254,7 @@
           <reg>.</reg>
         </p>
 
-        <p xml:id="CV188_p_028v_03"><lb n="14" type="rubric" xml:id="CV188_lb_028v_14"/><label n="54"
+        <p xml:id="CV188_p_54"><lb n="14" type="rubric" xml:id="CV188_lb_028v_14"/><label n="54"
               ><num value="54"><w>LIIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -7282,7 +7281,7 @@
           <space quantity="3" unit="char"/>
         </p>
 
-        <p xml:id="CV188_p_028v_04"><lb n="17" type="rubric" xml:id="CV188_lb_028v_17"/><label n="55"
+        <p xml:id="CV188_p_55"><lb n="17" type="rubric" xml:id="CV188_lb_028v_17"/><label n="55"
               ><num value="55"><w>LV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>plaga</w>
@@ -7343,7 +7342,7 @@
 
         <fw place="top-right" type="fol"><add hand="unknown">29r</add></fw>
 
-        <p xml:id="CV188_p_029r_01"><lb n="01" type="rubric" xml:id="CV188_lb_029r_01"/><label n="56"><num value="56"><w>L<g
+        <p xml:id="CV188_p_56"><lb n="01" type="rubric" xml:id="CV188_lb_029r_01"/><label n="56"><num value="56"><w>L<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>pla<add place="above">ga</add></w>
@@ -7394,7 +7393,7 @@
           </w>
         </p>
 
-        <p xml:id="CV188_p_029r_02"><lb n="04" type="rubric" xml:id="CV188_lb_029r_04"/><label n="57"><num value="57"><w>L<g
+        <p xml:id="CV188_p_57"><lb n="04" type="rubric" xml:id="CV188_lb_029r_04"/><label n="57"><num value="57"><w>L<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>brachio</w>
@@ -7440,7 +7439,7 @@
           <space quantity="7" unit="char"/>
         </p>
 
-        <p xml:id="CV188_p_029r_03"><lb n="08" type="rubric" xml:id="CV188_lb_029r_08"/>
+        <p xml:id="CV188_p_08"><lb n="08" type="rubric" xml:id="CV188_lb_029r_08"/>
           <label n="58"><num value="58"><w>L<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -7485,7 +7484,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_029r_04"><lb n="11" type="rubric" xml:id="CV188_lb_029r_11"/><label n="59"><num value="59"><w>L<g
+        <p xml:id="CV188_p_59"><lb n="11" type="rubric" xml:id="CV188_lb_029r_11"/><label n="59"><num value="59"><w>L<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -7513,7 +7512,7 @@
           </choice></p>
         <lb n=""/>
 
-        <p xml:id="CV188_p_029r_05"><lb n="13" type="rubric" xml:id="CV188_lb_029r_13"/><label n="60"
+        <p xml:id="CV188_p_60"><lb n="13" type="rubric" xml:id="CV188_lb_029r_13"/><label n="60"
               ><num value="60"><w>LX</w></num></label>
           <w><hi rend="cap red">D</hi>e</w>
           <w>plaga</w>
@@ -7587,7 +7586,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_029r_06"><lb n="18" type="rubric" xml:id="CV188_lb_029r_18"/><label n="61"
+        <p xml:id="CV188_p_61"><lb n="18" type="rubric" xml:id="CV188_lb_029r_18"/><label n="61"
               ><num value="61"><w>LXI</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>
@@ -7653,7 +7652,7 @@
           <reg>.</reg>
         </p>
 
-        <p xml:id="CV188_p_029v_01"><lb n="4" type="rubric" xml:id="CV188_lb_029v_04"/><label n="62"
+        <p xml:id="CV188_p_62"><lb n="4" type="rubric" xml:id="CV188_lb_029v_04"/><label n="62"
               ><num value="62"><w>LXII</w></num></label>
           <w><hi rend="cap red">D</hi>e</w>
           <w>incisione</w>
@@ -7711,7 +7710,7 @@
           </w>
         </p>
 
-        <p xml:id="CV188_p_029v_02"><lb n="11" type="rubric" xml:id="CV188_lb_029v_11"/><label n="63"
+        <p xml:id="CV188_p_63"><lb n="11" type="rubric" xml:id="CV188_lb_029v_11"/><label n="63"
               ><num value="63"><w>LXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>digita</w>
@@ -7759,7 +7758,7 @@
           </add>
         </p>
 
-        <p xml:id="CV188_p_029v_03"><lb n="17" type="rubric" xml:id="CV188_lb_029v_17"/><label n="64"
+        <p xml:id="CV188_p_64"><lb n="17" type="rubric" xml:id="CV188_lb_029v_17"/><label n="64"
               ><num value="64"><w>LXIIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>
@@ -7809,7 +7808,7 @@
           <reg>.</reg>
         </p>
 
-        <p xml:id="CV188_p_029v_04"><lb n="20" type="rubric" xml:id="CV188_lb_029v_20"/><label n="65"
+        <p xml:id="CV188_p_65"><lb n="20" type="rubric" xml:id="CV188_lb_029v_20"/><label n="65"
               ><num value="65"><w>LXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
@@ -7889,7 +7888,7 @@
 
         <fw place="top-right" type="fol"><add hand="unknown">030r</add></fw>
 
-        <p xml:id="CV188_p_030r_01"><lb n="1" type="rubric" xml:id="CV188_lb_030r_01"/><label n="66"><num value="66"><w>LX<g
+        <p xml:id="CV188_p_66"><lb n="1" type="rubric" xml:id="CV188_lb_030r_01"/><label n="66"><num value="66"><w>LX<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>quartum</w>
@@ -7914,7 +7913,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_030r_02"><lb n="4" type="rubric" xml:id="CV188_lb_030r_04"/><label n="67"><num value="67"><w>LX<g
+        <p xml:id="CV188_p_67"><lb n="4" type="rubric" xml:id="CV188_lb_030r_04"/><label n="67"><num value="67"><w>LX<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap red">D</hi>e</w>
           <w>quinto</w>
@@ -7942,7 +7941,7 @@
           </measure>
         </p>
 
-        <p xml:id="CV188_p_030r_03"><lb n="7" type="rubric" xml:id="CV188_lb_030r_07"/><label n="68"><num value="68"><w>LX<g
+        <p xml:id="CV188_p_68"><lb n="7" type="rubric" xml:id="CV188_lb_030r_07"/><label n="68"><num value="68"><w>LX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>incisione</w>
@@ -8015,7 +8014,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_030r_04"><lb n="13" type="rubric" xml:id="CV188_lb_030r_13"/><label n="69"><num value="69"><w>LX<g
+        <p xml:id="CV188_p_69"><lb n="13" type="rubric" xml:id="CV188_lb_030r_13"/><label n="69"><num value="69"><w>LX<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>policem</w>
@@ -8038,7 +8037,7 @@
           <reg>.</reg>
         </p>
         
-        <p xml:id="CV188_p_030r_05"><lb n="16" type="rubric" xml:id="CV188_lb_030r_16"/><label n="70"
+        <p xml:id="CV188_p_70"><lb n="16" type="rubric" xml:id="CV188_lb_030r_16"/><label n="70"
               ><num value="70"><w>LXX</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>secundo</w>
@@ -8076,7 +8075,7 @@
             <reg>.</reg>
           </choice></p>
 
-        <p xml:id="CV188_p_030r_06"><lb n="19" type="rubric" xml:id="CV188_lb_030r_19"/><label n="71"
+        <p xml:id="CV188_p_71"><lb n="19" type="rubric" xml:id="CV188_lb_030r_19"/><label n="71"
               ><num value="71"><w>LXXI</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>tertium</w>
@@ -8109,7 +8108,7 @@
 
         <pb n="30v" xml:id="CV188_folio_030v"/>
 
-        <p xml:id="CV188_p_030v_01"><lb n="1" type="rubric" xml:id="CV188_lb_030v_01"/><label n="72"
+        <p xml:id="CV188_p_72"><lb n="1" type="rubric" xml:id="CV188_lb_030v_01"/><label n="72"
               ><num value="72"><w>LXXII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quartum</w>
@@ -8132,7 +8131,7 @@
 
         <lb n=""/>
 
-        <p xml:id="CV188_p_030v_02"><lb n="3" type="rubric" xml:id="CV188_lb_030v_03"/><label n="73"
+        <p xml:id="CV188_p_73"><lb n="3" type="rubric" xml:id="CV188_lb_030v_03"/><label n="73"
               ><num value="73"><w>LXXIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quintum</w>
@@ -8158,7 +8157,7 @@
             <reg>.</reg>
           </choice></p>
 
-        <p xml:id="CV188_p_030v_03"><lb n="5" type="rubric" xml:id="CV188_lb_030v_05"/><label n="74"
+        <p xml:id="CV188_p_74"><lb n="5" type="rubric" xml:id="CV188_lb_030v_05"/><label n="74"
               ><num value="74"><w>LXXIIII</w></num></label>
           <w>
             <choice>
@@ -8298,7 +8297,7 @@
           </gloss>
         </p>
 
-        <p xml:id="CV188_p_030v_04"><lb n="19" type="rubric" xml:id="CV188_lb_030v_19"/><label n="75"
+        <p xml:id="CV188_p_75"><lb n="19" type="rubric" xml:id="CV188_lb_030v_19"/><label n="75"
               ><num value="75"><w>LXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
@@ -8412,7 +8411,7 @@
           </gloss>
         </p>
 
-        <p xml:id="CV188_p_031r_01"><lb n="12" type="rubric" xml:id="CV188_lb_031r_12"/><label n="76"><num value="76"><w>LXX<g
+        <p xml:id="CV188_p_76"><lb n="12" type="rubric" xml:id="CV188_lb_031r_12"/><label n="76"><num value="76"><w>LXX<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>aldius</w>
@@ -8446,7 +8445,7 @@
           </w>
           <w>sunt</w><space quantity="5" unit="char"/></p>
 
-        <p xml:id="CV188_p_031r_02"><lb n="16" type="rubric" xml:id="CV188_lb_031r_16"/><label n="77"><num value="77"><w>LXX<g
+        <p xml:id="CV188_p_77"><lb n="16" type="rubric" xml:id="CV188_lb_031r_16"/><label n="77"><num value="77"><w>LXX<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -8541,7 +8540,7 @@
           <w>n<gap quantity="1" unit="char"/><supplied reason="illegible" resp="leges">o</supplied>
             <lb n="4" xml:id="CV188_lb_031v_04"/><space quantity="15" unit="char"/>mirentur</w></p>
 
-        <p xml:id="CV188_p_031v_01"><lb n="5" type="rubric" xml:id="CV188_lb_031v_05"/><label n="78">
+        <p xml:id="CV188_p_78"><lb n="5" type="rubric" xml:id="CV188_lb_031v_05"/><label n="78">
             <num value="78">
               <w>
                 <choice>
@@ -8639,7 +8638,7 @@
           <w>numiren<add place="below">tur</add></w>
         </p>
 
-        <p xml:id="CV188_p_031v_02"><lb n="13" type="rubric" xml:id="CV188_lb_031v_13"/><label n="79"
+        <p xml:id="CV188_p_79"><lb n="13" type="rubric" xml:id="CV188_lb_031v_13"/><label n="79"
                   ><num value="0"><w><damage/><gap quantity="7" unit="char"/><supplied reason="illegible"
               >LXXGIII</supplied></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
@@ -8705,7 +8704,7 @@
           <w>medici</w>
         </p>
 
-        <p xml:id="CV188_p_031v_03"><lb n="20" type="rubric" xml:id="CV188_lb_031v_20"/><label n="80"
+        <p xml:id="CV188_p_80"><lb n="20" type="rubric" xml:id="CV188_lb_031v_20"/><label n="80"
               ><num value="80"><w>LXXX</w></num></label>
           <w><hi>D</hi>e</w>
           <w>plaga</w>
@@ -8756,7 +8755,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_032r_01"><lb n="3" type="rubric" xml:id="CV188_lb_032r_03"/><label n="81"
+        <p xml:id="CV188_p_81"><lb n="3" type="rubric" xml:id="CV188_lb_032r_03"/><label n="81"
               ><num value="81"><w>LXXXI</w></num></label>
           <w><hi>D</hi>e</w>
           <w>oculo</w>
@@ -8792,7 +8791,7 @@
             <reg>.</reg>
           </choice><space quantity="2" unit="char"/></p>
 
-        <p xml:id="CV188_p_032r_02"><lb n="9" type="rubric" xml:id="CV188_lb_032r_09"/><label n="82"
+        <p xml:id="CV188_p_82"><lb n="9" type="rubric" xml:id="CV188_lb_032r_09"/><label n="82"
               ><num value="82"><w>LXXXII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>nasum</w>
@@ -8826,7 +8825,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_032r_03"><lb n="14" type="rubric" xml:id="CV188_lb_032r_14"/><label n="83"
+        <p xml:id="CV188_p_83"><lb n="14" type="rubric" xml:id="CV188_lb_032r_14"/><label n="83"
                 ><num value="83"><w>LXXXIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -8869,7 +8868,7 @@
           <w>me<lb n="18" xml:id="CV188_lb_032r_18"/><add place="below">dici</add></w>
         </p>
 
-        <p xml:id="CV188_p_032r_04"><lb n="19" type="rubric" xml:id="CV188_lb_032r_19"/><label n="84"
+        <p xml:id="CV188_p_84"><lb n="19" type="rubric" xml:id="CV188_lb_032r_19"/><label n="84"
                 ><num value="84"><w>LXXXIIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -8924,7 +8923,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_032v_01"><lb n="3" type="rubric" xml:id="CV188_lb_032v_03"/><label n="85"
+        <p xml:id="CV188_p_85"><lb n="3" type="rubric" xml:id="CV188_lb_032v_03"/><label n="85"
               ><num value="85"><w>LXXXV</w></num></label>
           <w><hi>D</hi>e</w>
           <w>dentis</w>
@@ -8981,7 +8980,7 @@
           <w>con<lb n="10" xml:id="CV188_lb_032v_10"/><add place="below">ponantur</add></w>
         </p>
 
-        <p xml:id="CV188_p_032v_02"><lb n="11" type="rubric" xml:id="CV188_lb_032v_11"/><label n="86"><num value="86"><w>LXXX<g
+        <p xml:id="CV188_p_86"><lb n="11" type="rubric" xml:id="CV188_lb_032v_11"/><label n="86"><num value="86"><w>LXXX<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi>D</hi>e</w>
           <w>maxillaris</w>
@@ -9020,7 +9019,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_032v_03"><lb n="16" type="rubric" xml:id="CV188_lb_032v_16"/><label n="87"><num value="87"><w>LXXX<g
+        <p xml:id="CV188_p_87"><lb n="16" type="rubric" xml:id="CV188_lb_032v_16"/><label n="87"><num value="87"><w>LXXX<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>brachium</w>
@@ -9062,7 +9061,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_032v_04"><lb n="21" type="rubric" xml:id="CV188_lb_032v_21"/><label n="88"><num value="88"><w>LXXX<g
+        <p xml:id="CV188_p_88"><lb n="21" type="rubric" xml:id="CV188_lb_032v_21"/><label n="88"><num value="88"><w>LXXX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi>D</hi>e</w>
           <w>mano</w><space quantity="2" unit="char"/>
@@ -9101,7 +9100,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_033r_01"><lb n="4" type="rubric" xml:id="CV188_lb_033r_04"/><label n="89"><num value="89"><w>LXXX<g
+        <p xml:id="CV188_p_89"><lb n="4" type="rubric" xml:id="CV188_lb_033r_04"/><label n="89"><num value="89"><w>LXXX<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>digita</w>
@@ -9151,7 +9150,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_033r_02"><lb n="9" type="rubric" xml:id="CV188_lb_033r_09"/><label n="90"
+        <p xml:id="CV188_p_90"><lb n="9" type="rubric" xml:id="CV188_lb_033r_09"/><label n="90"
               ><num value="90"><w>XC</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>secundo</w>
@@ -9174,7 +9173,7 @@
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
         </p>
 
-        <p xml:id="CV188_p_033r_03"><lb n="11" type="rubric" xml:id="CV188_lb_033r_11"/><label n="91"
+        <p xml:id="CV188_p_91"><lb n="11" type="rubric" xml:id="CV188_lb_033r_11"/><label n="91"
               ><num value="91"><w>XCI</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>tertium</w>
@@ -9204,7 +9203,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_033r_04"><lb n="13" type="rubric" xml:id="CV188_lb_033r_13"/><label n="92"
+        <p xml:id="CV188_p_92"><lb n="13" type="rubric" xml:id="CV188_lb_033r_13"/><label n="92"
               ><num value="92"><w>XCII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quartum</w>
@@ -9227,7 +9226,7 @@
           <measure quantity="1" type="currency" unit="soldi"><w>uno</w></measure>
         </p>
 
-        <p xml:id="CV188_p_033r_05"><lb n="15" type="rubric" xml:id="CV188_lb_033r_15"/><label n="93"
+        <p xml:id="CV188_p_93"><lb n="15" type="rubric" xml:id="CV188_lb_033r_15"/><label n="93"
               ><num value="93"><w>XCIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quintum</w>
@@ -9250,7 +9249,7 @@
           <measure quantity="4" type="currency" unit="soldi"><w>IIII</w></measure>
         </p>
 
-        <p xml:id="CV188_p_033r_06"><lb n="17" type="rubric" xml:id="CV188_lb_033r_17"/><label n="94"
+        <p xml:id="CV188_p_94"><lb n="17" type="rubric" xml:id="CV188_lb_033r_17"/><label n="94"
                   ><num value="104"><w><unclear>X</unclear>CIIII</w></num></label>
           <w><hi>D</hi>e</w>
           <w>coxa</w>
@@ -9292,7 +9291,7 @@
 
         <pb n="33v" xml:id="CV188_folio_033v"/>
 
-        <p xml:id="CV188_p_033v_01"><lb n="1" type="rubric" xml:id="CV188_lb_033v_01"/><label n="95"
+        <p xml:id="CV188_p_95"><lb n="1" type="rubric" xml:id="CV188_lb_033v_01"/><label n="95"
               ><num value="95"><w>XCV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>pedem</w>
@@ -9320,7 +9319,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_033v_02"><lb n="5" type="rubric" xml:id="CV188_lb_033v_05"/><label n="96"
+        <p xml:id="CV188_p_96"><lb n="5" type="rubric" xml:id="CV188_lb_033v_05"/><label n="96"
           ><num value="96"><w>XC<g ref="#romnumsix"/></w></num></label>
           <w><hi>D</hi>e</w>
           <w>digita</w>
@@ -9363,7 +9362,7 @@
             <reg>.</reg>
           </choice></p>
 
-        <p xml:id="CV188_p_033v_03"><lb n="10" type="rubric" xml:id="CV188_lb_033v_10"/><label n="97"
+        <p xml:id="CV188_p_97"><lb n="10" type="rubric" xml:id="CV188_lb_033v_10"/><label n="97"
           ><num value="97"><w>XC<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>secundo</w>
@@ -9387,7 +9386,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_033v_04"><lb n="12" type="rubric" xml:id="CV188_lb_033v_12"/><label n="98"
+        <p xml:id="CV188_p_98"><lb n="12" type="rubric" xml:id="CV188_lb_033v_12"/><label n="98"
           ><num value="98"><w>XC<g ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>tertio</w>
@@ -9411,7 +9410,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_033v_05"><lb n="14" type="rubric" xml:id="CV188_lb_033v_14"/><label n="99"
+        <p xml:id="CV188_p_99"><lb n="14" type="rubric" xml:id="CV188_lb_033v_14"/><label n="99"
           ><num value="99"><w>XC<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quarto</w>
@@ -9427,7 +9426,7 @@
           <measure quantity="1" type="currency" unit="soldi"><w>uno</w></measure>
         </p>
 
-        <p xml:id="CV188_p_033v_06"><lb n="16" type="rubric" xml:id="CV188_lb_033v_16"/><label n="100"
+        <p xml:id="CV188_p_100"><lb n="16" type="rubric" xml:id="CV188_lb_033v_16"/><label n="100"
               ><num value="100"><w>C</w></num></label>
           <w><hi>S</hi>i</w>
           <w>qu<space/>intum</w>
@@ -9447,7 +9446,7 @@
           <measure quantity="1" type="currency" unit="soldi"><w>uno</w></measure>
         </p>
 
-        <p xml:id="CV188_p_033v_07"><lb n="18" type="rubric" xml:id="CV188_lb_033v_18"/><label n="101"
+        <p xml:id="CV188_p_101"><lb n="18" type="rubric" xml:id="CV188_lb_033v_18"/><label n="101"
               ><num value="101"><w>CI</w></num></label>
           <w><hi>D</hi>e</w>
           <w>plaga</w>
@@ -9514,7 +9513,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_034r_01"><lb n="4" type="rubric" xml:id="CV188_lb_034r_04"/><label n="102"
+        <p xml:id="CV188_p_102"><lb n="4" type="rubric" xml:id="CV188_lb_034r_04"/><label n="102"
               ><num value="102"><w>CII</w></num></label>
           <w><hi>D</hi>e</w>
           <w>brachio</w>
@@ -9580,7 +9579,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_034r_02"><lb n="11" type="rubric" xml:id="CV188_lb_034r_11"/><label n="103"
+        <p xml:id="CV188_p_103"><lb n="11" type="rubric" xml:id="CV188_lb_034r_11"/><label n="103"
               ><num value="103"><w>CIII</w></num></label>
           <seg rend="cap">
             <w><hi rend="decorated">D</hi>E</w>
@@ -9691,7 +9690,7 @@
             <reg>.</reg>
           </choice></p>
 
-        <p xml:id="CV188_p_034v_01"><lb n="2" type="rubric" xml:id="CV188_lb_034v_02"/><label n="104"
+        <p xml:id="CV188_p_104"><lb n="2" type="rubric" xml:id="CV188_lb_034v_02"/><label n="104"
               ><num value="104"><w>CIIII</w></num></label>
           <w><hi>D</hi>e</w>
           <w>plaga</w>
@@ -9721,7 +9720,7 @@
           <w><add place="inline"/>I</w>
         </p>
 
-        <p xml:id="CV188_p_034v_02"><lb n="5" type="rubric" xml:id="CV188_lb_034v_05"/><label n="105"
+        <p xml:id="CV188_p_105"><lb n="5" type="rubric" xml:id="CV188_lb_034v_05"/><label n="105"
               ><num value="105"><w>CV</w></num></label>
           <w><hi>D</hi>e</w>
           <w>oculum</w>
@@ -9766,7 +9765,7 @@
             </choice>
           </w>
           <space quantity="7" unit="char"/></p>
-        <p xml:id="CV188_p_034v_03"><lb n="11" type="rubric" xml:id="CV188_lb_034v_11"/><label n="106"
+        <p xml:id="CV188_p_106"><lb n="11" type="rubric" xml:id="CV188_lb_034v_11"/><label n="106"
           ><num value="106"><w>C<g ref="#romnumsix"/></w></num></label>
           <w><hi>D</hi>e</w>
           <w>nasum</w>
@@ -9812,7 +9811,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_034v_04"><lb n="15" type="rubric" xml:id="CV188_lb_034v_15"/><label n="107"
+        <p xml:id="CV188_p_107"><lb n="15" type="rubric" xml:id="CV188_lb_034v_15"/><label n="107"
           ><num value="107"><w>C<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -9839,7 +9838,7 @@
             </choice>
           </w>
           <w><damage>unum</damage></w></p>
-        <p xml:id="CV188_p_034v_05"><lb n="18" type="rubric" xml:id="CV188_lb_034v_18"/><label n="108"
+        <p xml:id="CV188_p_108"><lb n="18" type="rubric" xml:id="CV188_lb_034v_18"/><label n="108"
           ><num value="108"><w>C<g ref="#romnumsix"/>II</w></num></label>
           <w><hi>D</hi>e</w>
           <w>labrum</w>
@@ -9887,7 +9886,7 @@
         <pb n="35r" xml:id="CV188_folio_035r"/>
 
         <fw place="top-right" type="fol"><add hand="unknown">35</add></fw>
-        <p xml:id="CV188_p_035r_01"><lb n="1" type="rubric" xml:id="CV188_lb_035r_01"/><label n="109"
+        <p xml:id="CV188_p_109"><lb n="1" type="rubric" xml:id="CV188_lb_035r_01"/><label n="109"
           ><num value="109"><w>C<g ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>dentes</w>
@@ -9970,7 +9969,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_035r_02"><lb n="7" type="rubric" xml:id="CV188_lb_035r_07"/><label n="110"
+        <p xml:id="CV188_p_110"><lb n="7" type="rubric" xml:id="CV188_lb_035r_07"/><label n="110"
               ><num value="110"><w>CX</w></num></label>
           <w><hi>D</hi>e</w>
           <w>brachio</w>
@@ -10036,7 +10035,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_035r_03"><lb n="14" type="rubric" xml:id="CV188_lb_035r_14"/><label n="111"
+        <p xml:id="CV188_p_111"><lb n="14" type="rubric" xml:id="CV188_lb_035r_14"/><label n="111"
               ><num value="111"><w>CXI</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>plaga</w>
@@ -10073,7 +10072,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_035r_04"><lb n="18" type="rubric" xml:id="CV188_lb_035r_18"/><label n="112"
+        <p xml:id="CV188_p_112"><lb n="18" type="rubric" xml:id="CV188_lb_035r_18"/><label n="112"
               ><num value="112"><w>CXII</w></num></label>
           <w><hi>D</hi>e</w>
           <w>brachio</w>
@@ -10168,7 +10167,7 @@
           <w><add place="below">conponat</add></w>
         </p>
 
-        <p xml:id="CV188_p_035v_01"><lb n="7" type="rubric" xml:id="CV188_lb_035v_07"/><label n="113"
+        <p xml:id="CV188_p_113"><lb n="7" type="rubric" xml:id="CV188_lb_035v_07"/><label n="113"
               ><num value="113"><w>CXIII</w></num></label>
           <w><hi>D</hi>e</w>
           <w>manum</w>
@@ -10200,7 +10199,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_035v_02"><lb n="11" type="rubric" xml:id="CV188_lb_035v_11"/><label n="114"
+        <p xml:id="CV188_p_114"><lb n="11" type="rubric" xml:id="CV188_lb_035v_11"/><label n="114"
                 ><num value="114"><w>CXIIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>digita</w>
@@ -10233,7 +10232,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_035v_03"><lb n="14" type="rubric" xml:id="CV188_lb_035v_14"/><label n="115"
+        <p xml:id="CV188_p_115"><lb n="14" type="rubric" xml:id="CV188_lb_035v_14"/><label n="115"
               ><num value="115"><w>CXV</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>secundum</w>
@@ -10260,7 +10259,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_035v_04"><lb n="16" type="rubric" xml:id="CV188_lb_035v_16"/><label n="116"><num value="116"><w>CX<g
+        <p xml:id="CV188_p_116"><lb n="16" type="rubric" xml:id="CV188_lb_035v_16"/><label n="116"><num value="116"><w>CX<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>tertium</w>
@@ -10283,7 +10282,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_035v_05"><lb n="18" type="rubric" xml:id="CV188_lb_035v_18"/><label n="117"><num value="117"><w>CX<g
+        <p xml:id="CV188_p_117"><lb n="18" type="rubric" xml:id="CV188_lb_035v_18"/><label n="117"><num value="117"><w>CX<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quartum</w>
@@ -10306,7 +10305,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_035v_06"><lb n="20" type="rubric" xml:id="CV188_lb_035v_20"/><label n="118"><num value="118"><w>CX<g
+        <p xml:id="CV188_p_118"><lb n="20" type="rubric" xml:id="CV188_lb_035v_20"/><label n="118"><num value="118"><w>CX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>
@@ -10352,7 +10351,7 @@
 
         <fw place="top-right" type="fol"><add hand="unknown">36</add></fw>
 
-        <p xml:id="CV188_p_036r_01"><lb n="1" type="rubric" xml:id="CV188_lb_036r_01"/><label n="119"><num value="119"><w>CX<g
+        <p xml:id="CV188_p_119"><lb n="1" type="rubric" xml:id="CV188_lb_036r_01"/><label n="119"><num value="119"><w>CX<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>pede</w>
@@ -10381,7 +10380,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice><space quantity="5" unit="char"/></p>
-        <p xml:id="CV188_p_036r_02"><lb n="6" type="rubric" xml:id="CV188_lb_036r_06"/><label n="120"
+        <p xml:id="CV188_p_120"><lb n="6" type="rubric" xml:id="CV188_lb_036r_06"/><label n="120"
               ><num value="120"><w>CXX</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>digita</w>
@@ -10412,7 +10411,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_036r_03"><lb n="9" type="rubric" xml:id="CV188_lb_036r_09"/><label n="121"
+        <p xml:id="CV188_p_121"><lb n="9" type="rubric" xml:id="CV188_lb_036r_09"/><label n="121"
               ><num value="121"><w>CXXI</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>secundum</w>
@@ -10435,7 +10434,7 @@
             </w>
             <measure quantity="1" type="currency" unit="soldi"><w>uno</w></measure>
           </add></p>
-        <p xml:id="CV188_p_036r_04"><lb n="11" type="rubric" xml:id="CV188_lb_036r_11"/><label n="122"
+        <p xml:id="CV188_p_122"><lb n="11" type="rubric" xml:id="CV188_lb_036r_11"/><label n="122"
               ><num value="122"><w>CXXII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>tertio</w>
@@ -10458,7 +10457,7 @@
           <measure quantity="1" type="currency" unit="soldi"><w>uno</w></measure>
         </p>
 
-        <p xml:id="CV188_p_036r_05"><lb n="13" type="rubric" xml:id="CV188_lb_036r_13"/><label n="123"
+        <p xml:id="CV188_p_123"><lb n="13" type="rubric" xml:id="CV188_lb_036r_13"/><label n="123"
                 ><num value="123"><w>CXXIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quarto</w>
@@ -10481,7 +10480,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_036r_06"><lb n="15" type="rubric" xml:id="CV188_lb_036r_15"/><label n="124"
+        <p xml:id="CV188_p_124"><lb n="15" type="rubric" xml:id="CV188_lb_036r_15"/><label n="124"
                 ><num value="124"><w>CXXIIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quintum</w>
@@ -10506,7 +10505,7 @@
             </choice>
           </w>
           <w>medio</w></p>
-        <p xml:id="CV188_p_036r_07"><lb n="17" type="rubric" xml:id="CV188_lb_036r_17"/><label n="125"
+        <p xml:id="CV188_p_125"><lb n="17" type="rubric" xml:id="CV188_lb_036r_17"/><label n="125"
               ><num value="125"><w>CXXV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
@@ -10585,7 +10584,7 @@
           <w>fue<lb n="4" xml:id="CV188_lb_036v_04"/><space quantity="10" unit="char"/>rit</w>
           <w>non</w>
           <w>nomiretur</w></p>
-        <p xml:id="CV188_p_036v_01"><lb n="5" type="rubric" xml:id="CV188_lb_036v_05"/><label n="126"><num value="116"><w>C<add
+        <p xml:id="CV188_p_126"><lb n="5" type="rubric" xml:id="CV188_lb_036v_05"/><label n="126"><num value="116"><w>C<add
                   place="above">X</add>X<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>membrum</w>
@@ -10651,7 +10650,7 @@
             <orig><pc>:</pc></orig>
             <reg>,</reg>
           </choice></p>
-        <p xml:id="CV188_p_036v_02"><lb n="15" type="rubric" xml:id="CV188_lb_036v_15"/><label n="127"><num value="127"><w>CX<add
+        <p xml:id="CV188_p_127"><lb n="15" type="rubric" xml:id="CV188_lb_036v_15"/><label n="127"><num value="127"><w>CX<add
           place="inline">X</add><g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">O</hi>mnes</w>
           <w><c corresp="#v">u</c>ero</w>
@@ -10800,7 +10799,7 @@
             <reg>.</reg>
           </choice></p>
 
-        <p xml:id="CV188_p_037r_01"><lb n="16" type="rubric" xml:id="CV188_lb_037r_16"/><label n="128"><num value="128"><w>CXX<g
+        <p xml:id="CV188_p_128"><lb n="16" type="rubric" xml:id="CV188_lb_037r_16"/><label n="128"><num value="128"><w>CXX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>eo</w>
@@ -10882,7 +10881,7 @@
           <w>fuerit</w>
         </p>
 
-        <p xml:id="CV188_p_037v_01"><lb n="5" type="rubric" xml:id="CV188_lb_037v_05"/><label n="129"
+        <p xml:id="CV188_p_129"><lb n="5" type="rubric" xml:id="CV188_lb_037v_05"/><label n="129"
                   ><space/><damage/><num value="129"><w>CXX<g ref="#romnumsix"/>III</w></num></label>
           <seg rend="cap">
             <w><hi rend="decorated">D</hi>E</w>
@@ -10903,7 +10902,7 @@
           <measure quantity="60" type="currency" unit="soldi"><w>sexagenta</w></measure>
         </p>
 
-        <p xml:id="CV188_p_037v_02"><lb n="8" type="rubric" xml:id="CV188_lb_037v_8"/><label n="130"
+        <p xml:id="CV188_p_130"><lb n="8" type="rubric" xml:id="CV188_lb_037v_8"/><label n="130"
               ><num value="130"><w>CXXX</w></num></label>
           <w>De</w>
           <w>ser<c corresp="#v">u</c>o</w>
@@ -10945,7 +10944,7 @@
           <measure quantity="50" type="currency" unit="soldi"><w>quinquagenta</w></measure>
         </p>
 
-        <p xml:id="CV188_p_037v_03"><lb n="11" type="rubric" xml:id="CV188_lb_037v_11"/><label n="131"
+        <p xml:id="CV188_p_131"><lb n="11" type="rubric" xml:id="CV188_lb_037v_11"/><label n="131"
                   ><num value="130"><w>CXXX<unclear>I</unclear></w></num></label>
           <w><hi>D</hi>e</w>
           <w>alio</w>
@@ -10981,7 +10980,7 @@
           <measure quantity="1" type="currency" unit="soldi"><add place="below"><w>XXV</w></add></measure>
         </p>
 
-        <p xml:id="CV188_p_037v_04"><lb n="15" type="rubric" xml:id="CV188_lb_037v_15"/><label n="132"
+        <p xml:id="CV188_p_132"><lb n="15" type="rubric" xml:id="CV188_lb_037v_15"/><label n="132"
                 ><num value="132"><w>CXXXII</w></num></label>
           <w><hi>D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
@@ -11014,7 +11013,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_037v_05"><lb n="18" type="rubric" xml:id="CV188_lb_037v_18"/><label n="133"
+        <p xml:id="CV188_p_133"><lb n="18" type="rubric" xml:id="CV188_lb_037v_18"/><label n="133"
                 ><num value="133"><w>CXXXIII</w></num></label>
           <w><hi>D</hi>e</w>
           <w>bo<c corresp="#v">u</c>ulco</w>
@@ -11057,7 +11056,7 @@
 
         <fw place="top-right" type="fol"><add hand="unknown">38</add></fw>
 
-        <p xml:id="CV188_p_038r_01"><lb n="1" type="rubric" xml:id="CV188_lb_038r_01"/><label n="134"
+        <p xml:id="CV188_p_134"><lb n="1" type="rubric" xml:id="CV188_lb_038r_01"/><label n="134"
               ><num value="1"><w>I</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
@@ -11102,7 +11101,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_038r_02"><lb n="5" type="rubric" xml:id="CV188_lb_038r_05"/><label n="135"
+        <p xml:id="CV188_p_135"><lb n="5" type="rubric" xml:id="CV188_lb_038r_05"/><label n="135"
               ><num value="135"><w>CXXXV</w></num></label>
           <w><hi>D</hi>e</w>
           <w>pastoris</w>
@@ -11174,7 +11173,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_038r_03"><lb n="12" type="rubric" xml:id="CV188_lb_038r_12"/><label n="136"><num value="136"><w>CXXX<g
+        <p xml:id="CV188_p_136"><lb n="12" type="rubric" xml:id="CV188_lb_038r_12"/><label n="136"><num value="136"><w>CXXX<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi>D</hi>e</w>
           <w>pegorario</w>
@@ -11246,7 +11245,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_038r_04"><lb n="20" type="rubric" xml:id="CV188_lb_038r_20"/><label n="137"><num value="137"><w>CXXX<g
+        <p xml:id="CV188_p_137"><lb n="20" type="rubric" xml:id="CV188_lb_038r_20"/><label n="137"><num value="137"><w>CXXX<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>infans</w>
@@ -11309,7 +11308,7 @@
           </w>
         </p>
 
-        <p xml:id="CV188_p_038v_01"><lb n="6" type="rubric" xml:id="CV188_lb_038v_06"/><label n="138"><num value="138"><w>CXXX<g
+        <p xml:id="CV188_p_138"><lb n="6" type="rubric" xml:id="CV188_lb_038v_06"/><label n="138"><num value="138"><w>CXXX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi>D</hi>e</w>
           <w>arbore</w>
@@ -11444,7 +11443,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_039r_01"><lb n="8" type="rubric" xml:id="CV188_lb_039r_08"/><label n="139"><num value="139"><w>CXXX<g
+        <p xml:id="CV188_p_139"><lb n="8" type="rubric" xml:id="CV188_lb_039r_08"/><label n="139"><num value="139"><w>CXXX<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi>D</hi>e</w>
           <w><c corresp="#v">u</c>enenum</w>
@@ -11501,7 +11500,7 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
-        <p xml:id="CV188_p_039r_02"><lb n="14" type="rubric" xml:id="CV188_lb_039r_14"/><label n="140"
+        <p xml:id="CV188_p_140"><lb n="14" type="rubric" xml:id="CV188_lb_039r_14"/><label n="140"
               ><num value="140"><w>CXL</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>liber</w>
@@ -11556,8 +11555,8 @@
 
         <pb n="39v" xml:id="CV188_folio_039v"/>
 
-        <p xml:id="CV188_p_039v_01"><lb n="1" type="rubric" xml:id="CV188_lb_039v_01"/><label n="141"
-                  ><num value="41"><w><damage>C</damage>XLI</w></num></label>
+        <p xml:id="CV188_p_141"><lb n="1" type="rubric" xml:id="CV188_lb_039v_01"/><label n="141"
+                  ><num value="141"><w><damage>C</damage>XLI</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w><c corresp="#v">u</c>eninum</w>
@@ -11583,7 +11582,7 @@
           <w>in</w>
           <lb n="5" xml:id="CV188_lb_039v_05"/><w>integrum</w>
           <w>conponat</w><space quantity="9" unit="char"/></p>
-        <p xml:id="CV188_p_039v_02"><lb n="6" type="rubric" xml:id="CV188_lb_039v_06"/><label n="142"
+        <p xml:id="CV188_p_142"><lb n="6" type="rubric" xml:id="CV188_lb_039v_06"/><label n="142"
               ><num value="142"><w>CXLII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
@@ -11718,7 +11717,7 @@
           <w>a<add place="above"/>ncille</w>
         </p>
 
-        <p xml:id="CV188_p_040r_01"><lb n="3" type="rubric" xml:id="CV188_lb_040r_03"/><label n="143"
+        <p xml:id="CV188_p_143"><lb n="3" type="rubric" xml:id="CV188_lb_040r_03"/><label n="143"
               ><num value="143"><w>CXLIII</w></num></label>
           <w><hi>D</hi>e</w>
           <w>eo</w>
@@ -11824,8 +11823,8 @@
 
         <pb n="40v" xml:id="CV188_folio_040v"/>
 
-        <p n="144" xml:id="CV188_p_040v_01"><lb n="1" type="rubric" xml:id="CV188_lb_040v_01"/>
-          <label><num value="144"><w>CXLIIII</w></num></label>
+        <p n="144" xml:id="CV188_p_144"><lb n="1" type="rubric" xml:id="CV188_lb_040v_01"/>
+          <label n="144"><num value="144"><w>CXLIIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>magistros</w>
           <w>comacinos</w>
@@ -11938,8 +11937,8 @@
           <w>susteneat</w>
         </p>
 
-        <p n="145" xml:id="CV188_p_040v_145"><lb n="16" type="rubric" xml:id="CV188_lb_040v_16"
-              /><label><num value="145"><w>CXLV</w></num></label>
+        <p n="145" xml:id="CV188_p_145"><lb n="16" type="rubric" xml:id="CV188_lb_040v_16"
+              /><label n="145"><num value="145"><w>CXLV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>rogatus</w>
           <w>aut</w>
@@ -12022,7 +12021,7 @@
       </div>
 
       <div n="Capp. 146-152" subtype="reati_contro_cose" type="capitula" xml:id="CV188_div_146-152">
-        <p n="146" xml:id="CV188_p_041r_146"><lb n="10" type="rubric" xml:id="CV188_lb_041r_10"/><label n="146"
+        <p n="146" xml:id="CV188_p_146"><lb n="10" type="rubric" xml:id="CV188_lb_041r_10"/><label n="146"
                   ><num value="146"><w>CXL<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>incendio</w>
@@ -12118,7 +12117,7 @@
           </choice>
         </p>
 
-        <p n="147" xml:id="CV188_p_041v_147"><lb n="4" type="rubric" xml:id="CV188_lb_041v_04"/><label><num value="147"><w>CXL<g
+        <p n="147" xml:id="CV188_p_147"><lb n="4" type="rubric" xml:id="CV188_lb_041v_04"/><label n="146"><num value="147"><w>CXL<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>fogum</w>
@@ -12208,7 +12207,7 @@
           </choice>
         </p>
 
-        <p n="148" xml:id="CV188_p_041v_148"><lb n="15" type="rubric" xml:id="CV188_lb_041v_15"/><label><num value="148"><w>CXL<g
+        <p n="148" xml:id="CV188_p_148"><lb n="15" type="rubric" xml:id="CV188_lb_041v_15"/><label n="146"><num value="148"><w>CXL<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -12341,7 +12340,7 @@
           <reg>.</reg>
         </p>
 
-        <p n="149" xml:id="CV188_p_042r_149"><lb n="12" type="rubric" xml:id="CV188_lb_042r_12"/><label><num value="149"><w>CXL<g
+        <p n="149" xml:id="CV188_p_149"><lb n="12" type="rubric" xml:id="CV188_lb_042r_12"/><label n="146"><num value="149"><w>CXL<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>molino</w>
@@ -12376,8 +12375,8 @@
           <reg>.</reg>
         </p>
 
-        <p n="150" xml:id="CV188_p_042r_150"><lb n="17" type="rubric" xml:id="CV188_lb_042r_17"
-              /><label><num value="150"><w>CL</w></num></label>
+        <p n="150" xml:id="CV188_p_150"><lb n="17" type="rubric" xml:id="CV188_lb_042r_17"
+              /><label n="150"><num value="150"><w>CL</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>molinum</w>
@@ -12487,8 +12486,8 @@
           </choice>
         </p>
 
-        <p n="151" xml:id="CV188_p_042v_151"><lb n="12" type="rubric" xml:id="CV188_lb_042v_12"
-              /><label><num value="151"><w>CLI</w></num></label>
+        <p n="151" xml:id="CV188_p_151"><lb n="12" type="rubric" xml:id="CV188_lb_042v_12"
+              /><label n="151"><num value="151"><w>CLI</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>molinum</w>
@@ -12536,8 +12535,8 @@
           </choice>
         </p>
 
-        <p n="152" xml:id="CV188_p_042v_152"><lb n="19" type="rubric" xml:id="CV188_lb_042v_19"
-              /><label><num value="152"><w>CLII</w></num></label>
+        <p n="152" xml:id="CV188_p_152"><lb n="19" type="rubric" xml:id="CV188_lb_042v_19"
+              /><label n="152"><num value="152"><w>CLII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>operarius</w>
           <w>ab</w>
@@ -12660,8 +12659,8 @@
           <w>FILIIS</w>
           <w>LEGI<lb rend="align_right" type="extra"/>timis</w>
         </head>
-        <p n="153" xml:id="CV188_p_043r_153"><lb n="13" type="rubric" xml:id="CV188_lb_043r_13"
-                /><label><num value="153"><w>CLIII</w></num></label>
+        <p n="153" xml:id="CV188_p_153"><lb n="13" type="rubric" xml:id="CV188_lb_043r_13"
+                /><label n="153"><num value="153"><w>CLIII</w></num></label>
           <w>DE</w>
           <w>GRADIBUS</w>
           <w>CUGN<lb rend="align_right" type="extra"/>ationum</w>
@@ -12766,8 +12765,8 @@
           </choice>
         </p>
 
-        <p n="154" xml:id="CV188_p_043v_154"><lb n="10" type="rubric" xml:id="CV188_lb_043v_10"
-                /><label><num value="154"><w>CLIIII</w></num></label>
+        <p n="154" xml:id="CV188_p_154"><lb n="10" type="rubric" xml:id="CV188_lb_043v_10"
+                /><label n="154"><num value="154"><w>CLIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>filius</w>
           <w>legetimus</w>
@@ -12900,7 +12899,7 @@
           <reg>.</reg>
         </p>
 
-        <p n="155" xml:id="CV188_p_044r_155"><lb n="12" type="rubric" xml:id="CV188_lb_044r_12"/><label n="155"
+        <p n="155" xml:id="CV188_p_155"><lb n="12" type="rubric" xml:id="CV188_lb_044r_12"/><label n="155"
                 ><num value="155"><w>CLV</w></num></label>
           <w><hi rend="cap">N</hi>ulli</w>
           <w>sit</w>
@@ -12937,7 +12936,7 @@
           <w>annus</w>
           <w><add hand="scribe_2" place="inline">habue<lb rend="align_right" type="extra"/>rent</add></w>. </p>
 
-        <p n="156" xml:id="CV188_p_044r_156"><lb n="19" type="rubric" xml:id="CV188_lb_044r_19"/><label><num value="156"><w>CL<g
+        <p n="156" xml:id="CV188_p_156"><lb n="19" type="rubric" xml:id="CV188_lb_044r_19"/><label n="156"><num value="156"><w>CL<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>filio</w>
@@ -12995,7 +12994,7 @@
           <reg>.</reg>
         </p>
 
-        <p n="157" xml:id="CV188_p_044v_157"><lb n="7" type="rubric" xml:id="CV188_lb_044v_07"/><label><num value="157"><w>CL<g
+        <p n="157" xml:id="CV188_p_157"><lb n="7" type="rubric" xml:id="CV188_lb_044v_07"/><label n="156"><num value="157"><w>CL<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>eo</w>
@@ -13039,7 +13038,7 @@
           </choice>
         </p>
 
-        <p n="158" xml:id="CV188_p_044v_158"><lb n="13" type="rubric" xml:id="CV188_lb_044v_13"/><label><num value="158"><w>CL<g
+        <p n="158" xml:id="CV188_p_158"><lb n="13" type="rubric" xml:id="CV188_lb_044v_13"/><label n="156"><num value="158"><w>CL<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -13112,7 +13111,7 @@
           </choice>
         </p>
 
-        <p n="159" xml:id="CV188_p_045r_159"><lb n="6" type="rubric" xml:id="CV188_lb_045r_06"/><label><num value="159"><w>CL<g
+        <p n="159" xml:id="CV188_p_159"><lb n="6" type="rubric" xml:id="CV188_lb_045r_06"/><label n="156"><num value="159"><w>CL<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -13174,8 +13173,8 @@
           <measure quantity="2" type="currency" unit="soldi"><w>duas</w></measure>
           <w>uncias</w>
           <w>sus<lb rend="align_right" type="extra"/>cipiat</w>. </p>
-        <p n="160" xml:id="CV188_p_045r_160"><lb n="17" type="rubric" xml:id="CV188_lb_045r_17"
-              /><label><num value="160"><w>CLX</w></num></label>
+        <p n="160" xml:id="CV188_p_160"><lb n="17" type="rubric" xml:id="CV188_lb_045r_17"
+              /><label n="160"><num value="160"><w>CLX</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>dereliquerit</w>
@@ -13274,8 +13273,8 @@
           </choice>
         </p>
 
-        <p n="161" xml:id="CV188_p_045v_161"><lb n="10" type="rubric" xml:id="CV188_lb_045v_10"
-              /><label><num value="161"><w>CLXI</w></num></label>
+        <p n="161" xml:id="CV188_p_161"><lb n="10" type="rubric" xml:id="CV188_lb_045v_10"
+              /><label n="161"><num value="161"><w>CLXI</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>fuerint</w>
           <w>filii</w>
@@ -13311,8 +13310,8 @@
           <w>tertiam</w>
         </p>
 
-        <p n="162" xml:id="CV188_p_045v_162"><lb n="15" type="rubric" xml:id="CV188_lb_045v_15"
-                /><label><num value="162"><w>CLXII</w></num></label>
+        <p n="162" xml:id="CV188_p_162"><lb n="15" type="rubric" xml:id="CV188_lb_045v_15"
+                /><label n="162"><num value="162"><w>CLXII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>fuerent</w>
           <w>filii</w>
@@ -13392,8 +13391,8 @@
           </choice>
         </p>
 
-        <p n="163" xml:id="CV188_p_046r_163"><lb n="6" type="rubric" xml:id="CV188_lb_046r_06"
-                /><label><num value="163"><w>CLXIII</w></num></label>
+        <p n="163" xml:id="CV188_p_163"><lb n="6" type="rubric" xml:id="CV188_lb_046r_06"
+                /><label n="163"><num value="163"><w>CLXIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>in</w>
           <w>morte</w>
@@ -13504,8 +13503,8 @@
           <w>socientu<add place="above">r</add></w>
         </p>
 
-        <p n="164" xml:id="CV188_p_046v_164"><lb n="2" type="rubric" xml:id="CV188_lb_046v_02"
-                /><label><num value="164"><w>CLXIIII</w></num></label>
+        <p n="164" xml:id="CV188_p_164"><lb n="2" type="rubric" xml:id="CV188_lb_046v_02"
+                /><label n="164"><num value="164"><w>CLXIIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>ex</w>
@@ -13605,8 +13604,8 @@
           <w>di<lb n="17" rend="align_center" xml:id="CV188_lb_046v_17"/>mittatur</w>
         </p>
 
-        <p n="165" xml:id="CV188_p_046v_165"><lb n="18" type="rubric" xml:id="CV188_lb_046v_18"
-              /><label><num value="165"><w>CLXV</w></num></label>
+        <p n="165" xml:id="CV188_p_165"><lb n="18" type="rubric" xml:id="CV188_lb_046v_18"
+              /><label n="165"><num value="165"><w>CLXV</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>dixerit</w>
@@ -13715,7 +13714,7 @@
           <w>dimitta<lb rend="align_right" type="extra"/>tur</w>
         </p>
 
-        <p n="166" xml:id="CV188_p_047r_166"><lb n="9" type="rubric" xml:id="CV188_lb_047r_09"/><label><num value="166"><w>CLX<g
+        <p n="166" xml:id="CV188_p_166"><lb n="9" type="rubric" xml:id="CV188_lb_047r_09"/><label n="166"><num value="166"><w>CLX<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap red">D</hi>e</w>
           <w>suspitionem</w>
@@ -13780,7 +13779,7 @@
           <w>dimitta<lb rend="align_right" type="extra"/>tur</w>
         </p>
 
-        <p n="167" xml:id="CV188_p_047r_167"><lb n="19" type="rubric" xml:id="CV188_lb_047r_19"/><label><num value="167"><w>CLX<g
+        <p n="167" xml:id="CV188_p_167"><lb n="19" type="rubric" xml:id="CV188_lb_047r_19"/><label n="166"><num value="167"><w>CLX<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>fratres</w>
@@ -13943,7 +13942,7 @@
 
         <pb n="48r" xml:id="CV188_folio_048r"/>
 
-        <p n="168" xml:id="CV188_p_048r_168"><lb n="1" type="rubric" xml:id="CV188_lb_048r_01"/><label><num value="168"><w>CLX<g
+        <p n="168" xml:id="CV188_p_168"><lb n="1" type="rubric" xml:id="CV188_lb_048r_01"/><label n="166"><num value="168"><w>CLX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>exereditatione</w>
@@ -13969,7 +13968,7 @@
           </choice>
         </p>
 
-        <p n="169" xml:id="CV188_p_048r_169"><lb n="5" type="rubric" xml:id="CV188_lb_048r_05"/><label><num value="169"><w>CLX<g
+        <p n="169" xml:id="CV188_p_169"><lb n="5" type="rubric" xml:id="CV188_lb_048r_05"/><label n="166"><num value="169"><w>CLX<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>iustas</w>
@@ -14035,8 +14034,8 @@
           <w>exheredite<lb rend="align_right" type="extra"/>tur</w>
         </p>
 
-        <p n="170" xml:id="CV188_p_048r_170"><lb n="14" type="rubric" xml:id="CV188_lb_048r_14"
-              /><label><num value="170"><w>CLXX</w></num></label>
+        <p n="170" xml:id="CV188_p_170"><lb n="14" type="rubric" xml:id="CV188_lb_048r_14"
+              /><label n="170"><num value="170"><w>CLXX</w></num></label>
           <w><hi rend="decorated">I</hi>tem</w>
           <w>sicut</w>
           <w>nec</w>
@@ -14096,8 +14095,8 @@
           </choice>
         </p>
 
-        <p n="171" xml:id="CV188_p_048v_171"><lb n="3" type="rubric" xml:id="CV188_lb_048v_03"
-              /><label><num value="171"><w>CLXXI</w></num></label>
+        <p n="171" xml:id="CV188_p_171"><lb n="3" type="rubric" xml:id="CV188_lb_048v_03"
+              /><label n="171"><num value="171"><w>CLXXI</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>se</w>
@@ -14214,8 +14213,8 @@
       </div>
 
       <div n="Capp. 172-177" subtype="successioni" type="capitula" xml:id="CV188_div_172-177">
-        <p n="172" xml:id="CV188_p_049r_151"><lb n="3" type="rubric" xml:id="CV188_lb_049r_03"
-                /><label><num value="172"><w>CLXXII</w></num></label>
+        <p n="172" xml:id="CV188_p_172"><lb n="3" type="rubric" xml:id="CV188_lb_049r_03"
+                /><label n="172"><num value="172"><w>CLXXII</w></num></label>
           <w><hi rend="cap red">D</hi>e</w>
           <term corresp="#CV188_gloss_thinx_172" ref="#thinx" xml:id="CV188_term_thinx_172" xml:lang="lng">
             <w>thinx</w>
@@ -14267,8 +14266,8 @@
           </choice>
         </p>
 
-        <p n="173" xml:id="CV188_p_049r_173"><lb n="10" type="rubric" xml:id="CV188_lb_049r_10"
-                /><label><num value="173"><w>CLXXIII</w></num></label>
+        <p n="173" xml:id="CV188_p_173"><lb n="10" type="rubric" xml:id="CV188_lb_049r_10"
+                /><label n="173"><num value="173"><w>CLXXIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>res</w>
@@ -14387,8 +14386,8 @@
           <w>ac<lb rend="align_right" type="extra"/>ceperit</w>
         </p>
 
-        <p n="174" xml:id="CV188_p_049v_174"><lb n="6" type="rubric" xml:id="CV188_lb_049v_06"
-                /><label><num value="174"><w>CLXXIIII</w></num></label>
+        <p n="174" xml:id="CV188_p_174"><lb n="6" type="rubric" xml:id="CV188_lb_049v_06"
+                /><label n="174"><num value="174"><w>CLXXIIII</w></num></label>
           <w><hi rend="decorated">N</hi>on</w>
           <w>leciat</w>
           <w>dona<add hand="scribe_1" place="above">to</add>ri</w>
@@ -14509,8 +14508,8 @@
           <lb rend="align_right" type="extra"/><w>posita</w>
         </p>
 
-        <p n="175" xml:id="CV188_p_050r_175"><lb n="3" type="rubric" xml:id="CV188_lb_050r_03"
-              /><label><num value="175"><w>CLXXV</w></num></label>
+        <p n="175" xml:id="CV188_p_175"><lb n="3" type="rubric" xml:id="CV188_lb_050r_03"
+              /><label n="175"><num value="175"><w>CLXXV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <term ref="#launegild" xml:id="CV188_term_launegild_175" xml:lang="lng">
             <w>launechild</w>
@@ -14573,7 +14572,7 @@
           <w>exsolutus</w>
         </p>
 
-        <p n="176" xml:id="CV188_p_050r_176"><lb n="12" type="rubric" xml:id="CV188_lb_050r_12"/><label><num value="176"><w>CLXX<g
+        <p n="176" xml:id="CV188_p_176"><lb n="12" type="rubric" xml:id="CV188_lb_050r_12"/><label n="176"><num value="176"><w>CLXX<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -14658,7 +14657,7 @@
           </choice>
         </p>
 
-        <p n="177" xml:id="CV188_p_050v_177"><lb n="3" type="rubric" xml:id="CV188_lb_050v_03"/><label><num value="177"><w>CLXX<g
+        <p n="177" xml:id="CV188_p_177"><lb n="3" type="rubric" xml:id="CV188_lb_050v_03"/><label n="176"><num value="177"><w>CLXX<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -14751,7 +14750,7 @@
       </div>
 
       <div n="Capp. 178-223" subtype="matrimoni" type="capitula" xml:id="CV188_div_178-223">
-        <p n="178" xml:id="CV188_p_050v_178"><lb n="13" type="rubric" xml:id="CV188_lb_050v_13"/><label><num value="178"><w>CLXX<g
+        <p n="178" xml:id="CV188_p_178"><lb n="13" type="rubric" xml:id="CV188_lb_050v_13"/><label n="176"><num value="178"><w>CLXX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="cap red">D</hi>e</w>
           <w>sponsalibus</w>
@@ -14873,7 +14872,7 @@
           </choice>
         </p>
 
-        <p n="179" xml:id="CV188_p_051r_179"><lb n="12" type="rubric" xml:id="CV188_lb_051r_12"/><label><num value="179"><w>CLXX<g
+        <p n="179" xml:id="CV188_p_179"><lb n="12" type="rubric" xml:id="CV188_lb_051r_12"/><label n="176"><num value="179"><w>CLXX<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>dixerit</w>
@@ -14985,8 +14984,8 @@
           </choice>
         </p>
 
-        <p n="180" xml:id="CV188_p_051v_180"><lb n="9" type="rubric" xml:id="CV188_lb_051v_09"
-              /><label><num value="180"><w>CLXXX</w></num></label>
+        <p n="180" xml:id="CV188_p_180"><lb n="9" type="rubric" xml:id="CV188_lb_051v_09"
+              /><label n="180"><num value="180"><w>CLXXX</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>contegerit</w>
           <w>post<lb n="10" xml:id="CV188_lb_051v_10"/>quam</w>
@@ -15059,8 +15058,8 @@
           <w>super<c corresp="#v">u</c><lb rend="align_right" type="extra"/>enientem</w>
         </p>
 
-        <p n="181" xml:id="CV188_p_051v_181"><lb n="20" type="rubric" xml:id="CV188_lb_051v_20"
-                /><label><num value="181"><w>CLXXXI</w></num></label>
+        <p n="181" xml:id="CV188_p_181"><lb n="20" type="rubric" xml:id="CV188_lb_051v_20"
+                /><label n="181"><num value="181"><w>CLXXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>nuptiis</w>
           <w>si</w>
@@ -15119,8 +15118,8 @@
           </choice>
         </p>
 
-        <p n="182" xml:id="CV188_p_052r_182"><lb n="7" type="rubric" xml:id="CV188_lb_052r_07"
-                /><label><num value="182"><w>CLXXXII</w></num></label>
+        <p n="182" xml:id="CV188_p_182"><lb n="7" type="rubric" xml:id="CV188_lb_052r_07"
+                /><label n="182"><num value="182"><w>CLXXXII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>filiam</w>
@@ -15374,8 +15373,8 @@
           </choice>
         </p>
 
-        <p n="183" xml:id="CV188_p_053r_183"><lb n="3" type="rubric" xml:id="CV188_lb_053r_03"
-                /><label><num value="183"><w>CLXXXIII</w></num></label>
+        <p n="183" xml:id="CV188_p_183"><lb n="3" type="rubric" xml:id="CV188_lb_053r_03"
+                /><label n="183"><num value="183"><w>CLXXXIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>traditionem</w>
           <w>puelle</w>
@@ -15479,8 +15478,8 @@
           </choice>
         </p>
 
-        <p n="184" xml:id="CV188_p_053r_184"><lb n="19" type="rubric" xml:id="CV188_lb_053r_19"
-                /><label><num value="184"><w>CLXXXIIII</w></num></label>
+        <p n="184" xml:id="CV188_p_184"><lb n="19" type="rubric" xml:id="CV188_lb_053r_19"
+                /><label n="184"><num value="184"><w>CLXXXIIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>exenio</w>
           <w>
@@ -15545,8 +15544,8 @@
           <w>persol<lb rend="align_right" type="extra"/><c corresp="#v">u</c>i</w>
         </p>
 
-        <p n="185" xml:id="CV188_p_053v_185"><lb n="7" type="rubric" xml:id="CV188_lb_053v_07"
-                /><label><num value="185"><w>CLXXXV</w></num></label>
+        <p n="185" xml:id="CV188_p_185"><lb n="7" type="rubric" xml:id="CV188_lb_053v_07"
+                /><label n="185"><num value="185"><w>CLXXXV</w></num></label>
           <w><hi rend="cap red">D</hi>e</w>
           <w>incertas</w>
           <w>et</w>
@@ -15660,7 +15659,7 @@
 
         <fw place="top-right" type="fol"><add hand="unknown">54</add></fw>
 
-        <p n="186" xml:id="CV188_p_054r_186"><lb n="1" type="rubric" xml:id="CV188_lb_054r_01"/><label><num value="186"><w>CLXXX<g
+        <p n="186" xml:id="CV188_p_186"><lb n="1" type="rubric" xml:id="CV188_lb_054r_01"/><label n="186"><num value="186"><w>CLXXX<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w><c corresp="#v">u</c>ir</w>
@@ -15779,7 +15778,7 @@
           </choice>
         </p>
 
-        <p n="187" xml:id="CV188_p_054r_187"><lb n="16" type="rubric" xml:id="CV188_lb_054r_16"/><label><num value="187"><w>CLXXX<g
+        <p n="187" xml:id="CV188_p_187"><lb n="16" type="rubric" xml:id="CV188_lb_054r_16"/><label n="186"><num value="187"><w>CLXXX<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w><c corresp="#v">u</c>iolen<space/>tias</w>
@@ -15896,7 +15895,7 @@
           </w>
         </p>
 
-        <p n="188" xml:id="CV188_p_054v_188"><lb n="9" type="rubric" xml:id="CV188_lb_054v_09"/><label><num value="188"><w>CLXXX<g
+        <p n="188" xml:id="CV188_p_188"><lb n="9" type="rubric" xml:id="CV188_lb_054v_09"/><label n="186"><num value="188"><w>CLXXX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>puella</w>
@@ -15993,7 +15992,7 @@
           <lb rend="align_right" type="extra"/><w>neglexit</w>
         </p>
 
-        <p n="189" xml:id="CV188_p_055r_189"><lb n="02" type="rubric" xml:id="CV188_lb_055r_02"/><label><num value="189"><w>CLXXX<g
+        <p n="189" xml:id="CV188_p_189"><lb n="02" type="rubric" xml:id="CV188_lb_055r_02"/><label n="186"><num value="189"><w>CLXXX<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>fornigationis</w>
@@ -16143,8 +16142,8 @@
           </choice>
         </p>
 
-        <p n="190" xml:id="CV188_p_055r_190"><lb n="20" type="rubric" xml:id="CV188_lb_055r_20"
-              /><label><num value="190"><w>CXC</w></num></label>
+        <p n="190" xml:id="CV188_p_190"><lb n="20" type="rubric" xml:id="CV188_lb_055r_20"
+              /><label n="190"><num value="190"><w>CXC</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>sponsata</w>
           <w>alterius</w>
@@ -16280,8 +16279,8 @@
           </choice>
         </p>
 
-        <p n="191" xml:id="CV188_p_055v_191"><lb n="16" type="rubric" xml:id="CV188_lb_055v_16"
-              /><label><num value="191"><w>CXCI</w></num></label>
+        <p n="191" xml:id="CV188_p_191"><lb n="16" type="rubric" xml:id="CV188_lb_055v_16"
+              /><label n="191"><num value="191"><w>CXCI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>raptus</w>
           <w>sponsa</w>
@@ -16400,8 +16399,8 @@
           <w>poena</w>
         </p>
 
-        <p n="192" xml:id="CV188_p_056r_192"><lb n="13" type="rubric" xml:id="CV188_lb_056r_13"
-                /><label><num value="192"><w>CXCII</w></num></label>
+        <p n="192" xml:id="CV188_p_192"><lb n="13" type="rubric" xml:id="CV188_lb_056r_13"
+                /><label n="192"><num value="192"><w>CXCII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>pater</w>
           <w>aut</w>
@@ -16503,8 +16502,8 @@
           <w>generetur</w>
         </p>
 
-        <p n="193" xml:id="CV188_p_056v_193"><lb n="7" type="rubric" xml:id="CV188_lb_056v_07"
-                /><label><num value="193"><w>CXCIII</w></num></label>
+        <p n="193" xml:id="CV188_p_193"><lb n="7" type="rubric" xml:id="CV188_lb_056v_07"
+                /><label n="193"><num value="193"><w>CXCIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>puellam</w>
           <w>liberam</w>
@@ -16568,8 +16567,8 @@
           </choice>
         </p>
 
-        <p n="194" xml:id="CV188_p_056v_194"><lb n="15" type="rubric" xml:id="CV188_lb_056v_15"
-                /><label><num value="194"><w>CXCIIII</w></num></label>
+        <p n="194" xml:id="CV188_p_194"><lb n="15" type="rubric" xml:id="CV188_lb_056v_15"
+                /><label n="194"><num value="194"><w>CXCIIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>cum</w>
@@ -16626,8 +16625,8 @@
           </choice>
         </p>
 
-        <p n="195" xml:id="CV188_p_056v_195"><lb n="19" type="rubric" xml:id="CV188_lb_056v_19"
-              /><label><num value="195"><w>CXCV</w></num></label>
+        <p n="195" xml:id="CV188_p_195"><lb n="19" type="rubric" xml:id="CV188_lb_056v_19"
+              /><label n="195"><num value="195"><w>CXCV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>crimen</w>
           <w>in</w>
@@ -16755,7 +16754,7 @@
           <w>purefiga<c corresp="#v">u</c>erit</w>
         </p>
 
-        <p n="196" xml:id="CV188_p_057r_196"><lb n="19" type="rubric" xml:id="CV188_lb_057r_19"/><label><num value="196"><w>CXC<g
+        <p n="196" xml:id="CV188_p_196"><lb n="19" type="rubric" xml:id="CV188_lb_057r_19"/><label n="196"><num value="196"><w>CXC<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>crimen</w>
@@ -16864,7 +16863,7 @@
           <w>ha<lb rend="align_right" type="extra"/>bere</w>
         </p>
 
-        <p n="197" xml:id="CV188_p_057v_197"><lb n="12" type="rubric" xml:id="CV188_lb_057v_12"/><label><num value="197"><w>CXC<g
+        <p n="197" xml:id="CV188_p_197"><lb n="12" type="rubric" xml:id="CV188_lb_057v_12"/><label n="196"><num value="197"><w>CXC<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>crimen</w>
@@ -16968,7 +16967,7 @@
           </choice>
         </p>
 
-        <p n="198" xml:id="CV188_p_058r_198"><lb n="6" type="rubric" xml:id="CV188_p_058r_06"/><label><num value="198"><w>CXC<g
+        <p n="198" xml:id="CV188_p_198"><lb n="6" type="rubric" xml:id="CV188_p_058r_06"/><label n="196"><num value="198"><w>CXC<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>crimen</w>
@@ -17149,7 +17148,7 @@
           <w>conpella<lb rend="align_right" type="extra"/>tur</w>
         </p>
 
-        <p n="199" xml:id="CV188_p_058v_199"><lb n="9" type="rubric" xml:id="CV188_lb_058v_09"/><label><num value="199"><w>CXC<g
+        <p n="199" xml:id="CV188_p_199"><lb n="9" type="rubric" xml:id="CV188_lb_058v_09"/><label n="196"><num value="199"><w>CXC<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w><c corresp="#v">u</c>edua</w>
@@ -17401,8 +17400,8 @@
           <g ref="#fourdot"/>
         </p>
 
-        <p n="200" xml:id="CV188_p_059r_193"><lb n="20" type="rubric" xml:id="CV188_lb_059r_20"
-              /><label><num value="200"><w>CC</w></num></label>
+        <p n="200" xml:id="CV188_p_200"><lb n="20" type="rubric" xml:id="CV188_lb_059r_20"
+              /><label n="200"><num value="200"><w>CC</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>occisione</w>
           <w>mulieris</w>
@@ -17538,8 +17537,8 @@
           <w>per<c corresp="#v">u</c>eniat</w>
         </p>
 
-        <p n="201" xml:id="CV188_p_059v_201"><lb n="18" type="rubric" xml:id="CV188_lb_059v_18"
-              /><label><num value="201"><w>CCI</w></num></label>
+        <p n="201" xml:id="CV188_p_201"><lb n="18" type="rubric" xml:id="CV188_lb_059v_18"
+              /><label n="201"><num value="201"><w>CCI</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>muliere</w>
           <w>libera</w>
@@ -17630,8 +17629,8 @@
           </choice>
         </p>
         <!-- codifica Vicari 202-262 -->
-        <p n="202" xml:id="CV188_p_060r_202"><lb n="8" type="rubric" xml:id="CV188_lb_060r_8"/>
-          <label><num value="202"><w>CCII</w></num></label>
+        <p n="202" xml:id="CV188_p_202"><lb n="8" type="rubric" xml:id="CV188_lb_060r_8"/>
+          <label n="202"><num value="202"><w>CCII</w></num></label>
           <w><hi rend="cap2.5 halfempty">S</hi>i</w>
           <w>mulier</w>
           <w>in</w>
@@ -17706,8 +17705,8 @@
           </choice>
         </p>
 
-        <p n="203" xml:id="CV188_p_060r_203"><lb n="16" type="rubric" xml:id="CV188_lb_060r_16"/>
-          <label><num value="203"><space quantity="1" unit="char"/><w>CCIII</w></num></label>
+        <p n="203" xml:id="CV188_p_203"><lb n="16" type="rubric" xml:id="CV188_lb_060r_16"/>
+          <label n="203"><num value="203"><space quantity="1" unit="char"/><w>CCIII</w></num></label>
           <w><hi rend="cap2.5 halfempty">S</hi>i</w>
           <w>mulier</w>
           <w>maritum</w>
@@ -17741,8 +17740,8 @@
           <reg>.</reg>
         </p>
 
-        <p n="204" xml:id="CV188_p_060r_204"><lb n="20" type="rubric" xml:id="CV188_lb_060r_20"/>
-          <label><num value="204"><w>CCIIII</w></num></label>
+        <p n="204" xml:id="CV188_p_204"><lb n="20" type="rubric" xml:id="CV188_lb_060r_20"/>
+          <label n="204"><num value="204"><w>CCIIII</w></num></label>
           <w><hi rend="cap2.0 halfempty">N</hi>ulli</w>
           <w>mulieri</w>
           <add place="above"><w>libere</w>
@@ -17839,8 +17838,8 @@
           </choice>
         </p>
 
-        <p n="205" xml:id="CV188_p_060v_205"><lb n="9" type="rubric" xml:id="CV188_lb_060v_9"/>
-          <label><num value="205"><w>CCV</w></num></label>
+        <p n="205" xml:id="CV188_p_205"><lb n="9" type="rubric" xml:id="CV188_lb_060v_9"/>
+          <label n="205"><num value="205"><w>CCV</w></num></label>
           <w><choice>
               <sic><hi rend="cap1.5 halfempty">D</hi>de</sic>
               <corr><hi rend="cap1.5 halfempty">D</hi>e</corr>
@@ -17892,9 +17891,9 @@
           </choice>
         </p>
 
-        <p n="206" xml:id="CV188_p_060v_206">
+        <p n="206" xml:id="CV188_p_206">
           <lb n="13" type="rubric" xml:id="CV188_lb_060v_13"/>
-          <label><num value="206"><w>CC<am><g ref="#romnumsix"/></am></w></num></label>
+          <label n="206"><num value="206"><w>CC<am><g ref="#romnumsix"/></am></w></num></label>
           <w><hi rend="cap2.0 halfempty">D</hi>e</w>
           <w>liberta</w>
           <w><c corresp="#v">u</c>iolentiata</w>
@@ -17943,9 +17942,9 @@
           </choice>
         </p>
 
-        <p n="207" xml:id="CV188_p_060v_207">
+        <p n="207" xml:id="CV188_p_207">
           <lb n="17" type="rubric" xml:id="CV188_lb_060v_17"/>
-          <label><num value="205"><w>CC<am><g ref="#romnumsix"/></am>I</w></num></label>
+          <label n="206"><num value="205"><w>CC<am><g ref="#romnumsix"/></am>I</w></num></label>
           <w><hi rend="cap1.5 halfempty">D</hi>e</w>
           <w>ancilla</w>
           <w><c corresp="#v">u</c>iolentiata</w>
@@ -17978,7 +17977,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_060v_208">
+        <p xml:id="CV188_p_208">
           <lb n="20" type="rubric" xml:id="CV188_lb_060v_20"/>
           <label n="208"><num value="206"><w>CC<am><g ref="#romnumsix"/></am>II</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
@@ -18063,7 +18062,7 @@
           <orig>.</orig>
         </p>
 
-        <p xml:id="CV188_p_061r_209">
+        <p xml:id="CV188_p_209">
           <lb n="7" type="rubric" xml:id="CV188_lb_061r_7"/>
           <label n="209"><num value="207"><w>CC<am><g ref="#romnumsix"/></am>III</w></num></label>
           <w><hi rend="cap2.0">D</hi>e</w>
@@ -18139,7 +18138,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_061r_210">
+        <p xml:id="CV188_p_210">
           <lb n="15" type="rubric" xml:id="CV188_lb_061r_15"/>
           <label n="210"><num value="210"><w>CCX</w></num></label>
           <w><hi rend="cap1.5 halfempty">D</hi>e</w>
@@ -18239,7 +18238,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_061v_211">
+        <p xml:id="CV188_p_211">
           <!-- see diary -->
           <lb n="3" type="rubric" xml:id="CV188_lb_061v_3"/>
           <label n="211"><num value="211"><w>CCXI</w></num></label>
@@ -18286,7 +18285,7 @@
           <reg>.</reg>
         </p>
 
-        <p xml:id="CV188_p_061v_212">
+        <p xml:id="CV188_p_212">
           <lb n="8" type="rubric" xml:id="CV188_lb_061v_8"/>
           <label n="212"><num value="212"><w>CCXII</w></num></label>
           <w><hi rend="cap3.0 halfempty">S</hi>i</w>
@@ -18346,7 +18345,7 @@
           <reg>.</reg>
         </p>
 
-        <p xml:id="CV188_p_061v_213">
+        <p xml:id="CV188_p_213">
           <lb n="13" type="rubric" xml:id="CV188_lb_061v_13"/>
           <label n="213"><num value="213"><w>CCXIII</w></num></label>
           <w><hi rend="cap2.0 halfempty">D</hi>e</w>
@@ -18411,7 +18410,7 @@
           <reg>.</reg>
         </p>
 
-        <p xml:id="CV188_p_061v_214"><lb n="20" type="rubric" xml:id="CV188_lb_061v_20"/>
+        <p xml:id="CV188_p_214"><lb n="20" type="rubric" xml:id="CV188_lb_061v_20"/>
           <label n="214"><num value="214"><w>CCXIIII</w></num></label>
           <w><hi rend="cap2.5 halfempty">S</hi>i</w>
           <w>quis</w>
@@ -18510,7 +18509,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_062r_215"><lb n="6" type="rubric" xml:id="CV188_lb_062r_6"/>
+        <p xml:id="CV188_p_215"><lb n="6" type="rubric" xml:id="CV188_lb_062r_6"/>
           <label n="215"><num value="215"><w>CCXV</w></num></label>
           <w><hi rend="cap2.0 halfempty">D</hi>e</w>
           <w>disponsata</w>
@@ -18636,7 +18635,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_062r_216"><lb n="18" type="rubric" xml:id="CV188_lb_062r_18"/>
+        <p xml:id="CV188_p_216"><lb n="18" type="rubric" xml:id="CV188_lb_062r_18"/>
           <label n="216"><num value="216"><w>CCX<am><g ref="#romnumsix"/></am></w></num></label>
           <w><hi rend="cap3.5">S</hi>i</w>
           <w>aldius</w>
@@ -18855,7 +18854,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_062v_217">
+        <p xml:id="CV188_p_217">
           <lb n="19" type="rubric" xml:id="CV188_lb_062v_19"/>
           <label n="217"><num value="215"><w>CCX<am><g ref="#romnumsix"/></am>I</w></num></label>
           <w><hi rend="cap2.0">D</hi>e</w>
@@ -18995,7 +18994,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_063r_218">
+        <p xml:id="CV188_p_218">
           <lb n="11" type="rubric" xml:id="CV188_lb_063r_11"/>
           <label n="218"><num value="216"><w>CCX<am><g ref="#romnumsix"/></am>II</w></num></label>
           <w><hi rend="cap3.5 halfempty">S</hi>i</w>
@@ -19058,7 +19057,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_063r_219">
+        <p xml:id="CV188_p_219">
           <lb n="17" type="rubric" xml:id="CV188_lb_063r_17"/>
           <label n="219"><num value="217"><w>CCX<am><g ref="#romnumsix"/></am>III</w></num></label>
           <w><hi rend="cap3.5">S</hi>i</w>
@@ -19102,7 +19101,7 @@
 
         <pb n="63v" xml:id="CV188_folio_063v"/>
 
-        <p xml:id="CV188_p_063v_220">
+        <p xml:id="CV188_p_220">
           <lb n="1" type="rubric" xml:id="CV188_lb_063v_1"/><label n="220"><num value="220"><w>CCXX</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>ancilla</w>
@@ -19138,7 +19137,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_063v_221">
+        <p xml:id="CV188_p_221">
           <lb n="6" type="rubric" xml:id="CV188_lb_063v_6"/>
           <label n="221"><num value="221"><w>CCXXI</w></num></label>
           <w><hi rend="cap3.5 halfempty">S</hi>i</w>
@@ -19256,7 +19255,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_063v_222"><lb n="19" type="rubric" xml:id="CV188_lb_063v_19"/>
+        <p xml:id="CV188_p_222"><lb n="19" type="rubric" xml:id="CV188_lb_063v_19"/>
           <label n="222"><num value="222"><w>CCXXII</w></num></label>
           <w><hi rend="cap2.5 halfempty">D</hi>e</w>
           <w>ancilla</w>
@@ -19368,7 +19367,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_064r_223"><lb n="9" type="rubric" xml:id="CV188_lb_064r_9"/>
+        <p xml:id="CV188_p_223"><lb n="9" type="rubric" xml:id="CV188_lb_064r_9"/>
           <label n="223"><num value="223"><w>CCXXIII</w></num></label>
           <w><hi rend="cap2.5 empty">D</hi>e</w>
           <w>eo</w>
@@ -19457,7 +19456,7 @@
       </div>
 
       <div n="Capp. 224-226" subtype="manomissioni" type="capitula" xml:id="CV188_div_224-226">
-        <p xml:id="CV188_p_064r_224">
+        <p xml:id="CV188_p_224">
           <lb n="19" type="rubric" xml:id="CV188_lb_064r_19"/>
           <label n="224"><num value="224"><w>CCXXIIII</w></num></label>
           <w><hi rend="cap2.5">D</hi>e</w>
@@ -19876,7 +19875,7 @@
 
         <pb n="65v" xml:id="CV188_folio_065v"/>
 
-        <p xml:id="CV188_p_065v_225"><lb n="1" type="rubric" xml:id="CV188_lb_065v_1"/><label n="225"><num value="225"><w>CCXXV</w></num></label>
+        <p xml:id="CV188_p_225"><lb n="1" type="rubric" xml:id="CV188_lb_065v_1"/><label n="225"><num value="225"><w>CCXXV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>filius</w>
           <w>
@@ -20082,7 +20081,7 @@
 
         <fw place="top-right" type="fol"><add hand="unknown">066r</add></fw>
 
-        <p xml:id="CV188_p_066r_226">
+        <p xml:id="CV188_p_226">
           <lb n="1" type="rubric" xml:id="CV188_lb_066r_1"/><label n="226"><num value="226"><w>CCXX<am><g ref="#romnumsix"/></am></w></num></label>
           <w><hi rend="cap2.0 halfempty">O</hi>mnes</w>
           <w><choice>
@@ -20125,7 +20124,7 @@
       </div>
 
       <div n="Capp. 227-244" subtype="proprietà" type="capitula" xml:id="CV188_div_227-244">
-        <p xml:id="CV188_p_066r_227">
+        <p xml:id="CV188_p_227">
           <lb n="7" type="rubric" xml:id="CV188_lb_066r_7"/><label n="227"><num value="225"><w>CCXX<am><g ref="#romnumsix"/></am>I</w></num></label>
           <w><hi rend="cap2.0 empty">D</hi>e</w>
           <w>emtionibus</w>
@@ -20269,7 +20268,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_066v_228">
+        <p xml:id="CV188_p_228">
           <lb n="4" type="rubric" xml:id="CV188_lb_066v_4"/><label n="228"><num value="226"><w>CCXX<am><g ref="#romnumsix"/></am>II</w></num></label>
           <w><hi rend="cap2.0 empty">D</hi>e</w>
           <w>possessione</w>
@@ -20334,7 +20333,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_066v_229"><lb n="13" type="rubric" xml:id="CV188_lb_066v_13"/><label n="229"><num value="227"><w>CCXX<am><g ref="#romnumsix"/></am>III</w></num></label>
+        <p xml:id="CV188_p_229"><lb n="13" type="rubric" xml:id="CV188_lb_066v_13"/><label n="229"><num value="227"><w>CCXX<am><g ref="#romnumsix"/></am>III</w></num></label>
           <w><hi rend="decorated">Q</hi>ui</w>
           <w>rem</w>
           <w><choice>
@@ -20440,7 +20439,7 @@
           </choice>
         </p>
 
-        <p xml:id="VC188_p_067r_230">
+        <p xml:id="VC188_p_230">
           <lb n="3" type="rubric" xml:id="CV188_lb_067r_3"/>
           <label n="230"><num value="230"><w>CCXXX</w></num></label>
           <w><hi rend="cap2.0 halfempty"/>e</w>
@@ -20515,7 +20514,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_067r_231">
+        <p xml:id="CV188_p_231">
           <lb n="12" type="rubric" xml:id="CV188_lb_067r_12"/>
           <label n="231"><num value="231"><w>CCXXXI</w></num></label>
           <w><hi rend="cap2.0 halfempty"/>e</w>
@@ -20750,7 +20749,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_067v_232">
+        <p xml:id="CV188_p_232">
           <lb n="16" type="rubric" xml:id="CV188_lb_067v_16"/>
           <label n="232"><num value="232"><w>CCXXXII</w></num></label>
           <w><hi rend="cap2.0">D</hi>e</w>
@@ -20965,7 +20964,7 @@
           <orig><pc>:</pc></orig>
         </p>
 
-        <p xml:id="CV188_p_068r_233">
+        <p xml:id="CV188_p_233">
           <lb n="17" type="rubric" xml:id="CV188_lb_068r_17"/>
           <label n="233"><num value="233"><w>CCXXXIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
@@ -21042,7 +21041,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_068v_234">
+        <p xml:id="CV188_p_234">
           <lb n="6" type="rubric" xml:id="CV188_lb_068v_6"/>
           <label n="234"><num value="233"><w>CCXXXIII</w></num></label>
           <w><hi rend="cap2.0 empty">D</hi>e</w>
@@ -21106,7 +21105,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_068v_235"><lb n="14" type="rubric" xml:id="CV188_lb_068v_14"/>
+        <p xml:id="CV188_p_235"><lb n="14" type="rubric" xml:id="CV188_lb_068v_14"/>
           <label n="235"><num value="235"><w>CCXXXV</w></num></label>
           <w><hi rend="cap2.0">D</hi>e</w>
           <w>aldius</w>
@@ -21163,7 +21162,7 @@
           </choice>
         </p>
 
-        <p xml:id="VC188_p_068v_236">
+        <p xml:id="VC188_p_236">
           <lb n="19" type="rubric" xml:id="CV188_lb_068v_19"/>
           <label n="236"><num value="236"><w>CCXXX<am><g ref="#romnumsix"/></am></w></num></label>
           <w><hi rend="cap2.0 empty">D</hi>e</w>
@@ -21222,7 +21221,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_069r_237">
+        <p xml:id="CV188_p_237">
           <lb n="5" type="rubric" xml:id="CV188_lb_069r_5"/>
           <label n="237"><num value="235"><w>CCXXX<am><g ref="#romnumsix"/></am>I</w></num></label>
           <w><hi rend="2.0 empty">D</hi>e</w>
@@ -21267,7 +21266,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_069r_238">
+        <p xml:id="CV188_p_238">
           <lb n="10" type="rubric" xml:id="CV188_lb_069r_10"/>
           <label n="238"><num value="236"><w>CCXXX<am><g ref="#romnumsix"/></am>II</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
@@ -21371,7 +21370,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_069r_239">
+        <p xml:id="CV188_p_239">
           <lb n="19" type="rubric" xml:id="CV188_lb_069r_19"/>
           <label n="239"><num value="237"><w>CCXXX<am><g ref="#romnumsix"/></am>III</w></num></label>
           <w><hi rend="cap3.0 halfempty">S</hi>i</w>
@@ -21435,7 +21434,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_069v_240"><lb n="3" type="rubric" xml:id="CV188_lb_069v_3"/>
+        <p xml:id="CV188_p_240"><lb n="3" type="rubric" xml:id="CV188_lb_069v_3"/>
           <label n="240"><num value="240"><w>CCXL</w></num></label>
           <w><hi rend="cap2.0">D</hi>e</w>
           <term ref="#snaida" xml:id="CV188_term_snaida_240" xml:lang="lng">
@@ -21516,7 +21515,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_069v_241"><lb n="10" type="rubric" xml:id="CV188_lb_069v_10"/>
+        <p xml:id="CV188_p_241"><lb n="10" type="rubric" xml:id="CV188_lb_069v_10"/>
           <label n="241"><num value="241"><w>CCXLI</w></num></label>
           <w><hi rend="cap2.0 empty">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
@@ -21592,7 +21591,7 @@
           <reg>.</reg>
         </p>
 
-        <p xml:id="CV188_p_069v_242">
+        <p xml:id="CV188_p_242">
           <lb n="16" type="rubric" xml:id="CV188_lb_069v_16"/>
           <label n="242"><num value="242"><w>CCXLII</w></num></label>
           <w><hi rend="cap2.5 halfempty">S</hi>i</w>
@@ -21618,7 +21617,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_069v_243">
+        <p xml:id="CV188_p_243">
           <lb n="19" type="rubric" xml:id="CV188_lb_069v_19"/>
           <label n="243"><num value="243"><w>CCXLIII</w></num></label>
           <w><hi rend="cap2.0">D</hi>e</w>
@@ -21658,7 +21657,7 @@
         <pb n="70r" xml:id="CV188_folio_070r"/>
 
         <fw place="top-right" type="fol"><add hand="unknown">070r</add></fw>
-        <p xml:id="CV188_p_070r_244">
+        <p xml:id="CV188_p_244">
           <lb n="1" type="rubric" xml:id="CV188_lb_070r_1"/>
           <label n="244"><num value="244"><w>CCXLIIII</w></num></label>
           <w><hi rend="cap3.5 halfempty">S</hi>i</w>
@@ -21765,7 +21764,7 @@
       </div>
 
       <div n="Capp. 245-252" subtype="obbligazioni" type="capitula" xml:id="CV188_div_245-252">
-        <p xml:id="CV188_p_070r_245">
+        <p xml:id="CV188_p_245">
           <lb n="11" type="rubric" xml:id="CV188_lb_070r_11"/>
           <label n="245"><num value="245"><w>CCXLV</w></num></label>
           <w><hi rend="cap2.0 empty">D</hi>e</w>
@@ -21841,7 +21840,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_070r_246">
+        <p xml:id="CV188_p_246">
           <lb n="18" type="rubric" xml:id="CV188_lb_070r_18"/>
           <label n="246"><num value="246"><w>CCXL<am><g ref="#romnumsix"/></am></w></num></label>
           <w><hi rend="cap3.5 halfempty">S</hi>i</w>
@@ -21917,7 +21916,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_070v_247"><lb n="5" type="rubric" xml:id="CV188_lb_070v_5"/>
+        <p xml:id="CV188_p_247"><lb n="5" type="rubric" xml:id="CV188_lb_070v_5"/>
           <label n="247"><num value="245"><w>CCXL<am><g ref="#romnumsix"/></am>I</w></num></label>
           <w><hi rend="cap2.5 halfempty">N</hi>ulli</w>
           <w>leciat</w>
@@ -21968,7 +21967,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_070v_248"><lb n="10" type="rubric" xml:id="CV188_lb_070v_10"/>
+        <p xml:id="CV188_p_248"><lb n="10" type="rubric" xml:id="CV188_lb_070v_10"/>
           <label n="248"><num value="206"><w>CC<add hand="unknown">XL</add><am><g ref="#romnumsix"/></am>II</w></num></label>
           <w><hi rend="cap4.5 halfempty">S</hi>i</w>
           <w>quis</w>
@@ -22133,7 +22132,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_071r_249">
+        <p xml:id="CV188_p_249">
           <lb n="6" type="rubric" xml:id="CV188_lb_071r_6"/>
           <label n="249"><num value="247"><w>CCXL<am><g ref="#romnumsix"/></am>III</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
@@ -22309,7 +22308,7 @@
 
         <pb n="71v" xml:id="CV188_folio_071v"/>
 
-        <p xml:id="CV188_p_071v_250">
+        <p xml:id="CV188_p_250">
           <lb n="1" type="rubric" xml:id="CV188_lb_071v_1"/>
           <label n="250"><num value="250"><w>CCL</w></num></label>
           <w><hi rend="cap3.0 halfempty">S</hi>i</w>
@@ -22341,7 +22340,7 @@
           <reg>.</reg>
         </p>
 
-        <p xml:id="CV188_p_071v_251">
+        <p xml:id="CV188_p_251">
           <lb n="5" type="rubric" xml:id="CV188_lb_071v_5"/>
           <label n="251"><num value="251"><w>CCLI</w></num></label>
           <w><hi rend="cap3.0 halfempty">S</hi>i</w>
@@ -22470,7 +22469,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_071v_252">
+        <p xml:id="CV188_p_252">
           <lb n="20" type="rubric" xml:id="CV188_lb_071v_20"/>
           <label n="252"><num value="252"><w>CCLII</w></num></label>
           <w><hi rend="cap2.0 halfempty">N</hi>ulli</w>
@@ -22767,7 +22766,7 @@
       </div>
 
       <div n="Capp. 253-358" subtype="reati_minori" type="capitula" xml:id="CV188_div_253-358">
-        <p xml:id="CV188_p_072v_253"><lb n="7" type="rubric" xml:id="CV188_lb_072v_7"/>
+        <p xml:id="CV188_p_253"><lb n="7" type="rubric" xml:id="CV188_lb_072v_7"/>
           <label n="253"><num value="253"><w>CCLIII</w></num></label>
           <w><hi rend="cap2.0">D</hi>e</w>
           <w>furtis</w>
@@ -22844,7 +22843,7 @@
           <orig><pc>.</pc></orig>
         </p>
 
-        <p xml:id="CV188_p_072v_254"><lb n="14" type="rubric" xml:id="CV188_lb_072v_14"/>
+        <p xml:id="CV188_p_254"><lb n="14" type="rubric" xml:id="CV188_lb_072v_14"/>
           <label n="254"><num value="254"><w>CCLIIII</w></num></label>
           <w><hi rend="cap4.0 halfempty">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
@@ -22903,7 +22902,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_072v_255">
+        <p xml:id="CV188_p_255">
           <lb n="20" type="rubric" xml:id="CV188_lb_072v_20"/>
           <label n="255"><num value="255"><w>CCLV</w></num></label>
           <w><hi rend="cap3.5 halempty">S</hi>i</w>
@@ -22943,7 +22942,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_073r_256">
+        <p xml:id="CV188_p_256">
           <lb n="3" type="rubric" xml:id="CV188_lb_073r_3"/>
           <label n="256"><num value="256"><w>CCL<am><g ref="#romnumsix"/></am></w></num></label>
           <w><hi rend="cap3.0 empty">S</hi>i</w>
@@ -23062,7 +23061,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_073r_257"><lb n="15" type="rubric" xml:id="CV188_lb_073r_15"/>
+        <p xml:id="CV188_p_257"><lb n="15" type="rubric" xml:id="CV188_lb_073r_15"/>
           <label n="257"><num value="255"><w>CCL<am><g ref="#romnumsix"/></am>I</w></num></label>
           <w><hi rend="cap3.0">S</hi>i</w>
           <w>mulier</w>
@@ -23145,7 +23144,7 @@
 
         <pb n="73v" xml:id="CV188_folio_073v"/>
 
-        <p xml:id="CV188_p_073v_258">
+        <p xml:id="CV188_p_258">
           <lb n="1" type="rubric" xml:id="CV188_lb_073v_1"/>
           <label n="258"><num value="256"><w>CCL<am><g ref="#romnumsix"/></am>II</w></num></label>
           <w><hi rend="cap4.5 halfempty">S</hi>i</w>
@@ -23197,7 +23196,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_073v_259">
+        <p xml:id="CV188_p_259">
           <lb n="6" type="rubric" xml:id="CV188_lb_073v_6"/>
           <label n="259"><num value="257"><w>CCL<am><g ref="#romnumsix"/></am>III</w></num></label>
           <w><hi rend="cap3.0 halfempty">S</hi>i</w>
@@ -23271,7 +23270,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_073v_260">
+        <p xml:id="CV188_p_260">
           <lb n="16" type="rubric" xml:id="CV188_lb_073v_16"/>
           <label n="260"><num value="260"><w>CCLX</w></num></label>
           <w><hi rend="cap4.0 halfempty">S</hi>i</w>
@@ -23323,7 +23322,7 @@
         <pb n="74r" xml:id="CV188_folio_074r"/>
 
         <fw place="top-right" type="fol"><add hand="unknown">074r</add></fw>
-        <p xml:id="CV188_p_074r_261">
+        <p xml:id="CV188_p_261">
           <lb n="1" type="rubric" xml:id="CV188_lb_074r_1"/>
           <label n="261"><num value="261"><w>CCLXI</w></num></label>
           <w><hi rend="cap3.5 halempty">S</hi>i</w>
@@ -23431,7 +23430,7 @@
           </choice>
         </p>
 
-        <p xml:id="CV188_p_074r_262">
+        <p xml:id="CV188_p_262">
           <lb n="12" type="rubric" xml:id="CV188_lb_074r_12"/>
           <label n="262"><num value="262"><w>CCLXII</w></num></label>
           <w><hi rend="cap3.0 halfempty">S</hi>i</w>
@@ -23488,8 +23487,8 @@
           </choice>
         </p>
         <!-- codifica MG 263-388 -->
-        <p n="263" xml:id="CV188_p_074r_263"><lb n="19" type="rubric" xml:id="CV188_lb_074r_19"/>
-          <label><num value="263"><w>CCLXIII</w></num></label>
+        <p n="263" xml:id="CV188_p_263"><lb n="19" type="rubric" xml:id="CV188_lb_074r_19"/>
+          <label n="263"><num value="263"><w>CCLXIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>plures</w>
           <w>homin<unclear reason="faded">es</unclear></w>
@@ -23549,8 +23548,8 @@
           </choice>
         </p>
 
-        <p n="264" xml:id="CV188_p_074v_264"><lb n="6" type="rubric" xml:id="CV188_lb_074v_06"
-                /><label><num value="264"><w>CCLXIIII</w></num></label>
+        <p n="264" xml:id="CV188_p_264"><lb n="6" type="rubric" xml:id="CV188_lb_074v_06"
+                /><label n="264"><num value="264"><w>CCLXIIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>liber</w>
           <w>aut</w>
@@ -23728,8 +23727,8 @@
           </choice>
         </p>
 
-        <p n="265" xml:id="CV188_p_075r_265"><lb n="9" type="rubric" xml:id="CV188_lb_075r_09"
-              /><label><num value="265"><w>CCLXV</w></num></label>
+        <p n="265" xml:id="CV188_p_265"><lb n="9" type="rubric" xml:id="CV188_lb_075r_09"
+              /><label n="265"><num value="265"><w>CCLXV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>portonario</w>
           <w>qui</w>
@@ -23790,7 +23789,7 @@
           </w>
         </p>
 
-        <p n="266" xml:id="CV188_p_075r_266"><lb n="19" type="rubric" xml:id="CV188_lb_075r_19"/><label><num value="266"><w>CCLX<g
+        <p n="266" xml:id="CV188_p_266"><lb n="19" type="rubric" xml:id="CV188_lb_075r_19"/><label n="266"><num value="266"><w>CCLX<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>portonarius</w>
@@ -23845,7 +23844,7 @@
           </choice>
         </p>
 
-        <p n="267" xml:id="CV188_p_075v_267"><lb n="4" type="rubric" xml:id="CV188_lb_075v_04"/><label><num value="267"><w>CCLX<g
+        <p n="267" xml:id="CV188_p_267"><lb n="4" type="rubric" xml:id="CV188_lb_075v_04"/><label n="266"><num value="267"><w>CCLX<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>portunarius</w>
@@ -23944,7 +23943,7 @@
           </choice>
         </p>
 
-        <p n="268" xml:id="CV188_p_075v_268"><lb n="19" type="rubric" xml:id="CV188_lb_075v_19"/><label><num value="268"><w>CCLX<g
+        <p n="268" xml:id="CV188_p_268"><lb n="19" type="rubric" xml:id="CV188_lb_075v_19"/><label n="266"><num value="268"><w>CCLX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>portonarius</w>
@@ -24015,7 +24014,7 @@
           </choice>
         </p>
 
-        <p n="269" xml:id="CV188_p_076r_269"><lb n="6" type="rubric" xml:id="CV188_lb_076r_06"/><label><num value="269"><w>CCLX<g
+        <p n="269" xml:id="CV188_p_269"><lb n="6" type="rubric" xml:id="CV188_lb_076r_06"/><label n="266"><num value="269"><w>CCLX<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>mancipios</w>
@@ -24123,8 +24122,8 @@
           </choice>
         </p>
 
-        <p n="270" xml:id="CV188_p_076r_270"><lb n="18" type="rubric" xml:id="CV188_lb_076r_18"
-                /><label><num value="270"><w>CCLXX</w></num></label>
+        <p n="270" xml:id="CV188_p_270"><lb n="18" type="rubric" xml:id="CV188_lb_076r_18"
+                /><label n="270"><num value="270"><w>CCLXX</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>ille</w>
@@ -24174,8 +24173,8 @@
           </w>
         </p>
 
-        <p n="271" xml:id="CV188_p_076v_271"><lb n="4" type="rubric" xml:id="CV188_lb_076v_04"
-                /><label><num value="271"><w>CCLXXI</w></num></label>
+        <p n="271" xml:id="CV188_p_271"><lb n="4" type="rubric" xml:id="CV188_lb_076v_04"
+                /><label n="271"><num value="271"><w>CCLXXI</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>curtem</w>
           <w>regis</w>
@@ -24284,8 +24283,8 @@
           <measure quantity="40" type="currency" unit="soldi"><w>XL</w></measure>
         </p>
 
-        <p n="272" xml:id="CV188_p_076v_272"><lb n="19" type="rubric" xml:id="CV188_lb_076v_19"
-                /><label><num value="272"><w>CCLXXII</w></num></label>
+        <p n="272" xml:id="CV188_p_272"><lb n="19" type="rubric" xml:id="CV188_lb_076v_19"
+                /><label n="272"><num value="272"><w>CCLXXII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>ecclesia</w>
           <w>si</w>
@@ -24427,8 +24426,8 @@
           </w>
         </p>
 
-        <p n="273" xml:id="CV188_p_077r_273"><lb n="15" type="rubric" xml:id="CV188_lb_077r_15"
-                /><label><num value="273"><w>CCLXXIII</w></num></label>
+        <p n="273" xml:id="CV188_p_273"><lb n="15" type="rubric" xml:id="CV188_lb_077r_15"
+                /><label n="273"><num value="273"><w>CCLXXIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>intra</w>
@@ -24643,8 +24642,8 @@
         
         <!-- CHECK changing original <p> into <ab> elements, add CSS rule to have line breaks in the interpretative level -->
 
-        <ab n="274" xml:id="CV188_p_078r_274"><handShift medium="black" scribe="scribe2"/><!-- CHECK not an alternative to <addSpan> -->
-          <lb n="1" type="rubric" xml:id="CV188_lb_078r_01"/><supplied><label><num value="274"><w>CCLXXIIII</w></num></label></supplied>
+        <p n="274" xml:id="CV188_p_274"><handShift medium="black" scribe="scribe2"/><!-- CHECK not an alternative to <addSpan> -->
+          <lb n="1" type="rubric" xml:id="CV188_lb_078r_01"/><supplied><label n="274"><num value="274"><w>CCLXXIIII</w></num></label></supplied>
           <w>Si</w>
           <w>
             <choice>
@@ -24766,10 +24765,10 @@
           <w>se</w>
           <w>abet</w>
           <pc><g ref="#colmidcomposit"/></pc>
-        </ab>
+        </p>
 
-        <ab n="275" xml:id="CV188_p_078r_275">
-          <lb n="8" type="rubric" xml:id="CV188_lb_078r_08"/><supplied><label><num value="275"><w>CCLXXV</w></num></label></supplied>
+        <ab n="275" xml:id="CV188_p_275">
+          <lb n="8" type="rubric" xml:id="CV188_lb_078r_08"/><supplied><label n="275"><num value="275"><w>CCLXXV</w></num></label></supplied>
           <w>Si</w>
           <w>mancipium</w>
           <w>
@@ -24935,7 +24934,7 @@
           <pc><g ref="#colmidcomposit"/></pc>
         </ab>
 
-        <ab n="276" xml:id="CV188_p_078r_276"><label><num value="276"><w><choice>
+        <ab n="276" xml:id="CV188_p_276"><label n="276"><num value="276"><w><choice><!-- CHECK why the correction? -->
           <sic>CCLXXIIII</sic>
           <corr>CCLXXVI</corr>
         </choice></w></num></label>
@@ -25033,7 +25032,7 @@
           <w>operas</w>
         </ab>
 
-        <ab n="277" xml:id="CV188_p_078r_277"><!--<lb type="rubric"/>--><label><num value="277"><w><choice>
+        <ab n="277" xml:id="CV188_p_277"><!--<lb type="rubric"/>--><label n="277"><num value="277"><w><choice><!-- CHECK why the correction? -->
           <sic>CCLX<space quantity="2" unit="char"/>XII</sic>
           <corr>CCLXXVII</corr>
         </choice></w></num></label>
@@ -25105,8 +25104,8 @@
             <gap quantity="3" unit="char"/><supplied reason="illegible">rit</supplied></w>
         </ab>
 
-        <ab n="278" xml:id="CV188_p_078r_278">
-          <lb n="20" type="rubric" xml:id="CV188_lb_078r_20"/><supplied><label><num value="278"><w>CCLXXVIII</w></num></label></supplied>
+        <ab n="278" xml:id="CV188_p_278">
+          <lb n="20" type="rubric" xml:id="CV188_lb_078r_20"/><supplied><label n="278"><num value="278"><w>CCLXXVIII</w></num></label></supplied>
           <w>De</w>
           <term corresp="#CV188_gloss_hoberos_278" ref="#hoberos" xml:id="CV188_term_hoberos_278" xml:lang="lng">
             <w>
@@ -25194,8 +25193,8 @@
           <w>possit</w>
         </ab>
 
-        <ab n="279" xml:id="CV188_p_078r_279">
-          <lb n="22" type="rubric" xml:id="CV188_lb_078r_22"/><supplied><label><num value="279"><w>CCLXXVIIII</w></num></label></supplied>
+        <ab n="279" xml:id="CV188_p_279">
+          <lb n="22" type="rubric" xml:id="CV188_lb_078r_22"/><supplied><label n="279"><num value="279"><w>CCLXXVIIII</w></num></label></supplied>
           <w>De</w>
           <w><choice>
             <abbr><am><g ref="#cmacr"/></am>silio</abbr>
@@ -25367,8 +25366,8 @@
           <w>ut</w>
           <w>sup<add hand="scribe_2" place="above">r</add><add hand="scribe_2" place="below">a</add></w></ab>
 
-        <ab n="280" xml:id="CV188_p_078r_280">
-          <lb n="27" type="rubric" xml:id="CV188_lb_078r_27"/><supplied><label><num value="280"><w>CCLXXX</w></num></label></supplied>
+        <ab n="280" xml:id="CV188_p_280">
+          <lb n="27" type="rubric" xml:id="CV188_lb_078r_27"/><supplied><label n="280"><num value="280"><w>CCLXXX</w></num></label></supplied>
           <w>De</w>
           <w><choice>
             <abbr>rusticano<am><g ref="#rum"/></am></abbr>
@@ -25751,7 +25750,7 @@
           <w>egit</w><choice><orig><pc>;</pc></orig><reg>.</reg>
           </choice>
         </ab>
-        <ab><surplus><label><num value="279"><w>CC<lb n="37" rend="align_right" xml:id="CV188_lb_078r_37"/>LXXVIIII</w></num></label></surplus></ab>
+        <ab><surplus><label n="200"><num value="279"><w>CC<lb n="37" rend="align_right" xml:id="CV188_lb_078r_37"/>LXXVIIII</w></num></label></surplus></ab>
         <!--<anchor xml:id="end_folio"/>-->
         <!--</div>-->
 
@@ -25771,8 +25770,8 @@
 
         <fw place="top-right" type="fol"><add hand="unknown">79</add></fw>
 
-        <p n="281" xml:id="CV188_p_079r_281"><lb n="1" type="rubric" xml:id="CV188_lb_079r_01"
-                /><label><num value="281"><w>CCLXXXI</w></num></label>
+        <p n="281" xml:id="CV188_p_281"><lb n="1" type="rubric" xml:id="CV188_lb_079r_01"
+                /><label n="281"><num value="281"><w>CCLXXXI</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>furta</w>
           <w>et</w>
@@ -25804,8 +25803,8 @@
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
         </p>
 
-        <p n="282" xml:id="CV188_p_079r_282"><lb n="5" type="rubric" xml:id="CV188_lb_079r_05"
-                /><label><num value="282"><w>CCLXXXII</w></num></label>
+        <p n="282" xml:id="CV188_p_282"><lb n="5" type="rubric" xml:id="CV188_lb_079r_05"
+                /><label n="282"><num value="282"><w>CCLXXXII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>de</w>
@@ -25848,8 +25847,8 @@
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
         </p>
 
-        <p n="283" xml:id="CV188_p_079r_283"><lb n="8" type="rubric" xml:id="CV188_lb_079r_08"
-                /><label><num value="283"><w>CCLXXXIII</w></num></label>
+        <p n="283" xml:id="CV188_p_283"><lb n="8" type="rubric" xml:id="CV188_lb_079r_08"
+                /><label n="283"><num value="283"><w>CCLXXXIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>de</w>
@@ -25898,8 +25897,8 @@
           </term>
         </p>
 
-        <p n="284" xml:id="CV188_p_079r_284"><lb n="13" type="rubric" xml:id="CV188_lb_079r_13"
-                /><label><num value="284"><w>CCLXXXIIII</w></num></label>
+        <p n="284" xml:id="CV188_p_284"><lb n="13" type="rubric" xml:id="CV188_lb_079r_13"
+                /><label n="284"><num value="284"><w>CCLXXXIIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>orto</w>
           <w>si</w>
@@ -25941,8 +25940,8 @@
           <lb rend="align_right" type="extra"/><w>culpa<c corresp="#v">u</c>elis</w>
         </p>
 
-        <p n="285" xml:id="CV188_p_079r_285"><lb n="18" type="rubric" xml:id="CV188_lb_079r_18"
-                /><label><num value="285"><w>CCLXXXV</w></num></label>
+        <p n="285" xml:id="CV188_p_285"><lb n="18" type="rubric" xml:id="CV188_lb_079r_18"
+                /><label n="285"><num value="285"><w>CCLXXXV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <term ref="#iderzun" xml:id="CV188_term_iderzun_285" xml:lang="lng">
             <w>idertzon</w>
@@ -25973,7 +25972,7 @@
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
         </p>
 
-        <p n="286" xml:id="CV188_p_079r_286"><lb n="21" type="rubric" xml:id="CV188_lb_079r_21"/><label><num value="286"><w>CCLXXX<g
+        <p n="286" xml:id="CV188_p_286"><lb n="21" type="rubric" xml:id="CV188_lb_079r_21"/><label n="286"><num value="286"><w>CCLXXX<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>axegias</w>
@@ -26001,7 +26000,7 @@
           <measure quantity="1" type="currency" unit="soldi"><w>uno</w></measure>
         </p>
 
-        <p n="287" xml:id="CV188_p_079v_287"><lb n="3" type="rubric" xml:id="CV188_lb_079v_03"/><label><num value="287"><w>CCLXXX<g
+        <p n="287" xml:id="CV188_p_287"><lb n="3" type="rubric" xml:id="CV188_lb_079v_03"/><label n="286"><num value="287"><w>CCLXXX<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>sepe</w>
@@ -26037,7 +26036,7 @@
           <measure quantity="3" type="currency" unit="soldi"><w>tres</w></measure>
         </p>
 
-        <p n="288" xml:id="CV188_p_079v_288"><lb n="8" type="rubric" xml:id="CV188_lb_079v_08"/><label><num value="288"><w>CCLXXX<g
+        <p n="288" xml:id="CV188_p_288"><lb n="8" type="rubric" xml:id="CV188_lb_079v_08"/><label n="286"><num value="288"><w>CCLXXX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <term ref="#plovum" xml:id="CV188_term_plovum_288" xml:lang="lng">
@@ -26079,7 +26078,7 @@
             <w>actogild</w></term>
         </p>
 
-        <p n="289" xml:id="CV188_p_079v_289"><lb n="12" type="rubric" xml:id="CV188_lb_079v_12"/><label><num value="289"><w>CCLXXX<g
+        <p n="289" xml:id="CV188_p_289"><lb n="12" type="rubric" xml:id="CV188_lb_079v_12"/><label n="286"><num value="289"><w>CCLXXX<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -26101,8 +26100,8 @@
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
         </p>
 
-        <p n="290" xml:id="CV188_p_079v_290"><lb n="15" type="rubric" xml:id="CV188_lb_079v_15"
-              /><label><num value="290"><w>CCXC</w></num></label>
+        <p n="290" xml:id="CV188_p_290"><lb n="15" type="rubric" xml:id="CV188_lb_079v_15"
+              /><label n="290"><num value="290"><w>CCXC</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>iocum</w>
@@ -26118,8 +26117,8 @@
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
         </p>
 
-        <p n="291" xml:id="CV188_p_079v_291"><lb n="17" type="rubric" xml:id="CV188_lb_079v_17"
-                /><label><num value="291"><w>CCXCI</w></num></label>
+        <p n="291" xml:id="CV188_p_291"><lb n="17" type="rubric" xml:id="CV188_lb_079v_17"
+                /><label n="291"><num value="291"><w>CCXCI</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>sogas</w>
           <w>si</w>
@@ -26196,8 +26195,8 @@
           </choice>
         </p>
 
-        <p n="292" xml:id="CV188_p_080r_292"><lb n="5" type="rubric" xml:id="CV188_lb_080r_05"
-                /><label><num value="292"><w>CCXCII</w></num></label>
+        <p n="292" xml:id="CV188_p_292"><lb n="5" type="rubric" xml:id="CV188_lb_080r_05"
+                /><label n="292"><num value="292"><w>CCXCII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w><c corresp="#v">u</c>item</w>
           <w>u<c corresp="#v">u</c>arum</w>
@@ -26225,8 +26224,8 @@
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
         </p>
 
-        <p n="293" xml:id="CV188_p_080r_293"><lb n="9" type="rubric" xml:id="CV188_lb_080r_09"
-                /><label><num value="293"><w>CCXCIII</w></num></label>
+        <p n="293" xml:id="CV188_p_293"><lb n="9" type="rubric" xml:id="CV188_lb_080r_09"
+                /><label n="293"><num value="293"><w>CCXCIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>palo</w>
           <w>quod</w>
@@ -26245,8 +26244,8 @@
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
         </p>
 
-        <p n="294" xml:id="CV188_p_080r_294"><lb n="12" type="rubric" xml:id="CV188_lb_080r_12"
-                /><label><num value="293"><w>CCXCIII</w></num></label>
+        <p n="294" xml:id="CV188_p_294"><lb n="12" type="rubric" xml:id="CV188_lb_080r_12"
+                /><label n="293"><num value="293"><w>CCXCIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w><c corresp="#v">u</c>item</w>
           <w>incisam</w>
@@ -26273,8 +26272,8 @@
           </choice>
         </p>
 
-        <p n="295" xml:id="CV188_p_080r_295"><lb n="15" type="rubric" xml:id="CV188_lb_080r_15"
-                /><label><num value="295"><w>CCXCV</w></num></label>
+        <p n="295" xml:id="CV188_p_295"><lb n="15" type="rubric" xml:id="CV188_lb_080r_15"
+                /><label n="295"><num value="295"><w>CCXCV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>tra<c corresp="#v">u</c>icem</w>
           <w><c corresp="#v">u</c>itis</w>
@@ -26299,7 +26298,7 @@
           </w>
         </p>
 
-        <p n="296" xml:id="CV188_p_080r_296"><lb n="18" type="rubric" xml:id="CV188_lb_080r_18"/><label><num value="296"><w>CCXC<g
+        <p n="296" xml:id="CV188_p_296"><lb n="18" type="rubric" xml:id="CV188_lb_080r_18"/><label n="296"><num value="296"><w>CCXC<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -26344,7 +26343,7 @@
 
         <pb n="80v" xml:id="CV188_folio_080v"/>
 
-        <p n="297" xml:id="CV188_p_080v_297"><lb n="1" type="rubric" xml:id="CV188_lb_080v_01"/><label><num value="297"><w>CCXC<g
+        <p n="297" xml:id="CV188_p_297"><lb n="1" type="rubric" xml:id="CV188_lb_080v_01"/><label n="296"><num value="297"><w>CCXC<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>ambolatorias</w>
@@ -26377,7 +26376,7 @@
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
         </p>
 
-        <p n="298" xml:id="CV188_p_080v_298"><lb n="4" type="rubric" xml:id="CV188_lb_080v_04"/><label><num value="298"><w>CCXC<g
+        <p n="298" xml:id="CV188_p_298"><lb n="4" type="rubric" xml:id="CV188_lb_080v_04"/><label n="296"><num value="298"><w>CCXC<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>capistro</w>
@@ -26398,7 +26397,7 @@
           </choice>
         </p>
 
-        <p n="299" xml:id="CV188_p_080v_299"><lb n="7" type="rubric" xml:id="CV188_lb_080v_07"/><label><num value="299"><w>CCXC<g
+        <p n="299" xml:id="CV188_p_299"><lb n="7" type="rubric" xml:id="CV188_lb_080v_07"/><label n="296"><num value="299"><w>CCXC<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>retis</w>
@@ -26427,8 +26426,8 @@
             ><w>tres</w></measure></add><pc><g ref="#colmidcomposit"/></pc>
         </p>
 
-        <p n="300" xml:id="CV188_p_080v_300"><lb n="11" type="rubric" xml:id="CV188_lb_080v_11"
-              /><label><num value="300"><w>CCC</w></num></label>
+        <p n="300" xml:id="CV188_p_300"><lb n="11" type="rubric" xml:id="CV188_lb_080v_11"
+              /><label n="300"><num value="300"><w>CCC</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>arbores</w>
           <w>ro<c corresp="#v">u</c>ore</w>
@@ -26503,8 +26502,8 @@
           <lb rend="align_right" type="extra"/><w>culpa<c corresp="#v">u</c>elis</w>
         </p>
 
-        <p n="301" xml:id="CV188_p_080v_301"><lb n="20" type="rubric" xml:id="CV188_lb_080v_20"
-              /><label><num value="301"><w>CCCI</w></num></label>
+        <p n="301" xml:id="CV188_p_301"><lb n="20" type="rubric" xml:id="CV188_lb_080v_20"
+              /><label n="301"><num value="301"><w>CCCI</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>castenea</w>
@@ -26533,8 +26532,8 @@
         <pb n="81r" xml:id="CV188_folio_081r"/>
 
         <fw place="top-right" type="fol"><add hand="unknown">81</add></fw>
-        <p n="302" xml:id="CV188_p_081r_302"><lb n="1" type="rubric" xml:id="CV188_lb_081r_01"
-              /><label><num value="302"><w>CCCII</w></num></label>
+        <p n="302" xml:id="CV188_p_302"><lb n="1" type="rubric" xml:id="CV188_lb_081r_01"
+              /><label n="302"><num value="302"><w>CCCII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>ul<add hand="scribe_1" place="inline">i</add><c corresp="#v">u</c>o</w>
@@ -26560,8 +26559,8 @@
           </choice>
         </p>
 
-        <p n="303" xml:id="CV188_p_081r_303"><lb n="3" type="rubric" xml:id="CV188_lb_081r_03"
-                /><label><num value="303"><w>CCCIII</w></num></label>
+        <p n="303" xml:id="CV188_p_303"><lb n="3" type="rubric" xml:id="CV188_lb_081r_03"
+                /><label n="303"><num value="303"><w>CCCIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>homo</w>
           <w>aut</w>
@@ -26614,8 +26613,8 @@
           <w>lesionis</w>
         </p>
 
-        <p n="304" xml:id="CV188_p_081r_304"><lb n="11" type="rubric" xml:id="CV188_lb_081r_11"
-                /><label><num value="303"><w>CCCIII</w></num></label>
+        <p n="304" xml:id="CV188_p_304"><lb n="11" type="rubric" xml:id="CV188_lb_081r_11"
+                /><label n="303"><num value="303"><w>CCCIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>ca<c corresp="#v">u</c>allus</w>
           <w>au<add hand="scribe_1" place="above">t</add></w>
@@ -26687,8 +26686,8 @@
           <w>est</w>
         </p>
 
-        <p n="305" xml:id="CV188_p_081r_305"><lb n="20" type="rubric" xml:id="CV188_lb_081r_20"
-              /><label><num value="305"><w>CCCV</w></num></label>
+        <p n="305" xml:id="CV188_p_305"><lb n="20" type="rubric" xml:id="CV188_lb_081r_20"
+              /><label n="305"><num value="305"><w>CCCV</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>fossatum</w>
@@ -26772,7 +26771,7 @@
           </choice>
         </p>
 
-        <p n="306" xml:id="CV188_p_081v_306"><lb n="10" type="rubric" xml:id="CV188_lb_081v_10"/><label><num value="306"><w>CCC<g
+        <p n="306" xml:id="CV188_p_306"><lb n="10" type="rubric" xml:id="CV188_lb_081v_10"/><label n="306"><num value="306"><w>CCC<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>aliquit</w>
@@ -26822,7 +26821,7 @@
           <lb rend="align_right" type="extra"/><w>esse</w>
         </p>
 
-        <p n="307" xml:id="CV188_p_081v_307"><lb n="16" type="rubric" xml:id="CV188_lb_081v_16"/><label><num value="307"><w>CCC<g
+        <p n="307" xml:id="CV188_p_307"><lb n="16" type="rubric" xml:id="CV188_lb_081v_16"/><label n="306"><num value="307"><w>CCC<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -26889,7 +26888,7 @@
           <w>sa<lb rend="align_right" type="extra"/>nandum</w>
         </p>
 
-        <p n="308" xml:id="CV188_p_082r_308"><lb n="4" type="rubric" xml:id="CV188_lb_082r_04"/><label><num value="308"><w>CCC<g
+        <p n="308" xml:id="CV188_p_308"><lb n="4" type="rubric" xml:id="CV188_lb_082r_04"/><label n="306"><num value="308"><w>CCC<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -26924,7 +26923,7 @@
           </choice>
         </p>
 
-        <p n="309" xml:id="CV188_p_082r_309"><lb n="9" type="rubric" xml:id="CV188_lb_082r_09"/><label><num value="309"><w>CCC<g
+        <p n="309" xml:id="CV188_p_309"><lb n="9" type="rubric" xml:id="CV188_lb_082r_09"/><label n="306"><num value="309"><w>CCC<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>fera</w>
@@ -27022,8 +27021,8 @@
 
         <pb n="82v" xml:id="CV188_folio_082v"/>
 
-        <p n="310" xml:id="CV188_p_082v_310"><lb n="1" type="rubric" xml:id="CV188_lb_082v_01"
-              /><label><num value="310"><w>CCCX</w></num></label>
+        <p n="310" xml:id="CV188_p_310"><lb n="1" type="rubric" xml:id="CV188_lb_082v_01"
+              /><label n="310"><num value="310"><w>CCCX</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>
             <choice>
@@ -27068,8 +27067,8 @@
           </choice>
         </p>
 
-        <p n="311" xml:id="CV188_p_082v_311"><lb n="5" type="rubric" xml:id="CV188_lb_082v_05"
-              /><label><num value="311"><w>CCCXI</w></num></label>
+        <p n="311" xml:id="CV188_p_311"><lb n="5" type="rubric" xml:id="CV188_lb_082v_05"
+              /><label n="311"><num value="311"><w>CCCXI</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>super</w>
@@ -27151,8 +27150,8 @@
           </choice>
         </p>
 
-        <p n="312" xml:id="CV188_p_082v_312"><lb n="15" type="rubric" xml:id="CV188_lb_082v_15"
-                /><label><num value="312"><w>CCCXII</w></num></label>
+        <p n="312" xml:id="CV188_p_312"><lb n="15" type="rubric" xml:id="CV188_lb_082v_15"
+                /><label n="312"><num value="312"><w>CCCXII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>fera</w>
           <w>in<c corresp="#v">u</c>enta</w>
@@ -27211,8 +27210,8 @@
         <pb n="83r" xml:id="CV188_folio_083r"/>
 
         <fw place="top-right" type="fol"><add hand="unknown">83</add></fw>
-        <p n="313" xml:id="CV188_p_083r_313"><lb n="1" type="rubric" xml:id="CV188_lb_083r_01"
-                /><label><num value="313"><w>CCCXIII</w></num></label>
+        <p n="313" xml:id="CV188_p_313"><lb n="1" type="rubric" xml:id="CV188_lb_083r_01"
+                /><label n="313"><num value="313"><w>CCCXIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>fera</w>
           <w>celata</w>
@@ -27252,8 +27251,8 @@
           </choice>
         </p>
 
-        <p n="314" xml:id="CV188_p_083r_314"><lb n="5" type="rubric" xml:id="CV188_lb_083r_05"
-                /><label><num value="314"><w>CCCXIIII</w></num></label>
+        <p n="314" xml:id="CV188_p_314"><lb n="5" type="rubric" xml:id="CV188_lb_083r_05"
+                /><label n="314"><num value="314"><w>CCCXIIII</w></num></label>
           <w><hi rend="decorated">Q</hi>uamdiu</w>
           <w>fera</w>
           <w>intellega<lb n="6" xml:id="CV188_lb_083r_06"/>tur</w>
@@ -27348,8 +27347,8 @@
           </choice>
         </p>
 
-        <p n="315" xml:id="CV188_p_083r_315"><lb n="16" type="rubric" xml:id="CV188_lb_083r_16"
-                /><label><num value="315"><w>CCCXV</w></num></label>
+        <p n="315" xml:id="CV188_p_315"><lb n="16" type="rubric" xml:id="CV188_lb_083r_16"
+                /><label n="315"><num value="315"><w>CCCXV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>cer<c corresp="#v">u</c>o</w>
           <w>domestico</w>
@@ -27389,7 +27388,7 @@
           <lb rend="align_right" type="extra"/><w>reddat</w>
         </p>
 
-        <p n="316" xml:id="CV188_p_083r_316"><lb n="21" type="rubric" xml:id="CV188_lb_083r_21"/><label><num value="316"><w>CCCX<g
+        <p n="316" xml:id="CV188_p_316"><lb n="21" type="rubric" xml:id="CV188_lb_083r_21"/><label n="316"><num value="316"><w>CCCX<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -27454,7 +27453,7 @@
           </choice>
         </p>
 
-        <p n="317" xml:id="CV188_p_083v_317"><lb n="4" type="rubric" xml:id="CV188_lb_083v_04"/><label><num value="317"><w>CCCX<g
+        <p n="317" xml:id="CV188_p_317"><lb n="4" type="rubric" xml:id="CV188_lb_083v_04"/><label n="316"><num value="317"><w>CCCX<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>a<c corresp="#v">u</c>es</w>
@@ -27505,7 +27504,7 @@
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
         </p>
 
-        <p n="318" xml:id="CV188_p_083v_318"><lb n="8" type="rubric" xml:id="CV188_lb_083v_08"/><label><num value="318"><w>CCCX<g
+        <p n="318" xml:id="CV188_p_318"><lb n="8" type="rubric" xml:id="CV188_lb_083v_08"/><label n="316"><num value="318"><w>CCCX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>apes</w>
@@ -27542,7 +27541,7 @@
           <measure quantity="12" type="currency" unit="soldi"><w>XII</w></measure>
         </p>
 
-        <p n="319" xml:id="CV188_p_083v_319"><lb n="11" type="rubric" xml:id="CV188_lb_083v_11"/><label><num value="319"><w>CCCX<g
+        <p n="319" xml:id="CV188_p_319"><lb n="11" type="rubric" xml:id="CV188_lb_083v_11"/><label n="316"><num value="319"><w>CCCX<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -27615,8 +27614,8 @@
           <w>requiratur</w>
         </p>
 
-        <p n="320" xml:id="CV188_p_083v_320"><lb n="20" type="rubric" xml:id="CV188_lb_083v_20"
-                /><label><num value="320"><w>CCCXX</w></num></label>
+        <p n="320" xml:id="CV188_p_320"><lb n="20" type="rubric" xml:id="CV188_lb_083v_20"
+                /><label n="320"><num value="320"><w>CCCXX</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>
             <choice>
@@ -27739,8 +27738,8 @@
           </choice>
         </p>
 
-        <p n="321" xml:id="CV188_p_084r_321"><lb n="7" type="rubric" xml:id="CV188_lb_084r_07"
-                /><label><num value="321"><w>CCCXXI</w></num></label>
+        <p n="321" xml:id="CV188_p_321"><lb n="7" type="rubric" xml:id="CV188_lb_084r_07"
+                /><label n="321"><num value="321"><w>CCCXXI</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>de</w>
@@ -27773,8 +27772,8 @@
           </choice>
         </p>
 
-        <p n="322" xml:id="CV188_p_084r_322"><lb n="10" type="rubric" xml:id="CV188_lb_084r_10"
-                /><label><num value="322"><w>CCCXXII</w></num></label>
+        <p n="322" xml:id="CV188_p_322"><lb n="10" type="rubric" xml:id="CV188_lb_084r_10"
+                /><label n="322"><num value="322"><w>CCCXXII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>canes</w>
           <w>
@@ -27816,8 +27815,8 @@
           </choice>
         </p>
 
-        <p n="323" xml:id="CV188_p_084r_323"><lb n="16" type="rubric" xml:id="CV188_lb_084r_16"
-                /><label><num value="323"><w>CCCXXIII</w></num></label>
+        <p n="323" xml:id="CV188_p_323"><lb n="16" type="rubric" xml:id="CV188_lb_084r_16"
+                /><label n="323"><num value="323"><w>CCCXXIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>hominem</w>
           <w>
@@ -27862,8 +27861,8 @@
 
         <pb n="84v" xml:id="CV188_folio_084v"/>
 
-        <p n="324" xml:id="CV188_p_084v_324"><lb n="1" type="rubric" xml:id="CV188_lb_084v_01"
-                /><label><num value="324"><w>CCCXXIIII</w></num></label>
+        <p n="324" xml:id="CV188_p_324"><lb n="1" type="rubric" xml:id="CV188_lb_084v_01"
+                /><label n="324"><num value="324"><w>CCCXXIIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>canis</w>
           <w>aut</w>
@@ -27915,8 +27914,8 @@
           </choice>
         </p>
 
-        <p n="325" xml:id="CV188_p_084v_325"><lb n="8" type="rubric" xml:id="CV188_lb_084v_08"
-                /><label><num value="325"><w>CCCXXV</w></num></label>
+        <p n="325" xml:id="CV188_p_325"><lb n="8" type="rubric" xml:id="CV188_lb_084v_08"
+                /><label n="325"><num value="325"><w>CCCXXV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>quadrupedia</w>
           <w>si</w>
@@ -27944,7 +27943,7 @@
           </choice>
         </p>
 
-        <p n="326" xml:id="CV188_p_084v_326"><lb n="12" type="rubric" xml:id="CV188_lb_084v_12"/><label><num value="326"><w>CCCXX<g
+        <p n="326" xml:id="CV188_p_326"><lb n="12" type="rubric" xml:id="CV188_lb_084v_12"/><label n="326"><num value="326"><w>CCCXX<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>ca<c corresp="#v">u</c>allo</w>
@@ -28014,7 +28013,7 @@
         <pb n="85r" xml:id="CV188_folio_085r"/>
 
         <fw place="top-right" type="fol"><add hand="unknown">85</add></fw>
-        <p n="327" xml:id="CV188_p_085r_327"><lb n="1" type="rubric" xml:id="CV188_lb_085r_01"/><label><num value="327"><w>CCCXX<g
+        <p n="327" xml:id="CV188_p_327"><lb n="1" type="rubric" xml:id="CV188_lb_085r_01"/><label n="326"><num value="327"><w>CCCXX<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>ca<c corresp="#v">u</c>allo</w>
@@ -28074,7 +28073,7 @@
           </choice>
         </p>
 
-        <p n="328" xml:id="CV188_p_085r_328"><lb n="10" type="rubric" xml:id="CV188_lb_085r_10"/><label><num value="328"><w>CCCXX<g
+        <p n="328" xml:id="CV188_p_328"><lb n="10" type="rubric" xml:id="CV188_lb_085r_10"/><label n="326"><num value="328"><w>CCCXX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>animales</w>
@@ -28161,7 +28160,7 @@
 
         <pb n="85v" xml:id="CV188_folio_085v"/>
 
-        <p n="329" xml:id="CV188_p_085v_329"><lb n="1" type="rubric" xml:id="CV188_lb_085v_01"/><label><num value="329"><w>CCCXX<g
+        <p n="329" xml:id="CV188_p_329"><lb n="1" type="rubric" xml:id="CV188_lb_085v_01"/><label n="326"><num value="329"><w>CCCXX<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>cane</w>
@@ -28179,8 +28178,8 @@
           </choice>
         </p>
 
-        <p n="330" xml:id="CV188_p_085v_330"><lb n="3" type="rubric" xml:id="CV188_lb_085v_03"
-                /><label><num value="330"><w>CCCXXX</w></num></label>
+        <p n="330" xml:id="CV188_p_330"><lb n="3" type="rubric" xml:id="CV188_lb_085v_03"
+                /><label n="330"><num value="330"><w>CCCXXX</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w><c corresp="#v">u</c>indicandum</w>
@@ -28237,8 +28236,8 @@
           </choice>
         </p>
 
-        <p n="331" xml:id="CV188_p_085v_331"><lb n="12" type="rubric" xml:id="CV188_lb_085v_12"
-                /><label><num value="331"><w>CCCXXXI</w></num></label>
+        <p n="331" xml:id="CV188_p_331"><lb n="12" type="rubric" xml:id="CV188_lb_085v_12"
+                /><label n="331"><num value="331"><w>CCCXXXI</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>canem</w>
@@ -28290,8 +28289,8 @@
           </choice>
         </p>
 
-        <p n="332" xml:id="CV188_p_085v_332"><lb n="18" type="rubric" xml:id="CV188_lb_085v_18"
-                /><label><num value="332"><w>CCCXXXII</w></num></label>
+        <p n="332" xml:id="CV188_p_332"><lb n="18" type="rubric" xml:id="CV188_lb_085v_18"
+                /><label n="332"><num value="332"><w>CCCXXXII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w><c corresp="#v">u</c>acca</w>
           <w>
@@ -28340,8 +28339,8 @@
           </choice>
         </p>
 
-        <p n="333" xml:id="CV188_p_086r_333"><lb n="3" type="rubric" xml:id="CV188_lb_086r_03"
-                /><label><num value="333"><w>CCCXXXIII</w></num></label>
+        <p n="333" xml:id="CV188_p_333"><lb n="3" type="rubric" xml:id="CV188_lb_086r_03"
+                /><label n="333"><num value="333"><w>CCCXXXIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>equa</w>
           <w>prignante</w>
@@ -28381,8 +28380,8 @@
           </choice>
         </p>
 
-        <p n="334" xml:id="CV188_p_086r_334"><lb n="8" type="rubric" xml:id="CV188_lb_086r_08"
-                /><label><num value="334"><w>CCCXXXIIII</w></num></label>
+        <p n="334" xml:id="CV188_p_334"><lb n="8" type="rubric" xml:id="CV188_lb_086r_08"
+                /><label n="334"><num value="334"><w>CCCXXXIIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>ancilla</w>
           <w>prignan<lb n="9" xml:id="CV188_lb_086r_09"/>te</w>
@@ -28436,8 +28435,8 @@
           </choice>
         </p>
 
-        <p n="335" xml:id="CV188_p_086r_335"><lb n="15" type="rubric" xml:id="CV188_lb_086r_15"
-                /><label><num value="335"><w>CCCXXXV</w></num></label>
+        <p n="335" xml:id="CV188_p_335"><lb n="15" type="rubric" xml:id="CV188_lb_086r_15"
+                /><label n="335"><num value="335"><w>CCCXXXV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>animale</w>
           <w>excoriato</w>
@@ -28496,7 +28495,7 @@
           <measure quantity="12" type="currency" unit="soldi"><w>duodicem</w></measure>
         </p>
 
-        <p n="336" xml:id="CV188_p_086r_336"><lb n="21" type="rubric" xml:id="CV188_lb_086r_21"/><label><num value="336"><w>CCCXXX<g
+        <p n="336" xml:id="CV188_p_336"><lb n="21" type="rubric" xml:id="CV188_lb_086r_21"/><label n="336"><num value="336"><w>CCCXXX<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>in</w>
@@ -28539,7 +28538,7 @@
           </choice>
         </p>
 
-        <p n="337" xml:id="CV188_p_086v_337"><lb n="4" type="rubric" xml:id="CV188_lb_086v_04"/><label><num value="337"><w>CCCXXX<g
+        <p n="337" xml:id="CV188_p_337"><lb n="4" type="rubric" xml:id="CV188_lb_086v_04"/><label n="336"><num value="337"><w>CCCXXX<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>ca<c corresp="#v">u</c>allo</w>
@@ -28580,7 +28579,7 @@
           </choice>
         </p>
 
-        <p n="338" xml:id="CV188_p_086v_338"><lb n="10" type="rubric" xml:id="CV188_lb_086v_10"/><label><num value="338"><w>CCCXXX<g
+        <p n="338" xml:id="CV188_p_338"><lb n="10" type="rubric" xml:id="CV188_lb_086v_10"/><label n="336"><num value="338"><w>CCCXXX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>coda</w>
@@ -28605,7 +28604,7 @@
           </choice>
         </p>
 
-        <p n="339" xml:id="CV188_p_086v_339"><lb n="14" type="rubric" xml:id="CV188_lb_086v_14"/><label><num value="339"><w>CCCXXX<g
+        <p n="339" xml:id="CV188_p_339"><lb n="14" type="rubric" xml:id="CV188_lb_086v_14"/><label n="336"><num value="339"><w>CCCXXX<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -28764,8 +28763,8 @@
           </choice>
         </p>
 
-        <p n="340" xml:id="CV188_p_087r_340"><lb n="13" type="rubric" xml:id="CV188_lb_087r_13"
-                /><label><num value="340"><w>CCCXL</w></num></label>
+        <p n="340" xml:id="CV188_p_340"><lb n="13" type="rubric" xml:id="CV188_lb_087r_13"
+                /><label n="340"><num value="340"><w>CCCXL</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>ca<c corresp="#v">u</c>allum</w>
@@ -28828,8 +28827,8 @@
           <w>red<lb rend="align_right" type="extra"/>dat</w>
         </p>
 
-        <p n="341" xml:id="CV188_p_087r_341"><lb n="20" type="rubric" xml:id="CV188_lb_087r_20"
-                /><label><num value="341"><w>CCCXLI</w></num></label>
+        <p n="341" xml:id="CV188_p_341"><lb n="20" type="rubric" xml:id="CV188_lb_087r_20"
+                /><label n="341"><num value="341"><w>CCCXLI</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>disfigurato</w>
           <w>ca<c corresp="#v">u</c>al<gap quantity="2" unit="char"/><supplied>lo</supplied></w>
@@ -28867,8 +28866,8 @@
           </w>
         </p>
 
-        <p n="342" xml:id="CV188_p_087v_342"><lb n="4" type="rubric" xml:id="CV188_lb_087v_04"
-                /><label><num value="342"><w>CCCXLII</w></num></label>
+        <p n="342" xml:id="CV188_p_342"><lb n="4" type="rubric" xml:id="CV188_lb_087v_04"
+                /><label n="342"><num value="342"><w>CCCXLII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>ca<c corresp="#v">u</c>allum</w>
@@ -29024,8 +29023,8 @@
           </choice>
         </p>
 
-        <p n="343" xml:id="CV188_p_088r_343"><lb n="3" type="rubric" xml:id="CV188_lb_088r_03"
-                /><label><num value="343"><w>CCCXLIII</w></num></label>
+        <p n="343" xml:id="CV188_p_343"><lb n="3" type="rubric" xml:id="CV188_lb_088r_03"
+                /><label n="343"><num value="343"><w>CCCXLIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>piculio</w>
           <w>in</w>
@@ -29201,8 +29200,8 @@
           </choice>
         </p>
 
-        <p n="344" xml:id="CV188_p_088v_344"><lb n="7" type="rubric" xml:id="CV188_lb_088v_07"
-                /><label><num value="344"><w>CCCXLIIII</w></num></label>
+        <p n="344" xml:id="CV188_p_344"><lb n="7" type="rubric" xml:id="CV188_lb_088v_07"
+                /><label n="344"><num value="344"><w>CCCXLIIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>piculio</w>
           <w>asto</w>
@@ -29294,8 +29293,8 @@
           </choice>
         </p>
 
-        <p n="345" xml:id="CV188_p_088v_345"><lb n="19" type="rubric" xml:id="CV188_lb_088v_19"
-                /><label><num value="245"><w>CCXLV</w></num></label>
+        <p n="345" xml:id="CV188_p_345"><lb n="19" type="rubric" xml:id="CV188_lb_088v_19"
+                /><label n="245"><num value="245"><w>CCXLV</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>porco</w>
           <w>aut</w>
@@ -29334,7 +29333,7 @@
           </choice>
         </p>
 
-        <p n="346" xml:id="CV188_p_089r_346"><lb n="3" type="rubric" xml:id="CV188_lb_089r_03"/><label><num value="346"><w>CCCXL<g
+        <p n="346" xml:id="CV188_p_346"><lb n="3" type="rubric" xml:id="CV188_lb_089r_03"/><label n="346"><num value="346"><w>CCCXL<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -29525,7 +29524,7 @@
           </choice>
         </p>
 
-        <p n="347" xml:id="CV188_p_089v_347"><lb n="10" type="rubric" xml:id="CV188_lb_089v_10"/><label><num value="347"><w>CCCXL<g
+        <p n="347" xml:id="CV188_p_347"><lb n="10" type="rubric" xml:id="CV188_lb_089v_10"/><label n="346"><num value="347"><w>CCCXL<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>hominem</w>
@@ -29602,7 +29601,7 @@
         <pb n="90r" xml:id="CV188_folio_090r"/>
 
         <fw place="top-right" type="fol"><add hand="unknown">90</add></fw>
-        <p n="348" xml:id="CV188_p_090r_348"><lb n="1" type="rubric" xml:id="CV188_lb_090r_01"/><label><num value="348"><w>CCCXL<g
+        <p n="348" xml:id="CV188_p_348"><lb n="1" type="rubric" xml:id="CV188_lb_090r_01"/><label n="346"><num value="348"><w>CCCXL<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -29725,7 +29724,7 @@
 
         <pb n="90v" xml:id="CV188_folio_090v"/>
 
-        <p n="349" xml:id="CV188_p_090v_349"><lb n="1" type="rubric" xml:id="CV188_lb_090v_01"/><label><num value="349"><w>CCCXL<g
+        <p n="349" xml:id="CV188_p_349"><lb n="1" type="rubric" xml:id="CV188_lb_090v_01"/><label n="346"><num value="349"><w>CCCXL<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>porcus</w>
@@ -29816,8 +29815,8 @@
           </choice>
         </p>
 
-        <p n="350" xml:id="CV188_p_090v_350"><lb n="13" type="rubric" xml:id="CV188_lb_090v_13"
-              /><label><num value="350"><w>CCCL</w></num></label>
+        <p n="350" xml:id="CV188_p_350"><lb n="13" type="rubric" xml:id="CV188_lb_090v_13"
+              /><label n="350"><num value="350"><w>CCCL</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>in</w>
@@ -29847,8 +29846,8 @@
           </choice>
         </p>
 
-        <p n="351" xml:id="CV188_p_090v_351"><lb n="17" type="rubric" xml:id="CV188_lb_090v_17"
-                /><label><num value="351"><w>CCCLI</w></num></label>
+        <p n="351" xml:id="CV188_p_351"><lb n="17" type="rubric" xml:id="CV188_lb_090v_17"
+                /><label n="351"><num value="351"><w>CCCLI</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w><c corresp="#v">u</c>erre</w>
           <w>si</w>
@@ -29976,8 +29975,8 @@
           </choice>
         </p>
 
-        <p n="352" xml:id="CV188_p_091r_352"><lb n="14" type="rubric" xml:id="CV188_lb_091r_14"
-                /><label><num value="352"><w>CCCLII</w></num></label>
+        <p n="352" xml:id="CV188_p_352"><lb n="14" type="rubric" xml:id="CV188_lb_091r_14"
+                /><label n="352"><num value="352"><w>CCCLII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>porcario</w>
           <w>battudo</w>
@@ -30060,8 +30059,8 @@
           </w>
         </p>
 
-        <p n="353" xml:id="CV188_p_091v_353"><lb n="3" type="rubric" xml:id="CV188_lb_091v_03"
-                /><label><num value="353"><w>CCCLIII</w></num></label>
+        <p n="353" xml:id="CV188_p_353"><lb n="3" type="rubric" xml:id="CV188_lb_091v_03"
+                /><label n="353"><num value="353"><w>CCCLIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>duo</w>
           <w>porcari</w>
@@ -30083,8 +30082,8 @@
           <w>requiratur</w>
         </p>
 
-        <p n="354" xml:id="CV188_p_091v_354"><lb n="7" type="rubric" xml:id="CV188_lb_091v_07"
-                /><label><num value="354"><w>CCCLIIII</w></num></label>
+        <p n="354" xml:id="CV188_p_354"><lb n="7" type="rubric" xml:id="CV188_lb_091v_07"
+                /><label n="354"><num value="354"><w>CCCLIIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>campo</w>
           <w>alieno</w>
@@ -30115,8 +30114,8 @@
           <w>frugis</w>
         </p>
 
-        <p n="355" xml:id="CV188_p_091v_355"><lb n="14" type="rubric" xml:id="CV188_lb_091v_14"
-                /><label><num value="355"><w>CCCLV</w></num></label>
+        <p n="355" xml:id="CV188_p_355"><lb n="14" type="rubric" xml:id="CV188_lb_091v_14"
+                /><label n="355"><num value="355"><w>CCCLV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>campo</w>
           <w>exarato</w>
@@ -30201,7 +30200,7 @@
         <pb n="92r" xml:id="CV188_folio_092r"/>
 
         <fw place="top-right" type="fol"><add hand="unknown">92</add></fw>
-        <p n="356" xml:id="CV188_p_092r_356"><lb n="1" type="rubric" xml:id="CV188_lb_092r_01"/><label><num value="356"><w>CCCL<g
+        <p n="356" xml:id="CV188_p_356"><lb n="1" type="rubric" xml:id="CV188_lb_092r_01"/><label n="356"><num value="356"><w>CCCL<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>prato</w>
@@ -30252,7 +30251,7 @@
           </choice>
         </p>
 
-        <p n="357" xml:id="CV188_p_092r_357"><lb n="6" type="rubric" xml:id="CV188_lb_092r_06"/><label><num value="357"><w>CCCL<g
+        <p n="357" xml:id="CV188_p_357"><lb n="6" type="rubric" xml:id="CV188_lb_092r_06"/><label n="356"><num value="357"><w>CCCL<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -30293,7 +30292,7 @@
           </choice>
         </p>
 
-        <p n="358" xml:id="CV188_p_092r_358"><lb n="10" type="rubric" xml:id="CV188_lb_092r_10"/><label><num value="258"><w>CCL<g
+        <p n="358" xml:id="CV188_p_358"><lb n="10" type="rubric" xml:id="CV188_lb_092r_10"/><label n="256"><num value="258"><w>CCL<g
                   ref="#romnumsix"/>II</w></num></label>
           <w>Nulli</w>
           <w>sit</w>
@@ -30399,7 +30398,7 @@
       </div>
 
       <div n="Capp. 359-366" subtype="procedura_civile" type="capitula" xml:id="CV188_div_359-366">
-        <p n="359" xml:id="CV188_p_092v_359"><lb n="4" type="rubric" xml:id="CV188_lb_092v_04"/><label><num value="359"><w>CCCL<g
+        <p n="359" xml:id="CV188_p_359"><lb n="4" type="rubric" xml:id="CV188_lb_092v_04"/><label n="356"><num value="359"><w>CCCL<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>sacramentis</w>
@@ -30555,8 +30554,8 @@
           <w>ipse</w>
         </p>
 
-        <p n="360" xml:id="CV188_p_093r_360"><lb n="6" type="rubric" xml:id="CV188_lb_093r_06"
-              /><label><num value="360"><w>CCCLX</w></num></label>
+        <p n="360" xml:id="CV188_p_360"><lb n="6" type="rubric" xml:id="CV188_lb_093r_06"
+              /><label n="360"><num value="360"><w>CCCLX</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <term ref="#wadia" xml:id="CV188_term_wadia_360" xml:lang="lng">
             <w>
@@ -30687,8 +30686,8 @@
 
         <pb n="93v" xml:id="CV188_folio_093v"/><!-- CHECK aggiunto 20240811 -->
        
-        <p n="361" xml:id="CV188_p_093v_361"><lb n="1" type="rubric" xml:id="CV188_lb_093v_01"
-                /><label><num value="361"><w>CCCLXI</w></num></label>
+        <p n="361" xml:id="CV188_p_361"><lb n="1" type="rubric" xml:id="CV188_lb_093v_01"
+                /><label n="361"><num value="361"><w>CCCLXI</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>alii</w>
@@ -30847,8 +30846,8 @@
           </choice>
         </p>
 
-        <p n="362" xml:id="CV188_p_094r_362"><lb n="6" type="rubric" xml:id="CV188_lb_094r_06"
-                /><label><num value="362"><w>CCCLXII</w></num></label>
+        <p n="362" xml:id="CV188_p_362"><lb n="6" type="rubric" xml:id="CV188_lb_094r_06"
+                /><label n="362"><num value="362"><w>CCCLXII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>post</w>
           <w>
@@ -30993,8 +30992,8 @@
           <w>est</w>
         </p>
 
-        <p n="363" xml:id="CV188_p_094v_363"><lb n="12" type="rubric" xml:id="CV188_lb_094v_12"
-                /><label><num value="363"><w>CCCLXIII</w></num></label>
+        <p n="363" xml:id="CV188_p_363"><lb n="12" type="rubric" xml:id="CV188_lb_094v_12"
+                /><label n="363"><num value="363"><w>CCCLXIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>sacramentum</w>
           <w>ru<gap quantity="1" unit="char"/><supplied reason="illegible" resp="leges">p</supplied><lb n="13"
@@ -31066,8 +31065,8 @@
           </choice>
         </p>
 
-        <p n="364" xml:id="CV188_p_095r_364"><lb n="2" type="rubric" xml:id="CV188_lb_095r_02"
-                /><label><num value="364"><w>CCCLXIIII</w></num></label>
+        <p n="364" xml:id="CV188_p_364"><lb n="2" type="rubric" xml:id="CV188_lb_095r_02"
+                /><label n="364"><num value="364"><w>CCCLXIIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>eo</w>
           <w>qui</w>
@@ -31179,13 +31178,13 @@
           </choice></w>
         </p>
 
-        <p n="365" xml:id="CV188_p_095v_365">
+        <p n="365" xml:id="CV188_p_365">
           
           <!-- #######################################  folio   ####################################### -->
 
         <pb n="95v" xml:id="CV188_folio_095v"/>
           
-          <lb n="1" type="rubric" xml:id="CV188_lb_095v_01"/><label><num value="365"><w>CCCLXV</w></num></label>
+          <lb n="1" type="rubric" xml:id="CV188_lb_095v_01"/><label n="365"><num value="365"><w>CCCLXV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>de<c corresp="#v">u</c>itum</w>
           <w>patris</w>
@@ -31244,7 +31243,7 @@
           </choice>
         </p>
 
-        <p n="366" xml:id="CV188_p_095v_366"><lb n="12" type="rubric" xml:id="CV188_lb_095v_12"/><label><num value="356"><w>CCCL<g
+        <p n="366" xml:id="CV188_p_366"><lb n="12" type="rubric" xml:id="CV188_lb_095v_12"/><label n="356"><num value="356"><w>CCCL<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>aliqua</w>
@@ -31338,7 +31337,7 @@
       </div>
 
       <div n="Capp. 367-385" subtype="miscellaneo" type="capitula" xml:id="CV188_div_367-385">
-        <p n="367" xml:id="CV188_p_096r_367"><lb n="3" type="rubric" xml:id="CV188_lb_096r_03"/><label><num value="357"><w>CCCL<g
+        <p n="367" xml:id="CV188_p_367"><lb n="3" type="rubric" xml:id="CV188_lb_096r_03"/><label n="356"><num value="357"><w>CCCL<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <term ref="#waregang" xml:id="CV188_term_waregang_367" xml:lang="lng">
@@ -31426,7 +31425,7 @@
           <lb rend="align_right" type="extra"/><w>alienare</w>
         </p>
 
-        <p n="368" xml:id="CV188_p_096r_368"><lb n="15" type="rubric" xml:id="CV188_lb_096r_15"/><label><num value="358"><w>CCCL<g
+        <p n="368" xml:id="CV188_p_368"><lb n="15" type="rubric" xml:id="CV188_lb_096r_15"/><label n="356"><num value="358"><w>CCCL<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>camphionibus</w>
@@ -31531,7 +31530,7 @@
           </choice>
         </p>
 
-        <p n="369" xml:id="CV188_p_096v_369"><lb n="13" type="rubric" xml:id="CV188_lb_096v_13"/><label><num value="359"><w>CCCL<g
+        <p n="369" xml:id="CV188_p_369"><lb n="13" type="rubric" xml:id="CV188_lb_096v_13"/><label n="356"><num value="359"><w>CCCL<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>causas</w>
@@ -31624,8 +31623,8 @@
           <lb rend="align_right" type="extra"/><w>exegantur</w>
         </p>
 
-        <p n="370" xml:id="CV188_p_097r_370"><lb n="5" type="rubric" xml:id="CV188_lb_097r_05"
-                /><label><num value="370"><w>CCCLXX</w></num></label>
+        <p n="370" xml:id="CV188_p_370"><lb n="5" type="rubric" xml:id="CV188_lb_097r_05"
+                /><label n="370"><num value="370"><w>CCCLXX</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>regi</w>
@@ -31672,8 +31671,8 @@
           <w>fi<lb rend="align_right" type="extra"/>nita</w>
         </p>
 
-        <p n="371" xml:id="CV188_p_097r_371"><lb n="12" type="rubric" xml:id="CV188_lb_097r_12"
-                /><label><num value="371"><w>CCCLXXI</w></num></label>
+        <p n="371" xml:id="CV188_p_371"><lb n="12" type="rubric" xml:id="CV188_lb_097r_12"
+                /><label n="371"><num value="371"><w>CCCLXXI</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>alias</w>
           <w><c corresp="#v">u</c>ero</w>
@@ -31773,8 +31772,8 @@
           <lb rend="align_right" type="extra"/><w>regis</w>
         </p>
 
-        <p n="372" xml:id="CV188_p_097v_372"><lb n="5" type="rubric" xml:id="CV188_lb_097v_05"
-                /><label><num value="372"><w>CCCLXXII</w></num></label>
+        <p n="372" xml:id="CV188_p_372"><lb n="5" type="rubric" xml:id="CV188_lb_097v_05"
+                /><label n="372"><num value="372"><w>CCCLXXII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>regis</w>
@@ -31808,8 +31807,8 @@
           </choice>
         </p>
 
-        <p n="373" xml:id="CV188_p_097v_373"><lb n="8" type="rubric" xml:id="CV188_lb_097v_08"
-                /><label><num value="373"><w>CCCLXXIII</w></num></label>
+        <p n="373" xml:id="CV188_p_373"><lb n="8" type="rubric" xml:id="CV188_lb_097v_08"
+                /><label n="373"><num value="373"><w>CCCLXXIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>regis</w>
@@ -31866,8 +31865,8 @@
           </choice>
         </p>
 
-        <p n="374" xml:id="CV188_p_097v_374"><lb n="14" type="rubric" xml:id="CV188_lb_097v_14"
-                /><label><num value="373"><w>CCCLXXIII</w></num></label>
+        <p n="374" xml:id="CV188_p_374"><lb n="14" type="rubric" xml:id="CV188_lb_097v_14"
+                /><label n="373"><num value="373"><w>CCCLXXIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>sculdhais</w>
           <w>si</w>
@@ -31983,8 +31982,8 @@
           </choice>
         </p>
 
-        <p n="375" xml:id="CV188_p_098r_375"><lb n="7" type="rubric" xml:id="CV188_lb_098r_07"
-                /><label><num value="375"><w>CCCLXXV</w></num></label>
+        <p n="375" xml:id="CV188_p_375"><lb n="7" type="rubric" xml:id="CV188_lb_098r_07"
+                /><label n="375"><num value="375"><w>CCCLXXV</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>gastaldius</w>
           <w>aut</w>
@@ -32085,7 +32084,7 @@
           <w>ipsius</w>
         </p>
 
-        <p n="376" xml:id="CV188_p_098v_376"><lb n="2" type="rubric" xml:id="CV188_lb_098v_02"/><label><num value="376"><w>CCCLXX<g
+        <p n="376" xml:id="CV188_p_376"><lb n="2" type="rubric" xml:id="CV188_lb_098v_02"/><label n="376"><num value="376"><w>CCCLXX<g
                   ref="#romnumsix"/></w></num></label>
           <w><w><hi rend="decorated">N</hi></w>ullus</w>
           <w>presumat</w>
@@ -32269,7 +32268,7 @@
           </choice>
         </p>
 
-        <p n="377" xml:id="CV188_p_099r_377"><lb n="5" type="rubric" xml:id="CV188_lb_099r_05"/><label><num value="377"><w>CCCLXX<g
+        <p n="377" xml:id="CV188_p_377"><lb n="5" type="rubric" xml:id="CV188_lb_099r_05"/><label n="376"><num value="377"><w>CCCLXX<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -32334,7 +32333,7 @@
           </choice>
         </p>
 
-        <p n="378" xml:id="CV188_p_099r_378"><lb n="14" type="rubric" xml:id="CV188_lb_099r_14"/><label><num value="378"><w>CCCLXX<g
+        <p n="378" xml:id="CV188_p_378"><lb n="14" type="rubric" xml:id="CV188_lb_099r_14"/><label n="376"><num value="378"><w>CCCLXX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>mulier</w>
@@ -32429,7 +32428,7 @@
           </choice>
         </p>
 
-        <p n="379" xml:id="CV188_p_099v_379"><lb n="8" type="rubric" xml:id="CV188_lb_099v_08"/><label><num value="379"><w>CCCLXX<g
+        <p n="379" xml:id="CV188_p_379"><lb n="8" type="rubric" xml:id="CV188_lb_099v_08"/><label n="376"><num value="379"><w>CCCLXX<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -32516,8 +32515,8 @@
           </term>
         </p>
 
-        <p n="380" xml:id="CV188_p_099v_380"><lb n="21" type="rubric" xml:id="CV188_lb_099v_21"
-                /><label><num value="380"><w>CCCLXXX</w></num></label>
+        <p n="380" xml:id="CV188_p_380"><lb n="21" type="rubric" xml:id="CV188_lb_099v_21"
+                /><label n="380"><num value="380"><w>CCCLXXX</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>peculium</w>
           <w>suum</w>
@@ -32567,8 +32566,8 @@
           </choice>
         </p>
 
-        <p n="381" xml:id="CV188_p_100r_381"><lb n="4" type="rubric" xml:id="CV188_lb_100r_04"
-                /><label><num value="381"><w>CCCLXXXI</w></num></label>
+        <p n="381" xml:id="CV188_p_381"><lb n="4" type="rubric" xml:id="CV188_lb_100r_04"
+                /><label n="381"><num value="381"><w>CCCLXXXI</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>alium</w>
@@ -32653,8 +32652,8 @@
           <w>supra</w>
         </p>
 
-        <p n="382" xml:id="CV188_p_100r_382"><lb n="14" type="rubric" xml:id="CV188_lb_100r_14"
-                /><label><num value="382"><w>CCCLXXXII</w></num></label>
+        <p n="382" xml:id="CV188_p_382"><lb n="14" type="rubric" xml:id="CV188_lb_100r_14"
+                /><label n="382"><num value="382"><w>CCCLXXXII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>hominem</w>
@@ -32717,8 +32716,8 @@
           </choice>
         </p>
 
-        <p n="383" xml:id="CV188_p_100r_383"><lb n="21" type="rubric" xml:id="CV188_lb_100r_21"
-                /><label><num value="383"><w>CCCLXXXIII</w></num></label>
+        <p n="383" xml:id="CV188_p_383"><lb n="21" type="rubric" xml:id="CV188_lb_100r_21"
+                /><label n="383"><num value="383"><w>CCCLXXXIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>hominem</w>
@@ -32778,8 +32777,8 @@
           </choice>
         </p>
 
-        <p n="384" xml:id="CV188_p_100v_384"><lb n="7" type="rubric" xml:id="CV188_lb_100v_07"
-                /><label><num value="384"><w>CCCLXXXIIII</w></num></label>
+        <p n="384" xml:id="CV188_p_384"><lb n="7" type="rubric" xml:id="CV188_lb_100v_07"
+                /><label n="384"><num value="384"><w>CCCLXXXIIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>brachio</w>
           <w>coxa</w>
@@ -32921,7 +32920,7 @@
           </choice>
         </p>
 
-        <p n="385" xml:id="CV188_p_100v_385"><lb n="20" type="rubric" xml:id="CV188_lb_100v_20"/><label><num value="335"><w>CCC<add
+        <p n="385" xml:id="CV188_p_385"><lb n="20" type="rubric" xml:id="CV188_lb_100v_20"/><label n="385"><num value="335"><w>CCC<add
                   hand="scribe_1" place="above">L</add>XXXV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>mundio</w>
@@ -32979,7 +32978,7 @@
       </div>
 
       <div n="Capp. 386-388" subtype="epilogo" type="capitula" xml:id="CV188_div_386-388">
-        <p n="386" xml:id="CV188_p_101r_386"><lb n="8" type="rubric" xml:id="CV188_lb_101r_08"/><label><num value="386"><w>CCCLXXX<g
+        <p n="386" xml:id="CV188_p_386"><lb n="8" type="rubric" xml:id="CV188_lb_101r_08"/><label n="386"><num value="386"><w>CCCLXXX<g
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">P</hi>resentis</w>
           <w><c corresp="#v">u</c>ero</w>
@@ -33183,7 +33182,7 @@
 
         <fw place="top-right" type="fol"><add hand="unknown">102</add></fw>
 
-        <p n="387" xml:id="CV188_p_102r_387"><lb n="1" type="rubric" xml:id="CV188_lb_102r_01"/><label><num value="387"><w>CCCLXXX<g
+        <p n="387" xml:id="CV188_p_387"><lb n="1" type="rubric" xml:id="CV188_lb_102r_01"/><label n="386"><num value="387"><w>CCCLXXX<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -33223,7 +33222,7 @@
           </choice>
         </p>
 
-        <p n="388" xml:id="CV188_p_102r_388"><lb n="6" type="rubric" xml:id="CV188_lb_102r_06"/><label><num value="388"><w>CCCLXXX<g
+        <p n="388" xml:id="CV188_p_388"><lb n="6" type="rubric" xml:id="CV188_lb_102r_06"/><label n="386"><num value="388"><w>CCCLXXX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi rend="decorated">E</hi>t</w>
           <w>hoc</w>
