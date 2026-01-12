@@ -8,12 +8,13 @@
 
       <titleStmt>
         <title>Leges Langobardorum project</title>
-        <title>A glossary of Lombard words used in the text </title>
+        <title>A glossary of Langobardic words used in the text of the <title>Edictum Rothari</title></title>
         <principal>Marina Buzzoni</principal>
         <principal>Roberto Rosselli Del Turco</principal>
         <respStmt>
           <resp>Encoding in TEI-conformant markup: </resp>
           <name>Roberto Rosselli Del Turco</name>
+          <name>Fabio Soncin</name>
         </respStmt>
         <respStmt>
           <resp>General overview: </resp>
@@ -45,22 +46,23 @@
       <extent>[??] kilobytes</extent>
 
       <publicationStmt>
-        <authority>Leges Langobardorum Project</authority>
+        <authority><title>Leges Langobardorum</title> Project</authority>
         <date>2014-</date>
         <availability>
-          <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+          <p>Not to ricirculate. Contact the <title>Leges Langobardorum</title> Project researchers for more information.</p>
         </availability>
       </publicationStmt>
 
       <sourceDesc>
-        <p>Experimental glossary</p>
+        <p>Born digital glossary for the Leges Langobardorum project.</p>
       </sourceDesc>
 
     </fileDesc>
 
     <revisionDesc>
-      <change status="draft" when="2020-01" who="RRDT">First experimental encoding of a glossary in TEI XML
-        format.</change>
+      <change when="2025-04" who="FS">Started work to expand and complete the glossary.</change>
+      <change when="2024-06" who="RRDT">Finalized the glossary structure.</change>
+      <change when="2020-01" who="RRDT">First experimental encoding of a glossary in TEI XML  format.</change>
     </revisionDesc>
 
   </teiHeader>
