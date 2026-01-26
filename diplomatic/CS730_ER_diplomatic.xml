@@ -337,7 +337,7 @@
 
   <!-- TODO:
             
-    - regolarizzare sempre placa in plaga (? v. manuale scelte diplomatiche)
+    - regolarizzare sempre placa in plaga (v. manuale scelte diplomatiche)
     - i <gap/> tra <p> impediscono a EVT di dividere e numerare correttamente le righe del primo <p>
     - frequentissime le abbreviazioni con segno su più lettere es. conp, sold
     - molti brani poco leggibili privi di <unclear> e/o <damage>
@@ -2697,7 +2697,10 @@
             </choice>
           </w>
           <w>conpositionis</w>
-          <w>placa<lb n="03" xml:id="CS730_lb_12_03"/>rum</w>
+          <w><choice>
+            <orig>placa<lb n="03" xml:id="CS730_lb_12_03_orig"/>rum</orig>
+            <reg>plaga<lb n="03" xml:id="CS730_lb_12_03_reg"/>rum</reg>
+          </choice></w>
           <w>sicut</w>
           <w>in</w>
           <w>hoc</w>
@@ -2752,7 +2755,10 @@
               <expan>a<ex>ut</ex></expan>
             </choice>
           </w>
-          <w>placave<lb n="09" xml:id="CS730_lb_12_09"/>rit</w>
+          <w><choice>
+            <orig>placave<lb n="09" xml:id="CS730_lb_12_09_orig"/>rit</orig>
+            <reg>plagave<lb n="09" xml:id="CS730_lb_12_09_reg"/>rit</reg>
+          </choice></w>
           <w>sit</w>
           <w>culpabiles</w>
           <w>in</w>
@@ -2769,7 +2775,10 @@
           <w>excepto</w>
           <lb n="11" xml:id="CS730_lb_12_11"/>
           <w>conpositionem</w>
-          <w>placarum</w>
+          <w><choice>
+            <orig>placarum</orig>
+            <reg>plagarum</reg>
+          </choice></w>
           <w>
             <choice>
               <abbr><am><g ref="#amacr"/></am></abbr>
@@ -2836,7 +2845,10 @@
               <expan>a<ex>ut</ex></expan>
             </choice>
           </w>
-          <w>placas</w>
+          <w><choice>
+            <orig>placas</orig>
+            <reg>plagas</reg>
+          </choice></w>
           <w>
             <choice>
               <orig>ficerit</orig>
@@ -2858,7 +2870,10 @@
           <w>sex</w>
           <w>excepto</w>
           <lb n="20" xml:id="CS730_lb_12_20"/>
-          <w>placas</w>
+          <w><choice>
+            <orig>placas</orig>
+            <reg>plagas</reg>
+          </choice></w>
           <w>
             <choice>
               <abbr><am><g ref="#amacr"/></am></abbr>
@@ -3212,7 +3227,10 @@
           <w>conpositionis</w>
           <add hand="unknown" place="margin"><num><w>45</w></num></add>
           <lb n="11" xml:id="CS730_lb_14_11"/>
-          <w>placarum</w>
+          <w><choice>
+            <orig>placarum</orig>
+            <reg>plagarum</reg>
+          </choice></w>
           <w>quae</w>
           <w>inter</w>
           <w>ho<lb n="12" xml:id="CS730_lb_14_12"/>minis</w>
@@ -3256,7 +3274,10 @@
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>alii</w>
-          <w>placam</w>
+          <w><choice>
+            <orig>placam</orig>
+            <reg>plagam</reg>
+          </choice></w>
           <w>in</w>
           <w>caput</w>
           <w>fe<add hand="unknown" place="margin"><num><w>46</w></num></add><lb n="17" xml:id="CS730_lb_14_17"
@@ -3295,7 +3316,10 @@
           <w>sex</w>
           <w>si</w>
           <w>duas</w>
-          <w>placas</w>
+          <w><choice>
+            <orig>placas</orig>
+            <reg>plagas</reg>
+          </choice></w>
           <w>fuerint</w>
           <w>
             <choice>
@@ -3351,7 +3375,10 @@
               <w>Si</w>
               <w>quis</w>
               <w>alium</w>
-              <w>placa<c corresp="#v">u</c>erit</w>
+              <w><choice>
+                <orig>placa<c corresp="#v">u</c>erit</orig>
+                <reg>plaga<c corresp="#v">u</c>erit</reg>
+              </choice></w>
               <w>in</w>
               <w>caput</w>
             </supplied>
@@ -4067,12 +4094,15 @@
           <w>contige<lb n="03" xml:id="CS730_lb_19_03"/>rit</w>
           <w>de</w>
           <w>ipsas</w>
-          <w>placas</w>
+          <w><choice>
+            <orig>placas</orig>
+            <reg>plagas</reg>
+          </choice></w>
           <w>intra</w>
           <w>anni</w>
           <w>s<lb n="04" xml:id="CS730_lb_19_04"/>patium</w>
           <w>qui</w>
-          <w>placatus</w>
+          <w>placatus</w><!-- CHECK -->
           <w>
             <choice>
               <abbr><am><g ref="#emacr"/></am></abbr>
@@ -4085,7 +4115,10 @@
           <w>ille</w>
           <w>qui</w>
           <w>eum </w>
-          <w>placa<c corresp="#v">u</c>it</w>
+          <w><choice>
+            <orig>placa<c corresp="#v">u</c>it</orig>
+            <reg>plaga<c corresp="#v">u</c>it</reg>
+          </choice></w>
           <w>
             <choice>
               <abbr><am>conp</am></abbr>
@@ -4391,7 +4424,10 @@
             <reg>ministerialem</reg>
           </choice></w>
           <lb n="17" xml:id="CS730_lb_20_17"/>
-          <w>placa<c corresp="#v">u</c>erit</w>
+          <w><choice>
+            <orig>placa<c corresp="#v">u</c>erit</orig>
+            <reg>plaga<c corresp="#v">u</c>erit</reg>
+          </choice></w>
           <w>in</w>
           <w>caput</w>
           <lb n="18" xml:id="CS730_lb_20_18"/>
@@ -4401,7 +4437,10 @@
           <w>rumpan<lb n="19" xml:id="CS730_lb_20_19"/>tur</w>
           <w>pro</w>
           <w>una</w>
-          <w>placa</w>
+          <w><choice>
+            <orig>placa</orig>
+            <reg>plaga</reg>
+          </choice></w>
           <w>dit</w>
         </p>
 
@@ -9795,7 +9834,10 @@
             </damage></w>
           <term ref="#noverca" xml:id="CS730_term_noverca_185" xml:lang="lat"><!-- NB wrongly encoded as lng -->
             <w>no<lb n="07" xml:id="CS730_lb_34a_07"/><!--<gap extent="1" unit="chars"/>--><!-- CHECK <gap/> problem -->
-              <supplied reason="illegible" resp="leges">v</supplied>ercam</w>
+              <supplied reason="illegible" resp="leges"><choice><!-- CHECK <choice> inside <supplied> -->
+                <orig>u</orig>
+                <reg>v</reg>
+              </choice></supplied>ercam</w>
           </term>
           <w>suam</w>
           <gloss target="#CS730_term_noverca_185" xml:id="CS730_gloss_noverca_185">
@@ -15791,7 +15833,7 @@
             <supplied reason="illegible" resp="leges"><w>nisi</w></supplied>
           </damage>
           <lb n="03" xml:id="CS730_lb_62b_03"/>
-          <w>caballum</w>
+          <w>caballu<supplied reason="illegible" resp="leges">m</supplied></w>
           <damage>
             <supplied reason="illegible" resp="leges">
               <w>domitum</w><!-- CHECK concordance vs critical edition -->
