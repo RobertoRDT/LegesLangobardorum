@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Editto di Rotari</title>
+            <author></author>
+            <respStmt>
+               <resp></resp>
+               <name>Fabio Soncin</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Edizioni precedenti Leges Langobardorum</edition>
+            <respStmt xml:id="azzara">
+               <resp>Editor</resp>
+               <name ref="#Azzara2005">Azzara-Gasparri</name>
+            </respStmt>
+            <respStmt xml:id="beyerle">
+               <resp>Editor</resp>
+               <name ref="#Beyerle1962">Beyerle</name>
+            </respStmt>
+            <respStmt xml:id="bluhme">
+               <resp>Editor</resp>
+               <name ref="#Bluhme1868">Bluhme</name>
+            </respStmt>         
+         </editionStmt>
+         
+         <publicationStmt>
+            <authority>Leges Langobardorum Project</authority>
+            <date instant="false">2014-</date>
+            <availability status="unknown">
+               <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>München</settlement>
+                  <repository>Bayerische Staatsbibliothek</repository>
+                  <idno>Lat. 3519</idno>
+                  <altIdentifier>
+                     <settlement>München</settlement>
+                     <repository>Bayerische Staatsbibliothek</repository>
+                     <idno>Lat. 3519</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <p></p>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>Parchment.</support>
+                        <extent>
+                           <measure type="leaves"></measure>
+                           <measure type="dimensions"></measure>
+                           <measure type="lines"></measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p></p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p></p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <p></p>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     
+     <encodingDesc>
+        <charDecl>
+
+        <!-- regular letters -->
+
+        <char xml:id="ucap">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER U"/>
+          <mapping type="codepoint">U+0055</mapping>
+          <mapping type="diplomatic">U</mapping>
+          <mapping type="normalized">U</mapping>
+        </char>
+
+        <char xml:id="vcap">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER V"/>
+          <mapping type="codepoint">U+0056</mapping>
+          <mapping type="diplomatic">V</mapping>
+          <mapping type="normalized">V</mapping>
+        </char>
+
+        <char xml:id="u">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER U"/>
+          <mapping type="codepoint">U+0075</mapping>
+          <mapping type="diplomatic">u</mapping>
+          <mapping type="normalized">u</mapping>
+        </char>
+
+        <char xml:id="v">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER V"/>
+          <mapping type="codepoint">U+0076</mapping>
+          <mapping type="diplomatic">v</mapping>
+          <mapping type="normalized">v</mapping>
+        </char>
+
+        <!-- variant forms -->
+
+        <char xml:id="romnumsix">
+          <unicodeProp name="Name" value="ROMAN NUMERAL SIX LATE FORM"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+2185</mapping>
+          <mapping type="diplomatic">Ϛ</mapping>
+          <mapping type="normalized">VI</mapping>
+        </char>
+
+        <char xml:id="amacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER A WITH MACRON"/>
+          <mapping type="codepoint">U+0101</mapping>
+          <mapping type="diplomatic">ā</mapping>
+          <mapping type="normalized">a</mapping>
+        </char>
+        <char xml:id="emacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER E WITH MACRON"/>
+          <mapping type="codepoint">U+0113</mapping>
+          <mapping type="diplomatic">ē</mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+        <char xml:id="imacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER I WITH MACRON"/>
+          <mapping type="codepoint">U+012B</mapping>
+          <mapping type="diplomatic">ī</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        <char xml:id="omacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH MACRON"/>
+          <mapping type="codepoint">U+014D</mapping>
+          <mapping type="diplomatic">ō</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+        <char xml:id="umacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER U WITH MACRON"/>
+          <mapping type="codepoint">U+016B</mapping>
+          <mapping type="diplomatic">ū</mapping>
+          <mapping type="normalized">u</mapping>
+        </char>
+        <char xml:id="ymacr">
+          <!-- VBD entity: ytilde -->
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Y WITH MACRON"/>
+          <mapping type="codepoint">U+0233</mapping>
+          <mapping type="diplomatic">ȳ</mapping>
+          <mapping type="normalized">y</mapping>
+        </char>
+        <!-- Letter L ltailstrok -->
+        <char xml:id="ltailstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER LUM"/>
+          <mapping type="codepoint">A772</mapping>
+          <mapping type="diplomatic">ꝲ</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+        <!-- ntilde -->
+        <char xml:id="ntilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER N WITH TILDE"/>
+          <mapping type="codepoint">00F1</mapping>
+          <mapping type="diplomatic">ñ</mapping>
+          <mapping type="normalized">n</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="fourdot">
+          <unicodeProp name="Name" value="FOUR DOT PUNCTUATION"/>
+          <mapping type="codepoint">2058</mapping>
+          <mapping type="diplomatic">⁘</mapping>
+          <mapping type="normalized">.</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="arbar">
+          <unicodeProp name="Name" value="COMBINING ABBREVIATION MARK BAR ABOVE WITH DOT"/>
+          <mapping type="codepoint">F1C0</mapping>
+          <mapping type="diplomatic">◌</mapping>
+          <mapping type="normalized">ae</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="ptilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0070 + U+0303</mapping>
+          <mapping type="diplomatic">p̃</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="qtilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0071 + U+0303</mapping>
+          <mapping type="diplomatic">q̃</mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
+
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="nscapslonglig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE SMALL CAPITAL N LONG S"/>
+          <mapping type="codepoint">EED5</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">ns</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="qmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">E681</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="pmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">E665</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="pbardes">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER"/>
+          <mapping type="codepoint">U+A751</mapping>
+          <mapping type="diplomatic">ꝑ</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="qbardes">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER"/>
+          <mapping type="codepoint">U+A757</mapping>
+          <mapping type="diplomatic">ꝗ</mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="dstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER D WITH STROKE"/>
+          <mapping type="codepoint">0111</mapping>
+          <mapping type="diplomatic">d</mapping>
+          <mapping type="normalized">d</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="colmidcomposit">
+          <unicodeProp name="Name" value="COLON WITH MIDDLE COMMA POSITURA"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F1E5</mapping>
+          <mapping type="diplomatic"></mapping>
+          <!--<mapping type="normalized">.</mapping>-->
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="usmod">
+          <unicodeProp name="Name" value="MODIFIER LETTER US"/>
+          <mapping type="codepoint">A770</mapping>
+          <mapping type="diplomatic">ꝰ</mapping>
+          <mapping type="normalized">us</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="ttilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+0303</mapping>
+          <mapping type="diplomatic">t̃</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-05 -->
+        <char xml:id="atilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER A WITH TILDE"/>
+          <mapping type="codepoint">00E3</mapping>
+          <mapping type="diplomatic">ã</mapping>
+          <mapping type="normalized">a</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-05 -->
+        <char xml:id="utilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER U WITH TILDE"/>
+          <mapping type="codepoint">U+0169</mapping>
+          <mapping type="diplomatic">ũ</mapping>
+          <mapping type="normalized">u</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-05 -->
+        <char xml:id="etilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER E WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0065 + U+0303</mapping>
+          <mapping type="diplomatic">ẽ</mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-12 -->
+        <char xml:id="tridotleft">
+          <unicodeProp name="Name" value="THREE DOT PUNCTUATION"/>
+          <mapping type="codepoint">2056</mapping>
+          <mapping type="diplomatic">:.</mapping>
+          <mapping type="normalized">.</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-23 -->
+        <char xml:id="ctilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER C WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0065 + U+0303</mapping>
+          <mapping type="diplomatic">c̃</mapping>
+          <mapping type="normalized">c</mapping>
+        </char>
+        <!-- aggiunto 2018-12-23 -->
+        <char xml:id="otilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH TILDE"/>
+          <mapping type="codepoint">U+00F5</mapping>
+          <mapping type="diplomatic">õ</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+
+        <!-- aggiunto 2019-01-21 -->
+        <char xml:id="rum">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER RUM ROTUNDA"/>
+          <mapping type="codepoint">A75D</mapping>
+          <mapping type="diplomatic">ꝝ</mapping>
+          <mapping type="normalized">rum</mapping>
+        </char>
+
+        <!-- aggiunto 2019-01-21 -->
+        <char xml:id="rmacr">
+          <unicodeProp name="Name" value="Latin Small Letter R with Dot Below and Macron"/>
+          <mapping type="codepoint">U+0072 + U+0304</mapping>
+          <mapping type="diplomatic">r̄</mapping>
+          <mapping type="normalized">r</mapping>
+        </char>
+
+        <!-- aggiunto 2019-01-21 -->
+        <char xml:id="tildedot">
+          <unicodeProp name="Name" value="TILDE WITH DOT ABOVE"/>
+          <mapping type="codepoint">U+2E1E</mapping>
+          <mapping type="diplomatic">⸞</mapping>
+          <mapping type="normalized">n</mapping>
+        </char>
+
+        <!-- ligatures -->
+
+        <glyph xml:id="uslig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE US"/>
+          <mapping type="ligature">U+0075 + U+017F</mapping>
+          <mapping type="diplomatic">us</mapping>
+          <mapping type="normalized">us</mapping>
+        </glyph>
+        <!-- aggiunto 2019-01-21 -->
+        <char xml:id="openetlig">
+          <unicodeProp name="Name" value="Ligature Open Et Ornament"/>
+          <mapping type="codepoint">U+1F672</mapping>
+          <mapping type="diplomatic">🙲</mapping>
+          <mapping type="normalized">et</mapping>
+        </char>
+
+        <!-- aggiunto 2019-01-21 -->
+        <char xml:id="etlig">
+          <unicodeProp name="Name" value="Script Ligature Et Ornament"/>
+          <mapping type="codepoint">U+1F670</mapping>
+          <mapping type="diplomatic">🙰</mapping>
+          <mapping type="normalized">et</mapping>
+        </char>
+
+        <!-- aggiunto 2019-01-21 -->
+        <glyph xml:id="urlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE UR"/>
+          <mapping subtype="composed" type="ligature">U+0075 + U+A783</mapping>
+          <mapping type="diplomatic">ur</mapping>
+          <mapping type="normalized">ur</mapping>
+        </glyph>
+
+        <!-- aggiunto 2019-01-21 -->
+        <glyph xml:id="utlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE UT"/>
+          <mapping subtype="composed" type="ligature">U+0075 + U+1D1B</mapping>
+          <mapping type="diplomatic">ut</mapping>
+          <mapping type="normalized">ut</mapping>
+        </glyph>
+
+        <!-- aggiunto 2019-03-12 -->
+        <char xml:id="Mtilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER M WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+004D + U+0303</mapping>
+          <mapping type="diplomatic">M̃</mapping>
+          <mapping type="normalized">M</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-12 -->
+        <char xml:id="twodot">
+          <unicodeProp name="Name" value="Two Dot Punctuation"/>
+          <mapping type="codepoint">U+205A</mapping>
+          <mapping type="diplomatic">⁚</mapping>
+          <mapping type="normalized">ue</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-12 -->
+        <char xml:id="jnodotenl">
+          <unicodeProp name="Name" value="LATIN ENLARGED LETTER SMALL DOTLESS J"/>
+          <mapping type="codepoint">EEFE</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-12 -->
+        <char xml:id="stilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER S WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0073 + U+0303</mapping>
+          <mapping type="diplomatic">s̃</mapping>
+          <mapping type="normalized">s</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-12 -->
+        <char xml:id="eogon">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER E WITH OGONEK"/>
+          <mapping type="codepoint">0119</mapping>
+          <mapping type="diplomatic">ę</mapping>
+          <mapping type="normalized">ae</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-13 -->
+        <char xml:id="xtilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER X WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0078 + U+0303</mapping>
+          <mapping type="diplomatic">x̃</mapping>
+          <mapping type="normalized">x</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-14 -->
+        <char xml:id="lhighstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER L WITH HIGH STROKE"/>
+          <mapping type="codepoint">A749</mapping>
+          <mapping type="diplomatic">ł</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-15 -->
+        <char xml:id="pflour">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH FLOURISH"/>
+          <mapping type="codepoint">A753</mapping>
+          <mapping type="diplomatic">ꝓ</mapping>
+          <mapping type="normalized">pro</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-17 -->
+        <char xml:id="mtilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER M WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+006D + U+0303</mapping>
+          <mapping type="diplomatic">m̃</mapping>
+          <mapping type="normalized">m</mapping>
+        </char>
+        <!-- aggiunto 2019-03-20 -->
+        <char xml:id="ur">
+          <unicodeProp name="Name" value="COMBINING UR ABOVE"/>
+          <mapping type="codepoint">1DD1</mapping>
+          <mapping type="diplomatic">᷑</mapping>
+          <mapping type="normalized">ur</mapping>
+        </char>
+        <!-- aggiunto 2019-03-20 -->
+        <char xml:id="semi">
+          <unicodeProp name="Name" value="SEMICOLON"/>
+          <mapping type="codepoint">003B</mapping>
+          <mapping type="diplomatic">;</mapping>
+          <mapping type="normalized">us</mapping>
+        </char>
+
+        <char xml:id="middot">
+          <unicodeProp name="Name" value="MIDDLE DOT"/>
+          <mapping type="codepoint">U+00B7</mapping>
+          <mapping type="diplomatic">·</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+        
+        <char xml:id="homothetic">
+          <unicodeProp name="Name" value="MIDDLE DOT"/>
+          <mapping type="codepoint">U+223B</mapping>
+          <mapping type="diplomatic">∻</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+
+        <char xml:id="Ptilde">
+          <unicodeProp name="Name" value="LATIN CAPIPTAL LETTER P WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0050 + U+0303</mapping>
+          <mapping type="diplomatic">P̃</mapping>
+          <mapping type="normalized">P</mapping>
+        </char>
+        
+        <!-- ##### aggiunto da FS in data 2024-04-13 ##### -->
+        <glyph xml:id="ctlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE CT"></unicodeProp>
+          <mapping type="ligature">U+0063 + U+0074</mapping>
+          <mapping type="diplomatic">ct</mapping>
+          <mapping type="normalized">ct</mapping>
+        </glyph>
+        
+        <glyph xml:id="stlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE ST"></unicodeProp>
+          <mapping type="ligature">U+0073 + U+0074</mapping>
+          <mapping type="diplomatic">st</mapping>
+          <mapping type="normalized">st</mapping>
+        </glyph>
+        
+        <glyph xml:id="aelig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE AE"></unicodeProp>
+          <mapping type="ligature">U+0061 + U+0065</mapping>
+          <mapping type="diplomatic">æ</mapping>
+          <mapping type="normalized">ae</mapping>
+        </glyph>
+        
+        <char xml:id="Rtilde">
+          <unicodeProp name="Name" value="LATIN CAPIPTAL LETTER R WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0052 + U+0303</mapping>
+          <mapping type="diplomatic">R̃</mapping>
+          <mapping type="normalized">R</mapping>
+        </char>
+        
+        <char xml:id="Htilde">
+          <unicodeProp name="Name" value="LATIN CAPIPTAL LETTER H WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0048 + U+0303</mapping>
+          <mapping type="diplomatic">H̃</mapping>
+          <mapping type="normalized">H</mapping>
+        </char>
+        
+        <char xml:id="mmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER M WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+006D + U+0304</mapping>
+          <mapping type="diplomatic">m̄</mapping>
+          <mapping type="normalized">m</mapping>
+        </char>
+        
+        <char xml:id="tmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+00AF</mapping>
+          <mapping type="diplomatic">t̄</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+        
+        <glyph xml:id="filig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE FI"></unicodeProp>
+          <mapping type="ligature">U+0066 + U+0069</mapping>
+          <mapping type="diplomatic">fi</mapping>
+          <mapping type="normalized">fi</mapping>
+        </glyph>
+        
+        <glyph xml:id="exlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE EX"></unicodeProp>
+          <mapping type="ligature">U+0065 + U+0078</mapping>
+          <mapping type="diplomatic">ex</mapping>
+          <mapping type="normalized">ex</mapping>
+        </glyph>
+        
+        <char xml:id="nmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER N WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+006E + U+0304</mapping>
+          <mapping type="diplomatic">n̄</mapping>
+          <mapping type="normalized">n</mapping>
+        </char>
+        
+        <char xml:id="Qtilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER Q WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0051 + U+0303</mapping>
+          <mapping type="diplomatic">Q̃</mapping>
+          <mapping type="normalized">Q</mapping>
+        </char>
+        
+        <char xml:id="Itilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER I WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0049 + U+0303</mapping>
+          <mapping type="diplomatic">Ĩ</mapping>
+          <mapping type="normalized">I</mapping>
+        </char>
+        
+        <char xml:id="Utilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER U WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0055 + U+0303</mapping>
+          <mapping type="diplomatic">Ũ</mapping>
+          <mapping type="normalized">U</mapping>
+        </char>
+        
+        <char xml:id="lmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER L WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+006C + U+0304</mapping>
+          <mapping type="diplomatic">l̄</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+        
+        <char xml:id="Ntilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER N WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+00D1</mapping>
+          <mapping type="diplomatic">Ñ</mapping>
+          <mapping type="normalized">N</mapping>
+        </char>
+        
+        <char xml:id="racute">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER R WITH ACUTE"/>
+          <mapping subtype="composed" type="codepoint">U+0155</mapping>
+          <mapping type="diplomatic">ŕ</mapping>
+          <mapping type="normalized">r</mapping>
+        </char>
+        
+        <char xml:id="gtilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER G WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0067 + U+0303</mapping>
+          <mapping type="diplomatic">g̃</mapping>
+          <mapping type="normalized">g</mapping>
+        </char>
+        
+        <char xml:id="smacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER S WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0073 + U+0304</mapping>
+          <mapping type="diplomatic">s̄</mapping>
+          <mapping type="normalized">s</mapping>
+        </char>
+        
+        <char xml:id="dstroke">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER D WITH STROKE"/>
+          <mapping subtype="composed" type="codepoint">U+0111</mapping>
+          <mapping type="diplomatic">đ</mapping>
+          <mapping type="normalized">d</mapping>
+        </char>
+        
+        <char xml:id="bstroke">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH STROKE"/>
+          <mapping subtype="composed" type="codepoint">U+0180</mapping>
+          <mapping type="diplomatic">ƀ</mapping>
+          <mapping type="normalized">b</mapping>
+        </char>
+        
+        <char xml:id="tacute">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH ACUTE"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+02CA</mapping>
+          <mapping type="diplomatic">tˊ</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+        
+        <glyph xml:id="orlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE OR"></unicodeProp>
+          <mapping type="ligature">U+006F + U+0280</mapping>
+          <mapping type="diplomatic">oʀ</mapping>
+          <mapping type="normalized">or</mapping>
+        </glyph>
+        
+        <char xml:id="iring">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH ACUTE"/>
+          <mapping subtype="composed" type="codepoint">U+0069 + U+0357</mapping>
+          <mapping type="diplomatic">i͗</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        
+        <char xml:id="pflourish">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH FLOURISH"/>
+          <mapping subtype="composed" type="codepoint">U+A753</mapping>
+          <mapping type="diplomatic">ꝓ</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+        
+        <char xml:id="Dtilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER D WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0044 + U+02DC</mapping>
+          <mapping type="diplomatic">D˜</mapping>
+          <mapping type="normalized">D</mapping>
+        </char>
+        
+        <char xml:id="cmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER C WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0063 + U+0304</mapping>
+          <mapping type="diplomatic">c̄</mapping>
+          <mapping type="normalized">c</mapping>
+        </char>
+        
+<!-- AGGIUNTI DA FABIO SONCIN PER BSL5260
+        i glifi qui codificati indicano lettere cui un'altra lettera o segno è posto 
+        sopra la lettera principale-->        
+        <char xml:id="icurl">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER I WITH CULR"/>
+          <mapping subtype="composed" type="codepoint">U+0069 + U+1DCE</mapping>
+          <mapping type="diplomatic">i᷎</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        
+        <char xml:id="ra">
+          <unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE"/>
+          <mapping subtype="composed" type="codepoint">U+1DD3</mapping>
+          <mapping type="diplomatic">&#7635;</mapping>
+          <mapping type="normalized"></mapping>
+        </char>
+        
+        <char xml:id="erang">
+          <unicodeProp name="Name" value="COMBINING ABBREVIATION MARK ZIGZAG ABOVE ANGLE FORM"/>
+          <mapping subtype="composed" type="codepoint">U+F1C7</mapping>
+          <mapping type="diplomatic">&#61895;</mapping>
+          <mapping type="normalized"></mapping>
+        </char>
+        
+        <char xml:id="asmallabove">
+          <unicodeProp name="Name" value="COMBINING SMALL LETTER A"/>
+          <mapping subtype="composed" type="codepoint">U+0363</mapping>
+          <mapping type="diplomatic">ͣ</mapping>
+          <mapping type="normalized">a</mapping>
+        </char>
+        
+        <char xml:id="bstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH STROKE"/>
+          <mapping subtype="composed" type="codepoint">U+0180</mapping>
+          <mapping type="diplomatic">ƀ</mapping>
+          <mapping type="normalized">b</mapping>
+        </char>
+        
+        <char xml:id="hstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER H WITH STROKE"/>
+          <mapping subtype="composed" type="codepoint">U+0180</mapping>
+          <mapping type="diplomatic">ħ</mapping>
+          <mapping type="normalized">h</mapping>
+        </char>
+        
+        <char xml:id="ismallabove">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH CURL"/>
+          <mapping subtype="composed" type="codepoint">U+0180</mapping>
+          <mapping type="diplomatic">ͥ</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        
+        <char xml:id="pcurl">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH CURL"/>
+          <mapping subtype="composed" type="codepoint">U+0070 + U+1DCE</mapping>
+          <mapping type="diplomatic">p᷎</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+        
+        <char xml:id="qbardestilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER AND TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+A757 + U+0303</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
+           
+           <char xml:id="et">
+              <unicodeProp name="Name" value="TIRONIAN SIGN ET"/>
+              <mapping subtype="composed" type="codepoint">U+204A</mapping>
+              <mapping type="diplomatic">⁊</mapping>
+              <mapping type="normalized">et</mapping>
+           </char>
+          
+          <char xml:id="orumlig">
+            <unicodeProp name="Name" value="LATIN SMALL LIGATURE O RUM"/>
+            <mapping subtype="composed" type="codepoint">U+EFBA</mapping>
+            <mapping type="diplomatic"></mapping>
+            <mapping type="normalized">orum</mapping>
+          </char>
+          
+          <char xml:id="esmallabove">
+            <unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER E"/>
+            <mapping subtype="composed" type="codepoint">U+0364</mapping>
+            <mapping type="diplomatic">ͤ</mapping>
+            <mapping type="normalized">e</mapping>
+          </char>
+          
+          <char xml:id="mtailstrok">
+            <unicodeProp name="Name" value="LATIN SMALL LETTER MUM"/>
+            <mapping subtype="composed" type="codepoint">U+A773</mapping>
+            <mapping type="diplomatic">ꝳ</mapping>
+            <mapping type="normalized">m</mapping>
+          </char>
+
+      </charDecl>
+     </encodingDesc>
+     
+     <profileDesc>
+        <langUsage>
+           <language ident="lat">Latino</language>
+           <language ident="lng">Langobardic</language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="form">Prosa</term>
+              <term type="source">Documentaria</term>
+              <term type="genre">Testo giuridico</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+  </teiHeader>
+   
+   <text type="prose" n="Editto di Rotari" xml:id="BSL3519_ER">
+      <body>
+        <!-- #### FOLIO 43r ### -->
+         <pb n="43r" xml:id="BSL3519_folio_43r"/>
+         <p xml:id="BSL3519_p_180" n="180">
+            <lb xml:id="BSL3519_lb_33v_7" n="7"/>
+            <w><hi rend="init3.1">S</hi>i</w> 
+            <w>peccatis</w> 
+            
+           <w>inmi<lb xml:id="BSL3519_lb_43r_8" n="8"/>nentib<g ref="#usmod"/></w> 
+            <w><choice>
+                  <abbr><am><g ref="#cmacr"/></am>tig<am><g ref="#erang"/></am>it</abbr>
+                  <expan><g ref="#cmacr"/><ex>on</ex>tig<ex>er</ex>it</expan>
+            </choice></w> 
+            <w><choice>
+                  <abbr><am><g ref="#pcurl"/></am><am><g ref="#qbardes"/></am><am><g ref="#ra"/></am></abbr>
+                  <expan><g ref="#pcurl"/><ex>ost</ex><g ref="#qbardes"/><ex>u</ex><ex>am</ex></expan>
+            </choice></w> 
+            <w>p<c>u</c>ella</w> 
+            <w>a<c>u</c>t</w>
+            <w>m<c>u</c>lier</w> 
+            <w>sponsata</w>
+           
+           <lb xml:id="BSL3519_lb_43r_9" n="9"/><w>f<c>u</c>erit</w> 
+            <w><choice><abbr>le<am><g ref="#pflour"/></am>sa</abbr><expan>le<g ref="#pflour"/><ex>ro</ex>sa</expan></choice></w>
+            <choice>
+               <orig><pc><g ref="#middot"/></pc></orig>
+               <reg></reg>
+            </choice>
+            <w>a<c>u</c>t</w> 
+            <w>demoniaca</w>
+            <w>a<c>u</c>t</w> 
+            <w>de</w> 
+            <w>d<c>u</c>ob<c corresp="#u">v</c>s</w> 
+           
+           <lb xml:id="BSL3519_lb_43r_10" n="10"/><w>oc<c>u</c>lis</w> 
+            <w>excecata</w>
+           <choice>
+             <orig><pc><g ref="#middot"/></pc></orig>
+             <reg></reg>
+           </choice>
+           <w><choice>
+                  <abbr>t<am><g ref="#cmacr"/></am></abbr>
+                  <expan>t<ex>un</ex><g ref="#cmacr"/></expan>
+            </choice></w> 
+            <w>spons<c>u</c>s</w>
+            <w>accipiat</w> 
+            <w>res</w> 
+            <w>s<c>u</c>as</w> 
+           
+           <lb xml:id="BSL3519_lb_43r_11" n="11"/><w><g ref="#et"/></w> 
+           <w><choice>
+               <abbr><am><g ref="#nmacr"/></am></abbr>
+               <expan><g ref="#nmacr"/><ex>on</ex></expan>
+           </choice></w> 
+           <w><choice>
+               <abbr>c<am><g ref="#omacr"/></am>pellat<am><g ref="#ra"/></am></abbr>
+               <expan>c<g ref="#omacr"/><ex>n</ex>pellat<ex>ur</ex></expan>
+           </choice></w> 
+           <w><choice>
+               <abbr>e<am><g ref="#amacr"/></am></abbr>
+               <expan>e<g ref="#amacr"/><ex>m</ex></expan>
+           </choice></w> 
+           <w>in<c corresp="#v">u</c>it<g ref="#usmod"/></w> 
+           <w>tollere</w>
+           <w>ad</w> 
+           <w><choice>
+               <abbr><c>u</c>xor<am><g ref="#emacr"/></am></abbr>
+               <expan><c>u</c>xor<g ref="#emacr"/><ex>m</ex></expan>
+           </choice></w> 
+           <w>ne</w> 
+           <w><choice>
+               <abbr><am><g ref="#pflour"/></am></abbr>
+               <expan><g ref="#pflour"/><ex>ro</ex></expan>
+           </choice></w>
+           
+           <lb xml:id="BSL3519_lb_43r_12" n="12"/><w>hac</w> 
+           <w>ca<c>u</c>sa</w> 
+           <w><choice>
+               <abbr>cal<am><g ref="#umacr"/></am>niet<am><g ref="#ra"/></am></abbr>
+               <expan>cal<g ref="#umacr"/><ex>m</ex>niet<g ref="#ra"/><ex>ur</ex></expan>
+           </choice></w> 
+           <w>q<c>u</c><g ref="#ismallabove"/>a</w> 
+           <w><choice>
+               <abbr><am><g ref="#nmacr"/></am></abbr>
+               <expan><g ref="#nmacr"/><ex>on</ex></expan>
+           </choice></w> 
+           <w>s<c>u</c>o</w> 
+           <w><choice><sic>neglectu</sic><corr>neglecta</corr></choice></w> 
+           <w><choice>
+               <abbr>s<am><g ref="#semi"/></am></abbr>
+               <expan>s<ex>u<g ref="#semi"/></ex></expan>
+           </choice></w> 
+           <w>peccato</w>
+           
+           <lb xml:id="BSL3519_lb_43r_13" n="13"/><w>inminente</w> 
+           <w><g ref="#et"/></w> 
+           <w><choice>
+               <abbr>e<am>g<g ref="#ismallabove"/></am>t<c>u</c>dine</abbr>
+               <expan>eg<ex>r</ex><g ref="#ismallabove"/>t<c>u</c>dine<ex></ex></expan>
+           </choice></w> 
+           
+           <w><choice>
+               <abbr>s<c>u</c><am><g ref="#pbardes"/></am><c corresp="#v">u</c>eniente</abbr>
+               <expan>s<c>u</c><g ref="#pbardes"/><ex>er</ex><c corresp="#v">u</c>eniente<ex></ex></expan>
+           </choice></w> 
+           <w>hoc</w> 
+           <w><choice>
+               <abbr><am><g ref="#emacr"/></am></abbr>
+               <expan><g ref="#emacr"/><ex>st</ex></expan>
+           </choice></w><pc>.</pc>
+         </p>
+        
+        <p xml:id="BSL3519_p_179" n="179">
+          <lb xml:id="BSL3519_lb_43r_14" n="14"/><w><hi rend="init3.1">S</hi>i</w> 
+          <w><choice>
+              <abbr>dix<am><g ref="#erang"/></am>it</abbr>
+              <expan>dix<g ref="#erang"/><ex>er</ex>it</expan>
+          </choice></w> 
+          <w>spons<c>u</c>s</w> 
+          <w>de</w> 
+          <w>sponsa</w>
+          <w>s<c>u</c>a</w> 
+          <w><choice>
+              <abbr>q<am><g ref="#dstrok"/></am></abbr>
+              <expan>q<ex>uo</ex><g ref="#dstrok"/></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr><am><g ref="#pcurl"/></am><am><g ref="#qbardes"/><g ref="#asmallabove"/></am>m</abbr>
+              <expan><g ref="#pcurl"/><ex>ost</ex><g ref="#qbardes"/><ex>u</ex><g ref="#asmallabove"/>m</expan>
+          </choice></w>
+          <w><choice>
+              <abbr>e<am><g ref="#amacr"/></am></abbr>
+              <expan>e<g ref="#amacr"/><ex>m</ex></expan>
+          </choice></w> 
+          
+          <lb xml:id="BSL3519_lb_43r_15" n="15"/><w><choice>
+              <abbr>sponsat<am><g ref="#amacr"/></am></abbr>
+              <expan>sponsat<g ref="#amacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w>hab<c>u</c>it</w> 
+          <w><choice>
+              <abbr>ad<c>u</c>l<am><g ref="#tmacr"/></am>a</abbr>
+              <expan>ad<c>u</c>l<g ref="#tmacr"/><ex>er</ex>a</expan>
+          </choice></w>
+          <w>sit</w> 
+          <w>liceat</w> 
+          <w><choice>
+              <abbr>parentib<am><g ref="#semi"/></am></abbr>
+              <expan>parentib<ex><g ref="#semi"/></ex></expan>
+          </choice></w> 
+          
+          <lb xml:id="BSL3519_lb_43r_16" n="16"/><w><choice>
+              <abbr>e<am><g ref="#amacr"/></am></abbr>
+              <expan>e<g ref="#amacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w>p<c>u</c>rificare</w> 
+          <w><choice>
+              <abbr>c<am><g ref="#umacr"/></am></abbr>
+              <expan>c<g ref="#umacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <measure quantity="12" type="measure" unit="soldi"><w>XII</w></measure>
+          <choice>
+            <orig>.</orig>
+            <reg></reg>
+          </choice> 
+          <w><choice>
+              <abbr>sa<am>c<g ref="#ra"/></am><am><g ref="#mmacr"/></am>talib<am><g ref="#semi"/></am></abbr>
+              <expan>sac<g ref="#ra"/><ex>ra</ex><g ref="#mmacr"/><ex>en</ex>talib<ex><g ref="#semi"/></ex></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr>s<am><g ref="#semi"/></am></abbr>
+              <expan>s<c>u</c><ex><g ref="#semi"/></ex></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr><am><g ref="#pcurl"/></am><am><g ref="#qbardes"/><g ref="#asmallabove"/></am>m</abbr>
+              <expan><g ref="#pcurl"/><ex>ost</ex><g ref="#qbardes"/><ex>u</ex><g ref="#asmallabove"/>m</expan>
+          </choice></w> 
+          
+          <w>p<c>u</c>rifi<lb xml:id="BSL3519_lb_43r_17" n="17"/>cata</w> 
+          <w>f<c>u</c>erit</w> 
+          <w>accipiat</w> 
+          <w><choice>
+              <abbr>e<am><g ref="#amacr"/></am></abbr>
+              <expan>e<g ref="#amacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w>sponsus</w>
+          <choice><orig>.</orig><reg></reg></choice> 
+          <w><g ref="#et"/></w> 
+          <w>si</w> 
+          <w>neglexerit</w>
+
+          <lb xml:id="BSL3519_lb_43r_18" n="18"/>
+          <w><choice><abbr>t<am><g ref="#cmacr"/></am></abbr><expan>t<ex>un</ex><g ref="#cmacr"/></expan></choice></w> 
+          <w>ita</w> 
+          <w><choice>
+              <abbr>p<c>u</c>rificat<am><g ref="#amacr"/></am></abbr>
+              <expan>p<c>u</c>rificat<g ref="#amacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w>tollere</w> 
+          <w>ad</w> 
+          <w><choice>
+              <abbr><c>u</c>xor<am><g ref="#emacr"/></am></abbr>
+              <expan><c>u</c>xor<g ref="#emacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w>sit</w> 
+          
+          <w>c<c>u</c>lpabi<lb xml:id="BSL3519_lb_43r_19" n="19"/>lis</w> 
+          <w><choice>
+              <abbr>spons<am><g ref="#usmod"/></am></abbr>
+              <expan>spons<ex><g ref="#usmod"/></ex></expan>
+          </choice></w> 
+          <w>d<c>u</c>pla</w> 
+          <term ref="#meta" xml:id="BSL3519_term_meta_179" xml:lang="lng"><w>meta</w></term> 
+          <w><choice>
+              <abbr><am>q<g ref="#asmallabove"/></am>nt<am><g ref="#umacr"/></am></abbr>
+              <expan>q<ex>u<g ref="#asmallabove"/></ex>nt<g ref="#umacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w><choice><abbr>dict<am><g ref="#umacr"/></am></abbr><expan>dict<g ref="#umacr"/><ex>m</ex></expan></choice></w> 
+          <w><choice>
+              <abbr><am><g ref="#emacr"/></am></abbr>
+              <expan><g ref="#emacr"/><ex>st</ex></expan>
+          </choice></w> 
+          <w>in</w> 
+          <w>die</w> 
+          
+          <lb xml:id="BSL3519_lb_43r_20" n="20"/><w>illa</w> 
+          <w><choice>
+              <abbr>q<am><g ref="#ra"/></am>ndo</abbr>
+              <expan>q<ex>ua</ex>ndo</expan>
+          </choice></w> 
+          <term ref="#fabula" xml:id="BSL3519_term_fabula_179" xml:lang="lng"><w>fab<c>u</c>la</w></term> 
+          <w>firmata</w> 
+          <w>f<c>u</c>erat</w>
+          <orig>
+            <pc>.</pc>
+          </orig> 
+          <w><g ref="#openetlig"/></w> 
+          <w>si</w> 
+          
+          <w>paren<lb xml:id="BSL3519_lb_43r_21" n="21"/>tes</w> 
+          <w><c>u</c>t</w> 
+          <w><choice><abbr>dict<am><g ref="#umacr"/></am></abbr><expan>dict<g ref="#umacr"/><ex>m</ex></expan></choice></w> 
+          <w><choice>
+              <abbr><am><g ref="#emacr"/></am></abbr>
+              <expan><g ref="#emacr"/><ex>st</ex></expan>
+          </choice></w> 
+          <w>de</w> 
+          <w>ipso</w> 
+          <w>crimine</w> 
+          <w>m<c>u</c>ndare</w> 
+          <w>non</w> 
+          
+          <lb xml:id="BSL3519_lb_43r_22" n="22"/><w>pot<c>u</c>erit</w><orig><pc>.</pc></orig> 
+          <w><choice>
+              <abbr>t<am><g ref="#cmacr"/></am></abbr>
+              <expan>t<ex>un</ex><g ref="#cmacr"/></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr>spons<am><g ref="#usmod"/></am></abbr>
+              <expan>spons<ex><g ref="#usmod"/></ex></expan>
+          </choice></w> 
+          <w>recepiat</w> 
+          <w>res</w> 
+          <w>s<c>u</c>as</w> 
+          <w><choice>
+              <abbr><am>q<g ref="#ra"/></am>s</abbr>
+              <expan>q<ex>ua</ex>s</expan>
+          </choice></w> 
+          <w>dedit</w><orig><pc>.</pc></orig> 
+          
+          <lb xml:id="BSL3519_lb_43r_23" n="23"/><w><g ref="#et"/></w> 
+          <w>illa</w> 
+          <w><choice>
+              <abbr>pacia<am>t<g ref="#ra"/></am></abbr>
+              <expan>paciat<ex>ur</ex></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr>pen<am><g ref="#amacr"/></am></abbr>
+              <expan>pen<g ref="#amacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr>ad<c>u</c>l<am><g ref="#tmacr"/></am>ii</abbr>
+              <expan>ad<c>u</c>l<g ref="#tmacr"/><ex>er</ex>ii</expan>
+          </choice></w> 
+          <w><choice>
+              <abbr>si<am><g ref="#cmacr"/></am></abbr>
+              <expan>si<g ref="#cmacr"/><ex>ut</ex></expan>
+          </choice></w> 
+          <w>in</w> 
+          <w><choice>
+              <abbr><am><g ref="#hstrok"/></am></abbr>
+              <expan><g ref="#hstrok"/><ex>oc</ex></expan>
+          </choice></w> 
+          <w>edicto</w> 
+          <w><choice>
+              <abbr>s<am>c<g ref="#ismallabove"/></am>pt<am><g ref="#umacr"/></am></abbr>
+              <expan>sc<ex>r</ex><g ref="#ismallabove"/>pt<g ref="#umacr"/><ex>m</ex></expan>
+          </choice></w>
+          
+          <lb xml:id="BSL3519_lb_43r_24" n="24"/>
+          <w><choice>
+              <abbr><am><g ref="#emacr"/></am></abbr>
+              <expan><g ref="#emacr"/><ex>st</ex></expan>
+          </choice></w><pc>.</pc>
+        </p>
+        
+        <p xml:id="BSL3519_p_178" n="178">
+            <w><hi rend="init3.1">S</hi>i</w> 
+          <w><choice>
+              <abbr><am>q<g ref="#ismallabove"/></am>s</abbr>
+              <expan>q<ex>u</ex><g ref="#ismallabove"/>s</expan>
+          </choice></w> 
+          <w><choice>
+              <abbr>sponsa<c corresp="#v">u</c><am><g ref="#erang"/></am>it</abbr>
+              <expan>sponsa<c corresp="#v">u</c><ex>er</ex>it</expan>
+          </choice></w> 
+          <w><choice>
+              <abbr>p<c>u</c>ell<am><g ref="#amacr"/></am></abbr>
+              <expan>p<c>u</c>ell<g ref="#amacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr>li<am><g ref="#bstrok"/></am><am><g ref="#amacr"/></am></abbr>
+              <expan>li<g ref="#bstrok"/><ex>er</ex><g ref="#amacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w>a<c>u</c>t</w> 
+          
+          <w><choice>
+              <abbr>m<c>u</c>lie<lb xml:id="BSL3519_lb_43r_25_abbr" n="25"/>r<am><g ref="#emacr"/></am></abbr>
+              <expan>m<c>u</c>lie<lb xml:id="BSL3519_lb_43r_25_expan" n="25"/>r<g ref="#emacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w><g ref="#et"/></w> 
+          <w><choice>
+              <abbr><am><g ref="#pbardes"/></am></abbr>
+              <expan><g ref="#pbardes"/><ex>ost</ex></expan>
+          </choice></w> 
+          <w>d<c>u</c>os</w> 
+          <w>annos</w> 
+          <w>spons<c>u</c>s</w> 
+          <w>neglexerit</w> 
+          <w><choice>
+              <abbr>e<am><g ref="#amacr"/></am></abbr>
+              <expan>e<g ref="#amacr"/><ex>m</ex></expan>
+          </choice></w> 
+          
+          <w>tol<lb xml:id="BSL3519_lb_43r_26" n="26"/>lere</w> 
+          <choice><orig>.</orig><reg></reg></choice>
+          <w><g ref="#et"/></w> 
+          <w><choice>
+              <abbr>dilata<c corresp="#v">u</c><am><g ref="#erang"/></am>it</abbr>
+              <expan>dilata<c corresp="#v">u</c><ex>er</ex>it</expan>
+          </choice></w> 
+          <w>n<c>u</c>ptias</w> 
+          <w><choice>
+              <abbr>exe<am>q<g ref="#ismallabove"/></am></abbr>
+              <expan>exeq<ex>u</ex><g ref="#ismallabove"/></expan>
+          </choice></w>
+          <w><choice>
+              <abbr><am>t<g ref="#ra"/></am>nsactis</abbr>
+              <expan>t<ex>ra</ex>nsactis<ex></ex></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr>d<c>u</c>ob<am><g ref="#usmod"/></am></abbr>
+              <expan>d<c>u</c>ob<ex><g ref="#usmod"/></ex></expan>
+          </choice></w> 
+          
+          <lb xml:id="BSL3519_lb_43r_27" n="27"/><w>annis</w> 
+          <w><choice>
+              <abbr>pote<g ref="#stlig"/>at<am><g ref="#emacr"/></am></abbr>
+              <expan>pote<g ref="#stlig"/>at<g ref="#emacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w>habeat</w> 
+          <w><choice>
+              <abbr>pa<am><g ref="#tmacr"/></am></abbr>
+              <expan>pa<g ref="#tmacr"/><ex>er</ex></expan>
+          </choice></w>
+          <choice><orig>.</orig><reg></reg></choice>
+          <w>a<c>u</c>t</w> 
+          <w><choice>
+              <abbr>fr<am><g ref="#erang"/></am></abbr>
+              <expan>fr<ex>ater</ex></expan>
+          </choice></w> 
+          <w>a<c>u</c>t</w> 
+          <w>q<c corresp="#u">v</c>i</w> 
+          
+          <!-- #### FOLIO 43v #### -->
+          <pb n="43v" xml:id="BSL3519_folio_43v"/>
+          <lb xml:id="BSL3519_lb_43v_1" n="1"/><term ref="#mundio" xml:id="BSL3519_term_mundio_178" xml:lang="lng"><w><choice>
+              <abbr>m<c>u</c>ndi<am><g ref="#umacr"/></am></abbr>
+              <expan>m<c>u</c>ndi<g ref="#umacr"/><ex>m</ex></expan>
+          </choice></w></term> 
+          <w><choice>
+              <abbr>ei<am><g ref="#usmod"/></am></abbr>
+              <expan>ei<ex><g ref="#usmod"/></ex></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr><am><g ref="#hstrok"/></am>t</abbr>
+              <expan><g ref="#hstrok"/><ex>abe</ex>t</expan>
+          </choice></w>  
+          <w><choice>
+              <abbr>di<am><g ref="#stlig"/><g ref="#ismallabove"/></am>ng<am><g ref="#erang"/></am>e</abbr>
+              <expan>di<g ref="#stlig"/><ex>r</ex><g ref="#ismallabove"/>ng<ex>er</ex>e<ex></ex></expan>
+          </choice></w> 
+          <w><choice>
+              <sic><abbr>fidi i<c>u</c>ssor<am><g ref="#emacr"/></am></abbr></sic>
+              <corr><expan>fidi<c>u</c>ssor<g ref="#emacr"/><ex>m</ex></expan></corr>
+          </choice></w> 
+          <choice><orig>.</orig><reg></reg></choice>
+          <w><choice>
+              <abbr><am>q<g ref="#ra"/></am>ten<am><g ref="#usmod"/></am></abbr>
+              <expan>q<ex>ua</ex>ten<ex><g ref="#usmod"/></ex></expan>
+          </choice></w> 
+          
+          <w><choice>
+              <abbr>ad<am><g ref="#imacr"/></am><lb xml:id="BSL3519_lb_43v_2_abbr" n="2"/>pleat</abbr>
+              <expan>ad<g ref="#imacr"/><ex>n</ex><lb xml:id="BSL3519_lb_43v_2_expan" n="2"/>pleat<ex></ex></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr>met<am><g ref="#amacr"/></am></abbr>
+              <expan>met<g ref="#amacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr>ill<am><g ref="#amacr"/></am></abbr>
+              <expan>ill<g ref="#amacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr><am><g ref="#qbardes"/></am><am><g ref="#ra"/></am></abbr>
+              <expan><g ref="#qbardes"/><ex>ui</ex><ex>a</ex><ex></ex></expan>
+          </choice></w> 
+          <w>in</w> 
+          <w>die</w> 
+          <w>sponsali<g ref="#orumlig"/></w> 
+          <w><choice>
+              <abbr><am><g ref="#pflour"/></am>misit</abbr>
+              <expan><ex><g ref="#pflour"/></ex>misit</expan>
+          </choice></w> 
+          
+          <lb xml:id="BSL3519_lb_43v_3" n="3"/>
+          <w><choice>
+              <abbr><am><g ref="#pcurl"/></am>ea</abbr>
+              <expan><g ref="#pcurl"/><ex>ost</ex>ea</expan>
+          </choice></w> 
+          <w>liceat</w> 
+          <w>ei</w> 
+          <w><choice>
+              <abbr>ips<am><g ref="#amacr"/></am></abbr>
+              <expan>ips<g ref="#amacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w>dare</w> 
+          <w>alii</w> 
+          <w>marito</w> 
+          <w><choice>
+              <abbr>li<am><g ref="#bstrok"/></am>ro</abbr>
+              <expan>li<g ref="#bstrok"/><ex>er</ex>ro</expan>
+          </choice></w> 
+          <w><choice>
+              <abbr>ta<am><g ref="#mmacr"/></am></abbr>
+              <expan>ta<g ref="#mmacr"/><ex>en</ex></expan>
+          </choice></w>
+          
+          <lb xml:id="BSL3519_lb_43v_4" n="4"/>
+          <w><g ref="#et"/></w> 
+          <term ref="#meta" xml:id="BSL3519_term_meta_178" xml:lang="lng"><w>meta</w></term> 
+          <w><choice><abbr><am>q<g ref="#esmallabove"/></am></abbr><expan>q<ex>u</ex><g ref="#esmallabove"/></expan></choice></w>
+          <w>exacta</w> 
+          <w>f<c>u</c>erit</w>
+          <w>sit</w>
+          <w>in</w> 
+          <w>pote<g ref="#stlig"/>ate</w> 
+          <w>p<c>u</c>elle</w> 
+          
+          <lb xml:id="BSL3519_lb_43v_5" n="5"/><w>a<c>u</c>t</w> 
+          <w>m<c>u</c>lieris</w> 
+          <w>eo</w> 
+          <w><choice>
+              <abbr>q<am><g ref="#dstrok"/></am></abbr>
+              <expan>q<ex>uo</ex><g ref="#dstrok"/></expan>
+          </choice></w> 
+          <w>spons<c>u</c>s</w> 
+          <w><choice>
+              <abbr>in<am><g ref="#tmacr"/></am></abbr>
+              <expan>in<g ref="#tmacr"/><ex>er</ex></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr><am><g ref="#pmacr"/></am>finit<am><g ref="#umacr"/></am></abbr>
+              <expan><g ref="#pmacr"/><ex>re</ex>finit<g ref="#umacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr>t<am><g ref="#emacr"/></am>p<am><g ref="#usmod"/></am></abbr>
+              <expan>t<g ref="#emacr"/><ex>em</ex>p<ex><g ref="#usmod"/></ex></expan>
+          </choice></w> 
+          
+          <lb xml:id="BSL3519_lb_43v_6" n="6"/><w><choice>
+              <abbr>e<am><g ref="#amacr"/></am></abbr>
+              <expan>e<g ref="#amacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr><c>u</c>xor<am><g ref="#emacr"/></am></abbr>
+              <expan><c>u</c>xor<g ref="#emacr"/><ex>m</ex></expan>
+          </choice></w> 
+          <w><choice>
+              <abbr>toll<am><g ref="#erang"/></am>e</abbr>
+              <expan>toll<ex>er</ex>e</expan>
+          </choice></w> 
+          <w>neglexit</w><orig><pc>.</pc></orig> 
+          <w><g ref="#et"/></w> 
+          <w>si</w> 
+          <w><c corresp="#v">u</c>ol<c>u</c>ntarie</w> 
+          
+          <lb xml:id="BSL3519_lb_43v_7" n="7"/><w>dilata<c corresp="#v">u</c>it</w> 
+          <w>excepta</w> 
+          <w>ine<c corresp="#v">u</c>itabili</w> 
+          <w>ca<c>u</c>sa</w><pc>.</pc> 
+          </p>
+      </body>
+  </text>
+</TEI>
