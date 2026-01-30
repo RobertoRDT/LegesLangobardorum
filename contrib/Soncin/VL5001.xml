@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Notitia de actoribus regis</title>
+            <author></author>
+            <respStmt>
+               <resp></resp>
+               <name>Fabio Soncin</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Edizioni precedenti Leges Langobardorum</edition>
+            <respStmt xml:id="azzara">
+               <resp>Editor</resp>
+               <name ref="#Azzara2005">Azzara-Gasparri</name>
+            </respStmt>
+            <respStmt xml:id="beyerle">
+               <resp>Editor</resp>
+               <name ref="#Beyerle1962">Beyerle</name>
+            </respStmt>
+            <respStmt xml:id="bluhme">
+               <resp>Editor</resp>
+               <name ref="#Bluhme1868">Bluhme</name>
+            </respStmt>         
+         </editionStmt>
+         
+         <publicationStmt>
+            <authority>Leges Langobardorum Project</authority>
+            <date instant="false">2014-</date>
+            <availability status="unknown">
+               <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Roma</country>
+                 <settlement>Vaticano</settlement>
+                 <repository>Biblioteca Apostolica Vaticana</repository>
+                  <idno>5001</idno>
+                  <altIdentifier>
+                    <settlement>Vaticano</settlement>
+                    <repository>Biblioteca Apostolica Vaticana</repository>
+                    <idno>5001</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <p></p>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>Parchment.</support>
+                        <extent>
+                           <measure type="leaves"></measure>
+                           <measure type="dimensions"></measure>
+                           <measure type="lines"></measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p></p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p></p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <p></p>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     
+     <encodingDesc>
+        <charDecl>
+
+        <!-- regular letters -->
+
+        <char xml:id="ucap">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER U"/>
+          <mapping type="codepoint">U+0055</mapping>
+          <mapping type="diplomatic">U</mapping>
+          <mapping type="normalized">U</mapping>
+        </char>
+
+        <char xml:id="vcap">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER V"/>
+          <mapping type="codepoint">U+0056</mapping>
+          <mapping type="diplomatic">V</mapping>
+          <mapping type="normalized">V</mapping>
+        </char>
+
+        <char xml:id="u">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER U"/>
+          <mapping type="codepoint">U+0075</mapping>
+          <mapping type="diplomatic">u</mapping>
+          <mapping type="normalized">u</mapping>
+        </char>
+
+        <char xml:id="v">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER V"/>
+          <mapping type="codepoint">U+0076</mapping>
+          <mapping type="diplomatic">v</mapping>
+          <mapping type="normalized">v</mapping>
+        </char>
+
+        <!-- variant forms -->
+
+        <char xml:id="romnumsix">
+          <unicodeProp name="Name" value="ROMAN NUMERAL SIX LATE FORM"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+2185</mapping>
+          <mapping type="diplomatic">Ϛ</mapping>
+          <mapping type="normalized">VI</mapping>
+        </char>
+
+        <char xml:id="amacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER A WITH MACRON"/>
+          <mapping type="codepoint">U+0101</mapping>
+          <mapping type="diplomatic">ā</mapping>
+          <mapping type="normalized">a</mapping>
+        </char>
+        <char xml:id="emacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER E WITH MACRON"/>
+          <mapping type="codepoint">U+0113</mapping>
+          <mapping type="diplomatic">ē</mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+        <char xml:id="imacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER I WITH MACRON"/>
+          <mapping type="codepoint">U+012B</mapping>
+          <mapping type="diplomatic">ī</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        <char xml:id="omacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH MACRON"/>
+          <mapping type="codepoint">U+014D</mapping>
+          <mapping type="diplomatic">ō</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+        <char xml:id="umacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER U WITH MACRON"/>
+          <mapping type="codepoint">U+016B</mapping>
+          <mapping type="diplomatic">ū</mapping>
+          <mapping type="normalized">u</mapping>
+        </char>
+        <char xml:id="ymacr">
+          <!-- VBD entity: ytilde -->
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Y WITH MACRON"/>
+          <mapping type="codepoint">U+0233</mapping>
+          <mapping type="diplomatic">ȳ</mapping>
+          <mapping type="normalized">y</mapping>
+        </char>
+        <!-- Letter L ltailstrok -->
+        <char xml:id="ltailstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER LUM"/>
+          <mapping type="codepoint">A772</mapping>
+          <mapping type="diplomatic">ꝲ</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+        <!-- ntilde -->
+        <char xml:id="ntilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER N WITH TILDE"/>
+          <mapping type="codepoint">00F1</mapping>
+          <mapping type="diplomatic">ñ</mapping>
+          <mapping type="normalized">n</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="fourdot">
+          <unicodeProp name="Name" value="FOUR DOT PUNCTUATION"/>
+          <mapping type="codepoint">2058</mapping>
+          <mapping type="diplomatic">⁘</mapping>
+          <mapping type="normalized">.</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="arbar">
+          <unicodeProp name="Name" value="COMBINING ABBREVIATION MARK BAR ABOVE WITH DOT"/>
+          <mapping type="codepoint">F1C0</mapping>
+          <mapping type="diplomatic">◌</mapping>
+          <mapping type="normalized">ae</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="ptilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0070 + U+0303</mapping>
+          <mapping type="diplomatic">p̃</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="qtilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0071 + U+0303</mapping>
+          <mapping type="diplomatic">q̃</mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
+
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="nscapslonglig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE SMALL CAPITAL N LONG S"/>
+          <mapping type="codepoint">EED5</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">ns</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="qmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">E681</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="pmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">E665</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="pbardes">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER"/>
+          <mapping type="codepoint">U+A751</mapping>
+          <mapping type="diplomatic">ꝑ</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="qbardes">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER"/>
+          <mapping type="codepoint">U+A757</mapping>
+          <mapping type="diplomatic">ꝗ</mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="dstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER D WITH STROKE"/>
+          <mapping type="codepoint">0111</mapping>
+          <mapping type="diplomatic">d</mapping>
+          <mapping type="normalized">d</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="colmidcomposit">
+          <unicodeProp name="Name" value="COLON WITH MIDDLE COMMA POSITURA"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F1E5</mapping>
+          <mapping type="diplomatic"></mapping>
+          <!--<mapping type="normalized">.</mapping>-->
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="usmod">
+          <unicodeProp name="Name" value="MODIFIER LETTER US"/>
+          <mapping type="codepoint">A770</mapping>
+          <mapping type="diplomatic">ꝰ</mapping>
+          <mapping type="normalized">us</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="ttilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+0303</mapping>
+          <mapping type="diplomatic">t̃</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-05 -->
+        <char xml:id="atilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER A WITH TILDE"/>
+          <mapping type="codepoint">00E3</mapping>
+          <mapping type="diplomatic">ã</mapping>
+          <mapping type="normalized">a</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-05 -->
+        <char xml:id="utilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER U WITH TILDE"/>
+          <mapping type="codepoint">U+0169</mapping>
+          <mapping type="diplomatic">ũ</mapping>
+          <mapping type="normalized">u</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-05 -->
+        <char xml:id="etilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER E WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0065 + U+0303</mapping>
+          <mapping type="diplomatic">ẽ</mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-12 -->
+        <char xml:id="tridotleft">
+          <unicodeProp name="Name" value="THREE DOT PUNCTUATION"/>
+          <mapping type="codepoint">2056</mapping>
+          <mapping type="diplomatic">:.</mapping>
+          <mapping type="normalized">.</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-23 -->
+        <char xml:id="ctilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER C WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0065 + U+0303</mapping>
+          <mapping type="diplomatic">c̃</mapping>
+          <mapping type="normalized">c</mapping>
+        </char>
+        <!-- aggiunto 2018-12-23 -->
+        <char xml:id="otilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH TILDE"/>
+          <mapping type="codepoint">U+00F5</mapping>
+          <mapping type="diplomatic">õ</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+
+        <!-- aggiunto 2019-01-21 -->
+        <char xml:id="rum">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER RUM ROTUNDA"/>
+          <mapping type="codepoint">A75D</mapping>
+          <mapping type="diplomatic">ꝝ</mapping>
+          <mapping type="normalized">rum</mapping>
+        </char>
+
+        <!-- aggiunto 2019-01-21 -->
+        <char xml:id="rmacr">
+          <unicodeProp name="Name" value="Latin Small Letter R with Dot Below and Macron"/>
+          <mapping type="codepoint">U+0072 + U+0304</mapping>
+          <mapping type="diplomatic">r̄</mapping>
+          <mapping type="normalized">r</mapping>
+        </char>
+
+        <!-- aggiunto 2019-01-21 -->
+        <char xml:id="tildedot">
+          <unicodeProp name="Name" value="TILDE WITH DOT ABOVE"/>
+          <mapping type="codepoint">U+2E1E</mapping>
+          <mapping type="diplomatic">⸞</mapping>
+          <mapping type="normalized">n</mapping>
+        </char>
+
+        <!-- ligatures -->
+
+        <glyph xml:id="uslig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE US"/>
+          <mapping type="ligature">U+0075 + U+017F</mapping>
+          <mapping type="diplomatic">us</mapping>
+          <mapping type="normalized">us</mapping>
+        </glyph>
+        <!-- aggiunto 2019-01-21 -->
+        <char xml:id="openetlig">
+          <unicodeProp name="Name" value="Ligature Open Et Ornament"/>
+          <mapping type="codepoint">U+1F672</mapping>
+          <mapping type="diplomatic">🙲</mapping>
+          <mapping type="normalized">et</mapping>
+        </char>
+
+        <!-- aggiunto 2019-01-21 -->
+        <char xml:id="etlig">
+          <unicodeProp name="Name" value="Script Ligature Et Ornament"/>
+          <mapping type="codepoint">U+1F670</mapping>
+          <mapping type="diplomatic">🙰</mapping>
+          <mapping type="normalized">et</mapping>
+        </char>
+
+        <!-- aggiunto 2019-01-21 -->
+        <glyph xml:id="urlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE UR"/>
+          <mapping subtype="composed" type="ligature">U+0075 + U+A783</mapping>
+          <mapping type="diplomatic">ur</mapping>
+          <mapping type="normalized">ur</mapping>
+        </glyph>
+
+        <!-- aggiunto 2019-01-21 -->
+        <glyph xml:id="utlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE UT"/>
+          <mapping subtype="composed" type="ligature">U+0075 + U+1D1B</mapping>
+          <mapping type="diplomatic">ut</mapping>
+          <mapping type="normalized">ut</mapping>
+        </glyph>
+
+        <!-- aggiunto 2019-03-12 -->
+        <char xml:id="Mtilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER M WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+004D + U+0303</mapping>
+          <mapping type="diplomatic">M̃</mapping>
+          <mapping type="normalized">M</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-12 -->
+        <char xml:id="twodot">
+          <unicodeProp name="Name" value="Two Dot Punctuation"/>
+          <mapping type="codepoint">U+205A</mapping>
+          <mapping type="diplomatic">⁚</mapping>
+          <mapping type="normalized">ue</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-12 -->
+        <char xml:id="jnodotenl">
+          <unicodeProp name="Name" value="LATIN ENLARGED LETTER SMALL DOTLESS J"/>
+          <mapping type="codepoint">EEFE</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-12 -->
+        <char xml:id="stilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER S WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0073 + U+0303</mapping>
+          <mapping type="diplomatic">s̃</mapping>
+          <mapping type="normalized">s</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-12 -->
+        <char xml:id="eogon">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER E WITH OGONEK"/>
+          <mapping type="codepoint">0119</mapping>
+          <mapping type="diplomatic">ę</mapping>
+          <mapping type="normalized">ae</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-13 -->
+        <char xml:id="xtilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER X WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0078 + U+0303</mapping>
+          <mapping type="diplomatic">x̃</mapping>
+          <mapping type="normalized">x</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-14 -->
+        <char xml:id="lhighstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER L WITH HIGH STROKE"/>
+          <mapping type="codepoint">A749</mapping>
+          <mapping type="diplomatic">ł</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-15 -->
+        <char xml:id="pflour">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH FLOURISH"/>
+          <mapping type="codepoint">A753</mapping>
+          <mapping type="diplomatic">ꝓ</mapping>
+          <mapping type="normalized">pro</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-17 -->
+        <char xml:id="mtilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER M WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+006D + U+0303</mapping>
+          <mapping type="diplomatic">m̃</mapping>
+          <mapping type="normalized">m</mapping>
+        </char>
+        <!-- aggiunto 2019-03-20 -->
+        <char xml:id="ur">
+          <unicodeProp name="Name" value="COMBINING UR ABOVE"/>
+          <mapping type="codepoint">1DD1</mapping>
+          <mapping type="diplomatic">᷑</mapping>
+          <mapping type="normalized">ur</mapping>
+        </char>
+        <!-- aggiunto 2019-03-20 -->
+        <char xml:id="semi">
+          <unicodeProp name="Name" value="SEMICOLON"/>
+          <mapping type="codepoint">003B</mapping>
+          <mapping type="diplomatic">;</mapping>
+          <mapping type="normalized">us</mapping>
+        </char>
+
+        <char xml:id="middot">
+          <unicodeProp name="Name" value="MIDDLE DOT"/>
+          <mapping type="codepoint">U+00B7</mapping>
+          <mapping type="diplomatic">·</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+        
+        <char xml:id="homothetic">
+          <unicodeProp name="Name" value="MIDDLE DOT"/>
+          <mapping type="codepoint">U+223B</mapping>
+          <mapping type="diplomatic">∻</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+
+        <char xml:id="Ptilde">
+          <unicodeProp name="Name" value="LATIN CAPIPTAL LETTER P WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0050 + U+0303</mapping>
+          <mapping type="diplomatic">P̃</mapping>
+          <mapping type="normalized">P</mapping>
+        </char>
+        
+        <!-- ##### aggiunto da FS in data 2024-04-13 ##### -->
+        <glyph xml:id="ctlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE CT"></unicodeProp>
+          <mapping type="ligature">U+0063 + U+0074</mapping>
+          <mapping type="diplomatic">ct</mapping>
+          <mapping type="normalized">ct</mapping>
+        </glyph>
+        
+        <glyph xml:id="stlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE ST"></unicodeProp>
+          <mapping type="ligature">U+0073 + U+0074</mapping>
+          <mapping type="diplomatic">st</mapping>
+          <mapping type="normalized">st</mapping>
+        </glyph>
+        
+        <glyph xml:id="aelig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE AE"></unicodeProp>
+          <mapping type="ligature">U+0061 + U+0065</mapping>
+          <mapping type="diplomatic">æ</mapping>
+          <mapping type="normalized">ae</mapping>
+        </glyph>
+        
+        <char xml:id="Rtilde">
+          <unicodeProp name="Name" value="LATIN CAPIPTAL LETTER R WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0052 + U+0303</mapping>
+          <mapping type="diplomatic">R̃</mapping>
+          <mapping type="normalized">R</mapping>
+        </char>
+        
+        <char xml:id="Htilde">
+          <unicodeProp name="Name" value="LATIN CAPIPTAL LETTER H WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0048 + U+0303</mapping>
+          <mapping type="diplomatic">H̃</mapping>
+          <mapping type="normalized">H</mapping>
+        </char>
+        
+        <char xml:id="mmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER M WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+006D + U+0304</mapping>
+          <mapping type="diplomatic">m̄</mapping>
+          <mapping type="normalized">m</mapping>
+        </char>
+        
+        <char xml:id="tmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+00AF</mapping>
+          <mapping type="diplomatic">t̄</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+        
+        <glyph xml:id="filig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE FI"></unicodeProp>
+          <mapping type="ligature">U+0066 + U+0069</mapping>
+          <mapping type="diplomatic">fi</mapping>
+          <mapping type="normalized">fi</mapping>
+        </glyph>
+        
+        <glyph xml:id="exlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE EX"></unicodeProp>
+          <mapping type="ligature">U+0065 + U+0078</mapping>
+          <mapping type="diplomatic">ex</mapping>
+          <mapping type="normalized">ex</mapping>
+        </glyph>
+        
+        <char xml:id="nmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER N WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+006E + U+0304</mapping>
+          <mapping type="diplomatic">n̄</mapping>
+          <mapping type="normalized">n</mapping>
+        </char>
+        
+        <char xml:id="Qtilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER Q WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0051 + U+0303</mapping>
+          <mapping type="diplomatic">Q̃</mapping>
+          <mapping type="normalized">Q</mapping>
+        </char>
+        
+        <char xml:id="Itilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER I WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0049 + U+0303</mapping>
+          <mapping type="diplomatic">Ĩ</mapping>
+          <mapping type="normalized">I</mapping>
+        </char>
+        
+        <char xml:id="Utilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER U WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0055 + U+0303</mapping>
+          <mapping type="diplomatic">Ũ</mapping>
+          <mapping type="normalized">U</mapping>
+        </char>
+        
+        <char xml:id="lmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER L WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+006C + U+0304</mapping>
+          <mapping type="diplomatic">l̄</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+        
+        <char xml:id="Ntilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER N WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+00D1</mapping>
+          <mapping type="diplomatic">Ñ</mapping>
+          <mapping type="normalized">N</mapping>
+        </char>
+        
+        <char xml:id="racute">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER R WITH ACUTE"/>
+          <mapping subtype="composed" type="codepoint">U+0155</mapping>
+          <mapping type="diplomatic">ŕ</mapping>
+          <mapping type="normalized">r</mapping>
+        </char>
+        
+        <char xml:id="gtilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER G WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0067 + U+0303</mapping>
+          <mapping type="diplomatic">g̃</mapping>
+          <mapping type="normalized">g</mapping>
+        </char>
+        
+        <char xml:id="smacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER S WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0073 + U+0304</mapping>
+          <mapping type="diplomatic">s̄</mapping>
+          <mapping type="normalized">s</mapping>
+        </char>
+        
+        <char xml:id="dstroke">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER D WITH STROKE"/>
+          <mapping subtype="composed" type="codepoint">U+0111</mapping>
+          <mapping type="diplomatic">đ</mapping>
+          <mapping type="normalized">d</mapping>
+        </char>
+        
+        <char xml:id="bstroke">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH STROKE"/>
+          <mapping subtype="composed" type="codepoint">U+0180</mapping>
+          <mapping type="diplomatic">ƀ</mapping>
+          <mapping type="normalized">b</mapping>
+        </char>
+        
+        <char xml:id="tacute">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH ACUTE"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+02CA</mapping>
+          <mapping type="diplomatic">tˊ</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+        
+        <glyph xml:id="orlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE OR"></unicodeProp>
+          <mapping type="ligature">U+006F + U+0280</mapping>
+          <mapping type="diplomatic">oʀ</mapping>
+          <mapping type="normalized">or</mapping>
+        </glyph>
+        
+        <char xml:id="iring">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH ACUTE"/>
+          <mapping subtype="composed" type="codepoint">U+0069 + U+0357</mapping>
+          <mapping type="diplomatic">i͗</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        
+        <char xml:id="pflourish">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH FLOURISH"/>
+          <mapping subtype="composed" type="codepoint">U+A753</mapping>
+          <mapping type="diplomatic">ꝓ</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+        
+        <char xml:id="Dtilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER D WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0044 + U+02DC</mapping>
+          <mapping type="diplomatic">D˜</mapping>
+          <mapping type="normalized">D</mapping>
+        </char>
+        
+        <char xml:id="cmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER C WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0063 + U+0304</mapping>
+          <mapping type="diplomatic">c̄</mapping>
+          <mapping type="normalized">c</mapping>
+        </char>
+        
+<!-- AGGIUNTI DA FABIO SONCIN -->        
+        <char xml:id="icurl">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER I WITH CULR"/>
+          <mapping subtype="composed" type="codepoint">U+0069 + U+1DCE</mapping>
+          <mapping type="diplomatic">i᷎</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        
+        <char xml:id="ra">
+          <unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE"/>
+          <mapping subtype="composed" type="codepoint">U+1DD3</mapping>
+          <mapping type="diplomatic">&#7635;</mapping>
+          <mapping type="normalized"></mapping>
+        </char>
+        
+        <char xml:id="erang">
+          <unicodeProp name="Name" value="COMBINING ABBREVIATION MARK ZIGZAG ABOVE ANGLE FORM"/>
+          <mapping subtype="composed" type="codepoint">U+F1C7</mapping>
+          <mapping type="diplomatic">&#61895;</mapping>
+          <mapping type="normalized"></mapping>
+        </char>
+        
+        <char xml:id="asmallabove">
+          <unicodeProp name="Name" value="COMBINING SMALL LETTER A"/>
+          <mapping subtype="composed" type="codepoint">U+0363</mapping>
+          <mapping type="diplomatic">ͣ</mapping>
+          <mapping type="normalized">a</mapping>
+        </char>
+        
+        <char xml:id="bstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH STROKE"/>
+          <mapping subtype="composed" type="codepoint">U+0180</mapping>
+          <mapping type="diplomatic">ƀ</mapping>
+          <mapping type="normalized">b</mapping>
+        </char>
+        
+        <char xml:id="hstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER H WITH STROKE"/>
+          <mapping subtype="composed" type="codepoint">U+0180</mapping>
+          <mapping type="diplomatic">ħ</mapping>
+          <mapping type="normalized">h</mapping>
+        </char>
+        
+        <char xml:id="ismallabove">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH CURL"/>
+          <mapping subtype="composed" type="codepoint">U+0180</mapping>
+          <mapping type="diplomatic">ͥ</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        
+        <char xml:id="pcurl">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH CURL"/>
+          <mapping subtype="composed" type="codepoint">U+0070 + U+1DCE</mapping>
+          <mapping type="diplomatic">p᷎</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+        
+        <char xml:id="qbardestilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER AND TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+A757 + U+0303</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
+           
+           <char xml:id="et">
+              <unicodeProp name="Name" value="TIRONIAN SIGN ET"/>
+              <mapping subtype="composed" type="codepoint">U+204A</mapping>
+              <mapping type="diplomatic">⁊</mapping>
+              <mapping type="normalized">et</mapping>
+           </char>
+          
+          <char xml:id="orumlig">
+            <unicodeProp name="Name" value="LATIN SMALL LIGATURE O RUM"/>
+            <mapping subtype="composed" type="codepoint">U+EFBA</mapping>
+            <mapping type="diplomatic"></mapping>
+            <mapping type="normalized">orum</mapping>
+          </char>
+          
+          <char xml:id="esmallabove">
+            <unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER E"/>
+            <mapping subtype="composed" type="codepoint">U+0364</mapping>
+            <mapping type="diplomatic">ͤ</mapping>
+            <mapping type="normalized">e</mapping>
+          </char>
+          
+          <char xml:id="mtailstrok">
+            <unicodeProp name="Name" value="LATIN SMALL LETTER MUM"/>
+            <mapping subtype="composed" type="codepoint">U+A773</mapping>
+            <mapping type="diplomatic">ꝳ</mapping>
+            <mapping type="normalized">m</mapping>
+          </char>
+
+          <char xml:id="osmallabove">
+            <unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER O"/>
+            <mapping subtype="composed" type="codepoint">U+0366</mapping>
+            <mapping type="diplomatic">ͦ</mapping>
+            <mapping type="normalized">o</mapping>
+          </char>
+          
+          <char xml:id="rsmallabove">
+            <unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER R"/>
+            <mapping subtype="composed" type="codepoint">U+036C</mapping>
+            <mapping type="diplomatic">ͬ</mapping>
+            <mapping type="normalized">r</mapping>
+          </char>
+          
+          <char xml:id="dblovl">
+            <unicodeProp name="Name" value="COMBINING DOUBLE OVERLINE"/>
+            <mapping subtype="composed" type="codepoint">U+033F</mapping>
+            <mapping type="diplomatic">̿</mapping>
+            <mapping type="normalized"></mapping>
+          </char>
+          
+          <char xml:id="combcurlbar">
+            <unicodeProp name="Name" value="COMBINING CURLY BAR ABOVE"/>
+            <mapping subtype="composed" type="codepoint">U+F1CC</mapping>
+            <mapping type="diplomatic"></mapping>
+            <mapping type="normalized"></mapping>
+          </char>
+          
+          <char xml:id="combcurl">
+            <unicodeProp name="Name" value="COMBINING OGONEK ABOVE (CURL)"/>
+            <mapping subtype="composed" type="codepoint">U+1DCE</mapping>
+            <mapping type="diplomatic">᷎</mapping>
+            <mapping type="normalized"></mapping>
+          </char>
+          
+          
+      </charDecl>
+     </encodingDesc>
+     
+     <profileDesc>
+        <langUsage>
+           <language ident="lat">Latino</language>
+           <language ident="lng">Langobardic</language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="form">Prosa</term>
+              <term type="source">Documentaria</term>
+              <term type="genre">Testo giuridico</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+  </teiHeader>
+   
+   <text type="prose" n="Glossario Longobardo-Latino" xml:id="VL5001_GLL">
+     <body>
+       <!-- ##### FOLIO 139r ##### -->
+       <pb n="139r" xml:id="VL5001_folio_139r"/>
+       <!-- COLONNA a -->
+       <!--  <cb xml:id="VL5001_CB_139r_ca"/> -->
+       <p n="a">
+         <lb n="16" xml:id="VL5001_lb_139r_ca_16"/><term ref="#astalin" xml:id="VL5001_term_astalin" xml:lang="lng" target="#VL5001_gloss_astalin"><w><hi rend="init3.1">A</hi>stalin</w></term><pc>·</pc> <gloss xml:id="VL5001_gloss_astalin" target="#VL5001_term_astalin"><w>decepcio</w><pc>·</pc> <w>fra<c>u</c>s</w></gloss>
+         <lb n="17" xml:id="VL5001_lb_139r_ca_17"/><term ref="#asto" xml:id="VL5001_term_asto" xml:lang="lng" target="#VL5001_gloss_asto"><w>Asto</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_asto" target="#VL5001_term_asto"><w><c corresp="#v">u</c>ol<c>u</c>ntarie</w></gloss><pc>·</pc>
+         <lb n="18" xml:id="VL5001_lb_139r_ca_18"/><term ref="#anagrip" xml:id="VL5001_term_anagrip" xml:lang="lng" target="#VL5001_gloss_anagrip"><w>Anagrip</w></term><pc>·</pc> <gloss xml:id="VL5001_gloss_anagrip" target="#VL5001_term_anagrip"><w>faidam</w><pc>·</pc> <w><c>u</c>t</w> <w>ma
+         <lb n="19" xml:id="VL5001_lb_139r_ca_19"/>n<g ref="#umacr"/></w> <w>aliq<c>u</c>id</w> <w>ap<g ref="#pbardes"/>hendere</w><pc>.</pc></gloss>
+         <lb n="20" xml:id="VL5001_lb_139r_ca_20"/><term ref="#aldio" xml:id="VL5001_term_aldio" xml:lang="lng" target="#VL5001_gloss_aldio"><w>Aldia</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_aldio" target="#VL5001_term_aldio"><w>de</w> <w>matre</w> <w>li<g ref="#bstrok"/>a</w> <w>nata</w><pc>.</pc></gloss>
+         <lb n="21" xml:id="VL5001_lb_139r_ca_21"/><term ref="#haamund" xml:id="VL5001_term_haamund" xml:lang="lng" target="#VL5001_gloss_haamund"><w>Aam<c>u</c>nd</w></term><pc>·</pc> <gloss xml:id="VL5001_gloss_haamund" target="#VL5001_term_haamund"><w>o</w> <w>se</w> <w>extrane<g ref="#umacr"/></w><pc>.</pc></gloss>
+         <lb n="22" xml:id="VL5001_lb_139r_ca_22"/><term ref="#actogild" xml:id="VL5001_term_actogild" xml:lang="lng" target="#VL5001_gloss_actogild"><w>Actogilt</w></term><pc>.</pc> <w><g ref="#qbardes"/></w> <w><g ref="#imacr"/>iq<g ref="#osmallabove"/></w> <w>q<c>u</c>erit<g ref="#ur"/></w><pc>.</pc>
+         <lb n="23" xml:id="VL5001_lb_139r_ca_23"/><w>Arimann<g ref="#usmod"/></w><pc>.</pc> <w><g ref="#qbardes"/></w> <w>se<g ref="#qbardes"/>t<g ref="#ur"/></w> <w>sc<c>u</c>t<g ref="#umacr"/></w> <w>d<g ref="#mmacr"/>c<g ref="#umacr"/></w><pc>.</pc>
+         <lb n="24" xml:id="VL5001_lb_139r_ca_24"/><w>Arischil</w><pc>.</pc> <w>ad<c>u</c>nanacio</w><pc>.</pc>
+         <lb n="25" xml:id="VL5001_lb_139r_ca_25"/><term ref="#handegawerc" xml:id="VL5001_term_handegawerc" xml:lang="lng" target="#VL5001_gloss_handegawerc"><w>Andeca<c>u</c>erc</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_handegawerc" target="#VL5001_term_handegawerc"><w>lex</w> <w>langoba<g ref="#rsmallabove"/>do<g ref="#rum"/></w><pc>.</pc></gloss>
+         <lb n="26" xml:id="VL5001_lb_139r_ca_26"/><term ref="#haistan" xml:id="VL5001_term_haistan" xml:lang="lng" target="#VL5001_gloss_haistan"><w>Aystan</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_haistan" target="#VL5001_term_haistan"><w>irato</w> <w>animo</w><pc>.</pc></gloss>
+       </p>
+       
+       <!-- COLONNA b -->
+       <!--  <cb xml:id="VL5001_CB_139r_cb"/> -->
+       <p n="b">
+         <lb n="16" xml:id="VL5001_lb_139r_cb_16"/><term ref="#barba" xml:id="VL5001_term_barba" xml:lang="lng" target="#VL5001_gloss_barba"><w><hi rend="init3.1">B</hi>arbam<g ref="#usmod"/></w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_barba" target="#VL5001_term_barba"><w>patr<c>u</c><c>u</c>s</w><pc>.</pc></gloss>
+         <lb n="17" xml:id="VL5001_lb_139r_cb_17"/><w>Band<g ref="#umacr"/></w> <w><c corresp="#v">u</c>exill<g ref="#umacr"/></w>
+         <lb n="18" xml:id="VL5001_lb_139r_cb_18"/><w>B</w>
+         <lb n="19" xml:id="VL5001_lb_139r_cb_19"/><w>B</w>
+         <lb n="20" xml:id="VL5001_lb_139r_cb_20"/><w>B</w>
+       </p>
+       <p n="c">
+         <lb n="21" xml:id="VL5001_lb_139r_cb_21"/><term ref="#camphio" xml:id="VL5001_term_camphio" xml:lang="lng" target="#VL5001_gloss_camphio"><w><hi rend="init3.1">C</hi>amfio</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_camphio" target="#VL5001_term_camphio"><w>p<c>u</c>gna</w> <w>se<add place="above"><c>u</c></add></w> <w>p<c>u</c>gnatu<g ref="#rsmallabove"/></w><pc>.</pc></gloss>
+         <lb n="22" xml:id="VL5001_lb_139r_cb_22"/><term><w>Camfi<c>u</c>s</w></term> <gloss><w>p<c>u</c>gnatio</w><pc>.</pc></gloss>
+         <lb n="23" xml:id="VL5001_lb_139r_cb_23"/><term><w>Cafum</w></term><pc>.</pc> <gloss><w>hereo</w><pc>.</pc></gloss> <!-- ### CONTROLLARE -->
+         <lb n="24" xml:id="VL5001_lb_139r_cb_24"/><term><w>Cama</w></term> <gloss><w>casile</w> <w><c>u</c>t</w> <w>paliar<g ref="#umacr"/></w></gloss>
+         <lb n="25" xml:id="VL5001_lb_139r_cb_25"/><w>Carolas</w>
+         <lb n="26" xml:id="VL5001_lb_139r_cb_26"/><term><w>Ciap<c>u</c>ltg<c>u</c>arfi</w></term><pc>.</pc> <gloss><w>sep<c>u</c>lt<c>u</c>ra</w></gloss> <!-- #### F-O: crap- carpworfin (p.74) -->
+       </p>
+       
+       <!-- ##### FOLIO 139v ##### -->
+       <pb n="139v" xml:id="VL5001_folio_139v"/>
+       <!-- COLONNA a -->
+       <!--  <cb xml:id="VL5001_CB_139v_ca"/> -->
+       <p n="e">
+         <lb n="1" xml:id="VL5001_lb_139v_ca_1"/><w><hi rend="init3.1">E</hi>doniare</w><pc>.</pc> <w>firmare</w> <w><c>u</c>t</w>
+         <lb n="2" xml:id="VL5001_lb_139v_ca_2"/><w>absol<c corresp="#v">u</c>ere</w> <w>se</w> <w>a</w> <w>c<c>u</c>lpa</w><pc>.</pc>
+         <lb n="3" xml:id="VL5001_lb_139v_ca_3"/><term><w>Exigias</w></term><pc>.</pc> <gloss><w><g ref="#pbardes"/>tica</w> <w>tra<c>u</c>()sa</w><pc>.</pc><!-- segno abbreviativo non noto --></gloss>
+         <lb n="4" xml:id="VL5001_lb_139v_ca_4"/><term><w>Erino</w></term> <gloss><w>s<c>u</c>bc<c>u</c>s</w> <w>c<c>u</c>bit<g ref="#umacr"/></w><pc>.</pc></gloss>
+         <lb n="5" xml:id="VL5001_lb_139v_ca_5"/><w>E</w>
+         <lb n="6" xml:id="VL5001_lb_139v_ca_6"/><w>E</w>
+       </p>
+       <p n="f">
+         <lb n="7" xml:id="VL5001_lb_139v_ca_7"/><term ref="#faida" xml:id="VL5001_term_faida" xml:lang="lng" target="#VL5001_gloss_faida"><w><hi rend="init3.1">F</hi>aida</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_faida" target="#VL5001_term_faida"><w>inimicicia</w><pc>.</pc></gloss>
+         <lb n="8" xml:id="VL5001_lb_139v_ca_8"/><term ref="#ferquido" xml:id="VL5001_term_ferquido" xml:lang="lng" target="#VL5001_gloss_ferquido"><w>Fer<g ref="#qbardes"/>d<c>u</c>m</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_ferquido" target="#VL5001_term_ferquido"><w>simil<g ref="#emacr"/></w></gloss><pc>.</pc>
+         <lb n="9" xml:id="VL5001_lb_139v_ca_9"/><w>F<c>u</c>l<c>u</c>or</w><pc>.</pc> <gloss><w>fili<g ref="#usmod"/></w> <w>legitim<g ref="#usmod"/></w></gloss>
+         <lb n="10" xml:id="VL5001_lb_139v_ca_10"/><term ref="#fara" xml:id="VL5001_term_fara" xml:lang="lng" target="#VL5001_gloss_fara"><w>Fara</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_fara" target="#VL5001_term_fara"><w>genealocia</w><pc>.</pc> <w>g<g ref="#ntile"/>o</w></gloss><pc>.</pc>
+         <lb n="11" xml:id="VL5001_lb_139v_ca_11"/><term ref="#faderfio" xml:id="VL5001_term_faderfio" xml:lang="lng" target="#VL5001_gloss_faderfio"><w>Faderfio</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_faderfio" target="#VL5001_term_faderfio"><w>q<c>u</c>od</w> <w>ad<c>u</c>x<g ref="#ur"/></w> <w>d<g ref="#usmod"/></w> <w>pare<g ref="#nmacr"/></w></gloss><pc>.</pc>
+         <lb n="12" xml:id="VL5001_lb_139v_ca_12"/><term ref="#fulcreal" xml:id="VL5001_term_fulcfreal" xml:lang="lng" target="#VL5001_gloss_fulcreal"><w>F<c>u</c>lfrealc</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_fulcreal" target="#VL5001_term_fulcfreal"><w><g ref="#pbardes"/></w> <w>q<c>u</c><g ref="#combcurlbar"/>ata()</w> <w>man<g ref="#dblovl"/>dat<g ref="#amacr"/></w></gloss><pc>.</pc>
+         <lb n="13" xml:id="VL5001_lb_139v_ca_13"/><w>Figangit</w><pc>.</pc>
+         <lb n="14" xml:id="VL5001_lb_139v_ca_14"/><term><w>Ferena</w></term><pc>.</pc> <w>esc<c>u</c>l<g ref="#umacr"/></w><pc>.</pc>
+         <lb n="15" xml:id="VL5001_lb_139v_ca_15"/><term><w>Fornacchar</w></term><pc>.</pc> <w>ar<c>u</c><c>u</c>s</w><pc>.</pc>
+         <lb n="16" xml:id="VL5001_lb_139v_ca_16"/><term ref="#fegangi" xml:id="VL5001_term_fegangi" xml:lang="lng" target="#VL5001_gloss_fegangi"><w>Figangi</w></term><pc>.</pc> <w>c<c>u</c>lpa</w> <pc>.</pc>
+         <lb n="17" xml:id="VL5001_lb_139v_ca_17"/><term ref="#fegangit" xml:id="VL5001_term_fegangit" xml:lang="lng" target="#VL5001_gloss_fegangit"><w>Figangit<g ref="#ur"/></w></term> <gloss xml:id="VL5001_gloss_fegangit" target="#VL5001_term_fegangit"><w>tent<g ref="#us"/></w> <w><g ref="#imacr"/></w> <w>f<c>u</c>rto</w></gloss><pc>.</pc>
+         <lb n="18" xml:id="VL5001_lb_139v_ca_18"/><w>Frea</w><pc>·</pc>
+         <lb n="19" xml:id="VL5001_lb_139v_ca_19"/><w>F<c>u</c>nacar</w><pc>.</pc> <w>c<g ref="#amacr"/>p<g ref="#usmod"/></w> <w><g ref="#nmacr"/>o</w> <w>d<c>u</c>s<c>u</c>s</w><pc>.</pc>
+         <lb n="20" xml:id="VL5001_lb_139v_ca_20"/><w>Figang<c>u</c>s</w><pc>.</pc>
+       </p>
+       <p n="g">
+         <lb n="21" xml:id="VL5001_lb_139v_ca_21"/><w><hi rend="init3.1">G</hi><c>u</c>adribora</w><pc>.</pc> <w><g ref="#pbardes"/></w> <w>q<g ref="#asmallabove"/>dr<c>u</c>bi<g ref="#umacr"/></w><pc>.</pc>
+         <lb n="22" xml:id="VL5001_lb_139v_ca_22"/><term ref="#angargathungi" xml:id="VL5001_term_angargathungi" xml:lang="lng" target="#VL5001_gloss_angargathungi"><w>Gargath<c>u</c>nchin</w></term><pc>.</pc> <w>q<g ref="#asmallabove"/>litate</w> <w><g ref="#pbardes"/><g ref="#esmallabove"/></w><pc><g ref="#middot"/></pc>
+         <lb n="23" xml:id="VL5001_lb_139v_ca_23"/><term ref="#gastaldius" xml:id="VL5001_term_gastaldius" xml:lang="lng"><w>Gastalde<c>u</c>s</w></term><pc>.</pc>
+         <lb n="24" xml:id="VL5001_lb_139v_ca_24"/><w>G<c>u</c>ec<c>u</c>rion</w><pc>.</pc> <gloss><w>orbitaria</w> <w>q<c>u</c>i</w>
+         <lb n="25" xml:id="VL5001_lb_139v_ca_25"/><w>m<c>u</c>lieri</w> <w>in</w> <w>antesteterit</w></gloss><pc>.</pc>
+         <lb n="26" xml:id="VL5001_lb_139v_ca_26"/><term ref="#gairethinx" xml:id="VL5001_term_gairethinx" xml:lang="lng" target="#VL5001_gloss_gairethinx"><w>Gairethinx</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_gairethinx" target="#VL5001_term_gairethinx"><w>obligacio</w></gloss><pc>.</pc>
+         <lb n="27" xml:id="VL5001_lb_139v_ca_27"/><term ref="#widrigild" xml:id="VL5001_term_widrigild" xml:lang="lng" target="#VL5001_gloss_widrigild"><w>G<c>u</c>idrigilt</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_widrigild" target="#VL5001_term_widrigild"><w>CL</w><pc>.</pc> <w>so<g ref="#lhighstrok"/></w></gloss><pc>.</pc>
+         <lb n="28" xml:id="VL5001_lb_139v_ca_28"/><w>Gigilt</w><pc>.</pc> <w><g ref="#qbardes"/></w> <w>don<g ref="#umacr"/></w> <w>recipit</w><pc>.</pc>
+         
+         <!-- COLONNA b -->
+         <!--  <cb xml:id="VL5001_CB_139v_cb"/> -->
+         <lb n="1" xml:id="VL5001_lb_139v_cb_1"/><term ref="#gaida" xml:id="VL5001_term_gaida" xml:lang="lng" target="#VL5001_gloss_gaida"><w>Gaida</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_gaida" target="#VL5001_term_gaida"><w><g ref="#et"/></w> <w>gisel</w> <w>e<c>u</c>m</w> <w>ferr<g ref="#umacr"/></w> <w><g ref="#et"/></w>
+         <lb n="2" xml:id="VL5001_lb_139v_cb_2"/><w>ast<c>u</c>la</w> <w>sagipte</w></gloss><pc>.</pc>
+         <lb n="3" xml:id="VL5001_lb_139v_cb_3"/><term ref="#gaida"><w>Gaida</w></term><pc>.</pc> <w>cart<c>u</c>la</w><pc>.</pc>
+         <lb n="4" xml:id="VL5001_lb_139v_cb_4"/><w>Gafinde<c>u</c>s</w><pc>.</pc>
+         <lb n="5" xml:id="VL5001_lb_139v_cb_5"/><w>Gato</w><pc>.</pc> <w>g<c>u</c>aldo</w><pc>.</pc>
+         <lb n="6" xml:id="VL5001_lb_139v_cb_6"/><term ref="#gafand" xml:id="VL5001_term_gafand" xml:lang="lng" target="#VL5001_gloss_gafand"><w>Gafant</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_gafand" target="#VL5001_term_gafand"><w>parens</w><pc>.</pc> <w>cohere</w>
+         <lb n="7" xml:id="VL5001_lb_139v_cb_7"/><w>des</w> <w>proximos</w></gloss><pc>.</pc>
+         <lb n="8" xml:id="VL5001_lb_139v_cb_8"/><w>Gamalos</w><pc>.</pc> <w>c<g ref="#nmacr"/>fab<c>u</c>latores</w><pc>.</pc>
+         <lb n="9" xml:id="VL5001_lb_139v_cb_9"/><w>Gal</w><pc>.</pc>
+         <lb n="10" xml:id="VL5001_lb_139v_cb_10"/><term ref="#waregang" xml:id="VL5001_term_waregang" xml:lang="lng" target="#VL5001_gloss_waregang"><w>G<c>u</c>areganc</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_waregang" target="#VL5001_term_waregang"><w>q<c>u</c>i</w> <w>de</w> <w>exte</w>
+         <lb n="11" xml:id="VL5001_lb_139v_cb_11"/><w>ris</w> <w>fimb()<c>u</c>enit</w></gloss><pc>.</pc>
+         <lb n="12" xml:id="VL5001_lb_139v_cb_12"/>
+       </p>
+       <p n="h">
+         <lb n="13" xml:id="VL5001_lb_139v_cb_13"/><w>h</w>
+         <lb n="14" xml:id="VL5001_lb_139v_cb_14"/><w>h</w>
+       </p>
+       <p n="i">
+         <lb n="15" xml:id="VL5001_lb_139v_cb_15"/><term ref="#pans" xml:id="VL5001_term_pans" xml:lang="lng" target="#VL5001_gloss_pans"><w><hi rend="init3.1">I</hi>npans</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_pans" target="#VL5001_term_pans"><w>q<c>u</c>i</w> <w><g ref="#imacr"/></w> <w><c>u</c>ot<g ref="#umacr"/></w> <w>re
+         <lb n="16" xml:id="VL5001_lb_139v_cb_16"/>gis</w> <w>dimictit<c>u</c>r</w></gloss><pc>.</pc>
+         <lb n="17" xml:id="VL5001_lb_139v_cb_17"/><term ref="#angargathungi" xml:lang="lng"><w>Ingargath<c>u</c>gi</w></term><pc>.</pc> <w>se<g ref="#cmacr"/>d<g ref="#mmacr"/></w> <w>ar
+         <lb n="18" xml:id="VL5001_lb_139v_cb_18"/>bitri<g ref="#umacr"/></w> <w>regis</w> <w>si<g ref="#cmacr"/></w> <w>ap<g ref="#pmacr"/>ciat<c>u</c>s</w>
+         <lb n="19" xml:id="VL5001_lb_139v_cb_19"/><w>f<c>u</c><g ref="#itilde"/>t</w> <w>i<c>u</c>xta</w> <w>q<c>u</c>alitat<g ref="#emacr"/></w> <w><g ref="#pbardes"/><g ref="#esmallabove"/></w><pc>.</pc>
+         <lb n="20" xml:id="VL5001_lb_139v_cb_20"/><w>Infianda</w><pc>.</pc> <w>ref<c>u</c>gi<g ref="#umacr"/></w> <w>apd<g ref="#usmod"/></w> <w>ali<g ref="#umacr"/></w><pc>.</pc>
+         <lb n="21" xml:id="VL5001_lb_139v_cb_21"/><term ref="#iderzun" xml:id="VL5001_term_iderzun" xml:lang="lng" target="#VL5001_gloss_iderzun"><w>Inderzon</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_iderzun" target="#VL5001_term_iderzun"><w>sepis</w> <w>aliena</w></gloss><pc>.</pc>
+         <lb n="22" xml:id="VL5001_lb_139v_cb_22"/><w>Instriat<g ref="#umacr"/></w><pc>.</pc> <w>franat<g ref="#umacr"/></w><pc>.</pc>
+         <lb n="23" xml:id="VL5001_lb_139v_cb_23"/>
+       </p>
+       <p n="k">
+         <lb n="24" xml:id="VL5001_lb_139v_cb_24"/><w>K</w>
+       </p>
+       <p n="l">
+         <lb n="25" xml:id="VL5001_lb_139v_cb_25"/><term ref="#lidinlaib" xml:id="VL5001_term_lidinlaib" xml:lang="lng" target="#VL5001_gloss_lidinlaib"><w><hi rend="init3.1">L</hi>indinlail</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_lidinlaib" target="#VL5001_term_lidinlaib"><w>q<g ref="#dstrok"/></w> <w><g ref="#imacr"/></w> <w>die</w> <w>obi
+         <lb n="26" xml:id="VL5001_lb_139v_cb_26"/>t<c>u</c>s</w> <w>si<c corresp="#v">u</c>e</w> <w>reliq<c>u</c>id</w></gloss><pc>.</pc>
+         <lb n="27" xml:id="VL5001_lb_139v_cb_27"/><term ref="#launegild" xml:id="VL5001_term_launegild" xml:lang="lng"><w>La<c>u</c>negilt</w></term><pc>.</pc>
+         <lb n="28" xml:id="VL5001_lb_139v_cb_28"/><w>Liberta</w><pc>.</pc> <w>q<c>u</c>e</w> <w>li<g ref="#bstrok"/>a</w> <w>dimissa</w> <w><g ref="#emacr"/></w><pc>.</pc>
+         
+         <!-- ##### FOLIO 140r ##### -->
+         <pb n="140r" xml:id="VL5001_folio_140r"/>
+         <!-- COLONNA a -->
+         <!--<cb xml:id="VL5001_CB_14r_ca"/> -->
+         <lb n="1" xml:id="VL5001_lb_140r_ca_1"/><w>Lagi</w><pc>.</pc> <w>s<c>u</c><g ref="#pbardes"/></w> <w>ien<c>u</c>c<c>u</c>l<g ref="#umacr"/></w>
+         <lb n="2" xml:id="VL5001_lb_140r_ca_2"/><w>Langelong<g ref="#amacr"/></w><pc>.</pc> <w><c>u</c>art</w> <w>barb<g ref="#amacr"/></w><pc>.</pc>
+         <lb n="3" xml:id="VL5001_lb_140r_ca_3"/><w>id</w> <w><g ref="#emacr"/></w> <w>longam</w> <w>barb<g ref="#amacr"/></w><pc>.</pc>
+         <lb n="4" xml:id="VL5001_lb_140r_ca_4"/><w>Lith<c>u</c>ngi</w><pc>.</pc> <w>q<c>u</c>e</w> <w>dam</w> <w>nobi
+         <lb n="5" xml:id="VL5001_lb_140r_ca_5"/>lis</w> <w>prosapia</w><pc>.</pc>
+       </p>
+       <p n="m">
+         <lb n="6" xml:id="VL5001_lb_140r_ca_6"/><w><hi rend="init3.1">M</hi>arpahis</w><pc>.</pc> <w>strator</w><pc>.</pc>
+         <lb n="7" xml:id="VL5001_lb_140r_ca_7"/><term ref="#morgingab" xml:id="VL5001_term_morgingab" xml:lang="lng" target="#VL5001_gloss_morgingab"><w>Morgincap</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_morgingab" target="#VL5001_term_morgingab"><w>q<c>u</c>a<g ref="#combrurlbar"/>ta</w> <w>pars</w></gloss><pc>.</pc>
+         <lb n="8" xml:id="VL5001_lb_140r_ca_8"/><term ref="#marahvorf" xml:id="VL5001_term_marahvorf" xml:lang="lng" target="#VL5001_gloss_marahvorf"><w>Mar<c>u</c><c>u</c>orf</w></term><pc>.</pc>
+         <lb n="9" xml:id="VL5001_lb_140r_ca_9"/><term ref="#mundio" xml:id="VL5001_term_mundio" xml:lang="lng" target="#VL5001_gloss_mundio"><w>M<c>u</c>ndi<g ref="#umacr"/></w></term><pc>·</pc> <w>domin<c>u</c>(m)</w>
+         <lb n="10" xml:id="VL5001_lb_140r_ca_10"/><term ref="#murioth" xml:id="VL5001_term_murioth" xml:lang="lng" target="#VL5001_gloss_murioth"><w>Marioth</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_murioth" target="#VL5001_term_murioth"><w>brachi<g ref="#umacr"/></w> <w>s<c>u</c><g ref="#pbardes"/></w> <w>c<c>u</c>
+         <lb n="11" xml:id="VL5001_lb_140r_ca_11"/>bit<c>u</c>m</w></gloss><pc>·</pc>
+         <lb n="12" xml:id="VL5001_lb_140r_ca_12"/><term ref="#meta" xml:id="VL5001_term_meta" xml:lang="lng" target="#VL5001_gloss_meta"><w>Meta</w></term><pc>.</pc> <w><g ref="#pflourish"/>missio</w> <w>()</w> <w>oposicio</w><pc>.</pc>
+         <lb n="13" xml:id="VL5001_lb_140r_ca_13"/><w>Matrinia</w> <w>no<c corresp="#v">u</c>erca</w><pc>.</pc>
+         <lb n="14" xml:id="VL5001_lb_140r_ca_14"/><w>Metifid</w> <pc>·</pc> <w>()</w>
+         <lb n="15" xml:id="VL5001_lb_140r_ca_15"/><w>Meffari</w> <pc>·</pc>
+         <lb n="16" xml:id="VL5001_lb_140r_ca_16"/><w>Mod<c>u</c>la</w><pc>.</pc> <w>q<c>u</c>ec<g ref="#umacr"/></w>
+         <lb n="17" xml:id="VL5001_lb_140r_ca_17"/><w>M<c>u</c>r<c>u</c></w>
+         <lb n="18" xml:id="VL5001_lb_140r_ca_18"/><w>Mario</w><pc>.</pc> <w>s<c>u</c><g ref="#pbardes"/></w> <w>c<c>u</c>bit<g ref="#umacr"/></w>
+       </p>
+       <p n="n">
+         <lb n="19" xml:id="VL5001_lb_140r_ca_19"/><w><hi rend="init3.1">N</hi>asca</w><pc>.</pc> <w>striga</w><pc>.</pc>
+         <lb n="20" xml:id="VL5001_lb_140r_ca_20"/><w>N</w>
+         <lb n="21" xml:id="VL5001_lb_140r_ca_21"/><w>N</w>
+         <lb n="22" xml:id="VL5001_lb_140r_ca_22"/><w>N</w>
+       </p>
+       <p n="o">
+         <lb n="23" xml:id="VL5001_lb_140r_ca_23"/><w><hi rend="init3.1">O</hi>dam()</w><pc>·</pc> <w>q<c>u</c><g ref="#emacr"/></w> <w>adiecta</w> <w>lict<g ref="#amacr"/></w>
+         <lb n="24" xml:id="VL5001_lb_140r_ca_24"/><w>godan</w> <w>dixer<g ref="#umacr"/>t</w> <w>i<g ref="#pmacr"/>e</w> <w><g ref="#emacr"/></w> <w>q<c>u</c>i</w>
+         <lb n="25" xml:id="VL5001_lb_140r_ca_25"/><w>ap<c>u</c>d</w> <w>romanos</w><pc>.</pc> <w>merc<c>u</c>ri<g ref="#usmod"/></w> <w>d<g ref="#rmacr"/></w><pc>.</pc>
+         <lb n="26" xml:id="VL5001_lb_140r_ca_26"/><term ref="#hoberus" xml:id="VL5001_term_hoberus" xml:lang="lng" target="#VL5001_gloss_hoberus"><w>Ober<c>u</c>s</w></term> <gloss xml:id="VL5001_gloss_hoberus" target="#VL5001_term_hoberus"><w>r<c>u</c>ct<c>u</c>ra</w> <w>c<c>u</c>rtis</w></gloss>
+         <lb n="27" xml:id="VL5001_lb_140r_ca_27"/><w>O</w>
+       </p>
+       
+       <!-- <cb xml:id="VL5001_CB_14r_cb"/> -->
+       <p n="p">
+         <lb n="1" xml:id="VL5001_lb_140r_cb_1"/><term ref="#plodraub" xml:id="VL5001_term_plodraub" xml:lang="lng" target="#VL5001_gloss_plodraub"><w><hi rend="init3.1">P</hi>rola<c>u</c>b</w></term><pc>·</pc> <gloss xml:id="VL5001_gloss_plodraub" target="#VL5001_term_plodraub"><w>spolia</w> <w>de</w> <w>mort<c>u</c>o</w></gloss><pc>.</pc>
+         <lb n="2" xml:id="VL5001_lb_140r_cb_2"/><w>Proditor</w><pc>.</pc> <w>indicator</w><pc>.</pc>
+         <lb n="3" xml:id="VL5001_lb_140r_cb_3"/><term ref="#plovum" xml:id="VL5001_term_plovum" xml:lang="lng" target="#VL5001_gloss_plovum"><w>Plob<g ref="#umacr"/></w></term><pc>.</pc> <w>cog<g ref="#umacr"/></w><pc>.</pc>
+         <lb n="4" xml:id="VL5001_lb_140r_cb_4"/><w>Ple<c>u</c>ma</w><pc>.</pc>
+         <lb n="5" xml:id="VL5001_lb_140r_cb_5"/><w>P</w>
+         <lb n="6" xml:id="VL5001_lb_140r_cb_6"/>
+       </p>
+       <p n="q">
+         <lb n="7" xml:id="VL5001_lb_140r_cb_7"/><w>Q</w>
+         <lb n="8" xml:id="VL5001_lb_140r_cb_8"/><w>Q</w>
+       </p>
+       <p n="s">
+         <lb n="9" xml:id="VL5001_lb_140r_cb_9"/><term ref="#sculdahis" xml:id="VL5001_term_sculdahis" xml:lang="lng" target="#VL5001_gloss_sculdahis"><w><hi rend="init3.1">S</hi>c<c>u</c>ldais</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_sculdahis" target="#VL5001_term_sculdahis"><w>rector</w> <w>loci</w></gloss><pc>.</pc>
+         <lb n="10" xml:id="VL5001_lb_140r_cb_10"/><w>Scala</w><pc>.</pc> <w>later</w> <w>patera</w><pc>·</pc>
+         <lb n="11" xml:id="VL5001_lb_140r_cb_11"/><w>Scalaria</w><pc>.</pc>
+         <lb n="12" xml:id="VL5001_lb_140r_cb_12"/><w>Scamara</w><pc>.</pc> <w>f<c>u</c>rto</w> <pc>.</pc>
+         <lb n="13" xml:id="VL5001_lb_140r_cb_13"/><w>Scilpol</w><pc>.</pc> <w>armiger</w><pc>.</pc>
+         <lb n="14" xml:id="VL5001_lb_140r_cb_14"/><w>Stripla</w><pc>.</pc> <w>resa<c>u</c>cio</w><pc>.</pc>
+         <lb n="15" xml:id="VL5001_lb_140r_cb_15"/><term ref="#sala" xml:id="VL5001_term_sala" xml:lang="lng" target="#VL5001_gloss_sala"><w>Sala</w></term><pc>.</pc>
+         <lb n="16" xml:id="VL5001_lb_140r_cb_16"/><term ref="#stolesazo" xml:id="VL5001_term_stolesazo" xml:lang="lng" target="#VL5001_gloss_stolesazo"><w>Stolesanz</w></term><pc>.</pc>
+         <lb n="17" xml:id="VL5001_lb_140r_cb_17"/><term ref="#selpmundia" xml:id="VL5001_term_selpmundia" xml:lang="lng" target="#VL5001_gloss_selpmundia"><w>Selm<c>u</c>ndia</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_selpmundia" target="#VL5001_term_selpmundia"><w><g ref="#imacr"/></w> <w>s<c>u</c>e</w> <w>pote
+         <lb n="18" xml:id="VL5001_lb_140r_cb_18"/>statio</w> <w>arbitro</w></gloss><pc>·</pc>
+         <lb n="19" xml:id="VL5001_lb_140r_cb_19"/><term ref="#snaida" xml:id="VL5001_term_snaida" xml:lang="lng" target="#VL5001_gloss_snaida"><w>Snaida</w></term><pc>·</pc>
+         <lb n="20" xml:id="VL5001_lb_140r_cb_20"/><w>Socas</w><pc>.</pc>
+         <lb n="21" xml:id="VL5001_lb_140r_cb_21"/><term ref="#sonorpair" xml:id="VL5001_term_sonorpair" xml:lang="lng" target="#VL5001_gloss_sonorpair"><w>Sonorp<g ref="#asmallabove"/>hir</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_sonorpair" target="#VL5001_term_sonorpair"><w><c corresp="#v">u</c>erris</w> <w><g ref="#qbardes"/></w>
+         <lb n="22" xml:id="VL5001_lb_140r_cb_22"/><w>alios</w> <w><c>u</c>inat</w> <w><g ref="#imacr"/></w> <w>grege</w> <w>p<c>u</c>g
+         <lb n="23" xml:id="VL5001_lb_140r_cb_23"/>nans</w></gloss><pc>·</pc>
+       </p>
+       <p n="t">
+         <lb n="24" xml:id="VL5001_lb_140r_cb_24"/><term ref="#thingare" xml:id="VL5001_term_thingare" xml:lang="lng" target="#VL5001_gloss_thingare"><w><hi rend="init3.1">T</hi>hingare</w></term><pc>.</pc>
+         <lb n="25" xml:id="VL5001_lb_140r_cb_25"/><term ref="#threus" xml:id="VL5001_term_threus" xml:lang="lng" target="#VL5001_gloss_threus"><w>Threre<c>u</c>s</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_threus" target="#VL5001_term_threus"><w>dis<g ref="#pbardes"/>ilit</w> <w>se<c>u</c></w>
+         <lb n="26" xml:id="VL5001_lb_140r_cb_26"/><w>ignobili<g ref="#tmacr"/></w> <w>nat<g ref="#usmod"/></w> <w><g ref="#qnardes"/></w> <w>eci<g ref="#amacr"/></w> <w>d<g ref="#rmacr"/></w>
+         <lb n="27" xml:id="VL5001_lb_140r_cb_27"/><w>noth<c>u</c>s</w><pc>.</pc> <w>a<g ref="#combcurl"/>missi<c>u</c><c>u</c>s</w> <w><g ref="#ntilde"/>alis</w></gloss>
+         <lb n="28" xml:id="VL5001_lb_140r_cb_28"/><term ref="#thinx" xml:id="VL5001_term_thinx" xml:lang="lng" target="#VL5001_gloss_thinx"><w>Thincx</w></term><pc>.</pc> <gloss xml:id="VL5001_gloss_thinx" target="#VL5001_term_thinx"><w>donacio</w></gloss><pc>.</pc>
+         
+         <!-- ##### FOLIO 140v ##### -->
+         <pb n="140v" xml:id="VL5001_folio_140v"/>
+         <lb n="29" xml:id="VL5001_lb_140v_1"/><w>Thingit</w><pc>.</pc> <w>Trabic<g ref="#emacr"/></w> <pc>.</pc><w>I</w><pc>.</pc> <w>trabicell<g ref="#umacr"/></w> <w><c corresp="#v">u</c>itis</w><pc>.</pc>
+         <lb n="30" xml:id="VL5001_lb_140v_2"/><w>Treno</w><pc>·</pc> <w>I</w><pc>.</pc> <w>s<c>u</c>bt<c>u</c>s</w> <w>c<c>u</c>bit<g ref="#umacr"/></w> <w>Tre<c>u</c><c>u</c>a</w><pc>.</pc>
+         <lb n="31" xml:id="VL5001_lb_140v_3"/><w>Trogingis</w><pc>.</pc> <w>T</w> <pc>·</pc>
+       </p>
+       <p n="u">
+         <lb n="32" xml:id="VL5001_lb_140v_4"/><term ref="#walupaus" xml:id="VL5001_term_walupaus" xml:lang="lng" target="#VL5001_gloss_walupaus"><w><hi rend="init3.1"><c>U</c></hi><c>u</c>alapaoz</w></term><pc>·</pc> <gloss xml:id="VL5001_gloss_walupaus" target="#VL5001_term_walupaus"><w>q<c>u</c>i</w> <w>se</w> <w>f<c>u</c>rt<c>u</c>m</w> <w><c corresp="#v">u</c>esti<g ref="#mmacr"/>t<g ref="#umacr"/></w> <w>ali<c>u</c>d</w> <w><g ref="#imacr"/>d<c>u</c>crit</w>
+         <lb n="33" xml:id="VL5001_lb_140v_5"/><w>a<c>u</c>t</w> <w>capite</w> <w><c>u</c>t</w> <w>facie</w> <w>se</w> <w>transfig<c>u</c>ra<c>u</c>erit</w> <w>latrocinandi</w> <add place="below"><w>a<g ref="#imacr"/>o</w></add><pc>.</pc>
+         <lb n="34" xml:id="VL5001_lb_140v_6"/><w><c>U</c>ncie</w> <pc>.</pc><w>VI</w><pc>.</pc> <w>medietas</w><pc>.</pc> <w><c>U</c>ncie</w> <pc>.</pc><w>IIII</w><pc>.</pc> <w><g ref="#combcurl"/>cia</w> <w>pars</w></gloss><pc>.</pc>
+         <lb n="35" xml:id="VL5001_lb_140v_7"/><term ref="#wirdibora" xml:id="VL5001_term_wirdibora" xml:lang="lng" target="#VL5001_gloss_wirdibora"><w><c>U</c>idrebora</w></term><pc>.</pc> <w>I</w><pc>.</pc> <w><c>U</c>ecorion</w><pc>.</pc>
+         <lb n="36" xml:id="VL5001_lb_140r_8"/><w><c>U</c>s<c>u</c>scapio</w><pc>·</pc> <w>I</w><pc>·</pc> <w><c>U</c>afreda</w> <pc>·</pc><w>I</w><pc>·</pc>
+       </p>
+     </body>
+  </text>
+</TEI>
