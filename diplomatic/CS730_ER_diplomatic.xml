@@ -1094,7 +1094,7 @@
           <w>id</w>
           <w>
             <choice>
-              <abbr><am><g ref="#emcr"/></am></abbr>
+              <abbr><am><g ref="#emacr"/></am></abbr>
               <expan>e<ex>st</ex></expan>
             </choice>
           </w>
@@ -1597,7 +1597,8 @@
             </choice>
           </w>
           <w>certe</w>
-          <add hand="unknown" place="margin"><num><w>19</w></num></add>
+          <!-- CHECK ERP suggests not to transcribe this and the 8 (?) immediately below -->
+          <!-- <add hand="unknown" place="margin"><num><w>19</w></num></add>-->
           <!--sotto cosa c'è?-->
           <lb n="08" xml:id="CS730_lb_07_08"/>
           <gap extent="4" unit="chars"/>
@@ -8210,7 +8211,10 @@
           </w>
           <w>sine</w>
           <w>man<lb n="12" xml:id="CS730_lb_30d_12"/>cipia</w>
-          <w><damage><supplied reason="illegible" resp="leges">vind</supplied></damage>ere</w>
+          <w><choice><!-- CHECK should refrain from regularizing something which is not visible? -->
+            <orig><damage><supplied reason="illegible" resp="leges">uind</supplied></damage>ere</orig>
+            <reg><supplied reason="illegible" resp="leges">vind</supplied>ere</reg>
+          </choice></w>
           <w>
             <choice>
               <abbr><am><g ref="#amacr"/></am></abbr>
