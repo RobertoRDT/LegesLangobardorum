@@ -1,0 +1,1693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			
+			<titleStmt>
+				<title>Leggi di Grimoaldo VL5359</title>
+				<author/>
+				<respStmt>
+					<resp/>
+					<name>Fabio Soncin</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>Edizioni precedenti Leges Langobardorum</edition>
+				<respStmt xml:id="azzara">
+					<resp>Editor</resp>
+					<name ref="#Azzara2005">Azzara-Gasparri</name>
+				</respStmt>
+				<respStmt xml:id="beyerle">
+					<resp>Editor</resp>
+					<name ref="#Beyerle1962">Beyerle</name>
+				</respStmt>
+				<respStmt xml:id="bluhme">
+					<resp>Editor</resp>
+					<name ref="#Bluhme1868">Bluhme</name>
+				</respStmt>
+			</editionStmt>
+
+			<publicationStmt>
+				<authority>Leges Langobardorum Project</authority>
+				<date instant="false">2014-</date>
+				<availability status="unknown">
+					<p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>VL5359</idno>	
+					</msIdentifier>
+				</msDesc>
+				
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<charDecl>
+
+				<!-- regular letters -->
+
+				<char xml:id="ucap">
+					<unicodeProp name="Name" value="LATIN CAPITAL LETTER U"/>
+					<mapping type="codepoint">U+0055</mapping>
+					<mapping type="diplomatic">U</mapping>
+					<mapping type="normalized">U</mapping>
+				</char>
+
+				<char xml:id="vcap">
+					<unicodeProp name="Name" value="LATIN CAPITAL LETTER V"/>
+					<mapping type="codepoint">U+0056</mapping>
+					<mapping type="diplomatic">V</mapping>
+					<mapping type="normalized">V</mapping>
+				</char>
+
+				<char xml:id="u">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER U"/>
+					<mapping type="codepoint">U+0075</mapping>
+					<mapping type="diplomatic">u</mapping>
+					<mapping type="normalized">u</mapping>
+				</char>
+
+				<char xml:id="v">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER V"/>
+					<mapping type="codepoint">U+0076</mapping>
+					<mapping type="diplomatic">v</mapping>
+					<mapping type="normalized">v</mapping>
+				</char>
+
+				<!-- variant forms -->
+
+				<char xml:id="romnumsix">
+					<unicodeProp name="Name" value="ROMAN NUMERAL SIX LATE FORM"/>
+					<mapping subtype="MUFI-PUA" type="codepoint">U+2185</mapping>
+					<mapping type="diplomatic">Ϛ</mapping>
+					<mapping type="normalized">VI</mapping>
+				</char>
+
+				<char xml:id="amacr">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER A WITH MACRON"/>
+					<mapping type="codepoint">U+0101</mapping>
+					<mapping type="diplomatic">ā</mapping>
+					<mapping type="normalized">a</mapping>
+				</char>
+				<char xml:id="emacr">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER E WITH MACRON"/>
+					<mapping type="codepoint">U+0113</mapping>
+					<mapping type="diplomatic">ē</mapping>
+					<mapping type="normalized">e</mapping>
+				</char>
+				<char xml:id="imacr">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER I WITH MACRON"/>
+					<mapping type="codepoint">U+012B</mapping>
+					<mapping type="diplomatic">ī</mapping>
+					<mapping type="normalized">i</mapping>
+				</char>
+				<char xml:id="omacr">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER O WITH MACRON"/>
+					<mapping type="codepoint">U+014D</mapping>
+					<mapping type="diplomatic">ō</mapping>
+					<mapping type="normalized">o</mapping>
+				</char>
+				<char xml:id="umacr">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER U WITH MACRON"/>
+					<mapping type="codepoint">U+016B</mapping>
+					<mapping type="diplomatic">ū</mapping>
+					<mapping type="normalized">u</mapping>
+				</char>
+				<char xml:id="ymacr">
+					<!-- VBD entity: ytilde -->
+					<unicodeProp name="Name" value="LATIN SMALL LETTER Y WITH MACRON"/>
+					<mapping type="codepoint">U+0233</mapping>
+					<mapping type="diplomatic">ȳ</mapping>
+					<mapping type="normalized">y</mapping>
+				</char>
+				<!-- Letter L ltailstrok -->
+				<char xml:id="ltailstrok">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER LUM"/>
+					<mapping type="codepoint">A772</mapping>
+					<mapping type="diplomatic">ꝲ</mapping>
+					<mapping type="normalized">l</mapping>
+				</char>
+				<!-- ntilde -->
+				<char xml:id="ntilde">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER N WITH TILDE"/>
+					<mapping type="codepoint">00F1</mapping>
+					<mapping type="diplomatic">ñ</mapping>
+					<mapping type="normalized">n</mapping>
+				</char>
+
+				<!-- aggiunto 2018-11-21 -->
+				<char xml:id="fourdot">
+					<unicodeProp name="Name" value="FOUR DOT PUNCTUATION"/>
+					<mapping type="codepoint">2058</mapping>
+					<mapping type="diplomatic">⁘</mapping>
+					<mapping type="normalized">.</mapping>
+				</char>
+
+				<!-- aggiunto 2018-11-21 -->
+				<char xml:id="arbar">
+					<unicodeProp name="Name" value="COMBINING ABBREVIATION MARK BAR ABOVE WITH DOT"/>
+					<mapping type="codepoint">F1C0</mapping>
+					<mapping type="diplomatic">◌</mapping>
+					<mapping type="normalized">ae</mapping>
+				</char>
+
+				<!-- aggiunto 2018-11-21 -->
+				<char xml:id="ptilde">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER P WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+0070 + U+0303</mapping>
+					<mapping type="diplomatic">p̃</mapping>
+					<mapping type="normalized">p</mapping>
+				</char>
+
+				<!-- aggiunto 2018-11-21 -->
+				<char xml:id="qtilde">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+0071 + U+0303</mapping>
+					<mapping type="diplomatic">q̃</mapping>
+					<mapping type="normalized">q</mapping>
+				</char>
+
+
+				<!-- aggiunto 2018-11-21 -->
+				<char xml:id="nscapslonglig">
+					<unicodeProp name="Name" value="LATIN SMALL LIGATURE SMALL CAPITAL N LONG S"/>
+					<mapping type="codepoint">EED5</mapping>
+					<mapping type="diplomatic"></mapping>
+					<mapping type="normalized">ns</mapping>
+				</char>
+
+				<!-- aggiunto 2018-11-21 -->
+				<char xml:id="qmacr">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH MACRON"/>
+					<mapping subtype="composed" type="codepoint">E681</mapping>
+					<mapping type="diplomatic"></mapping>
+					<mapping type="normalized">q</mapping>
+				</char>
+
+				<!-- aggiunto 2018-11-21 -->
+				<char xml:id="pmacr">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER P WITH MACRON"/>
+					<mapping subtype="composed" type="codepoint">E665</mapping>
+					<mapping type="diplomatic"></mapping>
+					<mapping type="normalized">p</mapping>
+				</char>
+
+				<!-- aggiunto 2018-11-21 -->
+				<char xml:id="pbardes">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER"/>
+					<mapping type="codepoint">U+A751</mapping>
+					<mapping type="diplomatic">ꝑ</mapping>
+					<mapping type="normalized">p</mapping>
+				</char>
+
+				<!-- aggiunto 2018-11-21 -->
+				<char xml:id="qbardes">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER"/>
+					<mapping type="codepoint">U+A757</mapping>
+					<mapping type="diplomatic">ꝗ</mapping>
+					<mapping type="normalized">q</mapping>
+				</char>
+
+				<!-- aggiunto 2018-11-21 -->
+				<char xml:id="dstrok">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER D WITH STROKE"/>
+					<mapping type="codepoint">0111</mapping>
+					<mapping type="diplomatic">d</mapping>
+					<mapping type="normalized">d</mapping>
+				</char>
+
+				<!-- aggiunto 2018-11-21 -->
+				<char xml:id="colmidcomposit">
+					<unicodeProp name="Name" value="COLON WITH MIDDLE COMMA POSITURA"/>
+					<mapping subtype="MUFI-PUA" type="codepoint">U+F1E5</mapping>
+					<mapping type="diplomatic"></mapping>
+					<!--<mapping type="normalized">.</mapping>-->
+				</char>
+
+				<!-- aggiunto 2018-11-21 -->
+				<char xml:id="usmod">
+					<unicodeProp name="Name" value="MODIFIER LETTER US"/>
+					<mapping type="codepoint">A770</mapping>
+					<mapping type="diplomatic">ꝰ</mapping>
+					<mapping type="normalized">us</mapping>
+				</char>
+
+				<!-- aggiunto 2018-11-21 -->
+				<char xml:id="ttilde">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER T WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+0074 + U+0303</mapping>
+					<mapping type="diplomatic">t̃</mapping>
+					<mapping type="normalized">t</mapping>
+				</char>
+
+				<!-- aggiunto 2018-12-05 -->
+				<char xml:id="atilde">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER A WITH TILDE"/>
+					<mapping type="codepoint">00E3</mapping>
+					<mapping type="diplomatic">ã</mapping>
+					<mapping type="normalized">a</mapping>
+				</char>
+
+				<!-- aggiunto 2018-12-05 -->
+				<char xml:id="utilde">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER U WITH TILDE"/>
+					<mapping type="codepoint">U+0169</mapping>
+					<mapping type="diplomatic">ũ</mapping>
+					<mapping type="normalized">u</mapping>
+				</char>
+
+				<!-- aggiunto 2018-12-05 -->
+				<char xml:id="etilde">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER E WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+0065 + U+0303</mapping>
+					<mapping type="diplomatic">ẽ</mapping>
+					<mapping type="normalized">e</mapping>
+				</char>
+
+				<!-- aggiunto 2018-12-12 -->
+				<char xml:id="tridotleft">
+					<unicodeProp name="Name" value="THREE DOT PUNCTUATION"/>
+					<mapping type="codepoint">2056</mapping>
+					<mapping type="diplomatic">:.</mapping>
+					<mapping type="normalized">.</mapping>
+				</char>
+
+				<!-- aggiunto 2018-12-23 -->
+				<char xml:id="ctilde">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER C WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+0065 + U+0303</mapping>
+					<mapping type="diplomatic">c̃</mapping>
+					<mapping type="normalized">c</mapping>
+				</char>
+				<!-- aggiunto 2018-12-23 -->
+				<char xml:id="otilde">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER O WITH TILDE"/>
+					<mapping type="codepoint">U+00F5</mapping>
+					<mapping type="diplomatic">õ</mapping>
+					<mapping type="normalized">o</mapping>
+				</char>
+
+				<!-- aggiunto 2019-01-21 -->
+				<char xml:id="rum">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER RUM ROTUNDA"/>
+					<mapping type="codepoint">A75D</mapping>
+					<mapping type="diplomatic">ꝝ</mapping>
+					<mapping type="normalized">rum</mapping>
+				</char>
+
+				<!-- aggiunto 2019-01-21 -->
+				<char xml:id="rmacr">
+					<unicodeProp name="Name" value="Latin Small Letter R with Dot Below and Macron"/>
+					<mapping type="codepoint">U+0072 + U+0304</mapping>
+					<mapping type="diplomatic">r̄</mapping>
+					<mapping type="normalized">r</mapping>
+				</char>
+
+				<!-- aggiunto 2019-01-21 -->
+				<char xml:id="tildedot">
+					<unicodeProp name="Name" value="TILDE WITH DOT ABOVE"/>
+					<mapping type="codepoint">U+2E1E</mapping>
+					<mapping type="diplomatic">⸞</mapping>
+					<mapping type="normalized">n</mapping>
+				</char>
+
+				<!-- ligatures -->
+
+				<glyph xml:id="uslig">
+					<unicodeProp name="Name" value="LATIN SMALL LIGATURE US"/>
+					<mapping type="ligature">U+0075 + U+017F</mapping>
+					<mapping type="diplomatic">us</mapping>
+					<mapping type="normalized">us</mapping>
+				</glyph>
+				<!-- aggiunto 2019-01-21 -->
+				<char xml:id="openetlig">
+					<unicodeProp name="Name" value="Ligature Open Et Ornament"/>
+					<mapping type="codepoint">U+1F672</mapping>
+					<mapping type="diplomatic">🙲</mapping>
+					<mapping type="normalized">et</mapping>
+				</char>
+
+				<!-- aggiunto 2019-01-21 -->
+				<char xml:id="etlig">
+					<unicodeProp name="Name" value="Script Ligature Et Ornament"/>
+					<mapping type="codepoint">U+1F670</mapping>
+					<mapping type="diplomatic">🙰</mapping>
+					<mapping type="normalized">et</mapping>
+				</char>
+
+				<!-- aggiunto 2019-01-21 -->
+				<glyph xml:id="urlig">
+					<unicodeProp name="Name" value="LATIN SMALL LIGATURE UR"/>
+					<mapping subtype="composed" type="ligature">U+0075 + U+A783</mapping>
+					<mapping type="diplomatic">ur</mapping>
+					<mapping type="normalized">ur</mapping>
+				</glyph>
+
+				<!-- aggiunto 2019-01-21 -->
+				<glyph xml:id="utlig">
+					<unicodeProp name="Name" value="LATIN SMALL LIGATURE UT"/>
+					<mapping subtype="composed" type="ligature">U+0075 + U+1D1B</mapping>
+					<mapping type="diplomatic">ut</mapping>
+					<mapping type="normalized">ut</mapping>
+				</glyph>
+
+				<!-- aggiunto 2019-03-12 -->
+				<char xml:id="Mtilde">
+					<unicodeProp name="Name" value="LATIN CAPITAL LETTER M WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+004D + U+0303</mapping>
+					<mapping type="diplomatic">M̃</mapping>
+					<mapping type="normalized">M</mapping>
+				</char>
+
+				<!-- aggiunto 2019-03-12 -->
+				<char xml:id="twodot">
+					<unicodeProp name="Name" value="Two Dot Punctuation"/>
+					<mapping type="codepoint">U+205A</mapping>
+					<mapping type="diplomatic">⁚</mapping>
+					<mapping type="normalized">ue</mapping>
+				</char>
+
+				<!-- aggiunto 2019-03-12 -->
+				<char xml:id="jnodotenl">
+					<unicodeProp name="Name" value="LATIN ENLARGED LETTER SMALL DOTLESS J"/>
+					<mapping type="codepoint">EEFE</mapping>
+					<mapping type="diplomatic"></mapping>
+					<mapping type="normalized">i</mapping>
+				</char>
+
+				<!-- aggiunto 2019-03-12 -->
+				<char xml:id="stilde">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER S WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+0073 + U+0303</mapping>
+					<mapping type="diplomatic">s̃</mapping>
+					<mapping type="normalized">s</mapping>
+				</char>
+
+				<!-- aggiunto 2019-03-12 -->
+				<char xml:id="eogon">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER E WITH OGONEK"/>
+					<mapping type="codepoint">0119</mapping>
+					<mapping type="diplomatic">ę</mapping>
+					<mapping type="normalized">ae</mapping>
+				</char>
+
+				<!-- aggiunto 2019-03-13 -->
+				<char xml:id="xtilde">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER X WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+0078 + U+0303</mapping>
+					<mapping type="diplomatic">x̃</mapping>
+					<mapping type="normalized">x</mapping>
+				</char>
+
+				<!-- aggiunto 2019-03-14 -->
+				<char xml:id="lhighstrok">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER L WITH HIGH STROKE"/>
+					<mapping type="codepoint">A749</mapping>
+					<mapping type="diplomatic">ł</mapping>
+					<mapping type="normalized">l</mapping>
+				</char>
+
+				<!-- aggiunto 2019-03-15 -->
+				<char xml:id="pflour">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER P WITH FLOURISH"/>
+					<mapping type="codepoint">A753</mapping>
+					<mapping type="diplomatic">ꝓ</mapping>
+					<mapping type="normalized">pro</mapping>
+				</char>
+
+				<!-- aggiunto 2019-03-17 -->
+				<char xml:id="mtilde">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER M WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+006D + U+0303</mapping>
+					<mapping type="diplomatic">m̃</mapping>
+					<mapping type="normalized">m</mapping>
+				</char>
+				<!-- aggiunto 2019-03-20 -->
+				<char xml:id="ur">
+					<unicodeProp name="Name" value="COMBINING UR ABOVE"/>
+					<mapping type="codepoint">1DD1</mapping>
+					<mapping type="diplomatic">᷑</mapping>
+					<mapping type="normalized">ur</mapping>
+				</char>
+				<!-- aggiunto 2019-03-20 -->
+				<char xml:id="semi">
+					<unicodeProp name="Name" value="SEMICOLON"/>
+					<mapping type="codepoint">003B</mapping>
+					<mapping type="diplomatic">;</mapping>
+					<mapping type="normalized">us</mapping>
+				</char>
+
+				<char xml:id="middot">
+					<unicodeProp name="Name" value="MIDDLE DOT"/>
+					<mapping type="codepoint">U+00B7</mapping>
+					<mapping type="diplomatic">·</mapping>
+					<!--<mapping type="normalized"></mapping>-->
+				</char>
+
+				<char xml:id="homothetic">
+					<unicodeProp name="Name" value="MIDDLE DOT"/>
+					<mapping type="codepoint">U+223B</mapping>
+					<mapping type="diplomatic">∻</mapping>
+					<!--<mapping type="normalized"></mapping>-->
+				</char>
+
+				<char xml:id="Ptilde">
+					<unicodeProp name="Name" value="LATIN CAPIPTAL LETTER P WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+0050 + U+0303</mapping>
+					<mapping type="diplomatic">P̃</mapping>
+					<mapping type="normalized">P</mapping>
+				</char>
+
+				<!-- ##### aggiunto da FS in data 2024-04-13 ##### -->
+				<glyph xml:id="ctlig">
+					<unicodeProp name="Name" value="LATIN SMALL LIGATURE CT"/>
+					<mapping type="ligature">U+0063 + U+0074</mapping>
+					<mapping type="diplomatic">ct</mapping>
+					<mapping type="normalized">ct</mapping>
+				</glyph>
+
+				<glyph xml:id="stlig">
+					<unicodeProp name="Name" value="LATIN SMALL LIGATURE ST"/>
+					<mapping type="ligature">U+0073 + U+0074</mapping>
+					<mapping type="diplomatic">st</mapping>
+					<mapping type="normalized">st</mapping>
+				</glyph>
+
+				<glyph xml:id="aelig">
+					<unicodeProp name="Name" value="LATIN SMALL LIGATURE AE"/>
+					<mapping type="ligature">U+0061 + U+0065</mapping>
+					<mapping type="diplomatic">æ</mapping>
+					<mapping type="normalized">ae</mapping>
+				</glyph>
+
+				<char xml:id="Rtilde">
+					<unicodeProp name="Name" value="LATIN CAPIPTAL LETTER R WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+0052 + U+0303</mapping>
+					<mapping type="diplomatic">R̃</mapping>
+					<mapping type="normalized">R</mapping>
+				</char>
+
+				<char xml:id="Htilde">
+					<unicodeProp name="Name" value="LATIN CAPIPTAL LETTER H WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+0048 + U+0303</mapping>
+					<mapping type="diplomatic">H̃</mapping>
+					<mapping type="normalized">H</mapping>
+				</char>
+
+				<char xml:id="mmacr">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER M WITH MACRON"/>
+					<mapping subtype="composed" type="codepoint">U+006D + U+0304</mapping>
+					<mapping type="diplomatic">m̄</mapping>
+					<mapping type="normalized">m</mapping>
+				</char>
+
+				<char xml:id="tmacr">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER T WITH MACRON"/>
+					<mapping subtype="composed" type="codepoint">U+0074 + U+00AF</mapping>
+					<mapping type="diplomatic">t̄</mapping>
+					<mapping type="normalized">t</mapping>
+				</char>
+
+				<glyph xml:id="filig">
+					<unicodeProp name="Name" value="LATIN SMALL LIGATURE FI"/>
+					<mapping type="ligature">U+0066 + U+0069</mapping>
+					<mapping type="diplomatic">fi</mapping>
+					<mapping type="normalized">fi</mapping>
+				</glyph>
+
+				<glyph xml:id="exlig">
+					<unicodeProp name="Name" value="LATIN SMALL LIGATURE EX"/>
+					<mapping type="ligature">U+0065 + U+0078</mapping>
+					<mapping type="diplomatic">ex</mapping>
+					<mapping type="normalized">ex</mapping>
+				</glyph>
+
+				<char xml:id="nmacr">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER N WITH MACRON"/>
+					<mapping subtype="composed" type="codepoint">U+006E + U+0304</mapping>
+					<mapping type="diplomatic">n̄</mapping>
+					<mapping type="normalized">n</mapping>
+				</char>
+
+				<char xml:id="Qtilde">
+					<unicodeProp name="Name" value="LATIN CAPITAL LETTER Q WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+0051 + U+0303</mapping>
+					<mapping type="diplomatic">Q̃</mapping>
+					<mapping type="normalized">Q</mapping>
+				</char>
+
+				<char xml:id="Itilde">
+					<unicodeProp name="Name" value="LATIN CAPITAL LETTER I WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+0049 + U+0303</mapping>
+					<mapping type="diplomatic">Ĩ</mapping>
+					<mapping type="normalized">I</mapping>
+				</char>
+
+				<char xml:id="Utilde">
+					<unicodeProp name="Name" value="LATIN CAPITAL LETTER U WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+0055 + U+0303</mapping>
+					<mapping type="diplomatic">Ũ</mapping>
+					<mapping type="normalized">U</mapping>
+				</char>
+
+				<char xml:id="lmacr">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER L WITH MACRON"/>
+					<mapping subtype="composed" type="codepoint">U+006C + U+0304</mapping>
+					<mapping type="diplomatic">l̄</mapping>
+					<mapping type="normalized">l</mapping>
+				</char>
+
+				<char xml:id="Ntilde">
+					<unicodeProp name="Name" value="LATIN CAPITAL LETTER N WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+00D1</mapping>
+					<mapping type="diplomatic">Ñ</mapping>
+					<mapping type="normalized">N</mapping>
+				</char>
+
+				<char xml:id="racute">
+					<unicodeProp name="Name" value="LATIN CAPITAL LETTER R WITH ACUTE"/>
+					<mapping subtype="composed" type="codepoint">U+0155</mapping>
+					<mapping type="diplomatic">ŕ</mapping>
+					<mapping type="normalized">r</mapping>
+				</char>
+
+				<char xml:id="gtilde">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER G WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+0067 + U+0303</mapping>
+					<mapping type="diplomatic">g̃</mapping>
+					<mapping type="normalized">g</mapping>
+				</char>
+
+				<char xml:id="smacr">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER S WITH MACRON"/>
+					<mapping subtype="composed" type="codepoint">U+0073 + U+0304</mapping>
+					<mapping type="diplomatic">s̄</mapping>
+					<mapping type="normalized">s</mapping>
+				</char>
+
+				<char xml:id="dstroke">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER D WITH STROKE"/>
+					<mapping subtype="composed" type="codepoint">U+0111</mapping>
+					<mapping type="diplomatic">đ</mapping>
+					<mapping type="normalized">d</mapping>
+				</char>
+
+				<char xml:id="bstroke">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER B WITH STROKE"/>
+					<mapping subtype="composed" type="codepoint">U+0180</mapping>
+					<mapping type="diplomatic">ƀ</mapping>
+					<mapping type="normalized">b</mapping>
+				</char>
+
+				<char xml:id="tacute">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER T WITH ACUTE"/>
+					<mapping subtype="composed" type="codepoint">U+0074 + U+02CA</mapping>
+					<mapping type="diplomatic">tˊ</mapping>
+					<mapping type="normalized">t</mapping>
+				</char>
+
+				<glyph xml:id="orlig">
+					<unicodeProp name="Name" value="LATIN SMALL LIGATURE OR"/>
+					<mapping type="ligature">U+006F + U+0280</mapping>
+					<mapping type="diplomatic">oʀ</mapping>
+					<mapping type="normalized">or</mapping>
+				</glyph>
+
+				<char xml:id="iring">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER T WITH ACUTE"/>
+					<mapping subtype="composed" type="codepoint">U+0069 + U+0357</mapping>
+					<mapping type="diplomatic">i͗</mapping>
+					<mapping type="normalized">i</mapping>
+				</char>
+
+				<char xml:id="pflourish">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER P WITH FLOURISH"/>
+					<mapping subtype="composed" type="codepoint">U+A753</mapping>
+					<mapping type="diplomatic">ꝓ</mapping>
+					<mapping type="normalized">p</mapping>
+				</char>
+
+				<char xml:id="Dtilde">
+					<unicodeProp name="Name" value="LATIN CAPITAL LETTER D WITH TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+0044 + U+02DC</mapping>
+					<mapping type="diplomatic">D˜</mapping>
+					<mapping type="normalized">D</mapping>
+				</char>
+
+				<char xml:id="cmacr">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER C WITH MACRON"/>
+					<mapping subtype="composed" type="codepoint">U+0063 + U+0304</mapping>
+					<mapping type="diplomatic">c̄</mapping>
+					<mapping type="normalized">c</mapping>
+				</char>
+
+				<!-- AGGIUNTI DA FABIO SONCIN -->
+				<char xml:id="icurl">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER I WITH CULR"/>
+					<mapping subtype="composed" type="codepoint">U+0069 + U+1DCE</mapping>
+					<mapping type="diplomatic">i᷎</mapping>
+					<mapping type="normalized">i</mapping>
+				</char>
+
+				<char xml:id="ra">
+					<unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE"/>
+					<mapping subtype="composed" type="codepoint">U+1DD3</mapping>
+					<mapping type="diplomatic">&#7635;</mapping>
+					<mapping type="normalized"/>
+				</char>
+
+				<char xml:id="erang">
+					<unicodeProp name="Name" value="COMBINING ABBREVIATION MARK ZIGZAG ABOVE ANGLE FORM"/>
+					<mapping subtype="composed" type="codepoint">U+F1C7</mapping>
+					<mapping type="diplomatic">&#61895;</mapping>
+					<mapping type="normalized"/>
+				</char>
+
+				<char xml:id="asmallabove">
+					<unicodeProp name="Name" value="COMBINING SMALL LETTER A"/>
+					<mapping subtype="composed" type="codepoint">U+0363</mapping>
+					<mapping type="diplomatic">ͣ</mapping>
+					<mapping type="normalized">a</mapping>
+				</char>
+
+				<char xml:id="bstrok">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER B WITH STROKE"/>
+					<mapping subtype="composed" type="codepoint">U+0180</mapping>
+					<mapping type="diplomatic">ƀ</mapping>
+					<mapping type="normalized">b</mapping>
+				</char>
+
+				<char xml:id="hstrok">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER H WITH STROKE"/>
+					<mapping subtype="composed" type="codepoint">U+0180</mapping>
+					<mapping type="diplomatic">ħ</mapping>
+					<mapping type="normalized">h</mapping>
+				</char>
+
+				<char xml:id="ismallabove">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER P WITH CURL"/>
+					<mapping subtype="composed" type="codepoint">U+0180</mapping>
+					<mapping type="diplomatic">ͥ</mapping>
+					<mapping type="normalized">i</mapping>
+				</char>
+
+				<char xml:id="pcurl">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER P WITH CURL"/>
+					<mapping subtype="composed" type="codepoint">U+0070 + U+1DCE</mapping>
+					<mapping type="diplomatic">p᷎</mapping>
+					<mapping type="normalized">p</mapping>
+				</char>
+
+				<char xml:id="qbardestilde">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER AND TILDE"/>
+					<mapping subtype="composed" type="codepoint">U+A757 + U+0303</mapping>
+					<mapping type="diplomatic"></mapping>
+					<mapping type="normalized">q</mapping>
+				</char>
+
+				<char xml:id="et">
+					<unicodeProp name="Name" value="TIRONIAN SIGN ET"/>
+					<mapping subtype="composed" type="codepoint">U+204A</mapping>
+					<mapping type="diplomatic">⁊</mapping>
+					<mapping type="normalized">et</mapping>
+				</char>
+
+				<char xml:id="orumlig">
+					<unicodeProp name="Name" value="LATIN SMALL LIGATURE O RUM"/>
+					<mapping subtype="composed" type="codepoint">U+EFBA</mapping>
+					<mapping type="diplomatic"></mapping>
+					<mapping type="normalized">orum</mapping>
+				</char>
+
+				<char xml:id="esmallabove">
+					<unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER E"/>
+					<mapping subtype="composed" type="codepoint">U+0364</mapping>
+					<mapping type="diplomatic">ͤ</mapping>
+					<mapping type="normalized">e</mapping>
+				</char>
+
+				<char xml:id="mtailstrok">
+					<unicodeProp name="Name" value="LATIN SMALL LETTER MUM"/>
+					<mapping subtype="composed" type="codepoint">U+A773</mapping>
+					<mapping type="diplomatic">ꝳ</mapping>
+					<mapping type="normalized">m</mapping>
+				</char>
+
+				<char xml:id="osmallabove">
+					<unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER O"/>
+					<mapping subtype="composed" type="codepoint">U+0366</mapping>
+					<mapping type="diplomatic">ͦ</mapping>
+					<mapping type="normalized">o</mapping>
+				</char>
+
+				<char xml:id="rsmallabove">
+					<unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER R"/>
+					<mapping subtype="composed" type="codepoint">U+036C</mapping>
+					<mapping type="diplomatic">ͬ</mapping>
+					<mapping type="normalized">r</mapping>
+				</char>
+
+				<char xml:id="dblovl">
+					<unicodeProp name="Name" value="COMBINING DOUBLE OVERLINE"/>
+					<mapping subtype="composed" type="codepoint">U+033F</mapping>
+					<mapping type="diplomatic">̿</mapping>
+					<mapping type="normalized"/>
+				</char>
+
+				<char xml:id="combcurlbar">
+					<unicodeProp name="Name" value="COMBINING CURLY BAR ABOVE"/>
+					<mapping subtype="composed" type="codepoint">U+F1CC</mapping>
+					<mapping type="diplomatic"></mapping>
+					<mapping type="normalized"/>
+				</char>
+				<char xml:id="Pmacr">
+					<unicodeProp name="Name" value="LATIN LARGE LETTER P WITH MACRON"/>
+					<mapping subtype="composed" type="codepoint">U+0050 + U+0304</mapping>
+					<mapping type="diplomatic">P̄</mapping>
+					<mapping type="normalized">P</mapping>
+				</char>
+				<char xml:id="combcurl">
+					<unicodeProp name="Name" value="COMBINING OGONEK ABOVE (CURL)"/>
+					<mapping subtype="composed" type="codepoint">U+1DCE</mapping>
+					<mapping type="diplomatic">᷎</mapping>
+					<mapping type="normalized"/>
+				</char>
+				<char xml:id="ssup">
+					<unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER S"/>
+					<mapping subtype="composed" type="codepoint">U+1DE4</mapping>
+					<mapping type="diplomatic">&#7652;</mapping>
+					<mapping type="normalized">s</mapping>
+				</char>
+			</charDecl>
+		</encodingDesc>
+
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+				<language ident="lng">Langobardic</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Documentaria</term>
+					<term type="genre">Testo giuridico</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+
+	<facsimile xml:id="VL5359_facsimile">
+		<surface xml:id="VL5359_fol_069v">
+			<graphic type="full_res" url="https://digi.vatlib.it/iiifimage/MSS_Vat.lat.5359/Vat.lat.5359_0011_fa_0069v.jp2/full/full/0/default.jpg"/>
+		</surface>
+	</facsimile>
+
+
+	<text type="prose" n="Leggi di Grimoaldo" xml:id="VL5359_LG">
+		<body>
+			<!-- ##### 69v #####-->
+			<pb n="69v" xml:id="VL5359_folio_069v"/>
+			<div xml:id="VL5359_LG_Incipit" type="prose" subtype="edition_text">
+				<head>
+					<lb xml:id="VL5359_lb_069v_7" n="7"/><w><choice>
+							<abbr>INCI<am><g ref="#Pmacr"/></am></abbr>
+							<expan>INCI<g ref="#Pmacr"/><ex>IT</ex></expan>
+					</choice></w> <w><choice>
+							<orig>Q<c>u</c>oD</orig>
+							<reg>Q<c>U</c>OD</reg>
+					</choice></w> <w><choice>
+							<orig><abbr>DoMNS</abbr></orig>
+							<reg><expan>DOM<ex>I</ex>N<ex>U</ex>S</expan></reg>
+					</choice></w> <persName><w><choice>
+							<orig>CRIm<c>U</c>aLd</orig>
+							<reg>CRIM<c>U</c>ALD</reg>
+					</choice></w></persName> <w><choice>
+							<orig>Addit</orig>
+							<reg>ADDIT</reg>
+					</choice></w>
+				</head>
+				
+				<div xml:id="VL5359_LG_Prologus" type="prose" subtype="edition_text">
+					<p>
+						<lb xml:id="VL5359_lb_069v_8" n="8"/><w><hi rend="init3.1">S</hi><c>u</c>periori</w> <w>pagina</w> <w>h<c>u</c>i<c>u</c>s</w> <w>edicto</w> <w>legit<c>u</c>r</w><orig>.</orig>
+						<lb xml:id="VL5359_lb_069v_9" n="9"/><w>ita</w> <w><c>u</c>t</w> <w>q<c>u</c>od</w> <w>adh<c>u</c>c</w> <w>ann<c>u</c>ente</w> <w><choice>
+								<abbr>dn<am><g ref="#omacr"/></am></abbr>
+								<expan>d<ex>omi</ex>n<g ref="#omacr"/></expan>
+						</choice></w>
+						<lb xml:id="VL5359_lb_069v_10" n="10"/><w><choice>
+								<orig>In</orig>
+								<reg>in</reg>
+						</choice></w> 
+						<w>ea</w>
+				<w>memorare</w> <w><choice>
+						<abbr>pot<c>u</c>erims</abbr>
+						<expan>pot<c>u</c>erim<ex>u</ex>s</expan>
+				</choice></w> 
+						<w>de</w> 
+						<w>sig<lb xml:id="VL5359_lb_069v_11" n="11"/>gulis</w> <w>causis</w><g ref="#middot"/> <w><choice>
+								<abbr>q<am>;</am></abbr>
+								<expan>q<ex>uae</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>In<am></am></abbr>
+								<expan>in<ex></ex></expan>
+						</choice></w> <w><g ref="#pmacr"/>senti</w> 
+						<lb xml:id="VL5359_lb_069v_12" n="12"/><w>non</w> <w>s<c>u</c>nt</w> <w>adficte</w> <w><choice>
+								<orig>In</orig>
+								<reg>in</reg>
+						</choice></w>
+						<lb xml:id="VL5359_lb_069v_13" n="13"/><w>hoc</w> <w>edicto</w> <w><choice>
+								<sic>adi<c>u</c>nge</sic>
+								<corr>adi<c>u</c>ngere</corr>
+						</choice></w> <w>debeamus</w> 
+						<lb xml:id="VL5359_lb_069v_14" n="14"/><w>ita</w> <w><c>u</c>t</w> <w>cause</w> <w><choice>
+								<abbr>q<am><g ref="#twodot"/></am></abbr>
+								<expan>q<ex><g ref="#twodot"/></ex></expan>
+						</choice></w> <w><choice>
+								<sic>indicate</sic>
+								<corr>iudicate</corr>
+						</choice></w> <w>s<c>u</c>nt</w> 
+						<lb xml:id="VL5359_lb_069v_15" n="15"/><w><g ref="#etlig"/></w> <w>fenite</w> <w><choice>
+								<abbr><am><g ref="#nmacr"/></am></abbr>
+								<expan><g ref="#nmacr"/><ex>on</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>re<c corresp="#v">u</c>ol<c corresp="#v">u</c>an<am>t<g ref="#combcurl"/></am></abbr>
+								<expan>re<c corresp="#v">u</c>ol<c corresp="#v">u</c>ant<ex>ur</ex></expan>
+						</choice></w><orig><pc>;</pc></orig> <w>Ideo</w>
+						<lb xml:id="VL5359_lb_069v_16" n="16"/><w>ego</w> <w>grimualtu<g ref="#ssup"/></w> <w><c>u</c>ir</w> 
+						<w>excellen<lb xml:id="VL5359_lb_069v_17" n="17"/>tissim<c>u</c>s</w><g ref="#middot"/> <w>rex</w> <w>gentis</w> 
+						<w>langobar<lb xml:id="VL5359_lb_069v_18" n="18"/>dorum</w><g ref="#middot"/> <w>anno</w> <w><choice>
+								<abbr>d<am><g ref="#omacr"/></am></abbr>
+								<expan>d<ex>e</ex><g ref="#omacr"/></expan>
+						</choice></w> <w><choice>
+								<abbr><am><g ref="#pflour"/></am>picio</abbr>
+								<expan><g ref="#pflour"/><ex>ro</ex>picio</expan>
+						</choice></w> <g ref="#middot"/><w>UI</w><g ref="#middot"/> <w>regni</w> 
+						
+						<!-- ###### 70r ###### -->
+						<pb n="70r" xml:id="VL5359_folio_070r"/>
+						<lb xml:id="VL5359_lb_070r_1" n="1"/><w>mei</w> <w>mense</w> <w>julio</w> <w>indicione</w> <w>undecima</w> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am></abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex></expan>
+						</choice></w> 
+						<w>s<c>u</c>c<lb xml:id="VL5359_lb_070r_2" n="2"/>gestione</w> <w><choice>
+								<abbr>i<c>u</c>dic<am><g ref="#umacr"/></am></abbr>
+								<expan>i<c>u</c>dic<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>omni<am><g ref="#umacr"/></am>q<am><g ref="#twodot"/></am></abbr>
+								<expan>omni<g ref="#umacr"/><ex>m</ex>q<ex><g ref="#twodot"/></ex></expan>
+						</choice></w> <w>consens<c>u</c></w> <w>ea</w> <w><choice>
+								<sic>q</sic>
+								<corr>quae</corr>
+						</choice></w> <w>illis</w> 
+						<lb xml:id="VL5359_lb_070r_3" n="3"/><w>d<c>u</c>ra</w> <w><g ref="#etlig"/></w> <w>impia</w> <w>in</w> <w>hoc</w> <w>edicto</w> <w><c corresp="#v">u</c>isa</w> <w>s<c>u</c>nt</w> <w>ad</w> 
+						<lb xml:id="VL5359_lb_070r_4" n="4"/><w>meliorem</w><g ref="#middot"/> <w><choice>
+								<abbr>stat<am><g ref="#umacr"/></am></abbr>
+								<expan>stat<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w><g ref="#middot"/> <w><g ref="#etlig"/></w> <w><choice>
+								<abbr>cle<am><g ref="#mmacr"/></am>ciorem</abbr>
+								<expan>cle<g ref="#mmacr"/><ex>en</ex>ciorem</expan>
+						</choice></w><g ref="#middot"/> <w><choice>
+								<orig>remedjo<add place="above"><g ref="#umacr"/></add></orig>
+								<reg>remedj<g ref="#umacr"/>m</reg>
+						</choice></w>
+						<lb xml:id="VL5359_lb_070r_5" n="5"/><w>corrigere</w><g ref="#middot"/> <w><g ref="#etlig"/></w> <w><choice>
+								<sic>re<c>u</c>oca</sic>
+								<corr>re<c>u</c>ocare</corr>
+						</choice></w> <w><choice>
+								<abbr><am><g ref="#pmacr"/></am><c corresp="#v">u</c>idim<c>u</c>s</abbr>
+								<expan><g ref="#pmacr"/><ex>re</ex><c corresp="#v">u</c>idim<c>u</c>s</expan>
+						</choice></w><g ref="#middot"/></p>
+				</div>	
+			</div>
+			<div xml:id="VL5359_LG_rubriche_iniziali" type="prose" subtype="edition_text">
+				<p>
+					<lb xml:id="VL5359_lb_070r_6" n="6"/><w>INCIPIT</w> <w>CAPITULA</w> <w>EIUS</w> <w><choice>
+							<abbr>DOM</abbr>
+							<expan>DOM<ex>INUS</ex></expan>
+					</choice></w><orig><pc>:</pc></orig>
+				</p>
+				<p corresp="#VL5359_LG_p_1">
+					<lb xml:id="VL5359_lb_070r_7" n="7"/>
+					<label n="1"><w>i</w></label><g ref="#middot"/> <w><hi rend="cap">S</hi>i</w> <w>ser<c corresp="#v">u</c><c>u</c>s</w> <w><c corresp="#v">u</c>el</w> <w>ancilla</w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am></abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex></expan>
+					</choice></w> <g ref="#middot"/><w>XXX</w><g ref="#middot"/>
+					<w>annos</w> <w>ser<c corresp="#v">u</c>ierit</w><pc><g ref="#middot"/></pc>
+				</p>
+				<p corresp="#VL5359_LG_p_2">
+					<lb xml:id="VL5359_lb_070r_8" n="8"/>
+					<label n="1"><w>ii</w></label><g ref="#middot"/><w><hi rend="cap">S</hi>i</w> <w><choice>
+							<abbr><am><g ref="#qmacr"/></am></abbr>
+							<expan><g ref="#qmacr"/><ex>uis</ex></expan>
+					</choice></w><g ref="#middot"/> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am></abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex></expan>
+					</choice></w> <w><choice>
+							<orig>xxx</orig>
+							<reg>XXX</reg>
+					</choice></w><g ref="#middot"/> <w>annos</w> <w><choice>
+							<orig>In</orig>
+							<reg>in</reg>
+					</choice></w> <w>libertate</w> <w><g ref="#pbardes"/>manse<g ref="#combcurl"/>rit</w><orig><pc>;</pc></orig>
+				</p>
+				<p corresp="#VL5359_LG_p_3">
+					<lb xml:id="VL5359_lb_070r_9" n="9"/>
+					<label n="1"><w>iij</w></label><g ref="#middot"/><w><hi rend="cap">I</hi>ncisio</w> <w>conposiciones</w><g ref="#middot"/> <w>de</w> <w>ser<c corresp="#v">u</c>o</w> <w><choice>
+							<abbr><am><g ref="#qbardes"/><g ref="#dstrok"/></am></abbr>
+							<expan><g ref="#qbardes"/><ex>uo</ex><g ref="#dstrok"/></expan>
+					</choice></w> <w><choice>
+							<sic>e</sic>
+							<corr>est</corr>
+					</choice></w> <g ref="#middot"/><measure quantity="400" type="denaro" unit="soldi"><w>D<g ref="#middot"/>CCCC</w></measure><g ref="#middot"/> <w><choice>
+							<abbr>so<am><g ref="#lhighstrok"/></am></abbr>
+							<expan>so<g ref="#lhighstrok"/><ex>idos</ex></expan>
+					</choice></w><g ref="#middot"/><g ref="#middot"/>
+				</p>
+				<p corresp="#VL5359_LG_p_4">
+					<lb xml:id="VL5359_lb_070r_10" n="10"/>
+					<label n="1"><w>iiij</w></label><g ref="#middot"/> <w><hi rend="cap">S</hi>i</w> <w><choice>
+							<abbr><am><g ref="#qmacr"/></am></abbr>
+							<expan><g ref="#qmacr"/><ex>uis</ex></expan>
+					</choice></w><g ref="#middot"/> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am></abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex></expan>
+					</choice></w> <w><choice>
+							<orig>xxx</orig>
+							<reg>XXX</reg>
+					</choice></w><g ref="#middot"/> <w>annos</w> <w>possederit</w><g ref="#middot"/> <w>casa</w> <w>alteri<c>u</c>s</w><orig><pc>;</pc></orig>
+				</p>
+				<p corresp="#VL5359_LG_p_5">
+					<lb xml:id="VL5359_lb_070r_11" n="11"/>
+					<label n="1"><w><c corresp="#v">u</c></w></label><g ref="#middot"/><w><c>u</c>t</w> <w><choice>
+							<abbr>eq<c>u</c>ali<am><g ref="#tmacr"/></am></abbr>
+							<expan>eq<c>u</c>ali<g ref="#tmacr"/><ex>er</ex></expan>
+					</choice></w> <w>di<c corresp="#v">u</c>idant</w> <w>nep<c>u</c>s</w> <w><g ref="#etlig"/></w> <w>barba</w><pc><g ref="#middot"/></pc>
+				</p>
+				<p corresp="#VL5359_LG_p_6">
+					<lb xml:id="VL5359_lb_070r_12" n="12"/>
+					<label n="1"><w><c corresp="#v">u</c>j</w></label><g ref="#middot"/> <w><hi rend="cap">S</hi>i</w> <w><choice>
+							<abbr><am><g ref="#qmacr"/></am></abbr>
+							<expan><g ref="#qmacr"/><ex>uis</ex></expan>
+					</choice></w> <w><choice>
+							<orig><abbr><c>u</c>xor<am><g ref="#emacr"/></am></abbr></orig>
+							<reg><expan><c>u</c>xor<g ref="#emacr"/><ex>m</ex></expan></reg>
+					</choice></w> <w>c<c>u</c>lpa</w> <w>po<g ref="#stlig"/>pos<c>u</c>erit</w><orig><pc>;</pc></orig>
+				</p>
+				<p corresp="#VL5359_LG_p_7">
+					<lb xml:id="VL5359_lb_070r_13" n="13"/>
+					<label n="1"><w><c corresp="#v">u</c>ij</w></label><g ref="#middot"/> <w><hi rend="cap">S</hi>i</w> <w><choice>
+							<abbr><am><g ref="#qmacr"/></am></abbr>
+							<expan><g ref="#qmacr"/><ex>uis</ex></expan>
+					</choice></w> <term><w>asto</w></term> <w><choice>
+							<orig>Incriminauerit</orig>
+							<reg>incriminaverit</reg>
+					</choice></w><g ref="#middot"/> <w><choice>
+							<orig><abbr><c>u</c>xor<am><g ref="#emacr"/></am></abbr></orig>
+							<reg><expan><c>u</c>xor<g ref="#emacr"/><ex>m</ex></expan></reg>
+					</choice></w> <w><choice>
+							<abbr>s<c>u</c><am><g ref="#amacr"/></am></abbr>
+							<expan>s<c>u</c><g ref="#amacr"/><ex>m</ex></expan>
+					</choice></w><orig><pc>;</pc></orig>
+				</p>
+				<p corresp="#VL5359_LG_p_8">
+					<lb xml:id="VL5359_lb_070r_14" n="14"/>
+					<label n="1"><w><c corresp="#v">u</c>iij</w></label><g ref="#middot"/> <w><hi rend="cap">S</hi>i</w> <w>m<c>u</c>lier</w> <w><choice>
+							<orig>In</orig>
+							<reg>in</reg>
+					</choice></w> <w>n<c>u</c>pta</w> <w><choice>
+							<abbr>s<c>u</c><am><g ref="#pabrdes"/></am></abbr>
+							<expan>s<c>u</c><g ref="#pabrdes"/><ex>er</ex></expan>
+					</choice></w> <w><choice>
+							<abbr>n<c>u</c>pt<am><g ref="#amcr"/></am></abbr>
+							<expan>n<c>u</c>pt<g ref="#amcr"/><ex>m</ex></expan>
+					</choice></w> <w>m<c>u</c>liere</w> <w>se</w> <w>iniecerit</w><orig><pc>.</pc></orig>					</p>
+				<p corresp="#VL5359_LG_p_9">
+					<lb xml:id="VL5359_lb_070r_15" n="15"/>
+					<label n="1"><w><c corresp="#v">u</c>iiij</w></label><g ref="#middot"/> <w><hi rend="cap">S</hi>i</w> <w>ancilla</w> <w>f<c>u</c>rto</w> <w>fecerit</w><pc>;</pc>
+				</p>
+			</div>
+			<div xml:id="VL5359_LG_capitula">
+					<p xml:id="VL5359_LG_p_1" n="1">
+						<lb xml:id="VL5359_lb_070r_16" n="16"/><label n="1"><w>I</w></label><g ref="#middot"/> <w><hi rend="init3.1">S</hi>i</w> <w>ser<c corresp="#v">u</c><c>u</c>s</w> <w>a<c>u</c>t</w> <w>ancilla</w> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am></abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex></expan>
+						</choice></w> <g ref="#middot"/><w>XXX</w><g ref="#middot"/>
+					<w>annos</w><g ref="#middot"/> 
+						<lb xml:id="VL5359_lb_070r_17" n="17"/><w>de</w> <w>q<c>u</c>ib<g ref="#semi"/></w> <w>rei</w> <w><c corresp="#v">u</c>eritas</w> <w>f<c>u</c>erit</w> <w>cognita</w> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am></abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex></expan>
+						</choice></w> <g ref="#middot"/><w>XXX</w><g ref="#middot"/> 
+						<lb xml:id="VL5359_lb_070r_18" n="18"/><w>annos</w> <w>domin<c>u</c>s</w> <w>suis</w><g ref="#middot"/> <w>ser<c corresp="#v">u</c>issem</w><g ref="#middot"/> <w><g ref="#etlig"/></w> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am></abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex></expan>
+						</choice></w> <orig><w>s<c>u</c><g ref="#pbardes"/></w></orig> 
+						
+						<!-- ##### 70v ###### -->
+						<pb n="70v" xml:id="VL5359_folio_070v"/>
+						<lb xml:id="VL5359_lb_070v_1" n="1"/><w><choice>
+								<abbr>s<c>u</c><am><g ref="#pbardes"/></am>biam</abbr>
+								<expan>s<c>u</c><g ref="#pbardes"/><ex>er</ex>biam</expan>
+						</choice></w><g ref="#middot"/> <w>a<c>u</c>t</w> <w><choice>
+								<orig>Iniu<g ref="#stlig"/>a</orig>
+								<reg>iniu<g ref="#stlig"/>a</reg>
+						</choice></w> <w>patrocinia</w><g ref="#middot"/> <w>seo</w> 
+						<w><c corresp="#v">u</c>ol<c>u</c><lb xml:id="VL5359_lb_070v_2" n="2"/>erit</w> <w>de</w> <w>domino</w> <w>s<c>u</c>o</w><g ref="#middot"/> <w><choice>
+								<abbr><am><g ref="#pflour"/></am>prio</abbr>
+								<expan><g ref="#pflour"/><ex>ro</ex>prio</expan>
+						</choice></w> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am></abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex></expan>
+						</choice></w> <w>p<c>u</c>gna</w> 
+						<w><c corresp="#v">u</c>ince<lb xml:id="VL5359_lb_070v_3" n="3"/>re</w><g ref="#middot"/> <w>n<c>u</c>llaten<c>u</c>s</w><g ref="#middot"/> <w>ei</w> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am>mittim<c>u</c>s</abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex>mittim<c>u</c>s</expan>
+						</choice></w> <w>s<g ref="#etlig"/></w> <w>ser<c corresp="#v">u</c>ia</w> 
+						<lb xml:id="VL5359_lb_070v_4" n="4"/><w>sic<c>u</c>t</w> <w>dec<g ref="#etlig"/></w> <w>ser<c corresp="#v">u</c>o</w> <w>a<c>u</c>t</w> <del><w>a<c>u</c>t</w></del> <w>ancilla</w> <w><choice>
+								<abbr><am><g ref="#pflour"/></am>prio</abbr>
+								<expan><g ref="#pflour"/><ex>ro</ex>prio</expan>
+						</choice></w> 
+						<w>do<lb xml:id="VL5359_lb_070v_5" n="5"/>mino</w> <w>s<c>u</c>o</w><pc><g ref="#middot"/></pc> <w><choice>
+								<abbr><hi rend="cap">S</hi>imili<am><g ref="#tmacr"/></am></abbr>
+								<expan><hi rend="cap">S</hi>imili<g ref="#tmacr"/><ex>er</ex></expan>
+						</choice></w> <add place="above"><w><g ref="#etlig"/></w></add> <w>si</w> <term xml:lang="lng" ref="#aldio" xml:id="VL5359_LG_term_aldio_01"><w>aldi<c>u</c>s</w></term> <w>f<c>u</c>erit</w><g ref="#middot"/>
+						<w>inpen<lb xml:id="VL5359_lb_070v_6" n="6"/>dat</w> <w>obediencia</w> <w>patrono</w> <w>s<c>u</c>o</w><pc><g ref="#middot"/></pc> <w>sic<c>u</c>t</w> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am></abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex></expan>
+						</choice></w> 
+						<lb xml:id="VL5359_lb_070v_7" n="7"/><g ref="#middot"/><w>XXX</w><g ref="#middot"/> <w>annos</w><g ref="#middot"/> <w>fecit</w> <add place="above"><w><g ref="#etlig"/></w></add> <w>ei</w> <w>no<c corresp="#v">u</c>a</w>
+					<w>a</w> <w><choice>
+							<abbr>dn<am><g ref="#omacr"/></am></abbr>
+							<expan>d<ex>omi</ex>n<g ref="#omacr"/></expan>
+					</choice></w> <w>s<c>u</c>o</w> 
+						<w>am<lb xml:id="VL5359_lb_070v_8" n="8"/>plius</w> <w>non</w> <w><choice>
+								<abbr>inponan<am>t<g ref="#combcurl"/></am></abbr>
+								<expan>inponant<ex>ur</ex></expan>
+						</choice></w><orig><pc>;</pc></orig> <w>sed</w> <w>liceat</w> 
+						<lb xml:id="VL5359_lb_070v_9" n="9"/><w><choice>
+								<abbr>e<am><g ref="#umacr"/></am></abbr>
+								<expan>e<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>res</w> <w>s<c>u</c>as</w> <w>habere</w> <w>q<c>u</c>asi</w> <w><choice>
+								<abbr><am><g ref="#pbrdes"/></am></abbr>
+								<expan><g ref="#pbrdes"/><ex>er</ex></expan>
+						</choice></w> 
+						<lb xml:id="VL5359_lb_070v_10" n="10"/><g ref="#middot"/><w>XXX</w><g ref="#middot"/> <w><choice>
+								<abbr>annor<am><g ref="#umacr"/></am></abbr>
+								<expan>annor<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w><g ref="#middot"/> <w>spacia</w> <w>iuste</w> <w>possedit</w><g ref="#middot"/>
+					</p>
+					<p xml:id="VL5359_LG_p_2" n="2">
+						<lb xml:id="VL5359_lb_070v_11" n="11"/><g ref="#middot"/><label n="2"><w>II</w></label><g ref="#middot"/> <hi rend="cap"><w>DE</w></hi> <hi rend="cap"><w>LIBERIS</w></hi><g ref="#middot"/> <w><hi rend="cap">D</hi>e</w> <w>q<c>u</c>ib<c>u</c>s</w> 
+						<w>con<lb xml:id="VL5359_lb_070v_12" n="12"/>stat</w><g ref="#middot"/> <g ref="#middot"/><w>XXX</w><g ref="#middot"/> <w>annos</w> <w><choice>
+								<orig>In</orig>
+								<reg>in</reg>
+						</choice></w> <w>libertate</w> <w>s<c>u</c>a</w><g ref="#middot"/> 
+						<w><choice>
+								<abbr><am><g ref="#pbardes"/></am></abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex></expan>
+						</choice><lb xml:id="VL5359_lb_070v_13" n="13"/>mansis<g ref="#etlig"/></w><g ref="#middot"/>
+					<w>n<c>u</c>lla</w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am></abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex></expan>
+					</choice></w> <w><choice>
+							<abbr>p<c>u</c>gn<am><g ref="#amacr"/></am></abbr>
+							<expan>p<c>u</c>gn<g ref="#amacr"/><ex>m</ex></expan>
+					</choice></w> <w>pacia<add place="above">n</add>t<c>u</c>r</w> 
+						<w><c corresp="#v">u</c>ilen<lb xml:id="VL5359_lb_070v_14" n="14"/>cias</w><g ref="#middot"/><w>sed</w> <w>liceat</w> <w>eos</w> <w><choice>
+								<orig>In</orig>
+								<reg>in</reg>
+						</choice></w> <w>liberta</w> <w>s<c>u</c>a</w> 
+						<w><choice>
+								<abbr><am><g ref="#pbardes"/></am></abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex></expan>
+						</choice>ma<lb xml:id="VL5359_lb_070v_15" n="15"/>nere</w><orig><pc>;</pc></orig> <w><g ref="#etlig"/></w> <w>si</w> <w>eo<add>s</add></w> <w><choice>
+								<abbr>q<c>u</c>ec<am><g ref="#umacr"/></am>q<am>;</am></abbr>
+								<expan>q<c>u</c>ec<g ref="#umacr"/><ex>m</ex>q<ex>ue</ex></expan>
+						</choice></w> <w>p<c>u</c>lsa<c corresp="#v">u</c>erit</w> 
+						<lb xml:id="VL5359_lb_070v_16" n="16"/><w>liceat</w> <w>eis</w> <w>c<c>u</c>m</w> <w>sacramentalib<g ref="#semi"/></w> <w>legitimis</w>
+						<lb xml:id="VL5359_lb_070v_17" n="17"/><w>seo</w> <w>adoniare</w><pc><g ref="#middot"/></pc>
+					</p>
+					
+					<!-- ##### 71r ###### -->
+					<pb n="71r" xml:id="VL5359_folio_071r"/>
+					<p xml:id="VL5359_LG_p_3" n="3">
+						<lb xml:id="VL5359_lb_071r_1" n="1"/><label n="3"><w>III</w></label><g ref="#middot"/> <w><hi rend="init3.1">S</hi>i</w> <w>ser<c corresp="#v">u</c><c>u</c>s</w> <w>talem</w> <w><choice>
+								<abbr>c<c>u</c>lp<am><g ref="#amacr"/></am></abbr>
+								<expan>c<c>u</c>lp<g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> <w>fecerit</w><g ref="#middot"/> <w><c>u</c>nde</w> <g ref="#middot"/><w>D<g ref="#middot"/>CCCC</w><g ref="#middot"/>
+						<lb xml:id="VL5359_lb_071r_2" n="2"/><w>solidi</w> <w>proprio</w> <w>domino</w><g ref="#middot"/> <w><choice>
+								<abbr>I<c>u</c>ben<am>t<g ref="#combcurl"/></am></abbr>
+								<expan>I<c>u</c>bent<ex>ur</ex></expan>
+						</choice></w><g ref="#middot"/> <w>componere</w> <w><choice>
+								<abbr><am><g ref="#qbardes"/></am></abbr>
+								<expan><g ref="#qbardes"/><ex>ui</ex></expan>
+						</choice></w>
+						<lb xml:id="VL5359_lb_071r_3" n="3"/><w>hoc</w> <w>edicto</w><g ref="#middot"/> <w>constit<c>u</c></w> <w>s<c>u</c>nt</w> <w>iudicantur</w>, <w>ut</w> <w>dominus</w> <w>pro</w> <w>servo</w> <w>amputa<add place="above">ri</add></w> <w>iussimus</w><orig><pc>;</pc></orig> 
+						<lb xml:id="VL5359_lb_071r_4" n="4"/><w><hi rend="cap">S</hi>i</w> <w><choice>
+								<abbr>fact<am><g ref="#umacr"/></am></abbr>
+								<expan>fact<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>f<c>u</c>erit</w><g ref="#middot"/> <del><w>In</w> <term xml:lang="lng" ref="#actogild" xml:id="VL5359_LG_term_actogild_03"><w>actoghld</w></term></del> <w>nihil</w><g ref="#middot"/> <w>aliud</w><g ref="#middot"/>
+						<lb xml:id="VL5359_lb_071r_5" n="5"/><w>conponat</w><g ref="#middot"/> <w><choice>
+								<abbr>domins</abbr>
+								<expan>domin<ex>u</ex>s</expan>
+						</choice></w> <w>ei<c>u</c>s</w><g ref="#middot"/> <w>nisi</w> <w>ipsa</w> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am>sona</abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex>sona</expan>
+						</choice></w><g ref="#middot"/> <del></del>
+						<lb xml:id="VL5359_lb_071r_6" n="6"/><w>tradat</w><g ref="#middot"/> <w>ad</w> <w><choice>
+								<abbr>occidend<am><g ref="#umacr"/></am></abbr>
+								<expan>occidend<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w><g ref="#etlig"/></w> <w>conponat</w> <w><choice>
+								<abbr><am><g ref="#pflour"/></am></abbr>
+								<expan><g ref="#pflour"/><ex>ro</ex></expan>
+						</choice></w> <w>inlicita</w> 
+						<lb xml:id="VL5359_lb_071r_7" n="7"/><w>ca<c>u</c>sa</w> <w><choice>
+								<abbr>q<am>;</am></abbr>
+								<expan>q<ex>uae</ex></expan>
+						</choice></w> <w>ser<c corresp="#v">u</c><c>u</c>s</w> <w>penetra<c corresp="#v">u</c>it</w> <w><choice>
+								<abbr>so<am><g ref="#lhighstrok"/></am></abbr>
+								<expan>so<g ref="#lhighstrok"/><ex>idos</ex></expan>
+						</choice></w> <g ref="#middot"/><measure quantity="60" type="denaro" unit="soldi"><w>LX</w></measure><g ref="#middot"/> 
+						<lb xml:id="VL5359_lb_071r_8" n="8"/><w>ampli<c>u</c>s</w> <w><choice>
+								<abbr><am><g ref="#nmacr"/></am></abbr>
+								<expan><g ref="#nmacr"/><ex>on</ex></expan>
+						</choice></w><g ref="#middot"/> <w><choice>
+								<abbr>re<am><g ref="#qbardes"/></am>ra<am>t<g ref="#combcurl"/></am></abbr>
+								<expan>re<g ref="#qbardes"/><ex>ui</ex>rat<ex>ur</ex></expan>
+						</choice></w><orig><pc>;</pc></orig> <w><g ref="#etlig"/></w> <w>si</w> 
+						<lb xml:id="VL5359_lb_071r_9" n="9"/><w>ipse</w> <w>ser<c corresp="#v">u</c><c>u</c>s</w> <w>f<c>u</c>ga</w> <w>lapsus</w><g ref="#middot"/> <w>f<c>u</c>erit</w>
+						<lb xml:id="VL5359_lb_071r_10" n="10"/><w><g ref="#etlig"/></w> <w><choice>
+								<abbr><am><g ref="#nmacr"/></am></abbr>
+								<expan><g ref="#nmacr"/><ex>on</ex></expan>
+						</choice></w> <w>pot<c>u</c>erit</w>
+					<w><choice>
+							<abbr>domins</abbr>
+							<expan>domin<ex>u</ex>s</expan>
+					</choice></w> <w><choice>
+							<abbr>e<am>i<g ref="#combcurlbar"/></am></abbr>
+							<expan>ei<ex>us</ex></expan>
+					</choice></w> <w>in<c corresp="#v">u</c>enire</w>
+						<lb xml:id="VL5359_lb_071r_11" n="11"/><w>d<g ref="#etlig"/></w> <w>ipse</w> <w>ser<c corresp="#v">u</c><c>u</c>s</w><g ref="#middot"/> <w><choice>
+								<abbr>so<am><g ref="#lhighstrok"/></am></abbr>
+								<expan>so<g ref="#lhighstrok"/><ex>idos</ex></expan>
+						</choice></w> <g ref="#middot"/><measure quantity="20" type="denaro" unit="soldi"><w>XX</w></measure><g ref="#middot"/> <w><g ref="#etlig"/></w> <w>prebeat</w><g ref="#middot"/> <w><choice>
+								<abbr>domins</abbr>
+								<expan>domin<ex>u</ex>s</expan>
+						</choice></w> <w><choice>
+								<abbr>e<am>i<g ref="#combcurlbar"/></am></abbr>
+								<expan>ei<ex>us</ex></expan>
+						</choice></w> 
+						<lb xml:id="VL5359_lb_071r_12" n="12"/><w><choice>
+								<abbr>sacra<am><g ref="#mmacr"/></am>t<am><g ref="#umacr"/></am></abbr>
+								<expan>sacra<g ref="#mmacr"/><ex>en</ex>t<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w><g ref="#middot"/> <w>q<c>u</c>o</w> <w><choice>
+								<abbr><am><g ref="#nmacr"/></am></abbr>
+								<expan><g ref="#nmacr"/><ex>on</ex></expan>
+						</choice></w> <w>pot<c>u</c>iss<g ref="#etlig"/></w> <w>ipso</w> <w>ser<c corresp="#v">u</c>o</w> 
+						<w><choice>
+								<orig>In</orig>
+								<reg>in</reg>
+						</choice><lb xml:id="VL5359_lb_071r_13" n="13"/><c corresp="#v">u</c>enire</w><g ref="#middot"/> <w>si</w> <w><choice>
+								<abbr>q<c>u</c>andoc<am><g ref="#umacr"/></am>q<am>;</am></abbr>
+								<expan>q<c>u</c>andoc<g ref="#umacr"/><ex>m</ex>q<ex>que</ex></expan>
+						</choice></w> <w><choice>
+								<orig>In<c corresp="#v">u</c>ent<c>u</c>s</orig>
+								<reg>in<c corresp="#v">u</c>ent<c>u</c>s</reg>
+						</choice></w> <w>f<c>u</c>erit</w> 
+						<w>tra<lb xml:id="VL5359_lb_071r_14" n="14"/>dat</w> <w><choice>
+								<abbr>e<am><g ref="#umacr"/></am></abbr>
+								<expan>e<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w><c>u</c>t</w> <w>s<c>u</c>pra</w> <w>a</w> <w><choice>
+								<abbr>moriend<am><g ref="#umacr"/></am></abbr>
+								<expan>moriend<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w><g ref="#middot"/> <w><g ref="#etlig"/></w> <w>recipiat</w> 
+						<lb xml:id="VL5359_lb_071r_15" n="15"/><w><choice>
+								<abbr>so<am><g ref="#lhighstrok"/></am></abbr>
+								<expan>so<g ref="#lhighstrok"/><ex>idos</ex></expan>
+						</choice></w> <g ref="#middot"/><measure quantity="20" type="denaro" unit="soldi"><w>XX</w></measure><g ref="#middot"/> <w>q<c>u</c>o</w> <w><choice>
+								<abbr><am><g ref="#pflour"/></am></abbr>
+								<expan><g ref="#pflour"/><ex>ro</ex></expan>
+						</choice></w>
+					<w>f<c>u</c>ga</w> <w>ipsi<c>u</c>s</w> <w>dedit</w> <w><choice>
+							<abbr>n<am><g ref="#amacr"/></am></abbr>
+							<expan>n<g ref="#amacr"/><ex>m</ex></expan>
+					</choice></w> <g ref="#middot"/><measure quantity="60" type="denaro" unit="soldi"><w>LX</w></measure><g ref="#middot"/> <w><choice>
+							<abbr>so<am><g ref="#lhighstrok"/></am></abbr>
+							<expan>so<g ref="#lhighstrok"/><ex>idos</ex></expan>
+					</choice></w><g ref="#middot"/>
+						<lb xml:id="VL5359_lb_071r_16" n="16"/><w><choice>
+								<abbr>con<am><g ref="#pmacr"/></am></abbr>
+								<expan>con<g ref="#pmacr"/><ex>onat</ex></expan>
+						</choice></w> <w>pro</w> <w>c<c>u</c>lpa</w> <w><choice>
+								<abbr>q<c>u</c><am><g ref="#amacr"/></am></abbr>
+								<expan>q<c>u</c><g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> <w>ser<c corresp="#v">u</c><c>u</c>s</w> <w>fecit</w><pc><g ref="#middot"/></pc> <w><g ref="#etlig"/></w> <w>si</w> <w>spolia</w> 
+						
+						<!-- ##### 71v ###### -->
+						<pb n="71v" xml:id="VL5359_folio_071v"/>
+						<lb xml:id="VL5359_lb_071v_1" n="1"/><w>hominis</w> <w><choice>
+								<sic>serp<c>u</c>lti</sic>
+								<corr>sep<c>u</c>lti</corr>
+						</choice></w> <w>ser<c corresp="#v">u</c><c>u</c>s</w><g ref="#middot"/> <w>de</w> <w>sep<c>u</c>lchro</w> <w>t<c>u</c>llerit</w> 
+						<lb xml:id="VL5359_lb_071v_2" n="2"/><w>de</w> <w><choice>
+								<abbr>q<c>u</c>ant<am><g ref="#umacr"/></am></abbr>
+								<expan>q<c>u</c>ant<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>t<c>u</c>llit</w> <w><choice>
+								<abbr>domins</abbr>
+								<expan>domin<ex>u</ex>s</expan>
+						</choice></w> <w><choice>
+								<abbr>e<am>i<g ref="#combcurlbar"/></am></abbr>
+								<expan>ei<ex>us</ex></expan>
+						</choice></w> <w>redat</w> <w><g ref="#etlig"/></w> <w><choice>
+								<abbr>con<am><g ref="#pmacr"/></am></abbr>
+								<expan>con<g ref="#pmacr"/><ex>onat</ex></expan>
+						</choice></w><g ref="#middot"/> <w><choice>
+								<abbr>so<am><g ref="#lhighstrok"/></am></abbr>
+								<expan>so<g ref="#lhighstrok"/><ex>idos</ex></expan>
+						</choice></w><g ref="#middot"/><w resp="#bluhme">XL</w>
+						<lb xml:id="VL5359_lb_071v_3" n="3"/><w><g ref="#etlig"/></w> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am>sona</abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex>sona</expan>
+						</choice></w> <w><choice>
+								<abbr>trada<am>t<g ref="#combcurl"/></am></abbr>
+								<expan>tradat<ex>ur</ex></expan>
+						</choice></w><g ref="#middot"/> <w>ad</w> <w><choice>
+								<abbr>occidend<am><g ref="#umacr"/></am></abbr>
+								<expan>occidend<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w><pc><g ref="#middot"/></pc>
+					</p>
+					<p xml:id="VL5359_LG_p_4" n="4">
+						<lb xml:id="VL5359_lb_071v_4" n="4"/><label n="4"><w>IIIJ</w></label> <w><hi rend="init3.1">S</hi>i</w> <w><choice>
+								<abbr><am><g ref="#qmacr"/></am></abbr>
+								<expan><g ref="#qmacr"/><ex>uis</ex></expan>
+						</choice></w><g ref="#middot"/> <w><choice>
+								<abbr><am><g ref="#pmacr"/></am></abbr>
+								<expan><g ref="#pmacr"/><ex>er</ex></expan>
+						</choice></w> <g ref="#middot"/><w>XXX</w><g ref="#middot"/> <w><choice>
+								<abbr>annor<am><g ref="#umacr"/></am></abbr>
+								<expan>annor<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>pos<g ref="#middot"/>sederit</w> <w>ca<del><c>u</c></del>sas</w><g ref="#middot"/> 
+						<lb xml:id="VL5359_lb_071v_5" n="5"/><w>familias</w> <w><c corresp="#v">u</c>el</w> <w>terras</w><g ref="#middot"/> <add place="above"><w><g ref="#etlig"/></w></add> <w><choice>
+								<abbr>cognit<am><g ref="#umacr"/></am></abbr>
+								<expan>cognit<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>fuerit</w><g ref="#middot"/> <w>q<c>u</c>ia</w> 
+						<lb xml:id="VL5359_lb_071v_6" n="6"/><w>ei<c>u</c>s</w> <w>possessio</w> <w>f<c>u</c>erit</w> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am></abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex></expan>
+						</choice></w> <g ref="#middot"/><w>XXX</w><g ref="#middot"/> <w>anno<g ref="#rum"/></w> 
+						<lb xml:id="VL5359_lb_071v_7" n="7"/><w>c<c>u</c>rric<c>u</c>la</w> <w>p<c>u</c>gna</w> <add place="above"><w>non</w></add> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am><c corresp="#v">u</c>eniat</abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex><c corresp="#v">u</c>eniat</expan>
+						</choice></w>
+						<lb xml:id="VL5359_lb_071v_8" n="8"/><w>nisi</w> <w>ipse</w> <w>q<c>u</c>i</w> <w>possedit</w><g ref="#middot"/> 
+						<lb xml:id="VL5359_lb_071v_9" n="9"/><w><choice>
+								<abbr>sec<c>u</c>nd<am><g ref="#umacr"/></am></abbr>
+								<expan>sec<c>u</c>nd<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>qualitatem</w><g ref="#middot"/> 
+						<w>pec<c>u</c><lb xml:id="VL5359_lb_071v_10" n="10"/>nie</w> <w>c<c>u</c>m</w> <w><choice>
+								<abbr>sacra<am><g ref="#mmacr"/></am>to</abbr>
+								<expan>sacra<g ref="#mmacr"/><ex>en</ex>to</expan>
+						</choice></w> <w>suo</w><add><g ref="#middot"/><w>se</w><g ref="#middot"/></add><w>defendat</w> 
+						<lb xml:id="VL5359_lb_071v_11" n="11"/><w><choice>
+								<abbr>n<am><g ref="#amacr"/></am></abbr>
+								<expan>n<g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am></abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>p<c>u</c>gn<am><g ref="#amacr"/></am></abbr>
+								<expan>p<c>u</c>gn<g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> <w><c>u</c>t</w> <w>diximus</w><g ref="#middot"/> <add><g ref="#middot"/><w><choice>
+									<abbr><am><g ref="#nmacr"/></am></abbr>
+									<expan><g ref="#nmacr"/><ex>on</ex></expan>
+						</choice></w><g ref="#middot"/></add> <w>fatiget<c>u</c>r</w><g ref="#middot"/>
+					</p>
+					<p xml:id="VL5359_LG_p_5" n="5">
+						<lb xml:id="VL5359_lb_071v_12" n="12"/><label n="5"><w><c corresp="#vcap">U</c></w></label><g ref="#middot"/> <w><hi rend="init3.1">S</hi>i</w> <w><choice>
+								<abbr><am><g ref="#qmacr"/></am></abbr>
+								<expan><g ref="#qmacr"/><ex>uis</ex></expan>
+						</choice></w> <w>hab<c>u</c>erit</w> <w>filios</w> <w>legitimi</w> <w><choice>
+								<abbr><c>u</c>n<am><g ref="#umacr"/></am></abbr>
+								<expan><c>u</c>n<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> 
+						<lb xml:id="VL5359_lb_071v_13" n="13"/><w>a<c>u</c>t</w> <w>pl<c>u</c>res</w><g ref="#middot"/> <w>a<c>u</c>t</w> <w>contigerit</w> <w><choice>
+								<abbr><c>u</c>n<am><g ref="#umacr"/></am></abbr>
+								<expan><c>u</c>n<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>ex</w> <w>ipsis</w> 
+						<lb xml:id="VL5359_lb_071v_14" n="14"/><w><c corresp="#v">u</c>i<c corresp="#v">u</c>ente</w> <w>patre</w> <w>mori</w><g ref="#middot"/> <w>a<c>u</c>t</w> <w>reliq<c>u</c>erit</w> <w>uno</w> 
+						<lb xml:id="VL5359_lb_071v_15" n="15"/><w>a<c>u</c>t</w> <w>plure</w> <w><g ref="#etlig"/></w> <w>contigerit</w> <w>a<c corresp="#v">u</c>o</w> <w>mori</w> <w>tale</w> 
+						
+						<!-- ##### 72r ###### -->
+						<pb n="72r" xml:id="VL5359_folio_072r"/>
+						<lb xml:id="VL5359_lb_072r_1" n="1"/><w><choice>
+								<abbr>part<am><g ref="#emacr"/></am></abbr>
+								<expan>part<g ref="#emacr"/><ex>m</ex></expan>
+						</choice></w> <w>s<c>u</c>scipiat</w> <w>de</w> <w>s<c>u</c>bstancia</w><g ref="#middot"/> <w>a<c corresp="#v">u</c>i</w> <w>s<c>u</c>i</w> <w><c>u</c>na</w><g ref="#middot"/> 
+						<lb xml:id="VL5359_lb_072r_2" n="2"/><w><choice>
+								<abbr>c<am><g ref="#umacr"/></am></abbr>
+								<expan>c<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>patr<c>u</c>is</w> <w>s<c>u</c>is</w><g ref="#middot"/> <w>q<c>u</c>ale</w> <w><choice>
+								<abbr>pa<am><g ref="#tmacr"/></am></abbr>
+								<expan>pa<g ref="#tmacr"/><ex>er</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>eor<am><g ref="#umacr"/></am></abbr>
+								<expan>eor<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w><g ref="#middot"/> 
+						<lb xml:id="VL5359_lb_072r_3" n="3"/><w><choice>
+								<abbr>In<am><g ref="#tmacr"/></am></abbr>
+								<expan>in<g ref="#tmacr"/><ex>er</ex></expan>
+						</choice></w> <w>fratres</w> <w>s<c>u</c>os</w><g ref="#middot"/> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am>cept<c>u</c>r<c>u</c>s</abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex>cept<c>u</c>r<c>u</c>s</expan>
+						</choice></w> <w><choice>
+								<abbr><am><g ref="#emacr"/></am></abbr>
+								<expan><g ref="#emacr"/><ex>st</ex></expan>
+						</choice></w> 
+						<lb xml:id="VL5359_lb_072r_4" n="4"/><w>si</w> <w><c corresp="#v">u</c>i<c corresp="#v">u</c>os</w> <w>f<c>u</c>is<g ref="#etlig"/></w><g ref="#middot"/> <w><choice>
+								<abbr>simili<am><g ref="#tmacr"/></am></abbr>
+								<expan>simili<g ref="#tmacr"/><ex>er</ex></expan>
+						</choice></w> <w><g ref="#etlig"/></w> <add place="above"><w>si</w></add> <w>filias</w> <w>legitimas</w> 
+						<lb xml:id="VL5359_lb_072r_5" n="5"/><w><c>u</c>na</w> <w>a<c>u</c>t</w> <w>pl<c>u</c>res</w><g ref="#middot"/> <w>f<c>u</c>erint</w><g ref="#middot"/> <w>habeant</w> <w><choice>
+									<abbr>leg<am><g ref="#emacr"/></am></abbr>
+									<expan>leg<g ref="#emacr"/><ex>m</ex></expan>
+						</choice></w> 
+						<lb xml:id="VL5359_lb_072r_6" n="6"/><w><choice>
+								<abbr>s<c>u</c><am><g ref="#amacr"/></am></abbr>
+								<expan>s<c>u</c><g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> <w>sic<c>u</c>t</w> <w>in</w> <w>hoc</w> <w>edicto</w> <w><choice>
+								<abbr>legi<am>t<g ref="#combcurl"/></am></abbr>
+								<expan>legit<g ref="#combcurl"/><ex>ur</ex></expan>
+						</choice></w><g ref="#middot"/> <w>q<c>u</c>ia</w> 
+						<w><choice>
+								<orig>Inhuma</orig>
+								<reg>inhuma</reg>
+						</choice><lb xml:id="VL5359_lb_072r_7" n="7"/>no</w> <w><g ref="#etlig"/></w> <w>impio</w> <w><choice>
+								<abbr>no<am><g ref="#bstrok"/></am></abbr>
+								<expan>no<g ref="#bstrok"/><ex>is</ex></expan>
+						</choice></w> <w><c corresp="#v">u</c>id<g ref="#etlig"/><c>u</c>r</w> <w><c>u</c>t</w> <w><choice>
+								<abbr><am><g ref="#pflour"/></am></abbr>
+								<expan><g ref="#pflour"/><ex>ro</ex></expan>
+						</choice></w> <w>tali</w><g ref="#middott"/> <w>ca<c>u</c>sa</w> 
+						<w>exhere<g ref="#middot"/><lb xml:id="VL5359_lb_072r_8" n="8"/>ditentur</w><orig><pc>.</pc></orig> <w>filii</w> <w>ab</w> <w>hereditate</w> <w>patri</w> <w>s<c>u</c>i</w><g ref="#middot"/>
+						<lb xml:id="VL5359_lb_072r_9" n="9"/><w><choice>
+								<abbr><am><g ref="#pflour"/></am></abbr>
+								<expan><g ref="#pflour"/><ex>ro</ex></expan>
+						</choice></w> <w>eo</w> <w><choice>
+								<abbr>q<am><g ref="#dstrok"/></am></abbr>
+								<expan>q<ex>uo</ex><g ref="#dstrok"/></expan>
+						</choice></w> <w><choice>
+								<abbr>pa<am><g ref="#tmacr"/></am></abbr>
+								<expan>pa<g ref="#tmacr"/><ex>er</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>eor<am><g ref="#umacr"/></am></abbr>
+								<expan>eor<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w><choice>
+								<orig>In</orig>
+								<reg>in</reg>
+						</choice></w> <w>sin<c>u</c></w> <w>patris</w> 
+						<lb xml:id="VL5359_lb_072r_10" n="10"/><w>mort<c>u</c>os</w> <del><w>s<g ref="#etlig"/></w></del> <add><w>est</w> <w>s<g ref="#etlig"/></w></add> <w>ex</w> <w>omnib<g ref="#semi"/></w> <w>sicut</w> 
+						<lb xml:id="VL5359_lb_072r_11" n="11"/><w><choice>
+								<abbr>dict<am><g ref="#umacr"/></am></abbr>
+								<expan>dict<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w><choice>
+								<abbr><am><g ref="#emacr"/></am></abbr>
+								<expan><g ref="#emacr"/><ex>st</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>c<am><g ref="#umacr"/></am></abbr>
+								<expan>c<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>patris</w> <w>s<c>u</c>is</w> <w><choice>
+								<orig>In</orig>
+								<reg>in</reg>
+						</choice></w> <w>loco</w> <w>patris</w><g ref="#middot"/>
+						<lb xml:id="VL5359_lb_072r_12" n="12"/><w>post</w> <w>mortem</w><g ref="#middot"/> <w>a<c corresp="#v">u</c>i</w> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am>ipiant</abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex>ipiant</expan>
+						</choice></w><g ref="#middot"/> 
+						<w>por<lb xml:id="VL5359_lb_072r_13" n="13"/><choice>
+								<abbr>tion<am><g ref="#emacr"/></am></abbr>
+								<expan>tion<g ref="#emacr"/><ex>m</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>simili<am><g ref="#tmacr"/></am></abbr>
+								<expan>simili<g ref="#tmacr"/><ex>er</ex></expan>
+						</choice></w> <w><g ref="#etlig"/></w> <w>si</w> <w>legitimi</w> <w>non</w> 
+						<w>f<c>u</c><lb xml:id="VL5359_lb_072r_14" n="14"/>erit</w> <w><g ref="#etlig"/></w> <w>nat<c>u</c>rali</w> <surplus><w>non</w></surplus> <w>fuerit</w> 
+						<lb xml:id="VL5359_lb_072r_15" n="15"/><w><c>u</c>n<c>u</c>s</w> <w>a<c>u</c>t</w> <w>pl<c>u</c>res</w> <w>habeat</w> 
+						<w>le<lb xml:id="VL5359_lb_072r_16" n="16"/><choice>
+								<abbr>g<am><g ref="#emacr"/></am></abbr>
+								<expan>g<g ref="#emacr"/><ex>m</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>s<c>u</c><am><g ref="#amacr"/></am></abbr>
+								<expan>s<c>u</c><g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w><g ref="#middot"/> <w>terciam</w> <w>ex</w> <w>omnib<g ref="#semi"/></w>
+					</p>
+					<p xml:id="VL5359_LG_p_6" n="6">
+						<lb xml:id="VL5359_lb_072r_17" n="17"/><label n="6"><w><c corresp="#vcap">U</c>I</w></label><g ref="#middot"/> <w><hi rend="init3.1">S</hi>i</w> <w><choice>
+								<abbr><am><g ref="#qmacr"/></am></abbr>
+								<expan><g ref="#qmacr"/><ex>uis</ex></expan>
+						</choice></w> <w><choice>
+								<abbr><c>u</c>xor<am><g ref="#emacr"/></am></abbr>
+								<expan><c>u</c>xor<g ref="#emacr"/><ex>m</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>s<c>u</c><am><g ref="#amacr"/></am></abbr>
+								<expan>s<c>u</c><g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> <w>absq<g ref="#twodot"/></w> <w>c<c>u</c>lpa</w> 
+						<lb xml:id="VL5359_lb_072r_18" n="18"/><w>legittima</w> <w>po<g ref="#stlig"/>posuerit</w><g ref="#middot"/> 
+						
+						<!-- ##### 72v ###### -->
+						<pb n="72v" xml:id="VL5359_folio_072v"/>
+						<lb xml:id="VL5359_lb_072v_1" n="1"/><w><g ref="#etlig"/></w> <w><choice>
+								<abbr>ali<am><g ref="#amacr"/></am></abbr>
+								<expan>ali<g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> <w><choice>
+								<orig>In</orig>
+								<reg>in</reg>
+						</choice></w> <w>domo</w> <w><choice>
+								<abbr>s<c>u</c><am><g ref="#pbardes"/></am></abbr>
+								<expan>s<c>u</c><g ref="#pbardes"/><ex>er</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>e<am><g ref="#amacr"/></am></abbr>
+								<expan>e<g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w><g ref="#middot"/> <w><choice>
+								<orig>Ind<c>u</c>xerit</orig>
+								<reg>ind<c>u</c>xerit</reg>
+						</choice></w> <w><choice>
+								<abbr>con<am><g ref="#pmacr"/></am></abbr>
+								<expan>con<g ref="#pmacr"/><ex>onat</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>so<am><g ref="#lhighstrok"/></am></abbr>
+								<expan>so<g ref="#lhighstrok"/><ex>idos</ex></expan>
+						</choice></w>
+						<g ref="#middot"/><measure quantity="500" type="denaro" unit="soldi"><w>D</w></measure><g ref="#middot"/> 
+						<lb xml:id="VL5359_lb_072v_2" n="2"/><w><choice>
+								<abbr>medi<g ref="#etlig"/>at<am><g ref="#emacr"/></am></abbr>
+								<expan>medi<g ref="#etlig"/>at<g ref="#emacr"/><ex>m</ex></expan>
+						</choice></w> <w>regi</w> <w><g ref="#etlig"/></w> <w>medi<g ref="#etlig"/>atem</w> <w>parentib<g ref="#semi"/></w> <w>mulieris</w>
+						<lb xml:id="VL5359_lb_072v_3" n="3"/><term xml:lang="lng" ref="#mundio" xml:id="VL5359_LG_term_mundio_06"><w><choice>
+									<abbr>m<c>u</c>ndi<am><g ref="#umacr"/></am></abbr>
+									<expan>m<c>u</c>ndi<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w></term> <w><c corresp="#v">u</c>ero</w> <w>ei<c>u</c>s</w> <w>de</w> <w>m<c>u</c>lieris</w> <w><choice>
+								<abbr>q<c>u</c><am><g ref="#amacr"/></am></abbr>
+								<expan>q<c>u</c><g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> 
+						<w>post<lb xml:id="VL5359_lb_072v_4" n="4"/>pos<c>u</c>it</w> <w><add place="above">ad</add>mittat</w> <w><g ref="#etlig"/></w> <w>si</w> <w><c corresp="#v">u</c>oluerit</w> <w>a</w> <w>marito</w> <w>s<c>u</c>o</w> 
+						<lb xml:id="VL5359_lb_072v_5" n="5"/><w>re<c corresp="#v">u</c>erti</w> <w>re<c corresp="#v">u</c>ertat<c>u</c>r</w><g ref="#middot"/> <w>ad</w> <w>parentes</w> <w>s<c>u</c>os</w> <w>c<c>u</c>m</w> <w>reb<g ref="#semi"/></w> 
+						<lb xml:id="VL5359_lb_072v_6" n="6"/><w>s<c>u</c>is</w> <w>et</w> <w>mundio</w><orig><pc>;</pc></orig>
+					</p>
+					<p xml:id="VL5359_LG_p_7" n="7">
+						<label n="7"><w><c corresp="#vcap">U</c>IJ</w></label><g ref="#middot"/> <w><hi rend="init3.1">S</hi>i</w> <w><choice>
+								<abbr><am><g ref="#qmacr"/></am></abbr>
+								<expan><g ref="#qmacr"/><ex>uis</ex></expan>
+						</choice></w> <w><choice>
+								<abbr><c>u</c>xor<am><g ref="#emacr"/></am></abbr>
+								<expan><c>u</c>xor<g ref="#emacr"/><ex>m</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>s<c>u</c><am><g ref="#amacr"/></am></abbr>
+								<expan>s<c>u</c><g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> 
+						<w>incri<lb xml:id="VL5359_lb_072v_7" n="7"/>mina<c corresp="#v">u</c>erit</w> <term xml:lang="lng" ref="#asto" xml:id="VL5359_LG_term_asto_07"><w>a<g ref="#stlig"/>o</w></term> <w>sine</w> <w>ca<c>u</c>sa</w> <w>legitima</w> 
+						<lb xml:id="VL5359_lb_072v_8" n="8"/><w>q<c>u</c>asi</w> <w>ad<c>u</c>lterass<g ref="#etlig"/></w> <w>a<c>u</c>t</w> <w><choice>
+								<orig>In</orig>
+								<reg>in</reg>
+						</choice></w> <w><choice>
+								<abbr>anim<am><g ref="#amacr"/></am></abbr>
+								<expan>anim<g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> <add place="above"><w>mariti</w></add> 
+						<w>tractas<lb xml:id="VL5359_lb_072v_9" n="9"/>s<g ref="#etlig"/></w> 
+						<w>liceat</w> <w>illi</w> <w>mulieri</w> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am></abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex></expan>
+						</choice></w> <w>sacramenta</w> 
+						<w>pa<lb xml:id="VL5359_lb_072v_10" n="10"/><choice>
+								<abbr>rent<am><g ref="#umacr"/></am></abbr>
+								<expan>rent<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>a<c>u</c>t</w> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am></abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex></expan>
+						</choice></w> <w><choice>
+								<sic>pupna</sic>
+								<corr>pugna</corr>
+						</choice></w> <w>se</w> <w>p<c>u</c>rificare</w><g ref="#etlig"/> <w><g ref="#etlig"/></w> 
+						<lb xml:id="VL5359_lb_072v_11" n="11"/><w>si</w> <w>p<c>u</c>rificata</w> <w>f<c>u</c>erit</w><g ref="#middot"/> <w>t<c>u</c>nc</w> <w>marit<c>u</c>s</w> <w><choice>
+								<abbr>e<am><g ref="#imacr"/></am></abbr>
+								<expan>e<g ref="#imacr"/><ex>us</ex></expan>
+						</choice></w> <w>pre<c corresp="#v">u</c>ead</w> 
+						<w><choice>
+								<abbr>sacra<am><g ref="#mmacr"/></am></abbr>
+								<expan>sacra<g ref="#mmacr"/><ex>en</ex></expan>
+						</choice><lb xml:id="VL5359_lb_072v_12" n="12"/><choice>
+							<abbr>t<am><g ref="#umacr"/></am></abbr>
+							<expan>t<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>c<am><g ref="#umacr"/></am></abbr>
+								<expan>c<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>parentib<c>u</c>s</w> <w>s<c>u</c>is</w> <w>legitimis</w> <w>sibi</w> <w>d<c>u</c>odecimo</w><g ref="#middot"/> <w><choice>
+								<abbr><am><g ref="#qbardes"/></am>a</abbr>
+								<expan><g ref="#qbardes"/><ex>ui</ex>a</expan>
+						</choice></w> <w><choice>
+								<abbr><am><g ref="#nmacr"/></am></abbr>
+								<expan><g ref="#nmacr"/><ex>on</ex></expan>
+						</choice></w> 
+						<lb xml:id="VL5359_lb_072v_13" n="13"/><term xml:lang="lng" ref="#asto"><w>asto</w></term> <w>animo</w> <w>nec</w> <w><choice>
+								<sic>dolore</sic>
+								<corr>dolose</corr>
+						</choice></w> <w>ei</w> <w>crime</w> <w>iniecit</w> 
+						<lb xml:id="VL5359_lb_072v_14" n="14"/><w><c>u</c>t</w> <w><choice>
+								<abbr>e<am><g ref="#amacr"/></am></abbr>
+								<expan>e<g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> <w>debere</w> <w>dimittere</w><g ref="#middot"/> <w>nisi</w> <w><choice>
+								<abbr><am><g ref="#pfour"/></am></abbr>
+								<expan><g ref="#pfour"/><ex>ro</ex></expan>
+						</choice></w> <w>certa</w> 
+						<lb xml:id="VL5359_lb_072v_15" n="15"/><w>suspectione</w> <w><g ref="#etlig"/></w> <w>a<c>u</c>dito</w> <w>hab<c>u</c>iss<g ref="#etlig"/></w> <w>s<g ref="#etlig"/></w>
+						<w>hec</w> <w><c corresp="#v">u</c>erba</w> <w>et</w> <w>si</w> <w>hec</w> <w>fecere</w> 
+						<w>pot<c>u</c><lb xml:id="VL5359_lb_072v_16" n="16"/>erit</w> <w>sit</w> <w>sol<c>u</c>t<c>u</c>s</w> <w>a</w> <w>c<c>u</c>lpa</w> <w><g ref="#etlig"/></w> <w>si</w> <w>non</w> 
+						<lb xml:id="VL5359_lb_072v_17" n="17"/><w>p<unclear></unclear>erit</w> <w>a<c>u</c>ss<c>u</c>s</w> <w>jurare</w> <w><choice>
+								<abbr>con<am><g ref="#pmacr"/></am></abbr>
+								<expan>con<g ref="#pmacr"/><ex>onat</ex></expan>
+						</choice></w> 
+						
+						<!-- ##### 73r ###### -->
+						<pb n="73r" xml:id="VL5359_folio_073r"/>
+						<lb xml:id="VL5359_lb_073r_1" n="1"/><term xml:lang="lng" ref="#wergild" xml:id="VL5359_LG_term_wergild_07"><w><c corresp="#v">u</c><c corresp="#v">u</c>irgild</w></term> <w>ei<c>u</c>s</w> <w>m<c>u</c>lieris</w> <w>tamq<c>u</c>am</w> 
+						<lb xml:id="VL5359_lb_073r_2" n="2"/><w>si</w> <w>frater</w> <w><choice>
+								<abbr>e<am>i<g ref="#comburlbar"/></am></abbr>
+								<expan>ei<ex>us</ex></expan>
+						</choice></w> <w>occidisse<add place="above">t</add></w> <w>medi<g ref="#etlig"/>atem</w> <w>regi</w> <w><g ref="#etlig"/></w> 
+						<w>medi<lb xml:id="VL5359_lb_073r_3" n="3"/><g ref="#etlig"/>atem</w> <w>perentib<g ref="#semi"/></w> <w>m<c>u</c>lieris</w><g ref="#middot"/>
+					</p>
+					<p xml:id="VL5359_LG_p_8" n="8">
+						<label><w><c corresp="#vcap"></c>III</w></label><g ref="#middot"/> 
+						<lb xml:id="VL5359_lb_073r_4" n="4"/><w><hi rend="init3.1">S</hi>i</w> <w>m<c>u</c>lier</w> <w>a<c>u</c>t</w> <w><choice>
+								<abbr>p<c>u</c>ell<am><g ref="#amacr"/></am></abbr>
+								<expan>p<c>u</c>ell<g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>not<am><g ref="#umacr"/></am></abbr>
+								<expan>not<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>coc<c>u</c>mq<c>u</c>e</w> 
+						<lb xml:id="VL5359_lb_073r_5" n="5"/><w>habere</w> <w><c>u</c>xore</w> <w><g ref="#etlig"/></w> <w><choice>
+								<abbr>s<c>u</c><am><g ref="#pbardes"/></am></abbr>
+								<expan>s<c>u</c><g ref="#pbardes"/><ex>er</ex></expan>
+						</choice></w><g ref="#middot"/> <w>ipsa</w> <w><choice>
+								<orig>Introierit</orig>
+								<reg>introierit</reg>
+						</choice></w> 
+						<lb xml:id="VL5359_lb_073r_6" n="6"/><w><g ref="#etlig"/></w> <w>t<c>u</c>llerit</w> <add><w>ei</w></add> <w><choice>
+								<abbr>marit<am><g ref="#umacr"/></am></abbr>
+								<expan>marit<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>ipsi<c>u</c>s</w><g ref="#middot"/> <w>sancim<c>u</c>s</w><g ref="#middot"/> <w><c>u</c>t</w> 
+						<w><choice>
+								<abbr>o<am><g ref="#mmacr"/></am>s</abbr>
+								<expan>o<g ref="#mmacr"/><ex>ne</ex>s</expan>
+						</choice></w> <w>res</w> <w>s<c>u</c>as</w> <w><choice>
+								<abbr><am><g ref="#pbardes"/></am>dat</abbr>
+								<expan><g ref="#pbardes"/><ex>er</ex>dat</expan>
+						</choice></w> <w>ipsa</w> <w>m<c>u</c>lier</w> <w>q<c>u</c>i</w> 
+						<w>sci<lb xml:id="VL5359_lb_073r_7" n="7"/>endo</w> <w>alteri<c>u</c>s</w> <w>marito</w> <w><c corresp="#v">u</c>ol<c>u</c>ntarie</w> 
+						<w>consen<lb xml:id="VL5359_lb_073r_8" n="8"/>sit</w><g ref="#middot"/> <w><g ref="#etlig"/></w> <w>medi<g ref="#etlig"/>atem</w> <w>de</w> <w>reb<g ref="#semi"/></w> <w>ipsi<c>u</c>s</w><g ref="#middot"/> <w>accipiat</w> 
+						<lb xml:id="VL5359_lb_073r_9" n="9"/><w>c<c>u</c>rtis</w> <w>regia</w> <w><g ref="#etlig"/></w> <w>medi<g ref="#etlig"/>atem</w> <w>parentes</w> <w>prioris</w><g ref="#middot"/> 
+						<lb xml:id="VL5359_lb_073r_10" n="10"/><w>m<c>u</c>lieris</w><g ref="#middot"/> <w><g ref="#etlig"/></w> <w><choice>
+								<abbr>ill<am><g ref="#amacr"/></am></abbr>
+								<expan>ill<g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> <w>priorem</w> <w>m<c>u</c>lierem</w> <w>recipiat</w> 
+						<lb xml:id="VL5359_lb_073r_11" n="11"/><w>marit<c>u</c>s</w> <w>ei<c>u</c>s</w><orig><pc>;</pc></orig> <w><g ref="#etlig"/></w> <w>collat</w> <w>eam</w><g ref="#middot"/> <w><c>u</c>t</w> <w>dec<g ref="#etlig"/></w> <w><choice>
+								<abbr><c>u</c>xor<am><g ref="#emacr"/></am></abbr>
+								<expan><c>u</c>xor<g ref="#emacr"/><ex>m</ex></expan>
+						</choice></w> 
+						<lb xml:id="VL5359_lb_073r_12" n="12"/><w><choice>
+								<abbr>legitim<am><g ref="#amacr"/></am></abbr>
+								<expan>legitim<g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> <w><c corresp="#v">u</c>i<add place="above">ci</add><c>u</c>m</w> <w>a<c>u</c>t</w> <w>s<c>u</c><c>u</c></w> <w>reput<g ref="#etlig"/></w> <w>illa</w>
+						<w>m<c>u</c><lb xml:id="VL5359_lb_073r_13" n="13"/>lier</w> <w><choice>
+								<abbr>Ins<c>u</c><am><g ref="#pbardes"/></am></abbr>
+								<expan>ins<c>u</c><g ref="#pbardes"/><ex>er</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>alien<am><g ref="#amacr"/></am></abbr>
+								<expan>alien<g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> <w>intrare</w> <w><choice>
+								<abbr><am><g ref="#pmacr"/></am>sumpsit</abbr>
+								<expan><g ref="#pmacr"/><ex>re</ex>sumpsit</expan>
+						</choice></w> <w><choice>
+								<abbr><c>u</c>xor<am><g ref="#emacr"/></am></abbr>
+								<expan><c>u</c>xor<g ref="#emacr"/><ex>m</ex></expan>
+						</choice></w> 
+						<lb xml:id="VL5359_lb_073r_14" n="14"/><w><g ref="#etlig"/></w> <w>nihchil</w> <w>ei</w><g ref="#middot"/> <w><choice>
+								<abbr>conpona<am>t<g ref="#combcurl"/></am></abbr>
+								<expan>conponat<g ref="#combcurl"/><ex>ur</ex></expan>
+						</choice></w> <add place="above"><w>in</w> <w><g ref="#etlig"/></w></add> <term xml:lang="lng" ref="#faida" xml:id="VL5359_LG_term_faida_08"><w>faida</w></term> <w>req<c>u</c>irat<c>u</c>r</w><orig><pc>;</pc></orig>
+					</p>
+					<p xml:id="VL5359_LG_p_9" n="9">
+						<lb xml:id="VL5359_lb_073r_15" n="15"/><w><c corresp="#vcap">U</c>IIII</w><g ref="#middot"/> <w><hi rend="init3.1">S</hi>i</w> <w>ancilla</w> <w><choice>
+								<abbr>f<c>u</c>rt<am><g ref="#umacr"/></am></abbr>
+								<expan>f<c>u</c>rt<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>fecerit</w> <w><choice>
+								<abbr>domins</abbr>
+								<expan>domin<ex>u</ex>s</expan>
+						</choice></w> <w><choice>
+								<abbr>e<am><g ref="#imacr"/></am></abbr>
+								<expan>e<g ref="#imacr"/><ex>us</ex></expan>
+						</choice></w>
+						<lb xml:id="VL5359_lb_073r_16" n="16"/><w><choice>
+								<abbr>f<c>u</c>rt<am><g ref="#umacr"/></am></abbr>
+								<expan>f<c>u</c>rt<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>ips<am><g ref="#umacr"/></am></abbr>
+								<expan>ips<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>nono</w> <w><choice>
+								<abbr>tant<am><g ref="#umacr"/></am></abbr>
+								<expan>tant<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w><choice>
+								<abbr>n<am><g ref="#amacr"/></am></abbr>
+								<expan>n<g ref="#amacr"/><ex>m</ex></expan>
+						</choice></w> 
+						<measure quantity="40" type="denaro" unit="soldi"><w>quadra<lb xml:id="VL5359_lb_073r_17" n="17"/>ginta</w></measure> <w><choice>
+								<abbr>so<am><g ref="#lhighstrok"/></am></abbr>
+								<expan>so<g ref="#lhighstrok"/><ex>idos</ex></expan>
+						</choice></w> <w><c>u</c>nde</w> <w><choice>
+								<orig>In</orig>
+								<reg>in</reg>
+						</choice></w> <w>hoc</w> <w>edicto</w> <w>legitur</w><g ref="#middot"/>
+						<lb xml:id="VL5359_lb_073r_18" n="18"/><w><choice>
+								<abbr><am><g ref="#pflour"/></am></abbr>
+								<expan><g ref="#pflour"/><ex>ro</ex></expan>
+						</choice></w> <w>c<c>u</c>lpa</w> <w>ide</w> <w><choice>
+								<abbr><am><g ref="#emacr"/></am></abbr>
+								<expan><g ref="#emacr"/><ex>st</ex></expan>
+						</choice></w> <term xml:lang="lng" ref="#aldio" xml:id="VL5359_LG_term_fegang_09"><w>f<del>an</del><add>ig</add>gang</w></term><g ref="#middot"/> <w><choice>
+								<abbr><am><g ref="#nmacr"/></am></abbr>
+								<expan><g ref="#nmacr"/><ex>on</ex></expan>
+						</choice></w> <w>req<c>u</c>irant<c>u</c>r</w> 
+						<lb xml:id="VL5359_lb_073r_19" n="19"/><w>neq<c>u</c>e</w> <w>exegant<c>u</c>r</w> <w>ad</w> <w>domino</w> <w>ancille</w><g ref="#middot"/></p>
+				</div>
+			
+			<!-- ##### 733 ###### -->
+			<pb n="73v" xml:id="VL5359_folio_073v"/>
+			<div>
+				<lb xml:id="VL5359_lb_073v_1" n="1"/><head><w>EXPLICIT</w> <w>INSTIT<c>U</c>CIO</w> <persName><w>CRIM<c>U</c>ALD</w></persName></head>
+			</div>
+		</body>
+	</text>
+</TEI>
