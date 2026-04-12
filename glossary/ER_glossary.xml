@@ -55,9 +55,94 @@
 
       <sourceDesc>
         <p>Born digital glossary for the Leges Langobardorum project.</p>
+        <listBibl>
+          <bibl xml:id="Onesti1999">
+            <author>
+              <surname>Francovich Onesti</surname>, <name>Nicoletta</name></author>
+            <title>Vestigia longobarde in italia (568-774). Lessico e antroponimia</title>.
+            <publisher>Artemide Edizioni</publisher>,
+            <date>1999</date>.
+          </bibl>
+          <bibl xml:id="PrinciBraccini1994">
+            <author>
+              <surname>Princi Braccini</surname>, <name>Giovanna</name></author>
+            <title>Nuove voci longobarde tra apparato e glosse nelle "Leges Langobardorum"</title>,
+            <title>Studi medievali</title>, 35, I
+            <publisher></publisher>,
+            <date>1994</date>.
+            <page>67-99</page>.
+          </bibl>
+        <bibl xml:id="Molinari1989">
+            <author>
+              <surname>Molinari</surname>, <name>Maria Vittoria</name></author>
+            <title>Lessico longboardo nei testi latino-edievali. Problemi di interferenza</title>
+            <publisher></publisher>,
+            <date>1989</date>,
+            <page>225-239</page>.
+          </bibl>
+          <bibl xml:id="Azzara-Gasparri1992">
+            <author>
+              <surname>Azzara</surname>, <name></name></author>,
+              <author>
+              <surname>Gasparri</surname>, <name></name></author>
+            <title></title>.
+            <publisher></publisher>,
+            <date>1992</date>.
+          </bibl>
+          <bibl xml:id="Molinari1995">
+            <author>
+              <surname>Molinari</surname>, <name>Maria Vittoria</name></author>,
+            <title>Lessico germanico nelle leggi longobarde</title>.
+            <publisher></publisher>,
+            <date>1995</date>,
+            <page>5-20</page>.
+          </bibl>
+          <bibl xml:id="Scardigli1977">
+            <author>
+              <surname>Scardigli</surname>, <name></name></author>,
+            <title>All'origine dei longobardismi in italiano</title>.
+            <publisher></publisher>,
+            <date>1977</date>,
+            <page>335-354</page>.
+          </bibl>
+          <bibl xml:id="VdR1970">
+            <author>
+              <surname>Van der Rhée</surname>, <name></name></author>,
+            <title></title>.
+            <publisher></publisher>,
+            <date>1970</date>.
+          </bibl>
+          <bibl xml:id="VdR1989">
+            <author>
+              <surname>Van der Rhée</surname>, <name></name></author>,
+            <title></title>.
+            <publisher></publisher>,
+            <date>1989</date>.
+          </bibl>
+        </listBibl>
       </sourceDesc>
-
+     
     </fileDesc>
+
+    <encodingDesc>
+      <charDecl>
+        <char xml:id="bstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH STROKE"/>
+          <mapping subtype="composed" type="codepoint">U+0180</mapping>
+          <mapping>&#384;</mapping>
+        </char>
+        <char xml:id="thorn">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Þ"/>
+          <mapping subtype="composed" type="codepoint">U+00FE</mapping>
+          <mapping>&#254;</mapping>
+        </char>
+        <char xml:id="imacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER I WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+012B</mapping>
+          <mapping>&#299;</mapping>
+        </char>
+      </charDecl>
+    </encodingDesc>
 
     <revisionDesc>
       <change when="2025-04" who="FS">Started work to expand and complete the glossary.</change>
@@ -185,7 +270,11 @@
           <cit type="witness">
             <!-- inserire in <quote> anche la forma originale del testimone? o quella regolarizzata? -->
             <quote>id est si eum diceperit et cum eum non laboraverit</quote>
-            <ref target="#CV188_term_anstalin_07">MS 2</ref>
+            <ref target="CS730_term_anstalin_07">MS 1</ref>,
+            <ref target="#CV188_term_anstalin_07">MS 2</ref>,
+            <ref target="#CE34-5_term_anstalin_07">MS 3</ref>,
+            <ref target="#VL5359_term_anstalin_07">MS 5</ref>.
+
           </cit>
         </form>
         
@@ -338,7 +427,7 @@
           -->
         
           <listBibl>
-            <bibl><ref target="#Onesti2000">Francovich Onesti 2000</ref>, pp. 54-5.</bibl>
+            <bibl><ref target="#Onesti1999">Francovich Onesti 2000</ref>, pp. 54-5.</bibl>
             <bibl><ref target="#PrinciBraccini1994">Princi Braccini 1994</ref>, pp. 76-8.</bibl>
             <bibl><ref target="#Molinari1989">Molinari 1989</ref>, pp. 233-4.</bibl>
             <!-- Scardigli, P. (1987), “Le parole longobarde per l’ecdotica dell’Editto di Rotari”, Medioevo e Rinascimento 1, 53-73.
@@ -559,34 +648,87 @@
         
         <entry xml:id="actogild">
           <form type="lemma">
-            <orth></orth>
+            <orth resp="#Onesti">actogild</orth>
           </form>
           
           <gramGrp>
             <pos value="noun"></pos>
-            <gen value="feminine"></gen>
+            <gen value="masculine"></gen>
+            <gen value="neuter"></gen>
             <!-- <case value="nominative">nom</case> -->
             <number value="singular"></number>
-            <iType type="theme">-i</iType>
+            <iType type="theme">*-a</iType>
           </gramGrp>
           
           <cit type="main">
-            <quote></quote>
-            <ref target="#">ER </ref>
+            <quote resp="#Azzara">Qui rem alienam asto vindederit. Si quis rem alienam, id est servum aut ancillam seu alias res, 
+              sciens rem alienam esse, non suam, ubicumque transvindederit et inventum aut provatum fuerit, in 
+              <hi>actugild</hi> eam restituat. Et si per ignorantiam vindederit, tunc praeveat sacramentum, quod credens suum 
+              vindedissit; reddat caput cum notrimen suo, qualiter se sit.</quote>
+            <ref target="#ER_p_229">ER 229</ref>
+            <quote resp="#Azzara">
+              Si quis per errorem alium pro alio pigneraverit per servum aut ancillam, ita decernimus, ut, postquam cognovit, quod male pigneravit,
+              mox ipsum pignum relaxit. Et si pulsatus fuerit a domino servi, tunc preveat
+              sacramentum: quia per errorem fecit, nam non asto, et crededit, debitorem
+              suum pignerassit; tunc sit indempnis. Nam si plagas aut feritas fecerit
+              in ipsum pignus, conponat, sicut in hoc edictum legitur. Et si sacramentum
+              dare non presumpserit, quod per errorem pignerassit, reddat
+              ipsum pignum in actugild.
+            </quote>
+            <ref target="#ER_p_248">ER 248</ref>
+            <quote resp="#Azzara">
+              Si plures homines furtum in unum fecerint, tam liberi quam servi, 
+              liceat eos, si voluerint, se insimul adunare et furtum ipsum in actugild
+              reddere. Si quis se ex ipsis deviderit, pro se tantum legibus conponat, id
+              est ipsum furtum sibi nonum.
+            </quote>
+            <ref target="#ER_p_263">ER 263</ref>
+            <quote resp="#Azzara">
+              Si quis de lignamen adunatum in curte aut in platea ad casam
+              faciendam furaverit, conponat solidos sex; si autem in silva dispersum
+              fuerit et furaverit, conponat in actugild.
+            </quote>
+            <ref target="#ER_p_283">ER 283</ref>
+            <quote resp="#Azzara">
+              De plovum. Si quis plovum aut aratrum alienum iniquo animo
+              capellaverit, conponat solidos tres, et si furaverit, reddat in actogild.
+            </quote>
+            <ref target="#ER_p_288">ER 288</ref>
+            <quote resp="#Azzara">
+              De cervo domestico. Si quis cervum domesticum, qui tempore
+              suo rugire solit, fragiaverit, conponat domino eius solidûs duodicem; nam
+              si furaverit, in actugild reddat.
+            </quote>
+            <ref target="#ER_p_315">ER 315</ref>
+            <quote resp="#Azzara">
+              Si quis cervum domesticum alienum, qui non rugierit, intrigaverit,
+              conponat domino eius solidos sex; nam si eum furaverit, reddat in
+              actugild.
+            </quote>
+            <ref target="#ER_p_316">ER 316</ref>
+            <quote resp="#Azzara">
+              Si quis cavallum alienum ascenderit et infra vicinia tantum cavallicaverit, 
+              id est prope ipsum vicum, conponat solidos duos; nam si
+              inantea eum caballicare presumpserit et dominum non rogaverit, in actogild
+              reddat.
+            </quote>
+            <ref target="#ER_p_340">ER 340</ref>
           </cit>
           
           <form type="variants">
-            <orth> <ref target="#"></ref></orth>
-            <orth> <ref></ref></orth>
-            <orth> <ref></ref></orth>
+            <orth>actocild <ref>MS 2</ref></orth>
+            <orth>actogeldo/actogildo <ref target="#">MS 4</ref></orth>
+            <orth>actoghild, actighld, agthild, actiglhd <ref>MS 5</ref></orth>
+            <orth>actochild <ref>MS 10</ref></orth>
+            <orth>actogyld <ref>MS 11</ref></orth>
+            <orth>actogilt <ref>MS 12</ref></orth>
+            <orth>actigild <ref>Gloss. Cav.</ref></orth>
+            <orth>actigild <ref>Gloss. Matr.</ref></orth>
+            <orth>actigild <ref>Gloss. Vat.</ref></orth>
           </form>
           
           <sense n="1">
-            <def></def>
-          </sense>
-          
-          <sense n="2">
-            <def></def>
+            <def>Indennizzo pari a otto volte il valore.</def>
           </sense>
           
           <cit>
@@ -598,7 +740,7 @@
           </etym>
           
           <listBibl>
-            <bibl><ref target="#"></ref></bibl>
+            <bibl><ref target="#Onesti1999"></ref></bibl>
             <bibl><ref target="#"></ref></bibl>
             <bibl><ref target="#"></ref></bibl>
           </listBibl>
@@ -610,20 +752,20 @@
         
         <entry xml:id="aidos">
           <form type="lemma">
-            <orth></orth>
+            <orth resp="#Onesti">aidos</orth>
           </form>
           
           <gramGrp>
             <pos value="noun"></pos>
-            <gen value="feminine"></gen>
+            <gen value="masculine"></gen>
             <!-- <case value="nominative">nom</case> -->
-            <number value="singular"></number>
-            <iType type="theme">-i</iType>
+            <number value="plural"></number>
+            <iType type="theme">*-a</iType>
           </gramGrp>
           
           <cit type="main">
             <quote></quote>
-            <ref target="#">ER </ref>
+            <ref target="#">ER 359</ref>
           </cit>
           
           <form type="variants">
@@ -633,11 +775,7 @@
           </form>
           
           <sense n="1">
-            <def></def>
-          </sense>
-          
-          <sense n="2">
-            <def></def>
+            <def reso="#Onesti1999">sacramentales, testimoni al giuramento</def>
           </sense>
           
           <cit>
@@ -649,7 +787,7 @@
           </etym>
           
           <listBibl>
-            <bibl><ref target="#"></ref></bibl>
+            <bibl><ref target="#Onesti1999">Francovich Onesti 1999</ref>, 53-54.</bibl>
             <bibl><ref target="#"></ref></bibl>
             <bibl><ref target="#"></ref></bibl>
           </listBibl>
@@ -661,15 +799,16 @@
         
         <entry xml:id="aldius">
           <form type="lemma">
-            <orth></orth>
+            <orth resp="#Onesti1999" type="main">aldius</orth>
+            <orth>haldius</orth>
           </form>
           
           <gramGrp>
             <pos value="noun"></pos>
-            <gen value="feminine"></gen>
+            <gen value="masculine"></gen>
             <!-- <case value="nominative">nom</case> -->
             <number value="singular"></number>
-            <iType type="theme">-i</iType>
+            <iType type="theme"></iType>
           </gramGrp>
           
           <cit type="main">
@@ -684,7 +823,7 @@
           </form>
           
           <sense n="1">
-            <def></def>
+            <def>Semilibero.</def>
           </sense>
           
           <sense n="2">
@@ -696,23 +835,32 @@
             <ref></ref>
           </cit>
           
-          <etym>
+          <etym resp="#Onesti1999">
+            Etimologia incerta. Secondo <ref>Princi Braccini</ref> la grafia con <m>h-</m> è storica, 
+            in quanto fa derivare il termine da <lang>germ.</lang> <mentione>*hal<g ref="#bstrok"/>-</mentione> + 
+            <mentiones>*<g ref="#thorn"/>ewa-</mentiones> <mentioned>semi-servo</mentioned>.
+            <ref target="#VdR1989">Van der Rhée</ref> mette a confronto <lang>as.</lang> <mentioned><w>eldi</w></mentioned>, 
+            <lang>ags.</lang> <mentioned><w>elde</w></mentioned>, 
+            <lang>norr.</lang> <mentioned><w>aldir</w></mentioned> con una specializzazione da 
+            <def>uomini</def> a <def>sottoposti, vassalli</def>. Oppure dal <lang>germ.</lang> 
+            <mentioned>*ala-</mentioned> <def>tutto</def> + <mentioned>*-<g ref="thorn"/>ewa-</mentioned>, 
+            più difficile sul piano del significato.
           </etym>
           
           <listBibl>
-            <bibl><ref target="#"></ref></bibl>
+            <bibl><ref target="#Onesti1999">Francovich Onesti 1999</ref>, 56-57.</bibl>
             <bibl><ref target="#"></ref></bibl>
             <bibl><ref target="#"></ref></bibl>
           </listBibl>
         </entry>
         
         <!-- ########################### -->
-        <!-- #########  ANAFRIFT  ######### -->
+        <!-- #########  ANAGRIFT  ######### -->
         <!-- ########################### -->
         
         <entry xml:id="anagrift">
           <form type="lemma">
-            <orth></orth>
+            <orth resp="#Onesti1999">anagrift</orth>
           </form>
           
           <gramGrp>
@@ -735,23 +883,35 @@
           </form>
           
           <sense n="1">
-            <def></def>
+            <def>Ratto, unione contraria alle disposizioni della famiglia della donna.</def>
           </sense>
-          
-          <sense n="2">
-            <def></def>
-          </sense>
+          <sense>Il termine indica l'unione con una donna, 
+            ragazza o vedova, avvenuta contro la volontà 
+          dei parenti di lei, ma col suo consenso [...], 
+          unione che può essere matrimoniale o fuori del 
+          matrimonio (ratto). È dunque un reato contro 
+          la potestà della parentela, che va riscarcito [...]. 
+        Non ha nulla a che vedere nè con l'adulterio di una donna sposata, 
+        nè con la violenza (<ref target="#Onesti1999">Francovich Onesti 1999</ref>, 58).</sense>
           
           <cit>
             <quote></quote>
             <ref></ref>
           </cit>
+
+          <xr type="see">V. <ref target="#anagrip">anagrip</ref>.</xr>
           
-          <etym>
+          <etym resp="#Onesti1999">
+            Sostantivo astratto formato in <m>*-ti</m> (<lang>germ.</lang> *<mentioned>grifti-</mentioned>), 
+            formazione che solitmaente impiega radici verbali da verbi forti in composizione con prefissi. 
+            Secondo <ref>Bruckner</ref> e <ref>van der Rhee</ref> morfoligicamente distinto da <ref>anagrip</ref>, 
+            ma secondo <ref>Scardigli</ref> possono essere due varianti d'autore. Egli ritiene che 
+            <mentioned>anagrift</mentioned> possa esssere di origine gotica, o che <mentioned>anagrip</mentioned> sia 
+            longobardo ma senza II LV e <mentioned>anagrift</mentioned> una forma <lang>lgb.</lang> tarda o tedeschizzata.
           </etym>
           
           <listBibl>
-            <bibl><ref target="#"></ref></bibl>
+            <bibl><ref target="#Onesti1999">Francovich Onesti 1999</ref>, 58.</bibl>
             <bibl><ref target="#"></ref></bibl>
             <bibl><ref target="#"></ref></bibl>
           </listBibl>
@@ -768,10 +928,10 @@
           
           <gramGrp>
             <pos value="noun"></pos>
-            <gen value="feminine"></gen>
+            <gen value="masculine"></gen>
             <!-- <case value="nominative">nom</case> -->
             <number value="singular"></number>
-            <iType type="theme">-i</iType>
+            <iType type="theme">*-a</iType>
           </gramGrp>
           
           <cit type="main">
@@ -786,23 +946,31 @@
           </form>
           
           <sense n="1">
-            <def></def>
+            <def>Ratto, unione contraria alle disposizione della famiglia della donna.</def>
+          </sense>
+
+          <sense resp="Onesti1999">Può darsi che in origine avvenisse per ratto la primitiva forma di 
+            matrimonio, poi ritualizzato nel pagamento della <mentioned ref="#meta">meta</mentioned>. 
+            Pur con successive evoluzioni semantiche, <mentioned>anagrip</mentioned> continua ad essere
+             usato nel altino giuridico dei documenti notarili fino al XII secolo 
+             (<ref>Arcamone</ref>)(<ref target="#Onesti1999">Francovich Onesti 1999</ref>. 59).
           </sense>
           
-          <sense n="2">
-            <def></def>
-          </sense>
           
           <cit>
             <quote></quote>
             <ref></ref>
           </cit>
+
+          <xr>V. <ref target="#anagrift">anagrift</ref>.</xr>
           
-          <etym>
+          <etym resp="#Onesti1999">
+            Dal tema <lang>germ.</lang> *<mentioned>gripa-z</mentioned>/<mentioned>gripi-z</mentioned> con 
+            radicale breve dalla- radice *<mentioned>gripan-</mentioned> <def>prendere, impossessarsi</def>.
           </etym>
           
           <listBibl>
-            <bibl><ref target="#"></ref></bibl>
+            <bibl><ref target="#Onesti1999">Francovich Onesti 1999</ref>, 58-59.</bibl>
             <bibl><ref target="#"></ref></bibl>
             <bibl><ref target="#"></ref></bibl>
           </listBibl>
@@ -814,7 +982,7 @@
         
         <entry xml:id="arga">
           <form type="lemma">
-            <orth></orth>
+            <orth resp="#Onesti1999">arga</orth>
           </form>
           
           <gramGrp>
@@ -836,12 +1004,8 @@
             <orth> <ref></ref></orth>
           </form>
           
-          <sense n="1">
-            <def></def>
-          </sense>
-          
-          <sense n="2">
-            <def></def>
+          <sense n="1" resp="#Onesti999">
+            <def>Vile, incapace, spregevole.</def>
           </sense>
           
           <cit>
@@ -849,11 +1013,16 @@
             <ref></ref>
           </cit>
           
-          <etym>
+          <etym resp="#Onesti1999">
+            Ha confronti in tutte le lingue germaniche nord-occidentali 
+            (<lang>aat.</lang> <mentioned>arg</mentioned>, <lang>norr.</lang> <mentioned>argr</mentioned>) 
+            e risale a <lang>germ.</lang> *<mentioned>arg-az</mentioned>. <ref>Bruckner</ref> lo considera 
+            aggettivo debole (da <mentioned>arg</mentioned>) masch, sing. al nom. e voc., con <m>-a</m> 
+            come <lang>gc.</lang> e <lang>ags.</lang>, diversamente dalla desinenza <lang>aat.</lang> <m>-o</m>.
           </etym>
           
           <listBibl>
-            <bibl><ref target="#"></ref></bibl>
+            <bibl><ref target="#Onesti1999">Francovich Onesti 1999</ref>, 61-62.</bibl>
             <bibl><ref target="#"></ref></bibl>
             <bibl><ref target="#"></ref></bibl>
           </listBibl>
@@ -865,14 +1034,12 @@
         
         <entry xml:id="asto">
           <form type="lemma">
-            <orth></orth>
+            <orth resp="#Onesti1999">asto</orth>
           </form>
           
           <gramGrp>
-            <pos value="noun"></pos>
-            <gen value="feminine"></gen>
-            <!-- <case value="nominative">nom</case> -->
-            <number value="singular"></number>
+            <pos value="adjective"></pos>
+            <pos value="adverb"></pos>
             <iType type="theme">-i</iType>
           </gramGrp>
           
@@ -888,11 +1055,14 @@
           </form>
           
           <sense n="1">
-            <def></def>
+            <def>Apposta, intenzionalmente.</def>
           </sense>
           
-          <sense n="2">
-            <def></def>
+          <sense resp="#Onesti1999">
+            Impiegato soprattutto nella locuzione <mentioned>asto animo</mentioned> '<def>con animo malintenzionato</def>'. 
+            «Dal punto di vista giuridico segna l'inizio della volontà di distinguere un'azione 
+            dolosa da quella colposa, mentre originarimente ciò interessava meno, contando 
+            solo il rusultato del danno» (<ref target="#Onesti1999">Francovich Onesti</ref>, 66).
           </sense>
           
           <cit>
@@ -900,11 +1070,21 @@
             <ref></ref>
           </cit>
           
-          <etym>
+          <xr type="see">V. <ref target="#haistan">haistan</ref>.</xr>
+
+          <etym resp="#Onesti1999">
+            <p>Dall'agg. <lang>germ.</lang> *<mentioned>haist-</mentioned> '<def>asioso, aggressivo</def>', 
+            <mentioned>asto</mentioned> è forma latinizzata e flessa all'ablativo (II 
+            declinazione); c'è anche la possibilità, più remota, che che come avverbio rifletta 
+            l'avverbio di modo <lang>germ.</lang> in <m>-o</m> (come in <lang>gc.</lang> e 
+            <lang>aat.</lang>) tratto da aggettivi. Romanizzato nella fonetica, sempre senza <m>-h</m> inziale, e col monottogno.</p> 
+            <p>Dalla stessa radice germ. è entrato in italiano il prestito <mentioned>astio</mentioned>, che però discende da 
+            un sostantivo in *<m>-<g ref="imacr"/></m> (*<mentioned>hai(f)sti-z</mentioned>) ed è piuttosto di provenienza ostrogota.</p>
+
           </etym>
           
           <listBibl>
-            <bibl><ref target="#"></ref></bibl>
+            <bibl><ref target="#Onesti1999">Francovich Onesti 1999</ref>, 65-66.</bibl>
             <bibl><ref target="#"></ref></bibl>
             <bibl><ref target="#"></ref></bibl>
           </listBibl>
@@ -970,15 +1150,15 @@
         
         <entry xml:id="barba">
           <form type="lemma">
-            <orth></orth>
+            <orth resp="#Onesti1999">barbas</orth>
           </form>
           
           <gramGrp>
             <pos value="noun"></pos>
-            <gen value="feminine"></gen>
+            <gen value="masculine"></gen>
             <!-- <case value="nominative">nom</case> -->
             <number value="singular"></number>
-            <iType type="theme">-i</iType>
+            <iType type="theme"></iType>
           </gramGrp>
           
           <cit type="main">
@@ -993,11 +1173,15 @@
           </form>
           
           <sense n="1">
-            <def></def>
+            <def>Zio paterno.</def>
           </sense>
           
-          <sense n="2">
-            <def></def>
+          <sense>
+            Sostantivo tardo-latino flesso come debole in <mentioned>-anis</mentioned>, <mentioned>-anem</mentioned> perché uscente in <m>-a</m>. 
+            Si trova in molti dialetti italiani settentrionali col significato di '<def>zio</def>', ma 
+            non è formazione germanica. La sua diffusione coincide con l'epoca longobarda e 
+            forse è entrato nel <lang>lgb.</lang> stesso, ma non si può propriamente considerare 
+            una voce longobarda.
           </sense>
           
           <cit>
@@ -1009,7 +1193,7 @@
           </etym>
           
           <listBibl>
-            <bibl><ref target="#"></ref></bibl>
+            <bibl><ref target="#Onesti1999">Francovich Onesti 1999</ref>, 68.</bibl>
             <bibl><ref target="#"></ref></bibl>
             <bibl><ref target="#"></ref></bibl>
           </listBibl>
@@ -4376,7 +4560,7 @@
         <!-- Bibliografia -->
         
         <listBibl>
-          <bibl><ref target="#Onesti2000">Francovich Onesti 2000</ref>, pp. 54-5</bibl>
+          <bibl><ref target="#Onesti1999">Francovich Onesti 1999</ref>, pp. 54-5</bibl>
           <bibl><ref target="#PrinciBraccini1994">Princi Braccini 1994</ref>, pp. 76-8</bibl>
           <bibl><ref target="#Molinari1989">Molinari 1989</ref>, pp. 233-4</bibl>
         </listBibl>
@@ -4439,4 +4623,3 @@
   </text>
 
 </TEI>
-
