@@ -229,7 +229,14 @@
          <pos value="noun">n</pos>
           <gen value="feminine">f</gen>
           <iType type="theme">-i</iType> oppure <iType type="theme" value="-i"></iType>
-        </gramGrp> -->
+        </gramGrp> 
+        
+        <gramGrp>
+            <pos expand="sostantivo" value="noun">sost.</pos> @expand facoltativo 
+            <gen expand="femminile" value="feminine">femm.</gen>
+            <iType type="theme">-i</iType> oppure <iType type="theme" value="-i"/>
+          </gramGrp>
+        -->
 
         <gramGrp>
           <pos value="noun"/>
@@ -243,6 +250,19 @@
           <gram type="gen">neuter</gram>
           <gram type="theme">-a</gram>
         </gramGrp>
+
+        se si tratta di un verbo:
+          <gramGrp>
+            <pos value="verb"></pos>
+            <iType type="verb" value="weak"></iType>
+            <subc value="transitive"></subc>
+          </gramGrp>
+
+          termine attuale se esiste in una lingua moderna
+          <form type="current"> 
+            <usg type="time">current</usg>
+            <orth xml:lang="ita">faida</orth>
+          </form>
         -->
         
         <!-- ######## Le occorrenze del termine nel testo critico ######## -->
@@ -304,7 +324,14 @@
         </form>
 
         <!-- Le occorrenze e le relative glosse in altri testi (??? vedi template) -->
-        
+        <!-- L'unico riferimento alle glosse è qui al momento.
+        <cit type="cit_section">
+            <cit type="ms_text">
+               facoltativo: <oRef> corrisponde alla forma ortografica del lemma, anche come elemento vuoto
+              <quote><oRef>anstallin</oRef> fecerit, id est si eum diceperit et cum eum non laboraverit</quote>
+              <ref target="#CV188_term_astalin_07 #CV188_gloss_astalin_07">MS 2</ref>
+            </cit>
+             -->
         <cit type="other">
           <quote>Astalin. Id <ex>est</ex> decipere</quote>
           <ref>Gloss. Matr.</ref>
@@ -398,7 +425,9 @@
           <def>sottrarsi</def>), con suffisso <m>-ini-</m> tipico dei sostantivi femminili.
           <!-- cross-reference interna al glossario -->
           <xr type="etym">Etimologicamente connesso con <ref target="#yyyy">yyyy</ref>, ma anche
-          <!-- link a risorsa esterna con lemmaRef -->
+          <!-- link a risorsa esterna con lemmaRef 
+           
+          Qui su può inserire link a leges barbarorum -->
             <mentioned><w lemmaRef="https://bosworthtoller.com/28857">stelan</w></mentioned>
           </xr>
         </etym>
