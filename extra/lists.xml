@@ -963,7 +963,6 @@
           <mapping type="normalized">E</mapping>
         </glyph>
 
-        <!-- Letter L ltailstrok -->
         <char xml:id="ltailstrok">
           <unicodeProp name="Name" value="LATIN SMALL LETTER LUM"/>
           <mapping type="codepoint">A772</mapping>
@@ -988,7 +987,7 @@
         <glyph xml:id="muncmacr">
           <localProp name="Name" value="LATIN SMALL LETTER UNCIAL M WITH MACRON"/>
           <mapping subtype="MUFI-PUA" type="codepoint">U+F225 U+0304</mapping>
-          <mapping type="diplomatic">̄</mapping><!-- CHECK -->
+        	<mapping type="diplomatic">̄</mapping><!-- CHECK -->
           <mapping type="normalized">m</mapping>
         </glyph>
         
@@ -1018,7 +1017,7 @@
         <char xml:id="arbar">
           <unicodeProp name="Name" value="COMBINING ABBREVIATION MARK BAR ABOVE WITH DOT"/>
           <mapping type="codepoint">F1C0</mapping>
-          <mapping type="diplomatic">◌</mapping>
+        	<mapping type="diplomatic"></mapping>
           <mapping type="normalized">ae</mapping>
         </char>
 
@@ -1124,7 +1123,7 @@
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="usmod">
           <unicodeProp name="Name" value="MODIFIER LETTER US"/>
-          <mapping type="codepoint">A770</mapping>
+          <mapping type="codepoint">U+A770</mapping>
           <mapping type="diplomatic">ꝰ</mapping>
           <mapping type="normalized">us</mapping>
         </char>
@@ -1180,7 +1179,7 @@
         <char xml:id="ctilde">
           <unicodeProp name="Name" value="LATIN SMALL LETTER C WITH TILDE"/>
           <mapping subtype="composed" type="codepoint">U+0065 + U+0303</mapping>
-          <mapping type="diplomatic">c̃</mapping>
+        	<mapping type="diplomatic">c̃</mapping>
           <mapping type="normalized">c</mapping>
         </char>
 
@@ -1482,14 +1481,14 @@
         <glyph xml:id="ctlig">
           <unicodeProp name="Name" value="LATIN SMALL LIGATURE CT"/>
           <mapping type="ligature">U+0063 + U+0074</mapping>
-          <mapping type="diplomatic">ct</mapping>
+        	<mapping type="diplomatic"></mapping>
           <mapping type="normalized">ct</mapping>
         </glyph>
         
         <glyph xml:id="stlig">
           <unicodeProp name="Name" value="LATIN SMALL LIGATURE ST"/>
           <mapping type="ligature">U+0073 + U+0074</mapping>
-          <mapping type="diplomatic">st</mapping>
+        	<mapping type="diplomatic">ﬅ</mapping>
           <mapping type="normalized">st</mapping>
         </glyph>
         
@@ -1532,7 +1531,7 @@
         <char xml:id="mmacr">
           <unicodeProp name="Name" value="LATIN SMALL LETTER M WITH MACRON"/>
           <mapping subtype="composed" type="codepoint">U+006D + U+0304</mapping>
-          <mapping type="diplomatic">m̄</mapping>
+        	<mapping type="diplomatic">m̄</mapping>
           <mapping type="normalized">m</mapping>
         </char>
         
@@ -1566,8 +1565,8 @@
 
         <glyph xml:id="filig">
           <unicodeProp name="Name" value="LATIN SMALL LIGATURE FI"/>
-          <mapping type="ligature">U+0066 + U+0069</mapping>
-          <mapping type="diplomatic">fi</mapping><!-- CHECK esiste? -->
+        	<mapping type="ligature">U+FB01</mapping>
+        	<mapping type="diplomatic">ﬁ</mapping>
           <mapping type="normalized">fi</mapping>
         </glyph>
         
@@ -1580,8 +1579,8 @@
         
         <char xml:id="nmacr">
           <unicodeProp name="Name" value="LATIN SMALL LETTER N WITH MACRON"/>
-          <mapping subtype="composed" type="codepoint">U+006E + U+0304</mapping>
-          <mapping type="diplomatic">n̄</mapping>
+        	<mapping subtype="composed" type="codepoint">U+E5DC</mapping>
+        	<mapping type="diplomatic"></mapping>
           <mapping type="normalized">n</mapping>
         </char>
         
@@ -1689,13 +1688,6 @@
           <mapping type="diplomatic">&#59566;</mapping>
           <mapping type="normalized">or</mapping>
         </glyph>
-
-        <!--<glyph xml:id="orlig"> CHECK
-          <unicodeProp name="Name" value="LATIN SMALL LIGATURE OR"/>
-          <mapping type="ligature">U+006F + U+0280</mapping>
-          <mapping type="diplomatic">oʀ</mapping>
-          <mapping type="normalized">or</mapping>
-        </glyph>-->
         
         <char xml:id="iring">
           <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH ACUTE"/>
@@ -1731,6 +1723,7 @@
           <mapping type="diplomatic">c̄</mapping>
           <mapping type="normalized">c</mapping>
         </char>
+      
         
 <!-- AGGIUNTI DA FABIO SONCIN PER BSL5260
         i glifi qui codificati indicano lettere cui un'altra lettera o segno è posto 
@@ -1804,7 +1797,56 @@
           <mapping type="diplomatic"></mapping>
           <mapping type="normalized">orum</mapping>
         </char>
-        
+      	
+      	<char xml:id="esmallabove">
+      		<unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER E"/>
+      		<mapping subtype="composed" type="codepoint">U+0364</mapping>
+      		<mapping type="diplomatic">ͤ</mapping>
+      		<mapping type="normalized">e</mapping>
+      	</char>
+      	
+      	<char xml:id="mtailstrok">
+      		<unicodeProp name="Name" value="LATIN SMALL LETTER MUM"/>
+      		<mapping subtype="composed" type="codepoint">U+A773</mapping>
+      		<mapping type="diplomatic">ꝳ</mapping>
+      		<mapping type="normalized">m</mapping>
+      	</char>
+      	
+      	<char xml:id="osmallabove">
+      		<unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER O"/>
+      		<mapping subtype="composed" type="codepoint">U+0366</mapping>
+      		<mapping type="diplomatic">ͦ</mapping>
+      		<mapping type="normalized">o</mapping>
+      	</char>
+      	
+      	<char xml:id="rsmallabove">
+      		<unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER R"/>
+      		<mapping subtype="composed" type="codepoint">U+036C</mapping>
+      		<mapping type="diplomatic">ͬ</mapping>
+      		<mapping type="normalized">r</mapping>
+      	</char>
+      	
+      	<char xml:id="dblovl">
+      		<unicodeProp name="Name" value="COMBINING DOUBLE OVERLINE"/>
+      		<mapping subtype="composed" type="codepoint">U+033F</mapping>
+      		<mapping type="diplomatic">̿</mapping>
+      		<mapping type="normalized"/>
+      	</char>
+      	
+      	<char xml:id="combcurlbar">
+      		<unicodeProp name="Name" value="COMBINING CURLY BAR ABOVE"/>
+      		<mapping subtype="composed" type="codepoint">U+F1CC</mapping>
+      		<mapping type="diplomatic"></mapping>
+      		<mapping type="normalized"/>
+      	</char>
+      	
+      	<char xml:id="ssup">
+      		<unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER S"/>
+      		<mapping subtype="composed" type="codepoint">U+1DE4</mapping>
+      		<mapping type="diplomatic">&#7652;</mapping>
+      		<mapping type="normalized">s</mapping>
+      	</char>
+      	
         <char xml:id="combcurl">
           <unicodeProp name="Name" value="COMBINING OGONEK ABOVE"/>
           <mapping subtype="composed" type="codepoint">U+1DCE</mapping>
@@ -1831,8 +1873,8 @@
         
         <char xml:id="bus">
           <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH US ABOVE"/>
-          <mapping subtype="MUFI-PUA" type="codepoint">&#61539;</mapping>
-          <mapping type="diplomatic"></mapping>
+        	<mapping subtype="MUFI-PUA" type="codepoint">U+F063</mapping>
+        	<mapping type="diplomatic"></mapping>
           <mapping type="normalized">b</mapping>
         </char>
 
@@ -1863,6 +1905,7 @@
           <mapping type="diplomatic">t̕</mapping>
           <mapping type="normalized">t</mapping>
         </char>
+      	
         
         <glyph xml:id="qbardesa">
           <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER AND 
@@ -1909,7 +1952,7 @@
         
         <glyph xml:id="scomma">
           <unicodeProp name="Name" value="LATIN SMALL LETTER S WITH COMMA ABOVE RIGHT"/>
-          <mapping type="ligature">U+ 0073 + U+0315</mapping>
+          <mapping type="ligature">U+0073 + U+0315</mapping>
           <mapping type="diplomatic">s̕</mapping>
           <mapping type="normalized">s</mapping>
         </glyph>
