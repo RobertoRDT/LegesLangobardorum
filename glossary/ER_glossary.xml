@@ -54,7 +54,7 @@
       </publicationStmt>
 
       <sourceDesc>
-        <p>Born digital glossary for the Leges Langobardorum project.</p>
+        <!--<p>Born digital glossary for the Leges Langobardorum project.</p>-->
         <listBibl>
           <bibl xml:id="Onesti1999">
             <author>
@@ -70,7 +70,7 @@
             <title>Studi medievali</title>, 35, I
             <publisher></publisher>,
             <date>1994</date>.
-            <page>67-99</page>.
+            <biblScope unit="page">67-99</biblScope>.
           </bibl>
         <bibl xml:id="Molinari1989">
             <author>
@@ -78,7 +78,7 @@
             <title>Lessico longboardo nei testi latino-edievali. Problemi di interferenza</title>
             <publisher></publisher>,
             <date>1989</date>,
-            <page>225-239</page>.
+            <biblScope unit="page">225-239</biblScope>.
           </bibl>
           <bibl xml:id="Azzara-Gasparri1992">
             <author>
@@ -95,7 +95,7 @@
             <title>Lessico germanico nelle leggi longobarde</title>.
             <publisher></publisher>,
             <date>1995</date>,
-            <page>5-20</page>.
+            <biblScope unit="page">5-20</biblScope>.
           </bibl>
           <bibl xml:id="Scardigli1977">
             <author>
@@ -103,7 +103,7 @@
             <title>All'origine dei longobardismi in italiano</title>.
             <publisher></publisher>,
             <date>1977</date>,
-            <page>335-354</page>.
+            <biblScope unit="page">335-354</biblScope>.
           </bibl>
           <bibl xml:id="VdR1970">
             <author>
@@ -290,10 +290,10 @@
           <cit type="witness">
             <!-- inserire in <quote> anche la forma originale del testimone? o quella regolarizzata? -->
             <quote>id est si eum diceperit et cum eum non laboraverit</quote>
-            <ref target="CS730_term_anstalin_07">MS 1</ref>,
-            <ref target="#CV188_term_anstalin_07">MS 2</ref>,
-            <ref target="#CE34-5_term_anstalin_07">MS 3</ref>,
-            <ref target="#VL5359_term_anstalin_07">MS 5</ref>.
+            <ref target="CS730_term_anstalin_07">MS 1</ref>
+            <ref target="#CV188_term_anstalin_07">MS 2</ref>
+            <ref target="#CE34-5_term_anstalin_07">MS 3</ref>
+            <ref target="#VL5359_term_anstalin_07">MS 5</ref>
 
           </cit>
         </form>
@@ -804,7 +804,7 @@
           </form>
           
           <sense n="1">
-            <def reso="#Onesti1999">sacramentales, testimoni al giuramento</def>
+            <def  source="#Onesti1999">sacramentales, testimoni al giuramento</def>
           </sense>
           
           <cit>
@@ -866,8 +866,8 @@
           
           <etym resp="#Onesti1999">
             Etimologia incerta. Secondo <ref>Princi Braccini</ref> la grafia con <m>h-</m> è storica, 
-            in quanto fa derivare il termine da <lang>germ.</lang> <mentione>*hal<g ref="#bstrok"/>-</mentione> + 
-            <mentiones>*<g ref="#thorn"/>ewa-</mentiones> <mentioned>semi-servo</mentioned>.
+            in quanto fa derivare il termine da <lang>germ.</lang> <mentioned>*hal<g ref="#bstrok"/>-</mentioned> + 
+            <mentioned>*<g ref="#thorn"/>ewa-</mentioned> <mentioned>semi-servo</mentioned>.
             <ref target="#VdR1989">Van der Rhée</ref> mette a confronto <lang>as.</lang> <mentioned><w>eldi</w></mentioned>, 
             <lang>ags.</lang> <mentioned><w>elde</w></mentioned>, 
             <lang>norr.</lang> <mentioned><w>aldir</w></mentioned> con una specializzazione da 
@@ -979,8 +979,8 @@
           </sense>
 
           <sense resp="Onesti1999">Può darsi che in origine avvenisse per ratto la primitiva forma di 
-            matrimonio, poi ritualizzato nel pagamento della <mentioned ref="#meta">meta</mentioned>. 
-            Pur con successive evoluzioni semantiche, <mentioned>anagrip</mentioned> continua ad essere
+            matrimonio, poi ritualizzato nel pagamento della <mentioned>meta</mentioned>. 
+            Pur con successive evoluzioni semantiche, <mentioned >anagrip</mentioned> continua ad essere
              usato nel altino giuridico dei documenti notarili fino al XII secolo 
              (<ref>Arcamone</ref>)(<ref target="#Onesti1999">Francovich Onesti 1999</ref>. 59).
           </sense>
@@ -1102,14 +1102,13 @@
           <xr type="see">V. <ref target="#haistan">haistan</ref>.</xr>
 
           <etym resp="#Onesti1999">
-            <p>Dall'agg. <lang>germ.</lang> *<mentioned>haist-</mentioned> '<def>asioso, aggressivo</def>', 
+            Dall'agg. <lang>germ.</lang> *<mentioned>haist-</mentioned> '<def>asioso, aggressivo</def>', 
             <mentioned>asto</mentioned> è forma latinizzata e flessa all'ablativo (II 
             declinazione); c'è anche la possibilità, più remota, che che come avverbio rifletta 
             l'avverbio di modo <lang>germ.</lang> in <m>-o</m> (come in <lang>gc.</lang> e 
-            <lang>aat.</lang>) tratto da aggettivi. Romanizzato nella fonetica, sempre senza <m>-h</m> inziale, e col monottogno.</p> 
-            <p>Dalla stessa radice germ. è entrato in italiano il prestito <mentioned>astio</mentioned>, che però discende da 
-            un sostantivo in *<m>-<g ref="imacr"/></m> (*<mentioned>hai(f)sti-z</mentioned>) ed è piuttosto di provenienza ostrogota.</p>
-
+            <lang>aat.</lang>) tratto da aggettivi. Romanizzato nella fonetica, sempre senza <m>-h</m> inziale, e col monottongo. 
+            Dalla stessa radice germ. è entrato in italiano il prestito <mentioned>astio</mentioned>, che però discende da 
+            un sostantivo in *<m>-<g ref="imacr"/></m> (*<mentioned>hai(f)sti-z</mentioned>) ed è piuttosto di provenienza ostrogota.
           </etym>
           
           <listBibl>
