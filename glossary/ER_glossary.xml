@@ -830,12 +830,12 @@
           <form type="lemma">
             <orth resp="#Onesti1999" type="main">aldius</orth>
             <orth>haldius</orth>
+            <orth>aldio</orth>
           </form>
           
           <gramGrp>
             <pos value="noun"></pos>
             <gen value="masculine"></gen>
-            <!-- <case value="nominative">nom</case> -->
             <number value="singular"></number>
             <iType type="theme"></iType>
           </gramGrp>
@@ -1233,15 +1233,15 @@
         
         <entry xml:id="camphio">
           <form type="lemma">
-            <orth></orth>
+            <orth>camphio</orth>
+          	<orth resp="#Onesti1999">camfio</orth>
           </form>
           
           <gramGrp>
             <pos value="noun"></pos>
-            <gen value="feminine"></gen>
-            <!-- <case value="nominative">nom</case> -->
+            <gen value="masculine"></gen>
             <number value="singular"></number>
-            <iType type="theme">-i</iType>
+            <iType type="theme">*-jan</iType>
           </gramGrp>
           
           <cit type="main">
@@ -1256,11 +1256,11 @@
           </form>
           
           <sense n="1">
-            <def></def>
+            <def>Combattente, duellante.</def>
           </sense>
           
           <sense n="2">
-            <def></def>
+            <def>Duello giudiziale.</def>
           </sense>
           
           <cit>
@@ -1269,10 +1269,13 @@
           </cit>
           
           <etym>
+          	Nomen agentis latinizzato. Dal <lang>germ.</lang> <mentioned>*kampja-n</mentioned> (<def>combattente</def>), 
+          	adattamento del <lang>lat.</lang> tardo <mentioned>campio</mentioned>, probabilmente derivante da <lang>lat.</lang> <mentioned>campus</mentioned> (<def>campo di battaglia</def>).
+          	La forma <lang>lgb.</lang> ha subito II LV (p>f),
           </etym>
           
           <listBibl>
-            <bibl><ref target="#"></ref></bibl>
+            <bibl><ref target="#Onesti1999">Francovich Onesti 1999, 71-72.</ref></bibl>
             <bibl><ref target="#"></ref></bibl>
             <bibl><ref target="#"></ref></bibl>
           </listBibl>
