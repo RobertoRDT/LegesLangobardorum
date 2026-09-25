@@ -1,0 +1,1587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			
+			<titleStmt>
+				<title>Leggi di Grimoaldo CE34-5</title>
+				<author/>
+				<respStmt>
+					<resp/>
+					<name>Fabio Soncin</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>Edizioni precedenti Leges Langobardorum</edition>
+				<respStmt xml:id="azzara">
+					<resp>Editor</resp>
+					<name ref="#Azzara2005">Azzara-Gasparri</name>
+				</respStmt>
+				<respStmt xml:id="beyerle">
+					<resp>Editor</resp>
+					<name ref="#Beyerle1962">Beyerle</name>
+				</respStmt>
+				<respStmt xml:id="bluhme">
+					<resp>Editor</resp>
+					<name ref="#Bluhme1868">Bluhme</name>
+				</respStmt>
+			</editionStmt>
+
+			<publicationStmt>
+				<authority>Leges Langobardorum Project</authority>
+				<date instant="false">2014-</date>
+				<availability status="unknown">
+					<p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>CE34-5</idno>	
+					</msIdentifier>
+				</msDesc>
+				
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<charDecl>
+
+        <!-- TODO -->
+        
+        <!-- 
+          
+           - <localProp> per i glifi relativi a legature?
+           - riorganizzare in base a sezioni, v. anche la <charDecl> del progetto MPP
+          
+         -->
+
+        <!-- regular letters -->
+
+        <char xml:id="ucap">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER U"/>
+          <mapping type="codepoint">U+0055</mapping>
+          <mapping type="diplomatic">U</mapping>
+          <mapping type="normalized">U</mapping>
+        </char>
+
+        <char xml:id="vcap">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER V"/>
+          <mapping type="codepoint">U+0056</mapping>
+          <mapping type="diplomatic">V</mapping>
+          <mapping type="normalized">V</mapping>
+        </char>
+
+        <char xml:id="u">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER U"/>
+          <mapping type="codepoint">U+0075</mapping>
+          <mapping type="diplomatic">u</mapping>
+          <mapping type="normalized">u</mapping>
+        </char>
+
+        <char xml:id="v">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER V"/>
+          <mapping type="codepoint">U+0076</mapping>
+          <mapping type="diplomatic">v</mapping>
+          <mapping type="normalized">v</mapping>
+        </char>
+
+        <!-- variant forms -->
+
+        <char xml:id="romnumsix">
+          <unicodeProp name="Name" value="ROMAN NUMERAL SIX LATE FORM"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+2185</mapping>
+          <mapping type="diplomatic">Ϛ</mapping>
+          <mapping type="normalized">VI</mapping>
+        </char>
+        <!-- old version
+                <char xml:id="romnumsix">
+                    <unicodeProp name="Name" value="ROMAN NUMERAL SIX LATE FORM"/>
+                    <mapping subtype="MUFI-PUA" type="codepoint">U+EEFD</mapping>
+                    <mapping type="diplomatic">ↅ</mapping>
+                    <mapping type="normalized">ↅ</mapping>
+                </char>-->
+
+        <char xml:id="amacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER A WITH MACRON"/>
+          <mapping type="codepoint">U+0101</mapping>
+          <mapping type="diplomatic">ā</mapping>
+          <mapping type="normalized">a</mapping>
+        </char>
+        <char xml:id="emacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER E WITH MACRON"/>
+          <mapping type="codepoint">U+0113</mapping>
+          <mapping type="diplomatic">ē</mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+        <char xml:id="imacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER I WITH MACRON"/>
+          <mapping type="codepoint">U+012B</mapping>
+          <mapping type="diplomatic">ī</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        <char xml:id="omacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH MACRON"/>
+          <mapping type="codepoint">U+014D</mapping>
+          <mapping type="diplomatic">ō</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+        <char xml:id="umacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER U WITH MACRON"/>
+          <mapping type="codepoint">U+016B</mapping>
+          <mapping type="diplomatic">ū</mapping>
+          <mapping type="normalized">u</mapping>
+        </char>
+        <char xml:id="ymacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Y WITH MACRON"/>
+          <mapping type="codepoint">U+0233</mapping>
+          <mapping type="diplomatic">ȳ</mapping>
+          <mapping type="normalized">y</mapping>
+        </char>
+
+        <glyph xml:id="Eunc">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER E UNCIAL FORM"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F10A</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">E</mapping>
+        </glyph>
+
+        <char xml:id="ltailstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER LUM"/>
+          <mapping type="codepoint">A772</mapping>
+          <mapping type="diplomatic">ꝲ</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+
+        <glyph xml:id="munc">
+          <localProp name="Name" value="LATIN SMALL LETTER UNCIAL M"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F225</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">m</mapping>
+        </glyph>
+        
+        <glyph xml:id="Munc">
+          <localProp name="Name" value="LATIN CAPITAL LETTER UNCIAL M"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F11A</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">M</mapping>
+        </glyph>
+        
+        <glyph xml:id="muncmacr">
+          <localProp name="Name" value="LATIN SMALL LETTER UNCIAL M WITH MACRON"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F225 U+0304</mapping>
+        	<mapping type="diplomatic">̄</mapping><!-- CHECK -->
+          <mapping type="normalized">m</mapping>
+        </glyph>
+        
+        <char xml:id="ntilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER N WITH TILDE"/>
+          <mapping type="codepoint">00F1</mapping>
+          <mapping type="diplomatic">ñ</mapping>
+          <mapping type="normalized">n</mapping>
+        </char>
+
+        <char xml:id="Ntilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER N WITH TILDE"/>
+          <mapping type="codepoint">U+00D1</mapping>
+          <mapping type="diplomatic">Ñ</mapping>
+          <mapping type="normalized">N</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="fourdot">
+          <unicodeProp name="Name" value="FOUR DOT PUNCTUATION"/>
+          <mapping type="codepoint">2058</mapping>
+          <mapping type="diplomatic">⁘</mapping>
+          <mapping type="normalized">.</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="arbar">
+          <unicodeProp name="Name" value="COMBINING ABBREVIATION MARK BAR ABOVE WITH DOT"/>
+          <mapping type="codepoint">F1C0</mapping>
+        	<mapping type="diplomatic"></mapping>
+          <mapping type="normalized">ae</mapping>
+        </char>
+
+        <char xml:id="penl">
+          <unicodeProp name="Name" value="LATIN ENLARGED LETTER SMALL P"/>
+          <mapping type="codepoint">U+EEF1</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="ptilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0070 + U+0303</mapping>
+          <mapping type="diplomatic">p̃</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
+        <char xml:id="Ptilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER P WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0050 + U+0303</mapping>
+          <mapping type="diplomatic">P̃</mapping>
+          <mapping type="normalized">P</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="qtilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0071 + U+0303</mapping>
+          <mapping type="diplomatic">q̃</mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
+
+        <glyph xml:id="slong">
+          <localProp name="Name" value="LATIN SMALL LETTER LONG S"/>
+          <mapping type="codepoint">U+017F</mapping>
+          <mapping type="diplomatic">ſ</mapping>
+          <mapping type="normalized">s</mapping>
+        </glyph>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="nscapslonglig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE SMALL CAPITAL N LONG S"/>
+          <mapping type="codepoint">EED5</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">ns</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="qmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">E681</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="pmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">E665</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="pbardes">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER"/>
+          <mapping type="codepoint">U+A751</mapping>
+          <mapping type="diplomatic">ꝑ</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="qbardes">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER"/>
+          <mapping type="codepoint">U+A757</mapping>
+          <mapping type="diplomatic">ꝗ</mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="dstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER D WITH STROKE"/>
+          <mapping type="codepoint">0111</mapping>
+          <mapping type="diplomatic">đ</mapping>
+          <mapping type="normalized">d</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="colmidcomposit">
+          <unicodeProp name="Name" value="COLON WITH MIDDLE COMMA POSITURA"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F1E5</mapping>
+          <mapping type="diplomatic"></mapping>
+          <!--<mapping type="normalized">.</mapping>-->
+        </char>
+
+        <char xml:id="us">
+          <unicodeProp name="Name" value="COMBINING US ABOVE"/>
+          <mapping type="codepoint">U+1DD2</mapping>
+          <mapping type="diplomatic"></mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="usmod">
+          <unicodeProp name="Name" value="MODIFIER LETTER US"/>
+          <mapping type="codepoint">U+A770</mapping>
+          <mapping type="diplomatic">ꝰ</mapping>
+          <mapping type="normalized">us</mapping>
+        </char>
+
+        <!-- aggiunto 2018-11-21 -->
+        <char xml:id="ttilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+0303</mapping>
+          <mapping type="diplomatic">t̃</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-05 -->
+        <char xml:id="atilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER A WITH TILDE"/>
+          <mapping type="codepoint">U+00E3</mapping>
+          <mapping type="diplomatic">ã</mapping>
+          <mapping type="normalized">a</mapping>
+        </char>
+
+        <char xml:id="Atilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER A WITH TILDE"/>
+          <mapping type="codepoint">U+00C3</mapping>
+          <mapping type="diplomatic">Ã</mapping>
+          <mapping type="normalized">A</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-05 -->
+        <char xml:id="utilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER U WITH TILDE"/>
+          <mapping type="codepoint">U+0169</mapping>
+          <mapping type="diplomatic">ũ</mapping>
+          <mapping type="normalized">u</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-05 -->
+        <char xml:id="etilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER E WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0065 + U+0303</mapping>
+          <mapping type="diplomatic">ẽ</mapping>
+          <mapping type="normalized">e</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-12 -->
+        <char xml:id="tridotleft">
+          <unicodeProp name="Name" value="THREE DOT PUNCTUATION"/>
+          <mapping type="codepoint">U+2056</mapping>
+          <mapping type="diplomatic">⁖</mapping>
+          <mapping type="normalized">.</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-23 -->
+        <char xml:id="ctilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER C WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0065 + U+0303</mapping>
+        	<mapping type="diplomatic">c̃</mapping>
+          <mapping type="normalized">c</mapping>
+        </char>
+
+        <!-- aggiunto 2018-12-23 -->
+        <char xml:id="otilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH TILDE"/>
+          <mapping type="codepoint">U+00F5</mapping>
+          <mapping type="diplomatic">õ</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+
+        <!-- aggiunto 2025-08-28 -->
+        <char xml:id="amacrdot">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER A WITH MACRON AND DOT ABOVE"/>
+          <mapping subtype="composed"  type="codepoint">U+0061 + U+304 + U+0307</mapping>
+          <mapping type="diplomatic">ā̇</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+        
+        <!-- aggiunto 2025-08-28 -->
+        <char xml:id="emacrdot">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER E WITH MACRON AND DOT ABOVE"/>
+          <mapping subtype="composed"  type="codepoint">U+0065 + U+304 + U+0307</mapping>
+          <mapping type="diplomatic">ē̇</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+        
+        <!-- aggiunto 2025-08-27 -->
+        <char xml:id="omacrdot">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH MACRON AND DOT ABOVE"/>
+          <mapping subtype="composed"  type="codepoint">U+006F + U+304 + U+0307</mapping>
+          <mapping type="diplomatic">ō̇</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+
+        <!-- aggiunto 2019-01-21 -->
+        <char xml:id="rum">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER RUM ROTUNDA"/>
+          <mapping type="codepoint">U+A75D</mapping>
+          <mapping type="diplomatic">ꝝ</mapping>
+          <mapping type="normalized">rum</mapping>
+        </char>
+
+        <char xml:id="rscaptailstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER RUM ROTUNDA"/><!-- CHECK Unicode name -->
+          <mapping type="codepoint">U+A776</mapping>
+          <mapping type="diplomatic">ꝶ</mapping>
+          <mapping type="normalized">rum</mapping>
+        </char>
+
+        <char xml:id="rmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER R WITH MACRON"/>
+          <mapping type="codepoint">U+F054</mapping>
+          <!--<mapping type="codepoint">U+0072 + U+0304</mapping>-->
+          <mapping type="diplomatic">r̄</mapping>
+          <mapping type="normalized">r</mapping>
+        </char>
+
+        <char xml:id="rmacrdotbl">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER R WITH DOT BELOW AND MACRON"/>
+          <mapping type="codepoint">U+1E5D</mapping>
+          <mapping type="diplomatic">ṝ</mapping>
+          <mapping type="normalized">r</mapping>
+        </char>
+
+        <!-- aggiunto 2019-01-21 -->
+        <char xml:id="tildedot">
+          <unicodeProp name="Name" value="TILDE WITH DOT ABOVE"/>
+          <mapping type="codepoint">U+2E1E</mapping>
+          <mapping type="diplomatic">⸞</mapping>
+          <mapping type="normalized">n</mapping>
+        </char>
+
+        <!-- ligatures -->
+
+        <!-- aggiunto 2051-12-18 -->
+        <!-- CHECK non sembra esserci supporto nei font per questo carattere, nome temporaneo v. MUFI nscapslonglig -->
+        <!-- https://mufi.info/q.php?p=mufi/chars/unichar/61141 -->
+        <glyph xml:id="nslig">
+          <unicodeProp name="Name" value="LATIN SMALL N LONG S LIGATURE"/>
+          <mapping type="ligature">U+006E + U+017F</mapping>
+          <mapping type="diplomatic">nſ</mapping>
+          <mapping type="normalized">ns</mapping>
+        </glyph>
+        
+        <glyph xml:id="uslig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE US"/>
+          <mapping type="ligature">U+0075 + U+017F</mapping>
+          <mapping type="diplomatic">us</mapping>
+          <mapping type="normalized">us</mapping>
+        </glyph>
+
+        <!-- aggiunto 2019-01-21 -->
+        <!-- CHECK non sembra esserci supporto nei font per questo carattere, v. etlig -->
+        <!-- https://www.fileformat.info/info/unicode/char/1f672/index.htm -->
+        <char xml:id="openetlig">
+          <unicodeProp name="Name" value="Ligature Open Et Ornament"/>
+          <mapping type="codepoint">U+1F672</mapping>
+          <mapping type="diplomatic">🙲</mapping>
+          <!--<mapping type="diplomatic">et</mapping>-->
+          <mapping type="normalized">et</mapping>
+        </char>
+
+        <!-- aggiunto 2019-01-21 -->
+        <!-- CHECK non c'è supporto nei font MUFI per questo carattere, non sembra neanche quello appropriato -->
+        <!-- https://www.fileformat.info/info/unicode/char/1f670/index.htm -->
+        <char xml:id="etlig">
+          <unicodeProp name="Name" value="Script Ligature Et Ornament"/>
+          <mapping type="codepoint">U+1F670</mapping>
+          <mapping type="diplomatic">🙰</mapping>
+          <!--<mapping type="diplomatic">et</mapping>-->
+          <mapping type="normalized">et</mapping>
+        </char>
+
+        <!-- aggiunto 2024-10 -->
+        <!-- CHECK completamente custom per ora, v. CE34-5 f. 57r --> 
+        <glyph xml:id="eilig">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER P WITH TILDE"/>
+          <!--<mapping subtype="composed" type="codepoint">U+0050 + U+0303</mapping>-->
+          <mapping type="diplomatic">ei</mapping>
+          <mapping type="normalized">ei</mapping>
+        </glyph>
+        
+        <!-- aggiunto 2019-01-21 -->
+        <glyph xml:id="urlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE UR"/>
+          <mapping subtype="composed" type="ligature">U+0075 + U+A783</mapping>
+          <mapping type="diplomatic">ur</mapping>
+          <mapping type="normalized">ur</mapping>
+        </glyph>
+
+        <!-- aggiunto 2019-01-21 -->
+        <glyph xml:id="utlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE UT"/>
+          <mapping subtype="composed" type="ligature">U+0075 + U+1D1B</mapping>
+          <mapping type="diplomatic">ut</mapping>
+          <mapping type="normalized">ut</mapping>
+        </glyph>
+
+        <!-- aggiunto 2025-08-20 -->
+        <char xml:id="trlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE TR"/>
+          <mapping type="codepoint">U+EED8</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">tr</mapping>
+        </char>
+        
+        <!-- aggiunto 2019-03-12 -->
+        <char xml:id="Mtilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER M WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+004D + U+0303</mapping>
+          <mapping type="diplomatic">M̃</mapping>
+          <mapping type="normalized">M</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-12 -->
+        <!-- solo che è sbagliato perché sono i due punti runici e dovrebbe chiamarsi twodotpunct, v. https://mufi.info/q.php?p=mufi/chars/unichar/8282 -->
+        <char xml:id="twodot">
+          <unicodeProp name="Name" value="Two Dot Punctuation"/>
+          <mapping type="codepoint">U+205A</mapping>
+          <mapping type="diplomatic">⁚</mapping>
+          <mapping type="normalized">ue</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-12 -->
+        <char xml:id="jnodotenl">
+          <unicodeProp name="Name" value="LATIN ENLARGED LETTER SMALL DOTLESS J"/>
+          <mapping type="codepoint">EEFE</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-12 -->
+        <char xml:id="stilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER S WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0073 + U+0303</mapping>
+          <mapping type="diplomatic">s̃</mapping>
+          <mapping type="normalized">s</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-12 -->
+        <char xml:id="eogon">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER E WITH OGONEK"/>
+          <mapping type="codepoint">0119</mapping>
+          <mapping type="diplomatic">ę</mapping>
+          <mapping type="normalized">ae</mapping>
+        </char>
+
+        <glyph xml:id="cogon">
+          <localProp name="Name" value="LATIN SMALL LETTER C WITH OGONEK"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E476</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">c</mapping>
+        </glyph>
+
+        <!-- aggiunto 2019-03-13 -->
+        <char xml:id="xtilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER X WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0078 + U+0303</mapping>
+          <mapping type="diplomatic">x̃</mapping>
+          <mapping type="normalized">x</mapping>
+        </char>
+
+        <char xml:id="hstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER H WITH STROKE"/>
+          <mapping type="codepoint">U+0127</mapping>
+          <mapping type="diplomatic">ħ</mapping>
+          <mapping type="normalized">h</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-14 -->
+        <char xml:id="lhighstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER L WITH HIGH STROKE"/>
+          <mapping type="codepoint">U+A749</mapping>
+          <mapping type="diplomatic">ꝉ</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+
+        <char xml:id="lstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER L WITH STROKE"/>
+          <mapping type="codepoint">U+0142</mapping>
+          <mapping type="diplomatic">ł</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-15 -->
+        <char xml:id="pflour">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH FLOURISH"/>
+          <mapping type="codepoint">A753</mapping>
+          <mapping type="diplomatic">ꝓ</mapping>
+          <mapping type="normalized">pro</mapping>
+        </char>
+
+        <!-- aggiunto 2019-03-17 -->
+        <char xml:id="mtilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER M WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+006D + U+0303</mapping>
+          <mapping type="diplomatic">m̃</mapping>
+          <mapping type="normalized">m</mapping>
+        </char>
+
+        <char xml:id="tildevert">
+          <unicodeProp name="Name" value="VERTICAL TILDE"/>
+          <mapping type="codepoint">U+2E2F</mapping>
+          <mapping type="diplomatic">ⸯ</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+        
+        <char xml:id="combtildevert">
+          <unicodeProp name="Name" value="COMBINING VERTICAL TILDE"/>
+          <mapping type="codepoint">U+033E</mapping>
+          <mapping type="diplomatic">̾</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+
+        <!-- aggiunto 2019-03-20 -->
+        <char xml:id="ur">
+          <unicodeProp name="Name" value="COMBINING UR ABOVE"/>
+          <mapping type="codepoint">1DD1</mapping>
+          <mapping type="diplomatic">᷑</mapping>
+          <mapping type="normalized">ur</mapping>
+        </char>
+
+        <char xml:id="combhook">
+          <unicodeProp name="Name" value="COMBINING HOOK ABOVE"/>
+          <mapping type="codepoint">U+0309</mapping>
+          <mapping type="diplomatic">̉</mapping>
+        </char>
+        
+        <char xml:id="combcurlhigh">
+          <unicodeProp name="Name" value="COMBINING CURL HIGH POSITION"/>
+          <mapping type="codepoint">U+F1C5</mapping>
+          <mapping type="diplomatic"></mapping>
+        </char>
+        
+        <!-- aggiunto 2019-03-20 -->
+        <char xml:id="semi">
+          <unicodeProp name="Name" value="SEMICOLON"/>
+          <mapping type="codepoint">003B</mapping>
+          <mapping type="diplomatic">;</mapping>
+          <mapping type="normalized">us</mapping>
+        </char>
+
+        <char xml:id="middot">
+          <unicodeProp name="Name" value="MIDDLE DOT"/>
+          <mapping type="codepoint">U+00B7</mapping>
+          <mapping type="diplomatic">·</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+        
+        <char xml:id="homothetic">
+          <unicodeProp name="Name" value="MIDDLE DOT"/>
+          <mapping type="codepoint">U+223B</mapping>
+          <mapping type="diplomatic">∻</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+
+        <!-- ##### aggiunto da FS in data 2024-04-13 ##### -->
+        <glyph xml:id="ctlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE CT"/>
+          <mapping type="ligature">U+0063 + U+0074</mapping>
+        	<mapping type="diplomatic"></mapping>
+          <mapping type="normalized">ct</mapping>
+        </glyph>
+        
+        <glyph xml:id="stlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE ST"/>
+          <mapping type="ligature">U+0073 + U+0074</mapping>
+        	<mapping type="diplomatic">ﬅ</mapping>
+          <mapping type="normalized">st</mapping>
+        </glyph>
+        
+        <glyph xml:id="aelig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE AE"/>
+          <mapping type="ligature">U+0061 + U+0065</mapping>
+          <mapping type="diplomatic">æ</mapping>
+          <mapping type="normalized">ae</mapping>
+        </glyph>
+        
+        <char xml:id="Rtilde">
+          <unicodeProp name="Name" value="LATIN CAPIPTAL LETTER R WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0052 + U+0303</mapping>
+          <mapping type="diplomatic">R̃</mapping>
+          <mapping type="normalized">R</mapping>
+        </char>
+        
+        <char xml:id="Rmacr">
+          <unicodeProp name="Name" value="LATIN CAPIPTAL LETTER R WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0052 + U+0303</mapping>
+          <mapping type="diplomatic">R̄</mapping>
+          <mapping type="normalized">R</mapping>
+        </char>
+        
+        
+        <char xml:id="Htilde">
+          <unicodeProp name="Name" value="LATIN CAPIPTAL LETTER H WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0048 + U+0303</mapping>
+          <mapping type="diplomatic">H̃</mapping>
+          <mapping type="normalized">H</mapping>
+        </char>
+        
+        <char xml:id="Hmacr">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER H WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0048 + U+ U+0304</mapping>
+          <mapping type="diplomatic">H¯</mapping>
+          <mapping type="normalized">H</mapping>
+        </char>
+        
+        <char xml:id="mmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER M WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+006D + U+0304</mapping>
+        	<mapping type="diplomatic">m̄</mapping>
+          <mapping type="normalized">m</mapping>
+        </char>
+        
+        <char xml:id="mmacrmed">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER M WITH MEDIUM-HIGH MACRON"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E5B8</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">m</mapping>
+        </char>
+        
+        <char xml:id="Mmacrhigh">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER M WITH HIGH MACRON (ABOVE CHARACTER)"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E1B8</mapping>
+          <mapping type="diplomatic">M̄</mapping>
+          <mapping type="normalized">M</mapping>
+        </char>
+
+        <char xml:id="tmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+00AF</mapping>
+          <mapping type="diplomatic">t̄</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+        
+        <char xml:id="Tmacr">
+          <localProp name="Name" value="LATIN CAPITAL LETTER T WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+00AF</mapping>
+          <mapping type="diplomatic">T̄</mapping>
+          <mapping type="normalized">T</mapping>
+        </char>
+
+        <glyph xml:id="filig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE FI"/>
+        	<mapping type="ligature">U+FB01</mapping>
+        	<mapping type="diplomatic">ﬁ</mapping>
+          <mapping type="normalized">fi</mapping>
+        </glyph>
+        
+        <glyph xml:id="exlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE EX"/>
+          <mapping type="ligature">U+0065 + U+0078</mapping>
+          <mapping type="diplomatic">ex</mapping>
+          <mapping type="normalized">ex</mapping>
+        </glyph>
+        
+        <char xml:id="nmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER N WITH MACRON"/>
+        	<mapping subtype="composed" type="codepoint">U+E5DC</mapping>
+        	<mapping type="diplomatic"></mapping>
+          <mapping type="normalized">n</mapping>
+        </char>
+        
+        <char xml:id="Qtilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER Q WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0051 + U+0303</mapping>
+          <mapping type="diplomatic">Q̃</mapping>
+          <mapping type="normalized">Q</mapping>
+        </char>
+        
+        <char xml:id="Itilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER I WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0049 + U+0303</mapping>
+          <mapping type="diplomatic">Ĩ</mapping>
+          <mapping type="normalized">I</mapping>
+        </char>
+        
+        <char xml:id="Imacr">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER I WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+012A</mapping>
+          <mapping type="diplomatic">Ī</mapping>
+          <mapping type="normalized">I</mapping>
+        </char>
+        
+        <char xml:id="Utilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER U WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0055 + U+0303</mapping>
+          <mapping type="diplomatic">Ũ</mapping>
+          <mapping type="normalized">U</mapping>
+        </char>
+        
+        <char xml:id="Umacr">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER U WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+016A</mapping>
+          <mapping type="diplomatic">Ū</mapping>
+          <mapping type="normalized">U</mapping>
+        </char>
+        
+        <char xml:id="lmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER L WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+006C + U+0304</mapping>
+          <mapping type="diplomatic">l̄</mapping>
+          <mapping type="normalized">l</mapping>
+        </char>
+        
+        <char xml:id="Nmacr">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER N WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+004E + U+0304</mapping>
+          <mapping type="diplomatic">N̄</mapping>
+          <mapping type="normalized">N</mapping>
+        </char>
+        
+        <char xml:id="racute">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER R WITH ACUTE"/>
+          <mapping subtype="composed" type="codepoint">U+0155</mapping>
+          <mapping type="diplomatic">ŕ</mapping>
+          <mapping type="normalized">r</mapping>
+        </char>
+        
+        <char xml:id="gtilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER G WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0067 + U+0303</mapping>
+          <mapping type="diplomatic">g̃</mapping>
+          <mapping type="normalized">g</mapping>
+        </char>
+        
+        <char xml:id="gmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER G WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+1E21</mapping>
+          <mapping type="diplomatic">ḡ</mapping>
+          <mapping type="normalized">g</mapping>
+        </char>
+        
+        <char xml:id="smacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER S WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0073 + U+0304</mapping>
+          <mapping type="diplomatic">s̄</mapping>
+          <mapping type="normalized">s</mapping>
+        </char>
+        
+        <char xml:id="dstroke">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER D WITH STROKE"/>
+          <mapping subtype="composed" type="codepoint">U+0111</mapping>
+          <mapping type="diplomatic">đ</mapping>
+          <mapping type="normalized">d</mapping>
+        </char>
+        
+        <char xml:id="bstroke">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH STROKE"/>
+          <mapping subtype="composed" type="codepoint">U+0180</mapping>
+          <mapping type="diplomatic">ƀ</mapping>
+          <mapping type="normalized">b</mapping>
+        </char>
+        
+        <char xml:id="tacute">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH ACUTE"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+02CA</mapping>
+          <mapping type="diplomatic">tˊ</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+        
+        <glyph xml:id="orlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE OR ROTUNDA"></unicodeProp>
+          <mapping type="ligature">U+E8AE</mapping>
+          <mapping type="diplomatic">&#59566;</mapping>
+          <mapping type="normalized">or</mapping>
+        </glyph>
+        
+        <char xml:id="iring">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH ACUTE"/>
+          <mapping subtype="composed" type="codepoint">U+0069 + U+0357</mapping>
+          <mapping type="diplomatic">i͗</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        
+        <char xml:id="pflourish">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH FLOURISH"/>
+          <mapping subtype="composed" type="codepoint">U+A753</mapping>
+          <mapping type="diplomatic">ꝓ</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+        
+        <char xml:id="Dtilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER D WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0044 + U+02DC</mapping>
+          <mapping type="diplomatic">D˜</mapping>
+          <mapping type="normalized">D</mapping>
+        </char>
+        
+        <char xml:id="Dmacr">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER D WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0044 + U+0304</mapping>
+          <mapping type="diplomatic">D̄</mapping>
+          <mapping type="normalized">D</mapping>
+        </char>
+        
+        <char xml:id="cmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER C WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0063 + U+0304</mapping>
+          <mapping type="diplomatic">c̄</mapping>
+          <mapping type="normalized">c</mapping>
+        </char>
+      
+        
+<!-- AGGIUNTI DA FABIO SONCIN PER BSL5260
+        i glifi qui codificati indicano lettere cui un'altra lettera o segno è posto 
+        sopra la lettera principale-->        
+        <char xml:id="icurl">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER I WITH CULR"/>
+          <mapping subtype="composed" type="codepoint">U+0069 + U+1DCE</mapping>
+          <mapping type="diplomatic">i᷎</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        
+        <char xml:id="ra">
+          <unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE"/>
+          <mapping subtype="composed" type="codepoint">U+1DD3</mapping>
+          <mapping type="diplomatic">&#7635;</mapping>
+          <mapping type="normalized"></mapping>
+        </char>
+        
+        <char xml:id="erang">
+          <unicodeProp name="Name" value="COMBINING ABBREVIATION MARK ZIGZAG ABOVE ANGLE FORM"/>
+          <mapping subtype="composed" type="codepoint">U+F1C7</mapping>
+          <mapping type="diplomatic">&#61895;</mapping>
+          <mapping type="normalized"></mapping>
+        </char>
+        
+        <char xml:id="asmallabove">
+          <unicodeProp name="Name" value="COMBINING SMALL LETTER A"/>
+          <mapping subtype="composed" type="codepoint">U+0363</mapping>
+          <mapping type="diplomatic">ͣ</mapping>
+          <mapping type="normalized">a</mapping>
+        </char>
+        
+        <char xml:id="bstrok">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH STROKE"/>
+          <mapping subtype="composed" type="codepoint">U+0180</mapping>
+          <mapping type="diplomatic">ƀ</mapping>
+          <mapping type="normalized">b</mapping>
+        </char>
+        
+        <char xml:id="ismallabove">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH CURL"/>
+          <mapping subtype="composed" type="codepoint">U+0180</mapping>
+          <mapping type="diplomatic">ͥ</mapping>
+          <mapping type="normalized">i</mapping>
+        </char>
+        
+        <char xml:id="pcurl">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH CURL"/>
+          <mapping subtype="composed" type="codepoint">U+0070 + U+1DCE</mapping>
+          <mapping type="diplomatic">p᷎</mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+        
+        <char xml:id="qbardestilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER AND TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+A757 + U+0303</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">q</mapping>
+        </char>
+
+        <char xml:id="et">
+          <unicodeProp name="Name" value="TIRONIAN SIGN ET"/>
+          <mapping subtype="composed" type="codepoint">U+204A</mapping>
+          <mapping type="diplomatic">⁊</mapping>
+          <mapping type="normalized">et</mapping>
+        </char>
+        
+        <char xml:id="orumlig">
+          <unicodeProp name="Name" value="LATIN SMALL LIGATURE O RUM"/>
+          <mapping subtype="composed" type="codepoint">U+EFBA</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">orum</mapping>
+        </char>
+      	
+      	<char xml:id="esmallabove">
+      		<unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER E"/>
+      		<mapping subtype="composed" type="codepoint">U+0364</mapping>
+      		<mapping type="diplomatic">ͤ</mapping>
+      		<mapping type="normalized">e</mapping>
+      	</char>
+      	
+      	<char xml:id="mtailstrok">
+      		<unicodeProp name="Name" value="LATIN SMALL LETTER MUM"/>
+      		<mapping subtype="composed" type="codepoint">U+A773</mapping>
+      		<mapping type="diplomatic">ꝳ</mapping>
+      		<mapping type="normalized">m</mapping>
+      	</char>
+      	
+      	<char xml:id="osmallabove">
+      		<unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER O"/>
+      		<mapping subtype="composed" type="codepoint">U+0366</mapping>
+      		<mapping type="diplomatic">ͦ</mapping>
+      		<mapping type="normalized">o</mapping>
+      	</char>
+      	
+      	<char xml:id="rsmallabove">
+      		<unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER R"/>
+      		<mapping subtype="composed" type="codepoint">U+036C</mapping>
+      		<mapping type="diplomatic">ͬ</mapping>
+      		<mapping type="normalized">r</mapping>
+      	</char>
+      	
+      	<char xml:id="dblovl">
+      		<unicodeProp name="Name" value="COMBINING DOUBLE OVERLINE"/>
+      		<mapping subtype="composed" type="codepoint">U+033F</mapping>
+      		<mapping type="diplomatic">̿</mapping>
+      		<mapping type="normalized"/>
+      	</char>
+      	
+      	<char xml:id="combcurlbar">
+      		<unicodeProp name="Name" value="COMBINING CURLY BAR ABOVE"/>
+      		<mapping subtype="composed" type="codepoint">U+F1CC</mapping>
+      		<mapping type="diplomatic"></mapping>
+      		<mapping type="normalized"/>
+      	</char>
+      	
+      	<char xml:id="ssup">
+      		<unicodeProp name="Name" value="COMBINING LATIN SMALL LETTER S"/>
+      		<mapping subtype="composed" type="codepoint">U+1DE4</mapping>
+      		<mapping type="diplomatic">&#7652;</mapping>
+      		<mapping type="normalized">s</mapping>
+      	</char>
+      	
+        <char xml:id="combcurl">
+          <unicodeProp name="Name" value="COMBINING OGONEK ABOVE"/>
+          <mapping subtype="composed" type="codepoint">U+1DCE</mapping>
+          <mapping type="diplomatic">᷎</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+        
+        <char xml:id="Pmacr">
+          <unicodeProp name="Name" value="LATIN LARGE LETTER P WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0050 + U+0304</mapping>
+          <mapping type="diplomatic">P̄</mapping>
+          <mapping type="normalized">P</mapping>
+        </char>
+                  
+        <!-- AGGIUNTI DA FABIO SONCIN PER BSL3519 
+        i glifi qui codificati indicano lettere cui un'altra lettera o segno è posto 
+        sopra la lettera principale-->        
+        <char xml:id="tverticaltilde">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH VERTICAL TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+033E</mapping>
+          <mapping type="diplomatic">t̾</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+        
+        <char xml:id="bus">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH US ABOVE"/>
+        	<mapping subtype="MUFI-PUA" type="codepoint">U+F063</mapping>
+        	<mapping type="diplomatic"></mapping>
+          <mapping type="normalized">b</mapping>
+        </char>
+
+        <char xml:id="bcomma">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH COMMA ABOVE RIGHT"/>
+          <mapping subtype="composed" type="codepoint">U+0062 + U+0315</mapping>
+          <mapping type="diplomatic">b̕</mapping>
+          <mapping type="normalized">b</mapping>
+        </char>
+        
+        <char xml:id="gcomma">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER G WITH COMMA ABOVE RIGHT"/>
+          <mapping subtype="composed" type="codepoint">U+0067 + U+0315</mapping>
+          <mapping type="diplomatic">g̕</mapping>
+          <mapping type="normalized">g</mapping>
+        </char>
+        
+        <char xml:id="pcomma">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH COMMA ABOVE RIGHT"/>
+          <mapping subtype="composed" type="codepoint">U+0070 + U+0315</mapping>
+          <mapping type="diplomatic">p̕</mapping>
+          <mapping type="normalized">P</mapping>
+        </char>
+        
+        <char xml:id="tcomma">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH COMMA ABOVE RIGHT"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+0315</mapping>
+          <mapping type="diplomatic">t̕</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+      	
+        
+        <glyph xml:id="qbardesa">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER AND 
+            SMALL LATIN LETTER A ABOVE"/>
+          <mapping type="ligature">U+A757 + U+0363</mapping>
+          <mapping type="diplomatic">ꝗͣ</mapping>
+          <mapping type="normalized">q</mapping>
+        </glyph>
+        
+        <glyph xml:id="qiabove">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH SMALL LATIN LETTER I ABOVE"/>
+          <mapping type="ligature">U+0071 + U+0365</mapping>
+          <mapping type="diplomatic">qͥ</mapping>
+          <mapping type="normalized">q</mapping>
+        </glyph>
+        
+        <glyph xml:id="giabove">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER G WITH SMALL LATIN LETTER I ABOVE"/>
+          <mapping type="ligature">U+0067 + U+0365</mapping>
+          <mapping type="diplomatic">gͥ</mapping>
+          <mapping type="normalized">g</mapping>
+        </glyph>
+        
+        <glyph xml:id="xrevstop">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER X WITH REVERS GLOTTAL STOP ABOVE"/>
+          <mapping type="ligature">U+0078 + U+02C1</mapping>
+          <mapping type="diplomatic">xˁ</mapping>
+          <mapping type="normalized">x</mapping>
+        </glyph>
+        
+        <glyph xml:id="maabove">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER M WITH SMALL LATIN LETTER A ABOVE"/>
+          <mapping type="ligature">U+006D + U+0363</mapping>
+          <mapping type="diplomatic">mͣ</mapping>
+          <mapping type="normalized">m</mapping>
+        </glyph>
+        
+        <glyph xml:id="caabove">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER C WITH SMALL LATIN LETTER A ABOVE"/>
+          <mapping type="ligature">U+0063 + U+0363</mapping>
+          <mapping type="diplomatic">cͣ</mapping>
+          <mapping type="normalized">c</mapping>
+        </glyph>
+        
+        <glyph xml:id="scomma">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER S WITH COMMA ABOVE RIGHT"/>
+          <mapping type="ligature">U+0073 + U+0315</mapping>
+          <mapping type="diplomatic">s̕</mapping>
+          <mapping type="normalized">s</mapping>
+        </glyph>
+
+        <!-- BREVIGRAFI CE34-5. CHECK: add normalized mapping? -->
+        
+        <char xml:id="Itwodot">
+          <localProp name="Name" value="LATIN CAPITAL LETTER I WITH TWO MIDDLE DOTS"/>
+          <mapping type="diplomatic">·I·</mapping>
+        </char>
+        
+        <char xml:id="slongdot">
+          <localProp name="Name" value="LATIN SMALL LETTER LONG S WITH MIDDLE DOT"/>
+          <mapping type="diplomatic">ſ·</mapping>
+        </char>
+        
+        <char xml:id="slongtwodot">
+          <localProp name="Name" value="LATIN SMALL LETTER LONG S WITH TWO MIDDLE DOTS"/>
+          <mapping type="diplomatic">·ſ·</mapping>
+        </char>
+
+      </charDecl>
+		</encodingDesc>
+
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+				<language ident="lng">Langobardic</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Documentaria</term>
+					<term type="genre">Testo giuridico</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+
+	<facsimile xml:id="CE34-5_facsimile">
+		<surface>
+
+		</surface>
+	</facsimile>
+
+
+	<text type="prose" n="Leggi di Grimoaldo" xml:id="CE34-5_LG">
+		
+		<!-- ############################################
+			EVENTUALI TERMINI DA RIVEDERE
+		°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+		
+		- triginta (sic.). Da ed. "trigenta"
+		
+		-->
+		<body>
+			<!-- ##### 105r #####-->
+			<pb n="105r" xml:id="CE34-5_folio_105r"/>
+			<div xml:id="CE34-5_LG_Incipit" type="prose" subtype="edition_text">
+				<head>
+					<lb xml:id="CE34-5_lb_105r_1" n="1"/><w>INCIPI<c corresp="#ucap">V</c>NT</w> <w>CA<c corresp="#v">V</c>SAS</w> <w>Q<c corresp="#ucap">V</c>AS</w> <w><choice>
+							<abbr>DOMN<c corresp="#ucap">V</c>S</abbr>
+							<expan>DOM<ex>I</ex>NUS</expan>
+					</choice></w> 
+					<lb xml:id="CE34-5_lb_105r_2" n="2"/><persName><w>GRIMOALD</w></persName> <w>ADDEDIT</w> <w>DICENS</w>
+				</head>
+				
+				<div xml:id="CE34-5_LG_Prologus" type="prose" subtype="edition_text">
+					<p>
+						<lb xml:id="CE34-5_lb_105r_3" n="3"/><w><hi rend="init3.1">S</hi><c>u</c>periorem</w> <w>paginam</w> <w>h<c>u</c>i<c>u</c>s</w> <w>edicti</w> 
+						<lb xml:id="CE34-5_lb_105r_4" n="4"/><w>legit<c>u</c>r</w><g ref="#middot"/> <w>ita</w> <w>q<c>u</c>od</w> <w>ad<c>h</c>uc</w> <w>ann<c>u</c>ente</w> 
+						<lb xml:id="CE34-5_lb_105r_5" n="5"/><w><choice>
+								<abbr>dn<am><g ref="#omacr"/></am></abbr>
+								<expan>d<ex>omi</ex>n<g ref="#omacr"/></expan>
+						</choice></w> <w>memorare</w> <w>pot<c>u</c>erim<c>u</c>s</w> <w>de</w> 
+						<lb xml:id="CE34-5_lb_105r_6" n="6"/><w>sing<c>u</c>lis</w> <w>ca<c>u</c>sis</w> <w>q<c>u</c>e</w> <w><choice>
+								<orig>In</orig>
+								<reg>in</reg>
+						</choice></w> <w>presente</w> <w>non</w> 
+						<lb xml:id="CE34-5_lb_105r_7" n="7"/><w>s<c>u</c>nt</w> <w>adfi<g ref="#ctlig"/>e</w> <w>in</w> <w>hoc</w> <w>edi<g ref="#ctlig"/>o</w> <w>adi<c>u</c>ngere</w> 
+						<w>de<lb xml:id="CE34-5_lb_105r_8" n="8"/>beam<c>u</c>s</w><orig><pc>.</pc></orig> <w><choice>
+								<orig>Ita</orig>
+								<reg>ita</reg>
+						</choice></w> <w><c>u</c>t</w> <w>ca<c>u</c>se</w> <w>q<c>u</c>e</w> <w>i<c>u</c>dicate</w> <w><g ref="#etlig"/></w> <w>f<del>j</del><add>e</add>nite</w> 
+						<lb xml:id="CE34-5_lb_105r_9" n="9"/><w>s<c>u</c>nt</w> <w>non</w> <w>re<c corresp="#v">u</c>ol<c corresp="#v">u</c>ant<c>u</c>r</w><orig><pc>.</pc></orig> <w>Ideo</w> <w>ego</w> <w><c corresp="#v">u</c>iro</w> <w><choice>
+								<abbr>excel<am><g ref="#ltailstrok"/></am></abbr>
+								<expan>excel<g ref="#ltailstrok"/><ex>entissimus</ex></expan>
+						</choice></w> 
+						<lb xml:id="CE34-5_lb_105r_10" n="10"/><persName><w><choice>
+								<orig>grimoald</orig>
+								<reg>Grimoald</reg>
+						</choice></w></persName> <w>rex</w> <w>gentis</w> <w><choice>
+								<abbr>langobardor<am><g ref="#umacr"/></am></abbr>
+								<expan>langobardor<g ref="#umacr"/><ex>m</ex></expan>
+						</choice></w> <w>anno</w> 
+						<lb xml:id="CE34-5_lb_105r_11" n="11"/><w><choice>
+								<abbr>d<am><g ref="#omacr"/></am></abbr>
+								<expan>d<ex>e</ex><g ref="#omacr"/></expan>
+						</choice></w> <w>propitio</w> <w>regni</w> <w>mei</w> <w>sexto</w> <w>mense</w> <w><choice>
+								<orig>i<c>u</c>ljo</orig>
+								<reg>i<c>u</c>lio</reg>
+						</choice></w> 
+						<w>indi<g ref="#ctlig"/>io<lb xml:id="CE34-5_lb_105r_12" n="12"/>ne</w> <w>decima</w><orig><pc>.</pc></orig> <w>per</w> <w><choice>
+								<abbr>s<c>u</c>ggestion<am><g ref="#emacr"/></am></abbr>
+								<expan>s<c>u</c>ggestion<g ref="#emacr"/><ex>m</ex></expan>
+						</choice></w> <w>i<c>u</c>dic<c>u</c>m</w> <w><choice>
+								<abbr>omni<am><g ref="#umacr"/></am>q<am><g ref="#semi"/></am></abbr>
+								<expan>omni<g ref="#umacr"/><ex>m</ex>q<ex><g ref="#semi"/></ex></expan>
+						</choice></w> 
+						<lb xml:id="CE34-5_lb_105r_13" n="13"/><w>consens<c>u</c>m</w> <w><g ref="#etlig"/></w> <w>q<c>u</c>e</w> <w>illis</w> <w>d<c>u</c>ra</w> <w><g ref="#etlig"/></w> <w>impia</w> <w>in</w> <w>hoc</w> 
+						<w>edic<lb xml:id="CE34-5_lb_105r_14" n="14"/>t<c>u</c>m</w> <w><c corresp="#v">u</c>isa</w> <w>s<c>u</c>nt</w> <w>ad</w> <w>meliorem</w> <w>stat<c>u</c>m</w> <w><g ref="#etlig"/></w> 
+						<w>clementi<lb xml:id="CE34-5_lb_105r_15" n="15"/>orem</w> <w>remedi<c>u</c>m</w> <w>corregere</w> <w><g ref="#etlig"/></w> <w>re<c corresp="#v">u</c>ocare</w> <w><choice>
+								<abbr>debea<am><g ref="#mtailstrok"/></am></abbr>
+								<expan>debea<g ref="#mtailstrok"/><ex>us</ex></expan>
+						</choice></w>
+					</p>
+				</div>	
+			</div>
+			
+			<div xml:id="CE34-5_LG_capitula">
+				<p xml:id="CE34-5_LG_p_1" n="1">
+					<lb xml:id="CE34-5_lb_105r_16" n="16"/><label n="1"><w>1</w></label> <w><hi rend="init3.1">S</hi>i</w> <w>ser<c corresp="#v">u</c><c>u</c>s</w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am></abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex></expan>
+					</choice></w> <w>triginta</w> <w>annos</w> <w>domino</w> <w>s<c>u</c>o</w>
+					<lb xml:id="CE34-5_lb_105r_17" n="17"/><w>ser<c corresp="#v">u</c>ierit</w><g ref="#middot"/> <w>si</w> <w corresp="#v">ser<c>u</c><c>u</c>s</w> <w>a<c>u</c>t</w> <w>ancilla</w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am></abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex></expan>
+					</choice></w> <w>triginta</w> 
+					<lb xml:id="CE34-5_lb_105r_18" n="18"/><w>annos</w> <w>q<c>u</c>aliter</w> <w>rei</w> <w><c corresp="#v">u</c>eritas</w> <w>cognita</w> <w>f<c>u</c>erit</w> 
+					<lb xml:id="CE34-5_lb_105r_19" n="19"/><w>per</w> <w>triginta</w> <w>annos</w> <w>dominis</w> <w>s<c>u</c>is</w> <w>ser<c corresp="#v">u</c>iss<g ref="#etlig"/></w> <w>et</w> 
+					<lb xml:id="CE34-5_lb_105r_20" n="20"/><w>per</w> <w>s<c>u</c>perbia</w> <w>a<c>u</c>t</w> <w>ini<c>u</c><g ref="#stlig"/>a</w> <w>patrocinia</w><!-- GLOSSA COMMENTO NOTA MARGINALIA --> <w>se</w> 
+					<w><c corresp="#v">u</c>o<lb xml:id="CE34-5_lb_105r_21" n="21"/>l<c>u</c>erit</w> <w>de</w> <w>domino</w> <w>s<c>u</c>o</w> <w>proprio</w> <w>per</w> <w><choice>
+							<abbr>p<c>u</c>gn<am><g ref="#amacr"/></am></abbr>
+							<expan>p<c>u</c>gn<g ref="#amacr"/><ex>m</ex></expan>
+					</choice></w> <w><c corresp="#v">u</c>indi<lb xml:id="CE34-5_lb_105r_22" n="22"/>care</w><g ref="#middot"/> <w>n<c>u</c>llatin<c>u</c>s</w> <w>ei</w> <w>permittim<c>u</c>s</w> <w>sed</w> 
+					<w>ser<c corresp="#v">u</c>i<lb xml:id="CE34-5_lb_105r_23" n="23"/>at</w> <w>sic<c>u</c>t</w> <w>dec<g ref="#etlig"/></w> <w>ser<c corresp="#v">u</c><c>u</c>m</w> <w>a<c>u</c>t</w> <w><choice>
+							<abbr>ancill<am><g ref="#amacr"/></am></abbr>
+							<expan>ancill<g ref="#amacr"/><ex>m</ex></expan>
+					</choice></w> <w>proprio</w> 
+					<lb xml:id="CE34-5_lb_105r_24" n="24"/><w>domino</w> <w>suo</w><orig><pc>:</pc></orig> <w><hi rend="cap">S</hi>imiliter</w> <w><g ref="#etlig"/></w> <w>si</w> <term xml:lang="lng" ref="#aldio" xml:id="CE34-5_LG_term_aldio_01"><w>aldi<c>u</c>s</w></term> <w>f<c>u</c>erit</w> 
+					
+					<w><choice>
+							<orig>In</orig>
+							<reg>in</reg>
+					</choice><!-- ##### 105v #####--><pb n="105v" xml:id="CE34-5_folio_105v"/><lb xml:id="CE34-5_lb_105v_1" n="1"/>pendat</w> <w>obedientiam</w> <w>patroni</w> <w>s<c>u</c>o</w> <w>sic<c>u</c>t</w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am></abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex></expan>
+					</choice></w> 
+					<lb xml:id="CE34-5_lb_105v_2" n="2"/><w>triginta</w> <w>annos</w> <w>fecit</w><g ref="#middot"/> <w><g ref="#etlig"/></w> <w>ei</w> <w>no<c corresp="#v">u</c>a</w> <w>a</w> <w>domino</w> 
+					<lb xml:id="CE34-5_lb_105v_3" n="3"/><w>s<c>uo</c></w> <w>ampli<c>u</c>s</w> <w>non</w> <w>inponat<c>u</c>r</w><g ref="#middot"/> <w>sed</w> <w>liceat</w> <w>e<c>u</c>m</w> 
+					<lb xml:id="CE34-5_lb_105v_4" n="4"/><w>res</w> <w>s<c>u</c>as</w> <w>habere</w> <w>q<c>u</c>as</w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am></abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex></expan>
+					</choice></w> <w>triginta</w> <w>anno<g ref="#rum"/></w> 
+					<lb xml:id="CE34-5_lb_105v_5" n="5"/><w>spatia</w> <w>i<c>u</c><g ref="#stlig"/>e</w> <w>possedit</w><orig><pc>;</pc></orig>
+				</p>
+				<p xml:id="CE34-5_LG_p_3" n="3">
+					<lb xml:id="CE34-5_lb_105v_6" n="6"/><label n="2"><w>II</w></label> <w><hi rend="init3.1">D</hi>e</w> <w>ser<c corresp="#v">u</c>o</w> <w>q<c>u</c>i</w> <w>c<c>u</c>lpam</w> <w>fecerit</w> <w><c>u</c>nde</w> <measure quantity="900" type="denaro" unit="soldi"><w>DCCCC</w></measure>
+					<lb xml:id="CE34-5_lb_105v_7" n="7"/><w><choice>
+							<abbr>so<am><g ref="#lstrok"/></am></abbr>
+							<expan>so<g ref="#lstrok"/><ex>idos</ex></expan>
+					</choice></w> <w>q<c>u</c>i</w> <add place="above"><w>in</w></add> <w>hoc</w> <w>edict<c>u</c>m</w> <w>scripti</w> <w>s<c>u</c>nt</w> 
+					<w>i<c>u</c>dican<lb xml:id="CE34-5_lb_105v_8" n="8"/>t<c>u</c>r</w> <w><c>u</c>t</w> <w>domin<c>u</c>s</w> <w>pro</w> <w>ser<c corresp="v">u</c>o</w> <w>deber<g ref="#etlig"/></w> 
+					<w>conpo<lb xml:id="CE34-5_lb_105v_9" n="9"/>nere</w><g ref="#middot"/> <w><g ref="#etlig"/></w> <w>hoc</w> <w>amp<c>u</c>tare</w> <w>i<c>u</c>ssim<c>u</c>s</w> <w><c>u</c>t</w> <w>si</w> 
+					<w>fac<lb xml:id="CE34-5_lb_105v_10" n="10"/>tum</w> <w>f<c>u</c>erit</w> <w>nihil</w> <w>ali<c>u</c>d</w> <w><choice>
+							<abbr>co<am><g ref="#nmacr"/></am>p</abbr>
+							<expan>co<g ref="#nmacr"/>p<ex>onat</ex></expan>
+					</choice></w><g ref="#middot"/> <w>domin<c>u</c>s</w> <w>ei<c>u</c>s</w> 
+					<lb xml:id="CE34-5_lb_105v_11" n="11"/><w>nisi</w> <w>ipsa</w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am>sona</abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex>sona</expan>
+					</choice></w> <w>tradat<c>u</c>r</w> <w>ad</w> <w>occidend<c>u</c>m</w><orig>.</orig> 
+					<lb xml:id="CE34-5_lb_105v_12" n="12"/><w><g ref="#etlig"/></w> <w>conponat</w> <w>pro</w> <w>inlicita</w> <w>ca<c>u</c>sa</w> <w>q<c>u</c>od</w> <w>ser<c corresp="#v">u</c>o</w> 
+					<lb xml:id="CE34-5_lb_105v_13" n="13"/><w>penetra<c corresp="#v">u</c>it</w><g ref="#middot"/> <w><choice>
+							<abbr>so<am><g ref="#lstrok"/></am></abbr>
+							<expan>so<g ref="#lstrok"/><ex>idos</ex></expan>
+					</choice></w> <measure quantity="60" type="denaro" unit="soldi"><w>LX</w></measure><g ref="#middot"/> <w>ampli<c>u</c>s</w> <w>non</w> <w>req<c>u</c>irat<c>u</c>r</w><g ref="#middot"/> 
+					<lb xml:id="CE34-5_lb_105v_14" n="14"/><w><hi rend="cap">E</hi>t</w> <w>si</w> <w>ipse</w> <w>ser<c corresp="#v">u</c><c>u</c>s</w> <w>f<c>u</c>ga</w> <w>laps<c>u</c>s</w> <w>f<c>u</c>erit</w> <w><g ref="#etlig"/></w> <w>non</w> 
+					<lb xml:id="CE34-5_lb_105v_15" n="15"/><w>pot<c>u</c>erit</w> <w><choice>
+							<abbr>d<am><g ref="#nmacr"/></am>s</abbr>
+							<expan>d<ex>omi</ex><g ref="#nmacr"/><ex>u</ex>s</expan>
+					</choice></w> <w>ei<c>u</c>s</w> <w>e<c>u</c>m</w> <w>in<c corresp="#v">u</c>enire</w> <w>d<g ref="#etlig"/></w> <w>pro</w> <w>ipso</w> 
+					<lb xml:id="CE34-5_lb_105v_16" n="16"/><w>ser<c corresp="#v">u</c>o</w> <w>q<c>u</c>i</w> <w>f<c>u</c>gam</w> <w>p<g ref="#etlig"/>iit</w> <w>a<c>u</c>t</w> <w>se</w> <w>dilata<c corresp="#v">u</c>it</w><g ref="#middot"/> <w><choice>
+							<abbr>so<am><g ref="#lstrok"/></am></abbr>
+							<expan>so<g ref="#lstrok"/><ex>idos</ex></expan>
+					</choice></w> 
+					<lb xml:id="CE34-5_lb_105v_17" n="17"/><measure quantity="20" type="denaro" unit="soldi"><w>XX</w></measure><g ref="#middot"/> <w><g ref="#etlig"/></w> <w><choice>
+							<abbr><am><g ref="#pmacr"/></am>beat</abbr>
+							<expan><g ref="#pmacr"/><ex>re</ex>beat</expan>
+					</choice></w> <w>sacrament<c>u</c>m</w> <w>domin<c>u</c>s</w> <w>ei<c>u</c>s</w> 
+					<lb xml:id="CE34-5_lb_105v_18" n="18"/><w>q<c>u</c>od</w> <w>non</w> <w>pot<c>u</c>iss<g ref="#etlig"/></w> <w>ips<c>u</c>m</w> <w>ser<c corresp="#v">u</c><c>u</c>m</w> <w>in<c corresp="#v">u</c>enire</w> 
+					<lb xml:id="CE34-5_lb_105v_19" n="19"/><w><hi rend="cap">E</hi>t</w> <w>si</w> <w>q<c>u</c>andoc<c>u</c>mq<c>u</c>e</w> <w>in<c corresp="#v">u</c>ent<c>u</c>s</w> <w>f<c>u</c>erit</w> 
+					<lb xml:id="CE34-5_lb_105v_20" n="20"/><w>tradat</w> <w>e<c>u</c>m</w> <w><c>u</c>t</w> <w>s<c>u</c>pra</w> <w>ad</w> <w>moriend<c>u</c>m</w>
+					<lb xml:id="CE34-5_lb_105v_21" n="21"/><w><g ref="#etlig"/></w> <w>recipiat</w> <w><choice>
+							<abbr>so<am><g ref="#lstrok"/></am></abbr>
+							<expan>so<g ref="#lstrok"/><ex>idos</ex></expan>
+					</choice></w> <g ref="#middot"/><w>XX</w><g ref="#middot"/> <w>q<c>u</c>od</w> <w>f<c>u</c>ga</w> <w>ipsi<c>u</c>s</w> <w>dedit</w><g ref="#middot"/>
+					<lb xml:id="CE34-5_lb_105v_22" n="22"/><w>nam</w> <measure quantity="60" type="denaro" unit="soldi"><w>LX</w></measure><g ref="#middot"/> <w><choice>
+							<abbr>so<am><g ref="#lstrok"/></am></abbr>
+							<expan>so<g ref="#lstrok"/><ex>idos</ex></expan>
+					</choice></w> <w>conponat</w><g ref="#middot"/> <w>pro</w> <w>c<c>u</c>lpa</w> <w>q<c>u</c>am</w> 
+					<lb xml:id="CE34-5_lb_105v_23" n="23"/><w>ser<c corresp="#v">u</c><c>u</c>s</w> <w>fecit</w><g ref="#middot"/> <w><g ref="#etlig"/></w> <w>si</w> <w>expolia</w> <w>homini</w> <w>sep<c>u</c>lto</w> 
+					<lb xml:id="CE34-5_lb_105v_24" n="24"/><w>ser<c corresp="#v">u</c>us</w> <w>t<c>u</c>llerit</w> <w>de</w> <w>sep<c>u</c>ltura</w> <w>reddat</w> <w><g ref="#etlig"/></w> 
+					<w>con<lb xml:id="CE34-5_lb_105v_25" n="25"/>ponat</w> <w><c>u</c>t</w> <w>dict<c>u</c>m</w> <w>est</w> <w><choice>
+							<abbr>so<am><g ref="#lstrok"/></am></abbr>
+							<expan>so<g ref="#lstrok"/><ex>idos</ex></expan>
+					</choice></w> <measure quantity="60" type="denaro" unit="soldi"><w>LX</w></measure><g ref="#middot"/> <w><g ref="#etlig"/></w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am>sona</abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex>sona</expan>
+					</choice></w> 
+					<w>tra<lb xml:id="CE34-5_lb_105v_26" n="26"/>datur</w> <w>ad</w> <w>moriend<c>u</c>m</w><g ref="#middot"/>
+				</p>
+				<!-- ##### 106r #####-->
+				<pb n="106r" xml:id="CE34-5_folio_106r"/>
+				<p xml:id="CE34-5_LG_p_2" n="2">
+					<lb xml:id="CE34-5_lb_106r_1" n="1"/><label n="2"><w>II</w></label> <w><hi rend="init3.1">D</hi>e</w> <w>homin<g ref="#emacr"/></w> <w>liber<c>u</c>m</w> <w>q<c>u</c>i</w> <w><g ref="#pmacr"/></w> <add><w>+<g ref="#emar"/></w> <w><g ref="#stlig"/>ad</w></add> <w>annos</w> <w>in</w> 
+					<w>liber<lb xml:id="CE34-5_lb_106r_2" n="2"/>tatem</w> <w>s<c>u</c>am</w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am>mansit</abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex>mansit</expan>
+					</choice></w><g ref="#middot"/> <w>n<c>u</c>lla</w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am></abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex></expan>
+					</choice></w> <w>p<c>u</c>gna</w> 
+					<w>pa<lb xml:id="CE34-5_lb_106r_3" n="3"/>tiat<c>u</c>r</w> <w>mole<g ref="#stlig"/>ia</w><g ref="#middot"/> <w>sed</w> <w>liceat</w> <w>ei</w> <w>in</w> <w>libertate</w> 
+					<lb xml:id="CE34-5_lb_106r_4" n="4"/><w>s<c>u</c>a</w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am>manere</abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex>manere</expan>
+					</choice></w><orig><pc>:</pc></orig> <w><g ref="#openetlig"/></w> <w>si</w> <w>e<c>u</c>m</w> <w>q<c>u</c>ic<c>u</c>mq<c>u</c>e</w> 
+					<w>pul<lb xml:id="CE34-5_lb_106r_5" n="5"/>sa<c corresp="#v">u</c>erit</w> <w>liceat</w> <w>ill<c>u</c>m</w> <w>c<c>u</c>m</w> 
+					<w>sacramentali<lb xml:id="CE34-5_lb_106r_6" n="6"/>b<c>u</c>s</w> <w>s<c>u</c>is</w> <w>legitimis</w> <w>se</w> <w>edoniare</w><orig><pc>:</pc></orig> <add><w>·i·</w> <w>p<c>u</c>rificare</w></add>
+				</p>
+				
+				<p xml:id="CE34-5_LG_p_4" n="4">
+					<lb xml:id="CE34-5_lb_106r_7" n="7"/><w>IIII</w> <w>De</w> <w>XXX</w> <w><choice>
+							<abbr>anno<am><g ref="#rum"/></am></abbr>
+							<expan>anno<ex><g ref="#rum"/></ex></expan>
+					</choice></w> <w>possessionem</w> <w><choice>
+							<abbr><am><g ref="#pmacr"/></am>cior<c>u</c>m</abbr>
+							<expan><g ref="#pmacr"/><ex>re</ex>cior<c>u</c>m</expan>
+					</choice></w><orig><pc>:</pc></orig> 
+					<lb xml:id="CE34-5_lb_106r_8" n="8"/><w><hi rend="cap">S</hi>i</w> <w>q<c>u</c>is</w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am></abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex></expan>
+					</choice></w> <w>XXX</w> <w>annos</w> <w>possederit</w> <w>casas</w> 
+					<w>fa<lb xml:id="CE34-5_lb_106r_9" n="9"/>milias</w> <w><choice>
+							<abbr><c corresp="#v">u</c><am><g ref="#lstrok"/></am></abbr>
+							<expan><c corresp="#v">u</c><ex>e</ex><g ref="#lstrok"/></expan>
+					</choice></w> <w>terras</w><g ref="#middot"/> <w><g ref="#etlig"/></w> <w>cognit<c>u</c>m</w> <w>f<c>u</c>erit</w> <w>q<c>u</c>ia</w> 
+					<lb xml:id="CE34-5_lb_106r_10" n="10"/><w>ei<c>u</c>s</w> <w>possessio</w> <w>f<c>u</c>it</w> <w>po<g ref="#stlig"/></w> <w>XXX</w> <w>annor<c>u</c>m</w> 
+					<w>c<c>u</c>rri<lb xml:id="CE34-5_lb_106r_11" n="11"/>c<c>u</c>la</w> <w>p<c>u</c>gna</w> <w>non</w> <w>pro<c corresp="#v">u</c>eniat</w><g ref="#middot"/> <w>nisi</w> <w>ipse</w> <w>q<c>u</c>i</w> 
+					<lb xml:id="CE34-5_lb_106r_12" n="12"/><w>possedit</w> <w>sec<c>u</c>nd<c>u</c>m</w> <w>q<c>u</c>alitatem</w> <w>pecunie</w><g ref="#middot"/> 
+					<lb xml:id="CE34-5_lb_106r_13" n="13"/><w>c<c>u</c>m</w> <w>sacramentales</w> <w>s<c>u</c>os</w> <w>defendat</w><g ref="#middot"/> <w>nam</w> 
+					<lb xml:id="CE34-5_lb_106r_14" n="14"/><w><choice>
+							<abbr><am><g ref="#pbardes"/></am></abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex></expan>
+					</choice></w> <w>p<c>u</c>gnam</w> <w><c>u</c>t</w> <w>dict<c>u</c>m</w> <w>e<g ref="#stlig"/></w> <w>non</w><orig><pc>:</pc></orig>
+				</p>
+				<p xml:id="CE34-5_LG_p_5" n="5">
+					<lb xml:id="CE34-5_lb_106r_15" n="15"/><label n="5"><w>V</w></label> <w><hi rend="init3.1">D</hi>e</w> <w>successionem</w> <w>nepot<c>u</c>m</w> <w>q<c>u</c>i</w> <w>po<g ref="#stlig"/></w> 
+					<w>m<g ref="#orlig"/><lb xml:id="CE34-5_lb_106r_16" n="16"/>tem</w> <w>patris</w> <w>in</w> <w>sin<c>u</c></w><g ref="#middot"/> <w>a<c corresp="#v">u</c>i</w> <w>remanserit</w><orig><pc>:</pc></orig> <w><hi rend="cap">S</hi>i</w> <w><choice>
+							<abbr><am><g ref="#qmacr"/></am>s</abbr>
+							<expan><g ref="#qmacr"/><ex>ui</ex>s</expan>
+					</choice></w> 
+					<lb xml:id="CE34-5_lb_106r_17" n="17"/><w>hab<c>u</c>erit</w> <w>filios</w> <w>legitimos</w> <del><w><c>u</c>n<c>u</c>m</w></del> <add><w>d<c>u</c>os</w></add> <w>a<c>u</c>t</w> 
+					<w>pl<c>u</c><lb xml:id="CE34-5_lb_106r_18" n="18"/>res</w> <w><g ref="#etlig"/></w> <w>contigerit</w> <w><c>u</c>n<c>u</c>m</w> <w>ex</w> <w>filiis</w> <w><c corresp="#v">u</c>i<c corresp="#v">u</c>ente</w> 
+					<lb xml:id="CE34-5_lb_106r_19" n="19"/><w>patre</w> <w>mori</w> <w><g ref="#etlig"/></w> <w>reliq<c>u</c>erit</w> <w>filios</w> <w>legitimos</w>  <w>contigerit</w> <w>a<c corresp="#v">u</c>o</w> <w>mori</w> 
+					<lb xml:id="CE34-5_lb_106r_20" n="20"/><w>talem</w> <w>partem</w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am>cipiat</abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex>cipiat</expan>
+					</choice></w> <w>de</w> <w>s<c>u</c>b<g ref="#stlig"/>antia</w> 
+					<lb xml:id="CE34-5_lb_106r_21" n="21"/><w>a<c corresp="#v">u</c>i</w> <w>s<c>u</c>i</w><g ref="#middot"/> <w><c>u</c>na</w> <w>c<c>u</c>m</w> <w>patr<c>u</c>is</w> <w>s<c>u</c>is</w> <w>q<c>u</c>alem</w> 
+					<w>pa<lb xml:id="CE34-5_lb_106r_22" n="22"/>ter</w> <w><choice>
+							<abbr>eo<am><g ref="#rum"/></am></abbr>
+							<expan>eo<ex><g ref="#rum"/></ex></expan>
+					</choice></w> <w><choice>
+							<abbr>in<am><g ref="#tmacr"/></am></abbr>
+							<expan>in<g ref="#tmacr"/><ex>er</ex></expan>
+					</choice></w> <w><choice>
+							<abbr>fratri<am><g ref="#bstrok"/><g ref="#semi"/></am></abbr>
+							<expan>fratri<g ref="#bstrok"/><ex>us</ex></expan>
+					</choice></w> <w>s<c>u</c>is</w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am>cept<c>u</c>r<c>u</c>s</abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex>cept<c>u</c>r<c>u</c>s</expan>
+					</choice></w> <w>erat</w><g ref="#middot"/> <w>si</w> <w><c corresp="#v">u</c>i<c corresp="#v">u</c><c>u</c>s</w>
+					<lb xml:id="CE34-5_lb_106r_23" n="23"/><w>f<c>u</c>iss<g ref="#etlig"/></w> <w><choice>
+							<abbr>simili<am>t<g ref="#combhook"/></am></abbr>
+							<expan>similit<ex>er</ex></expan>
+					</choice></w> <w><g ref="#etlig"/></w> <w>si</w> <w>filias</w> <w>legitimas</w> <w><c>u</c>na</w> 
+					<lb xml:id="CE34-5_lb_106r_24" n="24"/><w>a<c>u</c>t</w> <w>pl<c>u</c>res</w> <w>habeant</w> <w>legem</w> <w>s<c>u</c>am</w> <w>sic<c>u</c>t</w> 
+					<lb xml:id="CE34-5_lb_106r_25" n="25"/><w>in</w> <w>hoc</w> <w>edict<c>u</c>m</w> <w>legitur</w><orig><pc>:</pc></orig> <w>q<c>u</c>ia</w> <w>inh<c>u</c>man<c>u</c>m</w> 
+					
+					<!-- ##### 106v #####-->
+					<pb n="106v" xml:id="CE34-5_folio_106v"/>
+					<lb xml:id="CE34-5_lb_106v_1" n="1"/><w>et</w> <w>impi<c>u</c>m</w> <w><choice>
+							<abbr>no<am><g ref="#bstrok"/></am></abbr>
+							<expan>no<g ref="#bstrok"/><ex>is</ex></expan>
+					</choice></w> <w><c corresp="#v">u</c>id<g ref="#etlig"/><c>u</c>r</w> <w><c>u</c>t</w> <w>pro</w> <w>talem</w> 
+					<w>ca<c>u</c><lb xml:id="CE34-5_lb_106v_2" n="2"/>sam</w> <w>exheredent<c>u</c>r</w>
+					<w>filii</w> <w>ab</w> <w>hereditatem</w> 
+					<lb xml:id="CE34-5_lb_106v_3" n="3"/><w>patris</w> <w>s<c>u</c>i</w> <w>pro</w> <w>eo</w> <w>quod</w> <w><choice>
+							<abbr>pa<am>t<g ref="#combhook"/></am></abbr>
+							<expan>pat<g ref="#combhook"/><ex>er</ex></expan>
+					</choice></w> <w>eor<c>u</c>m</w> <w>in</w> <w>sin<c>u</c></w> 
+					<lb xml:id="CE34-5_lb_106v_4" n="4"/><w>a<c corresp="#v">u</c>i</w> <w>m<g ref="#orlig"/><c>u</c><c>u</c>s</w>
+					<w>e<g ref="#stlig"/></w><orig><pc><g ref="#middot"/></pc></orig> <w>sed</w> <w><g ref="#exlig"/></w> <w>omnib<c>u</c>s</w> <w><c>u</c>t</w> <w>s<c>u</c>pra</w>
+					<lb xml:id="CE34-5_lb_106v_5" n="5"/><w>eq<c>u</c>alem</w> <w>c<c>u</c>m</w> <w>patr<c>u</c>is</w> <w>s<c>u</c>is</w> <w>in</w> <w>loc<c>u</c>m</w> <w>patris</w>
+					<lb xml:id="CE34-5_lb_106v_6" n="6"/><w>po<g ref="#stlig"/></w> <w>m<g ref="#orlig"/>tem</w> <w>a<c corresp="#v">u</c>i</w><orig><pc><g ref="#middot"/></pc></orig> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am>cipiant</abbr>
+							<expan><g ref="#pbardes"/><ex>re</ex>cipiant</expan>
+					</choice></w> <w>porcionem</w><orig><pc>:</pc></orig> 
+					<lb xml:id="CE34-5_lb_106v_7" n="7"/><add><w><choice>
+								<abbr><am><g ref="#nmacr"/></am></abbr>
+								<expan><g ref="#nmacr"/><ex>on</ex></expan>
+					</choice></w></add><w><choice>
+							<abbr>Simili<am><g ref="#tverticaltilde"/></am></abbr>
+							<expan>Simili<g ref="#tverticaltilde"/><ex>er</ex></expan>
+					</choice></w> <w><g ref="#etlig"/></w> <w>si</w> <w>legitimi</w> <w>non</w> <w>f<c>u</c>erint</w> <w>et</w>
+					<w>nat<c>u</c><lb xml:id="CE34-5_lb_106v_8" n="8"/>ralis</w> <w>in<c corresp="#v">u</c>ent<c>u</c>s</w> <w>f<c>u</c>erit</w> <w><c>u</c>n<c>u</c>s</w> <w>a<c>u</c>t</w> <w>pl<c>u</c>res</w> 
+					<w>ha<lb xml:id="CE34-5_lb_106v_9" n="9"/>beant</w> <w>legem</w> <w>s<c>u</c>am</w><orig><pc><g ref="#middot"/></pc></orig> <w>id</w> <w>terciam</w>
+					<w><choice>
+							<abbr>part<am><g ref="#emacr"/></am></abbr>
+							<expan>part<g ref="#emacr"/><ex>m</ex></expan>
+					</choice></w> 
+					<lb xml:id="CE34-5_lb_106v_10" n="10"/><w>ex</w> <w>omnibus</w><orig><pc>:</pc></orig>
+				</p>
+				<p xml:id="CE34-5_LG_p_6" n="6">
+					<lb xml:id="CE34-5_lb_106v_11" n="11"/><label n="6"><w><c>V</c>I</w></label> <w><hi rend="init3.1">D</hi>e</w> <w><c>u</c>xoribus</w> <w>dimittendis</w><orig><pc><g ref="#middot"/></pc></orig> <w>Si</w> <w>q<c>u</c>is</w> <w><choice>
+							<abbr><c>u</c>xor<am><g ref="#emacr"/></am></abbr>
+							<expan><c>u</c>xor<g ref="#emacr"/><ex>m</ex></expan>
+					</choice></w> 
+					<lb xml:id="CE34-5_lb_106v_12" n="12"/><w>s<c>u</c>am</w> <w>absq<c>u</c>e</w> <w>c<c>u</c>lpa</w> <w>legitima</w>
+					<w>po<g ref="#stlig"/>po<lb xml:id="CE34-5_lb_106v_13" n="13"/>s<c>u</c>erit</w> <w><g ref="#etlig"/></w> <w>alia</w> <w>in</w> <w>domo</w> <w><choice>
+							<abbr>s<c>u</c><am><g ref="#pbardes"/></am>ind<c>u</c>xerit</abbr>
+							<expan>s<c>u</c><g ref="#pbardes"/><ex>er</ex>ind<c>u</c>xerit</expan>
+					</choice></w> <w><choice>
+							<abbr>con<am><g ref="#pmacr"/></am></abbr>
+							<expan>con<g ref="#pmacr"/><ex>onat</ex></expan>
+					</choice></w> 
+					<lb xml:id="CE34-5_lb_106v_14" n="14"/><w><choice>
+							<abbr>so<am><g ref="#lhighstrok"/></am></abbr>
+							<expan>so<g ref="#lhighstrok"/><ex>idus</ex></expan>
+					</choice></w>
+					<w>q<c>u</c>ingentos</w> <w>medi<g ref="#etlig"/>atem</w> <w>regi</w><orig><pc><g ref="#middot"/></pc></orig> <w><g ref="#etlig"/></w> 
+					<w>medie<lb xml:id="CE34-5_lb_106v_15" n="15"/>tatem</w> <w>parentib<c>u</c>s</w> <w>m<c>u</c>lieris</w><orig><pc>:</pc></orig> <w>M<c>u</c>ndio</w>
+					<w><c corresp="#v">u</c>e<lb xml:id="CE34-5_lb_106v_16" n="16"/>ro</w> <w>ei<c>u</c>s</w> <w>mulieris</w> <w>q<c>u</c>am</w> <w>po<g ref="#stlig"/>pos<c>u</c>it</w> <w>amittat</w>
+					<lb xml:id="CE34-5_lb_106v_17" n="17"/><w>Et</w> <w>si</w> <w>nol<c>u</c>erit</w> <w>ad</w> <w>marit<c>u</c>m</w>
+					<w>s<c>u</c><c>u</c>m</w> <w><sic>revertere</sic></w>
+					<lb xml:id="CE34-5_lb_106v_18" n="18"/><w><sic>re<c>u</c>m</sic></w> <w><sic>tant<c>u</c>m</sic></w> <w>ad</w> <w><sic>pare</sic></w> <w>non</w> <w>s<c>u</c>os</w> <w>c<c>u</c>m</w> 
+					<w>m<c>u</c><lb xml:id="CE34-5_lb_106v_19" n="19"/>nerib<c>u</c>s</w> <w>s<c>u</c>is</w> <w><g ref="#etlig"/></w> <w>m<c>u</c>ndi<c>u</c>m</w><orig><pc>;</pc></orig>
+				</p>
+				<p xml:id="CE34-5_LG_p_7" n="7">
+					<lb xml:id="CE34-5_lb_106v_20" n="20"/><label><w><c>V</c>II</w></label> <w><hi rend="init3.1">D</hi>e</w> <w>crimen</w> <w><c>u</c>xoris</w><orig><pc><g ref="#middot"/></pc></orig> <w>si</w> <w>q<c>u</c>is</w> <w>uxorem</w> <w>s<c>u</c>am</w> 
+					<lb xml:id="CE34-5_lb_106v_21" n="21"/><w>incrimina<c corresp="#v">u</c>erit</w> <term xml:lang="lng" ref="#asto" xml:id="CE34-5_LG_term_asto_07"><w>asto</w></term> <w>sine</w>
+					<w>ca<c>u</c>sa</w> <w>legitima</w> 
+					<lb xml:id="CE34-5_lb_106v_22" n="22"/><w>q<c>u</c>asi</w> <w>ad<c>u</c>lterasit</w> <w>a<c>u</c>t</w> <w>in</w> <w>anima</w> <w>mariti</w> 
+					<lb xml:id="CE34-5_lb_106v_23" n="23"/><w>tractasit</w> <w>liceat</w>
+					<w>illi</w> <w>m<c>u</c>lieri</w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am></abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex></expan>
+					</choice></w> 
+					<w>sacramen<lb xml:id="CE34-5_lb_106v_24" n="24"/>t<c>u</c>m</w> <w>parent<c>u</c>m</w> <w>a<c>u</c>t</w> <w><choice>
+							<abbr><am><g ref="pbardes"/></am></abbr>
+							<expan><g ref="pbardes"/><ex>er</ex></expan>
+					</choice></w> <w>pugna</w> <w>se</w> <term xml:lang="lng" ref="#mundare" xml:id="CE34-5_LG_term_mundare_07"><w>m<c>u</c>nda<add>re</add></w></term><orig><pc>.</pc></orig>
+					<lb xml:id="CE34-5_lb_106v_25" n="25"/><w>Et</w> <w>si</w> <w>p<c>u</c>rificata</w> <w>f<c>u</c>erit</w><orig><pc><g ref="#middot"/></pc></orig> <w>t<c>u</c>nc</w> <w>marit<c>u</c>s</w> 
+					<lb xml:id="CE34-5_lb_106v_26" n="26"/><w><choice>
+							<abbr><am><g ref="#pmacr"/></am>beat</abbr>
+							<expan><g ref="#pmacr"/><ex>rae</ex>beat</expan>
+					</choice></w> <w>sacrament<c>u</c>m</w> <w>c<c>u</c>m</w> <w>parentibus</w>
+					
+				<!-- ##### 107r #####-->
+				<pb n="107r" xml:id="CE34-5_folio_107r"/>
+					<lb xml:id="CE34-5_lb_107r_1" n="1"/><w>legitimis</w> <w>sibi</w> <w>d<c>u</c>odecimo</w> <w>q<c>u</c>ia</w> <w>non</w> <term xml:lang="lng" ref="#asto"><w>asto</w></term> 
+					<lb xml:id="CE34-5_lb_107r_2" n="2"/><w>animo</w> <w>nec</w> <w>dolose</w>
+					<w>ei</w> <w>crimen</w> <w>iniecit</w> <w><c>u</c>t</w> <w>eam</w> 
+					<lb xml:id="CE34-5_lb_107r_3" n="3"/><w>deber<g ref="#etlig"/></w> <w>dimittere</w><orig><pc><g ref="#middot"/></pc></orig> <w>nisi</w> <w><choice>
+							<abbr><am><g ref="#bardes"/></am></abbr>
+							<expan><g ref="#bardes"/><ex>er</ex></expan>
+					</choice></w> <w><sic>ceptam</sic></w> 
+					<w>s<c>u</c>spec<lb xml:id="CE34-5_lb_107r_4" n="4"/>tionem</w> <w><g ref="#etlig"/></w>
+					<w>a<c>u</c>ditam</w> <w>habuiss<g ref="#etlig"/></w> <w>hec</w> <w><c corresp="#v">u</c>erba</w><orig><pc>:</pc></orig> 
+					<lb xml:id="CE34-5_lb_107r_5" n="5"/><w>Et</w> <w>si</w> <w>hec</w> <w>fecerit</w> <w>sit</w> <w>sol<c>u</c>t<c>u</c>s</w> <w>a</w> <w>c<c>u</c>lpa</w> <w>et</w> <w>si</w>
+					<w>non</w> 
+					<lb xml:id="CE34-5_lb_107r_6" n="6"/><w>f<c>u</c>erit</w> <w>a<c>u</c>s<c>u</c>s</w> <w>i<c>u</c>rare</w><orig><pc><g ref="#middot"/></pc></orig> <w><choice>
+							<abbr>con<am><g ref="#pmacr"/></am></abbr>
+							<expan>con<g ref="#pmacr"/><ex>onat</ex></expan>
+					</choice></w> <term xml:lang="lng" ref="#widrigild" xml:id="CE34-5_LG_term_widrigild_07"><w><c corresp="#v">u</c><c corresp="#v">u</c>idrigild</w></term><orig><pc><g ref="#middot"/></pc></orig> <w>ei<c>u</c>s</w> 
+					<lb xml:id="CE34-5_lb_107r_7" n="7"/><w>m<c>u</c>lieris</w> <w>tamq<c>u</c>am</w> <w>si</w> <w>fratrem</w>
+					<w>ei<c>u</c>s</w> 
+					<w>occi<lb xml:id="CE34-5_lb_107r_8" n="8"/>diss<g ref="#etlig"/></w> <w>medietatem</w> <w>regi</w><orig><pc><g ref="#middot"/></pc></orig> <w><g ref="#etlig"/></w> <w>medi<g ref="#etlig"/>atem</w> 
+					<w>pa<lb xml:id="CE34-5_lb_107r_9" n="9"/>rentib<c>u</c>s</w> <w>m<c>u</c>lieris</w><orig><pc>:</pc></orig>
+				</p>
+				<p xml:id="CE34-5_LG_p_8" n="8">
+					<lb xml:id="CE34-5_lb_107r_10" n="10"/><label n="8"><w><c>V</c>III</w></label> <w><hi rend="init3.1">S</hi>i</w> <w>m<c>u</c>lier</w> <w>not<c>u</c>m</w> <w>hab<c>u</c>erit</w> 
+					<w>q<c>u</c>emc<c>u</c>m<lb xml:id="CE34-5_lb_107r_11" n="11"/>q<c>u</c>e</w> <w>habere</w> <w>uxorem</w><orig><pc><g ref="#middot"/></pc></orig>
+					<w><g ref="#etlig"/></w> <w><choice>
+							<abbr>s<c>u</c><am><g ref="#pbardes"/></am></abbr>
+							<expan>s<c>u</c><g ref="#pbardes"/><ex>er</ex></expan>
+					</choice></w> <w>ipsam</w> 
+					<w>in<lb xml:id="CE34-5_lb_107r_12" n="12"/>troierit</w><orig><pc><g ref="#middot"/></pc></orig> <w><g ref="#etlig"/></w> <w>t<c>u</c>lerit</w> <w>ei</w> <w>marit<c>u</c>m</w> <w>non</w> 
+					<lb xml:id="CE34-5_lb_107r_13" n="13"/><w>s<c>u</c><c>u</c>m</w> <w>i<c>u</c>bem<c>u</c>s</w> <w><c>u</c>t</w> <w>omnes</w>
+					<w>res</w> <w>s<c>u</c>as</w> <w><choice>
+							<abbr><am><g ref="#pbardes"/></am>dat</abbr>
+							<expan><g ref="#pbardes"/><ex>er</ex>dat</expan>
+					</choice></w> 
+					<lb xml:id="CE34-5_lb_107r_14" n="14"/><w>ipsa</w> <w>m<c>u</c>lier</w> <w>q<c>u</c>i</w> <w>sciend<c>u</c>m</w> <w>alteri<c>u</c>s</w> 
+					<w>mari<lb xml:id="CE34-5_lb_107r_15" n="15"/>t<c>u</c>m</w> <w><c corresp="#v">u</c>ol<c>u</c>tarie</w> <w>consensit</w><orig><pc>:</pc></orig>
+					<w>Et</w> <w>medi<g ref="#etlig"/>a<lb xml:id="CE34-5_lb_107r_16" n="16"/>tem</w> <w>de</w> <w>res</w> <w>ei<c>u</c>s</w> <w>accipiat</w> <w>c<c>u</c>rtis</w> <w>regie</w>
+					<w>medi<lb xml:id="CE34-5_lb_107r_17" n="17"/><g ref="#etlig"/>atem</w> <w>parentibus</w><orig><pc><g ref="#middot"/></pc></orig> <w><g ref="#etlig"/></w> <w>illam</w> <w>priorem</w> 
+					<w>m<c>u</c><lb xml:id="CE34-5_lb_107r_18" n="18"/>lierem</w> <w>recipiat</w> <w>marit<c>u</c>s</w> <w>s<c>u</c><c>u</c>s</w> <w>et</w> <w>colat</w> 
+					<lb xml:id="CE34-5_lb_107r_19" n="19"/><w>eam</w> <w><c>u</c>t</w><orig><g ref="#middot"/></orig> <w>dec<del>er</del><g ref="#etlig"/></w>
+					<w><c>u</c>xorem</w> <w>legitimam</w><orig><pc>:</pc></orig> <w><c corresp="#vcap">U</c>itium</w> <w>s<c>u</c><c>u</c>m</w> <w>rep<c>u</c>t<g ref="#etlig"/></w> <w>q<c>u</c>e</w> <w><choice>
+							<abbr>s<c>u</c><am><g ref="#pbrdes"/></am></abbr>
+							<expan>s<c>u</c><g ref="#pbrdes"/><ex>er</ex></expan>
+					</choice></w> <w>alienam</w> 
+					<lb xml:id="CE34-5_lb_107r_20" n="20"/><w><c>u</c>xorem</w>
+					<w>intrare</w> <w><choice>
+							<abbr><am><g ref="#pmacr"/></am>sumsit</abbr>
+							<expan><g ref="#pmacr"/><ex>rae</ex>s<c>u</c>msit</expan>
+					</choice></w><orig><pc><g ref="#middot"/></pc></orig> <w><g ref="#etlig"/></w> <w>nihil</w> <w>ei</w> 
+					<w>con<lb xml:id="CE34-5_lb_107r_21" n="21"/>ponat<c>u</c>r</w> <w>nec</w> <term xml:lang="lng" ref="#faida" xml:id="CE34-5_LG_term_faida_08"><w>faida</w></term> <w>req<c>u</c>irat<c>u</c>r</w><orig><pc>:</pc></orig>
+				</p>
+				<p xml:id="CE34-5_LG_p_9" n="9">
+					<lb xml:id="CE34-5_lb_107r_22" n="22"/><label n="9"><w>VIIII</w></label> <w><hi rend="init3.1">S</hi>i</w> <w>ancilla</w> <w>f<c>u</c>rt<c>u</c>m</w> <w>fecerit</w> <w>conponat</w> 
+					<lb xml:id="CE34-5_lb_107r_23" n="23"/><w>domin<c>u</c>s</w> <w>ei<c>u</c>s</w> <w>ips<c>u</c>m</w> <w>f<c>u</c>rt<c>u</c>m</w> <w>sibi</w>
+					<w><choice>
+							<abbr>non<am><g ref="#umacr"/></am></abbr>
+							<expan>non<g ref="#umacr"/><ex>m</ex></expan>
+					</choice></w> 
+					<lb xml:id="CE34-5_lb_107r_24" n="24"/><w>tant<c>u</c>m</w><orig><pc><g ref="#middot"/></pc></orig> <w>nam</w> <measure quantity="40" type="denaro" unit="soldi"><w>lx</w></measure> <w><choice>
+							<abbr>sol</abbr>
+							<expan>sol<ex>idus</ex></expan>
+					</choice></w> <w><c>u</c>nde</w> <w>in</w> <w>hoc</w> <w><choice>
+							<abbr>edict<am><g ref="#umacr"/></am></abbr>
+							<expan>edict<g ref="#umacr"/><ex>m</ex></expan>
+					</choice></w> 
+					<lb xml:id="CE34-5_lb_107r_25" n="25"/><w>legitur</w>
+					<w>non</w> <w>requirat</w> <w>ad</w> <w><choice>
+							<sic><abbr>d<am><g ref="#nmacr"/></am>m</abbr></sic>
+							<expan>d<ex>o</ex>m<ex>i</ex>n<ex>o</ex></expan>
+					</choice></w> <w>ancille</w>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
