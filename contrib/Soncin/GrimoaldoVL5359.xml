@@ -1003,7 +1003,7 @@
 					<label n="1"><w><c corresp="#v">u</c>ij</w></label><g ref="#middot"/> <w><hi rend="cap">S</hi>i</w> <w><choice>
 							<abbr><am><g ref="#qmacr"/></am></abbr>
 							<expan><g ref="#qmacr"/><ex>uis</ex></expan>
-					</choice></w> <term><w>asto</w></term> <w><choice>
+					</choice></w> <term xml:lang="lng" ref="#asto" xml:id="VL5359_LG_term_asto_07"><w>asto</w></term> <w><choice>
 							<orig>Incriminauerit</orig>
 							<reg>incriminaverit</reg>
 					</choice></w><g ref="#middot"/> <w><choice>
