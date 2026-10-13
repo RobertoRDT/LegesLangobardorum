@@ -217,7 +217,7 @@
           <!-- Per le informazioni grammaticali varie forme possibili:
             
             <pos value="noun"></pos>
-            <pos value="noun"/>
+            <pos value="noun"/>		-> FS: soluzione più versatile
             <pos value="noun">n</pos> 
             <pos>noun</pos> 
           
@@ -263,6 +263,7 @@
             <usg type="time">current</usg>
             <orth xml:lang="ita">faida</orth>
           </form>
+          
         -->
         
         <!-- ######## Le occorrenze del termine nel testo critico ######## -->
@@ -275,9 +276,18 @@
             <case value="nominative"/>
             <number value="singular"/>
           </gramGrp>
-          <cit type="lemma"> <!-- lemma o main? -->
+          <cit type="lemma"> <!-- lemma o main? 
+            					FS: se si tratta della citazione "principale" potremmo preferire main
+          -->
             <!-- Riferimento a <term> nel testo critico (<term> e <gloss> impiegati nel testo critico -->
-            <!-- Marcare nel testo anche term e gloss? -->
+            <!-- Marcare nel testo anche term e gloss? 
+            	FS: Si intende nel testo all'interno di <quote>? Se sì, secondo me potrebbe essere una buona idea. 
+            	Forse si potrebbero inserire <term> e <gloss> con i riferimento opportuni (target="ER_term_astalin_07" e 
+            	target="ER_gloss_astalin_07") all'interno di <quote> e nel <ref> di ER 7 lasciare solo target="#ER_p_7"?
+            -->
+          	
+          	<!-- FS: questo <quote> sarà ripreso dal nostro testo critico, ma fino a quando non sarà disponibile
+          	dovremo fare affidamento a Bluhme. Può aver senso inserire un resp?-->
             <quote>Si quis contra inimicús pugnando collegam suum dimiserit aut astalin fecerit, id est si eum diceperit
               et cum eum non laboraverit, animae suae incurrat periculum.</quote><!-- NB in realtà è un accusativo, cercare es. al nominativo  -->
             <!-- Nella versione finale target punta al testo critico, ovviamente a una forma al nominativo  -->
@@ -285,12 +295,13 @@
           </cit>
           <!-- 
             - inserire anche tutti i riferimenti alla forma del lemma nei vari testimoni??? 
-            - si potrebbero ricavare automaticamente con uno script???
-          -->
+            - si potrebbero ricavare automaticamente con uno script??? -->
           <cit type="witness">
-            <!-- inserire in <quote> anche la forma originale del testimone? o quella regolarizzata? -->
+            <!-- inserire in <quote> anche la forma originale del testimone? o quella regolarizzata? 
+            FS: non mi è chiaro come mai in questo <quote> si riporti nuovamente la glossa
+            -->
             <quote>id est si eum diceperit et cum eum non laboraverit</quote>
-            <ref target="CS730_term_anstalin_07">MS 1</ref>
+            <ref target="#CS730_term_anstalin_07">MS 1</ref>
             <ref target="#CV188_term_anstalin_07">MS 2</ref>
             <ref target="#CE34-5_term_anstalin_07">MS 3</ref>
             <ref target="#VL5359_term_anstalin_07">MS 5</ref>
@@ -333,6 +344,7 @@
             </cit>
              -->
         <cit type="other">
+        	<!-- citazioni dai tre glossari di Albano Leoni -->
           <quote>Astalin. Id <ex>est</ex> decipere</quote>
           <ref>Gloss. Matr.</ref>
         </cit>
@@ -456,7 +468,7 @@
           -->
         
           <listBibl>
-            <bibl><ref target="#Onesti1999">Francovich Onesti 2000</ref>, pp. 54-5.</bibl>
+            <bibl><ref target="#Onesti1999">Francovich Onesti 1999</ref>, pp. 54-5.</bibl>
             <bibl><ref target="#PrinciBraccini1994">Princi Braccini 1994</ref>, pp. 76-8.</bibl>
             <bibl><ref target="#Molinari1989">Molinari 1989</ref>, pp. 233-4.</bibl>
             <!-- Scardigli, P. (1987), “Le parole longobarde per l’ecdotica dell’Editto di Rotari”, Medioevo e Rinascimento 1, 53-73.
